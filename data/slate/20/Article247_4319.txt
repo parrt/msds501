@@ -1,0 +1,64 @@
+
+   
+   
+      
+         
+            Were the Y2K Preparations in Vain?
+            
+
+            During the past five years, governments and companies across the planet
+spent between $200 billion and $500 billion fixing the Y2K computer bug. Was
+this money spent in vain?
+
+            Because no major Y2K incidents occurred, skeptics charge
+that it was. They suggest that the few minor glitches--such as the $91,000 late
+fee on a New York man's video rental--were easily corrected without spending
+billions. And countries such as Italy and Paraguay, which spent little on Y2K,
+appear to have fared as well as the United States, which spent $100 billion. 
+
+
+            However, while the jury is still out, the emerging
+consensus of computer experts is that the expenditures were worthwhile. Here's
+their reasoning:
+
+            
+1.   A lack of preparation would have cost more. If "critical"
+systems--such as power grids, defense computers, and hospital equipment--had
+not been fixed, disaster might have followed. To prove this thesis, one state
+applied no Y2K fixes to three of its computers. The machines shut down when
+they encountered Jan. 1, 2000. Even in non-critical systems, fixing errors
+after the fact would have been expensive. For example, the cost of correcting a
+couple thousand incorrect bills at a video store would far outweigh the cost of
+prevention. And many computer system managers liken Y2K preparation to auto
+insurance: Just because you didn't have a car accident last year, it doesn't
+mean your insurance payments were a waste.
+
+            
+2.   Countries and companies spent money in proportion to their reliance on
+computers. Italy and Paraguay got away with spending less because they had
+fewer machines to fix: Paraguay's water and electric systems are largely
+manual; its capital city has only one phone line per 11 people. In the U.S.,
+smaller companies avoided major Y2K expense because they were less likely than
+large corporations to have mainframe computers running outdated code.
+
+            
+3.   The Y2K spending will have other positive results. Many companies
+solved their Y2K problems by buying and installing new equipment and software.
+Some of these upgrades would have been warranted, regardless of Y2K. Other
+upgrades will yield long-term benefits through improved computer
+infrastructure. And in the developing world, the technology upgrades provided
+"a vital advance into the computer age," according to the Washington Post .
+
+            
+4.   Problems could still occur. Significant Y2K disruptions
+may appear well into the new year. Many errors won't be revealed until software
+processes data, which could be as late as the next quarterly billing cycle.
+Also, some computers don't recognize 2000 as a leap year, which means Feb. 29
+could bring new problems.
+
+            
+Next question?
+
+         
+      
+   

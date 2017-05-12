@@ -1,0 +1,108 @@
+
+   
+   
+      
+         
+            Does the Net Get Politics? Ask Jeeves
+
+            
+Journalists who write for the Internet frequently ask: Does politician X get
+the Net?
+
+            They
+find their answers by looking at candidate Web sites, testing their familiarity
+with e-mail, and taking their temperature on Net issues, such as e-commerce
+taxation or censorship.
+
+            At Net
+Election, though, we have an additional question: Does the Net get
+politics?
+
+            As Net
+Election has documented, there are a large and growing number of Web sites
+dedicated to American politics, some of which are lively and informative. But
+let's say you come to the Internet without knowing precisely where you want to
+go--the position, we assume, of the average person. How hard is it to find
+solid political sites?
+
+            If you
+want general news about the 2000 presidential race, the answer is: The Internet
+excels. Go to the Yahoo home
+page , for example, and one of the main 14 categories is "Government."
+Click on the word "Elections" under that, and you're two clicks away from a
+page that contains a slew of info, including breaking news, links to all the
+major candidates' sites, C-SPAN's site, and coverage from Newsweek and
+the Washington Post .
+
+            
+Curiously, not all the portals we examined make it this easy. At the
+Disney-owned Go.com ,
+for example, no words such as government, politics, or elections appear on the
+front page. And even if you click on the ABCNews.com link, it still doesn't compare to Yahoo's
+one-stop-shopping page. That's also true for Excite and Lycos.
+
+            But as
+you delve more deeply into the issues, the major portals quickly get muddy. Say
+you want information on Bill Bradley's proposed overhaul of the health-care
+system. Will it harm minorities disproportionately because it eliminates
+Medicaid, as Al Gore has charged? If you enter the words "Bill Bradley and
+health care" into Yahoo, the engine will actually serve up some relevant sites,
+including Bradley's official campaign site and a homemade Bradley on the issues
+site . On Lycos, you get nothing so informative.
+
+            And
+heaven forbid you make an error. If, like us, you initially forget to enter
+Bradley's first name, the first site that comes up on Yahoo is for a company
+that provides "training, consultation and treatment services for compulsive
+gambling and related addictions" in Bradley Beach, N.J.
+
+            It's
+the sort of non sequitur experience that's all too familiar to Web users. We're
+supposed to think: "Well, these are just dumb machines, after all. They can't
+really judge linguistic niceties like context." That's sort of true, but not
+entirely. Most search engines don't actually search the Net every time a user
+enters words. Rather, they sift through a collection of Web pages that have
+been examined and approved for use by the individual company's database.
+Getting a site approved by a big search engine can take up to six weeks. Not
+surprisingly, the premium real estate on the page that shows you the search
+results often goes to those who are willing to pay for it.
+
+            
+Another way of saying this is that much of the Web is not really wired to think
+the way most political people think--which may be a good thing. There are
+useful aggregations of political sites available at places like About.com , where you can get
+guidance on every issue from animal rights to women's liberation. And there
+have been some attempts to build "political portals," such as PoliticsOnline.com .
+But while such sites do a good job of making recent articles and broad-based
+resources available, they've yet to combine the Net's strongest
+attributes--searchability and multiple information sources--with political
+sophistication. Moreover, typical viewers aren't apt to stumble upon these
+sites. Rather, they would need to know the specific Web addresses already.
+
+            So
+while we await the arrival of a truly intelligent political Web agent, we are
+stuck with Ask Jeeves ,
+which Net insiders consider something of a joke. Ask Jeeves isn't perfect; in
+fact, it often exhibits a grasp of reality that falls somewhere between a
+database and the Magic 8-Ball.
+
+            And
+yet, to our surprise, for certain kinds of political searches Ask Jeeves fared
+rather well. For example, we asked Jeeves, "Where can I find information about
+Bill Bradley and Medicaid?" The site immediately returned Bradley's official
+site, a site for news about the 2000 presidential race, information about
+Medicaid, and books about Bradley. Not bad at all.
+
+            Of
+course, there are limits. We asked Jeeves: "Why did Al Gore pay Naomi Wolf so
+much money for advice which, presumably, he could've gotten for free?" Two of
+the suggested counterquestions were "How much does it cost to use America
+Online as an Internet Service Provider?" and "What should I know about
+restaurant wine pricing?"
+
+            To be fair to Jeeves,
+though, we're not sure anyone has a good answer to that question.
+
+         
+      
+   

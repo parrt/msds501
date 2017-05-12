@@ -1,0 +1,136 @@
+
+   
+   
+      
+         
+            PC = TV = Mixmaster?
+
+            Does your television want to
+be a computer? Does your computer want to be a VCR? Does your Mixmaster want to
+be a telephone? The moguls who control the computer, television, and telephone
+businesses think so, and they are populating your future with Internet
+appliances . Already on sale are such I-appliance devices as Web-aware
+televisions and e-mail telephones, which offer quick and easy Internet access
+for consumers who fear personal computers. These appliances are as simple to
+run as a microwave or a toaster oven. Just plug them in, and before you know
+it, you're reading your favorite online magazines, ordering Puff Daddy &
+the Family concert tickets, and composing e-mail from the comfort of your
+Naugahyde couch.
+
+            TV and
+telephone manufacturers are nuts about I-appliances because they view them as a
+way to sell new boxes to a world supersaturated with phones and televisions:
+More U.S. homes have a television (96 percent) than have phone service. The
+computer industry sees I-appliances as a way to sell chip and software packages
+to what they consider an under-PCed world. Only 40 percent of U.S. households
+own a PC, and two-thirds of all new PC purchases are made by folks who already
+own one.
+
+            The vision of a computer/television/telephone thingamajig
+dates back to early episodes of The Jetsons , if not before.
+Techno-utopian George Gilder foresaw the convergence of all these
+electronic boxes into one back in his 1990 book, Life After Television ,
+proposing a simple yet powerful "teleputer" device. Gilder was right about
+convergence, but as we'll see, he was also wrong.
+
+            Among the
+first entries in the I-appliance market is WebTV , a $300
+box-and-keyboard combination built by Sony and Phillips. WebTV hooks your
+television into your telephone line to provide access to the Web. (Full
+disclosure: I work for the Great Satan that is behind WebTV.) Think of WebTV as
+a whip-smart version of the set-top box you rent from your cable-TV
+provider. What's smart about WebTV compared with a set-top box? WebTVs are
+essentially tiny, simple computers. The new model boasts a 1.1-gigabyte hard
+drive and a 56,600 bits-per-second modem, comparable to what you'd find in a
+low-end laptop. The cable company's set-top boxes, which couldn't calculate the
+cube root of 8 if you gave them a hint, merely decode TV signals from the cable
+people. A unit of Oracle Corp. has developed a similar Web-aware product called
+Enhanced TV . Sun Microsystems, which recently bought I-appliance
+designer Diba Inc., is also developing a competing set-top standard of its own,
+OpenTV .
+
+            
+Web-aware televisions are fantastic because
+they're cheap and they work. But they also suck because they're slow and their
+graphics are worse than what you find on a PC monitor. Only 100,000 WebTVs have
+been sold so far, but that number is sure to rise: WebTV vendor Phillips is
+peddling the machine door-to-door, Fuller Brush-style. Salesmen will visit your
+home, plug you in, and explain all the machine's wonders to you.
+
+            Another
+even simpler I-appliance is the EP-200 e-mail telephone by Uniden. This
+device merges a Caller ID-ready, 900 MHz cordless phone with e-mail and
+calendar systems. A tad pricier at $399 than WebTV, the EP-200 is fun for the
+whole family, allowing multiple users to receive and send e-mail (the Internet
+connection costs $4.95 a month). Uniden and others promise Web browsing on
+future e-mail telephones. Also flooding the market are cellular phones that
+send and receive e-mail.
+
+            Not content with being your spreadsheet program, word
+processor, Web device, game machine, and recipe keeper, PCs want to be your
+home entertainment center , too. A variety of manufacturers build PCs
+that connect you to the Web, display TV broadcasts, play music CDs, and screen
+DVD movies. PC maker Gateway 2000 bills the Destination Digital Media Computer
+as an audio/video monster that engulfs you in a "wall of sound" as you play
+Doom on a 31-inch monitor with a "screaming 300 MHz Intel Pentium II
+processor." (Gateway hasn't attached a phone to it. Yet.)
+
+            The PC
+industry may believe in convergence, but the broadcasters don't. Broadcasters
+like their televisions dumb, mostly because they're afraid that the PC industry
+will steal their business if computers and televisions merge. (They're probably
+right.) So, the two groups have gone to war over the technical standards for
+the next TV technology, digital TV . All you need to know about the
+digital TV standard proposed by the computer people is that it's more flexible
+and powerful and offers better resolution (and is much more computer-friendly)
+than the current standard of analog TV or the digital standard pitched by
+broadcasters.
+
+            
+Cable company spinoff WorldGate also
+wants your television to stay as dumb as an eggbeater, because it's found a way
+to offer cheap Internet access through existing cable boxes. The cost is $4.95
+a month (keyboard rental will set you back an additional $1.95). Question: How
+can something as stupid as a set-top box connect to the Internet? Answer:
+WorldGate keeps all the brains back at the office. Its computers recognize
+Web-page requests from set-top boxes and then ship the pages back to the
+requesting televisions in a compact, single image (a "bitmap"). (The WorldGate
+system depends on the vertical blanking interval, an unused part of each TV
+channel, to send the bitmap. Click for a tidy explanation of the vertical
+blanking interval.) Critics say WorldGate's computers will choke when thousands
+of surfers start demanding Web pages. Webhead says don't underestimate the
+cable companies, who have such enormous bandwidth at their disposal that they
+can do anything (see my piece on bandwidth).
+
+            Will your
+Mixmaster ever fulfill its career ambition to become an I-appliance?
+Shuman's Second Law of Computational Dynamics suggests so. This law
+states that wherever computer chips go, the Internet will follow: Everything
+that's powered by electricity will eventually become studded with computer
+chips. And as these dumb devices become smarter, manufacturers will explore
+ways to make them more useful--that is, smarter still, which means connecting
+them to the Internet so they can share their wisdom with other devices. Take
+the example of the Internet-enabled car, currently a pipe dream. The modern
+automobile is laden with microchips, which control fuel intake, cruise control,
+anti-lock brakes, and more. It's only a short step from where we are now to the
+Network Vehicle , being developed by Netscape, Sun, Delco, and IBM. It
+will be "outfitted with voice recognition, transparent displays, global
+positioning systems, and Internet access." The Network Vehicle designers left
+car phones off the list, I guess, because they assume that car phones are
+practically standard equipment today.
+
+            The take-home lesson of this edition of Webhead is that all
+electronic devices are converging at a wicked rate. But they're also diverging.
+Our powerful, multipurpose computers will continue to become even more
+powerful, but as they acquire new skills--like voice recognition--their appeal
+will be limited by their price. Meanwhile their simpler brethren, assigned
+specific and narrow tasks (look for Internet-aware watches, biomedical
+monitors, and security devices), will occupy the price niche of clock radios
+and bread makers. In the future, the way to tell a real computer from an
+I-appliance will be that you tell a real computer what to do and when to
+do it whereas an I-appliance will tell you what to do and when to do
+it.
+
+         
+      
+   

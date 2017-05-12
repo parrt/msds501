@@ -1,0 +1,116 @@
+
+   
+   
+      
+         
+            Geeks Don't Need Welfare
+
+            The multibillion-dollar
+computer industry is adamant about doing things its own way, insisting that the
+government stay out of its business. So why is the Clinton administration
+spending $28 million to remedy an alleged shortage of "information technology"
+workers?
+
+            The
+info-tech worker shortfall cited by the government is documented in a recent
+Virginia Tech study, which claims that 346,000 computer-related jobs are going
+begging for lack of trained people. This shortage, said Secretary of Education
+Richard Riley, "translates into billions of dollars in unearned wages and
+unrealized corporate earnings." According to the Bureau of Labor Statistics,
+the volume of vacant high-tech positions will increase fivefold in the next
+decade--but the number of college students majoring in computer science is
+shrinking. "Today," said Vice President Al Gore mournfully, "many employers
+report difficulty in recruiting enough workers with these skills."
+
+            Assuming that there is a shortage of info-tech
+workers, the administration's $28 million remedy, announced in January, won't
+fix it. The Clinton plan is an amalgam of several modest programs divided among
+the Commerce, Education, and Labor departments. (For comparison's sake, Sun
+Microsystems spends $50 million a year on education and training.) Much of the
+effort is little more than exhortation, like the Commerce Department's plan to
+hold four town hall meetings to examine the shortage and discuss ways to
+alleviate it. Other elements are only coincidentally helpful. The Education
+Department touts Pell grants and HOPE scholarships, and calls for national
+testing and better teachers--which are no more helpful to computer-related
+businesses than to banks, breweries, or oil companies.
+
+            Much of
+the administration's program is mere packaging--the rest is well-meaning
+chatter, notably a plan to launch an advertising campaign to convince kids that
+computer jobs are not just for geeks anymore. There is a little meat on these
+bones, including $3 million to fund local efforts to retrain dislocated workers
+for information-technology jobs and $8 million for a computer job bank on the
+Internet. But neither promises to make a dent in the supposed shortage.
+
+            
+I keep writing about a "supposed" or "alleged"
+shortage, because the dearth of info-tech workers is an illusion. Translated
+into English, what the academics and bureaucrats are saying is that businesses
+can't hire all the computer specialists they want at prevailing rates. They're
+saying that businesses could make use of more of these trained workers if they
+were abundant and cheap--just as I could drink Dom Perignon every night if it
+were priced like Old Milwaukee. When the unemployment rate is below 5 percent,
+as it has been since last July, a lot of industries find that hiring is not
+quite as easy as it used to be. In a fast-growing industry that requires
+technical skills, it's no shock that demand for workers is rising faster than
+the supply. (The cheapest way to close the "gap" would be to increase the
+number of essential-skilled immigrants--currently fixed at a maximum of 65,000
+each year--but the administration rejects that proposal.)
+
+            
+Fortunately, there is a simple solution to the shortage: higher pay. Since last
+September, salaries for new college graduates with computer science degrees
+have jumped by 8.6 percent, reports the Information Technology Association of
+America. That may be painful for the companies signing the paychecks, but it's
+good for the youngsters who had the foresight to enter the field. It also
+advances the goal of encouraging kids to consider computer careers. What's more
+likely to dispel the nerdy image of programmers and software
+writers--public-service commercials on TV or a big pile of cash? Even if higher
+pay doesn't improve the image of computer jockeys, it will doubtless provide
+sufficient consolation to enable more young people to live with it. Rising
+salaries will also encourage midcareer adults to enroll in the nearest
+community college to retool for a second career. It should also induce firms to
+provide more computer training for existing workers.
+
+            The ITAA, which advocates raising the visa limit, says the
+industry it represents can't wait for the market to fix the problem. "We
+operate on Internet time," ITAA President Harris Miller told Congressional
+Quarterly . Well, everybody operates on Internet time these days. The notion
+that the computer industry is uniquely important is common but groundless. All
+sorts of industries are important to national prosperity, yet the federal
+government doesn't take on the responsibility of monitoring and adjusting the
+flow of workers into each one. Riley claims that all those unfilled jobs
+represent lost wages and profits. But the money that would be spent doesn't
+vanish up the chimney--it ends up in paychecks and dividends in other
+industries whose products are also valued by consumers.
+
+            As with
+most Clinton proposals, this one's modesty is meant to disarm. The natural
+response is: Oh, what could it hurt? Not much. But some students will be
+induced to study computer science rather than some other subject, and each one
+of these gains for computer-related businesses is a loss for other businesses.
+A lot of the money is likely to be simply wasted, though.
+
+            
+Despite Clinton's infatuation with the idea,
+the federal government's record in training people for better jobs is not
+studded with triumphs. The Job Training Partnership Act, a decades-long federal
+program, appears to be almost entirely futile. "It's been a failure overall,"
+says University of Chicago economist James Heckman. A 1994 survey by the
+Organization for Economic Cooperation and Development, an international
+association of market economies, found "remarkably meager support for the
+hypothesis that such programs are effective." The best programs, nearly
+everyone agrees, are those conducted by companies for their own workers. Why?
+Because employers have strong reasons to tailor the training to assure its
+practical value and to avoid wasting funds on feel-good exercises.
+
+            If it makes cold economic
+sense to invest more in training computer workers and attracting more people to
+high-tech jobs, we can sleep easy knowing that the relentlessly rational
+propeller-heads who run computer-related businesses will do so, eliminating the
+need for taxpayers to do it for them. Corporate welfare is a bad enough idea
+without adding the Silicon Valley gang to the rolls.
+
+         
+      
+   

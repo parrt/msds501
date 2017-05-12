@@ -1,0 +1,192 @@
+
+   
+   
+      
+         
+            Citizen Bandwidth
+
+            How fast can you read this?
+How fast will your computer keyboard accept the characters you type? How fast
+does water flow out of your kitchen faucet? The answers depend on
+bandwidth . Simply put, bandwidth is a measurement of how much, how
+quickly. The speed at which your brain absorbs words (words per minute), your
+computer accepts keystrokes (characters per second), or your faucet squirts
+water (gallons per minute) can be described in terms of bandwidth.
+
+            The rate
+at which computers can send and receive information is expressed in bandwidth,
+too, as bits per second . Surveys tell us that most readers connect to
+
+                  Slate
+                with 28.8 modems, which, under optimal conditions, deliver
+a bandwidth of 28,800 bits of data per second. What's a bit? A bit is
+the smallest unit of data, either a zero or a one. For example, eight bits
+represent a single letter in the alphabet: The eight-letter word "alphabet"
+contains 64 bits.
+
+            The average 
+                  Slate
+                article--and I just happen
+to have one right here, "Booker Snooker"--contains about 800,000 bits of text,
+images, and formatting information. It takes about 30 seconds to download via a
+28.8 modem. (Let's do the math: Eight hundred thousand bits divided by 28,800
+bits per second equals 27.8 seconds.)
+
+            Software
+developers like me lust for more bandwidth, and so do civilians like you who
+only use computers. We all want 
+                  Slate
+                and ESPN Sportszone and
+Amazon.com to download faster to our computers. Bandwidth! Bandwidth!
+Bandwidth! the masses cry. But ever since mankind first took serious notice
+of bandwidth--ever since the invention of Morse code , that is--there
+hasn't been enough of it. An average telegrapher can communicate at 20 to 40
+words per minute. That's about 16 to 32 bits per second. If your computer
+operated at Morse code's bandwidth, it would take between a half-day and a full
+day to download a page from 
+                  Slate
+               .
+
+            
+The bandwidth bottleneck bugs me because we've
+seen dramatic increases in performance on almost every other computer front. A
+1985 processor (386) ran at 12 MHz. A 1997 Pentium II processor runs at 300
+MHz--about 20 times faster. Over that same time, the storage capacity of the
+average computer has grown by a factor of 250. But usable bandwidth for the
+home user has increased only about threefold.
+
+            Have the
+bandwidth guys been taking long lunches, or what? Actually, they've been doing
+a great job--it's the rotten telephone companies that have been lollygagging.
+Everybody has heard about Moore's Law , named after an Intel founder,
+which holds that the power of CPUs doubles every 18 months. There's a
+corresponding bandwidth law, named after its discoverer, right-wing
+techno-utopian George Gilder , which states that bandwidth triples every
+12 months. And it has been tripling every 12 months for the last decade
+or so.
+
+            The phone companies haven't piped this wonderful bandwidth
+into most homes yet because they're fairly happy with the quaint technology of
+copper wire they've installed over the last century. Copper-wire telephone
+connections have enough bandwidth to transmit voices, but not enough for
+gluttons like me. Click for an explanation of "Shannon's Limit ," which
+tells you why the bandwidth of conventional telephone connections will never
+exceed 56,000 bits per second.
+
+            If you're
+lucky, your friendly neighborhood telephone monopoly provides ISDN
+service in your town. ISDN stands for "integrated services digital network,"
+and the technology moves data to computers at 128,000 bits per second. That's
+five times faster than a regular modem, which means you can download the
+average 
+                  Slate
+                page in about six seconds. The service isn't cheap.
+In Seattle, the phone company charges about $100 for ISDN installation and
+about $65 a month for flat-rate access. The ISDN modem itself will set you back
+about $200. ISDN is the most popular alternative to conventional modems:
+
+                  Slate
+               's Washington, D.C., offices connect to the Web and the
+Redmond mothership through ISDN.
+
+            
+The best bandwidth is free bandwidth. For most
+people, that means a T1 connection at work or school. (In New York City,
+some Net-savvy landlords are outfitting apartment buildings with T1 service. I
+wish those landlords would buy my building in Seattle.) Like ISDN, T1 breaks
+the 56,000-bits-per-second barrier by going 100-percent digital , that
+is, by transmitting ones and zeros instead of the up-and-down waves of an
+analog signal. For a more detailed explanation of how ISDN, T1, and
+other ultrafast technologies work, click .
+
+            T1
+transmits data at 1.5 million bits per second, delivering 
+                  Slate
+               
+articles in about half a second. Of course, your mileage may vary depending on
+how many users are connected to your T1 line, how busy the Internet or
+
+                  Slate
+               's Web site might be at the moment, and how clogged your
+local-area network might be. You can only move so much data through the
+pipe at a time.
+
+            But you want faster. Some phone companies are offering test
+trials of a new technology, ADSL , or "asymmetric digital subscription
+line." Right now, ADSL is ridiculously expensive--more than $1,000 for the
+modem alone. But it's also ridiculously fast. Connection speeds are around 8
+million bits per second from the Internet to you and about 800,000 bits per
+second from you to the Internet. It would take only one-tenth of one second to
+download a 
+                  Slate
+                article via ADSL.
+
+            If ISDN or
+ADSL haven't come to your block and you want to punish the phone companies for
+their intransigence, try the DirecPC satellite service from Hughes
+Electronics. The first question you should ask yourself is, "Are you man enough
+for DirecPC's 400,000-bits-per-second bandwidth?" The company's Web site sets
+down these specific restrictions, among others: You must have 1) an
+"[u]nobstructed line of site to the South from your home [or] office" and 2)
+"[n]o tolerance for waiting." DirecPC beams the Internet from Hughes'
+satellites to personal dishes and then into users' computers. Please allow two
+seconds for 
+                  Slate
+                pages to download. DirecPC is a bad choice for
+those who want to transmit data, because it uplinks on conventional phone lines
+at a paltry 28,800 bits per second. Another bandwidth initiative, Broadcast
+PC , will exploit the unused bandwidth in broadcast television signals to
+beam content. This one-way connection will offer speeds up to 150,000 bits per
+second.
+
+            
+The bandwidth to end all bandwidth comes to you
+from another despicable monopoly , your local cable guy. The cleverly
+named Silicon Valley start up @Home promises 30 million bits per second of
+bandwidth through cable-TV lines . Theoretically, @Home can deliver a
+
+                  Slate
+                page in 0.0266 seconds. The company has forged alliances
+with several cable companies such as Comcast (full disclosure: Microsoft
+recently invested $1 billion in Comcast) and Cox to provide service. Analysts
+say cable-modem service will be ubiquitous by the turn of the century.
+
+            Sounds
+like nirvana, right? The big gotcha is that 30 million bits per second is
+faster than the Internet connects to itself. Many Web sites connect to the
+Internet through T1 lines, which, you recall, have a bandwidth of 1.5 million
+bits per second. Because your Internet connection is no faster than your
+slowest link, you won't see a Web page in 0.0266 seconds unless it is stored on
+the @Home computer. 
+                  Slate
+                throws a fire hose at this problem and
+connects to the Internet through a DS3 line, which has a bandwidth of 45
+million bits per second.
+
+            If Gilder's Law is correct, bandwidth will soon be cheaper
+than air. But will the bandwidth explosion be undermined by Shuman's
+Law ? Shuman's Law holds that you can count on talented twentysomething
+software developers (like Shuman) to write big, stinking pieces of software
+that will swallow all your expanding computer resources--your processor, your
+hard disk, your memory, and your bandwidth --resulting in no net
+performance gains. Already, talented twentysomething software developers are
+laying plans to choke the cable-enhanced Internet with full-motion video
+( one feature-length movie contains almost 17 gigabytes of data, or 136
+billion bits ), virtual-reality games, assorted business applications, XXX
+live smut, and Webzines about politics and culture.
+
+            Actually, I think that the
+young software developers will be swamped by a bandwidth tsunami and that we're
+entering the "age of experience " on the Web predicted by Peter Cochrane,
+top research geek at BT Networks and Systems. Soon, the Web will transmit what
+Cochrane calls "full expertise." If a picture is worth 1,000 words, he writes,
+and a moving picture is worth 1,000,000 words, then an "interactive
+pictographic world" of a supercharged Web is worth 1,000,000,000 words.
+Bandwidth permitting, anything that can be done in meatspace will be doable in
+virtual space. I just hope that by the time I'm scheduled for remote
+double-bypass surgery, the Web no longer transmits "404 Site Not Found"
+errors.
+
+         
+      
+   

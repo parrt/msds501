@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cesHeader creator="KBS" date.created="2005-9-5" version="1.0.4" xmlns="http://www.xces.org/schema/2003">
+    <fileDesc>
+        <titleStmt>
+            <title>Two Cheers for Condé Nast's Acquisition</title>
+            <respStmt>
+                <resp>
+                    <type>Technical direction</type>
+                    <name type="person">Nancy Ide</name>
+                </resp>
+                <resp>
+                    <type>Biber part of speech tagging</type>
+                    <name type="person">Randi Reppen</name>
+                    <name type="person">Paulo Quaglio</name>
+                </resp>
+                <resp>
+                    <type>Conversion to XML / XCES</type>
+                    <type>Sentence splitting</type>
+                    <type>Hepple part of speech tagging.</type>
+                    <name type="person">Keith Suderman</name>
+                </resp>
+            </respStmt>
+        </titleStmt>
+        <publicationStmt>
+            <distributor>Linguistic Data Consortium</distributor>
+            <pubAddress>Linguistic Data Consortium, 3600 Market Street, Suite 810, Philadelphia, PA, 19104-2653, USA.</pubAddress>
+            <telephone>+1 (215) 898-0464</telephone>
+            <fax>+1 (215) 573-2175</fax>
+            <eAddress type="email">ldc@ldc.upenn.edu</eAddress>
+            <eAddress type="web">www.ldc.upenn.edu</eAddress>
+            <availability>CORPUS1-R</availability>
+            <pubDate>2005</pubDate>
+        </publicationStmt>
+        <sourceDesc>
+            <biblStruct>
+                <monogr>
+                    <title>Two Cheers for Condé Nast's Acquisition</title>
+                    <author>James Surowiecki</author>
+                    <imprint>
+                        <publisher>Microsoft Corporation</publisher>
+                        <pubDate>8/23/1999 3:26:53 PM</pubDate>
+                    </imprint>
+                </monogr>
+            </biblStruct>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <textClass>
+            <domain>Periodicals</domain>
+            <subdomain>Specialized Magazine</subdomain>
+            <subject>Media Coverage</subject>
+            <audience>Adult</audience>
+            <medium>Journal</medium>
+        </textClass>
+        <annotations>
+            <annotation ann.loc="Article247_3471.txt" type="content">Text content</annotation>
+            <annotation ann.loc="Article247_3471-logical.xml" type="logical">Logical document structure</annotation>
+            <annotation ann.loc="Article247_3471-s.xml" type="s">Sentence boundaries</annotation>
+            <annotation ann.loc="Article247_3471-hepple.xml" type="hepple">Hepple part of speech tags</annotation>
+            <annotation ann.loc="Article247_3471-np.xml" type="np">Noun chunks</annotation>
+            <annotation ann.loc="Article247_3471-vp.xml" type="vp">Verb chunks</annotation>
+        </annotations>
+    </profileDesc>
+    <revisionDesc>
+        <change>
+            <changeDate>2004-11-10</changeDate>
+            <respName>Keith Suderman</respName>
+            <item>Converted to 2nd release standoff off</item>
+        </change>
+        <change>
+            <changeData>2007-11-02</changeData>
+            <respName>Keith Suderman</respName>
+            <item>Added validated sentence annotations</item>
+        </change>
+        <change>
+            <changeData>2007-11-02</changeData>
+            <respName>Keith Suderman</respName>
+            <item>Added validated sentence annotations</item>
+        </change>
+    </revisionDesc>
+</cesHeader>

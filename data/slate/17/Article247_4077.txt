@@ -1,0 +1,89 @@
+
+   
+   
+      
+         
+            Going Bananas Over Stock Splits
+            
+
+            If you're looking for signs of irrationality in the current stock market,
+and you're not one of those people who think that every Internet stock out
+there is necessarily overvalued, the best place to look is probably the
+investor craze for companies that announce stock splits. When a company splits
+its stock, it does so by offering its current shareholders one (or sometimes
+two or three) shares for every one they currently own. The value of the company
+as a whole stays unchanged, although its stock price is cut in half (or in
+thirds or fourths). In essence, a stock split divides up the company's pie into
+more slices, without changing the size of the pie at all.
+
+            Stock splits are a legacy of the time when it was difficult for individual
+investors to buy shares in anything other than round (that is, multiples of
+100) lots. If your stock got too expensive, it was hard for individual
+investors to buy it, but if you split your stock, you could bring those
+investors in. That rationale has evolved--or devolved--into a vague idea that
+investors would rather own more shares at a lower price rather than fewer
+shares at a higher price, even though the value of each holding is the same
+(1,000 shares at $12 = 3 shares at $4,000).
+
+            Vague and inexplicable as this idea is--all an investor needs to care about
+is the percentage return on his or her investment--there is a grain of truth in
+it. Take, for instance, the difference between Microsoft, which routinely
+splits its stock when the price climbs comfortably above $100 a share, and
+Berkshire Hathaway, Warren Buffett's company, which has never done a stock
+split.
+
+            Berkshire Hathaway's Class A shares now trade at around $80,000 a share,
+while its Class B shares trade at around $2,000. That means there are millions
+of investors who will never consider buying the stock and, in the case of the
+Class A shares, probably couldn't buy the stock. And, since stock prices
+do reflect supply and demand to a certain degree, that's kept Berkshire
+Hathaway's stock price lower than if it had split as often as Microsoft's.
+Conversely, Microsoft's stock price is almost certainly higher than it would
+have been had it rejected stock splits (in which case its stock price would be
+even more stratospheric than Berkshire's).
+
+            So, all other things being equal, stock splits do exert a slight upward pull
+on a company's stock price. But slight is the key word here. Academic
+studies suggest that the shares of companies that announce stock splits don't
+do significantly better than the market, which makes sense, since in the long
+run a stock's price is determined far more by the underlying value of the
+company than by any other factor. And a stock split has nothing to do with
+underlying value.
+
+            You often hear that splits are important because they're a way for
+management to signal that it's confident in the company, but this is a non
+sequitur, unless not splitting the stock is a way of saying, "We don't believe
+in our future, so we don't want small investors to be hurt." And in any case,
+splits have become so routine, and in some sense so expected, that any
+signaling function they might have had has been vaporized.
+
+            Despite all this, the announcement of a split now regularly drives up a
+company's stock price. A week and a half ago, for instance, Juniper, one of the
+hottest back-end Internet companies, announced a 3-for-1 stock split, and its
+shares, which were already remarkably expensive, rose 16 percent. There was no
+other news. This was it. The company's future prospects were no better at the
+end of the day than they had been at the beginning. But the market thought the
+company was $2.3 billion more valuable.
+
+            What we're seeing here is a classic recursive loop, in which meaningless
+news becomes meaningful because the market has established a pattern of
+treating similarly meaningless news as meaningful. More than that, an entire
+cottage industry has sprung up around stock splits, since investors are now
+able to receive e-mails and beeper messages telling them that a given stock has
+split. And the existence of that industry itself conveys the message that
+splits are important, even though they aren't.
+
+            Any time you have a phenomenon like this one, it's better to look for the
+underlying economic rationality rather than just write it off as hysteria. But
+in this case, the market really isn't recognizing hidden value by rewarding
+stock splits. It's just shuffling money from one pocket to another. And the
+really weird thing is this: When Juniper announced its stock split, its shares
+were trading at $284, and they then leapt to $328. In other words, investors
+don't seem to be deterred anymore by high stock prices. They're happy to pile
+in, whether the stock costs $20 or $200. In their reaction to the stock split,
+then, investors demonstrated that splitting isn't really necessary to bring
+traders in. And so the world turns. On its head.
+
+         
+      
+   

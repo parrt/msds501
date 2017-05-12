@@ -1,0 +1,122 @@
+
+   
+   
+      
+         
+            
+
+            This idea that harmony
+between the races is impossible--let's call it the "National Review
+fallacy"--rests largely on confusion about a form of natural selection known as
+"kin selection." The issues are a bit arcane, but I'll try to provide a rough
+sketch of some of them.
+
+            "Kin selection" accounts for
+the evolution of altruistic impulses toward close relatives. The textbook
+example of kin selection is a newly minted gene that inclines a ground squirrel
+to stand up and give an alarm call upon seeing a predator. At first glance,
+this gene would seem to have no chance of proliferating via natural selection,
+since it attracts the predator's attention and thus endangers the organism in
+which it resides. But remember: The gene will also reside, on average, in half
+of that organism's siblings--and their survival prospects are enhanced
+by the gene's effect (i.e., by the warning call). So, even if this "warning
+call" gene occasionally causes the death of its possessor, the gene itself may
+still flourish by natural selection, as long as more than two siblings are
+saved for every one ground squirrel that is lost. (If this Cliff Notes
+version of kin selection doesn't seem to make sense, then please go and read
+the excerpt from the chapter titled "Families" on the Web site for my book,
+The Moral
+Animal, then come back, and keep reading.) In our species, the result of
+this evolutionary process seems to be a kin-directed altruism that is roughly
+proportional to the closeness of relatives. Most people would be more inclined
+to risk their lives for a sibling than for a cousin, and for a cousin than for
+the average Joe. (This assumes, among other things, that these people have been
+reared in close enough proximity to these relatives to develop the emotional
+bonds that mediate kin-selected altruism.)
+
+            Here is where confusion
+enters the minds of people eager to believe that whites and blacks are innately
+hostile toward one another. They try to extend the logic of kin selection
+beyond the scope of the family and carry it all the way up to the level of
+whole races. They are assuming, in other words, that there is a universal law
+dictating that altruism between individuals be proportional to their degree of
+genetic relatedness--and that natural discord among people thus will be
+proportional to their genetic difference.
+
+            There are at least two major
+problems with this logic. The first is a fairly technical (though
+consequential) analytical flaw, first identified in another context by Richard
+Dawkins and labeled "Washburn's fallacy." (See his "Twelve Misunderstandings of
+Kin Selection." Zeitschr. Tierpsychol, no. 51 [1979]: 184-200). I won't
+even try to explain the fallacy here, except to say that a) It consists of
+assuming that kin selection would make altruism proportional to overall
+genetic relatedness--that is, the percentage of all your genes that you
+have in common with another organism; and b) This assumption has been memorably
+characterized as implying that humans should, in theory, be "nicer to mosquitos
+than to marigolds." That characterization was made by Martin Daly, Catherine
+Salmon, and Margo Wilson. For their explicit application of Dawkins' analysis
+to the National Review fallacy (they don't call it that, of course), see
+their chapter in the forthcoming textbook Evolutionary Social
+Psychology , edited by Douglas Kenrick and Jeffrey Simpson, and published by
+Lawrence Erlbaum Associates.
+
+            The second problem with the
+idea of some iron law correlating altruism with genetic relatedness--and thus
+correlating natural discord with genetic difference--is at least slightly more
+accessible. Kin selection isn't some inexorable force of evolution. It's just a
+theoretical possibility, one that will only be realized if the circumstances of
+evolution are conducive to its realization. In the case of altruism directed
+toward close relatives, we know that circumstances were indeed so conducive:
+Throughout human evolution, people were reared a) near close relatives; and b)
+near people who weren't close relatives. Thus there was lots of opportunity for
+the flourishing of genes that led humans to discriminate between the two,
+favoring the former at the expense of the latter. But in the case of comparable
+discrimination between members of one's own race and members of other races,
+there was no significant opportunity for the evolution of such a trait. Because
+during human evolution (that is, during that short span of human evolution that
+took place after distinct races began forming), there was roughly zero
+contact among different races; people in Africa didn't vacation on the Riviera
+back then. Saying that white people evolved an innate aversion to blacks, or
+blacks an innate aversion to whites, is like saying people evolved an innate
+aversion to some poison plant that grows only on Mars; the opportunity simply
+wasn't there.
+
+            None of this is to suggest
+that human nature doesn't vastly complicate race relations. People are
+obviously inclined to derogate groups whose interests seem to clash with those
+of their own group, and to identify those groups by whatever means are
+available. Skin color can be an unfortunately handy means of doing the
+identifying. What's more, kin selection itself may complicate race relations in
+various subtle ways. For example: Nepotism, one legacy of kin selection, is
+often de facto racial discrimination, since your close relatives are usually
+members of your race. When a white boss promotes his niece, he is
+discriminating against some whites (the ones who aren't in his family), but
+against all blacks.
+
+            All told, the obstacles to
+intergroup harmony posed by human nature are big enough that there is little
+exaggeration in saying that xenophobia is a part of human nature, at least in
+this sense: Uncritical hostility toward an identifiable group of
+people--identifiable by language, dress, color, whatever--is an inherent
+capacity, activated under certain predictable circumstances. But that is very
+different from saying we are designed to automatically dislike people with
+particular skin colors, and that racial harmony therefore is impossible--which
+is what the National Review article said.
+
+            Full-disclosure paragraph:
+The article in which the "National Review fallacy" appeared was a review
+of my book, The Moral Animal . One of the review's major complaints was
+about my alleged failure to realize that Darwinism is a thoroughgoing
+vindication of the reviewer's various political beliefs (e.g., the
+impossibility of racial harmony). No doubt some of my animus toward the article
+is related to these comments about my book. Still, I'm not inventing the idea
+that the "National Review fallacy" is indeed a fallacy. The same opinion
+is held by, for example, George Williams, one of the greatest evolutionary
+biologists of this century and arguably the chief architect of evolutionary
+psychology. By the way, his 1966 book Adaptation and Natural Selection
+(Princeton University Press), which laid the theoretical foundation for the
+modern Darwinian study of social behavior in animals, still is in print.
+
+         
+      
+   

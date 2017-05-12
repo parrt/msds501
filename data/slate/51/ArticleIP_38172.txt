@@ -1,0 +1,143 @@
+
+   
+   
+      
+         
+             Tiger's Tale
+
+            There had been many years of success, of rapid
+growth fueled by the money of international investors anxious to get in on a
+good thing. But then, with startling suddenness, things went sour. The leader
+admitted that some bad investments had been made and that even good investments
+had been financed with too much debt and too little equity. But much of the
+problem, he insisted, was other people's fault: investors who pulled out their
+money at the first whiff of difficulty, forcing a sudden financial
+restructuring that aggravated the losses; hedge funds that, seeing his
+weakness, speculated against him. And so, to the shock of many, he suddenly
+changed the rules, imposing new restrictions on the ability of short-term
+investors to withdraw funds. "If we had been smart," he declared, "we would
+have tied up these guys for a long, long time when we were kings of the world
+rather than excrement."
+
+            No, this isn't another
+article about Malaysia and its fiery prime minister. The individual in question
+is Julian Robertson, manager of--yes--a hedge fund, Tiger Management, until
+recently the largest such fund in the world. In its heyday in the summer of
+1998, Tiger had more than $20 billion under management, considerably more than
+George Soros' Quantum Fund, and was reputed to be even more aggressive than
+Quantum in making plays against troubled economies. Notably, Tiger was perhaps
+the biggest player in the yen "carry trade"--borrowing yen and investing the
+proceeds in dollars--and its short position in the yen put it in a position to
+benefit from troubles throughout Asia. But when the yen abruptly strengthened
+in the last few months of 1998, Tiger lost heavily--more than $2 billion on one
+day in October--and investors began pulling out. The losses continued in
+1999--from January to the end of September Tiger lost 23 percent, compared with
+a gain of 5 percent for the average S&P 500 stock. By the end of September,
+between losses and withdrawals, Tiger was down to a mere $8 billion under
+management. And a furious Robertson, blaming flighty European investors for
+aggravating the problem, announced that henceforth the privilege of quarterly
+withdrawals would be revoked. (As my wife declared, after reading news reports
+on the move, "Julian Robertson just imposed capital controls!")
+
+            Of course, everyone makes mistakes, although Mr.
+Robertson's difficulties may inspire a bit more Schadenfreude than your
+ordinary, average business disaster. The large, loud, tough-talking Robertson
+has none of Soros' intellectual veneer or social graces; he might have been
+deliberately cast to play the role of Ugly American. And while he does not
+share Soros' ambition to be seen as a sort of philosopher-speculator, his
+prominence does constitute a sort of bully pulpit--with the operative word
+perhaps being "bully"--from which he has not hesitated to lecture nations on
+their failings. The irony of his current situation no doubt pleases many.
+
+            But the really
+interesting thing about Robertson's problems is the way they highlight the key
+role played in the recent travails of the world economy by hedge funds--or, to
+use the terminology preferred by the IMF, "highly leveraged investors." (Yes,
+HLIs. In the world of international organizations such as the International
+Monetary Fund--IMF--and the World Trade Organization--WTO--everything seems to
+have a three-letter abbreviation--TLA?) Never mind the allegations of
+conspiracy, the claims that hedge funds profit from countries when they are
+down. Where hedge funds really get important is when they don't make
+profits, when they themselves are in trouble. Indeed, the troubles of hedge
+funds played a remarkably large role in the financial instability of the world
+over the last few years.
+
+            The reason for this crucial role is that in the 1990s a
+handful of highly leveraged investors became key, even dominant, players in a
+number of financial markets. In the international arena, Tiger and a few other
+funds became the key conduit, via the carry trade, for the export of capital
+from Japan--that is, hedge funds came to play a central role in the exchange of
+yen for dollars. In the domestic U.S. arena, Long-Term Capital Management
+became a key purchaser of a number of crucial if slightly obscure financial
+instruments such as commercial-mortgage-backed securities. Exactly how central
+these hedge funds had become was not clear until they got into trouble. But
+then it turned out that without them the markets could barely function.
+
+            Why were these funds so
+important? Even the $20 billion that Tiger managed at its peak is not a large
+sum in the world financial scheme of things (the total wealth of the United
+States alone is in the tens of trillions). And Long-Term Capital Management,
+which nearly brought down the U.S. financial system, had less than $5 billion
+under management. What was different about hedge funds was, first, their
+ability and willingness to leverage up the money they managed--in effect, to
+use their limited wealth to buy or short-sell much larger values of assets on
+margin; and second, their willingness to play outside the mainstream markets.
+Hedge funds were never important in the market for Microsoft stock or U.S.
+Treasury bills; but when it came to the secondary market in Danish mortgages or
+the forward market in the Thai baht, it was a different story.
+
+            Underlying the ability and willingness of hedge funds to
+take huge positions in obscure markets was the belief, both by lenders and by
+the hedge fund managers themselves, that they had special expertise. In the
+case of Long-Term Capital Management, that expertise was technical: The
+sophisticated financial models implemented on their computers were supposed to
+allow them to diversify away risks. In the case of Tiger and Quantum, it was
+more a cult of personality: People believed in the ability of Messrs. Robertson
+and Soros to outsmart markets--and so did Robertson and Soros. Indeed, you
+probably can't become the manager of a really large hedge fund unless you have
+a slightly irrational faith in your own judgment; when success depends on being
+able to convince other people to let you take huge risks with their money, it
+is not the paranoid but the megalomaniac who survive. That is, until reality
+catches up with them.
+
+            When reality did catch
+up, it had unanticipated consequences both for the funds and for markets. Look,
+for example, at what happened to that yen carry trade last fall. Tiger and
+other funds had borrowed heavily in yen, betting on a decline in the yen
+against the dollar. When the yen started to rise instead, they suffered losses.
+Since the funds were already leveraged to the hilt, this reduction in their
+capital forced them to reduce their exposure, which meant paying off some of
+those yen borrowings. But that created a fresh demand for yen and supply of
+dollars in the foreign exchange market, which led to more losses, forcing even
+more repayment, pushing the yen still higher. The result in a short period of
+time was a drastic appreciation of the yen and billions of dollars in losses
+for Tiger. A similar process of self-reinforcing movement in asset prices when
+Long-Term Capital Management got into trouble drove interest rates on virtually
+everything except the most plain-vanilla of U.S. securities to dizzying
+heights, or in some cases led markets simply to close up shop. And more was at
+stake in these asset-market collapses than the money of hedge-fund investors:
+The sharp rise in the yen last fall threatened to send Japan into a
+deflationary spiral, the drying up of liquidity in the United States briefly
+seemed to threaten a general financial collapse.
+
+            Which is why, in a perverse way, Tiger's current problems
+are good news--for they take place against a background of a generally calmer
+world, one that has learned to live with a greatly reduced role for investors
+such as Mr. Robertson. Tiger and LTCM are still around, but they are no longer
+as central to the world financial picture as they were--which means that the
+particular sort of vicious circles that brought the world to the brink a year
+ago are less likely to happen today.
+
+            Some of my friends in the financial industry think
+that hedge funds were not just a , but the source of instability
+in the late crisis. In that case, the clipping of those funds' wings is a
+fundamental change in the situation. The world is really a much safer place now
+than it was three years ago. I think this is a bit too optimistic; there are
+unfortunately many other ways for a global financial system to get into trouble
+(and the yen, as it happens, is once again dangerously overvalued). But
+anything that makes the new global economy a bit more stable is to be
+welcomed.
+
+         
+      
+   

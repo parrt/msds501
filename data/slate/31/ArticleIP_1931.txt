@@ -1,0 +1,161 @@
+
+   
+   
+      
+         
+            Paradigms of Panic
+
+            There were warning signs
+aplenty. Anyone could have told you about the epic corruption--about tycoons
+whose empires depended on their political connections and about politicians
+growing rich in ways best not discussed. Speculation, often ill informed, was
+rampant. Besides, how could investors hope to know what they were buying, when
+few businesses kept scrupulous accounts? Yet most brushed off these well-known
+vices as incidental to the real story, which was about economic growth that was
+the wonder of the world. Indeed, many regarded the cronyism as a virtue rather
+than a vice, the signature of an economic system that was more concerned with
+getting results than with the niceties of the process. And for years, the faint
+voices of the skeptics were drowned out by the roar of an economic engine
+fueled by ever larger infusions of foreign capital.
+
+            The
+crisis began small, with the failure of a few financial institutions that had
+bet too heavily that the boom would continue, and the bankruptcy of a few
+corporations that had taken on too much debt. These failures frightened
+investors, whose attempts to pull their money out led to more bank failures;
+the desperate attempts of surviving banks to raise cash caused both a credit
+crunch (pushing many businesses that had seemed financially sound only months
+before over the brink) and plunging stock prices, bankrupting still more
+financial houses. Within months, the panic had reduced thousands of people to
+sudden destitution. Moreover, the financial disaster soon took its toll on the
+real economy, too: As industrial production skidded and unemployment soared,
+there was a surge in crime and worker unrest.
+
+            But why am I telling you what happened to the United States
+125 years ago, in the Panic of 1873?
+
+            Anyone who claims to fully
+understand the economic disaster that has overtaken Asia proves, by that very
+certainty, that he . The truth is that we have never seen anything quite like
+this, and that everyone--from the country doctors at the International Monetary
+Fund and the Treasury Department who must prescribe economic medicine to those
+of us who have the luxury of irresponsibility--is groping frantically for
+models and metaphors to make sense of this thing. The usual round of academic
+and quasiacademic conferences and round tables has turned into a sort of
+rolling rap session, in which the usual suspects meet again and again to trade
+theories and, occasionally, accusations. Much of the discussion has focused on
+the hidden weaknesses of the Asian economies and how they produced fertile
+ground for a financial crisis; the role of runaway banks that exploited
+political connections to gamble with other people's money has emerged as the
+prime suspect. But amid the tales of rupiah and ringgit one also hears
+surprisingly old-fashioned references--to Charles Kindleberger's classic 1978
+book Manias, Panics, and Crashes , and even to Walter Bagehot's
+Lombard Street (1873). Asia's debacle, a growing number of us now think,
+is at least in part a souped-up modern version of a traditional, 1873-style
+financial panic.
+
+            The logic
+of financial panic is fairly well understood in principle, thanks both to the
+old literary classics and to a 1983 mathematical formalization by Douglas
+Diamond and Philip Dybvig. The starting point for panic theory is the
+observation that there is a tension between the desire of individuals for
+flexibility--the ability to spend whenever they feel like it--and the economic
+payoff to commitment, to sticking with long-term projects until they are
+finished. In a primitive economy there is no way to avoid this tradeoff--if you
+want to be able to leave for the desert on short notice, you settle for matzo
+instead of bread, and if you want ready cash, you keep gold coins under the
+mattress. But in a more sophisticated economy this dilemma can be finessed.
+BankBoston is largely in the business of lending money at long term--say,
+30-year mortgages--yet it offers depositors such as me, who supply that money,
+the right to withdraw it any time we like.
+
+            
+What a financial intermediary (a bank or
+something more or less like a bank) does is pool the money of a large number of
+people and put most of that money into long-term investments that are
+"illiquid"--that is, hard to turn quickly into cash. Only a fairly small
+reserve is held in cash and other "liquid" assets. The reason this works is the
+law of averages: On any given day, deposits and withdrawals more or less
+balance out, and there is enough cash on hand to take care of any difference.
+The individual depositor is free to pull his money out whenever he wants; yet
+that money can be used to finance projects that require long-term commitment.
+It is a sort of magic trick that is fundamental to making a complex economy
+work.
+
+            Magic, however, has its
+risks. Normally , financial intermediation is a wonderful thing; but now
+and then, disaster strikes. Suppose that for some reason--maybe a groundless
+rumor--many of a bank's depositors begin to worry that their money isn't safe.
+They rush to pull their money out. But there isn't enough cash to satisfy all
+of them, and because the bank's other assets are illiquid, it cannot sell them
+quickly to raise more cash (or can do so only at fire-sale prices). So the bank
+goes bust, and the slowest-moving depositors lose their money. And those who
+rushed to pull their money out are proved right--the bank wasn't safe,
+after all. In short, financial intermediation carries with it the risk of bank
+runs, of self-fulfilling panic.
+
+            A panic,
+when it occurs, can do far more than destroy a single bank. Like the Panic of
+1873--or the similar panics of 1893; 1907; 1920; and 1931, that mother of all
+bank runs (which, much more than the 1929 stock crash, caused the Great
+Depression)--it can spread to engulf the whole economy. Nor is strong long-term
+economic performance any guarantee against such crises. As the list suggests,
+the United States was not only subject to panics but also unusually
+crisis-prone compared with other advanced countries during the very years that
+it was establishing its economic and technological dominance.
+
+            Why, then, did the Asian crisis catch everyone by surprise?
+Because there was a half-century, from the '30s to the '80s, when they just
+didn't seem to make panics the way they used to. In fact, we--by which I mean
+economists, politicians, business leaders, and everyone else I can think
+of--had pretty much forgotten what a good old-fashioned panic was like. Well,
+now we remember.
+
+            I'm not
+saying that Asia's economies were "fundamentally sound," that this was a
+completely unnecessary crisis. There are some smart people--most notably
+Harvard's Jeffrey Sachs--who believe that, but my view is that Asian economies
+had gone seriously off the rails well before last summer, and that some kind of
+unpleasant comeuppance was inevitable. That said, it is also true that Asia's
+experience is not unique; it follows the quite similar Latin American "tequila"
+crisis of 1995, and bears at least some resemblance to the earlier Latin
+American debt crisis of the 1980s. In each case there were some serious policy
+mistakes made that helped make the economies vulnerable. Yet governments are no
+more stupid or irresponsible now than they used to be; how come the punishment
+has become so much more severe?
+
+            
+Part of the answer may be that our financial
+system has become dangerously efficient. In response to the Great Depression,
+the United States and just about everyone else imposed elaborate regulations on
+their banking systems. Like most regulatory regimes, this one ended up working
+largely for the benefit of the regulatees--restricting competition and making
+ownership of a bank a more or less guaranteed sinecure. But while the
+regulations may have made banks fat and sluggish, it also made them safe.
+Nowadays banks are by no means guaranteed to make money: To turn a profit they
+must work hard, innovate--and take big risks.
+
+            Another part of the
+answer--one that Kindleberger suggested two decades ago--is that to introduce
+global financial markets into a world of merely national monetary authorities
+is, in a very real sense, to walk a tightrope without a net. As long as finance
+is a mainly domestic affair, what people want in a bank run is local
+money--and, guess what, the government is able to print as much as it wants.
+But when Indonesians started running from their banks a few months ago, what
+they wanted was dollars--and neither the Indonesian government nor the IMF can
+give them enough of what they want.
+
+            I am not
+one of those people who believes that the Asian crisis will or even can cause a
+world depression. In fact, I think that the United States is still, despite
+Asia, more at risk from inflation than deflation. But what worries me--aside
+from the small matter that Indonesia, with a mere 200 million people, seems at
+the time of writing to be sliding toward the abyss--is the thought that we may
+have to get used to such crises. Welcome to the New World Order.
+
+            If you
+missed our previous link to the sidebar, click .
+
+         
+      
+   

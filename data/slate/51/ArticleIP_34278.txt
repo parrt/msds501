@@ -1,0 +1,200 @@
+
+   
+   
+      
+         
+            Dissension in the Rankings
+
+            An , and it must perforce be answered. The charge?
+Fiddling. No, not the fiddling of Nero or Nashville. The matter is more
+serious.
+
+            For those not in the
+academic racket, or with kids long out of college or not long out of diapers,
+it might seem a trifling matter. But to anyone with an abiding interest in
+higher education, the stakes don't get much higher. Because the fiddling charge
+arises in the context of college rankings . In the hushed groves of
+academia, few things cause more consternation than an outsider using numeral
+measurements to gauge academic performance--even though colleges and
+universities rely on similar measurements to rate their applicants.
+
+            Here's the deal. Many educators say it's absurd to think
+that the intangibles of a college education can be reduced to mere numbers, and
+they're right. But for more than a decade now, U.S. News & World
+Report has been providing kids and their parents a way to assess the most
+important factor in choosing a college: academic excellence. Obviously, that's
+not the only thing to think about when selecting a school. But millions of
+people find the magazine's assessments useful. And it's a measure of the
+seriousness with which they're taken that deans and admissions officers compete
+fiercely to better their schools' rankings from year to year.
+
+            Comes now the fiddling
+business. Writing in the pages of 
+                  Slate
+               , Bruce Gottlieb is
+admirably forthright in his condemnation. "[T]he editors of U.S. News "
+he writes, "fiddled with the rules" in preparing this year's college rankings.
+The provocation for the charge? This year the magazine ranked the California
+Institute of Technology first among national universities, up from the No. 9
+position just a year ago. "This was dramatic," Mr. Gottlieb writes, "since
+Caltech, while highly regarded, is not normally thought of as No. 1."
+
+            Fair enough. We welcome challenges to our methodology and
+use them to refine and improve our rankings. To Mr. Gottlieb's gimlet eye,
+however, there is mischief afoot. In awarding the No. 1 slot to Caltech, he
+writes, the magazine's editors generated a sense of "surprise" by toppling last
+year's "uninteresting three-way tie among Harvard, Yale, and Princeton" for
+first place. "Nobody's going to pay much attention" to the magazine's rankings,
+Mr. Gottlieb writes, "if it's Harvard, Yale, and Princeton again and again,
+year after year." Ergo, the magazine "fiddled" the thing to generate a bit of
+buzz.
+
+            The charge bears
+examination. Never mind that Mr. Gottlieb, a former 
+                  Slate
+                staff
+writer, is currently enrolled at Harvard Law School. (One's attorney and one's
+mother abjure questions of motive.) But Mr. Gottlieb is a self-described
+student of econometrics, which our Webster's defines as "the use of
+mathematical and statistical methods in the field of economics to verify and
+develop economic theories." Put aside for a moment that the U.S. News
+rankings have virtually nothing to do with economic theory. One may posit that
+a mind used to grappling with the kudzu of econometrics is more than up to the
+task of dissecting something as relatively straightforward as college
+rankings.
+
+            How is it, then, that Mr. Gottlieb falls so short of the
+mark? The magazine's methodology for determining the rankings is based on a
+weighted sum of 16 numerical factors. Mr. Gottlieb the econometrician somehow
+manages to misapprehend even the most basic of these. The magazine, he says,
+rates schools on "average class size." Wrong. It's the percentage of classes
+with fewer than 20 students and the percentage of classes with 50 students or
+more. U.S. News , says Mr. Gottlieb, also rates schools on the "amount of
+alumni giving." Sadly, the econometrician gets it wrong once again. The
+magazine ranks schools on the rate of alumni giving--the percentage of
+alumni who donate money to their school.
+
+            But that is to cavil. It
+is not until he is well launched on his wrongheaded bill of particulars that
+Mr. Gottlieb makes an interesting concession. "I can't prove that U.S.
+News keeps changing the rules simply in order to change the results," he
+writes. No matter. The charge is leveled, and like a parched man finally led to
+water, Mr. Gottlieb keeps drinking and drinking.
+
+            Summing up, at long last, Mr. Gottlieb concludes that the
+success of the magazine's rankings "actually depends on confounding most
+peoples' intuition" about which colleges and universities are the best. Had he
+bothered conducting even the most rudimentary research, Mr. Gottlieb would have
+seen that the charge is without merit. Over the past 10 years (1991-2000), the
+top 15 national universities in the U.S. News rankings have remained
+remarkably consistent. Eleven schools have been in the top 15 every single year
+for a decade. Every year the top 15 have varied from the previous year's top 15
+by one or fewer schools. In the past five years, the top 15 have been exactly
+the same top 15. Yes, the "uninteresting" triumvirate of Harvard, Yale, and
+Princeton has been there all along. So have schools like the Massachusetts
+Institute of Technology and others that virtually any expert would number among
+the nation's best providers of higher education. And, yes, Mr. Gottlieb, so has
+Caltech.
+
+            These are data even an
+econometrician should be able to understand.
+
+            
+
+               
+                  Bruce
+                
+               
+                  Gottlieb replies:
+               
+            
+
+            One week ago, I wrote an in these pages criticizing
+U.S. News ' "best colleges" rankings. I had two gripes. First, that
+U.S. News fiddles with its rankings to improve newsstand sales. Second,
+that the rankings suffer from a serious conceptual flaw.
+
+            Brian Duffy and Peter Cary have written a rebuttal,
+to which I have four objections.
+
+            1. The Duffy/Cary response is padded with references
+to Nero, Nashville, and Webster's dictionary, but neglects to even address my
+second gripe. This is especially odd since this charge--that the rankings are
+cargo-cult statistical research--seems the more damning of the two.
+
+            Does their silence mean
+they grant the point?
+
+            2. Their comments also show a willful or
+inadvertent misunderstanding of my first gripe. They essentially say there's
+nothing necessarily fishy about changes--like Caltech going from No. 9 to No.
+1--that surprise people. Fair enough, but totally beside the point. I'm not
+saying there's something fishy about any eight-place jump--I'm saying
+there's something clearly fishy about this particular jump.
+
+            Specifically, in 1997 the magazine's methodology
+section rejected the very statistical procedure--known as
+"standardization"--which this year propelled Caltech to the top of the list.
+The editors said that standardization would be unfair. Now, two years later,
+the magazine performs a complete about face-- with no mention of their
+previous stance !
+
+            Duffy/Cary's explanation for the flip-flop is that
+U.S. News "welcomes" suggested improvements, presumably including the
+idea of standardizing variables. The idea that they switched to this technique
+because it was suggested to them--by whom, I wonder?--is preposterous. They
+were surely aware that it was an option in 1997, when they explained why it was
+an inferior technique. Furthermore, "standardization" is not some
+will-o'-the-wisp notion whose stock rises and falls upon weekly pronouncements
+from what Duffy/Cary call "the hushed groves of academia." It is a Statistics
+101 idea, known to anyone who's ever opened an introductory textbook.
+
+            So what can explain the flip-flop that propelled
+Caltech to the top? Perhaps we should follow the money. In their rebuttal,
+Duffy and Cary do not dispute that U.S. News benefits financially when
+the rankings change.
+
+            Moreover, the magazine
+1) dishonestly implies that Caltech, rather than the ranking formulas, have
+changed with the headline "Caltech Comes Out on Top"; 2) employs linguistic
+trickery to downplay how much the methodological flip-flop helped Caltech; and
+3) fails to mention that Caltech probably declined in quality this year if the
+U.S. News standards are taken seriously. Put simply, the "fiddling"
+theory explains the facts better than Duffy/Cary's assertion that U.S.
+News strives for the truth.
+
+            3. In addition to supposedly mimicking "a parched
+man finally led to water"-- what on earth does this mean? --I stand
+accused as a "self-described student of econometrics." At first glance, I was
+baffled.
+
+            For one thing, nowhere in the article do I use the
+word "econometrics." And the only statistical example I give is about
+baseball.
+
+            Then I remembered my
+phone conversation about methodology with U.S. News ' resident
+statistical expert, Robert Morse. He began our interview by asking me about my
+statistical background, presumably to know where to begin his explanation. I
+replied that I'd taken several econometrics courses as an undergraduate and had
+spent a year working at a statistical consultancy firm in Washington, D.C.,
+called Mathematica Policy Research . At the time, he seemed rather
+pleased to hear this and flattered me that few reporters had similar grounding
+in statistical theory.
+
+            4. Duffy/Cary end by noting that "even an
+econometrician" can see that the top 15 schools on their list don't change much
+from year to year. This is meant to disarm my conclusion that U.S. News
+fiddles with the rankings to confound our intuition and sell magazines.
+However, as Duffy/Cary are well aware, it's perfectly possible to keep the top
+15 colleges static, and still generate buzz by, say, moving No. 9 up to No.
+1.
+
+            Lastly, they seem especially proud of the fact that
+the top 15 contains all those schools we intuitively feel are the "nation's
+best." Well, one question: If the rankings just confirm intuition, then why buy
+them in the first place? Could it be to see who is No. 1 this year?
+
+         
+      
+   

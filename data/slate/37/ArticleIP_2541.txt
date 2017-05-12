@@ -1,0 +1,146 @@
+
+   
+   
+      
+         
+            Push Me, Pull You
+
+            
+               (This
+inaugurates a new monthly column about developments on the Internet. The author
+happens to be Slate 's chief computer guy, but the column is intended for
+an audience as innocent of technology as he is about a lot of the stuff they
+write about in the Back of the Book.)
+            
+
+            Microsoft recently announced
+an alliance with a company called PointCast. The press heralded this deal as confirmation that
+"push" is the latest Big Thing for the Web. "Push" refers to the way that
+information gets delivered. Do you have to go to it (pull)? Or does it come to
+you (push)? The conventional way to read your favorite Internet content is to
+dial up to the Internet, find your favorite site(s), wait for them to download,
+navigate to items of interest, wait for them to download, and so forth. That's
+"pull"--and the pull had better be pretty strong, or you'll give up. "Push"
+technology, by contrast, is supposed to do all this for you. It dials up,
+connects to selected sites, downloads certain information, and arranges it in
+an easy-to-read format--all while you sleep (or are otherwise living your
+life). The advantage to you is that it's all there waiting to be read, at fast
+hard-drive speed instead of slow modem speed. The advantage to the information
+provider is that information "pushed" at customers is more likely to find them
+than information they must go out and "pull."
+
+            One
+metaphor commonly applied here is a newspaper being delivered to your door
+instead of your having to pick it up at the newsstand. Given the Internet's
+unreliability, a more appropriate metaphor might be sending a highly trained
+dog to the newsstand to pick up the paper. Most of the time you'd get the
+New York Times , but some of the time you'd get Fire Hydrant
+Weekly --and occasionally, your dog would just wander off looking for a
+bone. Still, it's an improvement.
+
+            PointCast is the most successful "push" technology so far.
+The company provides a free piece of software (downloadable from its site) that
+allows you to select from a handful of "channels" (sports, business, arts and
+entertainment, etc.). At set intervals, the software instructs your computer to
+connect to the Internet, go to the company's site, and download the latest news
+in those categories. It also downloads some ads. Then, whenever your computer
+has been idle for a few minutes, this news and these ads pop up on the custom
+screen saver the software has installed on your machine. Because the material
+is presented after the download is complete, the display is fast. And because
+the process uses the company's own software and not a standard Web browser, the
+display is customized to the task at hand, making it attractive and
+eye-catching.
+
+            In fact,
+using PointCast, you quickly realize that this is nothing like having a
+newspaper delivered. This is a lot more like watching television. That helps to
+explain PointCast's popularity: The company claims that 1.7 million users have
+downloaded its software to date, and that its site gets 40 million hits a day.
+(A "," though, is an elusive concept.) But PointCast's success at "push" is
+drawing lots of rivals, both small start-ups and the big boys.
+
+            
+PointCast essentially sells three services in
+one. The first automatically connects to the Internet and downloads things so
+you can read them offline. The second finds and collects things that interest
+you. The third presents them effectively. Other companies offer Web
+offline-reading technologies. The first generation of these, such as WebWhacker, Milktruck (now
+WebEx),
+and FreeLoader, all
+work pretty much the same way: You tell the software which sites you want
+downloaded, and the software tells your computer to do it at prearranged
+times.
+
+            But what
+does it mean to "download a site"? A site is a collection of pages, linked
+together as well as to other pages on other sites. How many pages should the
+software download? Too few, and you're missing out on something. Too many, and
+you might overflow your hard drive. These companies solve this problem by
+making relationships with specific sites that agree to tailor a version to that
+company's software. That's why some sites (like Slate) sport FreeLoader logos,
+while others (like the Wall
+Street Journal) might recommend WebEx.
+
+            Acompany called Peak Media uses similar technology to take a different approach:
+trying to make online browsing more satisfying. Peak
+Net.Jet software uses idle modem time to download pages it thinks--based on
+pages you frequent--you probably want to read. For instance, every so often I
+visit the Dilbert archive. To read two weeks of cartoons, I would have to
+click on each cartoon's date and wait for that image to download. Peak Net.Jet
+promises to remember that I like that page, and to download it all for me ahead
+of time while I surf elsewhere. When I go back, I find that it has already
+downloaded the last two weeks' cartoons, making my experience fast and
+easy.
+
+            
+Unfortunately for these companies, the technology to download sites ahead of
+time is simple. In the past, small companies have innovated with features like
+disk compression and virus checking, only to find themselves squeezed out when
+those features were incorporated into basic operating systems like Windows and
+OS/2. So, if downloading sites is simple, why shouldn't Microsoft build that
+capability into Internet Explorer, or Netscape into Navigator? Well, they are.
+Microsoft's Internet Explorer 4.0 will provide an "Active Desktop," which shows
+"pushed" content right there behind your Windows windows. Netscape has a
+similar product in development called "Constellation."
+
+            
+Smaller companies, therefore, must distinguish
+themselves by the content they gather and how they present it if they are to
+compete. In the Internet world, where content--even good content--is
+proliferating rapidly, a very good filter will be needed to sort out what
+interests you from what doesn't. PointCast has succeeded so far with a
+mass-market approach--relatively few news sources, sorted into relatively few
+"buckets." Individual
+Inc. (in which Slate publisher Microsoft owns a minority interest) provides
+a high-tech clipping service called NewsPage. You choose from thousands of distinct topics and
+companies, and have relevant articles from over 630 sources delivered to you by
+e-mail, or to a personalized Web page. Other companies, such as Cognisoft, take this same
+approach to corporate intranets (internal networks), hoping that "push"
+technology will be even more useful in distributing the right information to
+the right employees.
+
+            Another
+"push" technology to watch is Marimba's Castanet, which attempts to generalize the technique.
+Unlike PointCast, which downloads its own content, and the offline reader
+clones, which download only Web pages, Castanet can download Java applications
+and applets in addition to Web pages.
+
+            Although much of this software is
+advertising-driven--hence, free--you will still pay a price. All these products
+download content whether you actually read it or not. Since not everyone will
+read everything they order up at no charge, an enormous amount of pointless net
+traffic is being generated. As if the Web wasn't slow enough already. In fact,
+some corporations have banned PointCast because it was causing huge increases
+in their net traffic. PointCast responded with a piece of software for
+companies' central computers designed to minimize its own impact. And this
+one's not free. It's almost a protection racket. You give away your software
+free to a company's employees. A few weeks later, you saunter over and say,
+"Nice little corpnet you've got here--too bad it's getting all clogged up. Buy
+our software and we'll keep it running smoothly." Once a company buys that
+software, it is less likely to switch content providers. So maybe it's more
+like dealing drugs. Either way, everybody wins: The employees read their news,
+the company has a clear net again, and it's a nice annuity for PointCast.
+
+         
+      
+   

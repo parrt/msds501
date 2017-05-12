@@ -1,0 +1,276 @@
+
+   
+   
+      
+         
+            
+
+            
+               Address your e-mail to
+the editors to letters@slate.com.
+            
+
+            
+               "The
+Name's Bond. Gomer Bond."
+            
+
+            Arrogance and ignorance
+underpin Edward Luttwak's "The CIA Is Déclassé." Today the agency looks beyond Central and
+Western Europe, and their "targets" hail from around the globe. While the CIA
+Bubba may prefer a cold Bud and softball over a weekend of Bondian play in St.
+Moritz, I defy Luttwak to demonstrate how the U.S. government can reliably use
+such experiences as winter holidays on Europe's slopes as screens for future
+success in gathering information on dangers such as nuclear- or
+chemical-proliferation threats in the Middle East or East Asia. Leave charming
+the local intelligentsia to diplomats.
+
+            Spare us laments about the
+decline of Ivy League credentialism in government service. We have the world's
+broadest-based system of higher education, and those state-college alumni work
+at the CIA because they are smart and well educated.
+
+            Young
+caffeine- and liquor-free Mormons just happen to be--because of their church's
+missionary zeal--one of this country's richest veins of talent with foreign
+experience and skill in languages. Odd as it may sound, the average Brigham
+Young University graduate probably knows a lot more about the world than his
+counterpart at Georgetown or Princeton. As for the CIA's personnel problems,
+they seem to stem more from lack of accountability than from the basic nature
+of the agents.
+
+            
+               --Kevin Michael
+O'Reilly
+            
+
+            
+               Party
+Hack
+            
+
+            "Hack Attacks," by Bill
+Barnes, was uncomfortably close to the Microsoft party line.
+
+            I was particularly bothered
+by a subtle attack on Java as vs. ActiveX. The article says several times that
+the Java approach is "slower." It later says that Java is unsuitable for
+high-performance video games because of Java's slowness. This is deceptive.
+Technology has been commercially demonstrated that runs Java programs at very
+high speed (e.g., Asymmetrix). It simply isn't linked up to Internet Explorer
+and Netscape Navigator/Communicator yet. The Java byte-code verifier imposes
+some performance cost, but there's no reason Java code cannot be byte-code
+verified once, then translated to efficient machine code, and then stored on
+your hard drive along with all your store-bought applications.
+
+            The security approach of Java
+does restrict what an unsigned applet can do, and those criticisms are fair.
+But the criticism of Java on performance grounds, as if the performance
+problems were inherent in the security model, is not fair and is not
+accurate.
+
+            And because the question of
+Java vs. ActiveX is a very hot topic in the industry now, with lots of money
+riding on it, it's impossible not to wonder whether Microsoft's influence on
+Slate had something to do with this unfairness.
+
+            Of course
+I don't believe Bill Gates ordered you to slander Java! But Barnes presumably
+hangs around with a lot more Microsoft people than JavaSoft people, and is
+likely to absorb their point of view, as I'm sure I would in the same
+circumstances. The ultimate effect is that this article treads close to the
+danger zone.
+
+            
+               --Dan Weinreb
+            
+
+            
+               Bill Barnes
+replies: You're right, of course, that I tend to understand the Microsoft
+view more clearly, just as you obviously do the JavaSoft view. As with any
+religious war, no one is neutral except the atheists. Java is a great and very
+useful language, but all the upcoming performance-improvement technologies in
+the world won't help the people using today's browsers, as you yourself admit.
+Therefore I stand by the caveats I described.
+
+            
+               Key
+Points
+            
+
+            "Hack Attacks," by Bill
+Barnes, was generally excellent, but I have a few criticisms.
+
+            Secret-key cryptography
+("single-key," in Barnes' terminology) is not bad for two-way interactions. In
+fact, it's routinely used for that purpose. But it's difficult to get the
+shared secret key to the other person (or people) in the first place.
+Public-key key exchange gets the secret key to its destination safely, avoiding
+the chicken-and-egg problem of having to share a secret key already in order to
+share another key secretly. Afterward, secret-key cryptography is normally used
+for efficiency reasons.
+
+            The reduced version of a
+long document is known as a "digest," not a signature. It is a widely held but
+mistaken belief that a digital signature is the public-key
+decryption/private-key encryption of a document's digest. That's how RSA, the
+most popular signature algorithm, works, because it happens to be both a
+signature algorithm and a public-key encryption algorithm.
+
+            Barnes also might have
+mentioned one solution to the problem of the corruptible system administrator:
+"secret sharing." It is possible to divide up secrets (such as passwords) among
+several people such that only a subset of them of a certain size (a majority,
+for instance) can recover the original. That way, a single corrupt authority
+can't hurt you.
+
+            The last
+part of the article might have underplayed the security threats to users. It's
+true that nothing serious has really happened yet, but very little of value (to
+a hacker) is in people's computers these days. That may change fast; if desktop
+banking (including check writing) becomes widespread, for example, then the
+incentive for hackers to use their discoveries for something other than
+embarrassing Microsoft or causing general mischief increases dramatically.
+
+            -- Dan Simon
+            
+
+            
+               Bill Barnes
+replies: Dan Simon's technical nits are well taken. However, while I agree
+that security is a serious issue, I reiterate that the hysterics with which
+security stories are played out in the media are generally overblown.
+
+            
+               Breaking
+the Waves
+            
+
+            I enjoyed the Committee of
+Correspondence discussion "Cycles, Waves, and Endings in History," and I agree with those who
+say that the generational conflict is driving electoral politics and
+policy-making. Someone should interpret moves like cutting welfare as yet
+another symptom of baby boom me-firstism.
+
+            And while
+I agree with Francis Fukuyama's optimism for democracy, it's important to note
+that anti-democratic movements have gained new strength in recent years in the
+United States and Western Europe, and in some cases have gained power through
+the same systems they want to destroy. The future of democracy through
+technological change is anything but assured. Postindustrial, extreme-right
+movements know where to find the Web, too.
+
+            -- Mark Hunter
+            
+
+            
+               Is That
+a D Cup You're Wearing, or Are You Just Glad to See Me?
+            
+
+            "Bra Story,"
+by Anne Hollander, was a great contribution to the recent surge in chronicling
+the history of the unleashing of the female form in the 20 th
+century. Her appreciation of the em-bra'd breast manages to be both appropriate
+and evocative, if not titillating.
+
+            It may be some years more
+before the male version of this trend plays itself out thoroughly enough to
+merit similar discussion. Some future male Madonna appearing onstage in his
+bullet jock will signal the pinnacle, I suppose. But the past decades have
+already seen the liberation of the family jewels.
+
+            The heterosexual world has
+embraced gay iconic sexuality consistently at a lag of five years or so. From
+1950s fitness magazines to Batman's crotch bulge in the '60s, the International
+Male catalog in the '70s, GQ in the early '80s, and Marky Mark in his
+Calvins a few years ago, the penis has gone from unspeakable to unavoidable.
+And just take a look at the current Jockey underwear packaging if you need to
+confirm that circumcision is still being practiced in North America.
+
+            The
+sociological implications are huge. Penis envy is spreading. And surely there's
+a link between naked men on billboards, hard-core porn in the home video
+library, and anything that can be attributed to largely male decision
+makers--from corporate mergers to the end of the Cold War.
+
+            -- Robert
+Rothery
+            
+
+            
+               The Odds
+on God
+            
+
+            Benjamin Wittes' article
+"Cracking God's
+Code" must have been intended for April Fool's Day. Wittes apparently
+believes that the discovery of statistically unlikely "secret codes" in the
+Torah proves the existence of God. Even if we accept the dubious premise that
+the existence of God can be proven scientifically, it is extremely naive to say
+that the occurrence of an unlikely event would do the trick.
+
+            I don't
+know which is more depressing: the fact that some people's faith is so weak
+they seek scientific approval of their beliefs, or the fact that they believe a
+supposedly all-knowing, all-powerful God would choose to reveal himself through
+some inconsequential abnormality.
+
+            -- Mike Bohan
+            
+
+            
+               Criminal
+Procedures
+            
+
+            Alan Dershowitz argues in a
+recent book review titled "Crime and Truth" that powerful procedural safeguards for
+defendants allow some guilty people to go free, but that these procedures are
+justified to prevent miscarriages of justice and to deter misconduct among
+police.
+
+            He misses three essential
+points. First, these rules harden public attitudes toward everyone accused of a
+crime. Second, they feed into the corrosive cynicism within the justice system.
+Since procedural niceties seem arbitrary and irrelevant to fact-finding, there
+is little motivation to enforce the rules, and people often find ways of
+bending rules that they regard as arbitrary and silly. For example, as
+Dershowitz himself has written, judges pretend to believe police who lie about
+illegal searches.
+
+            Third,
+the most glaring injustice these days is not the wrongful conviction of the
+innocent. It is the remarkably cruel treatment of some people who are actually
+guilty. When a troubled and illiterate 19-year-old can receive life
+imprisonment for committing three muggings, it seems laughably irrelevant to
+focus on courtroom procedures.
+
+            -- Harold
+Pollack
+            
+
+            
+
+               Sleepers
+            
+
+            As the
+father of two adopted boys (12 and 11 months), I enjoyed reading Robert
+Wright's article "Go Ahead--Sleep With Your Kids." I urge him to get back in touch
+and tell us if he winds up with a 10-year-old and a 7-year-old in bed with him
+(now, that's what I call birth control).
+
+            -- Brian Murphy
+            
+
+            
+               Address
+your e-mail to the editors to letters@slate.com.
+            
+
+         
+      
+   

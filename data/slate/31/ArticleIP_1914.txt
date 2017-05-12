@@ -1,0 +1,121 @@
+
+   
+   
+      
+         
+            How Copper Came a Cropper
+
+            Last year, the world was
+astonished to hear that a young employee of the ancient British firm Barings
+had lost more than a billion dollars in speculative trading, quite literally
+breaking the bank. But when an even bigger financial disaster was revealed last
+month--the loss of at least $1.8 billion (the true number is rumored to be $4
+billion or more) in the copper market by an employee of Sumitomo Corp.--the
+story quickly faded from the front pages. "Oh well, just another rogue trader,"
+was the general reaction.
+
+            Thanks largely to
+investigative reporting by the Financial Times , however, it has become
+clear that Yasuo Hamanaka, unlike Nick Leeson of Barings, was not a poorly
+supervised employee using his company's money to gamble on unpredictable
+markets. On the contrary, there is little question that he was, in fact,
+implementing a deliberate corporate strategy of "cornering" the world copper
+market--a strategy that worked, yielding huge profits, for a number of years.
+Hubris brought him down in the end; but it is his initial success, not his
+eventual failure, that is the really disturbing part of the tale.
+
+            To
+understand what Sumitomo was up to, you don't need to know many details about
+the copper market. The essential facts about copper (and many other
+commodities) are 1) It is subject to wide fluctuations in the balance between
+supply and demand, and 2) It can be stored, so that production need not be
+consumed at once. These two facts mean that a certain amount of speculation is
+a normal and necessary part of the way the market works: It is inevitable and
+desirable that people should try to buy low and sell high, building up
+inventories when the price is perceived to be unusually low and running those
+inventories down when the price seems to be especially high.
+
+            So far so good. But a long time ago somebody--I wouldn't be
+surprised if it were a Phoenician tin merchant in the first millennium
+B.C.--realized that a clever man with sufficiently deep pockets could basically
+hold such a market up for ransom. The details are often mind-numbingly complex,
+but the principle is simple. Buy up a large part of the supply of whatever
+commodity you are trying to corner--it doesn't really matter whether you
+actually take claim to the stuff itself or buy up "futures," which are nothing
+but promises to deliver the stuff on a specified date--then deliberately keep
+some--not all--of what you have bought off the market, to sell later. What you
+have now done, if you have pulled it off, is created an artificial shortage
+that sends prices soaring, allowing you to make big profits on the stuff you do
+sell. You may be obliged to take some loss on the supplies you have withheld
+from the market, selling them later at lower prices, but if you do it right,
+this loss will be far smaller than your gain from higher current prices.
+
+            It's nice
+work if you can get it; there are only three important hitches. First, you must
+be able to operate on a sufficiently large scale. Second, the strategy only
+works if not too many people realize what is going on--otherwise nobody will
+sell to you in the first place unless you offer a price so high that the game
+no longer pays. Third, this kind of thing is, for obvious reasons, quite
+illegal. (The first Phoenician who tried it probably got very rich; the second
+got sacrificed to Moloch.)
+
+            
+The amazing thing is that Sumitomo managed to
+overcome all these hitches. The world copper market is immense; nonetheless, a
+single trader, apparently, was able and willing to dominate that market. You
+might have thought that the kind of secrecy required for such a massive market
+manipulation was impossible in the modern information age--but Hamanaka pulled
+it off, partly by working through British intermediaries, but mainly through a
+covert alliance with Chinese firms (some of them state-owned). And as for the
+regulators ... well, what about the regulators?
+
+            For that
+is the disturbing part of the Sumitomo story. If Hamanaka had really been
+nothing more than an employee run wild, one could not really fault regulators
+for failing to rein him in; that would have been his employer's job. But he
+wasn't; he was, in effect, engaged in a price-fixing conspiracy on his
+employer's behalf. And while it may not have been obvious what Sumitomo was up
+to early in the game, the role of "Mr. Copper" and his company in manipulating
+prices has apparently been common knowledge for years among everyone familiar
+with the copper market. Indeed, copper futures have been the object of massive
+speculative selling by the likes of George Soros, precisely because informed
+players believed that Hamanaka was keeping the price at artificially high
+levels, and that it would eventually plunge. (Soros, however, gave up a few
+months too soon, apparently intimidated by Sumitomo's seemingly limitless
+resources.) So why was Hamanaka allowed to continue?
+
+            The answer may in part be that the global nature of his
+activities made it unclear who had responsibility. Should it have been Japan,
+because Sumitomo is based there? Should it have been Britain, home of the
+London Metal Exchange? Should it have been the United States, where much of the
+copper Sumitomo ended up owning is warehoused? Beyond this confusion over
+responsibility, however, one suspects that regulators were inhibited by the
+uncritically pro-market ideology of our times. Many people nowadays take it as
+an article of faith that free markets always take care of themselves--that
+there is no need to police people like Hamanaka, because the market will
+automatically punish their presumption.
+
+            And Sumitomo's strategy did
+indeed eventually come to grief--but only because Hamanaka apparently could not
+bring himself to face the fact that even the most successful market manipulator
+must accept an occasional down along with the ups. Rather than sell some of his
+copper at a loss, he chose to play double or nothing, trying to repeat his
+initial success by driving prices ever higher; since a market corner is
+necessarily a sometime thing, his unwillingness to let go led to disaster. But
+had Hamanaka been a bit more flexible and realistic, Sumitomo could have walked
+away from the copper market with modest losses offset by enormous, ill-gotten
+gains.
+
+            The funny thing about the
+Sumitomo affair is that if you ignore the exotic trimmings--the Japanese names,
+the Chinese connection--it's a story right out of the robber-baron era, the
+days of Jay Gould and Jim Fisk. There has been a worldwide rush to deregulate
+financial markets, to bring back the good old days of the 19th century when
+investors were free to make money however they saw fit. Maybe the Sumitomo
+affair will remind us that not all the profitable things unfettered investors
+can do with their money are socially productive; maybe it will even remind us
+why we regulated financial markets in the first place.
+
+         
+      
+   

@@ -1,0 +1,370 @@
+
+   
+   
+      
+         
+             More Booze You Can Use
+
+            When we last heard from them, the members of the
+
+                  Slate
+                beer-testing team were coping with lagers and trying to see
+if they could taste the 3-to-1 price difference between the most- and
+least-expensive brands. (Click for a wrap-up of the first round of beer
+tasting.) The answer was: They found one beer they really liked, Samuel
+Adams Boston Lager , and one they really hated, imported Grolsch from
+Holland. Both were expensive beers--Grolsch was the most expensive in the
+test--and otherwise the testers had a hard time telling beers apart. The
+members of the team, as noted in the original article, all hold day jobs at
+Microsoft, mainly as designers, managers, and coders for Microsoft Word.
+
+            The point of the second test was not to find the
+difference between cheap and expensive beers but instead to compare a variety
+of top-of-the-line beers. Was there one kind the tasters preferred
+consistently? Could they detect any of the subtleties of brewing style and
+provenance that microbrew customers pay such attention to when choosing some
+Doppelbock over a cream ale?
+
+            Since the tasting panel had left the first round
+grumbling that cheap lagers were not a fair test of their abilities, this
+second round of testing was advertised to the panel as a reward. Every beer in
+Round 2 would be a fancy beer. A microbrew. A "craft beer." A prestigious
+import. These were the kinds of beer the panel members said they liked--and the
+ones they said they were most familiar with. One aspect of the reward was that
+they would presumably enjoy the actual testing more--fewer rueful beer
+descriptions along the lines of "urine" or "get it away!" were expected than in
+the first round. The other aspect of anticipated reward was the panelists'
+unspoken but obvious assumption that this time they would "do better" on the
+test. Intellectual vanity being what it is, people who had fought for and won
+jobs at Microsoft and who still must fight every six months for primacy on the
+employee-ranking scale (which determines--gasp!--how many new stock options
+they receive) would assume that their skill as tasters was on trial, just as
+much as the beer was. Of course they were right, which is what made this round
+as amusing to administer as the first one had been.
+
+            Here is what happened
+and what it meant:
+
+            
+               1. 
+               Procedure. This was
+similar in most ways to the experimental approach of Round 1. The nine testers
+who showed up were a subset of the original 12. The missing three dropped out
+with excuses of "my wife is sick" (one person) and "meeting is running long"
+(two).
+
+            As before, each tester found before him on a table
+10 red plastic cups, labeled A through J. Each cup held 3 ounces of one of the
+beers. The A-to-J labeling scheme was the same for all testers. Instead of
+saltines for palate-cleansing, this time we had popcorn and nuts. As they
+began, the tasters were given these and only these clues:
+
+            
+
+               that the flight included one "holdover" beer from the previous round
+(Sam Adams);
+
+               that it included at least one import (Bass);
+
+               that it included at least one macrobrew ,
+specifically, a member of the vast Anheuser-Busch family (Michelob
+Hefeweizen).
+
+            
+
+            After sampling all beers, the tasters rated them as
+follows:
+
+            
+
+               
+                  Overall quality points, from zero to 100, reflecting their
+personal, subjective fondness for the beer.
+
+               
+                  Descriptions of and comments about each
+beer's taste--"smooth and nutty," "too strong," etc. If the first ranking was a
+measure of how good each beer was, this was an attempt to explain what made it
+good.
+
+               
+                  Best 
+                  and Worst , one of each from the group.
+
+               
+                  Name 
+                  that beer! The tasters were told that some of
+the drinks were Hefeweizens, some might be IPAs (India pale ales), some might
+be bitters, and so on. They were asked to put each beer in its proper
+category--and to name a specific brewery and brand if they could. The idea here
+was to test the veteran beer drinkers' claim to recognize the distinctive
+tastes of famous brands. (To see all the grids for all the beers, click .)
+
+            
+
+            
+               2. 
+               Philosophy. The first
+round of testing was All Lager. This second round was All Fancy, and Mainly Not
+Lager. As several correspondents (for instance, the of Best American
+Beers ) have helpfully pointed out, the definition of lager provided last
+time was not exactly "accurate." If you want to stay within the realm of
+textbook definitions, a lager is a beer brewed a particular way--slowly, at
+cool temperatures, with yeast that settles on the bottom of the vat. This is in
+contrast with an ale, which is brewed faster, warmer, and with the yeast on
+top. By this same reasoning, lagers don't have to be light-colored,
+weak-flavored, and watery, as mainstream American lagers are. In principle,
+lagers can be dark, fierce, manly. Therefore, the correspondents suggest, it
+was wrong to impugn Sam Adams or Pete's Wicked for deceptive
+labeling, in presenting their tawnier, more flavorful beers as lagers too.
+
+            To this the beer
+scientist must say: Book-learning is fine in its place. But let's be realistic.
+Actual drinking experience teaches the American beer consumer that a) all cheap
+beers are lagers; and b) most lagers are light-colored and weak. The first test
+was designed to evaluate low-end beers and therefore had to be lager-centric.
+This one is designed to test fancy beers--but in the spirit of open-mindedness
+and technical accuracy, it includes a few "strong" lagers too.
+
+            
+               3.
+
+               Materials. The 10 test beers were chosen with several goals in mind:
+
+            
+
+               To cover at least a modest range of fancy beer types--extra special bitter,
+India pale ale, Hefeweizen, and so on.
+
+               To include both imported and domestic beers. Among the domestic microbrews,
+there's an obvious skew toward beers from the Pacific Northwest. But as
+Microsoft would put it, that's a feature not a bug. These beers all came from
+the Safeway nearest the Redmond, Wash., "main campus" of Microsoft, and
+microbrews are supposed to be local.
+
+               To include one holdover from the previous test, as a scientific control on
+our tasters' preferences. This was Sam Adams , runaway winner of Round
+1.
+
+               To include one fancy product from a monster-scale U.S. mass brewery, to see
+if the tasters liked it better or worse than the cute little microbrews. This
+was Michelob Hefeweizen , from the pride of St. Louis,
+Anheuser-Busch.
+
+            
+
+            Click for pricing information and pre-quaffing
+evaluations. The beers tasted were:
+
+             
+
+             
+
+             
+
+             
+
+             
+
+             
+
+             
+
+             
+
+             
+
+             
+
+            
+               4. Data
+Analysis.
+            
+
+            
+               a) 
+               Best and Worst. Compared
+to the lager test, we would expect the range of "best" choices to be more
+varied, since all the tested beers were supposed to be good. This expectation
+was most dramatically borne out in the "Best and Worst" rankings.
+
+            The nine tasters cast a total of nine Worst votes
+and 11.5 Best votes. (Tester No. 1 turned in a sheet with three Best
+selections, or two more than his theoretical quota. Tester No. 4 listed a Best
+and a Best-minus, which counted as half a vote.)
+
+             The results were clearest at the bottom: three
+Worsts for Pyramid Hefeweizen , even though most comments about the beer
+were more or less respectful. ("Bitter, drinkable.") But at the top and middle
+the situation was muddier:
+
+             
+
+            There were three Bests
+for Full Sail ESB , which most of the tasters later said they weren't
+familiar with, and 2.5 for Redhook IPA , which all the tasters knew. But
+each of these also got a Worst vote, and most of the other beers had a mixed
+reading. So far, the tasters are meeting expectations, finding something to
+like in nearly all these fancy beers.
+
+            
+               b) 
+               Overall preference
+points. Here the complications increase. The loser was again apparent:
+Pyramid Hefeweizen came in last on rating points, as it had in the
+Best/Worst derby. But the amazing dark horse winner was Michelob
+Hefeweizen . The three elements of surprise here, in ascending order of
+unexpectedness, are:
+
+            
+
+               This best-liked beer belonged to the same category, Hefeweizen, as the
+least-liked product, from Pyramid.
+
+               This was also the only outright Anheuser-Busch product in the
+contest (the Redhooks are 75 percent A-B free). It is safe to say that all
+tasters would have said beforehand that they would rank an American macrobrew
+last, and Anheuser-Busch last of all.
+
+               Although it clearly won on overall preference points, Michelob Hefeweizen
+was the only beer not to have received a single "Best" vote.
+
+            
+
+            The first two anomalies can be written off as
+testament to the power of a blind taste test. The third suggests an important
+difference in concepts of "bestness." Sometimes a product seems to be the best
+of a group simply because it's the most unusual or distinctive. This is why
+very high Wine Spectator ratings often go to wines that mainly taste
+odd. But another kind of bestness involves an unobtrusive, day-in day-out
+acceptability. That seems to be Michelob Hefe 's achievement here: no
+one's first choice, but high on everyone's list. Let's go to the charts:
+
+            This table shows how the beers performed on "raw
+score"--that is, without the advanced statistical adjustment of throwing out
+the highest and lowest score each beer received.
+
+             
+
+            Next, we have "corrected average preference points,"
+throwing out the high and low marks for each beer. The result is basically the
+same:
+
+             
+
+            It is worth noting the
+fate of Sam Adams on these charts. Here it ends up with a score of less
+than 61. These were the numbers awarded by the very same tasters who gave it a
+corrected preference rating of 83.33 the last time around--and 10 "Best" votes,
+vs. one Best (and one Worst) this time. The shift in Bests is understandable
+and demonstrates the importance of picking your competition. The severe drop in
+preference points illustrates more acutely the ancient principle of being a big
+fish in a small pond. These same tasters thought that Sam Adams was objectively
+much better when it was surrounded by Busch and Schmidt's.
+
+            
+               c) 
+               Value rankings. Last
+time this calculation led to what the colorful French would call a
+bouleversement. One of the cheapest beers, Busch, which had been in the
+lower ranks on overall preference points, came out at the top on
+value-for-money ratings, because it was so cheap. The big surprise now is that
+the highest-rated beer was also the cheapest one, Michelob Hefe ,
+so the value calculation turned into a rout:
+
+             
+
+            
+               Pyramid
+
+               Hefeweizen was expensive on top of being unpopular, so its position at
+the bottom was hammered home--but not as painfully as that of Bass
+Ale . Bass had been in the respectable lower middle class of the
+preference rankings, so its disappointing Val-u-meter showing mainly reflects
+the fact that it was the only beer not on "sale" and therefore by far the
+costliest entry in the experiment.
+
+            
+               d) 
+               Taster skill. As members
+of the tasting panel began to suspect, they themselves were being judged while
+they judged the beer. One of the tasters, No. 7, decided to live dangerously
+and give specific brands and breweries for Samples A through J. This man was
+the only panel member whose job does not involve designing Microsoft Word--and
+the only one to identify two or more of the beers accurately and specifically.
+(He spotted Redhook IPA and Redhook ESB.) The fact that the beers correctly
+identified were the two most popular microbrews in the Seattle area suggests
+that familiarity is the main ingredient in knowing your beer.
+
+            Many others were simply lost. Barely half the
+tasters, five of nine, recognized that Michelob Hefeweizen 
+               was a
+Hefeweizen. Before the test, nine of nine would have said that picking out a
+Hefe was easy, because of its cloudy look and wheaty flavor. Three tasters
+thought Sam Adams was an IPA ; two thought Redhook's IPA was a
+Hefeweizen. In fairness, six of nine testers identified Pyramid
+Hefeweizen as a Hefe, and six recognized Full Sail ESB as a bitter.
+Much in the fashion of blind men describing an elephant, here is a how the
+testers handled Sam Adams Boston Lager :
+
+             
+
+            
+               5.
+Implications 
+               and Directions for Future Research. Science does
+not always answer questions; often, it raises many new ones. This excursion
+into beer science mainly raises the question: What kind of people are we?
+
+            If we are Gradgrind-like empiricists, living our
+life for "welfare maximization" as described in introductory econ. courses, the
+conclusion is obvious. We learned from the first experiment to buy
+either Sam Adams (when we wanted maximum lager enjoyment per bottle)
+or Busch (for maximum taste and snob appeal per dollar). From this
+second round we see an even more efficient possibility: Buy Michelob
+Hefeweizen and nothing else, since on the basis of this test it's the best
+liked and the cheapest beer. By the way, if there is a single company
+whose achievements the testing panel honored, it would be
+Anheuser-Busch . From its brewing tanks came two of the double-crown
+winners of the taste tests: plain old Busch , the Taste-o-meter
+and Snob-o-meter victor of Round 1, and Michelob Hefeweizen , the
+preference-point and Val-u-meter winner this time.
+
+            But, of course, there is another possibility: that
+what is excluded in a blind taste test is in fact what we want, and are happy
+to pay for, when we sit down with a beer. The complicated label, the fancy
+bottle, the exotic concept that this beer has traveled from some far-off corner
+of Bohemia or even the Yakima Valley--all this may be cheap at the
+$1.25-per-pint cost difference between the cheapest and the most expensive
+beers. In elementary school, we all endured a standard science experiment: If
+you shut your eyes and pinch your nose closed, can you tell any difference in
+the taste of a slice of apple, of carrot, of pear? You can't--but that doesn't
+mean that from then on you should close your eyes, hold your nose, and chew a
+cheap carrot when you feel like having some fruit. There is a time and place
+for carrots, but also for juicy pears. There is a time for Busch, but also for
+Full Sail "Equinox."
+
+            For scientists who want to continue this work at
+home, here are a few suggestions for further research:
+
+            
+
+               Tell the testers ahead of time what beers they will be drinking. Ask them
+to rank the beers, 1 through 10, based on how well they like them. Then compare
+the list with the "revealed preferences" that come from the blind test.
+
+               As a variation, show them the list ahead of time and ask them to pick out
+the beer they know they love and the one they know they hate. Then compare this
+with the "after" list.
+
+               If you're going to test imported lagers, try Foster's or Corona rather than
+Grolsch.
+
+               Remember to stay strictly in the scientist's role. Don't take the test
+yourself.
+
+            
+
+         
+      
+   

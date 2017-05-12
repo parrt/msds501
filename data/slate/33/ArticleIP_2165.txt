@@ -1,0 +1,125 @@
+
+   
+   
+      
+         
+            SLATE Update
+
+            SLATE will not publish
+next week. In the great tradition of political and cultural journalism, the
+editors will spend the week lying on the beach, perhaps reading the odd scrap
+of old-fashioned print-on-paper, and resting up for the election campaign and
+other ordeals ahead. SLATE is proud to be launching this hoary custom of summer
+editorial sloth into cyberspace. However, our computers will be on the job.
+(They neglected to ask for the week off in their union contract.) And they will
+happily serve up the current issue, plus a complete inventory of past articles
+and features (in "The Compost") while we're gone. New material will be posted
+beginning noon PDT Monday, Aug. 12, with a complete new issue by Friday, Aug.
+16.
+
+            SLATE's been online for
+over a month now, and in general, we're pleased with the reaction. Claims about
+readership tend to be even more dubious in the online world than they are in
+the world of traditional paper magazines. Counting Internet readers is an
+inexact science, lending itself to exaggeration. But here's our count, as
+honest as we can make it. Excluding our launch week, when the numbers were much
+higher, we've been serving up about 100,000 pages a day. That would be 10,000
+readers a day, or 70,000 a week, reading an average of 10 pages each online.
+(Of course, it could also be 100,000 people a day looking at one page each and
+turning away in disgust, or it could be 50 of my aunts, uncles, and cousins
+busily inflating the numbers by clicking up 2,000 pages a day.)
+
+            These
+figures don't include people who are printing out SLATE directly from the cover
+page (or getting it by e-mail). From anecdotal evidence, SLATE's special
+print-out edition seems to be a popular option, but we have no numbers on it.
+Many people tell me they're downloading the print-out file and reading it on
+screen but offline. We never even thought of that. (Soon, though, we'll be
+offering an offline reading edition that retains some of the Web's
+interactivity and graphics that aren't in the print-out file.) We've recently
+reformatted the print-out edition to make it more attractive and reduce the
+number of pages (just 27 for the whole Thursday, Aug. 1, issue). We've also
+added an Adobe Acrobat version, along with the Microsoft Word model. Try it out,
+if you haven't already.
+
+            Another surprise: Monday is the most popular day for
+reading SLATE. Readership declines through the week and is lowest on the
+weekends. We have designed the magazine to be most current and timely
+Friday--when we update "The Week/The Spin," for example--with the thought that
+people would like to read it over the weekend. But maybe that's wrong. In any
+event, Monday is the day we update the "Horse Race" campaign pundits' analysis,
+and give you instant reviews of the "Other Magazines" that come out Monday
+morning ( Time , Newsweek , The 
+               New Yorker , etc.) So
+Monday's not a bad day either. Many people we hear from actually do seem to
+enjoy popping in every couple of days to see what's new, which is a more
+gratifying surprise.
+
+            Another measure of
+readership (though not necessarily of satisfied readership) is response. We've
+been getting between 700 and 800 e-mail comments from readers every week. Our
+"Everyday Economics" columnist, Steven Landsburg, tells us he got 300 personal
+e-mail messages about his first column. When I called our "Varnish Remover"
+columnist, Robert Shrum, to tell him that some readers were complaining about
+having a self-described Democrat analyzing both parties' political commercials
+(though I think he's doing a fine, neutral job), he said the only complaint
+he's gotten himself was from the White House. In a couple of weeks, we'll be
+launching our bulletin board, "The Fray," where readers from the White House or
+any other house can bitch and moan to their hearts' content (though a kind word
+or two would also be appreciated). But it's already clear that we have just the
+kind of active, engaged readership we were hoping for.
+
+            We'll
+know more about who our readers are when free registration begins in two or
+three weeks. We're planning to tell advertisers that you're all highly
+educated, high-income, politically engaged, and purchasers of vast quantities
+of automobiles, designer clothing, books, records, military aircraft, and
+alcoholic beverages. Please don't let us down.
+
+            
+This first month has been a learning process.
+Warren Buffett, America's second-richest man (after somebody whose name I've
+forgotten), has written that he's suspicious of anyone who talks of learning
+from his own mistakes. The trick, Buffett says, is to learn from other
+people's mistakes. Still, if you're going to make mistakes, you might as
+well learn from them. SLATE's made a few. Initially we were incompatible with
+too many browsers--including early versions of Netscape. We think we've solved
+that. (And if we haven't, please let us know at slatetech@msn.com.) We're still a bit slow to download
+compared with some other sites--about 20 percent, according to our resident
+tech gurus--but we're working on that, too. Our original idea of a separate
+cover and contents page, united by theme music, has not, in our view, been a
+success, and we'll be reworking that in the weeks ahead. (Meanwhile, many folks
+seem to be missing the contents page completely, thus missing many articles and
+features. You can skip the cover and go directly to the contents page, if you
+want, at http://www.slate.com/TOC/Current/Contents.asp--or, of course, you can
+spare yourself the gibberish and bookmark it.)
+
+            Amajor screw-up, to be honest, has been our e-mail delivery.
+In theory, it should be great: a file, delivered straight to your computer,
+that you can print out (or read on screen) as the latest SLATE. At last count,
+more than 16,000 people had signed up. We knew there'd be some problems with
+many e-mail systems in receiving this rather large file. What we weren't
+prepared for was problems in sending it. We apologize, and hope that's starting
+to work right for you. (Last Friday's delivery went pretty well.)
+SLATE 
+               on Paper , our monthly printed edition, to be available by
+U.S. Mail and at Starbucks, also has been pushed back a month. But the first
+issue will be out by the end of August. (Call 800-555-4995 to subscribe.)
+
+            Our cover feature a couple
+weeks ago ("Electric Chairs"), about designing a chair for reading an online
+magazine, was one I was uncertain about. It surprised me pleasantly by
+generating a large and entertaining response. (See a sample in last week's "E-Mail to the
+Editors.") For the next week, though, the staff of SLATE will be
+emphasizing comfort above all in our choices of where to sit. And should these
+be places from where we can't read a computer screen, that's OK too.
+
+            See you Aug. 12, or soon
+thereafter, we hope.
+
+            Previous Readme
+columns
+
+         
+      
+   

@@ -1,0 +1,180 @@
+
+   
+   
+      
+         
+            Taxing the Internet
+
+            Virtually every type of
+commerce in the United States is subject to some form of taxation at the
+federal, state, or local level. The Internet industry (made up of Internet
+service providers and online service providers along with companies that do
+business over the Internet) is no exception. Yet the fast growth of
+electronic commerce , and the novel properties of the industry, pose
+special problems for tax authorities.
+
+            The
+federal government worries that the Internet could become a global haven for
+money launderers and tax evaders . States and localities worry that
+increasing use of the Internet will erode their tax bases as consumers and
+businesses shop and do business outside of their taxing jurisdictions. While
+they are anxious to develop more sources of revenue and expand their tax bases,
+they also realize that unilateral efforts to collect from the industry may
+simply drive the easily moved online operations over the state line. Not
+surprisingly, the Internet industry opposes any new taxes on its burgeoning
+commerce. Major online retailers and service providers, however, recognize that
+there is no case for exempting Internet sales and, perhaps, services from the
+same tax laws that apply to offline commerce. But they are especially concerned
+with developing uniform, consistent, and fair tax treatment by state and local
+authorities. Multiple taxation is seen as a particular threat.
+
+            Who has responsibility for taxing Internet commerce?
+As the Internet grows and changes, how is existing tax law being applied? What
+can and should be taxed--goods and services sold over the Internet? Online
+services themselves? And by what level(s) of government? These taxing questions
+are likely to keep accountants, lawyers, and international-trade consultants in
+BMWs for years.
+
+            Estimated
+revenues from the Internet are not huge--so far. But predictions of where
+they're going are very big. According to industry research, subscription and
+advertising revenues from Internet and online services were as much as $2.2
+billion in 1995 and may top $14 billion by the year 2000. Advertising revenues
+alone made up $131 million last year, but not surprisingly, this represented
+less than 0.5 percent of the ad money spent on other media.
+
+            
+Online sales of products over the Internet
+amounted to approximately $500 million, less than 0.4 percent of all mail-order
+sales. Forrester Research predicts this number will reach $6.6 billion by 2000,
+but that would still amount to only 5 percent of all predicted mail-order
+sales. But as more consumers become familiar with online commerce, they may
+very well begin to shop for products over the Internet precisely to avoid
+state and local sales taxes .
+
+            Taxing
+online sales of mailed products is one obvious revenue opportunity under
+existing tax law. The easy analogy here is to catalog sales (although these,
+too, have posed problems for state and local authorities). If you buy a pair of
+boots from L.L. Bean's catalog, the company must charge you sales tax if you
+live in Maine (or any other state), where it maintains a place of business. By
+the same token, if you decide to use your computer to buy, say, a five-liter
+bottle of 1984 Napa Valley cabernet (for $629) from Virtual Vineyard, the same
+rule applies. Virtual Vineyard's location (or "nexus" in tax-speak) is Palo
+Alto, so, unless you're having the wine sent to a California address, there
+will be no sales tax.
+
+            But the situation is different in practice (if not
+principle) in the case of products delivered over the Internet .
+Establishing nexus can be a tricky issue, for example, when it's a case of
+content--such as newspapers, magazines, books, videos, music, or computer
+software--being downloaded. The seller may have no idea of the buyer's
+location, and hence whether sales tax is due (though new software packages
+being developed for online commerce may help remedy this). But the location of
+the seller may be even tougher to determine.
+
+            As noted
+above, a seller must collect sales tax from a buyer if the seller has a
+significant "physical presence " in the same jurisdiction where the buyer
+takes delivery. Suppose, for example, that the content in question is being
+sold by an online service such as America Online, the Microsoft Network,
+or any of a myriad of smaller services. Where does that service do business?
+Most online service providers operate Point-of-Presence (POP) locations that
+allow subscribers to log on to the Internet using a local phone number. These
+typically consist of a leased room with modems and routing equipment. Already,
+some states have argued that POPs constitute sufficient physical presence for
+taxing purposes. But the 1992 U.S. Supreme Court case Quill vs. North
+Dakota would seem to defeat such an argument. The Quill ruling protects
+sellers of tangible personal property from state taxation if their contacts
+within the state are limited to mail-order catalogs, telephone, or the
+Internet.
+
+            
+And what if the content is being sold by a
+separate vendor through an online service? Some states argue that
+taxable nexus can be established if a vendor operates over an online or
+Internet service with substantial physical presence within the state. This
+opens up a whole new basis for taxation opposed by the industry and unlikely to
+be upheld by the courts. After all, to return to our catalog analogy, if L.L.
+Bean uses UPS to deliver its boots, that doesn't expose the sale to taxation in
+every state where UPS operates. And even if states can win the nexus argument
+in court, Internet providers are likely to flee to more tax-friendly
+jurisdictions, thus forcing (angry) subscribers to incur long-distance phone
+charges for online access.
+
+            In
+addition to sales taxes, 20 states also impose some form of tax on Internet
+and online services or activities. These include Pennsylvania, Connecticut,
+Massachusetts, Nebraska, Tennessee, Ohio, and Texas. Many cities are doing the
+same. Officials in Fort Collins, Colo., decided last year that Internet
+providers were subject to a city sales tax on telephone service and that
+subscribers would have to pay a 3 percent sales tax on top of their monthly
+access fee. The industry argues that it is not comparable to the (heavily
+taxed) telecommunications industry, and that such efforts result in double
+taxation--since service providers already pay taxes on phone-line usage--as
+well as for Internet vendors. Again, as in the case of wine sales, states have
+taxing jurisdiction over transactions only if the seller has sufficient
+physical presence in the state.
+
+            Tax authorities are further threatened by the growing use
+of electronic money . E-cash can be used to facilitate a host of illegal
+businesses, including drug transactions, thereby eliminating the need for
+suitcases full of $100 bills. It could also swell the underground economy, as
+people use it to pay for services, facilitating the avoidance of federal income
+tax.
+
+            Another dicey issue
+confronting Treasury Department enforcement officials is Internet
+gambling . Although federal law prohibits gambling by wire in the United
+States, and most authorities interpret that to mean that Internet gambling is
+illegal here, at least one online casino, Casino Royale, looks and feels like a
+virtual gambling emporium. (Sen. Jon Kyl, R-Ariz., has just introduced a bill
+to ban online gambling.)
+
+            
+Recognizing that the Internet effectively wipes out national borders, and
+fearing that the development of new technologies may be impeded by inconsistent
+tax policies, the federal government has been studying the issue of
+international tariffs on Internet transactions. At this point, no
+countries have imposed tariffs or other taxes on online commerce, but at least
+a dozen are considering them. This is a big area of concern for the
+administration, since the United States exports $40 billion in services
+annually, including software, entertainment and information products, and
+professional services.
+
+            
+The Clinton administration's position is
+that the Internet should be a federal duty-free zone. In releasing a draft
+report on the subject, Deputy Treasury Secretary Lawrence Summers said, "We
+absolutely reject the idea that the Internet is some sort of golden goose whose
+feathers should be taxed. The key message of the report is no Internet taxes."
+This does not mean, however, that the federal government supports abolition of
+any taxes on Internet commerce, only that it plans no new taxes at this
+time. The Treasury report itself stresses that, in principle, the tax code
+should treat Internet transactions exactly like other channels of commerce.
+
+            On March 13, Sen. Ron Wyden,
+D-Ore., and Rep. Christopher Cox, R-Calif., introduced the Internet Tax
+Freedom Act . The bill would impose an indefinite moratorium on state and
+local taxes on electronic commerce, though it would exempt certain taxes,
+including most sales taxes, that are already in place. The bill also calls on
+the administration to develop a comprehensive plan to address the issue, and to
+seek bilateral and multilateral trade agreements that make all Internet
+activity internationally free of taxes, tariffs, and trade barriers.
+
+            The administration is
+already working with the World Trade Organization and other
+international trade groups on uniform rules for taxation of electronic
+commerce. Meanwhile, there are tricky aspects to assessing taxes under current
+international tax treaties, including: 1) identifying the country or countries
+with authority to tax; 2) classifying the type of income arising from the
+transaction (e.g., royalties, sales of goods, or services); 3) tracing
+transactions handled with electronic money; and 4) identifying parties to
+transactions, and verifying records. In addition, some countries impose
+quotas on content such as books, movies, music, and software from
+abroad, but the origin of that content can be tough to trace in the thin air of
+cyberspace.
+
+         
+      
+   

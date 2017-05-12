@@ -1,0 +1,63 @@
+
+   
+   
+      
+         
+            <I>Cogito Auto Sum</I>
+
+            By Karenna
+Gore
+
+            Summary is the crux of
+civilization. Long before the Information Age, man struggled to digest the
+mounds of words contained in his religious, cultural, and legal canons. Fame
+and fortune awaited those who could reduce windy texts to bite-sized portions.
+One of the all-time master summarizers was Jesus, who, in the days before Cliff
+Notes, condensed the 592,439 words of the Old Testament into two nuggets. "On
+these two commandments hang all the law and the prophets," he announced. "Thou
+shalt love the Lord thy God with all thy heart, and with all thy soul, and with
+all thy mind," and, "Thou shalt love thy neighbour as thyself."
+
+            Or at least, that is
+what Matthew said Jesus said. Matthew might have been summarizing, too.
+
+            Despite Jesus' excellent example, wordiness not only
+persists but multiplies as new volumes enter the marketplace of ideas. Besieged
+with information and short on time, what is a person to do? Luckily, whole
+industries exist to serve consumers nutshells and breviloquence: Nexis, Web
+search engines, executive summaries, cheat sheets, and the Reader's
+Digest .
+
+            To that list of
+lifesavers, add an upstart, "AutoSummarize," a new function in the Word 97 word
+processor (which is made by the same company that brings you Slate). Last week,
+New York Times reporter Denise Caruso called AutoSummarize a "stunning"
+technological achievement. It is not Slate's function to tout Microsoft
+products, but AutoSummarize piqued our curiosity.
+
+            
+How does AutoSummarize work? According to Ron
+Fein of the Word 97 team, AutoSummarize cuts wordy copy to the bone by counting
+words and ranking sentences. First, AutoSummarize identifies the most common
+words in the document (barring "a" and "the" and the like) and assigns a
+"score" to each word--the more frequently a word is used, the higher the score.
+Then, it "averages" each sentence by adding the scores of its words and
+dividing the sum by the number of words in the sentence--the higher the
+average, the higher the rank of the sentence. "It's like the ratio of wheat to
+chaff," explains Fein.
+
+            AutoSummarize can summarize
+texts to 10 sentences, 20 sentences, 100 words, 500 words, or various
+percentages of the original copy.
+
+            Inspired by Caruso's
+example, we turned the powers of AutoSummarize on four basic documents of
+Western Civilization and four contemporary texts:
+
+            
+
+            
+
+         
+      
+   

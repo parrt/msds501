@@ -1,0 +1,146 @@
+
+   
+   
+      
+         
+            Telecommunications Reform
+
+            The United States is in the
+midst of something called "telecommunications reform." What is it, and how is
+it going?
+
+            The
+Telecommunications Act , passed in February 1996, was the first
+congressional overhaul of telecommunications policy since 1934. The new law
+promised to promote 
+               competition by repealing government
+regulations . A key to this hope is digital technology , which turns
+all forms of communication--voice, data, or video--into streams of numbers,
+which can be carried by any communications channel--telephone lines, coaxial
+cable, or the airwaves. Telecommunications reform is supposed to break down
+existing barriers between these media so that, for example, phone companies
+will sell television hookups and cable companies will offer telephone service.
+It is also supposed to end the distinction between local and long-distance
+phone companies, allowing each to go after the other's business.
+
+            The early results have been poor to middling. Competition
+(particularly in local residential telephone service) has been slow to bloom.
+And the promised "convergence " of the various communications media has
+not arrived. Some critics say the problem is that deregulation didn't go
+far enough. The new law deregulates some aspects of the telecom industry while
+maintaining or even adding new regulations in others. Other critics say the
+problem is too much deregulation. They point especially to a series of giant
+mergers --most notably those reassembling the old Ma Bell telephone monopoly
+that was broken up--that the new law does nothing to discourage.
+
+            The
+telecom law rewrites the ground rules in three areas of the
+communications industry: telephone service, cable, and broadcasting.
+
+            
+
+               Telephony . The Telecommunications Act is
+intended to erode the local-phone-service monopoly enjoyed by the seven
+regional "Baby Bells " (and by AT&T for most of a century before
+that). It requires the Bells to make their facilities--the "local loop "
+linking home phones to the telephone network--available to competitors, so that
+the latter can compete without running wires to every house. It also requires
+the Baby Bells to resell their entire bundle of services wholesale to companies
+that might wish to compete on the retail level. Customers who want to switch
+phone companies must be able to keep their old phone numbers and can't be
+required to dial extra access codes.
+
+            The drafters of the law
+expected these provisions to leave the Baby Bells facing a variety of
+competitors : wireless services, small startup local service providers,
+cable and utility companies (who own valuable rights of way), other Baby
+Bells--and, perhaps most importantly, long-distance companies such as
+AT&T.
+
+            The act permits the Baby
+Bells to offer long-distance service--something the AT&T breakup decree had
+forbidden--but only after they have taken 14 specific steps to open up their
+own local phone markets. The act also explicitly requires the Federal
+Communications Commission, for the first time, to ensure "universal
+service "--guaranteeing that rural and other underserved areas receive
+telephone services comparable to those provided in urban areas. In May the FCC
+rolled out a universal service plan, which included discounted Internet hookups
+for schools and libraries, to be funded by charges on all interstate
+telecommunications providers.
+
+            
+               Cable . In 1984,
+Congress passed a law deregulating cable prices (even forbidding local
+governments from setting rates). In 1992 it reregulated cable prices. In the
+1996 act it deregulated them again. Starting in April 1999, cable companies
+will be able to set their own rates, except on "basic tier" service (the
+no-frills menu of broadcast and public-access programming). Even for basic-tier
+service, the statute allows cable companies to begin charging market rates as
+soon as they face competition from another local provider. The act allows local
+phone companies to provide video programming to homes (whether via cable,
+wireless, or through telephone lines), and it lets phone and cable companies in
+most local markets own up to 10 percent of one another.
+
+            
+
+               Broadcast . As called for by the new law, the FCC in April gave each of
+the nation's 1,600 television broadcasters a second channel of spectrum space.
+Critics call this a giveaway of a public resource worth billions of dollars.
+The broadcasters are supposed to use the extra spectrum space for the new
+digital signals. They are also supposed to give their current spectrum space
+back in 2006, when non-digital TV broadcasting is supposed to stop. But the
+broadcasters are now pushing to hold on to the additional spectrum space.
+
+            The act also ends long-standing rules against
+cross-ownership in broadcasting. Anyone may now own an unlimited number of
+radio stations, subject only to caps on local concentration. Likewise for TV
+stations, as long as one owner's signals do not reach more than 35 percent of
+the nation's households. The new law also makes it easier for broadcasters to
+renew their licenses, and requires TV manufacturers to install parent-friendly
+V-chips. Finally, the statute included the Communications Decency Act, which
+was struck down this week by the Supreme Court. Has deregulation worked? During
+1996, cable-TV prices shot up at more than twice the rate of inflation.
+Non-discount long-distance rates rose even faster. Local phone rates are going
+up, too, though some of this rise may be attributable to a reduction in
+subsidies.
+
+            
+Competitors have not rushed in. The Baby Bells still monopolize the
+local-household phone market (although competition for business phone customers
+is more visible). AT&T--though it is gradually losing market share and
+lives in fear of Baby Bells entering the market--still dominates long distance.
+The cable companies are facing some increased competition from
+direct-broadcast satellite providers , but they have maintained their
+grip. (Rupert Murdoch recently abandoned plans for a major satellite assault on
+the cable market.) Ironically, price competition has emerged most robustly
+among businesses not addressed by the new law, such as DBS, cellular phone, and
+Internet service providers.
+
+            
+The hoped-for "convergence" of industries and
+technologies has not come to pass. The big cable companies--balking at the
+costs of converting one-way cable to two-way voice lines--have shelved
+plans to get into the local phone business. Likewise the Baby Bells, who,
+facing economic and technical obstacles, have abandoned plans to branch out
+into video. And the long-distance companies have made only tentative steps
+toward invading the local residential-telephone market. Even for a mammoth like
+AT&T, the economics of going local are close to prohibitive, because the
+"local loop" is the most expensive part of the entire system to build and
+operate. AT&T's plan, announced in February, to use wireless systems to
+offer local phone service has been widely dismissed as unconvincing. It would
+be much cheaper for the Baby Bells, with local facilities and a built-in
+customer base, to break into the long-distance market. But that 14-point
+checklist is a formidable obstacle.
+
+            Meanwhile, merger
+mania has seized the telecom industry. The Justice Department approved a
+merger between Bell Atlantic and NYNEX in April. Time Warner bought Turner
+Broadcasting. Westinghouse purchased both CBS and radio rival Infinity
+Broadcasting. And U.K. giant British Telecom purchased MCI. Now AT&T wants
+to merge with SBC (which became the nation's largest Baby Bell by swallowing
+Pacific Telesis), a move strongly opposed by outgoing FCC Chairman Reed
+Hundt.
+
+         
+      
+   

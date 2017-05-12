@@ -1,0 +1,243 @@
+
+   
+   
+      
+         
+            
+
+            
+               Address your e-mail to
+the editors to letters@slate.com. Please include your address and daytime phone
+number (for confirmation only).
+            
+
+            
+               I Kept
+My Promise, Don't Keep Your Distance
+            
+
+            Re: "Dialogue" on the Promise Keepers, between Marci McDonald and Ron
+Stodghill.
+
+            Could you
+really not find a single writer who has a problem with the Promise Keepers? Not
+one with any qualms, or even complicated questions about a right-wing-funded
+mass organization of fundamentalist Christian men who want to wear the pants at
+home? Next time, instead of hiring two bored journalists to pooh-pooh
+feminists, how about one bored journalist and one person who actually believes
+that equality for women is a meaningful concept. Although you wouldn't know it
+from the PK publicity mill, there are quite a few of us out here.
+
+            -- Katha Pollitt New
+York City
+
+            
+               Gimme
+Shelter
+            
+
+            The "examples" included in
+Robert McIntyre's "Tax Shelters: The Video Game" incorporate some highly dubious
+rate-of-return calculations. Anybody with a fundamental understanding of
+finance can tell you that return analysis in the absence of accompanying risk
+analysis is incomplete. That's why investing in stocks (usually) pays better
+than buying T bills--one outcome includes an element of unpredictability, while
+the other is relatively certain.
+
+            McIntyre, however, presents
+examples in which leveraged buying of equities generates large rates of return,
+and then proceeds to throw those numbers into his analysis without any
+discussion of the leverage and resultant risk involved. That's preposterous--he
+may as well have used an example with $200,000 in gambling winnings from Vegas.
+The point is that it's the degree of leverage, not the tax shelters, generating
+the large and highly volatile rates of return in McIntyre's examples.
+
+            In reality, it's practically
+impossible to buy entirely on margin anyway, which is what McIntyre is
+describing--you'd need to deposit additional funds with your broker, which
+would then be included in any rate-of-return calculation. I don't dispute the
+fact that tax shelters affect rates of return, but McIntyre's decision to use
+an implausible example in order to come up with some big return numbers
+(ooh--evil tax shelters!) reveals his own strong bias toward income
+redistribution.
+
+            
+
+               
+                  Slate
+                could have put someone with a reasonable grasp of
+elementary finance and a balanced viewpoint in charge of writing a tax piece.
+Too bad it chose to use McIntyre instead.
+
+            -- Joseph Osha New
+York City
+
+            
+               Noble
+Nobels?
+            
+
+            Todd Porter, in his article
+"Ph.D., Model
+Thyself," draws his main conclusion by misunderstanding a basic tenet of
+economic theory. His article describes profit maximization as if it were the
+central behavioral assumption of economics. It isn't. Utility maximization is.
+While they sound similar, the two principles are extremely different. A Profit
+Maximizer maximizes the amount of money it has. A Utility Maximizer wants to
+acquire many things, including cash, but also such things as trips to the
+beach, time to watch TV, adorable grandkids, and (probably most important in
+this case) professional prestige.
+
+            Porter
+tries to both make the point that profit maximization doesn't explain all human
+behavior (of course it doesn't, and no economist thinks it does), and that the
+Nobel Prize-winning economists were not greedy enough for Porter's own tastes.
+Things would be simpler if only Black, Scholes, and Merton had been in it for
+the money: "plain old greed should be adequate to explain nearly everything in
+finance, because finance is about making money." OK. But associate professors
+studying financial markets aren't in them, only theorizing about them. Their
+choice of career should have been the first sign that they have interest in
+things other than money. In which case, aiming for a Nobel Prize is the kind of
+behavior any good economist would expect.
+
+            -- Doug
+Smith Cambridge, Mass.
+
+            
+               The
+Week/The Shill?
+            
+
+            No doubt I
+am not alone in wondering if anyone from 
+                  Slate
+               's ownership talked
+to William Saletan before releasing "The Week/The Spin," which covered the Justice Department's
+antitrust actions aimed at Microsoft. Have we a conflict of interest here? How
+much of the evidence against Microsoft (anecdotal or otherwise) that is
+reported in the papers won't make it into any of the stories in
+
+                  Slate
+               ? Is online self-censorship any different from the
+old-fashioned print variety? How will we know if these suspicions are
+unfounded?
+
+            
+               --Bob
+Barde Berkeley, Calif.
+
+            
+
+               Nattering Naders of Negativity
+            
+
+            There must be something
+soothing and redemptive about publishing Ralph Nader's "The Microsoft Menace"
+shortly after getting slammed in InfoWeek for slamming Java. Just wish
+it didn't remind me of public radio's recurrent flirtation with conservative
+commentators whenever Congress reconsiders its funding.
+
+            That's
+the problem with perceptions. One seemingly sponsor-serving article, and any
+number of future self-flagellations are written off by a cynical, jaded public.
+Where do these people get their diet of opinion, anyway?
+
+            -- Paul
+Nicolette Pemberton, N.J.
+
+            
+               Nader
+Redux
+            
+
+            In the "Links" section
+following Ralph Nader's piece ("The Microsoft Menace") on why he is concerned about
+Microsoft's business practices, you mention how one might meet "other Microsoft
+bashers" at his Nov. 13-14 conference in Washington. I find this not-so-subtle
+characterization of Nader as just another "Microsoft basher" off base.
+
+            Whether you agree with him or
+not, Nader has been a constant advocate for the American consumer for more than
+30 years now, well before Microsoft came into existence. While some would love
+to attribute his current courageous (albeit quixotic) stance as some kind of
+personal vendetta against Microsoft, the diversity of his actions in the past
+make it plain that his concerns lie with the anti-competitive and monopolistic
+practices of this or any other company, and not with the company itself (or
+Bill Gates).
+
+            I believe
+Nader has very good reasons why we should all be concerned about Microsoft's
+attempts to corner the future of computing, and to belittle him with the
+"Microsoft basher" label is inappropriate.
+
+            -- Peter Benson
+Robbinsdale, Minn.
+
+            
+               Yet More
+Nader
+            
+
+            Microsoft does engage in
+some anti-competitive practices, such as not allowing resellers to disclose
+contract terms, and the Department of Justice is doing a fair job of policing
+such activity. But Microsoft bashers such as James Love and Ralph Nader
+("The Microsoft
+Menace") just don't get it. Any honest observer must ask a fundamental
+question: What if the software business is a natural monopoly?
+
+            A natural monopoly means
+that due to the nature of the product and market, the industry will be
+dominated by a single player. Roll the clock back 15 years and start over. IBM
+may dominate the market with OS/2; Macintosh with the Mac OS; even a Novell or
+a Unix vendor could come out on top. But any honest observer must ask the
+question: Is the market structured so that one company is likely to have a huge
+market share? Economics tells us most likely, yes.
+
+            On the supply side, for any
+application, software--unlike industrial goods--is subject to "increasing
+returns." This simply means that the costs of producing an application always
+go down as the number sold goes up. Intuitively, consider a market of 100
+buyers evenly shared between Microsoft Word, WordPerfect, and AmiPro. Each
+company must spread out its costs over 33 buyers. If AmiPro dropped out of the
+market, then Word and WordPerfect could spread their costs out over 50 buyers,
+and if WordPerfect dropped out, then Word can spread its costs out over all 100
+buyers. This result obtains because the cost of producing another unit of
+software is, for all practical purposes, zero. This doesn't necessarily mean
+that costs will go down--the extra costs may be taken up by hiring more
+programmers, doing basic research, or even (gasp) in extra profits. But the
+point is that Microsoft can get a large market share without engaging in any
+wrongful behavior. Indeed its actions are generally consistent with consumers
+doing better.
+
+            On the demand side, software
+is subject to "positive network externalities." This means that users get an
+extra benefit when others are using the same software. For many years, I used
+AmiPro because I liked the interface and features better, but I eventually gave
+it up and switched to MS Word. Why? Because all my colleagues were using MS
+Word, and messily converting files back and forth just never worked that well.
+Many people think that there is something illegitimate about this type of cost,
+but remember, this is a real cost. As consumers, we may not be better off with
+only one word processor that uses a single file format. But then again, we may
+be, and it would seem the marketplace has rendered some sort of decision.
+
+            These
+considerations should give pause to those attacking Microsoft. Taking down
+Microsoft may simply mean exchanging one dominant firm with another. The only
+other intellectually honest approach is to advocate wholesale government
+regulation, a strategy that most agree would be a spectacular failure (and is a
+whole 'nother story).
+
+            -- Brian McDaniel
+executive editor, Harvard Journal of Law and Technology Cambridge,
+Mass.
+
+            
+               Address your e-mail to
+the editors to letters@slate.com. Please include your address and daytime phone
+number (for confirmation only).
+            
+
+         
+      
+   

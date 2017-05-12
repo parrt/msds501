@@ -1,0 +1,133 @@
+
+   
+   
+      
+         
+            The Stock Spinners
+
+            The problem with venality
+in business is that getting outraged about it makes it easy to miss the
+systemic problems that venality often disguises. And that's exactly what's
+happened in the uproar over the Wall Street practice called "spinning."
+
+            
+"Spinning" has, apparently, been common on the Street for as long as anyone can
+remember, and yet it had never really been written about until a November 1997
+article in the Wall Street Journal broke the story. The mechanics of it
+are simple: An investment bank that's underwriting an initial public offering
+gives shares in that IPO to corporate executives at companies with which the
+investment bank is either doing business or would like to do business. The
+executives can then "spin" the shares, which is to say, sell them for a quick
+profit as the stock's price bounces higher, something most IPOs have tended to
+do on their opening days of trading. Robertson Stephens, for instance, gave one
+client 100,000 shares in the IPO for Pixar, the company responsible for Toy
+Story ; the client spun those shares into a $2-million profit. The
+assumption, of course, is that an executive who receives a gift like this will
+be more likely to direct his company's business toward the investment bank that
+proffered the shares. Quid pro quo.
+
+            
+If that's not unsavory enough for you, in some
+cases the investment banks don't give the shares to the executives until the
+stock has started trading well above the offering price. In other words, if an
+IPO's opening price is $20, and within a couple of hours of the opening bell
+it's trading at $35, a bank will choose that moment to allocate the shares to
+the executive's account. The executive gets the shares at $20 and sells them at
+$35, all in one fell swoop. Banks are able to do this only by abusing a
+regulation that permits them to cancel a mistaken allocation of IPO shares
+before the first trading day ends. The conversation, one imagines, goes a
+little bit like this: "Now that the stock's price has risen, I realize I didn't
+mean to give them to this person's account. I meant to give them to you! Now,
+about that deal we were discussing ..."
+
+            Well,
+it's probably not quite that crude, but spinning does seem unquestionably to
+violate state laws that prohibit corporate executives from taking personal
+advantage of financial opportunities that they get because of their position at
+a company. One columnist recently wrote that "America's unique strength has
+always been that the path to success isn't totally rigged, that it's not simply
+about being a member of some inner circle that cuts you in on the action for
+life," and that spinning threatens this strength. But though he deserves a nice
+pat on the back for the graduation-speech rhetoric, thinking in terms of
+fairness doesn't really get us very far. Spinning is unfair, but then so is
+life, as our parents told us. To see why spinning really should be eliminated,
+you have to look at the question from a hard-nosed efficiency angle.
+
+            
+Why, after all, do we have laws against
+bribery? If someone really wants my company's business, why shouldn't he be
+able to do everything he can--including paying me off--to get that business?
+Because bribery encourages people to make decisions based on the wrong
+criteria, which means in the business world that it distorts the efficient
+allocation of resources. Absent the bribe, I would decide to give my company's
+business to Investment Bank A. But because Investment Bank B allowed me to spin
+shares in a new Internet IPO, I give my company's business to them instead.
+
+            This is
+bad in two different ways. First, I'm violating my fiduciary responsibility to
+my company, because I'm making a decision based not on what's best for it, but
+rather on what's best for me. Second, investment banks that already do a lot of
+IPO business will tend to get more business, simply because they have more
+shares to spread around. The rich get richer, not because they're more
+efficient but because their ability to bribe is greater.
+
+            
+Ordinarily, of course, bribery tends to be
+somewhat self-limiting, in the sense that you don't want to spend more on
+bribes than the revenue that you generate through them. But spinning costs
+investment banks nothing at all. Once an investment bank has underwritten an
+IPO--which means that it has committed to selling all the company's available
+shares at a set price--all it has to worry about is making sure those shares
+get bought. Needless to say, people are anxious to buy shares when they know
+they can sell them seconds later for an easy profit. So while a company that
+bribes customers is typically hurt by the fact that money that could have gone
+toward profitable investments instead goes toward bribes, in the case of
+spinning, both briber and bribee win.
+
+            The fact
+that some investment banks are getting more business than they otherwise might
+is a good enough reason for regulators to step in. But spinning has still worse
+consequences. The practice works only if the price of an IPO bounces
+significantly higher on the first day. That gives investment banks an incentive
+to set opening prices lower than they should be. Instead of taking a company
+public at $30 a share, and watching it trade at $30 all day long, an investment
+bank can take a company public at $20 a share, watch it jump to $30 right after
+the opening bell, and allocate those now-profitable shares to its clients.
+
+            
+It's possible, of course, that investment banks
+just keep getting surprised over and over again by the strong demand for IPOs,
+and that they really make their best effort to match opening prices with market
+demand while giving themselves reasonable insurance against getting stuck with
+unsold shares. But somehow it seems unlikely that spinning would have become
+such an institutionalized practice if investment banks didn't have a pretty
+good sense that a stock's price was going to jump on its opening day. And that
+means the real losers are the companies whose IPOs end up underpriced.
+
+            Underpricing an IPO, of
+course, deprives the newly public company of capital. When Pixar went public,
+the money raised from that very first sale of its shares was what it used to
+run its business in the future. But Pixar went public at a price 77 percent
+lower than the highest price people paid for its shares on the opening day of
+trading. And while it would be a mistake to say that the stock could have
+opened at that highest price, it's safe to say that if Robertson Stephens had
+done a better job of gauging demand, millions of dollars that went into
+traders' pockets would have gone into Pixar's vaults instead.
+
+            What's frustrating about
+all this is that the moment when a company goes public is when the stock market
+should function most efficiently. That's the only time when the money you pay
+for a stock goes right to the company, rather than to another trader. The price
+of an IPO, then, should reflect as nearly as possible what investors really
+think about a company's prospects. And yet everything about the IPO
+process--from spinning to the fact that shares are distributed mainly to large
+institutional clients to the fact that some investors are fed information
+before the IPO that other investors never see--works against the market's
+efficient operation. Wall Street has come a long way from the insider-dominated
+world that was blown apart by the Great Depression. But spinning is an
+excellent reminder of how far toward real transparency the Street still has to
+go.
+
+         
+      
+   

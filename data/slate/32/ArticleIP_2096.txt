@@ -1,0 +1,139 @@
+
+   
+   
+      
+         
+            Nobel Gas
+
+            Nobody said the Nobel
+Committee was infallible. It did, after all, give Henry Kissinger the peace
+prize in 1973. But the folks in Stockholm have traditionally been conservative
+about whom they bestow scientific awards upon. Albert Einstein got his Nobel in
+physics 16 years after he published his work, but the committee declined to
+endorse that reckless relativity stuff.
+
+            What,
+then, is one to make of the Nobel Prize in physiology or medicine awarded to
+neurologist Stanley Prusiner this week? Prusiner's hypothesis is that fatal
+brain maladies such as mad-cow disease and Creutzfeldt-Jakob disease are caused
+not by viruses, bacteria, fungi, or some other mundane agent but by something
+startlingly new that he has discovered--mutant, rampaging proteins known as
+"prions," short for "proteinaceous infectious particles."
+
+            But do prions cause these diseases? In the past year,
+Science and Nature , the two most distinguished scientific
+journals, have published three major papers suggesting that the causative
+agents of these diseases are not prions, and that Prusiner's 15 years of
+prion research is simply wrong. The latest of these papers was published last
+week, in Nature 's Oct. 2 issue.
+
+            Before
+moving on, a quick course in molecular biology: All living creatures, from
+viruses on up, pull off the feat of self-replication by encoding the necessary
+information in nucleic acids--in particular the double-stranded DNA discovered
+by Crick and Watson or, for a few renegade viruses, single-stranded RNA or even
+single-stranded DNA. These nucleic acids then code for and generate proteins,
+which are the stuff we're made of. Prusiner's proposition is that it is
+proteins, not "slow viruses," that are the infectious agent in mad-cow-like
+diseases. This is what makes Prusiner's hypothesis so radical: Prions would be
+the only proteins on the planet that reproduce--not to mention infect and kill
+animals--and thus the only known exceptions to the rules of the Crick-Watson
+paradigm of molecular biology.
+
+            
+Prusiner's proposition has been controversial
+from the get-go. The researcher who did Prusiner's lab work at the University
+of California at San Francisco quit over the publication of Prusiner's very
+first prion paper in 1982, arguing that Prusiner was overinterpreting the
+available data to push the prion hypothesis.
+
+            Over the
+next 15 years, Prusiner won over virtually everyone to his prion
+hypothesis--the lay press, the scientific press--but not the researchers in his
+field. He got his share of bad press, for which I take--and am given--entirely
+too much credit (read my December 1986 feature story in Discover by
+clicking ). By 1985, when Prusiner's own papers were still suggesting that the
+prion hypothesis was at best a long shot, he won a $4-million congressional
+award "to determine the structure of prions and how they cause disease." In
+1991, Prusiner reported at a major conference that he had proved that the
+infectious agents of these diseases were proteins free of nucleic acids. In
+particular, he had created mice with a genetic mutation that caused what was a
+normal protein--the prion protein, in Prusiner's lingo--to become abnormal and
+produce disease. He then took brain matter from these mice and injected it into
+new mice, which promptly got sick, showing that no viral particles were
+necessary to transmit the disease. But there was still no paper proving the
+results to the scientific community.
+
+            Two years later, when he presented the same mice work at
+another conference, the news pages of Science and Nature wrote it
+up as if it cinched the prion hypothesis. Although Prusiner's work had not been
+replicated by anyone and he had still not published these supposedly seminal
+findings that prions cause disease in a peer-reviewed journal, he won the
+prestigious Albert Lasker Award in October 1994. (The Lasker Award is
+considered a short-list for the Nobel.) When he finally published his
+proof-of-prion paper, it was only after it had been rejected by the journal
+Cell . Prusiner managed to find a home for it in the Proceedings of
+the National Academy of Science , where it wouldn't have to be
+peer-reviewed. The paper was largely ignored, and it was dissed even by
+Prusiner, who admitted to a New York Times reporter that it was
+uncompelling. Scientists who read the paper suggested that its findings could
+be explained by contamination, which is to say, by sloppy laboratory
+procedures. But four months later, Prusiner was still describing the mice work
+to Scientific American 's lay readers as "a persuasive experiment."
+
+            Prusiner's
+boilerplate response to prion critics has been that if mad-cow disease or any
+of the other "prion diseases" is caused by a virus, then surely that virus
+would have been discovered by now. The fact is, it's damned hard to find a
+virus in a mishmash of animal brains, which is where you have to look. One
+reason a virus hasn't been found--if indeed a virus causes these diseases--is
+that no one is doing the laborious and expensive work to find it. It can take
+researchers decades to find culpable viruses--hepatitis C is a famous example.
+But at least those researchers got funded to look, which has not been the case
+in the prion field. Prusiner has received in the neighborhood of $40 million in
+funding from the National Institutes of Health since 1985. Qualified critics
+who request money from the NIH to look for viruses are told by NIH bureaucrats
+that if the virus turns out not to exist, then their study will have been "of
+insufficient significance and scientific merit" and thus not worth doing.
+
+            
+Despite the vindication offered by Stockholm,
+the prion hypothesis is still rife with loopholes. For instance, the diseases
+that allegedly are caused by prions come in a few dozen different strains, the
+same way that dogs come in different breeds. It's easy to imagine variations in
+viruses or bacteria, because they contain nucleic acids, which encode for
+variations. But even Prusiner hasn't been able to explain how a protein that
+has no nucleic acid could encode for the variations. His own grant proposals,
+available on the Web through the NIH CRISP database, are evidence of the problem. One
+describes the problem of prion strains as a "fascinating conundrum," while
+another explains that the goal of the research project is to find out "whether
+the strains differ in the properties of the scrapie form of the prion-protein
+... or [whether] a second component is responsible for strain specificity, the
+obvious candidate being a nucleic acid."
+
+            Strains
+aren't the only problem with the hypothesis. Prusiner has yet to show, for
+instance, that a protein sans nucleic acid can be infectious, and consequently,
+he has invoked the potential involvement of yet another agent in the disease
+process (although he insists it has no nucleic acid and calls it "Protein X").
+Some of his fellow prion researchers suggest it might be a "viral co-factor,"
+which is doublespeak for saying that the prion ain't the infectious agent, a
+virus is.
+
+            One member of the Nobel Committee says his colleagues were
+aware of unanswered questions in the prion hypothesis but awarded Prusiner the
+prize in recognition of the wealth of information he has unearthed on
+mad-cow-like diseases. But if it turns out that viruses do cause the
+diseases, then Prusiner will have won the prize for the discovery of something
+spectacularly wrong.
+
+            Good science, not just Nobel
+Prize-caliber science, depends on hypothesis and test, and then the rigorous
+demonstration that the preferred interpretation of the data was the only
+interpretation. In other words, remarkable results demand remarkable evidence.
+In the case of Prusiner's prize, the Nobel Committee has settled for enthusiasm
+and single-mindedness.
+
+         
+      
+   

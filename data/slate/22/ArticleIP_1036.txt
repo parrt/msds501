@@ -1,0 +1,139 @@
+
+   
+   
+      
+         
+            Who Pays for the Internet? 
+
+            Even a fairly short midday
+telephone call from, say, Los Angeles to Paris, can cost $10. Yet, that same
+amount will buy you a month of an online service that includes unlimited e-mail
+all over the world. For $20, you can make one to three hours of long-distance
+telephone calls. Or, for the same $20, you can surf the Web day and night for a
+month, download as much data as your modem can handle, enjoy unlimited e-mail,
+and even--if you own the right software--make as many telephone calls to New
+York or Paris or Timbuktu as your heart desires.
+
+            How is
+this possible? Worldly cybernauts may find the question naïve--though fewer
+know the answer than think they do. To newcomers, the economics of the Internet
+is among its greatest mysteries. Herewith, a primer.
+
+            First, the wrong answer: that the Internet is high-tech
+pork. The Defense Department created the Internet in the late '60s, and
+the government supported the Internet heavily from the '70s till the early
+'90s. But no more: The last major subsidy ended in 1995. Now, except for a few
+small, shrinking, and unnecessary federal grants, the Internet is a commercial
+concern. Telecommunications companies, computer companies, and Internet service
+providers (ISPs) built, own, and operate all the phone lines and computer
+networks that comprise the Net.
+
+            The
+real explanation of the Internet's cheapness lies in the difference between the
+telephone system and the Net. (A note: The rest of this article applies to the
+United States. The same basic rules apply to Internet users elsewhere, except
+that they probably pay more for Internet service, and lots more for
+phone service.)
+
+            Consider a typical long-distance telephone call from
+me in Washington, D.C., to my aunt in San Francisco. My long-distance company
+(which happens to be MCI) gives me an uninterrupted, real-time circuit between
+my house and my aunt's. In exchange, I pay MCI about 20 cents for every minute
+I'm connected. Of that 20 cents, MCI pays about 2 or 3 cents to my local phone
+company, Bell Atlantic, for carrying the call from my house to MCI's lines. It
+pays another fraction (probably 5 cents) to Pacific Bell for delivering the
+call the last few miles to my aunt's house. MCI pockets the rest.
+
+            The
+actual cost of a long-distance call--after all capital costs have been
+counted--is only slightly more than that of a local call. But for decades,
+Congress and the FCC have mandated artificially cheap local phone service and
+artificially expensive long-distance service. MCI's payments to local phone
+companies--called "access charges"--are a subsidy. It costs Pacific Bell less
+than a cent to deliver my call. The other 4 cents are payback for giving my
+aunt cheap and unlimited local calls.
+
+            Now, consider the Internet. In one very important way,
+using the Net is no bargain. You need $2,000 worth of computer hardware to
+connect to it, about $1,960 more than the price of a telephone. But once you've
+got the gear, the Internet beats telephone costs for three significant
+reasons.
+
+            1. The Internet
+exploits low local phone rates. Unless you live somewhere remote, you reach
+the Internet by making a local call to your Internet Service Provider.
+Your ISP, in turn, leases super-fast long-distance fiber-optic cable from MCI,
+Sprint, AT&T, regional Bells, and other telecommunications companies.
+(These firms have plenty of fiber to spare.) These fiber-optic lines carry your
+Internet traffic around the country, delivering it to "Network Access Points,"
+which link different networks like highway interchanges. When your data reach a
+Network Access Point, they hop on a line owned by another company and travel to
+their destination. But because the Internet travels on leased lines, the data
+entirely avoid the long-distance phone companies' own networks, and
+therefore avoid the access charges the long-distance companies must pay to
+local phone companies on normal telephone calls.
+
+            2. Talk isn't cheap,
+but data are . ISPs can offer unlimited access on their lines for two
+reasons. First, it saves them billing costs; telephone companies, by contrast,
+spend billions every year calculating who used what line and when. Second,
+Internet data transmission is remarkably efficient. When you make a 10-minute
+long-distance voice call, the phone company maintains an open circuit from end
+to end. You pay for every second, even if you're on hold. When you go online to
+check out a Web page, you may spend 10 minutes reading the page (and 10 minutes
+dialed into your ISP). But you only use the Internet for a few seconds:
+the time it takes to send your request to the page's Web server and for the
+server to deliver the page to you. For the other 9 minutes and 50-plus seconds,
+the ISP's long-distance line is free. Many Internet users can share a line that
+would need to be occupied full time by a telephone call.
+
+            3.
+There are no guarantees on the Internet . Telephone service is a promise:
+You can be almost certain that you can complete a call immediately to anyone
+else with a phone. Internet service is a shrug: You can be reasonably sure, but
+no more, that you can send your data to another Internet user pretty
+quickly.
+
+            The Internet is an uncertain network because it is
+"packet-switched." This means that data are broken up into small pieces, or
+packets. Each packet seeks the cheapest route, at the instant it is sent, to
+the destination. When all the packets arrive at that destination, a computer
+reassembles them. Packet switching is a frugal, efficient way to send data from
+point a to point b (albeit via points c, d, q, and k). But packet switching is
+not terribly reliable: Packets routinely get lost or delayed, crippling
+communication.
+
+            
+Internet telephony, one of the coolest new online applications, illustrates
+packet switching's drawbacks. If two Internet users own the right software,
+they can talk by telephone over the Net. It is miraculously cheap: Speech is
+digitized, packet-ized, and sent over the Net, for no more than the cost of
+online access. But because the Net gets clogged and packets are waylaid, the
+sound quality is low and interruptions are common.
+
+            The Internet may soon be less of a bargain . It is
+clogging as more and more Net heads use packet-intensive, real-time
+applications such as Internet telephony and RealAudio. These "streaming"
+applications swallow enormous chunks of bandwidth for long periods of time,
+eliminating one of the Net's chief economies. There are three principal
+remedies for Internet congestion:
+
+            1. ISPs can lease more and
+bigger lines.
+
+            2. Customers who want to
+ensure fast access can replace their modems with pricey, high-bandwidth ISDN
+lines, T1 lines, cable modems, and so on.
+
+            3. ISPs can discriminate
+between heavy and light users. Customers will pay a premium to use streaming
+applications or send high-priority messages.
+
+            Remedies 1 and 2 are
+already taking place. The third is coming soon. All of them will make the
+Internet easier to use. And in the short term, all of them will make the
+Internet more expensive.
+
+         
+      
+   

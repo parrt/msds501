@@ -1,0 +1,116 @@
+
+   
+   
+      
+         
+            A Banner Year
+
+            One of
+the events we political Web-watchers were waiting for has arrived: Serious
+presidential candidates have begun advertising on the Internet. George W.
+Bush's campaign is now running several different interactive banner ads
+targeted to Web users in early primary states, including one for voters in New
+Hampshire that allows viewers to calculate how much they would save under
+Bush's tax plan. (Click here to see the tax-savings banner.) John McCain ran
+banners soliciting volunteers to circulate ballot petitions for him in Virginia
+last month. (To see these ads, click here.) Today
+McCain announced another Internet ad campaign touting his support for a
+permanent moratorium on Internet taxation.
+
+             
+
+            The
+Bradley and Gore campaigns are likely to follow suit with banner ads of their
+own. But before these ads become as commonplace as 30-second TV spots, it's
+worth considering a few of the issues they raise.
+
+            
+
+               Privacy: Both Bush's and McCain's banner ads were developed by
+Aristotle
+Publishing , a political firm that maintains up-to-date voter lists and
+sells them to campaigns for use in various kinds of voter targeting, from
+direct mail to door-to-door canvassing. Aristotle has recently developed an
+Internet application. It cross-references its voter information with data
+collected by portals, Web sites, and Internet service providers. By sifting
+such information together, the company believes it can surgically target
+clusters of voters of special interest to candidates--such as, say, married
+women in their 30s who are registered as Republicans in New Hampshire. Both
+Bush and McCain have been using Aristotle's method of targeting banners for
+their pilot Internet ads.
+
+            But
+this sort of targeting raises an ethical question: Should a person, by virtue
+of registering to use a certain Web site, become the involuntary recipient of
+political propaganda? Jay McAniff of Aristotle says his firm relies on what is
+known as "permission-based marketing"--that is, it only uses information
+offered voluntarily, not the kind gained passively on the basis of "cookies"
+(click  for Michael Kinsley's explanation of cookies). And the McCain and Bush
+campaigns both say they won't resell or otherwise use the information collected
+from people who click on their ads.
+
+             
+
+            But
+even if all are scrupulous about what they do with user data, there's something
+Big Brother-ish about being bombarded with ads based on information you've
+given for another purpose. Imagine if your television was able to gather
+details about your viewing habits and your personal life and then transmit that
+data to companies that wanted to use it to sell you things. You might find it
+pretty creepy. With e-mail spam or old-fashioned direct mail, at least the
+recipient knows that someone is marketing something to him with the help of
+data that someone else sold. With banner ads, targeting can be invisible.
+
+            
+
+               Disclosure and Fairness: Bush spokesman Scott McClellan told
+me that the campaign's banner ads have run on some 1,500 Web sites, including
+Yahoo, Excite, and CNN.com. But McClellan declined to give any more specific
+information about the ad buy for "strategic reasons." McCain's campaign
+couldn't provide the names of any of the Web sites where it was advertising.
+Aristotle Publishing isn't even willing to divulge the name of the company that
+actually places its banner ads on Web sites.
+
+            If we
+were talking about conventional TV or radio advertising, all such information
+would be a matter of public record. According to federal law, stations have to
+maintain open books showing who spent how much on political advertising. This
+assures compliance with Federal Communications Commission rules designed to
+secure equal access to public airwaves. Mandatory disclosure means that WMUR,
+the leading TV station in New Hampshire, can't give Steve Forbes a volume
+discount without offering the same deal to Forbes' rivals. But these FCC rules
+haven't yet been applied to the Internet, and it's not clear they can be.
+Portals and ISPs don't use the public airwaves, and they don't need
+broadcasting licenses.
+
+            
+There's a widespread and largely sensible aversion to the mechanistic
+application of existing campaign-finance regulations to the rapidly evolving
+medium of the Internet. But the TV-Internet disclosure disparity is hard to
+justify in principle and points to potential abuses down the road. As it is
+now, Web companies not only have the ability to provide diabolically precise
+demographic targeting to political campaigns, they can also make such offers
+exclusively. Yahoo could theoretically offer its entire inventory of New
+Hampshire Republicans through Feb. 1 to the Forbes campaign at a premium price.
+This would be unfair to the other candidates--and if done on television or
+radio, entirely illegal. But a campaign lawyer I spoke to for this story said
+he couldn't see what would prevent it on the Internet, so long as Yahoo charged
+at least the going rate for the ads.
+
+            
+
+               Effectiveness: Of course, we'll only need to worry about
+issues of fairness and privacy if banner ads are seen by political campaigns as
+working. The Bush people say the results of their effort aren't in yet, but
+they're optimistic and expect to stick with Internet advertising. The McCain
+campaign has more specific evidence of success. According to spokesman Dan
+Schnur, 192 people clicked McCain's Virginia banner ads, some 2 percent of
+those who viewed the banners. This isn't a bad response rate, though it means
+the overall campaign was tiny--just 10,000 ad impressions. But of the 192
+people who clicked, Schnur says nearly half followed through by circulating
+petitions for McCain. An ad buy that probably cost less than $1,000 prompting
+nearly 100 people to volunteer in person--that's true interactivity.
+
+         
+      
+   

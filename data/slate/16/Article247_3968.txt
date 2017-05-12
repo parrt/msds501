@@ -1,0 +1,78 @@
+
+   
+   
+      
+         
+            The Justice Department's Blunt Instrument
+            
+
+            It's just an odd coincidence, but there did seem to be something telling
+about the "What's News" section on the front page of today's Wall Street
+Journal, which listed as its first item the findings of fact in the
+Microsoft antitrust trial and as its second Pfizer's $74 billion hostile bid
+for Warner-Lambert. (Pfizer is attempting to muscle out American Home Products,
+which wants to have a friendly merger with Warner-Lambert.)
+
+            The first item describes the results of the U.S. government's relentless
+pursuit of a company it argues--and Judge Jackson agrees--is a monopolist
+engaged in anti-competitive behavior. The second item, by contrast, describes
+the results of the U.S. government's general indifference to the
+anti-competitive implications of the huge wave of mergers that continues to
+sweep across every sector of the U.S. economy. And the logical question these
+items raises is: What's the difference?
+
+            To be sure, it's not entirely fair to say that the Justice Department and
+the Federal Trade Commission have been asleep at the wheel when it comes to
+pursuing antitrust cases. They have blocked the Staples-Office Depot merger and
+the Lockheed-Northrop Grumman deal, and threw a monkey wrench (ill-advisedly,
+but still) into Barnes & Noble's proposed acquisition of book distributor
+Ingram. And in other cases, they've forced companies to sell off divisions or
+make other changes before mergers would be approved.
+
+            On the whole, though, the consolidation of industries ranging from financial
+services to telecommunications to aerospace to the drug industry has proceeded
+remarkably fast and with remarkably little interference. And what's perplexing
+about this, particularly in light of the Microsoft case, is that mergers often
+have an immediate anti-competitive impact, in the simplest sense that they
+reduce the number of players in a market. If the Justice Department's default
+position is that competition protects consumers--a sensible enough
+position--then it's hard to see why the merger boom should not be scrutinized
+more carefully than it has been.
+
+            Of course, antitrust law is a very blunt instrument, and should be used only
+when real harm can be discerned. But antitrust law is also much better suited
+to preventing the formation of giant megacorporations--it is called
+anti- trust law, after all--than to eradicating monopolies that have
+arisen by other means.
+
+            Remember that monopolies per se are not illegal. In fact, the
+establishment of temporary monopolies--of taste, of technology, or of
+distribution--is the only way that companies are able to reap meaningful
+economic profits, which otherwise would be immediately competed away. A
+monopoly becomes illegal only when the company exercising it uses that monopoly
+to shut out competitors in other markets, either through coercion or by
+subsidizing low, competition-killing prices in that market. (Again, many
+academic economists question whether this last tactic is really feasible, but
+antitrust law depends on the assumption that it is.) And this, of course, is
+exactly what Judge Jackson's findings of fact say Microsoft did.
+
+            Oddly, though, when the Justice Department's Joel Klein appeared on ABC's
+This Week over the weekend, he seemed to be saying something more than
+that Microsoft had acted in ways that were unacceptable for a monopolist. He
+seemed to suggest that being a monopolist was itself unacceptable. "You know,
+in America you have a choice," he said. "And if IBM or Gateway or Compaq or
+Dell ... had a choice, they could go to Microsoft and negotiate (or) they could
+go to somebody else and negotiate. Here, everybody's got to go to one
+place--that's what's hurting us."
+
+            That's an audacious reading--or rather rewriting--of antitrust law, and
+suggests that what Klein wants is not just the breaking up of Microsoft into
+separate companies but the breaking up of Microsoft's operating-system division
+into competing companies (since otherwise there still wouldn't be choice of
+different versions of Windows for IBM or Gateway or Dell). Maybe next we can
+block any further acquisitions by Pfizer and tell it that it has to set up
+competing companies to distribute different versions of Viagra, too.
+
+         
+      
+   

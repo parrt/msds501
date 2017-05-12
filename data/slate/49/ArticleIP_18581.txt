@@ -1,0 +1,129 @@
+
+   
+   
+      
+         
+             Win, Place, and No!
+
+            Sandra Loosemore,
+CBS SportsLine's figure skating writer , has a mission.
+She wants to overturn the sport's new scoring system.
+
+            The traditional system came under fire after the
+Great Flip-Flop of 1997 at the European Championships. In the men's
+free-skating event, five competitors had skated, and the first three places
+were held by Alexei Urmanov, Viacheslav Zagorodniuk, and Philippe Candeloro, in
+that order. The final contestant, Andrejs Vlascenko, placed dead last--but in
+the process he managed to bump Candeloro up to second place, denying
+Zagorodniuk a silver medal.
+
+            (For Loosemore's
+explanation of how the old scoring system worked, and how it caused the Great
+Flip-Flop, click here .)
+
+            International Skating Union Chairman Ottavio Cinquanta
+decreed after the championship that the scoring system must be revised to
+prevent flip-flops. When the new system was announced in July 1998, Cinquanta
+rejoiced that the problem was solved, so that henceforth "if you are in front
+of me, you will remain in front of me."
+
+            Loosemore has raised
+several cogent objections to the new system. First, it is more complicated than
+the old system. Second, contrary to Cinquanta, it won't stop flip-flops. In
+fact, Loosemore's computer simulations suggest that it will make flip-flops
+more common, not less.
+
+            What should the ISU do? Economist Kenneth Arrow hacked this
+problem five decades ago with his "Arrow Impossibility Theorem," which proves
+that no reasonable scoring system can preclude flip-flops. (The word
+"reasonable" incorporates the ISU's commitment to basing final outcomes only on
+the order in which the judges have ranked the contestants rather than on their
+explicit numerical scores.)
+
+            When Arrow was laying
+the foundations for his future Nobel Prize, he was concerned not with ranking
+figure skaters but with ranking social priorities. But Professor Michael Stob
+of Calvin College points out that the problems are identical. Judges may
+disagree about whether Zagorodniuk is better than Candeloro. Voters may
+disagree about whether a Star Wars defense system is better than a tax cut. In
+order to name winners, the ISU needs a scoring system to amalgamate the judges'
+opinions into a single ranking. In order to take political action, the United
+States needs a social choice mechanism to amalgamate voters' many preferences
+into a single list of priorities.
+
+            It might appear that the United States can afford more
+ambiguity than the ISU. Members of Congress can get away with cheerfully
+endorsing multiple conflicting goals and declaring them all "top priorities,"
+whereas at the end of the day, the ISU must declare who gets the gold, who gets
+the silver, and who gets the bronze. But the fact is that at the end of the
+day, political decisions do get made, as surely as skating medalists get
+chosen. The government either cuts taxes or it doesn't. Although the political
+process is far more complex than anything the ISU might devise, the decisions
+it arrives at are just as unambiguous.
+
+            Arrow set forth two desiderata for any social choice
+mechanism. First, unanimity, when it occurs, should be respected. If all the
+judges rate Zagorodniuk ahead of Candeloro, then Zagorodniuk should come in
+ahead of Candeloro. If 100 percent of the voters prefer Clinton to Dole, then
+Dole should not be president. This criterion is the easy one. I doubt that any
+sport, or any polity, has ever violated it.
+
+            Arrow's second dictum is
+that there should be no flip-flops. If A ranks ahead of B, then the entry of a
+third candidate, C, should not overturn that ranking. Simple majority voting,
+for example, notoriously violates the no-flip-flop criterion. It's easy to
+imagine an election where Clinton is initially ahead of Dole, but a third party
+entry by, say, Jesse Jackson, pushes Dole ahead of Clinton. This can happen
+even when Jackson runs a distant third, as long as he takes more votes from
+Clinton than from Dole. Arrow's goal was to eliminate such anomalies with a
+more sophisticated voting system.
+
+            With a bit of elementary mathematics and a lot of keen
+insight, Arrow was forced to a sobering conclusion: If a "reasonable" voting
+system is one that respects unanimity and precludes flip-flops, then there
+are no reasonable voting systems, with one exception--the system that
+picks one voter and makes him a dictator.
+
+            In figure skating, that
+means the only system that could satisfy Cinquanta is a system with only one
+judge. (Actually, you could have as many judges as you wanted, as long as you
+ignored all but one of them.) In politics, it means that if you can't tolerate
+flip-flops, you'd better start getting comfortable with absolute
+dictatorship.
+
+            Is there any way around Arrow's dire conclusion? Well, his
+proof does leave one loophole. If the number of voters is literally infinite,
+then the conclusion can be overturned. In that case, there are
+nondictatorial voting systems that both respect unanimity and eliminate
+flip-flops. However (and this can be proved mathematically), although such
+systems exist, none of them can be explicitly described. This observation seems
+unlikely to be applicable either to figure skating or to constitutional
+government.
+
+            Another avenue is to
+observe that although every reasonable system allows flip-flops, some allow
+more flip-flops than others--and we can try to design a system that allows as
+few as possible. Loosemore argues that the old scoring system is superior in
+this respect, while Cinquanta asserts the opposite. I haven't studied the issue
+closely enough to take a firm stand but, based on what I've seen, my money is
+on Loosemore.
+
+            A third approach is to accept flip-flops as part of life
+and get on with designing a voting system that meets other reasonable
+criteria. But the people who get excited about this kind of project tend to get
+carried away. In 1975, the American Mathematical Society wanted to elect a
+slate of four officers from a list of eight candidates. The rules for counting
+ballots filled--in the words of the society's secretary--"thirty-three pages of
+definitions, rules, interpretations, and examples." Having supplied members
+with a summary of those rules, the secretary felt compelled to append this
+note: "Please do NOT correspond with the writer about the ambiguities that are
+unresolved in the above abbreviated description. Instead, refer to Appendices
+IV and V, where eleven pages of rules appear to leave no ambiguities."
+
+            Loosemore might not like Cinquanta's new scoring
+system, but she can be thankful that it wasn't designed by the American
+Mathematical Society.
+
+         
+      
+   

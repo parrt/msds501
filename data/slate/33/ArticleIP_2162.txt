@@ -1,0 +1,344 @@
+
+   
+   
+      
+         
+            Welcome to SLATE
+
+            An
+introduction and apologia.
+
+            By Michael
+Kinsley
+
+            The name? It means
+nothing, or practically nothing. We chose it as an empty vessel into which we
+can pour meaning. We hope SLATE will come to mean good original journalism in
+this new medium. Beyond that, who knows? Good magazines are exercises in
+serendipity. Credit--or blame--for the name "SLATE," by the way, goes to David
+Weld, then of Microsoft, now of Cognisoft Corp.
+
+            A Seattle cyberwag says
+that the name "SLATE" is appropriate, because whenever he asks anyone from
+Microsoft, "How's your project coming along?" the answer he usually gets is,
+"'s late." SLATE , in fact, has been reasonably prompt. Less than six
+months ago, it was a four-page memorandum and a single Internet naif. SLATE is
+not the first "webzine," but everyone in this nascent business is still
+struggling with some pretty basic issues. Starting an online magazine is like
+starting a traditional paper magazine by asking: "OK, you chop down the trees.
+Then what?"
+
+            To be honest, we are
+running late on a few things. For the reader--you--there is good news and bad
+news here. The good news is that our billing system isn't ready yet. We intend
+to charge $19.95 a year for SLATE. That is far less than the cost of equivalent
+print magazines, because there's no paper, printing, or postage. But $19.95
+($34.95 for two years) is more than zero, which is what Web readers are used to
+paying. We believe that expecting readers to share the cost, as they do in
+print, is the only way serious journalism on the Web can be self-supporting.
+Depending completely on advertisers would not be healthy even if it were
+possible.
+
+            And we
+want to be self-supporting. Indeed one of SLATE's main goals is to demonstrate,
+if we can, that the economies of cyberspace make it easier for our kind of
+journalism to pay for itself. Most magazines like SLATE depend on someone's
+generosity or vanity or misplaced optimism to pay the bills. But
+self-supporting journalism is freer journalism. (As A.J. Liebling said, freedom
+of the press is for those who own one.) If the Web can make serious journalism
+more easily self-supporting, that is a great gift from technology to
+democracy.
+
+            For the moment, though, SLATE is yours for free. So enjoy.
+We expect to start requiring registration in a few weeks, and to require
+payment beginning Nov. 1.
+
+            The bad news for readers
+is that some features aren't quite ready yet. Prime among them is "The Fray,"
+our reader-discussion forum. Meanwhile, though, please e-mail any comments you
+may have to slate@msn.com. We'll be publishing a traditional "Letters to the
+Editor" page until The Fray is up and running in a few weeks.
+
+            We
+especially need, and appreciate, your comments in these early weeks. Every new
+magazine is a "beta" version for a while, especially a new magazine in a new
+medium. SLATE has gotten enormous hype--some of it, to be sure, self-induced,
+but much of it not. We appreciate the attention. But of course, it also makes
+us nervous. We have a smaller budget and staff than most well-known
+magazines--even smaller than some webzines. We don't claim to have all the
+answers. But, with your help, we plan to have all the answers by Christmas.
+[LINK TO TEXT BBB]
+
+            
+               So What's in It?
+            
+
+            First, let me urge you to
+read a special page called Consider Your Options. This page explains and
+executes the various ways you can receive and read SLATE. If you don't like
+reading on a computer screen, for example, there's a special version of SLATE
+that you can print out in its entirety, reformatted like a traditional print
+magazine. If you don't mind reading on a screen but hate waiting for pages to
+download--and hate running up those online charges from your Internet
+provider--you will soon be able to download the whole magazine at once and read
+it offline.
+
+            Also on the Consider Your
+Options page, you can order SLATE to be delivered to your computer by e-mail.
+(Caution: This may not work with your e-mail system.) We'll even send you
+SLATE 
+               on Paper , a monthly compilation of highlights from SLATE,
+through the U.S. Mail. (The cost is $29 a year. Call 800-555-4995 to
+order.)
+
+            Individual copies of
+SLATE 
+               on Paper will be available exclusively at Starbucks. And
+selected articles from SLATE will also appear in Time magazine.
+
+            While you're on the
+Consider Your Options page, please read about how to navigate around SLATE. We
+use page numbers, like a traditional print magazine, and have tried to make it
+as easy as possible either to "flip through" the magazine or to and from the
+Table of Contents.
+
+            
+               OK, But What's in
+It??[STET double "??"]
+            
+
+            SLATE
+is basically a weekly: Most articles will appear for a week. But there will be
+something new to read almost every day. Some elements will change constantly.
+Other elements will appear and be removed throughout the week. Every article
+will indicate when it was "posted" and when it will be "composted." As a
+general rule the Back of the Book, containing cultural reviews and commentary,
+will be posted Mondays and Tuesdays, the longer Features will be posted
+Wednesdays and Thursdays, and the front-of-the-book Briefing section will be
+posted Fridays. If you miss something, you can easily call it up from our
+archive, "The Compost."( THIS NEEDS TO BE A HOT LINK)
+            
+
+            Let me try to describe a typical issue of SLATE.
+
+            The Readme column will not
+always be as solipsistic as this one. It will usually be a commentary on public
+affairs by one of SLATE's editors.
+
+            Several regular
+departments in the Briefing section are attempts at "meta-news": the news about
+the news, a sense of how the week's big stories are being played and perceived.
+The Week/The Spin takes a dozen or so topics, from this week's
+election-campaign developments to the latest big book from Knopf, and analyses,
+as objectively [LINK TO TEXT CCC]as possible, the spin they're getting, the
+sub-angles that are emerging, and so on. In Other Magazines uses the covers and
+contents of Time , Newsweek , etc., as a handy measure of what the
+culture considers important. (We aim to have these magazines in SLATE even
+before they reach the newsstands or your mailbox.) The Horse Race
+tracks the presidential candidates like stocks, as priced by the opinion polls,
+the pundits, and a genuine market in political candidates run out of the
+University of Iowa. Our man William Saletan will compute and analyze changes in
+the pundits index.
+
+            The
+Gist, by contrast, is SLATE's effort to provide a quick education on some
+current issue in a form as free of spin as possible. Also free of quotes,
+anecdotes, and other paraphernalia. The only 1,000 words you'll have to read
+when you might rather read nothing at all.
+
+            In a weekly department called Varnish Remover, political
+consultant Robert Shrum will deconstruct a 30-second TV spot from the election
+campaign. You can download a video or audio clip of the spot itself.
+"Assessment" will be a short, judgmental profile of some figure in the news.
+(Coming up soon: James Fallows on Wired magazine's godfather, Nicholas
+Negroponte.)
+
+            Stanford economist Paul
+Krugman writes The Dismal Scientist, a once-a-month column on economic policy.
+(See his debut essay in this issue, about the economic war within the Clinton
+administration.) University of Rochester economist Steven Landsburg writes
+monthly on "Everyday Economics," using economic analysis to illuminate everyday
+life. (His first column, in our next issue, will explain how sexual promiscuity
+can actually reduce the spread of AIDS.)
+
+            "The Earthling" will be a
+monthly column by Robert Wright, contributor to the New Republic and
+Time , and author of the acclaimed book on evolutionary psychology,
+The Moral Animal . Other regular Briefing features will include a Press
+column by our deputy editor, Jack Shafer.
+
+            
+Doodlennium is our weekly cartoon strip by Mark Alan Stamaty, whose
+"Washingtoon" appeared for many years in the Washington Post and
+Time . Our SLATE Diary will be an actual daily diary, written and posted
+every weekday by someone with an interesting mind. Our first diarist is David
+O. Russell, writer and director of Flirting With Disaster . Our second
+diarist will be novelist Muriel Spark.
+
+            
+               Can There Possibly be More?
+            
+
+            Our Features section
+begins each week with the Committee of Correspondence, our e-mail discussion
+group. The committee is run by Herbert Stein, a former chairman of the
+president's Council of Economic Advisers best-known now for his witty columns
+in the Wall Street Journal . We have great hopes for e-mail as a medium
+of debate that can combine the immediacy of talk-television with the
+intellectual discipline of the written word. We hope for something halfway
+between The McLaughlin Group and the correspondence page of the New
+York Review of Books . Will it work? Check out our first attempt--Does
+Microsoft Play Fair?--and let us know what you think.
+
+            The Features section is
+also where we run longer articles [LINK TO TEXT DDD] and occasional humor
+pieces (that is, pieces that are intentionally, or at least aspirationally,
+humorous). This week in The Temptation of Bob Dole, SLATE's Washington editor,
+Jodie Allen, cruelly analyzes the arguments for a tax cut. Social critic
+Nicholas Lemann writes on Jews in Second Place, about what happens to American
+Jews as Asians replace them at the top of the meritocracy. And the legendary
+recluse Henry David Thoreau emerges to give SLATE readers an exclusive peek at
+his new Web page.
+
+            In
+SLATE Gallery, we have a continuous exhibition of computer-based art. You may
+like or dislike this stuff (we'll have plenty of linked commentary to help you
+decide). What appeals to us about computer art is that SLATE can show you not
+reproductions, but the actual art itself. We start with an offering by Jenny
+Holzer.
+
+            This week's reviews include Ann Hulbert's book review of
+Miss Manners' latest encyclical; Sarah Kerr's television review of the changing
+fashions in season finales; Larissa MacFarquhar's High Concept column, about
+how managed care could improve psychotherapy; and Cullen Murphy's The Good
+Word, about the difference between "Jesuitical" and "Talmudic."
+
+            In general, SLATE's Back
+of the Book will contain a weekly book review, alternating television and movie
+reviews, and a rotating menu of columns on music (classical and popular),
+sports, web sites, and other topics. Jeffrey Steingarten will be writing
+monthly on food ("In the Soup"), Anne Hollander on fashion ("Clothes Sense"),
+and Margaret Talbot on "Men and Women." Audio and video clips will be offered
+where appropriate.
+
+            Every issue will have a
+poem, read aloud by the author, with text. In this issue is a new poem by
+Seamus Heaney.
+
+            And
+coming up soon, two additional Back of the Book features: an interactive
+acrostic puzzle, and a stock-market contest.
+
+            
+               Does SLATE Have a Slant?
+            
+
+            SLATE is owned by
+Microsoft Corp., and that bothers some people. Can a giant software company put
+out a magazine that is free to think for itself? All we can say is that
+Microsoft has made all the right noises on this subject, and we look forward to
+putting the company's hands-off commitment to the test. But the concern strikes
+me as misplaced. In a day of media conglomerates with myriad daily conflicts of
+interest--Time Warner, Rupert Murdoch's News Corp., Disney-ABC--how can it be a
+bad thing for a new company to begin competing in the media business? A
+journalist who worries about Microsoft putting out a magazine is a journalist
+with a steady job.
+
+            Readers may also wonder
+whether SLATE will have a particular political flavor. The answer is that we do
+not set out with any ideological mission or agenda. On the other hand, we are
+not committed to any artificial balance of views. We will publish articles from
+various perspectives, but we will not agonize if the mix averages out to be
+somewhere other than dead center. [LINK TO TEXT EEE]
+
+            A good magazine, though,
+does develop a personality, an attitude, [LINK TO TEXT FFF]and some
+prejudices--even crotchets. A few of SLATE's are already becoming clear. In
+discussing current events, we have a preference for policy over politics. We'd
+rather discuss the effect of Bob Dole's tax-cut proposal on the economy than
+its effect on Bill Clinton. Within the policy arena, we seem to have a special
+fondness for economics. This was not planned; it's one of those serendipitous
+developments I mentioned. Whether it reflects good luck or bad luck is a matter
+of taste (yours).
+
+            Finally, we intend to take
+a fairly skeptical stance toward the romance and rapidly escalating vanity of
+cyberspace. We do not start out with the smug assumption that the Internet
+changes the nature of human thought, or that all the restraints that society
+imposes on individuals in "real life" must melt away in cyberia. There is a
+deadening conformity in the hipness of cyberspace culture in which we don't
+intend to participate. Part of our mission at SLATE will be trying to bring
+cyberspace down to earth.
+
+            Should be fun. Thanks for
+joining us.
+
+            
+               Michael Kinsley is
+editor of SLATE.
+
+             
+
+            TEXT AAA: No, this is
+not a link to the Cognisoft home page. As a general rule, we plan to
+avoid hyperlinks to outside sites in the text of articles, and to group them at
+the end instead. It's a small illustration of our general philosophy--better
+call it a hope--that, even on the Web, some people will want to read articles
+in the traditional linear fashion--i.e., from beginning to end--rather than
+darting constantly from site to site. Go back.
+
+            TEXT BBB: Only kidding.
+Easter. Go back.
+
+            TEXT CCC: Objectivity, we
+hope, will distinguish this feature from Newsweek 's "Conventional Wisdom
+Watch," which is often an effort to set the spin rather than describe it.
+Anyway, the "CW Watch" was a rip-off of a similar feature in the New
+Republic when I was the editor there. And TNR 's feature itself was
+lifted from Washington, D.C.'s, City Paper , which was edited at the time
+of the theft by Jack Shafer, now deputy editor of SLATE. Go back.
+
+            TEXT DDD: Those dread
+words "longer articles" raise one of the big uncertainties about this
+enterprise: How long an article will people be willing to read on a computer
+screen? We have several answers to this question: 1) We don't know. Clearly
+it's less than on paper, but how much less is uncertain. 2) We're determined to
+test the outer limits. 3) We'll do our best, graphically, to make reading on
+screen a more pleasant experience (suggestions welcome). 4) We'll also make
+SLATE as easy as possible to print out. 5) This will become less of a problem
+as screens are developed that can be taken to bed or the bathroom. 6) Two
+thousand words. Or at least we're starting--optimistically, perhaps--with the
+hope that 2000 words or so is not too much. (By contrast, a typical
+print-magazine feature or cover story might run anywhere from 5000 to 15,000
+words.)
+
+            At least among
+non-cyberheads, the computer-screen problem seems to be everyone's favorite
+conversational thrust with regard to SLATE. In recent months I've been amazed
+to learn of the places and postures in which people like to read magazines. Bed
+and bath are just the beginning. At a Seattle dinner party, a woman made the
+interesting point that her problem isn't the screen: It's the chair. Even
+"ergonomic" computer chairs are designed for typing, not for reading. For this
+woman, and for others who may feel the same way, we have asked several
+furniture designers to sketch a real computer reading chair--one you can curl
+up in with your mouse and your cup of Starbucks and read SLATE online. That
+feature will appear in a week or two. Go back.
+
+            TEXT EEE: In this regard
+we are more like the newsmagazines-- Time , Newsweek , U.S. News
+& World Report --than the overtly political magazines such as the New
+Republic , National Review , or the Weekly Standard . Each of
+the newsmagazines may have an identifiable political tilt. But pushing a
+particular line is not what they are fundamentally about, and knowing where
+they average out won't tell you what any individual article will say. Go
+back.
+
+            TEXT FFF: This is
+different from "attitude"--that free-floating, supercilious cynicism that is
+much prized in the culture of cyberspace. We may develop an attitude--a
+set of prejudices derived from logic and evidence, as best we can determine
+them--but we'll leave "attitude" to the kids. Go back.
+
+         
+      
+   

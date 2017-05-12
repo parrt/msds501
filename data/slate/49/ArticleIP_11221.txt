@@ -1,0 +1,89 @@
+
+   
+   
+      
+         
+            
+
+            
+               Instant
+Slate
+               
+            
+
+            As part of our continuing efforts to make it easier
+and more convenient to print out your favorite 
+                  Slate
+               
+features on (... what is that stuff called again? Oh, yes,) paper, we're
+pleased to announce, through a special arrangement with Hewlett-Packard, a
+nifty--and free--new bit of software from HP called Instant Delivery. It is a
+much simpler variation on HP's Web PrintSmart software described in "" a few
+weeks ago. What makes it simpler is that we do most of the work. ("We" meaning
+
+                  Slate
+               's self-sacrificing software development team,
+not the lazy, pig-ignorant journalists, let alone the business staff.)
+
+            With Instant Delivery, you can have
+
+                  Slate
+               's "Today's Papers" waiting for you at your
+printer every morning. Your computer will automatically dial up (if necessary),
+connect to the Web, download Today's Papers (in a specially formatted edition
+for printing out), and send it to your printer. We plan to make other
+
+                  Slate
+                features available this way in the coming
+months.
+
+            Actually, once you have installed HP Instant
+Delivery, you can use it to schedule automatic printouts of any page on the
+Web--including other pages of 
+                  Slate
+               . But they won't
+be formatted for printing out, you'll have to do the scheduling yourself, and
+the pages must have unchanging URLs (Web addresses). (HP's other software,
+Print Smart, solves the formatting and URL problems at the cost of formidable
+complexity. But do give that one a try, too, if you're feeling ambitious. My
+earlier explains how.
+
+            Go to this special page
+of 
+                  Slate
+                for complete instructions on downloading,
+installing, using Instant Delivery, and a technical support phone number. The
+download button will take you to HP's site (in most cases in a separate browser
+window), and you'll have to get back to 
+                  Slate
+                for the
+button that schedules Today's Papers. But we know you can handle that. So
+please give it a try.
+
+            
+               Only the Weak Skip
+the Week
+            
+
+            Lesser magazines in lesser media are known to take a
+week off during Christmas and New Year. Not so 
+                  Slate
+               .
+We will publish complete issues for the next two weeks. Well, when we say
+"complete" we should add that--strictly for the convenience of our readers, you
+understand, who will be busy roasting turkeys, fighting with relatives,
+etc.--the next two issues will be just slightly less overloaded than usual with
+journalistic riches. And--purely so that you can get some
+
+                  Slate
+                reading in before the hordes descend--our staff
+will be closing next week's issue on Wednesday, Dec. 23, and the following
+week's on Thursday, Dec. 31. We'll combine those two issues for e-mail
+subscribers in a special 
+                  Slate on Paper
+               , which will
+be e-mailed Dec. 31. No, don't thank us. Merry Christmas.
+
+         
+      
+   

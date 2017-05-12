@@ -1,0 +1,112 @@
+
+   
+   
+      
+         
+            Property Is Theft
+
+            When your neighbor installs
+a burglar alarm, thoughtful burglars are encouraged to choose a different
+target--like your house, for example. It's rather as if your neighbor
+had hired an exterminator to drive all the vermin next door. On the other hand,
+if your neighbor installs video cameras that monitor the street in front of
+both your houses, he might be doing you a favor. So the spillover effects of
+self-protection can be either good or bad.
+
+            Consider
+the different ways that people self-protect against car theft. Devices like
+alarm systems and the "Club" have a social upside: Their proliferation might
+make car theft so unprofitable that potential thieves would decide to seek more
+useful employment (though, on the other hand, it's possible that they'll seek
+employment as, say, arsonists or killers for hire). But those same devices have
+a social downside: They encourage thieves to prey more heavily on those who
+haven't bought one. From a social viewpoint, if the total number of thefts does
+not change, then the expenditure on alarm systems is pure waste.
+
+            For a much lower cost, you can install "fake"
+self-protection--say, a little blinking red light that looks like it's attached
+to an alarm system, or a cheap piece of foam rubber that looks from a distance
+like the heavy metal Club. Here again you're imposing a cost on your neighbors:
+If these devices become common, the value of the real thing is diluted.
+
+            That point was driven home to
+me the last time I shopped for a car. Acura offered a security system as
+mandatory equipment. Toyota allowed you to buy a car without a security system.
+You could then go out and install your own system for considerably less than
+what Acura was (implicitly) charging.
+
+            But I
+decided that Acura's system--even at a much higher price--was the better deal.
+Professional car thieves know that the security system is mandatory on
+an Acura, and therefore know that my blinking red light is for real. With the
+Toyota, even if I do install a real security system, thieves might suspect me
+of trying to fool them and smash my windows to find out.
+
+            
+There's another kind of security system,
+available only in a few cities. The "Lojack" is a hidden radio transmitter that
+can be activated after your car is stolen, to lead police to the thief (or,
+better yet, to the chop shop that employs the thief). The transmitter is hidden
+randomly within the car, so thieves cannot easily find it and deactivate
+it.
+
+            The Lojack is completely
+hidden. There's no way to look at a car and know whether it has a Lojack
+installed. So unlike, say, the Club, a Lojack will never prevent any particular
+car from being stolen; it will only increase the chance of its being recovered.
+But from a social point of view, the Lojack has the huge advantage of
+helping your neighbors rather than hurting them. The Club convinces
+thieves to steal someone else's car instead; the Lojack convinces thieves not
+to steal.
+
+            And it does so with
+remarkable effectiveness. Economists Ian Ayres and Steven Levitt have examined
+the effects of the Lojack in about a dozen cities over the past 10 years (its
+first introduction was in Boston in 1986). Their task wasn't easy, because just
+as the prevalence of the Lojack affects auto-theft rates, so auto-theft rates
+affect the prevalence of the Lojack--first because consumers buy more security
+equipment when theft rates are high, and second because regulators behave
+differently when thefts are high.
+
+            But after
+sorting all this out, Ayres and Levitt found that the Lojack has an
+astoundingly large effect on auto-theft rates. It turns out that a 1 percent
+increase in Lojack sales can reduce auto-theft rates by 20 percent or more.
+What's happening to all those car thieves? Are they moving to other cities, or
+are they becoming house burglars, or are they turning into socially useful
+citizens? Ayres and Levitt examined these difficult questions also, and their
+bottom-line conclusion is that the Lojack really does prevent a lot of
+crime, rather than just moving it to other venues.
+
+            In fact, although it costs only about $100 a year to have a
+Lojack, Ayres and Levitt estimate that each individual Lojack prevents about
+$1,500 a year in losses due to theft. In most cases, that $1,500 benefit
+accrues not to the Lojack owner, but to strangers.
+
+            By the criteria that
+economists usually employ, this suggests that Lojacks should be heavily
+subsidized, just as visible security systems--like my neighbor's home burglar
+alarm or the Club--should be taxed. When you're doing something that makes
+strangers better off, you should be encouraged to do more of it.
+
+            If we all used the same
+insurance company, you might expect that company to supply the appropriate
+subsidy. As long as your Lojack reduces the number of insurance claims, the
+company should be willing to pay you to install it. But with multiple insurance
+companies, that doesn't work so well: A company that insures only 10 percent of
+the populace will reap only 10 percent of the Lojack's benefits, and so will
+undersubsidize them. Worse yet, large insurance discounts are illegal in many
+states.
+
+            The media have recently paid
+a lot of attention to research on other kinds of self-protection, most notably
+the work of John Lott and David Mustard on concealed handguns. But the Lojack
+research is in many ways more informative, because the authors were able to do
+a thorough job of distinguishing between benefits to the purchaser of a
+Lojack and benefits to the community at large. That discrepancy is the sort of
+thing that leads markets to fail--in this case by providing too many Clubs and
+not enough Lojacks.
+
+         
+      
+   

@@ -1,0 +1,126 @@
+
+   
+   
+      
+         
+            Stop Me Before I Link Again
+
+            TicketMaster is suing
+Sidewalk--Microsoft's online city guide--for linking to its Web site. A
+half-dozen big media companies have targeted TotalNEWS with a lawsuit because,
+they say, the site is using Web technology to steal their content. Suddenly,
+the ease of linking from Web site to Web site, which makes the World Wide Web
+so useful, is generating lawsuits that cloud the right to link.
+
+            A world
+of interconnected information, where readers jump from one document to another,
+was first envisioned by engineer Vannevar Bush in 1945. His whirling system of
+motors, levers, and microfilm is to the Web what Leonardo da Vinci's
+helicopters are to the Chinook CH-47. But you get the idea. Bush disciple Ted
+Nelson took the idea to the world of digital computers in 1962, calling his
+creation "hypermedia" and dubbing these jumping points "hyperlinks." One early
+commercial hypermedia product was HyperCard, released with the Macintosh
+computer in 1987. HyperCard allows users to link "stacks" of information
+they've written or assembled on computer "notecards." But the true promise of
+hypermedia was linking information across a global network, and that had to
+wait until 1992 and Tim Berners-Lee's invention of the World Wide Web.
+
+            The Web's rapid acceptance owes much to the ease with which
+Web pages can be created. And the proliferation of the lawsuits owes much to
+the ease with which Web pages can be linked to one another. Creating links is
+easy because each Web page, and each image on the page, has a unique address on
+the Web called a URL (Universal Resource Locator). For instance, the URL for
+this page is http://www.slate.com/webhead/97-06-06/webhead.asp.
+
+            To see how this all works,
+follow me as I build a Web site containing home page A and image B.
+
+             
+
+            A browser loading home page A
+sees that it refers to image B and loads that too, then displays the whole
+thing.
+
+             
+
+            
+The great thing about this scheme is that if
+you are on a slow connection to the Internet, you can tell your browser to
+ignore the images. This speeds things up quite a bit (click to find out
+how).
+
+            The bad thing about this
+scheme is that since every image has a public URL, anyone can use it. In the
+example below, some villain has co-opted image B for his nefarious (and
+libelous) ends.
+
+             
+
+            The offending page doesn't technically copy or distribute
+the image in question. It just points the user's browser to address B. Some
+lawyers think that this may constitute a "public display," similar to illegally
+publishing a copyrighted photograph in a newspaper, but this argument remains
+untested.
+
+            
+Interestingly, if the page simply provides a hyperlink to the image in
+question, the law becomes even murkier. Entertain, for a moment, this scenario:
+If we at Slate captured your voicemail recording and played it on our site
+without your permission, some lawyers would say that we had violated your
+copyright. But if we cited your telephone number instead, we wouldn't be
+violating copyright laws--even though Web surfers could hear the same recording
+by dialing the number. Hyperlinks are like telephone numbers--but instead of
+dialing them, you click on them.
+
+            
+The TicketMaster dispute muddles this point
+further. The company is upset not because Sidewalk provided a hyperlink to
+TicketMaster's site, but because Sidewalk provided a hyperlink "deep" into
+TicketMaster's site. What is "deep"? Well, the page you're looking at is
+relatively deep in Slate. To find your way here, you probably typed in Slate's
+home page URL, http://www.slate.com. We showed you today's cover, then our table
+of contents, and you eventually clicked on the "Webhead" link. But if a friend
+gave you the precise URL for this column, you could go directly to it. So, in a
+way, the link to this story is a "deep" hyperlink, because it avoids our home
+page.
+
+            This is
+what Sidewalk did: It recorded the URLs of TicketMaster's transaction pages,
+where you buy tickets for specific shows. It then placed hotlinks to these URLs
+on its own pages that hype various concerts and theatrical productions. This
+angered TicketMaster because it allowed potential purchasers of tickets to
+avoid ads and promotions on TicketMaster's home page and all the intermediate
+pages you must visit before you can buy a ticket. Returning to my voicemail
+analogy, it's as if I cited not only your telephone number, but also the code
+to skip your clever message (hint: on most voicemail systems, press "#"). While
+this may not be friendly, it doesn't seem like a violation of
+intellectual-property law.
+
+            While the lawsuit proceeds, TicketMaster and Sidewalk have
+exchanged some entertaining technological volleys. Click for a brief account of
+these.
+
+            Just as a Web page can
+include an image by citing that image's URL, so also can it include another Web
+page by citing that page's address. This technique is called "framing." I
+framed pages in my last Webhead to compare search results from various search services.
+Slate's lawyer tells me this sort of framing doesn't violate anyone's copyright
+(phew!). It's called "fair use," and is comparable to the quotation of a short
+passage of a book in a review.
+
+            So why did the news sites sue
+TotalNEWS? See for yourself. When you click to TotalNEWS, a column of icons for
+several news sites appears down the left side of the page. If you click, say,
+USA Today , up pops the USA Today Web site, but inside a frame.
+TotalNEWS' advertisement remains visible. This definitely isn't "fair use." If
+courts decide that such framing constitutes a "public display," or even that it
+causes confusion in the market ("unfair competition"), then TotalNEWS is
+violating intellectual-property law.
+
+            As we go to press, TotalNEWS
+has settled out of court. For details, see this June 6 Wired
+News story.
+
+         
+      
+   

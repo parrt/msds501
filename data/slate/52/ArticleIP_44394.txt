@@ -1,0 +1,133 @@
+
+   
+   
+      
+         
+            Obstacles to E-Voting
+
+            
+
+               This is the second in a two-part series about Internet voting. To read Part
+1, by Jacob Weisberg, click .
+            
+
+            Every
+year around this time, Americans lament our low voter turnout rate--44.9
+percent in 1998, putting us 138 th in a list of 170 voting nations.
+This explains the growing interest in Internet voting, which promises to do for
+democracy what Amazon.com did for books. Aside from making voting vastly more
+convenient, say its supporters, click 'n' pick elections could theoretically
+eliminate fraud, allow instant recounts, and save pots of money.
+
+            Buoyed
+by these hopes, election boards across the country have begun to take tentative
+steps toward wired elections (many private organizations--most notably
+universities and unions--already conduct internal elections online). State
+officials in California, Florida, Washington, Iowa, Minnesota, and New Mexico
+are all examining online voting. In California, the Campaign for Digital
+Democracy is collecting digital petitions for a ballot initiative that would
+legalize Internet voting--though virtual signatures aren't legally valid, at
+least not yet. Software companies eager to showcase their e-voting wares have
+held mock online elections in Iowa, Washington, and Virginia. And today, under
+a pilot project run by the Department of Defense's Federal Voting Assistance
+Program, 350 military personnel posted overseas will vote online. If the test
+goes well, the FVAP will consider eventually making online voting available for
+all Americans living abroad.
+
+            
+E-voting isn't nearly as radical as it sounds, for two reasons. First of all, a
+large and growing proportion of Americans--about 50 percent of Washington
+state's electorate and a quarter of Californians--already mail in their votes
+via absentee ballot. Oregon, the most aggressive remote-vote state, has
+abolished polling places entirely and now conducts elections exclusively by
+mail. Local jurisdictions in 15 other states have conducted all-mail elections
+too. While online elections would use fancier technology, they're based on the
+same premise--that you can send polling authorities a document that will serve
+as your proxy.
+
+            
+Second, as pointed out in this space last week, Americans have already been
+voting by computer for years. Most polling places use one of three
+computer-based technologies: punch cards, optical scans ,
+or electronic
+recording . (Less than one-fifth of the electorate uses old-fashioned
+mechanical
+lever machines , which aren't even being made anymore.) Most experts
+expect the next generation of voting technology to be Internet-based. And once
+voters start using Internet terminals at polling places, it's a short step to
+using the same technology from home or work.
+
+            But
+for this to happen, software makers will have to devise voting systems that are
+demonstrably secure. All of those currently being developed employ digital
+signature technology--a cryptographic alternative to traditional signatures
+that identifies a document's origin and verifies that it hasn't been altered
+while being transmitted (click here for a primer). Banks and insurance companies already use
+digital signatures to transfer large sums of money online.
+
+            Here's
+how it might work: A few weeks before the election, you visit your county's Web
+site and print out a form declaring that you'd like to vote online. You sign it
+and send it--via snail mail--to your local election authorities. The
+authorities verify that your signature matches the one on your original
+registration form at the county courthouse and also record the digital identity
+of the computer from which you've downloaded the form. You're then sent a PIN
+that will work only from that computer. On Election Day, you log onto the site
+using your PIN and check off your choices on a Web-based ballot. Once you're
+done voting, your ballot is encrypted--transformed into an unintelligible
+mathematical code using an elaborate algorithm--so that it can't be read during
+transmission. When it arrives, a central computer records both that your ballot
+was cast and the contents of the ballot, but in two separate places. Keeping
+this information separate means that election officials can verify that you
+voted without seeing how you voted. Another copy of the data is burned into a
+CD as a backup.
+
+            On an
+individual level, the system is about as secure as an absentee ballot. Just as
+you could sign an absentee ballot but let someone else fill it out, there's
+little to stop you from allowing someone to vote with your computer and PIN--or
+to stop someone else from forcing you to turn yours over. But an interloper
+would have to obtain thousands of PINs and computers to influence any election.
+And one day online voting may be far more secure than absentee voting. Software
+designers hope eventually to use biometrics--voice and fingerprint
+recognition--to check each voter's identity.
+
+            
+Election officials are far more worried about mass cheating. Since regular
+polling places are scattered in thousands of locations around the country,
+large-scale fraud is almost impossible. But if a federal election was run from
+a central server, hackers could flood it with activity or jam phone lines,
+preventing people from logging on to vote. Software makers say they'll address
+that problem by using multiple servers and telephone lines. But the Voting Integrity
+Project--a nonprofit group that monitors election soundness--calls
+nationwide Internet voting "a large, non-moving, target to potential vote
+thieves or hackers."
+
+            Any
+state that implements online voting may also have to contend with legal issues
+of representation. The Voting Rights Act, passed in 1965 to end discrimination
+against blacks, prohibits several (mostly Southern) states and counties from
+making any change in voting procedures without federal approval. This clause
+applies to even minor changes that could reduce minority participation. Given
+the "digital divide" between well-wired white and Asian voters on the one hand
+and less technology-equipped blacks and Latinos on the other, online elections
+could be seen as an infringement on voting rights. (For more on Internet use
+among different socio-economic groups, see the Commerce Department's "Americans
+in the Information Age: Falling
+Through the Net .")
+
+            But the most formidable
+obstacle to online voting may be entrenched interests threatened by change. In
+Oregon, vote-by-mail took a decade to go from proposal to implementation
+because of skepticism by citizens and politicians. "It's like campaign-finance
+reform--the people who control it are products of the system," says online
+voting evangelist Marc Strassman. (Strassman is in charge of business
+development for Votation.com, an Internet voting company, and is also the founder
+of the Campaign for Digital Democracy, the group behind the California ballot
+initiative.) Phil Keisling, Oregon's secretary of state and a champion of
+vote-by-mail, agrees, "The question behind closed doors is, 'Will this help our
+candidate?' There's clearly a strain of people who hope for low turnout."
+
+         
+      
+   

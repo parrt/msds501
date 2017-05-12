@@ -1,0 +1,82 @@
+
+   
+   
+      
+         
+            SLATE tosses its cookies.
+
+            
+               Slate
+Tosses Its Cookies
+            
+
+            One can lead a happy and
+fulfilling life, and even use the Internet contentedly, without understanding
+"cookies." So if you don't know what "cookies" are--in the computer sense--go
+in peace and consider yourself fortunate. But if you have ventured into the
+wonderful world of cookies, you may be one of those folks who is alarmed about
+them. This is completely unnecessary. Cookies are merely special messages a Web
+site's computer sends to your computer when you drop by to visit--for example,
+"Have a nice day," or, "End child abuse now," or, "Wipe out this person's hard
+drive on his next birthday," or, "Psst ... hey, buddy. Yeah, you with the
+pathetic 486 chip and the broken CD-ROM. Mr. G says there's an extra 8 megs of
+memory for you if you crash when she tries to install Netscape." All perfectly
+innocent.
+
+            Nevertheless, a few cookie
+paranoiacs have set their browsers to alert them when a cookie is heading their
+way. And some of them have complained that this notice pops up a lot when
+they're reading Slate. Slate actually uses very few cookies. For example, we
+tell your browser to remember the date of your visit. When you come back the
+next time, your computer sends that date back to ours. If it's still the same
+day, we don't feed you the cover again but take you straight to the Table of
+Contents. Similarly, we use cookies to remember whether you prefer your
+contents listed by page number or by date of posting, and to remember which
+entry in a "Dispatch" or "Dialogue" you last read. All perfectly innocent.
+
+            But we
+did investigate these complaints, and it turned out that our server computers
+were sending jars and jars of cookies we didn't need. To emphasize: This was
+information from us going into your computer, not information
+from you going into ours. And it really was harmless stuff. Nevertheless, we
+have turned off these superfluous cookies. If you don't believe us, or if that
+doesn't satisfy you, your browser can screen or block all cookies. On Microsoft
+Internet Explorer, just click on "View," then "Options," and choose the
+"Advanced" tab. Of course, is Microsoft really alerting you to all incoming
+cookies--or only to other people's cookies? We merely ask.
+
+            
+
+               Fore!
+            
+
+            That sense of excitement in
+the air ... the soaring stock market ... the summer weather that has lasted
+beyond its normal term ... the sudden improvement in scansion and rhyme in
+American poetry: These welcome developments can have only two possible
+explanations. One is El Niño, the fashionable weather trend that, as David
+Plotz explains in this week's "Assessment,"
+explains everything. The other explanation is the imminent arrival of IE4, the
+fourth generation of Microsoft's Internet Explorer Web-browser software. Slate,
+of course, is determined to bring the same degree of objectivity and hype
+resistance to this event that we legendarily brought to our coverage of the
+birth of Jesus some 2,000 years ago--an occasion the release of IE4, as it
+happens, closely resembles.
+
+            Click
+here to
+download IE4. (And, what the heck, click here to download Netscape's fourth-generation browser.) Slate is
+already adding features to take advantage of IE4's enormous power, beauty, and
+sophistication. For example, if you have IE4 installed, when you click on an
+author's name a short bio pops up (instead of the click taking you to the bio
+at the bottom of the page). Not just that, but ... well, yes, just that for the
+moment. But there's lots more coming. Just so you're prepared.
+
+            
+
+               --Michael Kinsley
+            
+
+         
+      
+   

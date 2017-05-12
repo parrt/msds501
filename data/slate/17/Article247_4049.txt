@@ -1,0 +1,58 @@
+
+   
+   
+      
+         
+            What Do Autopilots Do?
+            
+
+            News reports about the crashes of EgyptAir
+Flight 990 and the private plane carrying golfer Payne Stewart have focused on
+the use of the airplanes' autopilots. What exactly do autopilots
+do?
+
+            The autopilot is an electronic system that manipulates the
+three "control surfaces" that determine an airplane's course: the movable
+panels, called ailerons, on the back of each wing that
+allow the plane to bank right or left; the tail rudder, which turns the
+aircraft's nose; and the elevators, which point the plane up or down. The
+autothrottle, which determines the airplane's speed, is controlled by a
+separate system.
+
+            On commercial aircraft, the autopilot and autothrottle are
+controlled by an advanced onboard navigational computer called the flight
+management system (FMS). Typically, a pilot programs the FMS before takeoff,
+entering landmarks, altitude, and desired speed; during flight, the FMS uses
+instrument readings and radio signals from fixed points on the ground to figure
+out what adjustments are needed to meet the flight plan. If a human is in
+command, he or she must make the changes by hand; with the autopilot engaged,
+these adjustments are made automatically.
+
+            Autopilots have several advantages. Primarily, they help keep
+the crew from getting tired, leaving them free to alter the flight plan, scout
+for traffic, and monitor the plane's other systems (like hydraulics and air
+pressurization). Autopilots also improve fuel efficiency and passenger comfort,
+since the adjustments made by an autopilot are more subtle and accurate than
+those made by hand.
+
+            That's why autopilots are typically engaged on commercial
+aircraft throughout nearly the entire flight. When human pilots take
+control--usually during takeoff and landing, and occasionally in mid
+flight--it's largely because they need to stay in practice, not because the
+autopilot would be unable to fly safely. (In fact, in bad weather, the FAA may
+require that pilots allow the autopilot and FMS, which don't rely on visual
+cues, to land the plane.) Pilots also take command in turbulence since an
+autopilot would waste fuel and possibly exacerbate the bumps by making many
+adjustments to keep the plane on a steady course. If a pilot doesn't disengage
+the autopilot before taking control, the FMS interprets his movements as
+outside forces and instructs the autopilot to work against them.
+
+            Next
+question?
+
+            Explainer thanks the Air Transport
+Association and the Aircraft Owners and Pilots Association .
+
+         
+      
+   

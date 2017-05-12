@@ -1,0 +1,162 @@
+
+   
+   
+      
+         
+            Rashomon in Connecticut
+
+            Rarely in the course of
+human events have so few people lost so much money so quickly. There is no
+mystery about how Greenwich-based Long-Term Capital Management managed to make
+billions of dollars disappear. Essentially, the hedge fund took huge bets with
+borrowed money--although its capital base was only a couple of billion dollars,
+we now know that it had placed wagers directly or indirectly on the prices of
+more than a trillion dollars' worth of assets. When it turned out to have bet
+in the wrong direction, poof!--all the investors' money, and probably quite a
+lot more besides, was gone.
+
+            But the
+really interesting questions are all about why. Why did such smart people--and
+the principals in LTCM are smart, even if some of them have Nobel Prizes in
+economics--take such seemingly foolish risks? Why did the world give them so
+much money to play with? As Akira Kurosawa could have told us, the beginning
+and end of the story are not enough: We need to know the motivations and
+behavior in between.
+
+            LTCM was secretive about how it made money, but the basic
+idea went something like this. Imagine two assets--say, Italian and German
+government bonds--whose prices usually move together. But Italian bonds pay
+higher interest. So someone who "shorts" German bonds--receives money now, in
+return for a promise to deliver those bonds at a later date--then invests the
+proceeds in Italian bonds, can earn money for nothing.
+
+            Of course,
+it's not that simple. The people who provide money now in return for future
+bonds are aware that if the prices of Italian and German bonds happen not to
+move in sync, you might not be able to deliver on your promise. So they will
+demand evidence that you have enough capital to make up any likely losses, plus
+extra compensation for the remaining risk. But if the required compensation and
+the capital you need to put up aren't too large, there may still be an
+opportunity for an exceptionally favorable trade-off between risk and
+return.
+
+            
+OK, it's still not that simple. Any opportunity
+that straightforward would probably have been snapped up already. What LTCM
+did, or at least claimed to do, was find less obvious opportunities along the
+same lines, by engaging in complicated transactions involving many assets. For
+example, suppose that historically, increases in the spread between the price
+of Italian as compared with German bonds were correlated with declines in the
+Milan stock market. Then the riskiness of the bet on the Italian-German
+interest differential could be reduced by taking out a side bet, shorting
+Italian stocks--and so on. In principle, at least, LTCM's computers--programmed
+by those Nobel laureates--allowed the firm to search for complex trading
+strategies that took advantage of even subtle market mispricings, providing
+high returns with very little risk.
+
+            But in
+the course of a couple of months, somehow it all went bad. What happened?
+
+            One version of events makes the principals at LTCM victims
+of circumstance. Their trading strategy, goes this story, was basically sound.
+But there is no such thing as an absolutely risk-free investment strategy. If
+the gods are sufficiently against you, if a peculiar, nay, unprecedented
+combination of events--debacle in Russia, stalemate in Japan, market crash in
+the United States--comes to pass, even the best strategy comes to grief.
+According to this version, there is no particular moral to the story, except
+that **** happens.
+
+            Most
+people in the investment world, however, are not that forgiving of LTCM. Their
+version of events does not accuse the principals of evil intent, but it does
+accuse them of myopia. The magic word is "kurtosis," a k a "fat tails." The
+story goes like this: Everyone knows that there are potential events that are
+not likely to happen but will have very big effects on financial markets if
+they do. A realistic assessment of risk should take into account the
+possibility of these large, low-probability events--in effect, should allow for
+the reality that now and then **** does indeed happen. But the wizards at LTCM,
+so the story goes, forgot about reality. They treated the statistical
+distributions found by their computers, based on data from a period when ****
+didn't happen, as if they represented the entire universe of possibilities. As
+a result, they greatly understated the risk to which they were exposing both
+their investors and those who lent them money.
+
+            
+However, knowing the people who ran LTCM--who,
+to repeat, are as smart as they were supposed to be--it is kind of hard to
+believe that they were really that naive. These were experienced hands (not
+your typical 29-year-old traders, who don't remember anything before 1994).
+Anyone who has lived through energy crisis and debt crisis, inflation and
+disinflation, Reaganomics and Clintonomics, has to know that big surprises are
+part of life. Which brings us to the third, more sinister version of events:
+that LTCM knew exactly what it was doing.
+
+            Here's
+the way one investment industry correspondent--who prefers to be nameless--put
+it to me. Suppose, he says, that someone was willing to lend you a trillion
+dollars to invest as you like. What that lender has done is in effect to give
+you a "put option" on whatever you buy with that trillion dollars. That is,
+because you can always declare bankruptcy and walk away, it is as if you owned
+the right to sell those assets at a fixed price, whatever might happen in the
+market. And because the value of an option depends positively on
+"volatility"--the uncertainty about the future value of the underlying
+asset--the rational way to maximize the value of that option is to invest the
+money in the riskiest, most volatile assets you can find. After all, it's heads
+you become wealthy beyond the dreams of avarice, tails you get some bad press
+(and lose the money you yourself put in--but when you are allowed to make a
+trillion-dollar gamble with only $2.3 billion of your investors' capital, that
+hardly matters). And as my correspondent reminds us, the people who ran LTCM
+understood all about this sort of thing--indeed, those Nobel laureates got
+their prizes for, guess what, developing the modern theory of option
+pricing.
+
+            This "moral hazard" version of the story may seem a bit too
+stark to be believed. Did the managers really sit around saying, "Hey, let's
+gamble with the money those suckers have lent us"? Actually, it's a
+possibility: I don't know any of the LTCM players personally, but some of the
+hedge fund types I do know are, as my correspondent puts it, "about as moral as
+great white sharks." But anyway, never underestimate the power of hypocrisy. It
+is entirely possible for a man to act in a crudely cynical way without
+admitting it even to himself. Given their enormous incentive to take improper
+risks, it would actually be amazing if the managers at LTCM didn't respond in
+the normal way.
+
+            But we are
+still not quite there. For the remaining puzzle is why the world provided LTCM
+with so much money to lose. All those clever strategies depended on
+counterparts--on people and institutions who would provide cash now in return
+for the promise of German bonds, or whatever, later. Why were those
+counterparts so willing to play along? (LTCM, as a matter of principle, refused
+to divulge its assets or strategy--so anyone who entered a contract with the
+firm was accepting an unknown risk.) Were these counterparts--mainly big banks
+and other institutional investors--simply naive?
+
+            
+Some of my correspondents say no. They think
+the big boys knew the risks but believed that if LTCM came to grief its
+creditors would be protected from loss by the government. In effect, they
+believe the LTCM story is mainly an updated version of what happened to the
+savings and loans, in which government guarantees underwrote an era of
+high-rolling risk-taking. True, there is no formal guarantee. But they believe
+that there was an implicit understanding that any major financial institution
+is simply "too big to fail."
+
+            But I don't buy it.
+Economists often make the working assumption that the private sector always
+knows what it is doing, that markets do stupid things only when the government
+gives them distorted incentives. It's a useful working assumption, but it is no
+more than that. In fact, everything I can see suggests that the big boys really
+were naive--that, star struck by LTCM's charismatic leader and his prestigious
+team, they failed to ask even the simplest questions (such as, "How much money
+have you borrowed from other people?")
+
+            Of course, if you believe
+that big, supposedly sophisticated players can be that foolish--or, for that
+matter, if you believe that they are not foolish but do foolish things because
+the government will always bail them out--you start to wonder whether our whole
+financial structure is as sound as we like to imagine. Did somebody say "crony
+capitalism"?
+
+         
+      
+   

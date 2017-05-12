@@ -1,0 +1,105 @@
+
+   
+   
+      
+         
+             How Big a Safety Net?
+
+            Why do we have a social safety net? It depends on
+whom you ask. Some say it's a matter of political prudence (e.g. "The
+alternative to a safety net is a revolution"). Others say it's a moral
+imperative.
+       Among the latter, the most influential is Harvard University professor
+of philosophy John Rawls. Rawls likens the safety net to an insurance payout.
+Here's his argument: Back before you were born--in fact, before you were even
+conceived--nobody knew you were going to develop into the sort of sophisticated
+individual who reads 
+                  Slate
+               . For all anyone knew, you might have
+been born without enough skills to boot up a computer--or to earn a decent
+living.
+
+            If your unborn soul
+could have bought an insurance contract, then you'd probably have snapped up
+some kind of "skill insurance" in which everybody pays premiums, and those who
+land in the shallow end of the gene pool split the pot.
+       Of course, you didn't buy insurance. But that's only because
+there are no telephones in the world-before-birth, so the insurance salesmen
+couldn't contact you. According to Rawls and his followers, you would have
+bought the insurance if you could have, and that creates a moral obligation
+upon all to pay the premiums.
+       That's a very powerful argument, but it's incomplete. Here's why: It
+offers no estimate of how much insurance your unborn self would have
+wanted. Rawls says we should enforce a bunch of hypothetical insurance
+contracts, but you can't enforce a contract if you don't know what it says. So,
+to convert the Rawlsian argument into a concrete policy, you first have to
+determine what terms we'd have written into those pre-birth agreements.
+
+            
+Here's how the philosophers solve that problem:
+They guess. Most of them guess that our unborn selves would all have cheerfully
+signed on for a pretty substantial welfare state. Being an economist and not a
+philosopher, I am inclined to think about such questions a little more
+deeply.
+       How much insurance would an unborn soul want to buy? We already know a
+lot about the demand for insurance from available data on how much of it (fire,
+life, disability, auto, etc.) people in the real world buy.
+       Some people demand more insurance than others do because they face more
+risk. So before we can estimate how much skill insurance your pre-birth self
+might have purchased, we must first estimate how much risk you were facing when
+God was handing out the brains.
+
+            
+The right way to measure risk is to measure the
+statistical variance of the possible outcomes. In this case, that means
+measuring the statistical variance of human talents. You can't measure talent
+directly, but you can measure it indirectly--say by observing people with
+similar education and training, and measuring the variance in their earnings.
+After you've controlled for education and training, earnings are at least a
+rough measure of talent.
+       Once you've measured that variance, you've measured the risk, so you can
+go back to the insurance markets and observe how much insurance people choose
+to buy when they're facing similar risk levels. That gives at least a rough
+estimate of how much we should all be paying into the general welfare pool.
+
+            
+Economists James Kahn (of the New York Federal
+Reserve Bank) and Hugo Hopenhayn (of the University of Rochester) recently
+sacrificed a lunch hour and the back of an envelope to computing that rough
+estimate. The bottom line turns out to be astounding: If you take the insurance
+metaphor seriously, then 23 percent of the population--the 23 percent with the
+fewest skills--should be permanently unemployed and on welfare. In other words,
+the present-day welfare state is not nearly as large as it ought to be. So, if
+the Rawlsian philosophers had bothered to do a little arithmetic, they might
+have discovered that their arguments are a lot stronger than they dared to
+expect.
+       But Kahn and Hopenhayn's arithmetic leaves something out. They
+implicitly assumed that it would be costless to identify the people with the
+fewest skills so that we can put only those people on the dole. That assumption
+becomes invalid if highly skilled people can hide their abilities in an attempt
+to defraud the system. Policing such fraud can make social insurance policies
+considerably more expensive, and when insurance is more expensive, people want
+less of it. Factor that into the equation, redo the calculations, and
+you end up concluding that the fraction of the population on welfare should be
+just 0.6 percent--in other words, practically zero.
+
+            
+The truth probably lies somewhere in between 23
+percent and 0.6 percent: We can't costlessly observe each other's skills, but
+we can't costlessly hide our own skills, either. In other words, maybe the
+social net should be drastically expanded, and maybe it should be drastically
+slashed. Not too definitive a conclusion. But it's the result of just one
+afternoon's work, and it's more precise than anything the philosophers have
+come up with in the quarter century since Rawls first made his argument.
+       Personally, I'm not sold on the insurance metaphor to begin with, for
+reasons that could fill a separate column. But the broader point is that if
+your argument is based on metaphors, you should be prepared to treat those
+metaphors with respect. If the safety net is really just like insurance, then
+we should be buying it in quantities commensurate with our other insurance
+purchases. And we should be making an honest effort to calculate what those
+quantities are. The philosophers don't seem willing to meet that
+responsibility. That's why we need economists.
+
+         
+      
+   

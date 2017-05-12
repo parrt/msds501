@@ -1,0 +1,118 @@
+
+   
+   
+      
+         
+             Too True To Be Good
+
+            Not everything you read on the World Wide Web is
+true. Not everything you read in the New York Times is true, either. So
+when you read about scientific breakthroughs, how do you know what to
+believe?
+
+            Partly, you trust your instincts: A theory that
+life evolved from clay is more inherently plausible than a theory that life
+evolved from Play-Doh. Partly, you consider the source: A Harvard professor is
+more credible than a Dartmouth dishwasher. And partly you rely on expert
+judgments: If a prestigious journal has agreed to publish the clay theory, it's
+probably wrong.
+
+            Yes, I meant to say that: If a prestigious
+journal publishes a theory, it's probably wrong . Given two equally
+plausible theories from equally credible sources that have passed equally
+strict scrutiny, the one that makes it into a top journal has a smaller
+chance of being right. Here's why: Editors like to publish theories they find
+surprising. And the best way to surprise an editor is to be wrong.
+
+            That's not to say that
+editors are reckless. At least in mathematics and economics (the two fields
+where I can testify from personal experience), the editorial process is
+rigorously demanding. Long before an article is submitted for publication, the
+author is expected to circulate drafts among experts in the field and to
+respond to their criticisms and comments--a process that typically takes years.
+Only then is the (now heavily revised) article formally submitted, whereupon
+the editor handpicks an expert referee to examine it line by line--a process
+that can easily take another year or more. Are referees ever lax and careless?
+Surely. Are they lax and careless with articles of genuine importance? In my
+observation, essentially never. Through multiple rounds of correspondence,
+referees demand satisfaction regarding every important detail. In many cases,
+the author will visit the referee's home institution for a semester or a year
+to be available for periodic grilling.
+
+            That's exactly what's so damning about the hoax perpetrated
+in 1996 by Alan Sokal. Sokal's paper, intentionally stripped of logic,
+evidence, and even meaning, was accepted for publication in the cultural
+studies journal Social Text . True, this was a one-time event, but it was
+an event so far removed from anything that could possibly occur in a legitimate
+academic enterprise that it converted agnostics like me, who had doubted the
+status of cultural studies as an intellectual discipline, into hard-core cynics
+with no doubt whatsoever.
+
+            In a serious economics
+journal, it would be impossible to publish an article like Sokal's. But it
+would not be impossible, or even unusual, to publish a carefully reasoned
+article that's still wrong. That's because of the bias I mentioned earlier:
+Given two papers that have both survived the vetting process, editors tend to
+prefer the more surprising, which means that on average they prefer the one
+that's wrong.
+
+            It's easy to see how the same dynamic could work at a
+newspaper. "Man bites dog" is a better story than "dog bites man," but it's
+also more likely to be wrong, even if both stories are reported by equally
+reliable witnesses. In general--and this observation is a mainstay of college
+statistics courses--when you think you've seen something unusual, you're more
+likely to be mistaken than when you think you've seen something ordinary. But
+it's the unusual that makes the front page.
+
+            A few years ago,
+economics professors J. Bradford De Long and Kevin Lang devised an ingenious
+way to determine just how many published economic hypotheses are actually true.
+They looked through several years' worth of issues of the top economics
+journals and found 78 hypotheses that were confirmed by strong evidence--the
+sort of evidence that led the authors to accept their own hypotheses. (Another
+198 hypotheses were rejected by their authors.) In exactly none of the 78 cases
+could the confirmation be called overwhelming.
+
+            But that's OK. Strong evidence is, after all, strong
+evidence, even when it's a little shy of overwhelming. In most cases,
+overwhelming evidence is too much to ask for, because evidence can be hard to
+collect and hard to interpret. So no individual article can be criticized for
+failing to live up to an unattainable standard.
+
+            But, said De Long and
+Lang, out of 78 true hypotheses, surely there should be at least a few
+that are overwhelmingly confirmed. In fact, they gave a precise definition of
+the word overwhelming, according to which roughly 10 percent of all true
+hypotheses should come packaged with overwhelming evidence. So if all 78
+hypotheses are true, then roughly 7.8 of them--call it eight-- should be
+confirmed overwhelmingly. And they're not.
+
+            OK, so maybe that's because not all 78 are true. Maybe only
+50 are true. In that case, five should be confirmed overwhelmingly. Or maybe
+only 30 are true, in which case three should be confirmed overwhelmingly. The
+problem is that exactly zero are confirmed overwhelmingly, and zero is
+10 percent of--zero! So out of 78 "confirmed" hypotheses, it seems that
+approximately zero are true.
+
+            Using a more sophisticated version of the same
+techniques, De Long and Lang concluded that some of the 78 "confirmed"
+hypotheses might be true, but probably not more than about a third of them. In
+other words, when a published article in a top journal presents evidence that
+its hypothesis is true, its hypothesis is probably false. It would be very
+interesting to perform the same experiment with, say, medical journals instead
+of economics journals. I'd be very surprised if the results were substantially
+different.
+
+            If this makes you feel pessimistic about the
+progress of science, keep in mind that we can learn a lot from even a very few
+true hypotheses submerged in a sea of false ones. And here's another ray of
+hope: De Long and Lang's results were published in the prestigious Journal
+of Political Economy , so they're probably wrong to begin with. And this
+account of them was published in 
+                  Slate
+               , so it's probably wrong,
+too.
+
+         
+      
+   

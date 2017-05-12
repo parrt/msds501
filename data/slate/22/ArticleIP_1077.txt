@@ -1,0 +1,109 @@
+
+   
+   
+      
+         
+            Stock-Market Circuit Breakers
+
+            In the heat of last Monday's
+stock-market dive, the New York Stock Exchange debuted circuit breakers.
+Reviews of the procedure, which halts trading when the Dow Jones industrial
+average drops dramatically, are mixed. Most traders say that the pauses
+exacerbated the panic. Treasury Secretary Robert Rubin and others credit the
+pauses with calming jittery investors. What are circuit breakers? Why were they
+created? What is the evidence that they work?
+
+            Following
+the October 1987 Black Monday stock-market crash , a presidential task
+force was convened to investigate the crash's causes and suggest remedies that
+would prevent a repeat performance. The task force blamed "faulty market
+mechanisms ." The exchanges, it argued, lacked the infrastructure to
+accommodate the trading volume that the drop occasioned: Phone lines clogged,
+computers crashed, and printers jammed. Many orders simply weren't received.
+Deluged traders couldn't match the buy and sell orders they had. The task force
+recommended--and in 1989 the New York Stock Exchange implemented-- circuit
+breakers , a pause in trading that would give buyers and sellers time to
+assimilate incoming information and arrange transactions. Circuit breakers
+afford investors and traders the time to sell stock calmly, rather than dump it
+in a panic.
+
+            The main circuit breaker is an NYSE rule that
+automatically stops trading for 30 minutes whenever the Dow Jones
+industrial average tumbles 350 points from its previous day's close. Another
+circuit breaker halts trading for an hour if the market drops another 200
+points. The NASDAQ exchange, the American Stock Exchange, and the Chicago
+Mercantile Exchange now stop trading whenever the NYSE stops. Also after 1987,
+the exchanges agreed to curtail computer trading of futures when the Dow Jones
+industrial average either gains or loses 50 points. This procedure is invoked
+regularly.
+
+            Although circuit breakers
+were first imposed this week, the governing board of the NYSE does stop trading
+when circumstances warrant it. Following the 1987 market crash, for instance,
+the NYSE shortened its hours to curtail panic trading. During the "paperwork
+crisis " of 1968, the NYSE cut back hours for the first three months of the
+year so that brokers could handle a massive backlog of unfilled orders. In
+addition, specialists--the traders who handle the transactions of an individual
+stock--are granted permission regularly by the NYSE to stop trading stock to
+restore temporary imbalances between supply and demand. Bad weather,
+presidential assassinations, and power outages all have resulted in the closing
+of the market.
+
+            Most
+foreign governments require local 
+               exchanges to halt the trading
+of stocks that have dropped drastically. Monday, markets in Tokyo, London, and
+elsewhere prohibited the trading of specific stocks. No other country
+automatically closes volatile markets for a breather.
+
+            
+Critics of the new rules say that circuit
+breakers flopped in their NYSE debut. The first circuit breaker was thrown
+at 2:35 p.m. Monday, Oct. 27. After the 30-minute pause, trading resumed and
+the market dropped another 204 points in 25 minutes, triggering the second
+circuit breaker . The current Wall Street consensus is that the break made
+investors and traders even more inclined to sell, instead of cooling them off.
+Many traders blame the cable networks , which dwelt on the first circuit
+breaker and reported it as a sign of an impending crash. During the first lull,
+traders who had orders to sell by the end of the day were already anticipating
+a second circuit breaker. Fearing that a second circuit breaker would close the
+market for the day and prevent them from executing their orders on advantageous
+terms, they sold their stocks as soon as possible instead of waiting to find
+the best price.
+
+            
+
+               Circuit-breaker critics also argue that the mechanism prevents the
+market from working itself out of a crash. Extreme volatility, they say, is a
+natural part of the market's quest for equilibrium between supply and demand.
+Interrupting this process causes additional drops such as Monday afternoon's,
+rather than upswings such as Tuesday morning's.
+
+            
+
+               Technology has made moot much of the
+original justification for circuit breakers. Following the 1987 crash, both
+NASDAQ and the NYSE invested billions in expanding and automating the
+transaction infrastructure to accommodate the enormous swells in trading. The
+NYSE's computers now can handle the sale of 2.7 billion shares a day, vs. 440
+million in 1987. Monday, 685 million shares were traded--not much more than the
+daily average volume of 528 million. But Tuesday, the NYSE handled a record 1.2
+billion shares, with its central computer processing as many as 274
+transactions a second. On both days, traders had no difficulty matching buyers
+and sellers and speedily filling orders.
+
+            The Securities and Exchange
+Commission and the NYSE originally devised the circuit breakers to kick in
+after a 250-point drop. At the time, 250 points represented 12 percent of the
+market's value. Adjusting for the quadrupling of the market over the last seven
+years, the SEC and the NYSE raised the circuit-breaker trigger last year to 350
+points. Critics say that 350-point trigger is far too low , allowing the
+circuit breakers to flip at levels that don't warrant a stoppage of trade. They
+appear to be right. Monday, when the first circuit breakers were imposed, the
+market had dropped only 5 percent. SEC Commissioner Arthur Levitt Jr. has said
+that the circuit breakers should be reformed so that they are triggered by a
+drop in percentages, not points.
+
+         
+      
+   

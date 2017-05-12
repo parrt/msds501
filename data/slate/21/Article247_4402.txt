@@ -1,0 +1,161 @@
+
+   
+   
+      
+         
+            What So Different About Cyberspace?
+            
+
+            It seems as though the initial round
+of discussion between Larry and myself has produced a "two cultures" problem,
+which it is worth setting out briefly here. Over the past several years I have
+had extensive contact with the Internet, not only as an academic but also as a
+lawyer. But it is not because of any affection for, or preoccupation with its
+technical architecture, or with its internal folkways. Rather, I have come to
+it by indirection. If you have an expertise in privacy and defamation, then
+someone will ask you to testify on the question of whether one should allow
+strong encryption by private parties on the Net, or whether the publication
+online of confidential information obtained by fraud or trickery is protected
+under the First Amendment. For someone who sees the Internet as the latest
+advance in technology, which is not all that different from the radio, the cell
+phone, or the fax machine, there is a strong tendency to see issues on the
+Internet as though they were outgrowths of familiar problems
+elsewhere.
+
+            I thought (and still think) that one of the great strengths of Larry's book
+is the way in which he integrates nice examples from physical space with those
+from cyberspace. Thus he is right on to say that there are two ways in which to
+reduce the theft of car radios (Page 90), one of them is to increase the
+punishment for theft, and the other is to render them useless once they are
+taken out of the car by someone who does not know the code (old-fashioned
+sense) for their release. Here I might add that the second remedy is, in
+conventional terms, a better one that the first. The higher penalties will have
+multiple effects: One is to reduce the number of thefts, but another is to
+encourage more violent action by the thieves that remain when faced with the
+risk of capture. The marginal cost of killing an innocent party would be quite
+low if the sanction for stealing radios were life imprisonment for first-time
+offenders. But the puzzles of marginal deterrence are not invoked if the radios
+are disabled when removed, and so architecture, or technology, works nicely in
+real space, and it should work well in cyberspace to avoid similar
+problems.
+
+            So far so good. No one could doubt that architecture matters in cyberspace.
+The ability to limit the number of times that someone can resort to a computer
+program, for example, means that technology allows for a form of price
+discrimination that eliminates some of the unwelcome cross-subsidies associated
+with the sale of certain programs, just as an accurate billing system means
+that pricing for phones is not subject to flat fees only. Here again, the point
+is useful to make but does not get us to the question of the proper approach
+for understanding the distinctive use and regulation of cyberspace.
+
+            So we come to the third point: Larry mentions that the original architecture
+of cyberspace was given to us by researchers and hackers. And so it was. The
+usual ethic among both groups is for the public dissemination of information.
+With researchers, the community I know best, the free interchange of ideas of
+critical for the advancement of knowledge. There are no secrets in this world.
+But many of the best researchers also have jobs that require them to work for
+industry, where the protection of innovation via trade secrets and patents is
+the norm, and for equally good reason: Business cannot turn a profit if all its
+improvements are instantly appropriable by others.
+
+            Now, it happens that the best minds are frequently used for both research
+and commerce, and we have to develop protocols, and we do develop protocols,
+that deal with the potential conflict of interest as they move from one regime
+to another. And in ordinary space we have both public and private property,
+with the same individuals participating in both regimes.
+
+            In ordinary affairs, I do not think that the rise of commerce results in the
+loss of liberty. As a member of the university community, I have worked over
+the years in setting out the guidelines to deal with conflicts-of-interest
+regulations that allow most people to participate in both. I see no reason why
+that cannot happen in cyberspace as well. Those people who wish to set up
+commercial portals through which others must come do not violate the liberty of
+those who choose not to enter. The different values are certainly there, but
+the Net is a richer and not a poorer place by virtue of the fact that some
+folks can live in gated communities while others can run free over a commons on
+some other part of the Net. There is no more loss of freedom here in any
+intelligible sense that there is a loss of freedom when my neighbor erects a
+new house to which he invites only his friends. Of course, the values in
+commerce are different from those in the code (i.e., practices) of the
+Internet. But these new arrivals will not, as Larry suggests, "flip" the
+character of the Net. The original enclaves can hold firm as new people open up
+new territory. The Net is not some single homogenous object that admits to only
+a single culture. We can have private and public, commercial and charitable,
+spaces on the Net, just as we do anywhere else. If in so doing we change the
+character of the Net, we do so by proper means, and so be it.
+
+            That said, how does this tie into the grander questions of what a
+libertarian does or should believe. Larry says that his point was really that
+the attitude of "leave the Net alone" will lead to a loss of liberty. His words
+are ominous: "My argument is that this response will lead to a Net with far
+less liberty than the Net we know now, with a potential to be far more
+regulated than any world we have known--ever." I don't get it. In one sense,
+the statement is right. If folks can defame at will on the Internet and escape
+through anonymity, there is something deeply amiss. But if the argument is that
+commercialization poses the same dreaded threat to the Net as defamation, then
+I think that he is wrong, given that the two could live side by side in the
+manner just described.
+
+            These conclusions follow, I think, from any account of libertarianism that
+pays attention to the views within the ivory tower. It is, I might add,
+relatively close to that which is given the idea of liberty by the ordinary
+man. "Your freedom to use your fist stops at the edge of my face" is a
+recognition of the universal duties of forbearance that lie at the heart of the
+libertarian code. But I am told that there is a different world out there that
+represents some present and powerful political reality: It is a world in which
+it is wrong to think about defamation, wrong to think about trade secrets,
+wrong to think about blackmail. That would make me a Red. So here is the irony.
+To take a traditional libertarian position makes one a Red. If this
+libertarianism has the message keep government out, then perhaps it is wrong to
+describe this as a form of anarchy. Rather, it starts to resemble a
+self-appointed militia that wants to keep out others who do not want to share
+in their values. It is the most unlibertarian position of a monopoly on custom
+and mores to the early arrivals.
+
+            That said, I don't think that Larry has tried in Code to respond to
+the popular sentiment on the street. The passages I quoted in the first round
+come from Chapter 7 of his book, "What Things Regulate," which begins with a
+reference to that most ivory-towered individual John Stuart Mill, the author of
+On Liberty , who articulated the famous "harm principle" with which
+libertarian thought of all stripes has grappled since he wrote. Mill, as Larry
+points out, did believe that public opinion was one counterweight to private
+action, and it has been a hard question since that time, whether popular
+sentiment is an equal obstacle to individual freedom as law backed by force, or
+whether it works with sufficient cohesion to influence conduct in a single
+direction. That is a fair and important set of questions to ask, but again, it
+is not one that is unique to cyberspace.
+
+            Larry then goes astray in my view when he writes, "Threats to liberty
+change. ... The labor movement was founded on the idea that the market is
+sometimes a threat to liberty--not just because of low wages but also because
+the market form of organization itself disables a certain form of freedom. In
+other societies, at other times, the market is the key, not the enemy, of
+liberty." (Page 85-86).
+
+            So here is where I am left. I do not understand how the market is the enemy
+of liberty, at least if the competitive market is understood. I do not see why
+low wages could ever be regarded as a threat to liberty, even if workers would
+prefer, ceteris paribus , higher ones. I do not know what it means to say
+that "the market form of organization itself disables a certain form of
+freedom." At most, the competition of new forms of social organization draw
+people away from older forms of association. So that said, the passages that I
+quote do not reflect a non-academic view of liberty by guys on the street. It
+reflects at least in part the conception of liberty that was championed earlier
+in this century by such writers as Robert Lee Hale, who found coercion in every
+refusal to deal. Or, to the extent that it really means keep the government
+out, it sounds like an attempt by the earlier settlers of the new domain to
+monopolize its structure at the expense of later comers who wish to play by a
+different set of rules in some portion of that space.
+
+            I think that Larry is trying to reach a larger audience with his book, and
+to do so, he has to explain why under the influence of commerce, cyberspace is
+becoming highly regulable for those who do not participate in that commerce,
+and why the regulation that commerce imposes on those who voluntarily join into
+it should be a bad thing. Stated otherwise, the task that I think remains is to
+translate the language and sentiments of those within the Internet culture so
+that their positions can be better understood by those of us who do not yet
+understand what is so distinctive and special about the Net.
+
+         
+      
+   

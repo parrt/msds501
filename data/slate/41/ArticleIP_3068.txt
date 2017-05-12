@@ -1,0 +1,207 @@
+
+   
+   
+      
+         
+            Folie ࠎ
+
+            People with high IQs tend to
+be nearsighted. This is not because they read a lot or stare at computer
+screens too much. That common-sense hypothesis has been discredited by
+research. Rather, it is a matter of genetics. The same genes that tend to
+elevate IQ also tend to affect the shape of the eyeball in a way that leads to
+myopia. This relationship--known in genetics as "pleiotropy"--seems to be
+completely accidental, a quirk of evolution.
+
+            Could
+there be a similar pleiotropy between madness and mathematics? Reading this
+absolutely fascinating biography by Sylvia Nasar, an economics writer for the
+New York Times , I began to wonder. Its subject, John Nash, is a
+mathematical genius who went crazy at the age of 30 and then, after several
+decades of flamboyant lunacy, was awarded the Nobel Prize in economics for
+something he had discovered as a graduate student. (He is now about to turn
+70.) Nash is among the latest in a long and distinguished line of
+mathematicians--stretching back to that morbid paranoiac, Isaac Newton--who
+have been certifiably insane during parts of their lives.
+
+            Just in the last 100 years or so, most of the heroic
+figures in the foundations of mathematics have landed in mental asylums or have
+died by their own hand. The greatest of them, Kurt Gödel, starved himself to
+death in the belief that his colleagues were putting poison in his food. Of the
+two pioneers of game theory--the field in which Nash garnered his Nobel--one,
+Ernst Zermelo, was hospitalized for psychosis. The other, John Von Neumann, may
+not have been clinically insane, but he did serve as the real-life model for
+the title character in Stanley Kubrick's Dr. Strangelove .
+
+            So maybe
+there is an accidental, pleiotropic connection between madness and mathematics.
+Or maybe it isn't so accidental. Mathematicians are, after all, people who
+fancy that they commune with perfect Platonic objects--abstract spaces,
+infinite numbers, zeta functions--that are invisible to normal humans. They
+spend their days piecing together complicated, scrupulously logical tales about
+these hallucinatory entities, which they believe are vastly more important than
+anything in the actual world. Is this not a kind of a folie à n (where
+n equals the number of pure mathematicians worldwide)?
+
+            
+ABeautiful Mind reveals quite a lot about the
+psychic continuum leading from mathematical genius to madness. It is also a
+very peculiar redemption story: how three decades of raging schizophrenia,
+capped by an unexpected Nobel Prize, can transmute a cruel shit into a frail
+but decent human being.
+
+            As a boy
+growing up in the hills of West Virginia, Nash enjoyed torturing animals and
+building homemade bombs with two other unpopular youngsters, one of whom was
+accidentally killed by a blast. (Given Nash's childhood keenness for explosives
+and his later penchant for sending odd packages to prominent strangers through
+the mail, it's a wonder the FBI never got on to him as a Unabomber suspect.) He
+made his way to Carnegie Tech, where he was a classmate of Andy Warhol's, and
+thence to Princeton--the world capital of mathematics at the time--at the age
+of 20.
+
+            In sheer appearance, this cold and aloof Southerner stood
+out from his fellow math prodigies. A "beautiful dark-haired young man,"
+"handsome as a god," he was 6 feet 1 inch tall, with broad shoulders, a heavily
+muscled chest (which he liked to show off with see-through Dacron shirts), a
+tapered waist, and "rather limp and beautiful hands" accentuated by long
+fingernails. Within two years of entering Princeton, Nash had framed and proved
+the most important proposition in the theory of games.
+
+            
+Mathematically, this was no big deal. Game theory was a somewhat fashionable
+pursuit for mathematicians in those postwar days, when it looked as if it might
+do for military science and economics what Newton's calculus had done for
+physics. But they were bored with it by the early 1950s. Economists, after a
+few decades of hesitation, picked it up in the '80s and made it a cornerstone
+of their discipline.
+
+            
+Agame is just a conflict situation with a bunch
+of participants, or "players." The players could be poker pals, oligopolists
+competing to corner a market, or nuclear powers trying to dominate each other.
+Each player has several strategy options to choose from. What Nash showed was
+that in every such game there is what has become known as a "Nash equilibrium":
+a set of strategies, one for each player, such that no player can improve his
+situation by switching to a different strategy. His proof was elegant but
+slight. A game is guaranteed to have a Nash equilibrium, it turns out, for the
+same reason that in a cup of coffee that is being stirred, at least one coffee
+molecule must remain absolutely still. Both are direct consequences of a
+"fixed-point theorem" in the branch of mathematics known as topology. This
+theorem says that for any continuous rearrangement of a domain of things, there
+will necessarily exist at least one thing in that domain that will remain
+unchanged--the "fixed point." Nash found a way of applying this to the domain
+of all game strategies so that the guaranteed fixed point was the equilibrium
+for the game--clever, but the earlier topological theorem did all the work.
+Still, for an economics theorem, that counts as profound. Economists have been
+known to win Nobel Prizes for rediscovering theorems in elementary
+calculus.
+
+            Nash's
+breakthrough in game theory got him recruited by the Rand Corp., which was then
+a secretive military think tank in Santa Monica (its name is an acronym for
+"research and development"). However, the achievement did not greatly impress
+his fellow mathematicians. To do that, Nash, on a wager, disposed of a deep
+problem that had baffled the profession since the 19 th century: He
+showed that any Riemannian manifold possessing a special kind of "smoothness"
+can be embedded in Euclidean space. Manifolds, one must understand, are fairly
+wild and exotic beasts in mathematics. A famous example is the Klein bottle, a
+kind of higher-dimensional Moebius strip whose inside is somehow the same as
+its outside. Euclidean space, by contrast, is orderly and bourgeois. To
+demonstrate that "impossible" manifolds could be coaxed into living in
+Euclidean space is counterintuitive and pretty exciting. Nash did this by
+constructing a bizarre set of inequalities that left his fellow mathematicians
+thoroughly befuddled.
+
+            That about marked the end of Nash's career as a
+mathematical genius. The next year, he was expelled from Rand as a security
+risk after local police caught him engaging in a lewd act in a public men's
+room near Muscle Beach. At MIT, where he had been given a teaching job, he
+hardly bothered with undergraduates and humiliated graduate students by solving
+their thesis problems. He carried on affairs with several men and a mistress,
+who bore him a son he refused to lift a finger to support. His cruel streak
+extended to the woman he married, a beautiful physics student named Alicia who
+was awed by this "genius with a penis." Once, at a math department picnic, he
+threw her to the ground and put his foot on her throat.
+
+            All the
+while, Nash was showing an intense interest in the state of Israel--often a
+sign of incipient insanity, at least in a non-Jew. Geniuses slipping into
+madness also tend to disrobe in public (I learned this from a volume on chess
+prodigies, who have a proclivity for disrobing on public buses). Nash showed up
+for an MIT New Year's Eve party clad only in a diaper. And then, of course,
+there was the New York Times , that old mainstay of psychotic
+delusion--Nash thought aliens were sending him encrypted messages through its
+pages (come to think of it, that could explain the Times ' odd
+prose).
+
+            
+When the big breakdown came, it was properly
+mathematical. Fearing his powers might be waning as he approached 30, Nash
+decided he would solve the most important unresolved problem in mathematics:
+the Riemann Zeta conjecture. This bold guess about the solutions to a certain
+complex-valued infinite series (made by the incomparable Bernhard Riemann in
+1859) would, if true, have far-reaching implications for the structure of the
+most basic of entities, the natural numbers. Before an eager audience of
+hundreds of mathematicians at Columbia University in 1959, Nash presented his
+results: a farrago of mathematical lunacy. "Nash's talk wasn't good or bad,"
+said one mathematician present. "It was horrible." Some weeks before, Nash had
+declined a University of Chicago offer of an endowed chair on the grounds that
+he was scheduled to become the emperor of Antarctica.
+
+            Such
+ebullitions of insanity continued for three decades, becoming more rococo. Nash
+went to Europe to form a world government, attempting repeatedly to renounce
+his U.S. citizenship. He did stints in tony asylums, hanging out with Robert
+Lowell, and in dismal state institutions, where he was subjected daily to
+insulin-induced comas. He believed himself to be a Palestinian refugee called
+C.O.R.P.S.E.; a great Japanese shogun, C1423; Esau; the prince of peace;
+l'homme d'Or ; a mouse. As Nasar observes, his delusions were weirdly
+inconsistent. He felt himself simultaneously to be the epicenter of the
+universe--"I am the left foot of God on earth"--and an abject, persecuted
+petitioner.
+
+            He returned to the Princeton area in the 1970s, where he
+was taken care of by the long-suffering Alicia, now his ex-wife (she supported
+him partly through computer programming, partly on welfare). He haunted the
+campus, where students began to call him "the Phantom." They would come to
+class in the morning to find runic messages he had written on the blackboard at
+night: "Mao Tse-Tung's Bar Mitzvah was 13 years, 13 months, and 13 days after
+Brezhnev's circumcision."
+
+            Then, in
+the '90s, inexplicably, the voices in Nash's head began to quiet down. (Nasar
+gives an interesting account of just how rare such remissions are among those
+diagnosed with schizophrenia.) At the same time, the Nobel committee in
+Stockholm was deciding it was about time to award the prize in economics for
+game theory. Dare they make a known madman into a laureate? What might he say
+to King Gustav at the ceremony? Nasar shows her mettle as a reporter here by
+penetrating the veil of secrecy surrounding the Nobel and revealing the
+back-stage machinations for and against Nash's candidacy. He did fine at the
+ceremony, by the way.
+
+            
+Indeed, he has evolved into a "very fine
+person," according to his ex-wife--humbled by years of psychotic helplessness,
+buoyed up by the intellectual world's highest accolade. The Nobel has a
+terrible effect on the productivity of many recipients, paralyzing them with
+greatness. For Nash it was pure therapy. Then, too, there is the need to take
+care of his son by Alicia, who--pleiotropically?--inherited both his
+mathematical promise and his madness. (His older son, the one born out of
+wedlock, got neither.) The Nobel money bought a new boiler for the little
+bungalow across from the Princeton train station inhabited by this shaky
+menage. (When Vanity Fair published an excerpt of A Beautiful
+Mind , Nash probably became the only person ever featured in that magazine
+to live in a house clad in "insulbrick.")
+
+            The eeriest thing I
+discovered while reading this superb book was that Nash and I came within a
+couple of years of crossing paths in a Virginia mental hospital. I was actually
+working there, but psychiatric aides pick up so many mannerisms of the
+patients that it's hard to tell the difference after a while. A few years after
+that I found myself in a mathematics Ph.D. program. You'll be glad to know that
+I'm in remission.
+
+         
+      
+   

@@ -1,0 +1,135 @@
+
+   
+   
+      
+         
+            Culture Wars
+
+            "The only freight train that
+counts these days," says former Reaganaut and current cyberguru George Gilder,
+"is the Internet with Java." Java, of course, is the computer-programming
+language created by Sun Microsystems. It promises to revolutionize personal
+computing, making obsolete the proprietary-software-running desktop and
+shifting the center of gravity in the computer world toward the network, the
+largest part of which is the World Wide Web. Heady claims indeed. (What exactly
+is Java? Click here to find out.) And yet, if Java were called Oak--its original
+name--it's a safe bet this column would never have been written.
+
+            That's
+because the history of Java since its introduction in May of 1995 is
+fundamentally one of cultural conflict, in which symbols and rhetoric have
+played as important a role as underlying technological differences. The
+conflict is between Java's supporters--most notably Gilder, Sun CEO Scott
+McNealy, and Oracle CEO Larry Ellison--on the one hand and ... well, Microsoft
+on the other. As McNealy puts it, in typically blunt terms, "There's two camps,
+those in Redmond, who live on the Death Star, and the rest of us, the rebel
+forces." And in this struggle, Java is the rebels' supposed ace in the hole,
+the "tsunami that will sweep through the economy," in Gilder's words, changing
+the landscape forever and probably putting Slateout of business.
+
+            Now McNealy and Gilder certainly think that Java is, in
+fact, a technological transformation so important that those who do not adapt
+will be left in the dust. But the intensity of Sun's evangelical effort
+testifies to the overwhelming importance of marketing and name recognition in
+today's economy. It's hard to know whether Java--which in theory can run on any
+platform--really is superior to proprietary systems like Windows. But even if
+it is, the history of technology is littered with superior products that never
+attained mass appeal. Technology does not, in that sense, speak for itself. If
+it did, Sun could have simply launched Java and waited for the inevitable to
+occur. Whether someone announces a tidal wave is coming, after all, is
+irrelevant to the wave's arrival. It crashes on the beach regardless. What we
+see with Java, though, is that in the business world a tidal wave can only
+exist if someone announces that it's coming.
+
+            Sun has
+already been remarkably successful in making Java into a brand name. Oddly,
+though, where Coke and Pepsi fight for consumers, at the moment the real
+struggle over Java is for the hearts and minds of developers. In that sense,
+instead of focusing on the demand for Java, Sun is emphasizing its supply. It's
+the "build it, and they will come" approach to business.
+
+            
+Of course, since Sun's revenue from Java comes
+from licensing fees--to, among other companies, Microsoft--software developers
+are its customers. But there's a more important reason for the emphasis
+on getting people to program with Java, namely that it's impossible to get
+computer users to abandon their current operating systems if they don't think
+the alternative will be around five years from now. Apple has run into this
+problem in recent years, as Mac users have defected to Windows because fewer
+and fewer companies are writing Mac-compatible versions of their programs. The
+quickest way to assure users that your alternative is viable is to show them
+the plethora of programs being written for it (or, in the case of Java, in it).
+In that sense, you do have to build it before they will come.
+
+            This
+helps explain, for example, why McNealy so often cites the 400,000 programmers
+(including 2,500 IBMers) who are programming in Java. It also helps explain why
+the Wall Street Journal 's report that most of the 10 start-up companies
+funded by Doerr's Java Fund are writing their software in languages other than
+Java stung so much, as did Corel's abandonment of its plan to make its entire
+Office suite of programs Java-compatible. You never hear about how many people
+are actually downloading Java applets. You only hear about how many companies
+are making them. (For the Microsoft view of this marketing strategy, click
+.)
+
+            There are a few things to keep in mind about Sun's strategy
+for Java with regard to the consumer market. The first, obviously, is that
+creating a critical mass of developers turning out programs that work and that
+people want is the crucial task. The second thing is that Sun makes, relatively
+speaking, a minuscule amount of money from Java licensing. To be sure, it's
+almost all pure profit, but in relation to the company's workstation and server
+business, the revenue is nearly irrelevant. What's most relevant for Sun is the
+role Java may play in eroding the desktop market and the proprietary authority
+of Windows and Windows NT. Insofar as Java makes "the network is the computer"
+seem true, it helps Sun.
+
+            Finally,
+it's possible to see Sun's approach to Java as an embodiment of what's called
+Joy's Law, after Sun co-founder Bill Joy. "Let's be truthful," Joy said. "Most
+of the bright people don't work for you--no matter who you are. You need a
+strategy that allows for innovation occurring elsewhere." Accordingly, the
+first Sun workstations were assembled from off-the-shelf components. And while
+the company's most important product of the late 1980s, the SPARCstation,
+featured a high-speed processor of Sun's own devising, throughout its history
+Sun has done an impressive job of keeping pace with technological change by
+refusing to remain locked into one vision of the future. Sun's genius as a
+company, in fact, has always been its adaptability. And it has done best when
+it has remained committed to open standards.
+
+            
+Now, one could argue that by insisting on
+controlling the standards for Java, Sun is violating Joy's Law. A recent letter
+that Microsoft and Intel wrote asking the company to give up that control to an
+international body suggested as much. But Sun has made Java's specs and the
+source code freely available to developers, in the hope that a hundred flowers
+will bloom. As Joy counseled, if Java works, it won't be because of Sun. It'll
+be because of what happens everywhere else.
+
+            What will happen everywhere
+else, though, is still uncertain. Programmers do seem to find it easier to work
+in Java than in C++, and certainly the prospect of being able to download a
+spreadsheet document and read it without having to download the spreadsheet
+program is enticing. But Java programs are still considerably slower than those
+written for a particular operating system, just as amphibious creatures are not
+as good on land as mammals or as good in water as fish. And even the promise of
+universal compatibility has not been completely realized.
+
+            That, of
+course, is precisely why Java has become such fertile ground for
+cyberevangelism. To be sure, George Gilder needs no excuse to write
+block-that-metaphor prose like this: "[Java] opens doors and shatters Windows.
+It builds market cap as if by magic. It raises the sun and illumines the road
+ahead to a new computer architecture. Give poor Bill a break." But the really
+interesting thing about Java is that Gilder isn't the only one using this kind
+of language. Everyone speaks as if the stakes are monumental. Certainly, with
+the hype surrounding Windows 95, and with the introduction of the Mac in 1984,
+the relationship between cultural hegemony and business success was hinted at.
+But with Java, Sun seems to be staking everything on that relationship. If you
+want to know where the real culture wars are, forget the academy and think
+Silicon Valley and Redmond.
+
+             
+
+         
+      
+   

@@ -1,0 +1,142 @@
+
+   
+   
+      
+         
+            Taking the Voters' Pulse Online 
+
+            The
+landslide winner of a recent TIME.com poll on the GOP candidates was a shocker.
+The respondents' choice for the presidential nomination was none other than ...
+Orrin Hatch.
+
+            That's
+the same Orrin Hatch who's wallowing near the bottom of the Republican field by
+almost every measure--including most polls. TIME.com's straw poll allowed
+anyone, not just registered voters, to cast a ballot and to do so as many times
+as they wished. The Utah senator's Web site linked supporters to the poll, and
+he pulled in 60 percent of the vote.
+
+            While
+this unscientific survey is the Web's version of the just-for-fun 900-number
+telephone polls, there's concern among researchers that the public has trouble
+distinguishing one poll from another on the Web. In fact, the news media has
+picked up on some of these pseudopolls, and in at least one instance reported
+on the poll as if it were credible. An ABC.com straw poll on the Democratic
+presidential candidates found 25 percent of respondents favored Warren Beatty.
+Amazingly, the New York Times ' Maureen Dowd cited the results as
+evidence that the political "nutty season" had begun.
+
+            The
+confusion surrounding online polls is adding fuel to the biggest debate now
+raging among pollsters: Is it time for the Internet to replace the telephone as
+the polling technology of choice?
+
+            
+Already, the Harris Poll Online has chronicled the upcoming presidential
+contest by assembling a pool of 5 million Internet users and surveying
+demographically adjusted samples of that pool every month. The company's
+efforts have attracted wide interest, but Harris' methods have prompted concern
+that Internet users are not representative of the national population: They're
+too white, too male, too young, and too wealthy.
+
+            "Our
+opponents think you should not let it out of the garage yet," says Jonathan
+Siegel, director of Harris' Election 2000. "But Internet polling is going to
+happen."
+
+            
+Meanwhile, media outlets and well-established polling entities such as the
+Gallup Organization say they are staying away from Internet polling--for
+now.
+
+            "I
+will be doing what I normally do: blocks of nationally representative telephone
+surveys," says Kathleen Frankovic, director of surveys for CBS News. She admits
+she's intrigued by the flexibility of Internet polls and the potential for
+sharing visual materials with respondents online. But she notes that the Net
+still poses problems for pollsters. "You can't just randomly sample Internet
+users. You're not supposed to send unsolicited e-mail. And there is a truly
+nonrepresentative nature to the people actively engaged on the Internet." Most
+disturbing of all, she says, is the underrepresentation of the over-65 age
+group, which, studies show, votes in high numbers.
+
+            At the
+same time, there are new efforts underway to perfect the use of the Net as a
+polling technology. InterSurvey, a company recently started by two Stanford
+University professors, pulls a random sample the old-fashioned way--through
+random-digit phone dialing--and then equips panel members with Internet-access
+devices, such as WebTVs, so they can respond to Web-based surveys. The company,
+which is backed by venture capitalists and the university, has thus avoided
+much of the criticism leveled at Harris over its sampling; InterSurvey is also
+in talks with several campaigns and consultants about work on the 2000
+election.
+
+            When
+pollsters talk about a "representative sample" they mean a sampling that
+accurately reflects the population at large. The most widely used method is
+random-digit dialing, in which the first six digits of a telephone number are
+selected to allow for every region to be well represented, while the remaining
+four digits are dialed at random.
+
+            One
+problem with online polling is that pollsters can't e-mail people at random.
+E-mail addresses follow no standard format. There's no central phone book for
+all e-mail addresses. And some Internet service providers block spam to
+subscribers.
+
+            
+Technology has always influenced the way pollsters do their job. Starting in
+the 1960s, the phone replaced door-to-door polling as the preferred means of
+taking the nation's pulse. That was only after phone use became ubiquitous. But
+a 1998 Department of Commerce study found only 26 percent of households had
+Internet access, though more recent private studies estimate that share to be
+between 38 percent (Nielsen NetRatings) and 44 percent (Jupiter
+Communications).
+
+            
+Gallup, for one, is waiting until Net use becomes more widespread before
+embracing online polling. "We will continue to consider it," says Jack Ludwig,
+vice president and research director at Gallup. He says the company might use
+the Internet "at some point, if the penetration gets up to where it is with the
+telephone or television."
+
+            A
+recent study by Mediamark Research bears out assertions that Net users aren't
+representative of the population at large. Some of the findings: Fifty-two
+percent are male, 42 percent are between the ages of 18 and 34, 39 percent have
+yearly household incomes exceeding $75,000, and 88 percent are white. The
+comparable figures for the population at large: 48 percent are male, 34 percent
+are in the 18-to-34 age bracket, 21 percent have a household income above
+$75,000, and 84 percent are white.
+
+            
+Michael Traugott, president of the American Association of Public Opinion
+Research, asserts that weighting the data--as Harris plans to do--won't
+compensate for the differences in any meaningful way. But Harris' Siegel notes
+that in 1998 the online Harris Poll accurately called 21 of 22 U.S. Senate and
+gubernatorial races, while traditional polls miscalled five of the 22
+races.
+
+            
+Traugott argues that pollsters need to look deeper at the data from online
+polls. "The question is not whether you called the right candidate; it's the
+margin of victory between the two candidates. In the Web surveys, they got the
+bias you would expect. The results were pro-Republican. Web users are from a
+higher socio-economic status; they're better educated, and they're more likely
+to identify with Republicans."
+
+            Will
+candidates embrace Internet polling? Alex Gage, president of Market Strategies
+Washington, the polling firm that's working with the George W. Bush campaign,
+says his opinion of the Net's potential has shifted. "I began the year thinking
+the Internet would be used in storing, retrieving, and distributing
+information," he says. "More and more, I've come to realize that you can have
+selected panels of suburban women who you know have 90 percent Internet access,
+and you can talk to them every week about what they've seen." Gage says the
+potential lies in testing advertising, keeping tabs on opponents, and getting
+instantaneous reactions from events like debates.
+
+         
+      
+   

@@ -1,0 +1,143 @@
+
+   
+   
+      
+         
+            You Count
+
+            How many readers does Slate
+have? Like other Web sites, we get asked this question all the time. Our usual
+reply is: "Thank you for asking. That's a complicated question." But here is
+our best effort to answer it, along with an explanation of why counting readers
+on the Web is so complicated (and why you should take any claims about Web-site
+traffic--except ours, of course--with a grain of salt).
+
+            
+Traditional print magazines know exactly how many copies they sell, though they
+have no idea how many people actually read a particular article or see a
+particular ad. TV networks rely on sampling by companies like Nielsen to estimate how many
+viewers were watching which channel at any hour of the day. (See Slate's recent
+"Dispatch" from someone selected to be a "Nielsen family.") Nielsen
+and other firms such as PC
+Meter, now known as Media Metrix, are scrambling to adapt this concept to
+the Web. Meanwhile, though, there are hits .
+
+            The contents of a Web site are stored on high-performance
+computers called servers . When you type a Web address into your browser,
+or click on a link or a "favorites" or "bookmark" button, you are telling your
+computer to fetch a specific set of data--text, images, sound, etc.--from some
+Web site's server. Your browser then assembles these data and displays them as
+a page. Each of these requests for information is a hit.
+
+            Hits (per
+day, per week, per month ...) are the most common measure of Web traffic. But
+they are deceptive. A single Web page can be one hit or many, depending on how
+it is constructed. The more separate elements it contains (images, sound ...),
+the more hits it will require. That's why Slate, and some other sites, prefer
+to talk about pages served . This is a measure of how many complete pages
+your server has sent out in response to requests from browsers. In recent
+months, Slate has been serving an average of about 90,000 pages a day.
+
+            
+But the number of pages served is also a
+misleading measure in some ways. A "page" is not a standard unit on the Web the
+way it is in print. Depending on a Web site's design, the same amount of
+content can take up a very different number of pages. Slate is designed so that
+every article or feature takes up a single page. Other sites break up articles
+into many pages. (We're not suggesting that people are padding their page
+counts. It's a judgment call about whether readers will find having to scroll
+more annoying than having to click and wait.)
+
+            Also,
+sometimes a site will feed you two pages when you've only asked for one. Slate
+does this, for example, with our cover and contents pages. However--Boy and
+Girl Scouts that we are--we subtract this double counting in the figures we
+report. We cannot guarantee that every site is so scrupulous.
+
+            Further complicating page counts is the issue of
+caching . Computers at corporations and other large organizations often
+access the Web through a middleman computer known as a proxy server .
+Your computer requests a page from the proxy server, which then requests it
+from the Web site. But proxy servers are often programmed to save, or cache,
+frequently requested pages, rather than retrieving them from the Web each time
+they are requested. America Online also caches pages for its customers. And
+your own computer is probably set up to cache some pages you've visited
+recently. (That's why, when reading Slate, it's quicker to go back to the
+contents page than it was to call it up at the start.) All this caching means
+pages are served more quickly, but it does become harder for a Web site to know
+how often its pages have actually appeared on someone's screen.
+
+            Anyway,
+100 pages served could be 100 people reading this column, or one obsessive
+participant in "The Fray." What we really want to know is how many
+individual readers Slate has. And we can find out, sort of. Each request
+to Slate from your browser carries with it an assortment of useful information.
+Your computer tells us what operating system and browser software you are
+using, so that our server can return a page appropriate to your setup. We also
+are told about the referring page --that is, the page you were reading
+when you requested this one. (Marketers love that information.) More important,
+each page request is accompanied by a return address. How else would the server
+know where to send the data? Every computer connected to the Internet has an
+address, known as an IP address , consisting of four numbers. For
+example, 207.68.136.88 is currently the IP address of one of Slate's servers.
+Depending on how you access the Internet, your computer has either a permanent
+or a temporary IP address.
+
+            
+But for a variety of reasons, including
+caching, IP addresses aren't a great way of counting individual visitors.
+Therefore, there are cookies . Cookies are like the club bouncer who
+stamps your hand when you leave the premises temporarily, so as to identify you
+when you return. The first time you visit Slate, our computer sends yours a
+piece of data, which your computer sends back every time you return, so we know
+it's you. Cookies aren't perfect. They don't account for multiple people
+accessing the site from one computer, or one person using different computers
+(or browser software). Also, some older browsers don't understand cookies, and
+newer ones allow privacy freaks to turn them off. But, using cookies, we can
+get a pretty good idea of how many unique browsers are visiting our
+site.
+
+            Even that, though, is a
+problematic concept. Do you measure browsers per day? Per week? Per month? The
+longer the time period you choose, the more individual visitors you can claim,
+which is nice. On the other hand, because of repeat visitors, the number of
+unique browsers in a given month is less than the total of unique browsers per
+week for those four weeks, which is less than the total of unique browsers per
+day over those 30 days. Choose your poison: Slate attracts about 6,000 unique
+browsers a day and 80,000 a month.
+
+            More
+complications. Every Friday, 20,000 people get a print-out version of Slate
+delivered to them by e-mail. (Click here to sign up.) Several hundred others download the print-out version directly from our site every day. A
+few hundred determined traditionalists pay $70 to get this version of Slate
+printed out and mailed to them each week via the U.S. Postal
+Service. Hotmail, a
+Web-based e-mail service, delivers Slate's table of contents to 106,000 of its
+customers every week.
+
+            As this discussion shows, measuring Web traffic is
+generally less exact than measuring traditional magazine circulation. In one
+way, though, it is more exact. We know that every Slate page served--and, by
+the way, the ad on that page--has hit the eyeballs of one reader (and in all
+probability not more than one). Print publications have no clear idea of how
+many people read each copy of their publication and, conversely, how many
+individual pages of any given copy go unread. In practice, they tend to make
+wild claims about the former and ignore the latter.
+
+            Even this distinction,
+though, is changing with the development of off-line readers: software that
+automatically goes to the Web to retrieve material, and stores it on your own
+computer. Slate is already part of PointCast, which puts information you select on your screensaver.
+Off-line readers put Web sites--and Web advertisers--in the same position as
+their counterparts in the print world (although the off-line reader built into
+Microsoft's upcoming Internet Explorer 4.0 will actually send the server a log of the
+user's reading habits).
+
+            So how many readers does
+Slate have? Taking all these complications into effect, and being as honest as
+we can, we estimate about 28 million, give or take 27,900,000 or so.
+Remarkable, isn't it?
+
+         
+      
+   

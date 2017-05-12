@@ -1,0 +1,157 @@
+
+   
+   
+      
+         
+            Online Political Advertising: Our Salesman Reports 
+
+            Over
+the past few years, the advertising business as a whole has moved from a mood
+of hostile skepticism toward the Internet to an almost euphoric embrace of its
+possibilities. In my new job as manager of political advertising for the
+Microsoft Network, I'm experiencing what feels like a warp-speed repetition of
+the same process. For the moment, buyers are still resistant to the new medium.
+But I suspect that their doubts will melt as the 2000 campaign demonstrates the
+open-ended potential of political advertising on the Web.
+
+            The
+basis for skepticism about Web-based candidate advertising is that few have
+ever seen such a campaign, let alone one that had a demonstrable result. Peter
+Vallone, the Democrat who ran against New York Gov. George Pataki last time
+around, was one of the few candidates to make significant use of banner ads in
+1998. Vallone ran negative ads about Pataki on the New York Times Web
+site, among other places. While one study suggests that these ads diminished
+Pataki's favorability rating among those who saw them, the negligible boost to
+a losing campaign didn't quite make the case.
+
+            A year
+from now, we'll have better data about the effectiveness of candidate ads. What
+we can say in the meantime is that Web advertising is capable of doing things
+no other kind of political advertising can. Here are some of the advantages I'm
+touting to political consultants and campaign managers this election
+season.
+
+            
+
+               Targeting
+            
+
+            When
+you advertise on television or radio, you base your spending decisions on
+viewer and listener surveys, but you can't target precise groups of swing
+voters that might matter to you. With the Web, you can strike at them
+surgically. There are thousands of niche sites on the Web as well as Internet
+service providers, network portals, and free e-mail services. These sites pride
+themselves on collecting highly specific information about users, through
+registration, subscription, and the use of "cookies" (for more on cookies, see
+
+                  Slate
+                article by Michael Kinsley). Banner ads can be directed at
+precise demographic groups defined by age, ZIP code, income, and various other
+characteristics. What's more, several of the larger portal sites are able to
+"merge and purge" their user data with voter lists. This means that Bill
+Bradley can target not just middle-aged basketball fans but also middle-aged
+basketball fans who are registered Democratic voters in New Hampshire. Of
+course, the more precise the targeting, the more expensive the ad. Reaching
+generic New Hampshire citizens might cost $20 per thousand impressions. For a
+specific category of registered voters, the price might rise as high as $70 per
+thousand.
+
+            
+
+               Activization
+            
+
+            The
+Web can serve as a tool to motivate those that are passionate about issues. A
+recent campaign hosted by the Juno Advocacy Network shows this potential. Juno
+sent an e-mail on behalf of Heritage Forests Campaign to more than 1 million
+subscribers. In response to this, 171,000 users sent e-mail messages to Vice
+President Al Gore asking him to help America's forests--without cutting down
+any trees. That's a 17 percent response rate. With more expensive conventional
+direct mail, a 4 percent to 5 percent response is considered highly
+effective.
+
+            
+
+               Measurability
+            
+
+            Data
+returned from user interaction with Internet ads far outweighs what you can
+discern from television, radio, or direct-mail campaigns. Thanks to the miracle
+of cookies, clients know precisely how many of the individuals they targeted
+interacted with their ad in a number of ways. A banner ad that contains a
+streaming video version of a 30-second spot can tell you not only how many
+people viewed the commercial but also where in the commercial they got bored
+and clicked out.
+
+            The
+first banner ads were relatively obvious appeals for a "click-through." Now
+they are becoming interactive in ever more imaginative ways. Think of a banner
+ad as the Internet on a bumper sticker. It can do just about anything with
+video, sound, or animation. But first it has to grab your attention from a
+three-quarter inch space on the computer screen. The most popular forms at the
+moment include:
+
+            
+               Active
+
+               Information Banners
+            
+
+            The
+AIB delivers real-time information in the banner. The ad displays information
+in a format similar to a stock ticker. Advertisers control the text in the
+banner and can target it by demographic or issue group. Advertisers might also
+use the AIB to respond to a recent news event they're taking a position on or
+for any other rapid-response need.
+
+            
+               E-Mail
+
+               Manager Banners
+            
+
+            The
+e-mail manager banner ad gives advertisers an opportunity to collect e-mail
+addresses from Web users. The advertiser may then use the information to
+distribute e-mail messages, create user demographic profiles, and gather
+information. For users, this banner provides an easy, convenient way to
+subscribe to e-mail announcements from a candidate or campaign of choice.
+
+            
+               Expanding
+
+               Menu Banners
+            
+
+            The
+expanding menu banner contains four buttons that activate menus. Users then
+choose from a menu and navigate to different locations on an advertiser's Web
+site. This allows a campaign based on four key issues to "drill down" on each
+of them in great detail. Once the user has found the issue he wants more
+information about, a click of the mouse takes him directly to the page that
+interests him.
+
+            
+               Streaming
+
+               Video Banners
+            
+
+            Most
+of the political/issue campaigns that will advertise on the Web will have
+already produced TV ads. Those TV spots can now be compressed and delivered to
+Web users from a banner ad: "Click here for my stance on free air time for
+candidates!" This option becomes more attractive when combined with the
+capability to deliver specific messages to targeted audiences or geographic
+locations.
+
+            Come November 2000, I
+expect the question will no longer be whether Web-based political advertising
+works, but whether it works too well.
+
+         
+      
+   

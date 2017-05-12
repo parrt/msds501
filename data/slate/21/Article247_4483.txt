@@ -1,0 +1,92 @@
+
+   
+   
+      
+         
+            How eBay Taught Me a Lesson
+            
+
+            One of the well-deserved perils of writing a column like this is that
+occasionally someone will come along and, because of something you've written,
+call you--pardon my French--a "dumbfuck." As it happens, I'm not plucking that
+word at random from the ether, because in Dumb Money , a forthcoming
+book about his adventures as a day trader, Joey Anuff (the editor of Suck ) calls me precisely
+that. (The book, by the way, is terrific, and you should buy it when it comes
+out this spring.)
+
+            The source of Anuff's ire was an item I did in one of my "Weekend Cocktail
+Chats" in the fall of 1998, just after eBay went public. The item mocked the
+online auction site as yet another fly-by-night Internet company with no hope
+of profitability and a market capitalization that bore no connection to
+reality. Although Anuff eventually became a day trader, eBay seems to have been
+the one company that he truly loved and invested in out of a real faith in its
+business, and so my ill-advised and ill-informed scorn made him a bit more
+annoyed than an item mocking, say, U.S. Steel might have.
+
+            I bring this all up because eBay reported earnings yesterday, and the report
+illuminated what now seems to me to be essentially indisputable, which is that
+the economics of eBay's business are tremendous and its future is very bright.
+(This, of course, makes me wonder why I wasn't able to see then what I see now,
+and what Anuff saw then.) Because eBay is essentially just facilitating
+interactions between buyers and sellers and not building or even really selling
+anything itself, its gross margins (that is, the cost of actually providing its
+"goods") are almost guaranteed to remain high. Although the company obviously
+needs to invest heavily in technology to be able to handle its ever-increasing
+volume of items for sale, there are no obvious limitations on how big its
+virtual marketplace can grow, making it, in that sense, almost infinitely
+scalable. And the bigger it gets, and the more people grow comfortable with it,
+the wider the variety of goods people will buy and sell on it.
+
+            eBay's real strength, though, is that it is the quintessential example of
+the so-called network effect, which says that the value of any network to its
+users increases sharply--perhaps even geometrically--as the number of users of
+that network increases. The network effect is often bandied about as
+characteristic of many businesses on the Net, but in fact there is no "network"
+on the Net like eBay's. Sellers want to go where there are the most buyers, and
+buyers want to go where there are the most sellers, and therefore the positive
+feedback loop here seems practically unbreakable. For that very reason, eBay is
+also one of the rare examples in which the much-vaunted "first-mover" advantage
+also seems to have been real, although if eBay had not executed as well as it
+has, being first would not have been enough.
+
+            There are a couple of quirks to this story. For all the power of the network
+effect, eBay has seen its domination of online auctions eroded by the entry of
+Amazon and Yahoo into the market. I'm still not sure why (whenever I buy
+something on auction at Amazon, I can never figure out why the person isn't
+selling the item on eBay, where I feel certain I would have been outbid). But
+Amazon and Yahoo do have powerful customer bases of their own, and have set up
+their interfaces so that auction items find their way to regular customers
+fairly easily. Also, Amazon lets you buy a lot of items with a credit card, and
+eBay has also faced price competition. Still, it now controls 60 percent of the
+market, and that's actually up from 50 percent.
+
+            The other quirk is that over the past year, eBay's stock price has not
+really moved much (although it did jump 12 percent in the wake of this latest
+earnings report). The stock is down 35 percent from its 52-week high, and it's
+up only 2 percent since last March. One way of reading this is to say that
+investors finally woke up to the fact that eBay is still making just four cents
+a share, not much different than it was in 1998. But another way of reading
+this is that there were enough investors like Anuff at the beginning who
+understood eBay's business and understood why they should own its stock that
+the company became fully valued not long after it went public. In other words,
+it may be that in eBay's case, the stock market was fairly efficient, arriving
+at the "right" price in a matter of months rather than years (as arguably was
+the case with stocks like Coca-Cola or Microsoft). That doesn't mean eBay's
+stock won't go up (or down) from here, especially since volatility is now a way
+of life for Nasdaq stocks. But it probably means that expecting eBay to become
+a proverbial ten-bagger (rise 1,000 percent) from here is a mistake.
+
+            The interesting thing about eBay for me is the way it crystallizes my
+changing view of Internet companies, and Internet stocks, over the past two
+years. What once appeared to be a bubble driven by hysterical investors now
+looks much more to me like as good an attempt as possible at quantifying the
+value of an economic opportunity that, taken as a whole, still looks
+practically limitless. (Of course, to almost everyone else, it looks like a
+bubble.) And while discussion of the Net remains swamped with hype and
+buzzwords, there clearly are companies, like Yahoo and AOL and eBay, that
+demonstrate that you can take advantage of that opportunity and still make a
+profit. I'd say I knew it all along. But my bank account won't let me.
+
+         
+      
+   

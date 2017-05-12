@@ -1,0 +1,196 @@
+
+   
+   
+      
+         
+            
+
+            
+               Address your e-mail to
+the editors to letters@slate.com. Please include your address and daytime phone
+number (for confirmation only).
+            
+
+            
+               (r) (u)
+(a) 501(c)(3)?
+            
+
+            Jacob Weisberg's "Happy
+Birthday, Heritage Foundation" is wrong on one major point. In it he wrote,
+"Heritage is a tax-exempt 501(c)(3) organization, which means it is not
+supposed to lobby Congress." This is not true. Nonprofit organizations, or
+501(c)(3)s, are in fact encouraged to lobby under existing law, subject to
+certain limitations.
+
+            When nonprofit organizations
+lobby, they make an invaluable contribution to the public-policy process.
+Charities and nonprofit organizations speak for the public interest, not
+private interests. They often represent large numbers of ordinary Americans on
+issues like the environment or consumer protection, or vulnerable populations
+who lack the resources or skills to assert their basic rights.
+
+            Moreover, as service
+providers, charities are often on the front lines combating the worst problems
+besetting our communities. Their voices help produce more efficient and
+effective public policy. Although we might disagree with the Heritage
+Foundation, as a 501(c)(3), they are doing nothing wrong by lobbying.
+
+            Current law does prohibit
+501(c)(3)s from working for or against candidates for public office, and that
+is appropriate. Nonprofits also are prohibited from using federal funds for the
+purposes of lobbying (see Office of Management and Budget Circular A-122), but they may
+lobby using other funding sources, such as foundations or their membership.
+
+            In devising the laws
+governing nonprofit lobbying, Congress recognized that 501(c)(3)s should be
+encouraged to exercise their First Amendment rights. Certainly Congress is in
+no danger of being overrun by Gucci-clad lobbyists working for the poor and the
+environment.
+
+            
+Weisberg's mistake reflects a common misconception. The Washington Post
+recently made the exact same error in discussing 501(c)(3)s.
+
+            -- Reece Rushing OMB
+Watch
+
+            
+               
+                  Editors' note:
+The Internal Revenue Code does not encourage lobbying by 501(c)(3)
+organizations, but it does allow it under limited circumstances. Here's a
+laying it all out, helpfully provided to us by a Washington lawyer who just
+happens to be the husband of a Slate editor.
+            
+
+            
+               Hot
+Air
+            
+
+            I read David Plotz's
+"The (Not
+Yet) Around-the-World Balloonists" on a flight from London to L.A., sitting
+next to a New Zealander who had just won a transatlantic rowing race. Perhaps
+that's why I feel Plotz's article is the silliest explanation of the logic of
+adventure I've ever read. In particular, Plotz's notion that adventures used to
+be (and need to be) driven by practical considerations, such as opening trade
+routes, strikes me as daft. While Plotz is right that the number of challenges
+remaining seems to be decreasing--it could hardly increase--I find it almost
+impossible to believe that previous record-setters were driven by the kind of
+practical, commercial concerns that Plotz ascribes to Ferdinand Magellan and
+Dick Rutan.
+
+            If his
+theory were true, Edmund Hillary's ascent of Mount Everest would have been
+motivated by a desire to test new oxygen tanks, and Joshua Slocum would have
+circumnavigated the world in order rack up frequent-sailing miles. Yes, of
+course balloons are a uniquely terrible mode of transportation. Sticking ice
+axes in the sides of mountains is a pretty stupid way to get to 29,000 feet as
+well. The motivation of adventurers everywhere is to achieve something no one
+else has achieved and to derive the pleasure that arises from that--and, not
+incidentally, to get famous by writing books about it. And the reason why the
+rest of us sit in our armchairs and read about these accomplishments is because
+we wish we'd done something as interesting with our time. If there is an
+occasional practical benefit to these shenanigans, so much the better. In the
+meantime, the world will probably be content to support the world of adventure
+through an occasional perilous walk to Borders.
+
+            -- Ravi Desai
+            
+
+            
+
+               Deflating Lindy
+            
+
+            According to David Plotz
+("The [Not
+Yet] Around-the-World Balloonists"), "Charles Lindbergh's crossing wasn't
+just a stunt: It made real the idea of transatlantic air travel." By the time
+Charles Lindbergh made the first solo crossing, the idea of transatlantic air
+travel had already been made real by other flyers who had crossed the Atlantic
+Ocean.
+
+            While
+Lindbergh's crossing certainly captured the public imagination (as some of
+today's balloonists have also), it did little to advance the technology of
+aviation.
+
+            -- Edward
+Ehrlich
+            
+
+            
+               Mustang
+Sally
+            
+
+            Jacob
+Weisberg's "No Respect," on why the establishment hates Clinton, was
+outstanding. Of all the obnoxious, hypocritical statements he collected, the
+worst was Sally Quinn on why people "who have attained a certain social or
+political position" feel dissed by Clinton. Let's see: Clinton attained his
+position by being elected president; Quinn attained hers by marrying her boss.
+And he's supposed to suck up to her? Another reason for Georgetown's hostility
+is that Clinton's 1993 tax increase fell hardest on upper-crust types. They
+like to talk about their social consciences, but Clinton is the first political
+leader in a generation to make them put their money where their mouths are.
+
+            -- Tom
+Scarlett Hyattsville, Md.
+
+            
+               Remember
+Venn?
+            
+
+            I wondered if someone
+writing for 
+                  Slate
+                could be dispassionate, honest, and objective
+about the browser issue. I wish I could say that "You Be the Judge" fit the
+bill, but I just don't buy it. I tried your experiment. Yes indeed, remove
+those three .dll files and several other files don't work correctly. But
+restore those three files without IE 4 and guess what? Everything runs
+just fine.
+
+            So, as far as I can see, the
+whole distinction really boils down to a few overlapping files. This is hardly
+an existential issue. It reminds me of a Venn diagram with two overlapping
+circles, A and B. If Microsoft removes all of A (IE 4), including the little
+portion that overlaps B (Windows 95), B is no longer a viable whole.
+
+            The distinction that
+Microsoft refuses to admit, however, is that it can and should remove all of A
+that is not part of B. It can and should include in its operating system those
+.dll files that Windows 95 and other applications need. The engineers at that
+firm know full well which .dll files could and would be needed by other
+applications, including the OS.
+
+            This reminds me of buying a
+car without a factory-installed stereo. Just because I didn't buy Ford's stereo
+doesn't mean that Ford left out the battery or the fuse box, both of which are
+needed for the user to install and operate a stereo after the purchase.
+
+            The
+bullies at Microsoft are simply refusing to obey the judge's orders and are
+trying to obscure the issue with a lot of techie hot air. They should be fined
+heavily for contempt of court. Ultimately, I suspect the company will need to
+be broken up (much as AT&T was), with the OS division allowed to retain its
+natural monopoly but the other divisions forced to face the same competitive
+pressures that Netscape and other entrants face.
+
+            -- Jim Johnson New
+York City
+
+            
+               Address
+your e-mail to the editors to letters@slate.com. Please include your address and daytime phone
+number (for confirmation only).
+            
+
+         
+      
+   

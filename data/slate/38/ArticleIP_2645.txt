@@ -1,0 +1,130 @@
+
+   
+   
+      
+         
+            The Internet-Stock Bubble
+
+            The stock market is
+certainly reacting faster than ever to the slightest hint of good or bad news.
+Whether this means the stock market is more efficient than ever, though, is
+another question entirely. The answer may depend on whether you think
+"efficient" is a synonym for "jumpy and hysterical."
+
+            As
+Exhibit A, we offer the recent trials and tribulations of the so-called
+Internet stocks, trials and tribulations that said less about the actual
+business of the Internet than about the manic behavior of Wall Street in a
+just-won't-quit bull market. This most recent hysteria saw investors pouring
+billions of dollars into Internet stocks before suddenly--and all at
+once--changing their collective mind and racing for the exit. In this they
+resembled nothing so much as the knights in Monty Python and the Holy
+Grail , who took comfort in screaming "Run away! Run away!" as they fled
+killer rabbits and the like.
+
+            The ride began rather oddly, when some of the most
+prominent makers of computer hardware--memory chips, microprocessors, and
+PCs--announced that their earnings for the first quarter would fall short of
+the all-knowing analysts' estimates. Intel, Compaq, and Motorola all said that
+slowing demand--both in Asia and at home--was hurting profits, and both Intel
+and Compaq emphasized the negative impact of sharp cuts in PC prices. The bad
+news crushed these stocks, but much of the money that left Intel and Compaq
+immediately flooded into companies such as Yahoo!, Amazon.com, and myriad other
+search engines, online retailers, and Internet access providers whose listings
+now dot NASDAQ.
+
+            In part,
+that move into Internet stocks is simply evidence of what happens when everyone
+believes so strongly in the stock market that keeping any money in cash is
+regarded as heresy. In other words, if you were a mutual fund manager, you
+couldn't very well sell Intel and then say, "Now I believe I will wait until I
+can find a company that seems fairly valued." If you did that, you might miss
+out on the latest rally. The money had to go somewhere, and when Net stocks
+became the Next Big Thing (for those few days), that's where the money
+went.
+
+            
+Still, there was a certain logic at work in
+making Net stocks the Next Big Thing. If PCs are getting cheaper and cheaper,
+then more people will buy them. If more people have PCs, then more people will
+eventually use the Internet (fewer than 20 percent of U.S. households currently
+have access). This in turn means that more people will search on Yahoo!, buy
+books from Amazon.com, and so on. But while the long-run implications of cheap
+PCs for the Internet are important, it's hard to see how Intel's profit
+concerns made Amazon.com $500 million more valuable last Tuesday morning than
+it was the Friday before. The same was true of all other Internet companies
+whose option-holding executives must have been thanking their personal deities
+for the Asian crisis. It was a classic case of the next five years of good news
+for a company being priced into its stock all at once. And then the worm
+turned.
+
+            Why it
+turned isn't really clear, but it definitely did. It was a very odd thing to
+watch, in fact. Sometime midmorning last Tuesday, the Net stocks peaked, then
+tumbled even more quickly than they had ascended. Amazon.com, Yahoo!, Excite,
+Lycos, EarthLink, MindSpring: All lost between 10 percent and 15 percent of
+their value in just a few hours. Apparently, the cheap-PC theory had a few
+holes in it.
+
+            Just as the shift of money into Internet stocks was partly
+the product of a virtuous circle created by institutions trying to keep their
+portfolios invested in stocks that had "momentum," so too was the shift out
+partly the product of a vicious circle created by institutions trying to dump
+stocks that suddenly didn't have momentum. The rout also had something to do
+with the fact that only a few Internet companies have ever reported profits and
+that even those that have profits trade at valuations to which, as they say, no
+traditional criteria can be applied. Everyone knows that you can't value these
+companies the way you'd value General Electric (perhaps because if you did
+these companies would all have stock prices that are one-eightieth of what they
+are now). But every so often the market does look at their bottom lines, and it
+finds that discretion is sometimes the better part of valor.
+
+            Still, the
+most dubious part of this little minidrama is not really investors' herdlike
+advance and retreat as much as it is the governing principle behind that
+herdlike behavior. That governing principle is that all these companies belong
+to something called "the Internet sector" and that it's the sector, and not the
+companies, that matters. This is, of course, the principle governing most
+institutional investing, which is why pharmaceutical stocks and airline stocks
+and semiconductor stocks tend to move as groups. It's a rare day when American
+Airlines' stock rises while other airline stocks fall. There is the kernel of a
+good idea at work here, namely that macroeconomic or external events--like,
+say, a fall in the price of gasoline--that help one company in an industry will
+also help others. But sector investing also tends to reward a successful
+corporation's competitors for that corporation's success, and in that sense
+seems not merely counterintuitive but downright perverse.
+
+            
+More to the point, in the case of the Internet,
+sector investing rests upon a basic misconception, namely that there are things
+we can meaningfully call "Internet stocks." In fact, there are at least five
+different types of Internet companies, each of which has very different future
+prospects. Online retailers, such as Amazon.com and music seller CDnow, are
+still selling into a tiny market but one that's growing explosively. Search
+engines, such as Yahoo! and Lycos, are evolving into what are called "portal"
+sites, hoping to become more like mini-AOLs than just search engines.
+Infrastructure companies, such as VeriSign, Verity, and Netscape, are creating
+the tools that make the Web work, but their main source of income will come
+from corporations. A few companies, most notably CNET, are trying to make money
+packaging content. And, finally, there are the Internet access providers, which
+is to say, America Online and everybody else.
+
+            To be sure, all these
+companies will benefit from having more people use the Internet. But not all
+will benefit equally. And even within those five groups the differences among
+individual companies are more important than the similarities. To put it a
+different way, Amazon.com, Yahoo!, and AOL, which have established tremendous
+brand recognition and clear business models, have more in common with each
+other than Amazon.com does with other online retailers or AOL with other access
+providers. And yet the strength of these companies--each, by the way, now
+valued at stratospheric heights--is helping carry those around them. The
+Internet will undoubtedly be a crucial part of the economy of the next century.
+But Wall Street would be better off remembering that approximately 12,000 auto
+companies were around in the early part of this century. Instead of mindlessly
+tossing billions at or taking billions from the Net as such, investors should
+be spending their time making sure that it's the future Fords and General
+Motors of cyberspace that are getting the capital they need.
+
+         
+      
+   

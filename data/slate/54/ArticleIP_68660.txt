@@ -1,0 +1,125 @@
+
+   
+   
+      
+         
+            Why Online Polls Are Bunk
+
+            The
+weekly poll on the Web site of the Democratic National Committee asked
+visitors: "As the nation approaches a new millennium, what are the most
+important priorities facing our next president? Saving Social Security,
+strengthening Medicare and paying down the debt or implementing George W.
+Bush's $1.7 trillion risky tax scheme that overwhelmingly benefits the
+wealthy?"
+
+            Thanks
+to an organized Republican effort, more than two-thirds of the respondents
+favored Bush's tax cuts, prompting an embarrassed DNC to remove the poll from
+its site. News coverage of the incident explained that the poll was non-binding
+and non-scientific. But you could go further than that. Online polls aren't
+even polls.
+
+            A poll
+purports to tell you something about the population at large, or at least the
+population from which the sample was drawn (for example, likely Democratic
+voters in New Hampshire). Surprising though it may seem, the results of a
+scientific poll of a few hundred randomly sampled people can be extrapolated to
+the larger population (to a 95 percent degree of confidence and within a margin
+of error). (For a primer on "margin of error" and "degree of confidence," see
+this 
+                  Slate
+                ".") But the results of an online "poll" in which
+thousands or even millions of users participate cannot be extrapolated to
+anything, because those results tell you only about the opinions of those who
+participated. Online polls are actually elections, of a kind. And elections,
+while a fine way to pick a president, are a decidedly poor way to measure
+public sentiment.
+
+            Why
+aren't online polls an accurate measure of public opinion?
+
+            
+
+               1. Respondents are not randomly selected. Online polls are a
+direct descendent of newspaper and magazine straw polls, which were popular in
+the 19 th and early 20 th centuries. The print-media straw
+polls (very different from today's political straw polls but equally
+inaccurate) featured clip-out coupons that readers sent in to cast ballots for
+their preferred candidate. Other organizers of straw polls mailed ballots to
+people on a list of names. The most infamous of these took place in 1936 when
+Literary Digest sent 10 million presidential ballots to people, based on
+telephone directories and automobile registration lists. More than 2 million of
+the ballots were returned, and based on the results, the magazine predicted
+Republican Alf Landon would carry 57 percent of the popular vote and defeat
+Franklin Delano Roosevelt in a landslide.
+
+            
+
+               Literary Digest was wrong, of course, and straw polls never recovered,
+at least as a predictive tool. Reader and viewer surveys continue to prosper,
+however, in magazine contests, on TV shows like CNN's TalkBack Live , and
+on Web sites.
+
+            
+
+               2. Socioeconomic bias. Some of the common criticisms of online
+polling could be lobbed at the Literary Digest survey. In 1936, only a
+relatively small and wealthy portion of the electorate owned a telephone or an
+automobile. Likewise, many have criticized online polling because Internet
+users tend to be wealthier, more educated, and more male than the population at
+large. For this reason, many people assume Internet poll results to be biased
+in favor of the viewpoints of relatively wealthy, highly educated males.
+
+            But
+even saying that gives such polls too much credit. A scientific poll of the
+political opinions of Internet users would be subject to that socioeconomic
+bias (even random-digit telephone polls are only valid for the population of
+Americans owning telephones). An online poll--even one that eliminates the
+problem of multiple voting--doesn't tell you anything about Internet
+users as a whole, just about those users who participated in the poll.
+
+            
+
+               3. Questions and answers are always given in the same order.
+Pollsters speak of both the "primacy effect" and the "recency effect," meaning
+that the first and last choices are more likely to be chosen, particularly when
+there is a long list of possible answers. In addition, the order in which
+questions are given can affect the respondents' answers. For example, a
+question about "the longest economic expansion in history" might affect
+respondents' answers to a subsequent question about the president's job
+approval. Scientific polls account for these effects by rotating the order of
+both the questions and the answers.
+
+            Of
+course, even scientific polls are subject to error, and not just to the
+standard "margin of error" that is due to assumed errors in sample selection.
+As in the DNC poll, questions can be biased. Errors can also be made by
+interviewers and by data processors. Despite these possibilities, scientific
+polling has a long, reliable history, whereas "straw polling" has a long
+history of total unreliability.
+
+            As
+long as they are meant as entertainment, and as long as users understand what
+their results communicate, there's no reason to lose much sleep over online
+polls. What is worrisome is the failure of pollsters themselves to learn from
+the history of their profession. Even if they bill themselves as "voting sites"
+rather than "polling sites," Web sites such as Dick Morris' Vote.com tacitly imply that the results
+of their online polls are reliable and valid. Otherwise, why would Morris
+bother to send Vote.com's results to members of Congress?
+
+            Another online pollster,
+Harris Interactive, is using its Harris Poll Online to learn about the public's
+views on the 2000 election. In order to overcome socioeconomic bias, Harris is
+using what is known as "quota sampling," which ensures that the poll's
+respondents are an accurate reflection of the population's demographics. Quota
+sampling assumes that the answers of a particular demographic group such as
+white, 18-to-25-year-old Internet users can be projected to describe the
+opinions of white 18-to-25-year-olds at large. This technique was in widespread
+use until 1948, when the major national polls based on this technique all
+predicted that Republican Thomas E. Dewey would defeat incumbent Democrat Harry
+S. Truman.
+
+         
+      
+   

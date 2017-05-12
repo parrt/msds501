@@ -1,0 +1,200 @@
+
+   
+   
+      
+         
+            Politics and Culture
+
+            
+
+               
+                  Slate Lite
+            
+
+            A little-known clause in the
+First Amendment gives weekly magazines the right to a week off every now and
+then, especially during the summer. When 
+                  Slate
+                began publishing
+two years ago, we thought we were a weekly magazine, more or less. But
+we have evolved into something much more ... more ... well, "dynamic" is the
+approved term of Web self-hype. "Relentless" is how our staff (and perhaps even
+a few readers) might prefer to describe it. We now post new material at all
+hours, seven days a week. Last summer, when Princess Di's fatal car crash
+occurred the day after we shut down for a week, we realized that a vital and
+underrated press freedom--the freedom not to publish--does not apply to
+Webzines or, at least, not to this one. (Many thanks to the readers who wrote
+in to thank us for not succumbing to Di'n'Dodi hysteria. An undeserved
+compliment is cherished all the more.)
+
+            What is left of our weeks
+off is two weeks during the summer and one at Christmas, when we publish less
+material than usual. The first of those summer weeks is now upon us. We have
+posted a full week's worth of material today (post date July 23) and will
+resume our full publishing schedule a week from Monday (Aug. 3). In the
+interim, though, we will continue to post and update "Briefing" features such
+as "The Week/The Spin"; "Today's Papers" will continue (now seven days a week);
+the daily "News Quiz" will appear; and features such as "Chatterbox," "The
+Breakfast Table," and "Dialogues" will be updated often but irregularly, as
+always. That should be enough to satisfy most people, we hope. And if you need
+more, there's two years' worth of our archive, "The Compost," to poke around
+in.
+
+            Thanks
+for cutting us a little slack.
+
+            
+
+               
+                  Slate Progress Report
+            
+
+            When 
+                  Slate
+               
+became a paid-subscription site in March, we steeled ourselves for an
+inevitable drop in our audience. We're delighted to report that it hasn't
+happened. We had more visitors in June than in any month since we began
+publishing two years ago. According to Media Metrix, the leading Internet
+audience measurement service, 
+                  Slate
+                had a "reach" of 0.6 in June.
+Reach is defined as the percentage of the total World Wide Web audience in
+America that visited your site at least once during the month. Out of a Web
+audience Media Metrix estimates as 40.4 million, a reach of 0.6 works out to
+240,000 individual visitors. That doesn't include visitors outside the United
+States--at least 10 percent of our audience, as best we can estimate. It also
+doesn't include subscribers who read 
+                  Slate
+                exclusively through
+e-mail delivery
+or subscribers to Slate on Paper.
+
+            Paid subscribers now number
+23,000--up 35 percent from the 17,000 subscribers we had the day we went paid.
+That's an encouraging rate of growth. But how can we have 10 times as many
+visitors as we have subscribers? Answer: People are coming to our "front
+porch"--the small sample of 
+                  Slate
+               's contents that is made
+available to nonsubscribers--and they are taking advantage of our free month's trial
+offer. Naturally, we hope these nibbles of 
+                  Slate
+               's splendors
+will persuade visitors to purchase the full meal. And that appears to be
+happening.
+
+            Among
+magazines on the Web, 
+                  Slate
+               's reach of 0.6 is lower than that of
+Pathfinder (the site shared by all Time Inc. magazines) and Hotwired, and
+higher than that of U.S. News , Salon , and the Economist .
+All these other sites except the Economist are free. The New
+Yorker has no Web site to speak of.
+
+            
+               Politics
+and Culture
+            
+
+            Jacob Weisberg,
+
+                  Slate
+               's chief political correspondent, looked around him a few
+months ago and saw nothing but squalor. This is not a reference to
+
+                  Slate
+               's New York bureau, where Jacob hangs his laptop. Those
+offices actually are quite snazzy, in an ever-so-faintly seedy downtown sort of
+way, inciting no small amount of envy in those of us who labor in the bland
+corporate vineyards of Redmond, Wash. No, what struck Jacob as oppressively
+squalid was the subject matter he was forced to contemplate week after week:
+fleeting, age-inappropriate sexual liaisons in the Oval Office; the seep of
+money into every cranny of the political system; Trent Lott; Newt Gingrich. It
+was more than a sensitive soul could bear.
+
+            "Where is
+beauty?" Jacob wailed. "Where is art? Man does not live by Social Security
+privatization alone." And he pleaded to the editor, "Take me away from here, to
+a realm of high thoughts and charmed vistas, where I may contemplate matters
+more lovely than special prosecutors and nuclear proliferation. Where aesthetic
+considerations are paramount and base motives are unknown."
+
+            And the editor heard Jacob's plea. And he said, "Arise,
+Jacob, and put aside politics for a few months. Go forth and cover culture and
+the arts. There, among the intellectuals and book people and artsy-fartsies
+generally, you will find nothing but wholesomeness. Beauty is in their hearts
+and beauty is on their minds. Dwell among them and let their purity wash away
+the filth of politics with which you are encrusted after lo! these many columns
+and articles on the subject."
+
+            But Jacob was pierced by
+shafts of doubt. "Are you sure," he asked the editor, "that the world of
+culture is actually so wonderful and that the people who dwell therein are
+actually so pure? If so, what will I write about? Goodness and purity maketh
+not much of a column. What will I impugn, if not motives?"
+
+            "Fear not, Jacob," the editor
+replied. "You will think of something. And, come to think of it, the world of
+culture may not be as pure as all that after all. There is squalor aplenty. But
+at least it will be a different kind of squalor." And the editor decreed that
+Jacob's first culture column should be called "The Browser." And he decreed
+that Jacob's first
+Browser column should post Thursday, July 23.
+
+            And it was
+good. (Or it had better be.)
+
+            
+               Musical
+Chairs
+            
+
+            
+Meanwhile, though, who would cover politics while Jacob dwelt in the land of
+the artsy-fartsies? Using several top executive search firms, as well as
+experimental talent sorting software from Nathan Myhrvold's research labs here
+at Microsoft, we scientifically ranked everyone in the entire world on the
+basis of their qualifications to cover American politics for an online
+magazine. By a miraculous and money-saving coincidence, No. 1 turned out to be
+
+                  Slate
+                Senior Writer David Plotz, whose first "Strange
+Bedfellow" column was posted last week. (And here's the latest.)
+
+            
+
+               Complainer
+            
+
+            
+
+               
+                  Slate
+               's Explainer is complaining about the quality of the questions he is
+receiving. Explainer stands ready to explain items in the day's news that are
+confusing or vague or seemingly contradictory or otherwise inadequately
+explained by the conventional media. But many of the questions he receives, he
+says, are "tendentious." They don't really seek information or understanding.
+Questions such as "Why is Rep. John Kasich such a jerk?" are essentially
+unanswerable. They begin from a debatable premise and go on to raise profound
+metaphysical questions that are beyond the scope of this 
+                  Slate
+               
+feature. Questions such as "How big a jerk is Rep. John Kasich?" are no better.
+The answer is inherently subjective. (Many people believe, in all sincerity,
+that he is a very small jerk. Nor does the question allow for the possibility,
+however slight, that he is not a jerk at all.) "Why doesn't my computer work?"
+is another category of questions Explainer is not prepared to answer. Questions
+about life and love should go to "Dear Prudence." But if there's something that truly puzzles you
+in the paper this morning, Explainer is eager to straighten you out.
+
+            
+
+               --Michael Kinsley
+            
+
+         
+      
+   

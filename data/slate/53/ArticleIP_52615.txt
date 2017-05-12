@@ -1,0 +1,108 @@
+
+   
+   
+      
+         
+            A Fireless Chat
+
+            
+WASHINGTON, D.C.--History records that the first telephone conversation in 1876
+was an urgent request for an in-person meeting. "Mr. Watson, come here, I want
+you," Alexander Graham Bell is supposed to have said to his assistant in the
+next room. Monday night, Bill Clinton participated in what was billed as the
+first presidential Internet chat, an event intended to showcase another
+epoch-making technology in a larval stage. Clinton was more patient than Bell.
+He resisted the urge to say what must have been on the mind of nearly everyone
+present at the 90-minute demonstration: Why don't we turn this damn thing off
+and have a real conversation?
+
+            The
+idea for the Town Hall
+Chat, co-sponsored by the Democratic Leadership Council and Excite, was to
+demonstrate how the Net enables new forms of democratic communication. Here's
+how it worked: Clinton sat onstage in a small auditorium at George Washington
+University accompanied by Al From, the president of the DLC. Clinton and From
+had a screen in front of them. From read aloud questions sent in by e-mail, and
+Clinton answered. Also wired in to the session were five other government
+officials in remote locations around the country and Mark Andreessen, the
+founder of Netscape. In theory, virtual participants could watch streaming
+video of the event, listen to an audio simulcast, or watch a scrolling text
+transcription, all over the Internet.
+
+            In
+practice, the technology was pretty clunky. Due to "network congestion," the
+voices of two of the officials didn't come through at all, and others were
+either time-delayed or so distorted as to be barely audible. At times, the town
+hall dissolved into a series of "Hello Watson, can you hear me?" exchanges.
+Clinton read his prepared opening remarks (in which he compared the event to
+one of FDR's fireside chats) from a teleprompter. If you were watching this on
+the Web, the herky-jerky streaming video of his head and torso represented a
+giant leap backward from the straightforward TV broadcast on C-SPAN. And the
+scrolling text, which was transcribed not by voice-recognition software but by
+human secretaries, was hardly a high-tech marvel. The overall effect was that
+of primitive video-conferencing. In a way, it made you marvel at how far we
+haven't come since FDR's day.
+
+            When
+the technology did work as intended, it merely made you wonder what good it is
+anyhow. Having a meeting over the Internet is still like walking to the mailbox
+in a 60-pound spacesuit. That it can be done--impressive. But why do it at all,
+given that the quality of the interaction is so poor? As in all Internet
+"events" I've ever seen or participated in, the time lags and unfamiliarity of
+the basic structure sucked any spontaneity and most of the oxygen from the
+room.
+
+            Part
+of the fault was not technical but human and political. In theory, the Internet
+allows for a vast range of queries from far and wide. In practice, questions
+for the president were so carefully vetted as to be far narrower in range than
+what he might have encountered from a small, homogenous, and friendly audience
+like the one in the hall. The questions were in fact, triple-screened: first by
+the Excite staff, which weeded out anything with the word "Monica" in it, then
+by the DLC staff, with a bias toward substance, and finally by From, who choose
+from among those culled for him. The messages that got passed on to Clinton
+were wonky and sincere, dealing in an unchallenging way with matters like free
+trade and health care. One of the few sparks of interest was a question about
+whether Clinton, if he didn't live in the White House, would put aside food for
+a possible Y2K catastrophe. The president said he wouldn't, because he doesn't
+anticipate any serious problems.
+
+            Before
+long, Clinton was pointing at questions drifting by on his screen, begging for
+more difficult ones. The event might have worked slightly better if he had been
+given a mouse to flag questions he wanted to answer or a keyboard to send
+messages back to the control room. But this too would have risked
+embarrassment, since Clinton is an acknowledged computer illiterate and can't
+type. Nonetheless, he does appear to have gained a sense of how the Internet
+might someday be democratically useful. In his closing remarks, Clinton made a
+point about how isolated a president can become from the public despite his
+best intentions to keep in touch and how the new technology might help. Then he
+thanked everyone for coming to his "press conference."
+
+            
+Clinton is right that his successor, , will have a real tool to maintain
+contact with ordinary people. It's too late for Clinton himself. He could have
+learned how to use a computer, of course, but I don't think electronic politics
+holds any appeal for him. You can't seduce a voter in an e-mail message. To
+Clinton, the political is the interpersonal: the hand on the shoulder, the
+intent gaze, the fleck of spittle in the eye. Even on television, he can
+provide a simulacrum of this human experience. But on the Internet,
+communication is far more abstract. E-mail bores him--and it showed. The most
+interesting part of last night's event was what happened after it ended, when
+you got to see Clinton doing what he does like no one else, schmoozing live
+people. I eavesdropped as he massaged the ego of Tom Jermoluk, the CEO of
+Excite. "I know this may have cost you arm and a leg, but I think you may have
+revolutionized politics," Clinton confided to him.
+
+            At the end of unsuccessful
+cyber-events, everyone always praises them as "historic." Perhaps so, though I
+think history will remember them as fumbling experiments that pointed in a
+different direction. At this point, they testify mainly to the capacity of the
+Internet to take something interesting--like a discussion with President
+Clinton--and make it unbearably dull. But be patient: In five years or so,
+advances in technology may get us to the point where an Internet Town Meeting
+is almost as interesting as a Town Meeting without the Internet.
+
+         
+      
+   

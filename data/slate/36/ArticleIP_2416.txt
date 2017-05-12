@@ -1,0 +1,291 @@
+
+   
+   
+      
+         
+            The Bell Curve Flattened
+
+            Charles Murray is a
+publicity genius, and the publication of his and Richard Herrnstein's book,
+The Bell Curve: Intelligence and Class Structure in American Life , in
+the fall of 1994 was his masterpiece.
+
+            Virtually
+all ambitious trade hardcover books are preceded by an edition of 100 to 200
+flimsy "galley proofs." These are sent out to people who might generate buzz
+for the book: blurbists, bookers for television talk shows, editors, and--most
+important--book critics. There is an ethos of letting the chips fall where they
+may about the sending out of galleys: Now the book will begin to receive
+uncontrolled reaction. (For example, back in 1991, Murray somehow got hold of
+the galleys of my own last book, and wrote me heatedly denying that he was
+working on a book about black genetic intellectual inferiority, as I had
+asserted. I left the passage in, but softened it.)
+
+            The Bell Curve was not circulated in galleys before
+publication. The effect was, first, to increase the allure of the book (There
+must be something really hot in there!), and second, to ensure that no one
+inclined to be skeptical would be able to weigh in at the moment of
+publication. The people who had galley proofs were handpicked by Murray and his
+publisher. The ordinary routine of neutral reviewers having a month or two to
+go over the book with care did not occur. Another handpicked group was flown to
+Washington at the expense of the American Enterprise Institute and given a
+weekend-long personal briefing on the book's contents by Murray himself
+(Herrnstein had died very recently), just before publication. The result was
+what you'd expect: The first wave of publicity was either credulous or angry,
+but short on evidence, because nobody had had time to digest and evaluate the
+book carefully.
+
+            
+               The Bell Curve isn't a
+typical work of trade nonfiction. It is gotten up as a work of original
+scholarly research. Most works containing fresh regression analysis and
+historical argument from primary sources would be published in academic
+quarterlies that send manuscripts out for elaborate, lengthy evaluation before
+deciding whether to publish them. Herrnstein and Murray didn't do this, so it
+wasn't until a full year or more after The Bell Curve was published that
+the leading experts on its subject had a chance to go through the underlying
+data with care. Therefore, as time went on, the knowledgeability of the Bell
+Curve discussion grew, but the attention paid to that discussion inevitably
+shrank.
+
+            The debate
+on publication day was conducted in the mass media by people with no
+independent ability to assess the book. Over the next few months, intellectuals
+took some pretty good shots at it in smaller publications like the New
+Republic and the New York Review of Books . It wasn't until late 1995
+that the most damaging criticism of The Bell Curve began to appear, in
+tiny academic journals. What follows is a brief summary of that last body of
+work. The Bell Curve , it turns out, is full of mistakes ranging from
+sloppy reasoning to mis-citations of sources to outright mathematical errors.
+Unsurprisingly, all the mistakes are in the direction of supporting the
+authors' thesis.
+
+            
+First, a quick précis of The Bell Curve .
+IQ tests, according to Murray and Herrnstein, measure an essential human
+quality, general intelligence. During the second half of the 20 th
+century, this quality has risen to supreme importance, because society has
+become increasingly complex. The intelligent have therefore gone through an
+"invisible migration," from points of origin all over the class system to a
+concentration at the top of business, government, and the professions. They are
+likely to become ever more dominant and prosperous. The unintelligent are
+falling further and further behind. Because intelligence is substantially
+inherited, nothing is likely to reverse this process. Blacks are
+overrepresented among the unintelligent. Any efforts government might make to
+improve the economic opportunities of poor people, especially poor black
+people, are likely to fail, because their poverty is so much the result of
+inherited low intelligence. About the best that can be done for these people is
+an effort to create a world of simple, decent, honorable toil for them.
+
+            
+Herrnstein and Murray begin by telling us that the liberal position on
+IQ--namely, "Intelligence is a bankrupt concept"--has been discredited, and
+that "a scholarly consensus has been reached" around their position. This
+consensus is "beyond significant technical dispute." Thus, by the end of their
+introduction, they have arranged matters so that if intelligence has any
+meaning at all, the idiotic liberals stand discredited; and meanwhile,
+extremely broad claims for intelligence have the cover of "consensus."
+
+            The notion that IQ tests are completely useless never
+prevailed in liberal academia to nearly the extent that Herrnstein and Murray
+say. A more accurate rendering of the liberal position would be that rather
+than a single "general intelligence," there are a handful of crucial--and
+separate--mental abilities; that none of these abilities is important enough to
+obviate the role of family background and education; and that native ability
+(and economic success independent of native ability) can be enhanced by
+improving education, training, and public health. The Bell Curve refers
+in passing to some of these points, but on the whole it sets up a cartoon-left
+position as its (easy) target. Meanwhile, the psychometricians who dominate the
+footnotes of The Bell Curve are John Hunter, Arthur Jensen, Malcolm Ree,
+and Frank Schmidt. These men are well known within the field as representing
+its right wing, not a mainstream consensus.
+
+            The next
+problem with The Bell Curve 's thesis is in the idea of the rise to
+dominance of the cognitive elite. To the book's initial audience of Ivy
+Leaguers, this idea seemed valid on its face. Everybody knows that the best
+universities, law firms, hospitals, investment banks, and the State Department
+used to be run by preppies whose main virtue was fortunate birth, and are now
+open to one and all on the basis of merit.
+
+            
+But the larger premise--that intelligent people
+used to be scattered throughout the class structure, and are now concentrated
+at the top--is almost impossible to prove, simply because the mass
+administration of mental tests is such a recent phenomenon. High scorers on
+mental tests do "bunch up" (as Herrnstein and Murray put it) in
+elite-university student bodies. But this is tautological: Any group selected
+on the basis of scores on mental tests will be composed disproportionately of
+people who score high on mental tests. Proving The Bell Curve 's thesis
+would require proving that success increasingly correlates with IQ in areas of
+life where mental tests are not the explicit gatekeepers. To see how
+The Bell Curve tries and fails to get around these inherent problems,
+see and .
+
+            Having
+conditioned its audience to view IQ as all-important, The Bell Curve
+then manipulates statistics in a way that makes IQ look bigger, and everything
+else smaller, in determining Americans' life-chances.
+
+            The basic tool of statistical social science in general,
+and of The Bell Curve in particular, is regression analysis, a technique
+used to assign weights to various factors (called "independent variables") in
+determining a final outcome (called the "dependent variable"). The original
+statistical work in The Bell Curve consists of regression analyses on a
+database called the National Longitudinal Study of Youth. The authors claim to
+demonstrate that high IQ is more predictive of economic success than any other
+factor, and that low IQ is more predictive of poverty and social breakdown.
+Virtually all the early commentators on The Bell Curve were unable to
+assess the merits of the regression analysis. "I am not a scientist. I know
+nothing about psychometrics," wrote Leon Wieseltier (who was otherwise quite
+critical) in a typical disclaimer.
+
+            But by now the statistics
+have been gone over by professionals, who have come up with different results.
+The key points of their critique of The Bell Curve are as follows:
+
+            What Herrnstein and Murray
+used to measure IQ is actually a measure of education as well as intelligence.
+All the people tracked in the National Longitudinal Study of Youth took the
+Armed Forces Qualifying Test, which Herrnstein and Murray treat as a good
+measure of intelligence. Because the material covered in the test includes
+subjects like trigonometry, many academic critics of The Bell Curve have
+objected to its use as a measure only of IQ and not at all of academic
+achievement. Herrnstein and Murray concede in the footnotes that scores tend to
+rise with the subjects' education--but they seriously underestimate the
+magnitude of this rise, as shows. And they resist the obvious inference that
+the test scores are measuring something other than intelligence.
+
+            Most of The Bell
+Curve 's analysis is devoted to proving that IQ has more predictive power
+than parental "socio-economic status." But Herrnstein and Murray's method of
+figuring socioeconomic status seems designed to low-ball its influence, as
+explains.
+
+            Herrnstein and Murray begin
+their discussion of the National Longitudinal Study of Youth data by announcing
+that they aren't going to analyze the effect of education, because education is
+too much a result of IQ. It's not an independent variable. (Of course,
+according to their theory, socioeconomic status is also a result of IQ, but
+somehow, that doesn't stop them.) Therefore, what you'd most want to know from
+a policy standpoint--how much education can increase opportunity--isn't dealt
+with in the book, except in two obscure footnotes. Both would seem to support
+the liberal, pro-education position that Herrnstein and Murray say is futile.
+One footnote shows education increasing IQ year by year. The other shows a
+higher correlation between college degree and family income than between IQ and
+family income.
+
+            One of The Bell
+Curve 's theoretical linchpins is the high heritability of IQ. Herrnstein
+and Murray, sounding like the souls of caution, write that "half a century of
+work, now amounting to hundreds of empirical and theoretical studies, permits a
+broad conclusion that the genetic component of IQ is unlikely to be smaller
+than 40 per cent or higher than 80 per cent. ... For purposes of this
+discussion, we will adopt a middling estimate of 60 per cent heritability."
+This now looks seriously overstated. Michael Daniels, Bernie Devlin, and
+Kathryn Roeder of Carnegie Mellon University took the same studies on which
+Herrnstein and Murray based their estimate, and subjected them to a computer
+meta-analysis ("a powerful method of statistical analysis"-- The Bell
+Curve ). Their paper, which has not yet been published, says: "In brief,
+studies of IQ, and our reanalyses of them, suggest a narrow-sense heritability
+of 34 per cent and a broad-sense heritability of 46 per cent. [The difference
+between broad and narrow is too technical to explain in this limited space.]
+This is a far cry from Herrnstein and Murray's maximum value of 80 per cent or
+their middling value of 60 per cent. Consequently, Herrnstein and Murray give
+the impression that IQ is highly 'heritable,' but it is not."
+
+            If the purpose of the whole
+exercise is to figure out what our social policies should be, then, "Which is
+more predictive, IQ or socioeconomic status?" isn't the essential question
+anyway. Making it the essential question avoids the issue of whether IQ is
+really so massively predictive that it drowns out everything else. (Herrnstein
+and Murray mostly leave the evidence for this, their central contention, to
+footnotes. The figures they offer are far from dispositive.)
+
+            The
+chapter of The Bell Curve on policies that might be able to overcome the
+fate of a low IQ focuses mainly on whether early-childhood programs like Head
+Start (most of which aren't run with raising IQ as their primary goal) can
+raise IQ significantly over the long term, and sorrowfully concludes that they
+can't. What the book doesn't discuss is whether public schools--by far the
+biggest government social program--can raise IQ, or earnings after you control
+for IQ. As James Heckman of the University of Chicago wrote in the Journal
+of Political Economy , " Evidence of a genetic component to skills has no
+bearing on the efficacy of any social policy. ... The relevant issue is the
+cost effectiveness of the intervention." (As an example of where the kind of
+analysis Herrnstein and Murray didn't do can lead, a new study by Jay Girotto
+and Paul Peterson of Harvard shows that students who raise their grades and
+take harder courses can increase their IQ scores by an average of eight points
+during the first three years of high school.)
+
+            
+At the beginning of The Bell Curve ,
+Herrnstein and Murray declare that "the concept of intelligence has taken on a
+much higher place in the pantheon of human virtues than it deserves." And they
+claim that their view of IQ tests is "squarely in the middle of the scientific
+road." They end by expressing the hope that we can "be a society that makes
+good on the fundamental promise of the American tradition: the opportunity for
+everyone, not just the lucky ones, to live a satisfying life." Throughout,
+Herrnstein and Murray consistently present themselves as fair- (or even
+liberal-) minded technicians who have, with great caution, followed the
+evidence where it leads--which, unfortunately, is to a few unassailable if
+unpleasant scientific truths that it is their reluctant duty to report.
+
+            In fact, The Bell
+Curve is a relentless brief for the conservative position in psychometrics
+and social policy. For all its talk of reflecting a consensus, the sources it
+draws upon are heavily skewed to the right. Herrnstein and Murray used
+quasi-nutty studies that support their position (as Charles Lane demonstrated
+in the New York Review of Books ), and ignore mainstream studies that
+contradict it (as Richard Nisbett showed in the New Republic ). The data
+in The Bell Curve are consistently massaged to produce conservative
+conclusions; not once is a finding that contradicts the main thesis reported in
+the text. ( shows how Herrnstein and Murray have made the convergence in
+black-white IQ scores, which they claim to find "encouraging," look smaller
+than it actually is.) The Bell Curve 's air of strict scientism doesn't
+preclude the use of lightly sourced or unsourced assertions, such as the
+statement that the median IQ of all black Africans is 75, or that
+"intermarriage among people in the top few percentiles of intelligence may be
+increasing far more rapidly than suspected" (no footnote). Though they piously
+claim not to be doing so, Herrnstein and Murray leave readers with the distinct
+impression that IQ is the cause of economic success and failure, and that
+genetic difference explains the black-white IQ gap.
+
+            In the
+most famous passage in The Republic , Plato describes an underground cave
+where people are held prisoner in chains, unable to see anything but the
+shadows cast by figures passing outside; they mistake the shadows for reality.
+The Republic is probably the first place in history where an idea like
+that of Murray and Herrnstein's cognitive elite appears. Plato believed that
+through education, people could leave the cave and be able to see the truth
+instead of the shadows, thus fitting themselves to become the wise rulers of
+society. But he was quick to insert a cautionary note: Those who have left the
+cave might be tempted to think they can see perfectly clearly, while actually
+they would be "dazzled by excess of light." The image applies to The Bell
+Curve : Presented as an exact representation of reality, in opposition to
+the shadows of political correctness, it actually reflects the blinkered vision
+of one part of the American elite. It constantly tells these people that they
+are naturally superior, and offers lurid descriptions of aspects of national
+life that they know about only by rumor. Readers who accept The Bell
+Curve as tough-minded and realistic, and who assume that all criticism of
+it is ignorant and ideologically motivated, are not as far removed from Plato's
+cave as they might think.
+
+            : Dumb
+College Students
+
+            : Smart
+Rich People
+
+            : Education
+and IQ
+
+            :
+Socioeconomic Status
+
+            : Black-White
+Convergence
+
+         
+      
+   

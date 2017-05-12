@@ -1,0 +1,84 @@
+
+   
+   
+      
+         
+            Real-World Libertarians and the Net
+            
+
+            I'm finding it a bit hard to locate my book in Richard's kickoff to this
+discussion. Its argument is not, as he suggests, that "liberty converges onto
+anarchy." To the contrary: My argument is that a certain form of libertarianism
+will lead to less liberty. A certain form of libertarianism--a knee jerk
+libertarianism that looks at every proposed intervention by government and says
+"leave the Net alone." My argument is that this response will lead to a Net
+with far less liberty than the Net we know now, with a potential to be far more
+regulated than any world we have known--ever.
+
+            How?
+
+            That's the second part of the argument that seems to have gone missing: that
+the liberty, or freedom, that cyberspace guarantees now is a function of the
+architecture of that space. That that architecture--which I call "code,"
+meaning the software and hardware that constitutes cyberspace as it is--was
+initially an architecture that protected fundamental freedoms. But that that
+architecture is changing. As it changes, the freedoms that the Net will
+guarantee changes as well.
+
+            How is it changing?
+
+            This is the third part AWOL in this initial kickoff of a discussion. The
+original architecture, given to us by researchers and hackers and generally
+libertarian sorts, is being changed as new layers of code are being added to
+this architecture. And these new layers are being added not by the same
+libertarian sorts who gave us the initial version of the Internet. They are
+being added by coders who work for commerce. The values implicit in their code
+are different from the values implicit in the code of the original Internet.
+And under one story about how that code evolves, they threaten to flip the
+character of the Net--from a place that protects liberty to a place where
+liberty has been coded away.
+
+            Rather than focusing on those arguments, Richard wants to defend
+"libertarianism"--a cause that he has admirably defended for a great deal of
+time. Libertarianism is not, Richard says, quoting me, the view that
+"government is the enemy"; nor is it a focus on "reducing government's power."
+That is "not the way in which a libertarian ... thinks about government."
+Rather, the libertarian "starts in the state of nature." His or her "objective
+function starts with the goal of minimizing the use of force and fraud in human
+interactions. The hard part of the system is to figure out a way in which that
+minimization takes place over both public and private actors."
+
+            But there is "libertarianism" in the Ivory Tower and there is
+"libertarianism" on the ground. I recognize the species that Richard describes;
+I am a permanent resident of the Ivory Tower. But my book describes a present
+political attitude, not the Ivory Tower. It is about a present political
+reality, and a present rhetorical push. I am describing it because I have been
+watching it for the past six years. In that world, if someone argued (as
+Richard does above) that a "law of privacy" was needed, as well as law
+protecting trade secrets; that laws regulating libel and slander were
+necessary, as well as a law regulating blackmail; if one even raised the issue
+of taxation, or suggested that the government was needed to "secure the
+infrastructure", then one would not be a "libertarian." One would be a Red. The
+libertarian of the Net has a simple message, quite different from Ivory Tower
+Libertarianism. It is: Keep the government out.
+
+            Now of course this is an extreme, but the extreme affects the mean. And so
+while there are few who would insist that the government always stay out, it
+has become mainstream to argue that the government should just leave the Net
+alone. "Let the Net take care of itself," is the slogan of our generation--and
+the current administration. But if we do, then the Net will become something
+very different from what it is just now.
+
+            That's the argument of my book. Not an attack on Ivory Tower Libertarianism.
+Nor even an attack on "sensible libertarianism." But an attack on a certain
+do-nothingness that pervades our present political culture.
+
+            So forgive me, Richard, if I decline your sending it "over to" me "to
+explain why the same version of sensible libertarianism ... should not guide
+our activities in cyberspace." That's the question of your many valuable and
+important books. My book asks a different set of questions. Let me send it back
+over to you to address some of them.
+
+         
+      
+   

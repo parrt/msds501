@@ -1,0 +1,153 @@
+
+   
+   
+      
+         
+             Talking About a Revolution
+
+            Kelvin Lancaster died last month. He was an
+economist's economist, famous within the profession (when an economist uses the
+adjective "Lancastrian," he isn't talking about the Wars of the Roses), but
+largely unknown beyond it. I can't claim to have known him personally: I was 3
+years old when his famous paper on the theory of the "second best" was
+published (click to read more about it), and we probably met only four or five
+times. But nonetheless there was a time, a couple of decades ago, when we were
+comrades-in-arms--when he and I, along with several dozen other people, helped
+make a revolution in economic theory.
+
+            That revolution went unnoticed among the wider
+public, even among those who follow (or think that they follow) economic
+thinking. David Warsh of the Boston Globe wrote an excellent series of
+articles about some of the revolutionaries, and he's in the process of
+finishing a book-length treatment. But other journalists ignored the story, or
+if they did write anything got it wrong, preferring camera-ready fantasies in
+which heroic outsiders challenged an obtuse Establishment. I've tried elsewhere
+to correct some of the myths (click to read my article on the power of
+biobabble and to read about the legend of Brian Arthur), but maybe Lancaster's
+death is a good occasion for me to wax nostalgic, to recall what actually
+did happen.
+
+            To understand the
+revolution, you need to grasp two related dichotomies. One is that between
+constant and increasing returns; the other between perfect and imperfect
+competition. Constant returns is the assumption that if you increase your
+inputs, your output will grow by the same amount--e.g., if you double your
+inputs you will also double your output. Increasing returns, on the other hand,
+says that doubling inputs will more than double output. Perfect
+competition is the assumption that producers are like wheat farmers, who take
+the price of wheat as a given--and not like, say, Apple, which must decide what
+to charge for an iMac and can choose within limits to raise that price if it is
+willing to accept a reduction in sales.
+
+            Perfect competition and constant returns go together like
+cookies and milk; without constant returns, the assumption of perfect
+competition becomes very hard to swallow. The reason, basically, is that when
+there are increasing returns an industry will tend to become dominated by at
+most a few large players, and these players are bound to realize that they have
+some price-setting power. They are also likely to realize both that it is in
+their common interest to agree, at least tacitly, to set prices high, and that
+it is in their individual interest to cheat on that agreement and undercut
+their rivals. Is the eventual result a stable cartel, a perpetual price war, or
+an irregular alternation between the two? Hard to say. But what has long been
+clear to economists is that increasing returns normally lead to imperfect
+competition, and that imperfect competition can be a messy and intractable
+subject.
+
+            That recognition, in
+turn, led the profession to spend about a century and a half--from David
+Ricardo until the 1970s--concentrating its theoretical energy on models that
+assumed constant returns and perfect competition, and economists tended to
+avoid questions where increasing returns or imperfect competition were
+self-evidently crucial. In so doing they were neither foolish nor dogmatic:
+Most economists, I think, understood that increasing returns are sometimes
+important, and a few people did try to take them into account. (In my
+specialty, international trade theory, increasing-returns analysis is usually
+dated from a 1925 paper by the Princeton economist Frank Graham; the first
+fully worked-out mathematical model was published by R.C.O. Matthews in 1950.)
+But useful theorizing in complex subjects such as economics is always a matter
+of choosing the right strategic simplification, and for a long time it seemed
+that the clarity of constant-returns/perfect-competition analysis justified its
+violence to reality. Even now, one can say--and I did, back in 1995--that 95
+percent of the time, it would be a blessing if politicians could understand
+what's right about the constant returns model, not what's wrong with it.
+
+            By the 1970s, however, patience with constant-returns
+economics was wearing thin. Exactly why is hard to say. I don't think you can
+claim that returns were less constant or competition less perfect in the real
+world of 1975 than they had been in 1955, or even 1925. More likely, the
+driving force was the field's internal intellectual logic: Economists had
+answered most of the interesting questions they could ask in the old framework
+and found that constant-returns economics was running into, well, diminishing
+returns. And so they were finally ready to try something different.
+
+            Kelvin Lancaster was one
+of those who was driven to increasing returns. In the 1960s he had introduced a
+seemingly obvious but highly useful twist to the analysis of consumer behavior
+by pointing out that what consumers often want is not so much a specific
+product as a particular bundle of characteristics. To take a modern example,
+what business travelers care about in their notebook computers are low weight,
+long battery life, and high computing power, rather than the logo on the case.
+There are trade-offs among these good things; what differentiates one notebook
+from another is where in this "characteristics space" they are located. But in
+that case, why doesn't the market produce every possible notebook? (Much as I
+love my Hewlett-Packard Jornada handheld, I'd prefer a machine with a slightly
+better word processor, for which I would happily sacrifice something else.) The
+answer, of course, is increasing returns: To proliferate varieties (and hence
+to produce each variety at a smaller scale) means to increase costs.
+
+            Now at this point Lancaster found himself up against the
+usual problem: Increasing returns mean imperfect competition, and in general
+imperfect competition is nasty stuff. But somehow, circa 1974, economists went
+through a shift in mindset. My colleague Robert Solow likes to say that there
+are two kinds of economists: those who look for general results and those who
+look for illuminating examples. And more or less suddenly fell into the second
+group; they decided that while a general theory of how imperfect competition
+must work was never going to happen, it was OK to focus on interesting
+examples of how it might work. How does the market for an industry with
+Lancaster-type differentiated products function? It could be dominated by a
+single firm that proliferates products to deter potential competitors--OK, Dick
+Schmalensee wrote up that story. Or it could be "monopolistically competitive,"
+each variety produced by a different firm--OK, Steve Salop wrote that up in one
+version, Mike Spence in another, Avinash Dixit and Joe Stiglitz in yet another.
+The point was to find stories that hung together, not determine once and for
+all which was right.
+
+            It's hard to convey, if
+you weren't there, just how liberating this was. Once they decided it was OK to
+tell illustrative stories rather than produce theorems, economists could write
+about exciting topics that had been off limits: predatory pricing, strategic
+investment to get the jump on competition, technological races, struggles to
+define industry standards. By 1988, when Jean Tirole published his landmark
+textbook The Theory of Industrial Organization , just about every idea
+about the "new economy" that trendy writers proclaim as a radical departure
+from conventional economic thought was, well, already in the textbook.
+
+            Among other things, someone was bound to notice that the
+interaction between increasing returns and product differentiation could help
+explain some puzzles about international trade--like why most trade is between
+seemingly similar countries. In the late '70s three people independently wrote
+up that insight: the Norwegian economist Victor Norman, Lancaster himself, and
+yours truly; and the "new trade theory" was born. A few years later economists
+such as Paul Romer and Philippe Aghion applied related ideas to technological
+change and economic growth, giving birth to the "new growth theory"; and the
+ripples spread ever outward.
+
+            Alas, golden ages do end. By the early 1990s, the
+thrill of increasing-returns economics was fading. It wasn't just the
+inexorable working of the law of diminishing disciples. There was a deeper
+problem: The new ideas were immensely liberating, but at some point you can get
+too liberated. In international trade, people started to joke that a
+smart graduate student could come up with a model to justify any policy;
+similar sentiments were felt in many fields. In short, we all got tired of
+clever analyses of what might happen; and throughout economics there was a
+shift in focus away from theorizing, toward data collection and careful
+statistical analysis.
+
+            But it was a golden age--a time of
+innovation and intellectual excitement, when all of economics seemed up for
+reinvention--and Kelvin Lancaster was one of those who made it so. Let us honor
+his memory.
+
+         
+      
+   

@@ -1,0 +1,153 @@
+
+   
+   
+      
+         
+            Algorithms
+
+            A few weeks ago, for some
+reason that now escapes me, I began to wonder what kind of president Al Gore
+would make. Never mind his character or his private life--I leave such matters
+to the experts. What I'm interested in is his mind. After all, Gore--like
+Clinton--is an unusually bookish politician, one who reads serious tomes on
+serious subjects and even tries to be a bit of an authority himself. Clinton's
+pre-presidential intellectual tastes played a big role in determining the shape
+of his administration's first couple of years. The same might be true of his
+loyal lieutenant. And so I picked up a copy of Gore's 1992 environmental
+manifesto, Earth in the Balance: Ecology and the Human Spirit . I can't
+pass judgment on the scientific merits of the book's environmental analysis,
+but Gore touches on areas where I do know something and, in so doing, he gives
+me some important clues to his intellectual style.
+
+            Perhaps
+the best way to think about Gore the thinker is to contrast him with Clinton.
+Both men are deeply wonkish, clearly enjoying nothing (well, almost
+nothing) more than long discussions on how to save the world with a simple
+22-point program. But the objects of their affections differ. Clinton is most
+attracted by matters social and economic, Gore by matters environmental and
+scientific. Clinton is the kind of guy who attends panel discussions at
+Renaissance Weekend and pores over the New York Review of Books . Gore
+pays personal calls on physicists and curls up with Scientific American .
+And while Clinton, before Bob Rubin took him in hand, was a rather credulous
+consumer of pop economics, Gore's corresponding vice seems to be pop
+science.
+
+            Which is not to say that Earth in the Balance is
+entirely free from pop econ. The book contains a chapter, lamentably titled
+"Eco-nomics," that perpetuates the oddly popular myth that conventional
+economic theory is constitutionally incapable of dealing with environmental
+problems. "Many popular textbooks on economic theory fail even to address
+subjects as basic to our economic choices as pollution or the depletion of
+natural resources," Gore declares. Actually, I have all the leading
+introductory texts on my shelf (I'm writing one myself and am trying to steal
+my competitors' ideas), and every one has an extensive section on environmental
+issues. One looks in vain in Gore's book for even a mention of the fundamentals
+of standard environmental economics: pollution as the prime example of an
+"externality" (a social cost that the market does not properly value), and the
+standard recommendation that externalities be corrected with pollution taxes or
+tradable emission permits. (I wrote about the economics of environmentalism in
+
+                  Slate
+                last year, in "Earth in the Balance Sheet.") Since these concepts have
+actually made their way from theory into practice, one wonders how he missed
+them. The introduction of tradable permits was an important feature of the 1990
+revision of the Clean Air Act, for example, and both fees and permits have been
+crucial in efforts to protect the ozone layer.
+
+            But for
+me, at least, the really revealing part of Earth in the Balance was the
+book's conclusion, where Gore talks about sandpiles and how they changed his
+life.
+
+            
+Sandpiles, for those unfamiliar with pop
+science trends, are the motivating example for a concept known as
+"self-organized criticality," which, in turn, is one of the Big Ideas of
+so-called "complexity theory." Imagine allowing sand to slowly trickle onto an
+existing pile. Bit by bit the pile's sides will become steeper. When they
+become too steep--when they exceed some "critical" slope--there will be an
+avalanche. In simplified computer models of sandpiles (though not, apparently,
+in all real sandpiles), a curious pattern emerges. Because the slope of the
+sandpile is always close to its critical value, dropping a single grain of sand
+on the pile can produce anything from no effect to a massive sand slide.
+Specifically, the distribution of avalanche sizes follows a particular
+mathematical form known as a "power law" that is found in many natural and some
+social phenomena, such as the sizes of earthquakes and the sizes of cities.
+(For an example of the power law applied to city size, click .)
+
+            What Per
+Bak, the Danish physicist who came up with the sandpile metaphor, has argued is
+that because sandpile-type models produce power laws, and because there are
+lots of power laws out there in the real world, such models hold the key to
+understanding, well, everything. Bak's book explaining this idea is modestly
+titled How Nature Works . The reaction of his colleagues, as best I can
+tell, is that the sandpile model is interesting, as is the prevalence of power
+laws, but that his claims of having developed a universal theory are a bit
+premature. (For more on power laws, click .)
+
+            If you are wondering what all this has to do with saving
+the planet, congratulations. But here is what Gore, who made a pilgrimage to
+see Bak, has to say:
+
+            The sandpile
+theory--self-organized criticality--is irresistible as a metaphor; one can
+begin by applying it to the developmental stages of a human life. The formation
+of identity is akin to the formation of the sandpile, with each person being
+unique and thus affected by events differently. A personality reaches the
+critical state once the basic contours of its distinctive shape are revealed;
+then the impact of each new experience reverberates throughout the whole
+person, both directly, at the time it occurs, and indirectly, by setting the
+stage for future change. Having reached this mature configuration, a person
+continues to pile up grains of experience, building on the existing base. But
+sometimes, at midlife, the grains start to stack up as if the entire pile is
+still pushing upward, still searching for its mature shape. The unstable
+configuration that results makes one vulnerable to a cascade of change. In
+psychological terms, this phenomenon is sometimes called a midlife change.
+
+            This may
+sound silly, and it is. But it is a time-honored kind of silliness. Gore is in
+the grand tradition of those who thought that Einstein's theory of relativity
+refuted not only classical physics but also conventional morality; or those who
+imagined that because quantum mechanics showed that the apparent solidity of
+the material world is an illusion, it vindicated the thoughts of Eastern
+mystics. In the end, these particular confusions don't seem to have done the
+world any harm. So why not let Gore find solace in sandpiles?
+
+            
+One answer is that the speed with which
+sexy-sounding scientific ideas get picked up by popular culture is getting
+alarmingly high: from Physical Review Letters to the latest best seller
+by Tom Peters almost before you know it. This is arguably starting to distort
+the practice of science itself. As geologist Nathan Winslow puts it in a gently
+skeptical review on self-organized criticality, "A theory can, once in the pop
+science regime, acquire a level of acceptance and momentum that may or may not
+be warranted by its actual scientific credibility." And the track record of pop
+science enthusiasms is uniformly dismal. Does anyone remember cybernetics or
+catastrophe theory? Does anyone know what happened to chaos? It would be
+unfortunate if the already worrying faddishness of science were to receive a
+presidential seal of approval.
+
+            I also have a more specific
+worry: that a President Gore would give undue credence to the views of his
+favorite pop science heroes and their friends. Occasionally, I have a
+nightmarish vision in which the Santa Fe Institute, that temple of "complexity
+theory" (whose heavy hitters include Bak, biologist Stuart Kauffman and, yes,
+economist Brian
+Arthur) actually starts having direct input into major policy decisions.
+Now that would be scary.
+
+            But I
+guess I shouldn't take that nightmare seriously. For one thing, Earth in the
+Balance was written a long time ago, and we may suppose that its author has
+learned a lot since then. And anyway Gore, if and when he becomes president, is
+no more likely to give his personal gurus any real influence than Bill Clinton
+would have been to place important policy decisions in the hands of, say, Ira
+Magaziner.
+
+            Missed our links to 1) on
+power laws and 2) an of how the power law applies to city size? Here they are
+again.
+
+         
+      
+   

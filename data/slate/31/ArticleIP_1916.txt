@@ -1,0 +1,191 @@
+
+   
+   
+      
+         
+            The Accidental Theorist
+
+            Imagine an economy that
+produces only two things: hot dogs and buns. Consumers in this economy insist
+that every hot dog come with a bun, and vice versa. And labor is the only input
+to production.
+
+            OK, timeout. Before we go
+any further, I need to ask what you think of an essay that begins this way.
+Does it sound silly to you? Were you about to turn the virtual page, figuring
+that this couldn't be about anything important?
+
+            One of the points of this
+column is to illustrate a paradox: You can't do serious economics unless you
+are willing to be playful. Economic theory is not a collection of dictums laid
+down by pompous authority figures. Mainly, it is a menagerie of thought
+experiments--parables, if you like--that are intended to capture the logic of
+economic processes in a simplified way. In the end, of course, ideas must be
+tested against the facts. But even to know what facts are relevant, you must
+play with those ideas in hypothetical settings. And I use the word "play"
+advisedly: Innovative thinkers, in economics and other disciplines, often have
+a pronounced whimsical streak.
+
+            It so happens that I am
+about to use my hot-dog-and-bun example to talk about technology, jobs, and the
+future of capitalism. Readers who feel that big subjects can only be properly
+addressed in big books--which present big ideas, using big words--will find my
+intellectual style offensive. Such people imagine that when they write or quote
+such books, they are being profound. But more often than not, they're being
+profoundly foolish. And the best way to avoid such foolishness is to play
+around with a thought experiment or two.
+
+            So let's continue. Suppose
+that our economy initially employs 120 million workers, which corresponds more
+or less to full employment. It takes two person-days to produce either a hot
+dog or a bun. (Hey, realism is not the point here.) Assuming that the economy
+produces what consumers want, it must be producing 30 million hot dogs and 30
+million buns each day; 60 million workers will be employed in each sector.
+
+            Now,
+suppose that improved technology allows a worker to produce a hot dog in one
+day rather than two. And suppose that the economy makes use of this increased
+productivity to increase consumption to 40 million hot dogs with buns a day.
+This requires some reallocation of labor, with only 40 million workers now
+producing hot dogs, 80 million producing buns.
+
+            Then a famous journalist arrives on the scene. He takes a
+look at recent history and declares that something terrible has happened:
+Twenty million hot-dog jobs have been destroyed . When he looks deeper
+into the matter, he discovers that the output of hot dogs has actually risen 33
+percent, yet employment has declined 33 percent. He begins a two-year
+research project, touring the globe as he talks with executives, government
+officials, and labor leaders. The picture becomes increasingly clear to him:
+Supply is growing at a breakneck pace, and there just isn't enough consumer
+demand to go around. True, jobs are still being created in the bun sector; but
+soon enough the technological revolution will destroy those jobs too. Global
+capitalism, in short, is hurtling toward crisis. He writes up his alarming
+conclusions in a 473-page book; full of startling facts about the changes
+underway in technology and the global market; larded with phrases in Japanese,
+German, Chinese, and even Malay; and punctuated with occasional barbed remarks
+about the blinkered vision of conventional economists. The book is widely
+acclaimed for its erudition and sophistication, and its author becomes a lion
+of the talk-show circuit.
+
+            Meanwhile, economists are a
+bit bemused, because they can't quite understand his point. Yes, technological
+change has led to a shift in the industrial structure of employment. But there
+has been no net job loss; and there is no reason to expect such a loss in the
+future. After all, suppose that productivity were to double in buns as well as
+hot dogs. Why couldn't the economy simply take advantage of that higher
+productivity to raise consumption to 60 million hot dogs with buns, employing
+60 million workers in each sector?
+
+            Or, to put
+it a different way: Productivity growth in one sector can very easily reduce
+employment in that sector . But to suppose that productivity growth
+reduces employment in the economy as a whole is a very different matter.
+In our hypothetical economy it is--or should be--obvious that reducing the
+number of workers it takes to make a hot dog reduces the number of jobs in the
+hot-dog sector but creates an equal number in the bun sector, and vice versa.
+Of course, you would never learn that from talking to hot-dog producers, no
+matter how many countries you visit; you might not even learn it from talking
+to bun manufacturers. It is an insight that you can gain only by playing with
+hypothetical economies--by engaging in thought experiments.
+
+            
+At this point, I imagine that readers have
+three objections.
+
+            First, isn't my thought
+experiment too simple to tell us anything about the real world?
+
+            No, not at all. For one
+thing, if for "hot dogs" you substitute "manufactures" and for "buns" you
+substitute "services," my story actually looks quite a lot like the history of
+the U.S. economy over the past generation. Between 1970 and the present, the
+economy's output of manufactures roughly doubled; but, because of increases in
+productivity, employment actually declined slightly. The production of services
+also roughly doubled--but there was little productivity improvement, and
+employment grew by 90 percent. Overall, the U.S. economy added more than 45
+million jobs. So in the real economy, as in the parable, productivity growth in
+one sector seems to have led to job gains in the other.
+
+            But there
+is a deeper point: A simple story is not the same as a simplistic one. Even our
+little parable reveals possibilities that no amount of investigative reporting
+could uncover. It suggests, in particular, that what might seem to a naive
+commentator like a natural conclusion--if productivity growth in the steel
+industry reduces the number of jobs for steelworkers, then productivity growth
+in the economy as a whole reduces employment in the economy as a whole--may
+well involve a crucial fallacy of composition.
+
+            But wait--what entitles me to assume that consumer demand
+will rise enough to absorb all the additional production? One good answer is:
+Why not? If production were to double, and all that production were to be sold,
+then total income would double too; so why wouldn't consumption double? That
+is, why should there be a shortfall in consumption merely because the economy
+produces more?
+
+            Here
+again, however, there is a deeper answer. It is possible for economies
+to suffer from an overall inadequacy of demand--recessions do happen. However,
+such slumps are essentially monetary --they come about because people try
+in the aggregate to hold more cash than there actually is in circulation. (That
+insight is the essence of Keynesian economics.) And they can usually be cured
+by issuing more money--full stop, end of story. An overall excess of production
+capacity (compared to what?) has nothing at all to do with it.
+
+            
+Perhaps the biggest objection to my hot-dog
+parable is that final bit about the famous journalist. Surely, no respected
+figure would write a whole book on the world economy based on such a
+transparent fallacy. And even if he did, nobody would take him seriously.
+
+            But while the
+hot-dog-and-bun economy is hypothetical, the journalist is not. Rolling
+Stone reporter William B. Greider has just published a widely heralded new
+book titled One World, Ready or Not: The Manic Logic of Global
+Capitalism . And his book is exactly as I have described it: a massive,
+panoramic description of the world economy, which piles fact upon fact (some of
+the crucial facts turn out to be wrong, but that is another issue) in apparent
+demonstration of the thesis that global supply is outrunning global demand.
+Alas, all the facts are irrelevant to that thesis; for they amount to no more
+than the demonstration that there are many industries in which growing
+productivity and the entry of new producers has led to a loss of traditional
+jobs--that is, that hot-dog production is up, but hot-dog employment is down.
+Nobody, it seems, warned Greider that he needed to worry about fallacies of
+composition, that the logic of the economy as a whole is not the same as the
+logic of a single market.
+
+            I think I
+know what Greider would answer: that while I am talking mere theory, his
+argument is based on the evidence. The fact, however, is that the U.S. economy
+has added 45 million jobs over the past 25 years--far more jobs have been added
+in the service sector than have been lost in manufacturing. Greider's view, if
+I understand it, is that this is just a reprieve--that any day now, the whole
+economy will start looking like the steel industry. But this is a purely
+theoretical prediction. And Greider's theorizing is all the more speculative
+and simplistic because he is an accidental theorist, a theorist despite
+himself--because he and his unwary readers imagine that his conclusions simply
+emerge from the facts, unaware that they are driven by implicit assumptions
+that could not survive the light of day.
+
+            Needless to say, I have little hope that the general
+public, or even most intellectuals, will realize what a thoroughly silly book
+Greider has written. After all, it looks anything but silly--it seems
+knowledgeable and encyclopedic, and is written in a tone of high seriousness.
+It strains credibility to assert the truth, which is that the main lesson one
+really learns from those 473 pages is how easy it is for an intelligent,
+earnest man to trip over his own intellectual shoelaces.
+
+            Why did it
+happen? Part of the answer is that Greider systematically cut himself off from
+the kind of advice and criticism that could have saved him from himself. His
+acknowledgements conspicuously do not include any competent economists--not a
+surprising thing, one supposes, for a man who describes economics as "not
+really a science so much as a value-laden form of prophecy." But I also suspect
+that Greider is the victim of his own earnestness. He clearly takes his subject
+(and himself) too seriously to play intellectual games. To test-drive an idea
+with seemingly trivial thought experiments, with hypothetical stories about
+simplified economies producing hot dogs and buns, would be beneath his dignity.
+And it is precisely because he is so serious that his ideas are so foolish.
+
+         
+      
+   

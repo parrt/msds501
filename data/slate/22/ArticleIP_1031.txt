@@ -1,0 +1,115 @@
+
+   
+   
+      
+         
+            Cryptography
+
+            The Clinton administration,
+civil libertarians, and the computer industry are enmeshed in a controversy
+over cryptography policy. What is cryptography? How and why does the government
+want to restrict it, and why are some people opposed?
+
+            
+
+               Cryptography has two parts: encryption and decryption. Encryption
+uses complicated mathematical formulas to make information indecipherable.
+Decryption decodes the information. The strength of a computer
+encryption algorithm depends largely on "key length," essentially the number of
+possible combinations in the code. A key that is 40 bits long, for example, has
+two raised to the 40 th power (2 40 ) possible combinations.
+The longer the key, the harder the code is to crack.
+
+            Because of the rise of online commerce, there is a
+burgeoning market for cryptography to protect electronic transactions and
+sensitive data from hackers. But the government is concerned that foreign
+powers (as well as terrorists and criminal cartels) might obtain cryptography
+that is uncrackable. Advanced cryptography could be used to make phone
+conversations impregnable to wiretap and financial records invulnerable to
+subpoena. While the government permits U.S. companies to sell any cryptography
+domestically, it has imposed export restrictions on technology stronger
+than 40 bits.
+
+            These
+restrictions have angered the computer industry. Because hackers have broken
+40-bit technology, and because foreign companies already sell superstrong
+encryption programs of 128 bits and more, there is little demand for legal
+(40-bit and under) U.S. cryptography. The industry claims that export
+restrictions could cost American computer companies more than $60 billion in
+annual revenues by the year 2000: $6 billion from lost cryptography sales, the
+rest from lost sales of associated hardware and software.
+
+            
+The Clinton administration's cryptography stand
+reflects the strong law-and-order views of the FBI and Justice Department.
+Critics argue that unbreakable encryption already is marketed by foreign
+companies, so the export restrictions on American cryptography do no good.
+Currently, there is no international encryption standard in place; but the
+law-enforcement agencies hope that U.S. export policy will lead to one.
+
+            Since
+1993, the administration has been using export restrictions as leverage to
+encourage American companies to adopt a standard with a "backdoor "--a
+route of entry for an outsider, such as the U.S. government, to recover
+encrypted data. (The 128-bit encryption currently sold by foreign companies
+contains no such backdoor.)
+
+            But the administration's efforts to establish a standard
+have failed. First came the "Clipper Chip ," an 80-bit encryption
+algorithm designed by the National Security Agency. In April 1993, the
+administration said it would lift export restrictions on companies that use the
+Clipper Chip. However, the government would keep a "key," which it could use to
+tap a phone or decrypt data. Current rules requiring court orders for such
+invasions of privacy would, presumably, continue to apply. Nevertheless, civil
+libertarians denounced the Clipper Chip as a Big Brother intrusion, and the
+computer industry refused to market encryption that the U.S. government could
+crack at will.
+
+            In 1995,
+the administration substituted "key escrow " for the Clipper Chip. Under
+key escrow (dubbed "Clipper II" by opponents), companies could export strong
+encryption algorithms, but would have to file a key with a government-approved
+agent, such as a bank. But key escrow flopped, too. The computer industry said
+it could not sell a program with a floating key accessible to the U.S.
+government.
+
+            
+In a case of role reversal, the Democratic
+administration's law-and-order stance has been matched by the Republicans'
+rediscovery of civil liberties . Civil libertarians and the computer
+industry recruited pro-business Republicans and anti-government conservatives
+on Capitol Hill (as well as some liberal Democrats). In 1996, these legislators
+introduced a bill to all but eliminate export restrictions. The legislation did
+not go to a vote, but it has an excellent chance of passing next year. Bob Dole
+endorsed the bill; Clinton has promised to veto it.
+
+            This political pressure
+forced the Clinton administration to propose a compromise last week. Vice
+President Gore offered an executive order that would ease export restrictions
+by 1) raising the export limit from 40 bits to 56 bits for at least the next
+two years (allowing U.S. companies to meet the current minimum commercial
+standard); 2) transferring export-license authority from a State Department
+military office, which almost always refuses applications, to the more friendly
+Commerce Department; 3) permitting export of encryption of unlimited strength,
+provided the technology incorporates "key recovery ." This is similar to
+key escrow, except there is no single key and the government holds nothing. In
+key recovery, a key is broken into several separate pieces of information and
+the pieces are stored separately, perhaps by the users themselves, perhaps by
+outside agents. Reconstructing the key requires the cooperation of each
+holder.
+
+            If key recovery is adopted,
+terrorists are likely to eschew it in favor of unbreakable technology. But if
+banks, airlines, and communications companies accept key recovery, the
+terrorists will risk potential exposure every time they do business with those
+institutions. Key recovery has barely been tested, much less perfected. And
+while a few companies--notably IBM--have embraced the technology, others--like
+Netscape--strongly object to it. The rest of the industry is waiting to see how
+much control the government demands over recovered keys. In fact, many experts
+believe that the key recovery scheme is so vague and tentative as to be
+irrelevant. They say the encryption issue will only be resolved when Congress
+debates the issue next year.
+
+         
+      
+   

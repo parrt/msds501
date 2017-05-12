@@ -1,0 +1,231 @@
+
+   
+   
+      
+         
+            Speech and Spillover
+
+            
+               The Supreme Court
+probably will overturn the notorious Communications Decency Act. But the issues
+are not as cut-and-dried as some might suggest.
+            
+
+            
+               By Eugene
+Volokh
+            
+
+            
+               (1,777 words; posted
+Thursday, July 18; to be composted Thursday, July 25)
+            
+
+            One of the great recurring
+problems in free-speech law is spillover. Free speech, the Supreme Court has
+held, has limits: Some speech is so harmful and so lacking in redeeming value
+that it may be restricted. Threats, blackmail, and false advertising are
+obvious examples. There's no right to say, "Your money or your life" to a
+stranger in a dark alley; there's no right to spread intentional falsehoods
+about your product or your enemy's character.
+
+            The Supreme Court likewise
+has held, rightly or wrongly, that minors have no right to see very sexually
+explicit material, and that people (except, perhaps, the minors' parents) have
+no right to distribute such material to them. Psychologists and philosophers
+can debate this, but as a constitutional matter, the question is settled.
+
+            But
+it's often impossible to keep such materials from children without also denying
+them to adults. Bookstores can check customers' ages, but TV broadcasters,
+muralists, or people who post things on the Internet can't. The law can allow
+public display of this material, protecting adults' access but also making it
+available to children; or the law can prohibit public display, insulating
+children but also restricting adults. Either way there's spillover. Either the
+restriction spills over onto speech that should be free, or the freedom spills
+over onto speech that, in the judgment of most legislators, voters, and judges,
+should be restricted.
+
+            This spillover problem is a recurring question in First
+Amendment law. The law cannot restrict all harmful, valueless speech and at the
+same time protect all valuable speech. A classic illustration of the spillover
+problem is the Communications Decency Act, passed earlier this year in an
+attempt to stop "indecency" on the Internet. A three-judge federal court was
+probably correct in striking down the CDA June 11. But the judges' opinions
+don't squarely face the spillover problem. Perhaps--contrary to the suggestions
+of some Supreme Court cases--spillover questions should always be resolved in
+favor of free speech. Perhaps children's increased vulnerability is a price
+worth paying for extra freedom for adults. But it's important to confront
+honestly both what's being lost and gained in the process.
+
+            The most controversial
+part of the CDA prohibits anyone from
+
+            "us[ing]
+an interactive computer service"
+
+            "to
+display in a manner available to a person under 18 years of age"
+
+            "any
+comment, request, suggestion, proposal, image, or other communication"
+
+            "that, in
+context, depicts or describes,"
+
+            "in terms
+patently offensive as measured by contemporary community standards,"
+
+            "sexual or excretory
+activities or organs."
+
+            Virtually any sort of speech in the public areas of
+cyberspace is available to minors, so the law really applies to all such areas,
+including Web sites, Internet newsgroups, e-mail discussion lists, chat rooms,
+and bulletin boards.
+
+            And
+"patently offensive" can cover a lot of territory. Many profanities might be
+considered "patently offensive" descriptions of "sexual or excretory activities
+or organs," especially under the standards of some conservative communities.
+Putting a David Mamet play on your Web site, thus, might be a crime. The term
+"patently offensive" is vague enough that no one knows for sure, but the wise
+user will take a conservative approach. Given some recent Supreme Court
+decisions, it seems unlikely that the vagueness alone would make the act
+unconstitutional. But there's no doubt that the law's vagueness does indeed
+make it more likely to stifle someone's freedom of expression.
+
+            The CDA, though ostensibly intended to protect children,
+clearly has a spillover effect on adults. Adults generally have the right to
+see material that's "patently offensive." There are two exceptions to this:
+child pornography (sexually explicit pictures made using child models) and
+"obscenity"--but both are much smaller categories than the CDA's "indecency."
+May the government, in its quest to shield children, restrict the online
+choices of grownups? Or to look at it the other way: Must the courts, in order
+to protect the freedom of grownups, restrict the government's ability to shield
+children?
+
+            The
+Supreme Court precedents are unclear. In a 1957 case called Butler vs.
+Michigan , a state law barred distribution of material that might be
+unsuitable for minors. The court concluded that such a ban was
+unconstitutional. The law, it said, "reduce[d] the adult population of Michigan
+to reading only what is fit for children. ... Surely, this is to burn the house
+to roast the pig." The court agreed that the state could bar distribution of
+such stuff directly to children. But clearly, such limited restrictions don't
+work as well as a total ban. The court apparently was willing to tolerate some
+perceived harm to children in order to protect the freedom of adults.
+
+            But in some recent cases, the court has taken a different
+approach. One such case is the oft-criticized FCC vs. Pacifica
+Foundation (1978). The Pacifica court upheld a ban on
+"indecency"--George Carlin's "Seven Dirty Words" monologue--on radio and
+television broadcasts "when there is a reasonable risk that children may be in
+the audience." The spillover was clear: Adults were deprived of access to
+certain materials on certain media (radio and television) during most hours.
+But the justices were willing to allow such a restriction of adults' access to
+speech in order to shield children.
+
+            
+
+               Pacifica is a narrow decision, and there's language in it suggesting
+that it only applies to over-the-air broadcasting. But in this year's cable
+indecency case, known as Denver Consortium , four Supreme Court justices
+were willing to use Pacifica as a guide for cable television as well as
+over-the-air broadcasting. (The CDA court's decision was written before
+Denver Consortium was handed down.) And during the last 10 years, some
+lower courts have upheld bans on public display of sexually explicit material
+that's not technically "obscene" on the grounds that the law may shield
+children even if this keeps, say, a would-be muralist from communicating to
+adults. The Supreme Court hasn't spoken on these specific statutes.
+
+            Another important, though somewhat ambiguous, precedent is
+Sable Communications vs. FCC (1990), in which the court struck down a
+ban on dial-a-porn. The government argued the ban was needed to protect
+children. But the court pointed out that there might be "less restrictive
+alternatives" that would insulate children without entirely banning the medium.
+For example, the court said, the government could require services to take
+credit-card numbers, or require phone companies to let parents block
+area-code-900 phone calls.
+
+            Still, the court was
+willing to tolerate some spillover; after all, even the alternatives it
+suggested would deny access to some adults. And it also hinted that it might
+even allow a total ban if such alternatives could be shown to be inadequate.
+Denver Consortium followed the same pattern: It struck down a
+restriction on indecent speech because there were other effective alternatives
+available; but it suggested that such a restriction might be constitutional if
+it were, in fact, the only effective way to shield children.
+
+            
+
+               Sable and Denver Consortium make clear that the court won't
+tolerate unnecessary spillover onto adults. But on the tough
+question--what happens if it's impossible to shield minors without burdening
+adults?--there's an unresolved tension. Butler says that the speech must
+be allowed. Pacifica , Sable , and now Denver Consortium
+suggest that the speech may be restricted.
+
+            On the Internet, is it possible to shield children without
+restricting adults? Parents can get software--SurfWatch is one popular
+brand--that keeps their computers from accessing any place that's on a list of
+"dirty" locations, a list selected and frequently updated by the software
+designers. If the government wanted to, it could buy SurfWatch (for a fraction
+of what it would cost to enforce the CDA) and give it away to parents. Could
+this be the "less restrictive alternative" that the government could use
+instead of CDA's total ban? Well, it depends on how much shielding of children
+you're willing to sacrifice. The SurfWatch solution is limited by the software
+designers' ability to keep up with the latest "dirty" places. Dozens of Web
+sites are being added daily, and you never know what will get posted tomorrow
+even on existing sites or newsgroups. Some things will inevitably be
+missed.
+
+            The purely technological
+fix, then, is less restrictive than the CDA, but it's also less effective. The
+CDA, of course, won't be perfect, either--many will flout it, and Web sites in
+other countries won't be bound by it--but the ban plus the technological
+fix probably will shield children better than the technological fix alone. Does
+this extra protection justify the considerable spillover? The precedents don't
+answer this.
+
+            There's
+a hybrid technological and legal approach that might be more effective, and
+thus more likely to be the sort of "less restrictive alternative" that would
+make the total ban invalid. The law might demand that online material be
+rated--that any sufficiently sexually explicit text or image be marked "dirty"
+in a way that computers can easily recognize. Parents could then set up their
+children's computers to block access to these pages. Alternatively, the
+software could assume that any page is dirty unless it's labeled "clean," with
+the law making it illegal to falsely mark "clean" a page that's actually
+dirty.
+
+            Many people, of course, might misrate their
+material--intentionally or accidentally. But the CDA will be intentionally or
+accidentally violated, too. In fact, a rating requirement might be more
+effective than a total ban. People may be more willing to comply with the
+rating law, since it would let them continue selling their wares or expressing
+their views. Still, ratings won't shield children using computers that don't
+have the rating software turned on. And no one knows how often this will
+happen.
+
+            The CDA is now in the
+hands of the Supreme Court. Some say the justices should simply rule that
+sexually explicit material isn't as dangerous for children as it's cracked up
+to be, and therefore, free speech should prevail. But many people, probably
+including the justices, are willing to accept that sexually explicit material
+is indeed harmful to children. Other CDA critics assert that the technological
+alternatives will shield children every bit as well as a total ban would, and
+that the CDA therefore is entirely unnecessary. But that too will be
+hard to prove.
+
+            Ultimately, then, the
+justices will have to make a hard choice: sacrifice some shielding of children
+in order to protect the freedom of grownups, or sacrifice some access by
+grownups in order to shield children. My guess is that the marginal benefit of
+the CDA over the technological alternatives is small enough, and the burden
+that the law creates is large enough, that the CDA will be overturned. But it's
+a closer question than many might think.
+
+         
+      
+   

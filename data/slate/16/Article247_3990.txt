@@ -1,0 +1,48 @@
+
+   
+   
+      
+         
+            What Is After-Hours Trading?
+            
+
+            When a Federal judge ruled last Friday evening that Microsoft had abused its
+monopoly power, many reports noted that the company's stock price fell in
+"after-hours trading." What is this?
+
+            It is simply the trading of stock after the markets close. Traditional stock
+trading takes place during business hours because it involves a middleman--the
+broker or trader--who matches buyers with sellers. (That's what all those
+people shouting on the floor of the New York Stock Exchange do--but they only
+work weekdays from 9 to 4 Eastern time.) In the past two years, investors have
+begun to make trades without a middleman by using electronic communications
+networks, or ECNs. With computers making the matches, ECNs--such as Instinet,
+MarketXT and Datek Island -- can extend their hours. Many allow trades as
+late as 8 p.m. Eastern, and at least one plans to offer 20-hour-a-day trading
+by the end of the year. Theoretically they could allow trading around the
+clock.
+
+            Because after-hours trading has yet to catch on with large numbers of
+investors, the after-hours and daytime markets can reflect different prices for
+the same stock. A stock listed on only one exchange during the day--say, the
+New York Stock Exchange or the Nasdaq--can be traded after-hours on any number
+of ECNs. Since ECNs are not linked to one another, a stock's price may vary
+from exchange to exchange. And, because so few transactions occur, stock prices
+are much more volatile in after-hours trading. To prevent investors from
+getting badly burned, after-hours ECNs accept only "limit orders" (bids in
+which the investor names the highest price at which he'll buy or lowest price
+at which he'll sell) instead of the "market orders" (in which the investor
+accepts the prevailing market price) common during the day. As trade volume
+increases, though, analysts expect that the daytime and after-hours markets
+will converge.
+
+            Next question?
+
+            
+               Explainer thanks 
+               Slate 
+               reader Steve Ruby for suggesting the topic .
+
+         
+      
+   

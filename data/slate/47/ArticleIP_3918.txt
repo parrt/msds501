@@ -1,0 +1,296 @@
+
+   
+   
+      
+         
+            
+
+            
+               Address your e-mail to
+the editors to letters@slate.com. Please include your address and daytime phone
+number (for confirmation only).
+            
+
+            
+
+               Advertising by Numbers
+            
+
+            David Plotz writes in his
+June 6 "Assessment" of Tina Brown, "In 1997, [ The New Yorker 's] six
+double issues and three other special issues accounted for 35 percent of the
+magazine's advertising pages."
+
+            By my count, the six double
+issues (at two weeks per issue) and three special issues (one week each) total
+15 weeks, or 28 percent of 1997. Is it so impressive that 28 percent of the
+year accounted for 35 percent of the ad pages?
+
+            I'm
+reminded of Dilbert's boss, who was outraged to find that 40 percent of company
+sick days were being taken on Mondays or Fridays.
+
+            -- Andrew
+Solovay Belmont, Calif.
+
+            
+               
+                  The
+New Yorker
+                
+               Turned Brown
+            
+
+            David
+Plotz claims ("Assessment") Tina Brown "supplemented the already prodigiously
+talented staff with her own snazzy hires." She also lost a prodigious lot of
+talent, either by firing people, forcing them out, or forcing them first to
+throw up and then to give up. You're right about the magazine's sameness,
+however; it's the same damn thing each week, and it's the same as the other
+slick, self-referential, celebrity gossip mags around. As for the chattering
+classes, they chatter almost exclusively to one another, and they are very dull
+people--far duller than the old New Yorker .
+
+            -- Susanna
+Margolis
+            
+
+            
+               Yes,
+Sex, Please--We're Scientists!
+            
+
+            In
+"Today's Papers" for June 5, Scott Shuger writes:
+
+            The NYT ,
+LAT , and WP fronts herald the discovery that the sub-atomic
+particle called a neutrino, which is chargeless and was formerly thought
+massless too, in fact has mass. The papers assure us this is earth-shaking.
+"The Universe May Never Be the Same" is slugged over NYT Universe
+reporter Malcolm Browne's dispatch. The Times says the discovery was
+announced by 120 physicists at a "neutrino conference." Hoo-boy, bet the
+bartenders and hookers go on vacation during that one.
+
+            Science reporting in the
+United States is hampered by the deep-seated conviction that the press knows
+even better than the people that it's just a bunch of pinheads nattering about
+nothing. Well, these little nothings called neutrinos have a lot to say, if
+only we could find a press willing to pass on the message. I applaud the New
+York Times for trying to convey some of that excitement and say woe to you
+for dipping to such cynicism. Uncharacteristic, I might add.
+
+            Oh, and
+by the way, scientists get lots of sex.
+
+            
+               --Rob Pike Bell
+Labs
+
+            
+               Organ
+Music
+            
+
+            I have several problems with
+Richard Epstein's June 3 comments on organ peddling ("Dialogue"):
+
+            1) Epstein writes: "Better
+that we have 200 people alive with one kidney each than 100 people alive with
+two kidneys." I mention that point to my medical students (150 presumably
+healthy young people) every year in an effort to get them to agree to a
+utilitarian plan making it mandatory to remove one kidney from each of them to
+be made available for donation. Every year they reject this plan. Something
+about personal autonomy being more important than utilitarian calculus in
+certain situations. It just may be they are right--that utilitarian math may
+not be the highest virtue when dealing with organ procurement (one murder could
+net two kidneys as we are likely to find out from the Chinese prisoner
+situation--should we trade one life for two?).
+
+            2) Epstein writes: "Look it
+up on the Web. ... If it is possible to do this kind of research with standard
+illnesses, it should be possible to do it with organ transplants." The point
+being that access to good information fosters legal markets. The Web example
+proves just the opposite: Much of the information people get about illness on
+the Web is incomplete, imprecise, or just plain wrong. There is absolutely no
+guarantee that good information will create legitimate markets for organ sales.
+The likelihood is the opposite--that bad (misleading, coercive) information
+will be disseminated to entice people to sell their organs and ignore the very
+real risks that people incur when they give up their organs. (Donating organs
+can bring consequences to the donor far more momentous than buying a fake Rolex
+on Fifth Avenue.)
+
+            3) How
+would such markets ever be regulated? No regulation? Without some screening
+(who will the brokers and middlemen be?), not only will donors suffer (see
+above) but some recipients will receive unsuitable organs. While Epstein can
+argue that this happens currently, consider what wholesale expansion of an
+unregulated market would bring in terms of the number of complications. In
+fact, there are reports that in some countries where organs may be sold and the
+process is not monitored closely, the numbers and types of infections in
+recipients are much worse.
+
+            -- C.M. Franklin,
+M.D.
+            
+
+            
+
+               Microsoft Über Alles ?
+            
+
+            In "Monopoly Shopping,"
+Steven E. Landsburg sings a paean to the vertically integrated monopoly. He
+argues mainly that including the Internet Explorer browser as a free part of
+the Windows 95 operating system will ultimately benefit the consumer since a
+rival browser would be sold as a separate profit center.
+
+            I happen to agree that one
+predominant browser architecture would ultimately benefit the consumer, but for
+a different reason--it would create a market standard for developers and
+consumers to focus their investments. I expect Microsoft to prevail, despite
+Netscape's better technology and implementation and despite the government's
+well-intentioned efforts to intervene. I would certainly hope, however, that
+resources would continue to be dedicated to innovation in this arena until the
+technologies had matured to the point where they were clearly superior and
+worthy of becoming a standard.
+
+            It's odd to read this whole
+economic argument in light of Netscape's pledge to distribute Navigator (and
+its source code) for free in perpetuity. But even if Navigator were to be sold
+at some point, the ultimate cost to the consumer would come not from the cost
+of the browser itself, but from the ramifications of Microsoft's control of the
+emerging desktop software interface to the internet. The focus in the browser
+wars and legal wranglings has already begun to move away from browser choice
+and toward the more important issues of gateways and the branded services they
+feature.
+
+            The
+configuration of computers when sold will determine to a large degree which
+services a consumer encounters. Note how the cable companies have profited from
+control of the channels that they carry, some of which they own fully or in
+part. Note also how the Baby Bells have profited from charging for advertising
+in their Yellow Pages. Consider then the value of a gateway when it contains
+not just a few dozen TV channels or local business listings, but the emerging
+broadband multimedia marketplace only a few years away. Do we want to allow
+Microsoft to parlay its control of the desktop architecture into control of the
+content that appears on the desktop?
+
+            -- Mark Safire
+            
+
+            
+               How About
+Windows $94?
+            
+
+            In his article, "Monopoly Shopping,"
+Steven Landsburg notes that Windows 95 costs about $90 and suggests what would
+happen to Microsoft if it tried to raise the price.
+
+            A better topic to examine is
+why the price of Windows 95 hasn't come down in three years on the market.
+
+            My
+understanding of the economies of scale suggests the Windows iterations being
+produced today should be costing less to produce than the first ones that
+entered the pipeline. Prices of Intel processors, laser printers, fax machines,
+etc., all drop as the learning/production curve results in lower costs. Why not
+Windows 95? Could the lack of competition have anything to do with it?
+
+            -- Marvin Katz
+            
+
+            
+               Virtual
+Criticism
+            
+
+            In
+"Peep
+Show," David Edelstein writes:
+
+            Would I welcome The
+Truman Show for what it is--a sharp-witted, visually layered, gorgeously
+designed, meticulously directed piece of formula pablum--if I hadn't been
+bludgeoned by pre-emptive raves in Esquire , Time ,
+Entertainment Weekly , and the New York Times that proclaim it
+some sort of subversive postmodern masterwork?
+
+            Did
+Edelstein read Janet Maslin's review in the Friday, June 5, New York
+Times ? In her review, Maslin acknowledges the mania surrounding The
+Truman Show (in the first paragraph, no less) and concludes that, while it
+is a good film, it has been lauded excessively by critics. Maslin gives no
+indication she thinks the film is a masterwork of any kind.
+
+            -- Dan Flynn
+            
+
+            
+               David Edelstein
+reponds: It's too bad that Slate doesn't pass along letters critical of
+its contributors before posting them. I share the general disdain for lengthy
+tit-for-tat replies, but when facts are at issue, it's only fair to give a guy
+a chance to set the record straight. Dan Flynn suggests that I misread Janet
+Maslin's review of The Truman Show in the New York Times , which
+indeed begins in much the same vein as mine. In fact, her review and mine were
+published the same day, so I didn't read hers. The "pre-emptive rave" to which
+I referred was by columnist Frank Rich; it came more than a week before the
+film opened. I saw no reason to name Rich, whose work I respect, but his
+column--along with those of critics in Esquire , Entertainment
+Weekly , and Time --sure fit the description in my review.
+            
+
+            
+               Don't
+Knock the Rock
+            
+
+            "In God He ...
+," Brent Staples' review of Titan: The Life of John D. Rockefeller Sr.
+perpetuates a few misconceptions about Standard Oil's business practices.
+
+            For example, he repeats the
+myth that Standard pursued a "predatory pricing" strategy (though that was
+indeed among the charges brought against Standard by the U.S. government).
+Though Standard did indeed buy out many of its early competitors, that was due
+chiefly to their tremendously inefficient processes--Standard ended up
+mothballing most of the refineries it bought, while expanding output from its
+own, efficient facilities. Furthermore, if Standard did pursue a predatory
+pricing strategy, it sure didn't work. Standard faced constant competition both
+in America and abroad throughout its corporate existence, causing the price of
+oil to slope ever downward.
+
+            Second, Staples claims that
+the trust system "disallowed genuine competition." Far from it. As Chernow
+himself puts it: "With additional oil strikes in California, Indian Territory
+(later Oklahoma), Kansas, and Illinois in the early 1900s, the industry became
+too vast and far-flung for even Standard Oil to control. It might not be too
+much of an exaggeration to say that the antitrust cases brought against the
+trust in the early 1900s were not just belated but were fast becoming
+superfluous." In other words, the marketplace was already bringing Standard to
+its knees, and Rockefeller did indeed end up "eclipsed by others"--without
+government intervention.
+
+            The reason
+monopolies are bad is that, in theory, they lead to high prices and less
+product. Staples points out, though, that Standard Oil provided a product which
+was "consistently good--and cheaper to boot." In other words, it acted exactly
+as a theoretical monopoly should not. While Standard's practices may have led
+to, in Chernow's words, "misery all around" for producers, the low prices and
+improved product they brought to the refining industry meant nothing but good
+news for consumers.
+
+            -- Ananda
+Gupta Research assistant, Competitive Enterprise Institute
+
+            
+               Address your e-mail to
+the editors to letters@slate.com. Please include your address and daytime phone
+number (for confirmation only).
+            
+
+         
+      
+   

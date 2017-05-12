@@ -1,0 +1,126 @@
+
+   
+   
+      
+         
+            The Microsoft Trial 9/21/99
+
+            
+               Dahlia Lithwick worked for
+two years in a family law firm in Reno, Nev. She is writing a novel about how
+divorce affects children. She writes a weekly column for the Ottawa
+Citizen.
+
+            Such is the rhythm of our legal system: Something quite
+simple ("I want a divorce") is made exceedingly complex ("What percentage of
+your income goes to the phone bills?") only to be made too simple again
+("Father gets Easter; Mother, Thanksgiving.")
+
+            One learns this phenomenon within minutes of entering
+law school. Simple facts ("Angus refused to sing 'In-a-Gadda-Da-Vida' at the
+Goldstein bar mitzvah") generate pages of abstract legal theory ("Was there a
+meeting of the minds about whose version he was to sing?"). Your job as law
+student is to distill all this down to a two-paragraph summary in case you are
+called upon in class. You will later boil it down to a one-sentence summary for
+an outline you'll use to study for finals. The point may or may not appear in
+the exam.
+
+            Such expansion and contraction mean that lawyers are
+never quite certain how big or important things are. This is why we yell about
+paperclips and sleep through death-penalty cases.
+
+            The Microsoft trial has been called the antitrust trial
+of the latter half of this century. As have the last three antitrust trials
+this century. It began as a few disputed sentences in a 1994 consent decree
+limiting some alleged anti-competitive jiggery-pokery by Microsoft. The
+"six-to-eight-week trial" metastasized into a 76-day ordeal spanning 11 months
+with dozens of witnesses and thousands of exhibits. It might have grown even
+bigger, but Federal District Judge Thomas Penfield Jackson deliberately limited
+the number of witnesses and kinds of testimony to prevent the legal entropy
+that produces an O.J. trial.
+
+            When testimony ended last June, it looked for a moment
+as though Computing as We Know It was on the line. But things got quiet, we
+tried instant messaging, we maybe upgraded, and we bought orange Gap vests
+online.
+
+            Bill Gates gave money away.
+
+            Through August and September the case contracted even
+more, with each side submitting proposed findings of fact, then revised
+versions of same, each of which told a condensed version of their story from
+trial. The government said Microsoft used its monopoly power in the operating
+systems market to bully and threaten its way into dominance over the browser
+market. Microsoft argued that it acted competitively in a competitive market,
+that distribution channels for competitors were never foreclosed, and that
+consumers have not been harmed.
+
+            "More paperclips!"
+
+            Today, with two and a half hours allocated to each side
+for closing arguments, the case contracts once again until it is virtually
+dancing on the head of the pin. Except for the venue--proceedings moved
+upstairs to a vast courtroom in the U.S. District Courthouse where we sit under
+the watchful statue eyes of Moses, Justinian, Hammurabi, and Solon--little has
+changed. Except the lawyers have traded their fine brushes for broad
+ones--paint rollers, perhaps--and the Microsoft case appears even smaller than
+it did before.
+
+            The Justice Department's outside counsel David Boies,
+who cross-examined some of Microsoft's star witnesses into sweaty little
+ribbons at trial, simply hands out his outline to the class. He spends the
+morning walking us through the elements of antitrust law and offering evidence
+from the record to support his claims. This man who virtually commanded the
+small courtroom downstairs during trial, seems somewhat diminished today. But
+he makes his points: Microsoft has monopoly power for operating systems;
+Microsoft maintained its operating system monopoly through anti-competitive
+practices; Microsoft used that monopoly to try to monopolize the browser
+market; Microsoft engaged in contracts and conspiracies in restraint of
+trade.
+
+            Microsoft's John Warden takes a different tack.
+Speaking as though his mouth is full of aquarium gravel, he paints everything
+larger than it is. His job is simple: He must punch holes into the government's
+soft places. He does not use an outline. He simply begins to roar. The
+government has never, ever proved that their browser and operating systems are
+separable. (Whether they were designed to be
+inseparable he leaves for another day). In swinging away at the government's
+weak spots (market definition, harm to consumer, Netscape's market
+penetration), Warden employs the kind of hyperbole usually reserved for
+domestic fights about who does the dishes. "The government has offered
+no evidence"; "Professor Fisher offered
+no analysis"; "Microsoft has never induced an OEM to drop their competitors' products."
+
+            ("But Mr. Warden, we saw the contracts ...")
+
+            "Never!" he roars. "Baloney," he sputters. At some
+point he coughs so hard that someone at the DOJ table hands him a cough drop.
+"Games and shams," he snarls. When he concludes, it is with an ominous
+reference to central planning. As Boies rises for his half-hour rebuttal, you
+can almost hear the drumbeats from Red Square.
+
+            David Boies immediately agrees. Central planning is
+bad. The balalaikas recede. Then he whips out his outline. He focuses narrowly,
+perhaps too much so: The consumer has been harmed; Microsoft did what they did
+not to sell more copies of Windows, but rather, to stop their competitors. Now
+we are all dancing on the head of a pin.
+
+            The trial ends without fanfare. Judge Jackson pounds
+his gavel and leaves the massive courtroom. Now he will reduce these thousands
+of facts to an even smaller opinion. In the interim, technologies will change
+and change again. When the dust settles, if it ever settles, all of this will
+stand for something very great in the casebooks and the exam papers.
+
+            Unless it stands for something very small.
+
+            
+               
+                  Click
+here  for dispatches from the last session of the
+Microsoft trial between October 1998 and February 1999.
+               
+            
+
+         
+      
+   

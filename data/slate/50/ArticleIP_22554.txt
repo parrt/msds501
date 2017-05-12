@@ -1,0 +1,217 @@
+
+   
+   
+      
+         
+             A Labor of Linux
+
+            Linux may be impractical
+for the masses, but its rebel cachet--"The Man doesn't have me under his
+thumb!"--appeals to the motorcyclist in me. Walking out of a bookstore with a
+Linux manual under your arm is like swaggering into a restaurant carrying a
+motorcycle helmet: You can feel the waves of envy.
+
+            Since my technical education ended with a
+seventh-grade "Computer Literacy" class in which we played "Lemonade Stand" on
+an Apple IIe for half an hour twice a week, my Linux goals for this article
+were modest:
+
+            
+
+               Prove that a computer ignoramus can install the operating system on a
+computer that was running Windows 98.
+
+               Install a Linux-compatible Web browser and read 
+                     Slate
+                   in
+it.
+
+               Install a few other Linux applications.
+
+            
+
+            Purchasing Linux in a book, I must admit, was a second
+resort. Originally, I intended to download the free version of the
+much-heralded operating system, but then I found out that it would take five
+hours and that the download doesn't come with instructions. Chickening out, I
+visited the computer section of my local bookstore and grabbed a copy of the
+friendly yellow Linux for Dummies . But the cashier all but refused to
+sell it to me. "You can't get that book," he said, obviously speaking as one of
+the Linux initiate. On his advice I paid $34.63 plus tax for Mastering
+Linux , a phone-book-sized tome, which includes a copy of Red Hat Software's
+5.1 version of Linux on CD.
+
+            Cracking Mastering
+Linux open, I was struck by its similarity to motorcycle manuals. "Remove
+cylinder head," says the average motorcycle manual, without explaining how you
+do that. "Create boot disk," commands Mastering Linux . What's a boot
+disk? I found myself turning to a dictionary
+of computer terminology on the Web to decipher every third acronym (BIOS?
+ATAPI? SCSI?) and figured out that in this case you create an installation boot
+disk by copying files from the CD to a floppy.
+
+            
+               Making Room for
+Linux
+            
+
+            After creating the boot disk, I was supposed to
+make a new partition on the hard disk of my computer, a Pentium 133 with 32
+megs of memory. Partitioning a hard disk means corralling off some space, and
+that can be done in Windows with a program called "fips," which I copied from
+the Linux CD onto a floppy in Windows. I then restarted Windows in DOS mode
+(one of the options when you shut down Windows 98) and ran "fips.exe" from the
+floppy. Although I had never used DOS before, I followed the straightforward
+directions and made room for Linux.
+
+            The next step was to run
+the Linux installation program from the boot disk. I shut the computer down and
+put the boot disk in the drive and turned the computer back on. Success! The
+boot disk asked me to check boxes for the language and the keyboard I'd be
+using, and the source from which I'd be installing Linux. I told it to go to my
+CD-ROM drive where the Linux CD resided--and promptly hit a brick wall. The
+program refused to recognize my CD-ROM drive, a fairly standard one, and
+rejected the 11 nonstandard options from the list. I studied Windows' device
+manager for clues on my CD-ROM drive. Mastering Linux suggested that if
+the installation program fails to detect your drive, provide very specific
+directions for the "IO" and "IRQ." I entered these new settings and still
+failed.
+
+            Everyone who talks up Linux mentions how "elegant" it is.
+As I tinkered, rebooted, and failed, and tinkered, rebooted, and failed over
+and over again to get it to recognize my CD-ROM drive, all I could think was:
+yeah, elegant like a Judas
+Cradle. And this was only the installation program.
+
+            So I telephoned the
+Microsoft Helpdesk. Even though Linux is supposed to demolish Microsoft, the
+Microsoft Helpdesk, which provides computer assistance to its employees, was
+surprisingly helpful. As I described my trouble, the Help guy replied, "You're
+setting up Linux?" Pause. "Um, you know we don't really support that?" Yeah, I
+know, but can you help me anyway? "Well, I don't know much about Linux, but
+talk to Clarence (not his real name). He'll help you." In 15 or so calls to the
+Helpdesk, I encountered only one person who sounded annoyed rather than curious
+(and even, dare I say, gleeful) at the fact I was firing up Linux.
+
+            
+               A Case of Mistaken
+Identity
+            
+
+            The Linux that came with Mastering Linux was
+never going to communicate with my CD-ROM drive, and I began to lose all
+enthusiasm for the project. Just the sight of Mastering Linux induced
+the stomach-churning sense of dread that my sixth-grade math textbook once gave
+me: "I don't get this. Other people get this. Why don't I get this? I think
+I'll go watch TV."
+
+            Instead of watching TV,
+I made a fresh start by purchasing a newer version of Linux. The version of
+Linux that comes in Mastering Linux offers no technical assistance, but
+Red Hat's version 5.2, which costs $39.99, promises one month of free e-mail
+support. (CORRECTION: After this article was posted, I learned that
+Macmillan Digital Publishing and not Red Hat Software provided the e-mail
+support for this version of Linux. That new information is now reflected in the
+remainder of the piece.)
+            
+
+            The Red Hat manual offered clearer directions, and the new
+version automatically partitioned my hard drive. But it still snubbed my CD-ROM
+drive. I e-mailed Macmillan with my problem and the company e-mailed back a
+one-line response: "Set your BIOS to boot off of the CD." I wrote back: "How do
+I do that?" Macmillan's e-mail answer was another one-liner, a URL. I clicked
+the link, which led to a page of more links to lots of information on BIOS, but
+a half-hour search yielded no information on booting from the CD-ROM drive. I
+e-mailed back asking for a more specific URL, and they wrote back, "Look around
+there. ... You also may want to check the site of whoever manufactured the
+motherboard." Thanks a bunch.
+
+            With Microsoft Helpdesk assistance I figured out
+that my CD-ROM drive was probably connected to my sound card and not to the IDE
+port, and thus was foiling Linux. I reluctantly returned to Mastering
+Linux and found an alternative method for installing the operating system
+for people who don't have CD-ROM drives: install from the hard disk. For this
+you create a "supplementary disk" from the CD-ROM and use it after booting from
+the installation disk. The supplementary disk loaded an unfamiliar blue
+"Welcome to Red Hat Linux" page, but after 10 minutes of nothing happening, I
+figured I had worn out my welcome. I turned off the computer and went home.
+
+            My next move was to
+hornswoggle a friend, a tech guy at the New York Times Web site, into
+helping me. I informed him of my CD-ROM/sound card suspicions, and he pried
+open my computer's metal box and started gabbing about 40-pin connections. My
+troubles were over. Here was someone who knew the acronyms, someone who could
+shine a light into the cave I was blindly fumbling in. So with the CD-ROM drive
+securely connected to the correct IDE port in my motherboard, we booted up
+again. Again, no dice. It was a new low in my Linux morale.
+
+            
+               Any IDE Port in a
+Storm
+            
+
+            After some chin scratching my friend suggested we
+look into my BIOS setting. There he discovered my IDE port was disabled. He
+enabled it. We booted up and victory! The CD-ROM drive started purring, and
+from there the installation was cake. The hard disk whirred away, occasionally
+asking for information. I typed it in, it whirred some more, and within an hour
+installation was complete.
+
+            I then logged on as "root"--the master user--and
+loaded X Windows, Linux's graphical user interface. It looked like a pale and
+wan version of Microsoft Windows--with tiny, little crude buttons--even though
+it predates Windows. But it worked. I loaded the Netscape browser and tried to
+call up 
+                  Slate
+               , but 
+                  Slate
+                did not appear. Instead I
+got two error messages, one telling me to adjust my SOCKS environment, and
+another saying there was something wrong with my DNS server.
+
+            So I was on the phone
+with the Helpdesk again, learning about my SOCKS and my DNS server. My
+officemate suggested that maybe all I needed to do was adjust my proxy settings
+in Netscape and not my SOCKS. He was right, and victory was mine.
+
+            
+               I Suffer a Core
+Dump!
+            
+
+            Next I wanted a word
+processing program. I downloaded WordPerfect 8 for Linux from Corel's Web site.
+I unzipped and "untarred" (de-archived) the program. I installed it. And it
+didn't run. I bribed my tech guy friend to come and help me again. He went back
+to the original download and started over, but he couldn't get it to run
+either. So he fiddled around with my PATH and a few other things beyond my
+comprehension, when a "core dump" occurred. This is some type of serious error,
+although I'm still not sure exactly what it is. So we started over and
+downloaded again. After reinstalling and receiving increasingly mournful error
+messages ("Unable to go on," "Floating point exception") and another core dump,
+we called it quits. Three and a half hours of help from a guy who makes his
+living working with computers and no WordPerfect to show for it.
+
+            Why would a person like me want to use Linux? The first
+reason is price. Linux is free if you download it off the Web. With a manual
+and a CD it's about $40. Compare that with Windows 98: $199 for a full setup,
+$89 for an upgrade, or bundled for "free" as part of nearly every non-Macintosh
+computer. I didn't investigate running Windows software under a Linux
+Windows-emulator, mostly because I already have Windows on my system to run
+Windows software. I also didn't attach my Linux machine to the company
+network--because I couldn't find easy instructions in my books, and further
+consultations with the Helpdesk would have been cheating. I'm fairly certain
+that setting up a printer is easy, but I'm taking the word of Linux experts on
+this.
+
+            Either I'm not ready for Linux, or Linux isn't
+ready for me. Or both. I feel guilty about having used not one but two manuals
+to install Linux, and worse still that I couldn't make WordPerfect work. I feel
+malignantly guilty about having paid cash money for a free operating system and
+for enlisting both the Helpdesk and a friend in my endeavor. Yes, I finished
+the marathon, but I did it by putting on roller skates and grabbing the
+suspenders of those who knew what they were doing.
+
+         
+      
+   

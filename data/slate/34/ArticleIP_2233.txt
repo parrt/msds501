@@ -1,0 +1,72 @@
+
+   
+   
+      
+         
+            UI Like, UI Don't Like
+
+            
+               UI Like,
+UI Don't Like
+            
+
+            One of the bits of software
+jargon the journalists at 
+                  Slate
+                have learned at the feet of our
+cybercolleagues is "user interface," or "UI" for short. The UI is the face the
+software presents to the world--the set of devices (buttons to click, blanks to
+fill in, and so on) by which users are able to tell the software what to do.
+(As a division of Microsoft, 
+                  Slate
+                takes no position on what
+users should do when they want to tell the software where to go.)
+
+            Here at
+
+                  Slate
+                we've been having a, er, vigorous discussion about one
+particular UI issue. It concerns our e-mail-type features. Currently we do
+these two different ways. "Dispatches & Dialogues," such as "Movies Today,"
+uses an elaborate and (some of us think) elegant UI: Each discussion has an
+introductory page, each entry is on its own page, and (if you accept cookies)
+your computer remembers which item you last read and takes you to the next item
+when you return the next time. "The Breakfast Table" and "Chatterbox" employ a
+simpler and (some of us think) more elegant or possibly (others of us think)
+cruder UI: New items are just piled on top of older ones until, after a day or
+a week, a new page is started.
+
+            Atotally objective summary of the internal debate is
+roughly as follows:
+
+            Advocates of the simpler
+approach argue that it more closely captures the fizz of e-mail, is easier and
+quicker for the readers, and encourages the writers to really think of the
+process as a conversation rather than as a series of isolated pronunciamentos.
+(This contingent is itself divided on the issue of newest-to-oldest vs.
+oldest-to-newest, but that's a whole other debate.)
+
+            Advocates of the complicated
+approach emphasize that some people enjoy constantly clicking and waiting
+because they have nothing better to do; that long and boring doesn't
+necessarily mean bad; that cool technology is its own justification even if
+it's useless; and that, anyway, who cares what the customers want.
+
+            The
+editor, of course, is scrupulously neutral in this controversy.
+
+            Care to take sides? Your vote
+below will be appreciated--if not necessarily followed. And you can check on
+the tally any time by returning to this page. You can also e-mail comments on
+this or any other issue to editor@slate.com. Thanks.
+
+            
+
+               --Michael Kinsley
+            
+
+             
+
+         
+      
+   

@@ -1,0 +1,148 @@
+
+   
+   
+      
+         
+            Let the Rabbi Split the Pie
+
+            A man dies, leaving more
+debts than assets. How should the estate be divided among his creditors? Two
+thousand years ago, the sages of the Babylonian Talmud addressed this question
+in a mysterious way--by offering a series of numerical examples with no hint of
+the general underlying principle. According to two Israeli scholars, the
+reasoning of the ancient rabbis is best understood in the light of modern
+economic theory.
+
+            Take a
+concrete example. Suppose three creditors are owed $100, $200, and $300,
+respectively--a total of $600 in debts--but there is less than $600 to
+distribute. Who gets how much? The Talmud (Kethubot 93a) makes the following
+prescriptions:
+
+            1) If there is $100 to
+distribute, then everyone gets an equal share; that is, everyone gets
+$33.33.
+
+            2) If there is $200 to
+distribute, then the first creditor gets $50, while the other two get $75
+each.
+
+            3) If there is $300 to
+distribute, then the first creditor gets $50, the second gets $100, and the
+third gets $150. (In this case, the payouts are proportional to the original
+claims.)
+
+            Where do these numbers come from, and how should we behave
+if there is, say, $400 or $500 to distribute? The Talmud does not tell us. But
+certain patterns are evident. Apparently the rabbis reasoned that nobody can
+legitimately claim more than the value of the entire estate. Thus when the
+estate contains only $100, the claims to $100, $200, and $300 are treated as
+equal. When the estate contains only $200, the claims to $200 and $300 are
+treated as equal (but superior to the claim of $100).
+
+            Another
+clue can be found elsewhere in the Talmud (Baba Metzia 2a): "Two hold a
+garment; one claims all, the other claims half. Then the one is awarded 3/4,
+the other 1/4." The rabbinical reasoning seems to have gone something like
+this: "Both claim half the garment, while only one claims the other half. So
+we'll split the disputed half equally and give the undisputed half to its
+undisputed owner." Elsewhere in the Talmud, the rabbis apply similar reasoning
+to settle a case where one claims all and the other claims a third.
+
+            
+Now we've stated two principles: First, claims
+cannot exceed 100 percent of the estate, and second, we should follow the
+contested-garment rule. With these, we can prescribe the division of any
+bankrupt estate, provided there are just two creditors. Here's an example:
+Suppose the estate consists of $125, and two creditors claim $100 and $200,
+respectively. By the first principle, the $200 claim is immediately reduced to
+$125. Now there is $100 in dispute and $25 undisputed. According to the
+contested-garment principle, the $100 is divided equally. Therefore the $100
+claimant gets $50, and the $125 claimant gets the remaining $75.
+
+            But what
+should we do when there are three or more creditors? According to Professors
+Robert Aumann and Michael Maschler of the Hebrew University in Jerusalem, we
+can solve this problem by introducing just one more principle, which they call
+consistency . According to the consistency principle, any pair of
+creditors must divide their collective share according to the principles we've
+already enunciated. To see what consistency means in practice, think again
+about a $200 estate, to be divided among creditors who claim $100, $200, and
+$300. The Talmud awards $50 to the first and $75 to the second; thus the first
+two creditors have a collective share of $125. And this $125 is divided between
+them exactly as we prescribed in the preceding paragraph. So the Talmudic
+prescription satisfies the consistency principle in this instance. It's not
+hard to confirm the same would be true if you started with the first and third
+creditors, or the second and third.
+
+            But wait! All we've done is checked that the first two
+creditors divided their collective share of $125 appropriately; we haven't
+explained why their collective share is $125 in the first place. Aumann and
+Maschler have an answer: Any division other than 50-75-125 would be
+inconsistent. (That is, with any other division, some pair of creditors would
+have its collective share divided incorrectly.) In fact, they have proved more
+generally that every bankruptcy problem has exactly one consistent
+solution. Once you've found a consistent division, you can be sure that no
+other is possible.
+
+            So perhaps
+the Talmudists proceeded by trial and error, considering various divisions and
+rejecting each one as inconsistent until they hit upon the unique consistent
+division of 50-75-125. Or maybe they had a more systematic approach. Systematic
+approaches are possible but a bit complicated. Click for an explanation of the
+simplest.
+
+            
+Whatever method the rabbis used, they appear to
+have used it--pardon the pun--consistently. It's not hard to check that
+all the Talmudic examples always satisfy the consistency principle. And
+the consistency principle gives a complete explanation for each example, in the
+sense that, in each case, only one consistent solution is possible, and we can
+imagine that the rabbis kept trying until they found it. The consistency
+principle is both universally applicable (because a consistent solution can
+always be found) and universally unambiguous (because there is never more than
+one consistent solution).
+
+            Suppose,
+for example, that an estate of $400 is to be divided among creditors who claim
+$100, $200, and $300. A consistent solution is to award them $50, $125, and
+$225. (Click for help on seeing why this is consistent.) But from Aumann and
+Maschler's work, we know that if you've found one consistent solution, you've
+found them all. So this is the only division that obeys all the
+principles we've stated. Although the ancient rabbis failed to consider this
+particular example, Aumann and Maschler express confidence that if they
+had considered it, they would have endorsed this unique consistent
+solution.
+
+            Why is the consistent solution the right solution? Aumann
+and Maschler argue that consistency appeals to our intrinsic sense of fairness.
+But, in the Talmudic tradition, if you don't like that argument, Aumann and
+Maschler have another.
+
+            Imagine that all the
+creditors are put in a room and told to agree among themselves on a division of
+the estate; if they can't agree, nobody gets anything. Suppose also that any
+creditor who is offered 100 percent of his claim (by a consensus among the
+others) is required to accept it and leave the room. What would the bargaining
+process look like, and what would the outcome be?
+
+            There is a
+branch of economics called "bargaining theory" that attempts to answer such
+questions; unfortunately, the answers turn out to depend rather heavily on
+auxiliary assumptions. But Aumann and Maschler have proved that in the case of
+the bankruptcy negotiation, it follows from reasonable assumptions that the
+creditors would eventually agree to divide the estate in accordance with the
+consistency principle. Thus, according to Aumann and Maschler, all the Talmudic
+prescriptions coincide with what the creditors themselves would have agreed to,
+given appropriate bargaining rules and sufficient time.
+
+            
+               If you missed the
+systematic way to solve the bankruptcy problem, click . If you'd like to review
+why the $50, $125, and $225 distribution of the $400 estate is consistent,
+.
+            
+
+         
+      
+   

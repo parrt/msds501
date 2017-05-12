@@ -1,0 +1,102 @@
+
+   
+   
+      
+         
+            Online Voter Registration: A Big Little Idea&nbsp;
+
+            Online
+voting is the killer app of Net politics. The prospect of e-voting is
+enthralling journalists (including 
+                  Slate
+                writers and ), causing
+governments to fret about digital signatures, and inspiring endless speculation
+about how online ballots will eventually revolutionize politics. It is the big
+idea that will change voting a huge amount someday.
+
+            But a
+startup called Newvoter.com has a little
+idea that could change voting a small amount now. Its online voter registration
+application could boost voter turnout and save grass-roots organizations and
+candidates money and effort.
+
+            Online
+voter registration, at this point, isn't quite what it sounds like. You cannot
+register to vote online. The concern about digital signature verification that
+is delaying online voting prevents online registration as well. What you can do
+now, however, is register to register online. If you are a Florida resident,
+for example, you can go to a state Web site and complete the Florida voter
+registration application . After you complete the online application,
+Florida mails you a voter registration form with your information already
+filled in. You sign the form and return it to your county election supervisor.
+It's not quite point-and-click registration, but it does save voters a trip to
+the library, post office, or department of motor vehicles. (Several companies,
+including Onlinedemocracy.com and Election.com, want to sell such online
+registration services to states.)
+
+            
+Ultimately, online voter registration (even in its current form) is most
+promising not because it saves time and money for voters and governments,
+though it does. Online registration really serves those who conduct voter
+registration drives. Grass-roots organizations, political parties, and
+candidates routinely spend enormous sums of money and time on voter
+registration drives without any guarantee that they are helping their cause.
+Organizations that sign up voters can't stay in touch with them, can't remind
+the newly registered to vote, and can't ensure that the new voters will
+remember their cause if they do vote. A voter registration drive is
+"high-maintenance, it's labor-intensive, it's high-effort," says Mark Strama,
+co-founder and CEO of Newvoter.com. "And, typically, after you register someone
+to vote in the field, you lose touch with them."
+
+            
+Newvoter.com proposes to change that. The company offers itself as a kind of
+online registration middleman. Instead of conducting its own voter registration
+campaign, a candidate or organization-let's say, for convenience's sake,
+Greenpeace-buys Newvoter.com's application and puts it up on its own home page.
+Any person who visits the Greenpeace Web site will be encouraged to register to
+vote.
+
+            The
+company's application, which is currently available at the Rock the Vote
+site for what Strama calls a
+"test run," follows the Florida model described above, except that
+Newvoter.com's online application form can be used for 46 states and the
+District of Columbia. (Mississippi, New Hampshire, North Dakota, and Wyoming
+are the exceptions.) After completing Newvoter.com's online form, voters are
+mailed a printed registration form and an envelope addressed to their local
+election office. They proofread it, sign it, add a stamp, and drop it in the
+mail.
+
+            
+Newvoter.com's innovation is to keep track of registrants. When Greenpeace
+registers a voter at a concert or on a campus, it loses touch with her
+immediately. But if she registers on Greenpeace's Web site, Newvoter.com and
+Greenpeace can stay in contact with her. Five days after Newvoter.com mails the
+official registration form to the voter, she receives an e-mail reminding her
+to look for the form and noting that she is not registered to vote until it is
+signed and returned. Six weeks before the election, an e-mail arrives asking
+her if she plans to be in town for the election and providing instructions for
+acquiring an absentee ballot. One week before the election, she receives a
+customized get-out-the-vote e-mail. Newvoter.com will also allow voters to join
+a mailing list sponsored by the organization or candidate-the reminder e-mails
+are sent directly by Newvoter.com-allowing Greenpeace to mail her too.
+
+            
+Newvoter.com hasn't brought its service to the market yet, or even settled on
+its exact business plan-Strama says a "big announcement" is coming soon-but the
+company plans to sell its service to grass-roots political organizations and
+candidates across the political spectrum.
+
+            
+Strama, who was Rock the Vote's director of programs, thinks Newvoter.com is
+more likely to boost voter turnout than either traditional voter drives or
+motor-voter registration. People who register to vote when they are engaged by
+a political Web site are more likely to turn out than folks who register while
+waiting in line at the DMV. And people are more likely to vote if they are
+reminded close to Election Day about the issue that made them register in the
+first place. It's not going to revolutionize politics, but it may send a few
+more people to the polls to cast a ballot for a cause they care about.  
+
+         
+      
+   

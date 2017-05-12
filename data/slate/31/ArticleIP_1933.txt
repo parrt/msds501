@@ -1,0 +1,156 @@
+
+   
+   
+      
+         
+            Soft Microeconomics
+
+            I wrote this piece in
+WordPerfect, not Word, mainly because Word's equation editor is awful (are you
+listening, Mr. Myhrvold?), and I may as well use the same software for plain
+English articles and professional gobbledygook. I surf with Netscape Navigator
+and check e-mail in Eudora. So, I am not a fan of Microsoft's products.
+Moreover, for reasons explained below, it is in the public interest to have
+Bill Gates always running a bit scared of the Justice Department. Nonetheless,
+the more anti-MS propaganda I read, the more pro-MS I get. There is a
+case against Microsoft, but it is not the one you hear, and I would hate to see
+crude misunderstandings posing as sophisticated analysis prevail.
+
+            Probably the first thing one
+ought to say is that the public has no interest in helping Bill Gates' rivals
+for their own sake. It's easy to think of the people who run software companies
+other than Microsoft as underdogs fighting Big Bad Bill. But those "little"
+guys are no more in need of extra money than Gates is, and if allowing him to
+get an extra billion at Larry Ellison's--or even Marc Andreesen's--expense is
+good for the rest of us, so be it. Those of us who do not get paid in software
+stock options should not allow ourselves to become pawns, either way, in
+struggles among those who do.
+
+            So what
+is the public interest?
+
+            The case for leaving Microsoft alone does not rest on some
+naive faith in the perfection of free markets. Software is an industry
+characterized by powerful increasing returns in both production and
+consumption: The more units Netscape ships, the lower its per unit cost; the
+more copies of Navigator in use, the more attractive it is to the typical user.
+These increasing returns make the kind of atomistic, "perfect" competition that
+prevails in the market for, say, wheat impossible in the market for browsers or
+word processors. Necessarily, each type of product will in the end be produced
+by only a few companies, perhaps only one.
+
+            But how
+does this concentration of production take place? One of the depressing things
+about public discussion of the Microsoft case, even among supposedly
+well-informed people, is that much of it has come to be dominated by a
+basically primitive view about what increasing returns do to markets--namely,
+that they convey monopoly power purely randomly, on whoever happens to be in
+the right place at the right time--and that this "path dependence" allows
+clearly inferior technologies to become "locked in." Now path dependence has
+its place--but when applied to the Microsoft case it misses the point. After
+all, high-technology companies are themselves quite aware of increasing
+returns, and their strategies--above all the prices they charge when they are
+trying to establish themselves in a market--are very much affected by that
+awareness.
+
+            
+Consider, for example, one particular form of
+increasing returns: The so-called "learning curve," which says the more units
+of something you have already produced, the lower the cost of producing the
+next one. You might think this means that whoever gets into a market first will
+simply have a snowballing advantage. But as Stanford's Michael Spence pointed
+out in a classic, 20-year-old paper on this subject, profit-maximizing
+companies that know they face a learning curve will compete fiercely to move
+down it more rapidly, selling cheaply in the early stages of a product cycle
+(and therefore losing money) in the hope of making the money back later.
+
+            The same
+logic applies to increasing returns on the demand side: As a manufacturer, if I
+know that a typical customer's choice of browser depends both on the price and
+on the number of other people using that browser, I will initially make my own
+browser cheap--maybe even free--so as to build market share. In either case I
+must incur initial losses that are, in effect, part of the price of entry into
+the market--an add-on to the cost of developing a product in the first place.
+And because nobody will want to pay this entry fee without a reasonable hope of
+earning it back, only a few companies will enter a market subject to strong
+increasing returns. The point is that the eventual domination of an industry by
+a few companies--and a high rate of profit on sales for these companies in the
+later stages of the cycle--doesn't happen because these companies just happened
+to get a head start. On the contrary, it is precisely because it isn't
+purely a matter of luck--because everyone competes so fiercely on prices in an
+effort to get some of those nice increasing returns--that only a few dare
+enter.
+
+            Of course, there is also an element of luck. It's
+not true that whoever gets a head start always dominates the market--if a
+company has a small head start but offers a clearly inferior product or has
+clearly higher costs, rivals can and will overtake it. But nobody can be sure
+just what an as-yet undeveloped product will cost to produce, or how it will go
+over with consumers. Thus, competition in a market characterized by increasing
+returns is--as it must be--a sort of demolition derby in which only some of
+those who enter cross the finish line. Those who do make it across the finish
+line will typically make big profits. But this profitability is necessary to
+the enterprise. Who will enter a demolition derby without the ?
+
+            So this is
+the case for leaving Microsoft alone: High-tech competition is, necessarily, a
+competition that ends up being won by a handful of players. Those who make vast
+fortunes may not always be the most deserving--but so what? For the rest of us,
+what matters is not who wins or loses, but how they play the game. And if they
+know or suspect that too much success will be punished--that anyone who does
+too well will become a target of envy-driven litigation--they will have that
+much less incentive to play hard.
+
+            
+Now there is, of course, also a case against
+Microsoft. Never mind the crude complaint that it is too big, or too
+profitable, or that nerdy types tend to dislike its products. The real concern
+is that because Microsoft's victory in an earlier derby happens to have given
+it control over a particularly strategic part of the industry--because it
+supplies operating systems--it is in a position to squeeze out rival suppliers
+of other software. And that is a real concern: If Microsoft had, for example,
+written Windows 95 in a way that made it hard or even impossible for me to use
+WordPerfect, the Justice Department would have been absolutely justified in
+calling out the arsonists.
+
+            But the
+fact is that MS has been very careful not to use its undoubted power to
+practice any crude, obvious version of what is known in the trade as "vertical
+foreclosure." WordPerfect and Netscape work just fine on my Windows-based
+machine. This restraint may partly reflect Microsoft's market strategy--after
+all, Microsoft beat Apple partly because Apple did practice vertical
+foreclosure, and as a result inhibited the development of complementary
+software (although the main problem was Apple's persistent belief, despite all
+the evidence to the contrary, that everyone would be willing to pay a premium
+price for a niftier machine). For sure, however, Microsoft has mainly been
+restrained by the knowledge that any crude use of its power would indeed land
+it in court.
+
+            And yet, despite all that restraint, Microsoft is in court
+anyway. Any nontechnologist ventures into the browser wars at his peril, but
+here is how I understand it: After initially missing the significance of the
+Internet, Microsoft has gone to the other extreme, designing Windows 95 so that
+it uses an Internetlike metaphor for everything. It makes sense, then, for a
+browser that can find both internal and external documents to be an integral
+part of the system--unless, that is, you regard browsers and operating systems
+as still basically different things, and view Microsoft as practicing vertical
+foreclosure under the guise of product enhancement. Well, maybe--but it's a
+pretty subtle point. Microsoft isn't preventing anyone from using Netscape or
+charging Netscape for the right of access; it's providing Internet Explorer
+free, but then that would be normal practice in this kind of industry even if
+IE wasn't allegedly an integral part of Windows 95. You can argue that
+Microsoft has stepped across the line on this one--but surely by only a few
+inches.
+
+            Here's what worries me: Given
+the subtlety of the real issues here, what is the chance that this stuff will
+be decided on its merits? When you hear that despite the fact that he has
+economists who know better, the Justice Department's Joel Klein apparently
+either believes or chooses to claim that this case is about path
+dependence, you start to wonder. And when you hear that the anti-Microsoft side
+has retained the services of that economic and technology expert Bob Dole, you
+start to despair.
+
+         
+      
+   

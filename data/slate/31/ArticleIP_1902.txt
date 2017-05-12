@@ -1,0 +1,193 @@
+
+   
+   
+      
+         
+            A Penny for Your Thoughts?
+
+            Transactions involving
+money--say, the purchase of something at a store--cost money. The cashier must
+be paid, the cash register bought, the bookkeeper hired, etc. Honest mistakes
+and dishonesty also take a toll. These expenses can be expressed as a cost per
+transaction. The higher that cost, the larger the transaction has to be in
+order for it to make financial sense.
+
+            Computers
+are very good at counting money and keeping records, so they have been used for
+decades to manage transactions. Today, when your credit card is run through the
+little machine at the checkout counter, computers handle the entire
+transaction. Nobody is going to look at that little slip you sign unless a
+problem develops.
+
+            What is the cost of a transaction done purely by computer?
+A recent estimate put the cost at less than one-millionth of one cent per
+transaction--i.e., 100,000,000 transactions can be done for $1. Digital
+cash--where the value is stored on the card you carry and there's no need to
+check your credit against a faraway database--may be even cheaper.
+
+            Regardless
+of how it's done, transaction costs will continue to plummet as computers get
+more powerful. Low transaction costs are a wonderful thing if you're in the
+transaction business. They're wonderful for consumers too, making it cheaper
+and easier to buy things and creating new things to buy. All this is especially
+true now that the Internet provides a direct connection between sellers and
+millions of consumers.
+
+            
+In a normal situation, you could end there. But
+this isn't a normal situation. This is the Internet, where any legitimate idea
+is immediately taken to ridiculous limits. That's because there are plenty of
+would-be Internet visionaries competing to outdo each other, both in
+philosophizing and in trying to sell shares in their start-up companies to the
+public. The magic words "on the Internet," if inserted into nearly any
+sentence, seem to protect it from normal critical scrutiny.
+
+            So it is
+with cheap transactions, which tend to go by the sexier name of "micropayment
+systems." Press reports about micropayment schemes extol their virtues in
+breathless wonder. Micropayments, it is said, will revolutionize the economics
+of journalism on the Net (a topic I've opined on
+before). People will pay some small fee--like 10 cents--to read an article,
+rather than buy a whole magazine for $2.95. Or, what the hell, they can pay by
+the paragraph, sentence, word, or--why not push it to the extreme--the bit.
+Wouldn't that be wonderful?
+
+            No, actually, it wouldn't. Micropayments might be important
+in some limited areas, but most of the hoopla is very poorly thought out. To
+see why, consider Slate, which recently decided to remain free to users for
+now. But imagine that, several years hence, Slate is trying to decide among
+micropayments, subscriptions, and remaining free. Let's consider what effect
+these choices will have on a couple of typical users (or "readers," as they
+used to be called--tellingly, the computer industry shares with the drug
+industry the habit of referring to its customers as "users").
+
+            Joe Avid
+is what we in the computer industry would call a "heavy user." Joe reads every
+bit of every issue of Slate. Jeff Accidental rarely reads Slate on purpose--but
+every now and then, he follows a link from another site into Slate. Somewhere
+in the middle is Tom Average, who reads Slate just as much as the average user
+does.
+
+            
+What price should we set for the micropayment?
+If we set the price so that it will yield the same total revenue as a
+subscription, then Tom Average will pay the same amount either way. Jeff
+Accidental will save a bundle by buying occasional articles instead of having
+to buy a subscription. But it's tough luck for Joe Avid. He--and everybody else
+who reads more of Slate than its average reader--will pay more than a normal
+subscription would cost. In customer-service circles, this is known as
+"screwing your best customer." That's OK in the sex industry, but not so great
+in others, because it tends to alienate the loyal supporters who form the core
+of the business. (It is, though, standard practice in the print-magazine
+industry, which gives new subscribers a bargain rate and rewards steady renewal
+by raising the price.)
+
+            The
+problem, for Slate and other Internet sites, comes from having to charge for
+usage, when what they're selling is intellectual property with a flat
+production cost. Slate doesn't get "used up" by being used. It costs virtually
+the same amount to produce, no matter how many people use it, and no matter how
+heavy the use.
+
+            The Random House Unabridged Dictionary is priced at $100
+and has 315,000 entries. Of these, I have looked up maybe 20 of them since I
+bought a copy a couple of years ago. If I could pay based on usage, Random
+House would have to charge me $5 for each word I looked up to bring in the same
+revenue. Hardly a micropayment. Five bucks per look up would bankrupt frequent
+users--Scrabble players or copy editors, for example.
+
+            But I
+didn't really pay $100 to "use" 20 entries. It's much more accurate to say that
+I paid for the option to use any of the 315,000 entries that I might need.
+Similarly, I subscribe to magazines to get an option just in case I want to
+read any of the articles. The editors, for their part, arrange to have them all
+written just in case I do.
+
+            
+You could argue that Joe Avid is so hooked on
+Slate that we can afford to put him over a barrel at the micropayment rate,
+even though it means that he will pay a lot more. Similarly, when dictionaries
+are all online, Random House could hold up the world's Scrabble players and
+copy editors. Unless, that is, there is competition that offers an exotic
+billing option known as the subscription or flat-price deal. It won't take a
+genius competitor to come up with this plan. Charging a usage-based fee for
+content sounds fair--but it is artificial, because your costs are fixed. A
+flat-rate competitor would present an attractive proposition to Joe Avid and
+anybody else with heavier-than-average usage.
+
+            So what
+about a hybrid plan--subscriptions for heavy users, and micropayments for the
+rest? This is another way to say "drop prices," because heavier-than-average
+users will buy a subscription, while lighter-than-average users will choose the
+a la carte plan. Dropping prices can sometimes make sense--especially when, as
+here, you can drop them for only your least eager customers. (The airlines are
+specialists in maximizing revenue and filling seats by charging different
+amounts to different people.)
+
+            But this raises another question. If lowering the price
+gets you more customers, why not lower it all the way to zero and get the
+greatest number? That is, why not rely on advertising? Advertising is, in
+effect, a funny kind of micropayment system. Advertisers pay on the basis of
+how many people see their ad. For most media, this is measured statistically,
+via surveys, because statistical estimates are an even cheaper way to record
+tiny transactions. They're not exact, but the overestimates and underestimates
+average out over time. Besides, if the transactions are really small, who cares
+if you miss a few? Ad rates amount to a few cents per customer impression,
+which is in the same range as micropayments. And of course the customer ends up
+paying, indirectly. But it feels different to users. If imposing micropayments
+or other explicit user fees loses you many users, you'll decide to stay free
+and collect your micropayments through ads.
+
+            
+Micropayments are great if you use them for a product or service with certain
+properties. It must be one where you can get away with usage-based pricing, and
+where there is a strong rationale for making it cheap, yet not free. Put
+another way--micropayments make sense only when they match the fundamental
+economics of the product or service better than other ways of charging.
+Products that get used up as they are used naturally have this property. If the
+basic economics are usage-based, then the payment can be too. This class does
+not include journalism or, indeed, most intellectual property. Yet, this is
+where micropayments are most often suggested.
+
+            
+That isn't quite the end of the story. One
+situation where micropayments will work is where there are no heavy users or
+repeat customers--or where you don't mind screwing your best customers. Films
+are a good example. The movie industry always starts a film with a high,
+usage-based pricing model--$7.50 or so per ticket. This price is high enough to
+discourage many people from seeing the film. That doesn't matter, because after
+a run in the theaters, the film will be released to home-video rental and pay
+per view, where it costs $3 to $5 and nobody counts how many people are in the
+room. There it picks up a few repeat customers, but mostly new ones. The price
+is brought lower on premium cable (like HBO), which is a flat-rate cost to the
+user, and it eventually hits zero when the movie appears on broadcast
+television, where ads support it.
+
+            
+Technically speaking, this is a repeated auction. We're more familiar with what
+economists call an English auction--prices start low and rise as people bid.
+However, there is also the Dutch auction, where prices start high and go lower
+until somebody bites. Movies are sold to the audience via a very slow Dutch
+auction, where each phase between price drops can last weeks or months. Book
+publishers do the same thing, with two stages--hardcover and paperback.
+
+            Movies get away with this because they don't generally have
+"heavy users" or repeat customers. Most people see a film once, or at least
+don't see it again for many months. Some films inspire hard-core fanatics who
+see them repeatedly, but these viewers are so few in number that movie theaters
+do not cut them a special deal. The real savior is the repeated Dutch auction,
+which lets theaters be cavalier about pricing the movie beyond the reach of a
+large set of customers, because they'll get another crack at them later.
+
+            Most Internet content does
+not have these special properties. Sites need regular repeat visitors. Their
+costs, for the most part, are not usage-based. So micropayments will play a
+very small role in selling Internet content. Most sites probably will wind up
+being free, supported by ads. User fees will also exist, but for any content
+conducive to repeat use, they will be based on a flat rate--either a
+subscription to a site or a membership that lets you get to a set of sites. A
+penny won't buy much, even on the Web.
+
+         
+      
+   

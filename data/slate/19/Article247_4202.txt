@@ -1,0 +1,76 @@
+
+   
+   
+      
+         
+            Someday (Maybe), You'll Buy Cars on the Web
+            
+
+            The promise of the Internet, from a business perspective, is the promise of
+a frictionless economy, in which buyers and sellers are able to meet without
+mediation. And since perhaps the most disliked mediators out there are car
+dealers, they would seem to be natural and inevitable casualties of consumers'
+migration to the Internet. Very few people like bargaining with car dealers.
+Auto companies don't like their now-almost-required reliance on rebates to move
+cars. And the whole phenomenon of the huge dealership, with acres of cars, each
+depreciating by the minute, seems like an archaic way of handling distribution
+(and, since someone has to make all those cars, production).
+
+            At the same time, the smartest auto manufacturers, like Ford and Toyota, are
+already working hard at integrating the Internet into their operations and
+developing build-to-order systems. Eventually, you should be able to
+communicate directly with Ford, pick out the car you want with the options you
+want, and have it delivered to your door, just like a Dell PC. Ford won't have
+to make cars it's not going to be able to sell, and you won't have to haggle
+with some dealer. (This was what I was imagining at the end of the last
+Moneybox, when I wrote about GM truly becoming an Internet company.)
+
+            The only problem with this picture of the future is that it's currently
+against the law. Just about every state in the United States, in fact, has
+strong franchise laws that limit the size and scope of dealerships, effectively
+regulate the allocation of vehicles to dealers, bar large-volume discounts, and
+prevent dealers from selling across state lines. Needless to say, actually
+buying a car on the Internet is therefore impossible, which is why all the
+car-buying services on the Net are actually local filtering devices, allowing
+you to comparison-shop. That's an obvious advance over the old days, but it's
+still a long way from a real Internet market.
+
+            In essence, local car dealers have been able to create and maintain
+geographic oligopolies through the use of franchise laws. That's one reason why
+the category-killer approach to car-selling, exemplified by AutoNation (which
+just announced it was closing its used-car superstores), has floundered so
+badly. If Wal-Mart weren't able to offer lower prices in its stores because it
+was barred from getting volume discounts from its suppliers, it would hardly be
+a powerhouse retailer. Economics of scale come into play only if things get
+cheaper the bigger you get. Otherwise you've just got more overhead.
+
+            But while the demise of the car superstore should probably be lamented, the
+really nefarious impact of the state franchise laws is unquestionably on the
+not-yet-existing Net market. Those laws are in part a product of older concerns
+about vertical integration, so that they served the function of keeping the
+auto-makers from selling direct to consumers. And they also allow states to
+keep a tight grip on the tax revenue from auto sales. But they are almost
+textbook examples of bad regulation, which accomplish nothing but putting lots
+of money in dealers' pockets.
+
+            Even if Congress, say, were to pass a law permitting the direct sale of
+cars, that wouldn't mean that auto-makers would embrace direct selling
+immediately. An article in the new Fast Company , for instance, suggests
+that Toyota's management was hesitant to Web-ify the company precisely because
+it was afraid that would lead to direct sales, which would alienate dealers
+(and break the law). And it's plausible that a car is such a big purchase that
+many people are going to be uncomfortable buying one online, sight unseen. But
+as an alternative, one can easily imagine something like what Gateway does now
+with its Country Stores, where you can test-drive a PC and then order it
+immediately online. There will, of course, be auto manufacturers that even a
+decade from now are still working through the traditional dealer system. But if
+you look at the PC industry, and the difference between the success of
+direct-selling Dell and Gateway and the struggles of dealer-centric Compaq and
+IBM, the idea that those auto manufacturers who stay tied to dealers will
+flourish seems dubious indeed.
+
+            Of course, first all those laws have to be changed.
+
+         
+      
+   

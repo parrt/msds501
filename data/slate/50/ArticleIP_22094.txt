@@ -1,0 +1,100 @@
+
+   
+   
+      
+         
+            A 36,000 Dow?
+
+            One year ago, with the Dow
+Jones industrial average at 8,700, financial writer James Glassman and
+economist Kevin Hassett wrote in the Wall Street Journal that the price
+of stocks was still way too low. By their logic, they said, the Dow should be
+at 35,000--and would be, when investors caught on.
+
+            This week, as the Dow
+hit 10,000, Glassman and Hassett repeat their argument in the Journal .
+They admit that the "financial establishment" has reacted with guffaws. They do
+not mention that Jeremy Siegel, the Wharton finance professor whose research is
+central to their case, wrote to the Journal that "their analysis
+contains a serious flaw [and] vastly overstates the value of stocks."
+
+                  Slate
+                also published a "" between Glassman and the
+Economist 's Clive Crook, in which Crook explained that Glassman was
+"wrong, plain wrong ... in the same way that it's wrong to say two plus two
+equals five." But Glassman and Hassett (henceforth, "Glassman") remain unbowed.
+In fact, they've upped the ante. This fall they're bringing out a book titled
+Dow 36,000 .
+
+            It would make a wonderful tale if these two (both
+associated with the American Enterprise Institute, a conservative Washington
+think tank) had discovered what the entire finance establishment had missed,
+and written the next Wealth of Nations . The true tale, sadly, is
+somewhat less inspiring. Glassman's analysis suffers from a plain conceptual
+mistake, described below, which he simply refuses to admit, no matter how many
+times it is pointed out to him. Here is his argument, and why it is wrong.
+
+            Glassman begins by asking
+whether you'd rather have $100 in a savings account that pays 6 percent
+interest or a $100 share of a company that earned $1 per share last year. The
+answer is simple, right? The savings account pays you $6 per year, while the
+stock pays only $1--and even that only if the company's entire earnings are
+paid out in dividends.
+
+            But why would a stock that pays out only $1 be trading at
+$100, when investors can get $6 in a savings account? Because firms tend to
+grow over time and so do their earnings. Firms can grow for any number of
+reasons, but only one is mathematically certain, and that is the one Glassman's
+argument depends on: A firm that earns $1 can use it to expand, and thus
+increase its earnings, expand even more, and so on. For instance, a typical
+firm with $1 of earnings per share might earn $1.05 next year, $1.11 the
+following year, and so on. In 35 years, earnings per share will pass $6 and
+continue to increase. You can show mathematically that $6 a year forever and $1
+this year plus $1.05 next year and so on are equal amounts. So it's not
+illogical that investors would be willing to pay the same $100 for either
+income stream.
+
+            Glassman points out that investors are not
+paying the same amount for these two income streams. To get $6 a year from a
+savings account costs you about $100 today, but you can buy $1 of corporate
+earnings on the stock market for an average of only $25! One reason is that
+stocks are considered riskier. Even if the average return on the stocks is the
+same as the certain return on the savings account, people will pay extra for
+the certainty itself. Glassman thinks this is the only reason for the
+difference--although it's not.
+
+            But Glassman
+argues--citing historical studies by Siegel--that stocks held for many years
+are not actually riskier. And when people realize this, they'll be willing to
+pay $100 instead of $25 for $1 of corporate earnings, and stock prices will
+quadruple. That's where he gets his 36,000 Dow: four times the current level.
+(Maybe it's not too late to call the book Dow 40,000 .)
+
+            So where's the flaw? Assume that Glassman is right about
+the long-term risk of stocks, and assume he's right that average corporate
+earnings will grow at 5 percent a year. The problem is that he is
+double-counting. The $6 a year you get from a savings account is yours to spend
+on anything you please. The corporate earnings are yours to spend only if they
+are paid out in dividends. But if they are paid out in dividends, they aren't
+available to expand the firm, and so the delightful progression from $1 to
+$1.05 to $1.11 and so on won't occur.
+
+            Another way to see the flaw is to apply Glassman's
+logic to the savings account. Sure, a $100 investment today will only get you
+$6 this year. But those earnings will allow the savings account to grow, and
+next year's earnings will be $6.36, and then $6.74, and so on. So according to
+Glassman's theory, you should be willing to pay $400 for a $100 savings
+account.
+
+            The key point is that earnings cannot be
+simultaneously paid out in dividends and invested in future profits.
+Glassman would be right, however, if you could buy $1 of dividends for
+$25. But it turns out that to buy $1 of dividends costs you $72 (among Dow
+Jones industrial average stocks). Which suggests that if you really believe
+that stocks are actually no riskier than a savings account--or, rather, if you
+believe that everyone else will come to believe this--the Dow may still have
+3,888 or so points to go. Dow 14,000 anyone?
+
+         
+      
+   

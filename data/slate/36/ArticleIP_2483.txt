@@ -1,0 +1,145 @@
+
+   
+   
+      
+         
+            You Be the Judge
+
+            The central issue in the
+dispute between Microsoft and the Justice Department is whether Windows 95, the
+operating system, and Internet Explorer, the Web browser, are two separate
+products or different parts of one single product. Microsoft says one product;
+the government says two products. And the one-product-or-two test seems to be:
+Can you take a computer with both Internet Explorer and Windows, eliminate
+Internet Explorer, and still have Windows? The government says yes; Microsoft
+says no.
+
+            The
+judge in the case, Thomas Penfield Jackson, announced in court last month that
+he'd done it in about 90 seconds. Microsoft maintains that he did nothing of
+the sort. Well, you're probably sitting in front of a computer right now.
+You're probably using Windows, and there's a good chance you're also using, or
+at least have installed, Internet Explorer. So here's your chance to duplicate
+Jackson's experiment, try Microsoft's version of the experiment, and decide for
+yourself who's got the better of the argument. Can you remove Internet Explorer
+from your own computer without harming Windows?
+
+            
+Let's begin with Jackson. If you're going to
+follow along, be sure to print this story now and save these instructions.
+You'll definitely need them on paper.
+
+            When Jackson retreated to
+his chambers on Thursday, Dec. 18, he sat at his computer--what he described as
+a machine running Windows 95--and in all likelihood, this is what he did.
+
+            Click Start on your
+screen. This will bring up a pop-up menu.
+
+            Click Settings , then
+choose Control Panel . A window will open.
+
+            Double-click Add/Remove
+Programs . This will bring up a list.
+
+            Click Internet
+Explorer in the list.
+
+            Click Add/Remove . If
+you're using Internet Explorer now, you'll have to quit. After a few minutes,
+you'll be told to restart your machine.
+
+            Upon
+rebooting you'll find that the Internet Explorer icon is gone from your desktop
+and Windows works fine. (To restore Internet Explorer, you'll need to have it
+on your original Windows 95 CD-ROM or another disk. Or you can download a new
+copy from www.microsoft.com/ie/.)
+
+            
+Microsoft's position is that Jackson did not
+actually remove Internet Explorer from his computer because the add/remove
+procedure leaves "components" of Internet Explorer on the machine. Later, if
+you're curious about what these components are and how Microsoft decided which
+components belong to Internet Explorer, read two key documents, both written by
+David Cole, the Microsoft vice president in charge of the Internet Client and
+Collaboration Division. Document
+1 and Document 2 are both affidavits submitted to Jackson. In the
+first affidavit, starting at Paragraph 41, you'll find a list of
+components that are allegedly part of Internet Explorer.
+
+            But
+first, back to our experiment. A couple of serious warnings: Before removing
+any components, you must save copies onto a floppy disk. Make sure you have
+enough room on the floppy for all these files, as they take up about 1.2
+megabytes. Later, you'll use this disk to copy the components back onto your
+hard drive. Final warning: If your computer fails to work the way it used to
+even after returning the components, I can't help you.
+
+            
+In the affidavits, Cole lists several
+components he associates with Internet Explorer, including Wininet.dll,
+Urlmon.dll, and Mshtml.dll. "Dll" stands for "dynamic-link library," and .dll
+files are small chunks of computer code that are intended to be shared by more
+than one application. One thing you might try is to find out how many .dll
+files you have. Click Start , then Find , then Files or
+Folders , type *.dll , then hit Find Now . (Make sure your hard
+drive is selected in the drop-down list in Look in .) On my computer I
+found 1,230 .dll files. Even if you used "Add/Remove" on Internet Explorer,
+Wininet.dll, Urlmon.dll, and Mshtml.dll are still there. But Cole notes in his
+affidavit that these files are included with Internet Explorer when it is
+installed apart from Windows 95, from a disk or the Web. So let's get rid of
+these files and see what happens. (You do have copies on disk, right?) Before
+proceeding, write down or remember the directories where these files are found.
+They're probably all in c:\windows\system.
+
+            You
+cannot remove these .dll files while Windows is running (which is part of
+Microsoft's point). So get rid of Windows and go into MS-DOS. (Click
+Start , click Shut Down , and choose Restart the computer in
+MS-DOS mode .) When you see the age-old C:\ prompt, switch into the
+directory where the .dll files are stored. (Type cd windows\system , for
+example, and hit Enter.) Then delete the three files (type del
+wininet.dll and hit Enter, then do the same for Urlmon.dll and Mshtml.dll).
+Now type win to return to Windows.
+
+            
+Afew moments later you'll be back in the
+familiar desktop environment. However, your Internet applications (other than
+Internet Explorer--which you've removed, remember?) may have trouble running.
+(Your e-mail system, for example.) Or they may work just fine. It all depends
+on whether their authors designed them to use those three .dll files. If they
+did, you're out of luck. (Microsoft people say that removing these files can
+also cause problems with non-Internet programs, such as Microsoft Office and
+Lotus Notes. You might try them too and see what happens, if you're feeling
+reckless.)
+
+            
+Strangely, if you have a copy of Netscape Navigator installed, you'll see that
+it runs fine. That's because Netscape doesn't use these particular .dll files.
+In fact, most of my other Internet programs appeared to be functioning
+normally, which surprised me, since I expected, as Microsoft has argued, that
+my version of Windows would be severely crippled. Try running Internet Explorer
+without these three components, though, and it really will be seriously
+crippled. On my computer, Internet Explorer turned into a clear window, with a
+view of the desktop where a Web page ought to be and failed to load any pages
+from the Internet.
+
+            
+So for me, at least, this experiment tends to
+support Microsoft's contention that Jackson didn't really remove Internet
+Explorer as he claimed to have done but casts doubt on Microsoft's contention
+that you can't truly remove Internet Explorer without crippling Windows. More
+than anything, though, it casts doubt on whether a government policy decision
+with billions of dollars at stake should really turn on a distinction--is it
+one product or two products?--that, in the end, owes more to metaphysics
+(divining the essential natures of things as inanimate as software programs)
+than to reason.
+
+            Anyway, after copying the
+three .dll files back into the directory where they came from, restarting
+Windows, and reinstalling Internet Explorer, the experiment is over and your
+computer should be back in its original condition. At least mine was.
+
+         
+      
+   

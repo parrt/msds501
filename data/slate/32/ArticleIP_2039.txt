@@ -1,0 +1,140 @@
+
+   
+   
+      
+         
+            Pay Scales in Black and White
+
+            This column is about racial
+discrimination. But more importantly, it's about how a little arithmetic can go
+a long way toward settling a controversy.
+
+            The controversy I have in
+mind is, Why do blacks earn less than whites do? The easiest hypothesis is that
+the employers discriminate. Some commentators have attempted to dismiss that
+hypothesis on the grounds that discrimination is costly (because it entails a
+willingness to pay premium wages for white workers) and therefore unattractive
+to employers with an eye on the bottom line.
+
+            But that
+kind of dismissal is too glib, because it is not based on any estimate of how
+much it costs to discriminate. Without that estimate, we can't even
+begin to think about whether the cost is high enough to make much
+difference.
+
+            Iwant to provide the missing estimate, starting with a few
+assumptions that are reasonably commensurate with reality. First, I'll suppose
+that blacks constitute 10 percent of the work force. Second, I'll suppose that
+blacks, because of discrimination, earn 60 percent of what whites earn. Third,
+I'll make an assumption (again guided by real-world observations) about what
+happens to corporate revenue: I'll assume that for every dollar paid to the
+workers, a half dollar gets paid to the bondholders and the stockholders
+collectively--let's say the bondholders and the stockholders each get a
+quarter.
+
+            To make those assumptions
+more concrete, suppose you're the manager of a corporation that employs one
+black and nine whites, paying the black $60,000 and the whites $100,000 apiece.
+That makes your total wage bill $960,000. The bondholders and the stockholders
+each receive one fourth as much as the workers, thus each group gets $240,000.
+So your payouts look like this:
+
+             
+
+            (The
+specific numbers in the preceding paragraph don't matter. If you assume 100
+employees instead of 10, or wages of $6,000 and $10,000 instead of $60,000 and
+$100,000, the conclusions to follow will remain unaffected.)
+
+            
+Now we can estimate the cost of your
+discrimination. Notice first that discrimination must be quite common in your
+industry; otherwise your black worker would have gone elsewhere long ago. That
+means there are a lot of blacks working for $60,000 in this industry. If you
+could put aside your racism, you'd fire your nine $100,000 white employees and
+replace them with some of those $60,000 blacks--cutting your wage bill by
+$360,000.
+
+            Where would the $360,000 in
+savings go? The same place any corporate savings go--into the pockets of the
+stockholders, increasing their earnings from $240,000 to $600,000--a 150
+percent increase overnight. Your payouts now look like this:
+
+             
+
+            When the
+return to stockholders rises by 150 percent, so must the price of your
+company's stock. That's enough to put you on the cover of Time magazine
+as the financial genius of the century. To continue discriminating is to throw
+away an opportunity for unprecedented financial success.
+
+            In fact, that same opportunity is available to every other
+corporate manager in the industry as well, and they're rejecting it too
+(remember that discrimination must be widespread or all blacks would move to
+nondiscriminatory firms). So in order to believe that discrimination explains
+the black/white wage differential, you must believe that managers throughout
+the industry are so blinded by racism that they are willing to throw away a 150
+percent gain for their stockholders, and the acclaim of all Wall Street for
+themselves. Personally, I find that wildly implausible.
+
+            That's not an irrefutable
+disproof that discrimination exists, but it's at least a calculation that needs
+to be taken seriously. If we had come up with a number like 10 percent rather
+than 150 percent, it would have been far easier to maintain a belief that
+employers discriminate.
+
+            The figure
+of 150 percent is based on numerical assumptions that are reasonable but not
+ironclad. If you juggle those initial assumptions a bit, you'll get a number
+other than 150 percent coming out at the end, and you might or might not
+discover a scenario in which discrimination is plausible. (My guess is that you
+won't, but then again, you and I might have different standards for what's
+plausible.) Regardless of how that experiment turns out, it's well worth
+performing. Without some such test, there is simply no way to know whether
+discrimination is a credible hypothesis.
+
+            
+If we rule out employer discrimination, there
+must be some other explanation for the black/white wage differential. Suppose,
+for example, that there is discrimination not by employers but by customers,
+who are willing to pay a premium for goods and services produced by white
+workers. To advocate that theory convincingly, you'd have to estimate the size
+of the premium and assess whether it's something that consumers would plausibly
+pay. I invite readers to do their own arithmetic.
+
+            Alternative theories posit
+that blacks earn less because they have fewer marketable skills. Like theories
+of discrimination, these theories are best judged by quantitative criteria, but
+now we have to go beyond what can be computed on the back of an envelope and
+look, for example, at what we can learn from standardized test scores.
+
+            According
+to recent research by Derek Neal of the University of Chicago and William
+Johnson of the University of Virginia, black/white wage differentials are
+largely explained by differences in skill levels which are already detectable
+at an early age. (Richard J. Herrnstein and Charles Murray had previously
+reported similar findings in their best-selling book The Bell Curve .) To
+explain those skill differentials, one can try pointing either to training or
+heredity.
+
+            Herrnstein and Murray argued that heredity plays a
+substantial role, but Neal and Johnson's more recent findings tend to refute
+that interpretation. For one thing, Neal and Johnson report that the
+performance gap between blacks and whites is considerably larger for young
+adults than it is for teen-agers. That's hard to explain if the gap is caused
+by heredity (why should an inherent difference become larger over time?), but
+not if it's caused by training (if blacks get inferior schooling, then it's not
+surprising that the effects are greater after 10 years of schooling than after
+six).
+
+            Much research remains to be
+done, and is being done, and will be done. All of that research, at least when
+it is useful, will be quantitative in one way or another. Some of it requires
+sophisticated techniques and sophisticated measurements. But there are
+cases--and discrimination is one of them--where the inherent plausibility of a
+theory can be well tested with nothing more than the back of an envelope and an
+open mind.
+
+         
+      
+   

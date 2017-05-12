@@ -1,0 +1,211 @@
+
+   
+   
+      
+         
+            
+
+            
+               Apples and
+Oranges
+            
+
+            In "," Eliza Truitt discusses installing Linux on a
+PC with Microsoft Windows already installed on it. She doesn't compare the
+reverse; that is, installing Windows from scratch on a machine with Linux
+pre-installed on it. It is no piece of cake, if not downright impossible, for
+the average user to perform this sort of install. Installing Linux on a PC with
+Windows already loaded is far easier.
+
+            In fact, people like Truitt do not generally
+install their own operating systems of any type and make heavy use of help
+desks on a day-to-day basis to keep their systems running. She talks about
+configuring printers, connecting to networks, and so forth on Linux--I wonder
+if she has ever done the same on a Windows machine. Very few computer users
+install their own operating systems these days; they buy their computers with
+the system pre-loaded. There are plenty of vendors who sell Intel boxes with
+Linux pre-installed, including Dell, VA Research, and so on.
+
+            Truitt writes, "compare that with Windows 98: $199
+for a full setup, $89 for an upgrade, or bundled for 'free' as part of nearly
+every non-Macintosh computer." I think that it is pretty nonsensical to make
+the statement that Windows is "free" under any circumstances. Nor does Truitt
+note that when you get Linux from any of a variety of sources you get far more
+than just the OS that Windows 98 users are accustomed to. You get a full
+development system with an unlimited server-based OS. The equivalent software
+would cost upward of $15,000 if you were to try to duplicate it from
+Microsoft--an unlimited client version of Windows NT costs $5,000. The
+databases, programming tools and applications included in Linux are worth many
+thousands more--if you can find them at all for Windows NT.
+
+            If you expect to attract
+readers to 
+                  Slate
+               , you really need to do a better job in
+presenting balanced, factual reporting.
+
+            
+-- Eric Larson
+            
+
+            
+               Free for
+All
+            
+
+            I just read Andrew Shuman's "," and I feel I have to
+write to make a few points. The very first paragraph contains a stunning number
+of errors. Linus Torvalds is the original author of the Linux kernel, but he is
+by no means the author of Linux. There are literally thousands of
+people, both programmers and non-programmers, who have made contributions to
+the Linux distributions. Linux is not derived from an operating system
+called GNU. GNU is not an operating system but a software suite that runs on
+many operating systems (mostly Unix-based OS's, but Windows is also supported
+by many of the packages). The proper name for Linux is Linux, not "GNU/Linux."
+And just for your information, there is a "GNU operating system" in
+development, it's called the HURD and it is different in a number of respects
+from Unix.
+
+            Shuman makes the claim that just because software is
+freely distributable, the authors have no means of recompense for their work.
+That is simply untrue--there are many ways that software can remain free but
+still allow the authors to get paid (just look at RedHat or Netscape).
+
+            Then Shuman claims that Linux provides no graphical
+user interface. The truth is that you have a choice--if you want a text
+interface you can have it, if you prefer a graphical interface that's fine too.
+Shuman also makes the totally unsubstantiated (and untrue) claims that there is
+very little in the way of application software for Linux and that very few
+people use it: The latest estimates of the number of Linux users run into the
+millions--how can that be "so few"?
+
+            Then Shuman claims that free software is less tested
+than commercial software. I use both commercial software and free software in
+the course of my work (I'm adminstrator of a large number of NT and Unix
+computer systems), and it's pretty clear to me that it's the free
+software that is rigorously tested and the commercial software that gets
+released just as soon as it appears to run. Why? Because the incentive to an
+author of free software is to make her package the best, so releasing
+inadequately tested software will do the author's personal reputation no good
+at all. The incentive to a commercial author is to get the application on the
+shelf so she can derive income from it; if Version 1 happens to have bugs in
+it, the bug fixes become a selling point for Version 2.
+
+            I'm not anti-commercial
+software or even anti-Microsoft. I am in favor of choice and freedom though,
+and your article doesn't exactly encourage readers to exercise their choice and
+freedom.
+
+            -- Steve
+Bennett
+            
+
+            
+Lancaster, England
+
+            
+               Zero Zero
+Sum
+            
+
+            It doesn't make a big difference to me--or, I
+suspect, to most Linux users--whether Truitt, Shuman, or any other Windows
+users like Linux or not (see ""). Most Linux contributors don't primarily
+care about competing with Microsoft, or decreasing Bill Gates's wealth, or
+giving away something for free. Linux contributors simply are creating systems
+they themselves enjoy using and find productive.
+            
+
+            The main reason Linux users are increasingly
+concerned about Microsoft is because Microsoft increasingly attempts to set
+proprietary standards for how data are exchanged. That is, technical and legal
+documents are often found in Microsoft Word formats, access to online and
+banking services often requires the use of Microsoft-only software, multimedia
+data often come in Microsoft-only formats, and hardware often only ships with
+Microsoft-only drivers. This is not because Microsoft-based systems are
+necessarily better, but because Microsoft is the biggest player, and that's
+what companies are going to focus their efforts on when writing drivers and
+software; there are, after all, only limited resources for writing drivers and
+front-end software.
+
+            So, the concerns Linux users have about Windows are
+related to whether network effects involving proprietary content formats are
+going to exclude them from some areas of public and commercial life. Just like
+Truitt would not enjoy being forced to struggle with Linux, most Linux users
+don't enjoy being forced to do their work on Windows using its "WIMP"
+interface.
+
+            Microsoft needs to
+become more sensitive to concerns about interoperability and open standards.
+Recent efforts by Microsoft in the areas of XML and other Web standards are
+encouraging. Clear support for Sun Java would also be good (and would, in the
+long run, benefit Microsoft). I hope that, as Microsoft matures, so will its
+attitude toward standards and cooperation. The computer market is big enough
+that it does not need to be winner-take-all.
+
+            -- Thomas M.
+Breuel
+            
+
+            San
+Jose, Calif.
+
+            
+               Simple
+Elegance
+            
+
+            Eliza Truitt's article,
+"A Labor of Linux," on her experiences with her Linux installation provides
+wonderful inspiration for the intimidated. But a word to Truitt: The term
+"elegant" in science and technology has a special meaning apart from common
+use. Elegance is not synonymous with "simple." Rather, it refers to the most
+terse solution to a problem. Such a solution will tend to be cryptic to
+the uninitiated. Therefore, "elegant" is most often used by those after the
+fact of having used a procedure successfully. For the others, I would venture
+to say, their word for it would be arcane.
+
+            -- Roger Imai
+            
+
+            
+Nashville, Tenn.
+
+            
+               Emperor Has No
+Clothes
+            
+
+            Please note in your fascinating "" on hara-kiri
+that there is one point on which I believe you are mistaken. In feudal Japanese
+society, the person who would order suicides in place of executions was the
+shogun, or military leader of Japan. Emperors, excepting the period from the
+late 19 th century to the end of World War II, have yielded little if
+any power in Japanese society.
+
+            One fascinating example
+of ritual suicide in 18 th century Japan that still regularly appears
+in movies and television in Japan is the story of the 47 samurai. According to
+this actual historical account, an adviser to a Tokugawa period shogun
+antagonized a rival to the point where this rival drew his sword. This all
+occurred in front of the shogun, which meant serious trouble, because
+displaying a weapon in the shogun's presence was punishable by death. Despite
+the fact that he was forced into this situation, the offending adviser was
+sentenced to death and committed suicide as you described in your magazine.
+After this, 47 of the condemned official's samurai decided to take revenge.
+They coordinated an attack on the enemy adviser and murdered him. Honor called
+on them to avenge their master's death, but the laws forbade murder. After
+regaining their master's honor, all 47 samurai went to their master's grave and
+also committed hara-kiri to take responsibility for breaking the law. The site
+of these samurai's graves is still a well-visited location in Tokyo.
+
+            
+               --Mike
+Cojerian
+            
+
+            Princeton, N.J.
+
+         
+      
+   

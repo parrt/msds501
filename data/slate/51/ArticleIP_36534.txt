@@ -1,0 +1,109 @@
+
+   
+   
+      
+         
+             Planning for Obsolescence
+
+            When I wrote my first textbook, the publisher
+wanted to combat the second-semester used book market by sewing a $100 bill
+into the binding of every 100 th book. Every student would tear his
+book apart to see if he'd won. Printing with disappearing ink that lasts
+exactly one semester would also discourage the used book market. But instead of
+running lotteries or using disappearing ink, most publishers make used
+textbooks obsolete by periodically releasing revised editions. Did I mention
+that the fifth edition of my textbook is forthcoming next year?
+
+            The naive answer to why publishers might want to
+discourage the used book market is that they prefer to get paid every time a
+student buys a book. But by that logic, you should never sell your house when
+you can rent it: Why get paid only once when you could get paid every month?
+The logic is wrong because the sale price is likely to be far higher than the
+monthly rent. And the logic is still wrong when applied to textbooks, because
+the sale price for a book that can be resold is likely to be far higher than
+the price of a book designed to lose its value.
+
+            If a student is willing to pay, say, $30 for a
+textbook, that same student will be willing to pay $60 for the use of a
+textbook that can be resold for $30 at the end of the semester. (For the sake
+of simplicity, let's ignore the fact that the $30 delivered a few months from
+now is worth a little less than $30 delivered immediately.) And for a book that
+can be resold twice, the second owner's willingness to pay $60 means that the
+first owner is willing to pay $90.
+
+            Now, if you're a
+publisher, is it more attractive to collect $30 apiece for three books printed
+with disappearing ink or to collect $90 for one book that's designed to last?
+As long as it's cheaper to produce one book than three, the publisher should
+opt for permanence.
+
+            That's why economists are generally skeptical about
+allegations of "planned obsolescence." Every few years, someone claims that
+General Electric knows how to make a light bulb last 1,000 years but suppresses
+the technology to keep us coming back for more light bulbs. Likewise, Ann
+Landers is forever publishing columns about how pantyhose are intentionally
+designed to run so women will need a new pair every two weeks.
+
+            But a woman who buys a $2
+pair of pantyhose every two weeks has demonstrated her willingness to spend $52
+a year on pantyhose. If Hanes could make a pair that's guaranteed to last a
+year, she'd buy it for $52. That would be a better proposition for Hanes
+than having to make 26 pairs to collect the same revenue. So the Ann Landers
+theory makes no sense.
+
+            Does that mean there's no such thing as planned
+obsolescence? No, it means that planned obsolescence occurs only under special
+conditions. Mistrust, for example, is a special condition. If a publisher says,
+"Buy this book for $90, and you'll be able to resell it next year for $60," a
+student might well respond, "How do I know you won't bring out a new edition
+next year and undercut my resale market?" Unless the publisher can quell such
+doubts, students won't pay premium prices for books with lasting value, so
+publishers won't provide them.
+
+            (Students, of course, are in some sense a captive
+market, forced to buy the books their professors assign. But there must,
+nevertheless, be some upper limit on their willingness to pay; otherwise,
+textbooks would sell for an infinite price. And whatever the upper limit is, it
+will always be higher for a book that can be resold than for a book that
+can't.)
+
+            In most instances of
+planned obsolescence, customers have demanded it, and firms have provided it as
+a service. Maybe you'd rather not spend $52 on a pair of pantyhose that might
+get lost at the laundry. Or maybe you don't have $52 in your pocket right now.
+By letting you buy 26 shoddy pairs at $2 apiece, the manufacturer provides you
+with the equivalent of either insurance (against the prospect of losing your
+entire year's supply of hose at once) or a loan (by allowing you to spread out
+your payments over an entire year).
+
+            What brings all this to mind is the recent controversy over
+Monsanto Co.'s development of infertile seeds--seeds that yield crops that
+don't reproduce so that farmers have to buy new seeds each year. From the
+farmer's point of view, the opportunity to buy infertile seeds can be a great
+boon. Instead of paying $100 for seed that should last 10 years, you pay $10
+for new seed each year, which insures you against the possibility of a
+disastrous and expensive crop loss.
+
+            (Are you worried that
+Monsanto would charge just as much for the infertile seeds as the fertile ones?
+Don't be. Surely farmers are willing to pay much more for fertile seeds than
+for infertile, and you can be sure that Monsanto fully exploits that
+willingness.)
+
+            Many high-yield hybrid seeds are infertile, though not by
+design. Like mules, they're naturally infertile. Taking its lead from the
+software industry, Monsanto had planned to convert this bug into a feature. But
+in the face of considerable public pressure, Monsanto has agreed to stop
+developing infertile seeds.
+
+            Much of the opposition had nothing to do with
+planned obsolescence and everything to do with concern that the Monsanto's
+infertility gene might "leap" from its seeds to fertile seeds in adjoining
+farms and eventually render those fertile strains infertile. Such hypothesized
+contamination is a legitimate concern and quite plausibly a sufficient reason
+to applaud Monsanto's decision. But an unfortunate side effect is the lost
+opportunity to provide some socially desirable planned obsolescence.
+
+         
+      
+   

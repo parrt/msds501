@@ -1,0 +1,75 @@
+
+   
+   
+      
+         
+            How 'Bout That Yahoo!?
+            
+
+            On a day when the Nasdaq reached yet another all-time high, the most
+astounding move was made by Yahoo, which leapt 24 percent, adding more than $17
+billion to its market capitalization. Yahoo is joining the S&P 500 tomorrow
+(making it only the second Internet company, after AOL, to do so), and in the
+week since its addition to the index was announced its share price has risen
+almost 150 points.
+
+            The situation, at least today, boiled down to too much demand chasing too
+little supply. Index funds, which track the S&P directly, had to buy shares
+of Yahoo in proportion to its market cap, since the S&P is market-cap
+weighted. And since there are plenty of mutual fund managers out there who try
+to mimic the S&P--while charging significantly more in fees than an index
+fund--there was other institutional money chasing Yahoo as well. And as the
+company's shares became more expensive, funds had to buy more of them (because
+of the market-cap weighting). The result was a virtuous circle for sellers and
+a truly vicious one for buyers.
+
+            Still, the picture seems a bit more complicated than this, because the
+average trade in Yahoo today was just 503 shares. Needless to say, most
+institutions are not buying stock in 500-share lots, so that means that a great
+deal of the action today was driven by individual investors and, most likely,
+day traders hoping to ride the stock's momentum and to get out before the
+eventual fall. Today was, in that sense, a moment when this decade's crucial
+stock-market trends--indexing, momentum investing, individual investing, and
+the Internet--converged to make Yahoo investors very happy indeed.
+
+            It's almost certain that the stock will fall in days to come, but its ride
+up has been so furious, and the company is such a good one, that it would be
+surprising if the tumble were too precipitous. In any case, the most important
+thing about Yahoo's addition to the S&P is not the effect on its stock
+price. Instead, it's the way that addition drives home an often-overlooked but
+nonetheless crucial fact about the S&P 500, that it is as actively managed
+as any mutual fund.
+
+            This point was first made, as far as I can tell, by Bill Miller, the
+brilliant fund manager of Legg Mason Value Trust, in a letter to his investors
+earlier this year. Index funds, Miller pointed out, are passively managed,
+which is to say that they simply duplicate the S&P 500 in order to
+replicate the performance of the "market." But the S&P 500 itself is added
+to and subtracted from in an attempt to make the index look as much like the
+stock market, and the economy as a whole, as possible.
+
+            If this is the case, why is it so difficult for fund managers to beat index
+funds based on the S&P? There seem to be two reasons. The first, and most
+obvious, is that index funds have minuscule fees and very low transaction
+costs. The second, though, is that the fact that the S&P is weighted by
+market capitalization means that it manages money--and therefore
+investments--in almost a textbook fashion. As companies grow more successful,
+and more expensive, they take up a larger percentage of the index, and as they
+grow less successful, and cheaper, they take up a smaller percentage. In other
+words, the index effectively allows its winners to run and its losers to
+dwindle.
+
+            You'll often hear fund managers say it's unfair to benchmark them against
+the S&P because it does things like add Yahoo and take out Laidlaw (the
+company that will be booted tomorrow). Assuming that Yahoo, even with its
+recent run-up, will do better over the next five years than Laidlaw, then the
+S&P will do better than it would otherwise have done. (Significantly
+better, in fact, given the size of Yahoo's market capitalization.) But the
+S&P's approach to investing--add dominant companies the market has already
+rewarded--and to money management is easily replicable. It's a measure of how
+addicted to trading fund managers have become that instead of replicating that
+approach, they prefer to complain about it.
+
+         
+      
+   

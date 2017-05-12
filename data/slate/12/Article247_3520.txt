@@ -1,0 +1,101 @@
+
+   
+   
+      
+         
+            Who's Afraid of Amazon.com?
+
+            You'd think that gossips everywhere--which is to say, everyone
+everywhere--would be grateful. Amazon.com's latest innovation, its "purchase circles," lets customers in one Zip code or at one
+company see what books are selling well among customers in other Zip codes or
+at other companies. (Videos and CDs, too, but somehow Culturebox isn't as
+interested in them.) So, for instance, Culturebox, who lives in suburban
+Pelham, N.Y., and works at Microsoft--where Alice McDermott's novel Charming
+Billy and Bill Gates' Business @ the Speed of Thought are the two
+top books, respectively--gets not only to spy on her neighbors and co-workers
+but also to find out what her fellow citizens in Anniston, Ala., and
+counterparts at a competing high-tech company, IBM, are reading: Jerry Jenkins
+and Tim LaHaye's wacked-out Christian sci-fi thriller Apollyon: The
+Destroyer Is Unleashed , and a boring-sounding book called The Profit
+Zone: How Strategic Business Design Will Lead You to Tomorrow's Profits ,
+respectively. This strangely satisfying form of literary eavesdropping,
+achieved by a simple re-sorting of customers' e-mail domain names, shipping
+addresses, and purchases, is not limited to the continental United States.
+What's hot in Israel? A 1,200-page scholarly tome called Israel and the
+Bomb . In Puerto Rico? Esmeralda Santiago's memoir Almost a Woman . In
+Kenya? Management guru Peter Drucker's Management Challenges for the
+21st Century.
+            
+
+            Purchase circles are a simple but brilliant conceptual coup. Whoever thought
+them up understood a fundamental principle of salesmanship, or rather, herd
+psychology: People want to know what everyone else in their peer group is
+doing, so they can do it too. Statistically speaking, the data are meaningless,
+since the company doesn't reveal the sample size behind each list. There could
+be anywhere from 3,000 to three people in Pelham making Charming Billy
+its best seller. But no one's claiming that these lists represent some larger
+truth about the book market (such truths are elusive, anyway, since publishers
+are notoriously secretive about sales figures). They're a hint of the regional
+and cultural differences among us, no more, as well as the mildly galling
+similarities (John Grisham, Tom Brokaw, and Thomas Harris top the book lists in
+at least one city in almost every state in the Union). Plus they're fun. Who
+could fail to be titillated by the fact that the No. 2 best-selling book in
+Brooklyn is Kosher Sex: A Guide to Passion and Intimacy ?
+
+            Well, the American Booksellers Association and Internet privacy groups, for
+starters. They consider Amazon's purchase circles an invasion of privacy, yours
+and your employer's. Certain exaggerations aside--that people could deduce a
+company's secret strategies or level of workplace satisfaction from their
+employees' reading lists, for instance--their argument amounts to the old
+slippery slope: If Amazon will do this, what else will it do? The answer, of
+course, is as much as it can get away with. If you don't already know that
+Amazon is keeping a file on you, you ought to be forbidden to shop on the
+Internet. The company's business strategy has been widely publicized: Amazon
+believes that if it ever turns a profit, it will do so by exploiting
+information gained from its customers to sell them other products. Since the
+integrity of its customer database is of tremendous importance to Amazon, we
+can probably take its executives at their word when they say (in a policy page that appears to have gone up yesterday) that
+they won't give out any information that could identify you personally. For
+instance, no purchase circle is being created for groups of less than 200
+people. Amazon has no reason to want to piss you off.
+
+            That's why much of the alarm about Internet privacy strikes Culturebox as
+Chicken Little-ish. Consumer rage is disastrous for any business whose profits,
+present or future, depend on its ability to compile and deploy information on
+its customer. There are just too many ways for shoppers to undermine the
+data-collection process. At Amazon, for instance, they can "opt out" of both
+purchase circles and general customer profiling by sending in blank e-mails.
+Companies can keep themselves out of purchase circles by faxing in a request.
+If consumers get mad enough, they can bail out of Amazon altogether and buy
+their books at Barnes & Noble Online, which as yet does not have purchase
+circles. If enough Amazon customers "opt out," it might be reduced to offering
+them discounts or other goodies to "opt in"--which would be fabulous for
+shoppers but of dubious economic value to Amazon, as Culturebox's former
+colleague Bruce Gottlieb has shown.
+
+            Obviously, sometimes the privacy advocates are right. This week they're also
+upset about U S West, the Denver-based phone company that recently won on
+appeal its lawsuit against the Federal Communications Commission, and they have
+good reason to be. The FCC had tried to prevent the U S West (and other
+companies who became party to the suit) from exploiting a customer's personal
+information--calls made, services ordered, etc.--to sell that customer more
+services and products. (The ruling did not give the companies the right to sell
+this data to third parties.) The judge ruled that keeping a company from using
+its customer databases to inform its sales pitches infringed on its free
+commercial speech. That seems true in general--why shouldn't companies use what
+you freely give them?--but wrong in this case. U S West has a virtual monopoly
+on local phone service in its region, so the usual free-market remedies don't
+apply.
+
+            Culturebox would urge consumers to have faith in the power of corporate
+self-interest to protect them, at least in non-monopolistic situations, except
+that she's not convinced that that's what's really causing the general public
+to wax wroth. She suspects it's more what Amazon's invention reveals about
+shopping nowadays: that it takes place inside an endless hall of mirrors. After
+all, what's better than shopping? Watching ourselves shop. Watching ourselves
+being watched as we shop. Watching the watchers who watch us as we shop. Ad
+infinitum and nauseum .
+
+         
+      
+   

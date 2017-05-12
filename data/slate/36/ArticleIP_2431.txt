@@ -1,0 +1,151 @@
+
+   
+   
+      
+         
+            Cracking God's Code
+
+            What would convince you that
+God exists? A miraculous recovery from a fatal illness? Or would that prove
+only the astonishing resilience of the body? An atheist friend struck by
+lightning? Could be mere coincidence. But how about scientific
+evidence--rigorously tested, peer-reviewed, unrefuted scientific evidence--that
+the Bible prophesies events that occurred thousands of years after it was
+written?
+
+            This
+sounds preposterous, of course, like some late-night spiritual infomercial. And
+yet, such evidence may exist. A few years ago, three Israeli scientists
+conducted a computer experiment to test the existence of "Torah
+codes"--sequences in the Bible that spell out hidden messages about future
+events. When the statisticians crunched their data, they reached an astonishing
+conclusion: The hidden messages exist, and their presence "is not due to
+chance." In 1994, a distinguished journal called Statistical Science
+published their paper. Now, three years later, the results still stand,
+undebunked. It's an unnerving prospect. If the study is true, science has
+hinted at the existence of God, has suggested that God wrote the Hebrew Torah,
+and has undermined our notion of free will. Either the experiment is flawed, or
+the world has experienced a revelation.
+
+            Back when the natural sciences, philosophy, and theology
+were one great intellectual hodgepodge, proving the existence of God was a
+relatively commonplace exercise. To the modern mind, however, science and
+religion talk past each other. Except for the few Biblical literalists who
+spout drivel about "creation science," most of us now scoff at the notion of
+using science to bolster religion.
+
+            The search for the Torah
+codes is rooted in the unfathomable theological premise that the Torah--itself
+a set of five books of limited length--contains literally all truth. (The
+Torah, a k a the "Five Books of Moses," consists of Genesis, Exodus, Leviticus,
+Numbers, and Deuteronomy.) This is not an overstatement. The Torah, in other
+words, is supposed to contain--somehow and somewhere--everything from your
+Social Security number to the names of all the people you've ever slept with,
+as well as what you ate for breakfast the next morning.
+
+            According
+to Rabbi Daniel Mechanic, an expert on the codes, the belief that the Torah
+contains encrypted messages dates to the medieval practitioners of the
+Kabbalah, a form of Jewish mysticism. The Kabbalists believed that there were
+84 coding schemes in the Torah: One of them was equidistant letter sequences
+(ELSs). Choose every 50 th letter from the first Hebrew T (called a
+"Taf") in Genesis, for example, and you'll find the word "Torah." Do the same
+in Exodus, and you'll find it again. (This ELS doesn't appear, however, in the
+Torah's other three books.) The current emphasis on ELSs stems from an
+observation by a 20 th century rabbi that pairs of conceptually
+related words are bunched together in ELSs. True believers have spent hours
+counting out ciphers, then trying to puzzle out the significance of the
+revealed codes.
+
+            
+Not that the codes ever attracted much of a
+following. Most Jews have never heard of them, and most of those who have
+discount them as embarrassing numerological hogwash. Even many Orthodox Jews
+regard the codes as a kind of parlor trick that is irrelevant to the essence of
+Judaism. Besides, the codes claim is so fantastical that dismissing it as a
+piece of intellectual knavery may just be the most reasonable--as well as the
+most comfortable--solution. But what if they do exist?
+
+            Of
+course, any text of sufficient length is riddled with accidental ELSs. If you
+look hard enough, you can "discover" all sorts of hidden messages. So Eliyahu
+Rips of Hebrew University's math department and two other scholars, Doron
+Witztum and Yoav Rosenberg, designed an elaborate experiment to test whether
+there are real codes embedded in the Torah. They programmed computers to scour
+Genesis for ELSs naming 32 famous rabbis and their dates of birth or death. The
+rabbis on the list were all born long after Genesis was written, so no human
+author could have deliberately encoded them into the text. Moreover, the rabbis
+were chosen according to an arbitrary criterion, so the scientists were not
+looking for names they already knew to be present. As a control, the authors
+performed exactly the same experiment on a few scrambled versions of Genesis,
+on the book of Isaiah (which, while biblical, is not a book of the Torah), and
+on a Hebrew translation of War and Peace .
+
+            If the phenomenon were due to chance, the authors reasoned,
+they would be as likely to find an ELS naming Rabbi X near one identifying the
+birthday of Rabbi Y as they would be to find Rabbi X near his own birthday.
+And, indeed, this is what they found in the control texts. But it wasn't true
+for Genesis. Not only were most of the rabbis present in ELSs, but they
+generally appeared closer to their own dates than to the dates of other rabbis.
+When the scientists analyzed their data, they found a 1-in-50,000 possibility
+that such a coding scheme could have occurred as a result of chance.
+
+            They sent their paper to
+Statistical Science , where it was peer reviewed. The editors puzzled
+over it, and finally, in 1994, they published it. The article attracted
+surprisingly little public attention, considering its potentially mammoth
+significance. The Associated Press ran a wire story and the magazine Bible
+Review published a longer piece, and that was about it for media coverage.
+But the paper did not escape the attention of the faithful. The Internet is
+frothing with missionaries bent on using the codes to woo unbelievers. One
+evangelical Christian site describes the codes as "unrefutable scientific
+evidence the Bible is God's word." Another site claims, somewhat more gently,
+that the "mysterious Hebrew codes" have identified Jesus as the Messiah.
+According to Mechanic, the codes cannot be read as any sort of window on the
+Torah's inner meaning: "They have nothing to do with the religion, nothing to
+do with spirituality. All they can do is validate the hypothesis that the
+author of the Torah is not human."
+
+            
+Acquaintances of mine have become Orthodox because of the codes. I also know of
+one man who waited until Statistical Science agreed to publish the
+article before circumcising his son.
+
+            
+Statisticians continue to hope for a crack in
+the experiment. Robert Kass, executive editor of Statistical Science ,
+suggests that the authors may have subconsciously biased their results by
+selectively reporting their findings. "Every statistician I know has reacted
+that the most likely explanation is that some kind of selection or 'tuning' of
+the method did take place, though the authors may not be conscious of it," he
+says.
+
+            But so
+far, the only serious challenge to the published work comes from an Australian
+mathematician named Brendan McKay, who has replicated the experiment and claims
+to have found defects. McKay's draft report notes that the effect described in
+Genesis does not appear to exist in the other four books of the Torah. He also
+identifies a number of highly technical problems with the experiment that, he
+says, render it meaningless.
+
+            McKay's critique remains only a draft, however, and it has
+not yet undergone the rigorous peer review that the original paper withstood.
+Still, his report raises potent questions about the Torah codes methodology,
+questions even Rips acknowledges to be "serious." But Rips appears eager to
+address the challenge. In a recent e-mail message to McKay, he welcomed the
+critique and agreed that "more prosaic explanations" needed to be examined
+before the Torah codes phenomenon could be ascribed to God.
+
+            No matter how this discussion
+shakes out, the Torah codes paper seems fundamentally unlike any previous
+attempt to use science to prove a metaphysical point. No similar claim has ever
+withstood scientific examination as robustly as the Torah codes have.
+
+            What's more, until someone
+publishes a peer-reviewed paper that demolishes them, at least a smidgen of
+doubt remains, a floating question mark: What if God did write the Torah? Then
+what?
+
+         
+      
+   

@@ -1,0 +1,196 @@
+
+   
+   
+      
+         
+            The Net's 1960?
+
+            The
+last time a new medium transformed American politics was 1960. The medium was,
+of course, television, and the signal event was the Kennedy-Nixon presidential
+debate, the first to be broadcast live to a national audience. Radio listeners
+polled afterward gave the victory to Nixon. But Kennedy won the debate--and
+arguably the election--because he came off better on television. Kennedy looked
+cooler, more confident, and more handsome. He also knew something Nixon
+didn't--how to project himself through the new technology. In office, JFK took
+further advantage of the medium, using television to shape the public
+perception of his administration. After press conferences, he would replay his
+films in private, critiquing the lighting and camera angles.
+
+            It is
+already a cliché that the 2000 election signals the advent of another new
+medium, the Internet. As is often the case with the Web, predictions of
+dominance come in two flavors: utopian and apocalyptic. Utopians think the Net
+has the power to undo the damage wrought upon American politics by television.
+In their view, it stands to increase the power of ideas and diminish the
+importance of 30-second attack ads. It will disenfranchise unelected elites and
+give democratic power back to individuals. It will reduce the power of money.
+Gloom-and-doomsters, on the other hand, assert that the Net will do just the
+opposite, reducing genuine participation, threatening personal privacy, and
+lending itself to new forms of manipulation by amoral operatives and moneyed
+interests.
+
+            My
+prediction: This election will be more important to the Net than the Net will
+be to the election. Just as 1960 conferred legitimacy on TV journalism,
+Campaign 2000 promises to put the Net on the political map. It's less of a
+given, though, that the Net will actually affect the campaign. In terms of the
+TV analogy, 2000 may be 1956 or 1948 rather than 1960. Television existed in
+those elections and was spreading rapidly into millions of homes. But for a
+variety of reasons, it wasn't yet a decisive or central factor.
+
+            So,
+how can we know how important the Web is this time around? Only by casting a
+skeptical eye on the ambitious claims being made on its behalf and evaluating
+them against reality. 
+                  Slate
+                and the Industry Standard have
+joined forces for a continuing real-time examination of the 2000 campaign as it
+happens on the Web. In this column, we'll follow the topic where it takes us.
+But to start out, here are some of the subjects "Net Election" is likely to
+consider and reconsider over the next 14 months.
+
+            
+               Net
+
+               Fund Raising
+            
+
+            One
+way those goofy can quickly establish their value is by raising gobs of money.
+So far, they've helped a bit. According to its most recent filing with the
+Federal Election Commission, Bill Bradley's campaign so far has received
+$330,000 from its Web
+site . This is only about 3 percent of what Bradley has collected
+overall. But there are reasons for Bradley and his rivals to like Web money
+more than other kinds. One is that the cost of raising money on the Net is very
+low compared with sending out direct mail or throwing a gala. A Web site is
+basically an electronic collection plate, which consumes few of a candidate's
+resources. For this reason, Net-based political fund raising is destined to
+grow--and probably just as quickly as other forms of e-commerce.
+
+            Web
+fund raising may also point the way toward campaign finance reform. Last week,
+George W. Bush initiated a practice that will surely become the norm:
+declaring contributions immediately online , instead of
+waiting for quarterly FEC deadlines. You could do worse than the system of
+campaign finance that is evolving on the Web, where contributions limited to
+the less-than-influential amount of $1,000--approximately
+one-50,000 th of what Bush has raised so far--are immediately
+disclosed. To be sure, there remains the problem of many times larger soft
+money donations. But thanks to the Web, it's at least easy to discover which
+special interests are supporting which candidates. The best disclosure site,
+FECInfo, puts at everyone's
+fingertips information that used to require trips to the FEC office in
+Washington and hours of poring over dim microfiches.
+
+            
+               Net
+
+               Organizing
+            
+
+            
+Another advantage of Web contributions is that they often come with a promise
+of volunteer time. The grass roots group MoveOn.org, which was formed to oppose impeaching President
+Clinton last year, quickly gathered pledges of $13 million and 500,000
+signatures on a petition, just by pinging e-mail back and forth. What's more,
+30,000 people pledged 750,000 hours of volunteer time to defeat pro-impeachment
+legislators in the 2000 election. You can't trust politician-haters, but if the
+volunteers live up to their promises, they stand to become a significant factor
+in the contest for control of the House.
+
+            
+Republicans targeted for defeat may harness the same techniques in
+self-defense. Rudy Giuliani's Senate campaign reports that he has already
+signed up 11,000 volunteers on the twin Web sites RudyYes.com and HillaryNo.com. Those with little inclination to hand out leaflets
+at rainy commuter stations at rush hour can become "e-volunteers." By using the
+Web in this way, a campaign can convert mass support into grass roots support.
+Steve Forbes' Internet guru Rick Segal tried to work the Iowa straw poll this
+way. He set up a national e-mail tree designed to get people to send their
+friends in Iowa to Ames as Forbes supporters. How great an effect it had is
+hard to say.
+
+            
+               Net
+
+               Advertising
+            
+
+            Like
+Net fund raising, Net advertising isn't destined to replace the older method
+(i.e., television) overnight--or ever. But it is certain to grow as a share of
+the total. TV ads are dumb, both in the sense that they tend to be crudely
+demagogic appeals, and because they can't target segments of the electorate
+with any degree of accuracy. Web advertising is smart, in the sense that it can
+be far more detailed and specific and because it can reach a target with
+surgical precision. Already, Al Gore has plans to focus on women-oriented
+sites. Steve Forbes intends to advertise on day trading and investment sites,
+where people who might vote for him are likely to be found. One possibility is
+that these ads will develop into a new form of micro-pandering, but the process
+will be interesting no matter where it leads. Techniques and conventions that
+will come to seem eternal and inevitable will actually be invented in the
+coming months.
+
+            
+               Net
+
+               Issues
+            
+
+            In
+1998, several congressional candidates campaigned against Internet
+pornography--an issue of greater interest to people off-line than to those
+online. This time, you're more likely to hear candidates vowing to protect
+electronic privacy or block taxes on e-commerce. One way to gauge how important
+the Web is in 2000 is by watching how seriously candidates take the Net's own
+special interest issues. What we have yet to see, but can expect fairly soon,
+are politicians who fit the computer industry's political profile. Internet
+politics are basically soft libertarian--liberal on social issues, anti-tax,
+and anti-regulation (but pro-environment and pro-gun control). The tech
+industry's dream candidate would combine Bill Bradley's views on abortion, gay
+rights, and guns with Steve Forbes' dedication to lower capital gains taxes.
+That person doesn't seem to be running in this campaign, but he or she may
+emerge in the course of it (possibly occupying the body of a current candidate
+expressing somewhat different views).
+
+            
+               Net
+
+               Coverage
+            
+
+            The
+campaign news cycle has grown shorter with each successive election. Thanks to
+the Web, it may be entirely repealed in 2000. These days, everyone has a Web
+site and a big established news organization can drop an election-transforming
+scoop into the mix at any hour of the day or night, just as Matt Drudge can.
+And candidates won't have much luck with a traditional stratagem such as
+semi-suppressing a story by not responding until after the evening news
+deadlines. Rapid response will become more rapid than ever, with several
+volleys being fired in the course of what used to be a campaign day.
+
+            
+There's lots more that we intend to chew over here: Web voting, Net gossip, and
+cybersquatting. Perhaps the most interesting question will be the extent to
+which the 2000 campaign will happen in cyberspace as well as in meat space. One
+role model may be Minnesota Gov. Jesse Ventura, who integrated the real and the
+virtual to an impressive degree in his Web-savvy 1998 campaign. Ventura
+organized his original effort by e-mail, tracked his bus tour with digital
+pictures, and encouraged a lively bulletin board discussion of it. To a
+considerable degree, his Web site was where his campaign actually happened. As
+bandwidth increases, more candidates will be able to bypass the press by
+producing C-SPAN-style coverage of their own races. Whether anyone will be
+watching is yet another question.
+
+            
+               Click
+
+               
+                  here to
+visit the Industry Standard .
+            
+
+         
+      
+   

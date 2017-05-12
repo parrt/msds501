@@ -1,0 +1,159 @@
+
+   
+   
+      
+         
+            Size Does Matter
+
+            If you use the term
+"microeconomics" in a WordPerfect document, the spelling checker will flag it
+and suggest "macroeconomics" instead. The spelling checker has a point. You
+see, macroeconomics has gone out of fashion. Not only academic economists but
+also some of our most influential economic pundits seem to regard it as bad
+manners to talk about recessions and recoveries and how governments might
+alleviate the former and engineer the latter. Ordinarily reasonable people now
+argue that the business cycle is a trivial matter, unworthy of attention when
+compared with microeconomic issues like the incentive effects of taxes and
+regulation. Trying to do anything about recessions is bad for growth, they say,
+and even thinking about the business cycle is a bad thing, because it
+distracts people from what really matters.
+
+            What is
+so peculiar about this attitude, which seems to become more prevalent each
+year, is that we live in a world in which those old-fashioned macroeconomic
+concerns are more pressing than they have been for generations. Not since the
+days of John Maynard Keynes have his questions (if not necessarily his answers)
+been so relevant. So an occasional reminder that the big things do matter, that
+getting microeconomic policy right is no help if you stumble into a depression,
+is welcome from any source--even a deficient dictionary.
+
+            To see what I'm talking about, consider a recent
+Washington Post column by Robert Samuelson, in which he seems to dismiss all
+macroeconomic analysis--all attempts to understand the behavior of aggregates
+such as gross domestic product and the price level--as useless, even malign.
+"What we've learned," declares Samuelson, "is that the little picture is the
+big picture." Economic success, he argues, is simply a matter of getting the
+incentives right. And he goes on to deride macroeconomics for its "illusion
+that it could make the whole system run smoothly almost regardless of how the
+economy's underlying sectors functioned. ... It's as if a car could run at
+breakneck speed even if the engine was corroded and missing some parts."
+
+            One
+wonders why the usually judicious Samuelson found it necessary to invent this
+straw man. Who is supposed to have had that illusion? Even when Keynesian
+macroeconomists were at their most hubristic, none of them claimed that
+macroeconomic "fine-tuning" could make an economic jalopy into a Porsche. But
+they did claim that even a Porsche won't perform very well if you don't give it
+enough gas--that using three workers very efficiently is not much help if the
+fourth is unemployed because consumers don't spend enough. And this is not an
+abstract point: Just look at the economic storms ravaging quite a lot of
+today's world.
+
+            
+For example, Japan's economy has been shrinking
+at an alarming pace the last few quarters. Is this because Japanese workers
+have become lazy or because the country's factories have fallen into disrepair?
+Or to take a more extreme case, has Indonesia become a 15 percent less
+productive society than it was a year ago? Of course not: Whatever the ultimate
+sources of the crisis in Asia, the immediate cause of these slumps is a
+collapse in that good old-fashioned macroeconomic variable, aggregate
+demand.
+
+            I don't
+know what provoked Samuelson's outburst. But if one of our most well informed
+economic journalists has come to disdain macroeconomics, this may be because he
+has been listening to economists themselves. Over the past 30 years,
+macroeconomics--and especially that part of macroeconomics that concerns itself
+with recessions and depressions, in which the economy as a whole is less than
+the sum of its parts--has fallen steadily into disfavor within the economics
+profession. As late as the mid-1970s, many textbooks still followed the lead of
+Paul (no relation to Robert) Samuelson's classic 1948 Economics ,
+beginning with the macroeconomics of booms and slumps and turning to
+microeconomics only in their second half. Nowadays, however, every textbook
+(yes, even the one I'm writing) relegates macro to the second half. Even within
+the macroeconomics half, more and more books (like the much-hyped new text by
+Harvard's N. Gregory Mankiw) dwell on "safe" issues like growth and inflation
+as long as possible, introducing the question of recessions and what to do
+about them almost as a footnote.
+
+            In graduate education the situation has become even more
+extreme. While most Ph.D. programs continue to require that students take a
+year of macroeconomics, more and more of that year is devoted to long-run
+issues, less and less to that part of the subject that might tell you who Alan
+Greenspan is and why he might matter. (When I gave an honorific lecture at one
+prominent department, students there told me that their macroeconomics course
+did not even mention money until the last two weeks, and never so much as
+suggested that monetary policy might have anything to do with business
+cycles.)
+
+            The
+reasons for this aversion to macroeconomics are a little hard to explain to a
+lay person. It's not that the business cycle has become less relevant--the U.S.
+economy has lately had a smooth few years, but macroeconomics was already in
+retreat during the anything but tranquil '70s and '80s. (I remember one famous
+anti-Keynesian, challenged during an early '80s conference to explain how his
+model could be reconciled with the savage recession then gripping the United
+States, snapping "I'm not interested in the latest residual"--i.e., the latest
+statistical blip.) Nor did macroeconomics fail the test of empirical relevance.
+Though it is widely believed that events such as the combination of inflation
+and unemployment in the 1970s, or the noninflationary growth from 1982 to 1989,
+baffled and astounded macroeconomists, this turns out to be another of those
+oddly popular anti-economist legends--similar to the legend that economists
+refused to believe in increasing returns. The truth is that stagflation was
+predicted as a possibility long before it emerged as a reality and that the
+disinflation of the 1980s played out just the way the (old) textbooks said it
+should.
+
+            
+The real problem with macroeconomics, from a
+professor's point of view, is the shakiness of its "microfoundations." Most
+economic theorizing is based on the assumption that individuals behave
+rationally--that companies set prices to maximize their profits, that workers
+choose to accept or reject jobs based on a rational calculation of their
+interests, and so on. You don't have to believe in the literal truth of this
+assumption to recognize how powerful it is as a working hypothesis. But while
+macroeconomists generally try to put as much rationality into their models as
+they can, --the kind in which Greenspan does matter--always depend crucially on
+the ad hoc assumption of "sticky prices." In other words, they assume that at
+least in the short run, companies do not immediately reduce their prices when
+they cannot sell all their production, and workers do not immediately accept
+lower wages even when they have trouble finding jobs. This assumption
+works ; that is, it transforms the otherwise incomprehensible reality of
+the business cycle into something that is not only understandable but, to some
+extent, controllable. But it makes many economists uncomfortable; it is the
+classic case of something that works in practice but not in theory.
+
+            And so
+economists have, more and more, simply avoided the subject; and being human,
+have tended to rationalize that avoidance by asserting that the subject isn't
+really important anyway.
+
+            The trouble with this evasion is, of course, that
+macroeconomics is important. Paul Samuelson had good reasons for
+beginning his textbook with Keynesian analysis. He knew that students would not
+find microeconomics, with its emphasis on efficiency, interesting unless they
+were first convinced that the economy could achieve more or less full
+employment, that it need not relapse into depression. He also knew what too
+many latter-day economists have forgotten: Macroeconomics is crucial to the
+public credibility of economics as a whole. Analytical, model-oriented thinking
+came to dominate American economics mainly because supernerds like Samuelson
+had something useful to say about the Great Depression, and their pompous,
+windy rivals did not. By abandoning macroeconomics the profession not only
+leaves the world without guidance it desperately needs; it also risks letting
+the fuzzy-minded literati reclaim the ground they so deservedly lost 60 years
+ago.
+
+            Of course the little things
+matter. But the big things matter too, and if economists try to pretend that
+they don't, one of these days they are going to get stomped on.
+
+            
+               If you didn't stop to
+find out why useful business cycle models still need to incorporate
+"sticky prices," click . And if you missed the article by Robert Samuelson on
+macroeconomic analysis, click here.
+            
+
+         
+      
+   

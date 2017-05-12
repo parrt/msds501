@@ -1,0 +1,229 @@
+
+   
+   
+      
+         
+            
+
+            
+               Scott's Weed
+Killer
+            
+
+            Even those of you who never met him, and possibly
+didn't appreciate his e-mail missives urging you to subscribe, are going to
+miss our retiring publisher, Rogers Weed, if for no other reason than his name.
+Where could we possibly find a better named publisher than Rogers Weed? (Now
+that he's leaving, the full drama can be revealed: It's actually Alonzo Rogers
+Weed.)
+
+            Rogers was publisher of 
+                  Slate
+                for two
+and a half years, in other words almost since the beginning. With business
+savvy, personal charm, and Microsoft-style hard-nosed determination, he
+mastered the horrors of magazine economics, learned to tolerate the
+eccentricities of journalists, and set 
+                  Slate
+                on the path to
+success. He is leaving us to become marketing director of Windows CE, the
+Microsoft operating system for pocket computers and other small appliances. We
+don't blame him. We're not bitter. The appliances may be small, but the
+business is large. At least potentially. And we at 
+                  Slate
+                are not
+ones to sneer at potential. We do like to think that small appliances lack the
+glamour and social importance of magazine journalism, but then small appliances
+themselves probably feel otherwise. And Rogers will be hanging out with small
+appliances from now on, so he can give us a report. Maybe we'll even sign him
+up for a "Dialogue" with a PalmPilot.
+
+            Good luck, Rog!
+
+            Our new publisher is Scott Moore, who joins us from
+his previous job as advertising director of Expedia, the Microsoft travel site. Scott also has many
+fine qualities, and the entire 
+                  Slate
+                team looks forward to
+straining them to the limit.
+
+            Good luck, Scott!
+
+            
+               And Don't Call Me
+Surly!
+            
+
+            Commentators, including
+
+                  Slate
+               's own , have accused a few Republicans in Congress of
+surliness and worse for boycotting President Clinton's State of the
+Union address Tuesday night or for sitting there looking ostentatiously
+unenthralled. This is puzzling. It's the Democrats who are supposed to be
+pretending that we can conduct business as usual during an impeachment trial.
+The Republicans are supposed to be pretending that Bill Clinton has committed
+offenses so heinous that he should be the first president ever forcibly evicted
+from office. If they really believe this, of 
+               course they
+shouldn't sit there respectfully and applaud the items they approve of on his
+endless wish list. Most Republicans, though, did precisely that, reflecting the
+official party line that you can impeach the president and reform Social
+Security (and, no doubt, walk and chew gum) at the same time. This may be a
+wise strategy for minimizing public annoyance at the whole impeachment thing.
+But it makes a mockery of the whole thing too. If congressional Republicans
+aren't going to act as if Flytrap is as serious as the result they seek, why
+should anyone else?
+
+            
+               Inside
+Debunker
+            
+
+            We'll soon be launching a new department called
+"Debunker," noting interesting errors of fact, logic, or mathematics in the
+news. The author will be Jonathan Chait, who is conversing with Jodie T. Allen
+this week at "." Suggestions are welcome at debunker@slate.com. It's too bad Debunker (someone
+suggested we call it "CrapShoot") isn't up and running now, because there were
+a couple of nice examples in the State of the Union .
+
+            Take President Clinton's
+proposal to invest part of Social Security revenues in the stock market.
+Characteristically splitting the difference with conservative Social Security
+privatization enthusiasts, he does not propose to let people invest the money
+for themselves or to make benefits contingent on how well the investment
+performs. These are terrible ideas ( to find out why), but without them the
+notion is simply empty.
+
+            There's a pile of money called the Social Security Trust
+Fund. (Is there really a pile of money? Well, leave that aside.) Money comes in
+through the Social Security (FICA) tax and goes out in Social Security
+benefits. Someday, when boomers retire in hordes, more will go out than will
+come in. Right now, though, more comes in than goes out, and the excess is
+invested in government bonds. The stock market historically has a higher rate
+of return than government bonds do. So the argument is that putting some of the
+money in stocks will make the trust fund more profitable and avoid, or at least
+put off, the day it runs out of money.
+
+            Leaving aside the rate of
+return question for a moment, consider the whole transaction. When the trust
+fund puts $1 into private markets instead of into government bonds (i.e., the
+national debt, which is still here although the annual deficit is not), the
+general treasury must then borrow $1 more from those same private markets. If
+you believe that the trust fund is an accounting fiction (the government
+borrowing from itself, paying itself interest, and writing checks that are
+government commitments irrespective of the fund), then the transaction is a
+total wash. If you believe that the trust fund exists, then the transaction
+amounts to a $1 increase in both the trust fund and the national debt--sort of
+a pre-emptive bailout.
+
+            How does the higher rate of return on private stocks change
+things? Well, the government is now supposedly borrowing each of these dollars
+from the private sector for, say, 4 percent and investing them in the private
+sector for a return of, say, 10 percent. Nice deal! Too nice. If arbitrage were
+so simple and foolproof, why shouldn't we invest the whole trust fund in
+private stocks? And why stop there? Why not issue hundreds of billions in
+government bonds and plow the money into Fidelity Magellan? (OK, that would be
+irresponsible. So make it an index fund.)
+
+            Come to think of it,
+what is wrong with all these people who own government bonds? Don't they
+realize that selling a bond is just like issuing one? You get cash, which you
+invest in stocks for a higher return. Why aren't the Heritage Foundation, et
+al., advocating this? It's the ultimate: privatizing privatization.
+
+            Obviously, there's a catch. Government bonds have a lower
+historic return than stocks because stocks are riskier--and the market has
+decided exactly how large a premium that risk is worth. People win Nobel Prizes
+for figuring out how to minimize the risk of investing in stocks. But even
+these geniuses aren't alchemists: They can't make something out of nothing, and
+they can't produce a Garrison Keillor financial world where everybody does
+above average--or (same thing) where everybody enjoys a risk premium without
+taking a risk.
+
+            Ask yourself: If the
+government gets more money as a result of investing billions in the private
+sector, where does that money come from? Not from higher capital investment:
+The net effect of investing $1 and borrowing $1 is zilch. And not, presumably,
+from any management improvement because the government owns large chunks of
+private companies. Indeed, to ease fears of government meddling, the plan is to
+make these investments as passive as possible. Passive investment--money that
+settles for an average return--on balance reduces that average, because active
+investors, who are constantly acquiring, processing, and acting on information,
+make the economy more efficient.
+
+            So the government's windfall, if it exists, would have to
+come at the expense of rival private investors. For this to happen, the
+government would not merely have to match the average return on stocks but
+would have to beat it--regularly, guaranteed, forever. Unlikely--wouldn't you
+say?--even if the plan weren't expressly to hit the average. So the
+windfall would not come from private investors and would not come from economic
+expansion. It also wouldn't come from foreigners or the moon. Conclusion: This
+windfall would melt away.
+
+            How? Good ol' supply and
+demand. When the government wants to borrow an extra dollar and put it in the
+stock market, someone else must be enticed to sell a dollar's worth of stock to
+buy government bonds. The interest the government must pay on its borrowing
+goes up, and the return it can expect on the stocks it buys goes down (because
+it must pay more for the same shares). Since these changes would affect all
+government borrowing and investment, not just this particular program, the gap
+would not have to close completely for the whole exercise to end up a wash. The
+math is beyond us, but we're willing to bet that--on some reasonable
+assumptions--that's precisely what happens.
+
+            
+               At
+Home
+            
+
+            A second logical fallacy is easier to explain but
+harder to believe. In his Tuesday evening address, Clinton also called for a
+tax credit for "stay at home parents." Family values enthusiasts have long
+claimed that the tax credit for day care unfairly discriminates against stay at
+home moms. Some even maintain that the credit is an exercise in liberal social
+engineering, intended to pry women away from their children and into the
+workplace. If all it takes is another tax credit to pacify critics of the
+original one, Clinton is happy to oblige.
+
+            However, the truth is
+that even with the current credit, the tax code discriminates in favor
+of women who stay home with the kids and against those who get a
+paying job and pay in turn for day care. That's because there's no tax on the
+imputed income of taking care of your own kids.
+
+            Now wait, now wait. I told you it was hard to believe. But
+before you dismiss it as everything-belongs-to-the-government,
+my-goodness-they'll-want-to-tax-farting-next liberal nonsense, consider an
+example. Suppose I am taking care of my kids and you are taking care of your
+kids. No tax on that. But suppose I pay you to take care of my kids and you pay
+me to take care of yours. Suppose the kids are equally adorable and/or
+troublesome and we pay each other the same amount. It's a wash, in terms of
+effort and cash. But suddenly we both owe taxes.
+
+            When a parent decides to
+work for pay and to buy services she might otherwise provide for herself, she
+is bringing those services into the money economy, where they are subject to
+the same rules as other economic activity. Day care is just one example;
+restaurants and prepared food are another. An analogous principle applies to
+how you put your money to work. (You'll really hate this one.) If you buy a
+house for $100,000, you get to live in it without paying any income tax for the
+privilege. But if you bank that $100,000 and use the interest to pay rent, you
+have to pay income tax on the interest. (You pay property tax as an owner, of
+course, but you pay it implicitly as a renter too.)
+
+            Don't worry, no one is proposing to make you pay a tax on
+the implicit $4.95 you paid yourself today to open up a can of tuna fish and
+toast two pieces of bread rather than buying a sandwich from the local deli.
+And no one is going to tax you on the salary you're not paying yourself for
+child care. The purpose of the child care credit is to correct, only partially,
+the tax code's prejudice against working parents.
+
+            If you want to give yet another tax break to stay at
+home parents because you want to encourage women to stay at home with the kids
+or just because you love tax breaks for anything at all, fine. But it's not a
+matter of fairness or government neutrality. The opposite, in fact.
+
+         
+      
+   

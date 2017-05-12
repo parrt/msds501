@@ -1,0 +1,54 @@
+
+   
+   
+      
+         
+            What Is Gene Therapy?
+            
+
+            Two weeks ago, 18-year-old Jesse Gelsinger died while undergoing
+experimental gene therapy treatment for a metabolic disease of the liver. The
+National Institutes of Health are now reviewing the safety of gene therapy
+trials. What is gene therapy?
+
+            Genes are hereditary units that carry nature's blueprints for making the
+multitude of proteins that build enzymes and other body chemicals to sustain
+life. Human beings have between 50,000 and 150,000 genes--the number is hotly
+debated among scientists--and many diseases can be linked to defects in one or
+more of these genes. There are inherited defects, like those that cause cystic
+fibrosis, and acquired defects, like those that cause some forms of cancer.
+People who have genetic-based diseases typically take drugs that treat their
+symptoms, not the cause.
+
+            It may take decades or even centuries to completely understand the
+relationship between genes and disease. But where the connection is understood,
+scientists are devising gene therapies that aim to eliminate disease by
+introducing healthy genes (isolated and reproduced in the laboratory) to
+compensate for the defective ones.
+
+            One way to deliver healthy genes is by placing them inside a tamed virus
+that in turn can enter the patient's affected cells. In Gelsinger's case, the
+goal was to introduce therapeutic genes into his liver cells. His cause of
+death is still a mystery: One theory is that the virus was still active and may
+have killed him. This therapeutic trial has been suspended pending an
+investigation.
+
+            Theoretically, gene therapy could be used to cure infectious diseases like
+HIV by giving cells extra defense mechanisms.
+
+            Though the benefits of gene therapy are theoretically large, none of the
+dozens of trials in the U.S. (or elsewhere) has achieved a long-term cure for
+any ailment. One obstacle is the body's natural defense: The immune system
+recognizes the virus as a threat and attacks it. Another is that the cells
+engineered by therapy often do not produce enough of the needed protein to cure
+the disorder.
+
+            (PBS offers a helpful animation of one gene therapy preparation. Also see the Web site
+of the Human Genome
+Project for an exhaustive look at the world of genomics.)
+
+            Next question?
+
+         
+      
+   

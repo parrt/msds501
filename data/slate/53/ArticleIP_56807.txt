@@ -1,0 +1,137 @@
+
+   
+   
+      
+         
+            How Congress Resists the Web
+
+            The
+simplest way the Internet can enhance democracy is by making buried information
+easily available to citizens. By putting documents of all kinds online,
+agencies let in disinfecting sunlight and make themselves accountable to the
+public. By and large, the federal government has made impressive strides toward
+making itself Web-accessible. But there's one big exception: the U.S.
+Congress.
+
+            
+Congress is ostensibly fascinated with cyberspace. Fifty Web-related bills and
+resolutions are pending on Capitol Hill. Over 100 members of Congress
+participate in an Internet caucus. Yet, when it comes to posting basic
+information about its inner workings, Congress has been shamefully slow. The
+result is that it protects the privileged status of corporate lobbyists and
+insulates back-room deals from public scrutiny while fencing out concerned and
+engaged citizens.
+
+            Let's
+say you want to find out something about the latest draft of a bill. You might
+try the home pages of the House and Senate , which link to Capitol Hill tourism tips and member
+home pages. But these sites provide scattershot coverage of legislation
+revisions. Nor are the pages of the legislation's sponsors likely to help. Most
+of these are filled with promotional dross. Biographical information, press
+releases, and lengthy legislative accomplishment lists are complemented by
+intern solicitations and flag request forms. Sen. Mitch McConnell, R-Ky.,
+includes his recipe for Chocolate
+Nut Pie .
+
+            You
+may get closer to what you're looking for at GPO Access , a
+Government Printing Office site where citizens can download legislation and
+search Congressional Record archives. The clumsy and confusing
+THOMAS --a Library
+of Congress site--duplicates some of this information. It contains bills,
+roll-call votes, and links to congressional committee sites. But neither of
+these sites gives you the up-to-date information that might enable you to
+understand how a bill is working its way through the legislative process.
+
+            "There
+is much more information online about Congress than at any time in history,"
+according to Jason Poblete, a spokesman for the House Administration Committee.
+That is undoubtedly true, but it's hardly a meaningful statement. There is far
+less information about Congress online than there should and easily could be.
+Here is what's missing and why:
+
+            
+
+               Working Drafts of Bills and Amendments. Citizens can access
+bills, but working drafts are rarely posted. That's because under current
+policy, THOMAS cannot post an update until the text is processed by the
+Government Printing Office. The delay guarantees that lobbyists have time to
+get drafts and influence the process before the general public knows what's
+happening. Adam Thierer, Internet policy analyst for the Heritage Foundation,
+says that "the messy nature of the legislative process makes it difficult to
+keep a site up to date." But Gary Ruskin of the Congressional Accountability
+Project, a Ralph Nader-related organization that watches Congress, asserts that
+committee chairmen squelch the posting of drafts because, "If citizens figured
+out what was in some of these bills, there would be public outcry against
+them."
+
+            
+
+               Hearing Transcripts and Statements. To find out about
+congressional hearings, the curious must locate the appropriate committee site.
+Some committees post opening remarks and transcripts, but the coverage is
+scattershot. THOMAS publishes hearing testimony, but it often takes months
+before the transcripts are "processed." While the public waits, lobbyists
+purchase uncorrected transcripts from pricey transcription agencies. Poblete
+counsels patience and claims that all committees will offer video archives of
+hearings someday. In the meantime, Congress could make all its committees'
+hearings available with the help of a few $200 scanners.
+
+            
+
+               Congressional Research Service Reports. Congress spends over
+$64 million a year on a research service that analyzes thousands of issues,
+from abortion to Zambia. The reports, which are often excellent, are public
+documents that the public can't easily get its hands on. Sen. Tom Daschle,
+D-S.D., posts several hundred CRS reports on his site, and members give
+them away in response to specific constituent requests. Still, citizens often
+have to wait weeks for research that a congressional staffer can download in
+seconds. As a result, commercial services are able to make money selling
+bootleg copies. Penny
+Hill Press , for instance, peddles CRS reports for $49 per order. Why
+not put these guys out of business? Ruskin contends that Congress hoards the
+reports because "members see CRS as their own fiefdom and they like the ability
+to give reports as a favor to constituents." A congressional task force is
+"considering" making all CRS reports public. It is supposed to report its
+conclusions by the end of the year.
+
+            
+
+               Voting Records. To find out how a member voted on a particular
+bill, citizens must comb through archives of roll-call votes, which are
+categorized by bill number and searchable by topic. Constituents can't search
+by representative name, at least at any official government site. Ruskin argues
+that "easily searchable voting records are essential to democratic
+accountability." Poblete says Congress is considering how to make voting
+records easier to access.
+
+            
+
+               Lobbyist Disclosure Reports. These reports detail how much
+lobbyists are paid to work on a particular issue and in theory what, who, and
+how they lobby. They can make for very interesting reading, but to get them you
+have to go in person to a little office in the Capitol. Ruskin argues that
+posting the reports would allow citizens to trace patterns of influence.
+Citizens are not able to access these reports online, even though they are
+electronically stored. Poblete claims that the reports will be posted as soon
+as Congress resolves "technical hurdles."
+
+            
+
+               House, Senate, and Personal Financial Disclosure Reports.
+Members must report how they spend their "representational allowances" and have
+to file personal financial disclosure reports. The disclosures can be used to
+ferret out wrongdoing and conflicts of interest. The data are computerized, but
+for "policy reasons" the reports are not available online. Congress is
+"reconsidering" whether to post them, according to Poblete.
+
+            Five years ago,
+Speaker-elect Newt Gingrich promised to make important information available
+online "at the same moment that it is available to the highest-paid Washington
+lobbyist." That did happen, but only once--when Congress instantaneously
+published the Starr Report . When it comes to its own dirty laundry,
+there seems to be no such hurry.
+
+         
+      
+   

@@ -1,0 +1,177 @@
+
+   
+   
+      
+         
+             Geek Love
+
+            Linux will change the
+world. Linux will do my homework, my dishes, my laundry. The hype reminds me of
+similar hype a couple of years ago about Java, which never did floss my teeth.
+But, setting out to demystify Linux, I fell in love. Geek love, I hasten to
+add. It's not for everyone.
+
+            Unlike Windows (and
+IBM's OS/2 and Apple's MacOS) Linux was written by a person, not a faceless
+monolith like the company I work for. This person was Linus Torvalds. Linux is
+also different because it is based on the founding principles and software of
+the Free Software Foundation, whose name describes its mission. Linux is
+derived from an operating system developed by FSF called GNU. The proper name
+for Linux is GNU/Linux. GNU is a variation on the Unix operating system and the
+acronym GNU stands--disconcertingly--for " GNU's not Unix." Are you still with
+me?
+
+            The FSF crew preaches that all software should be "Open
+Source," by which they mean that any user should be able to view and change the
+underlying code, be it for the operating system or for applications.
+(Microsoft, Apple, and other companies consider their code top secret.) Open
+sourcers also advocate free distribution of software. To the FSF the issues of
+free software are at the very foundation of creating a "cooperative society." I
+am a wee bit skeptical. I enjoy getting paid to write software, and I suspect
+that many, if not most, Linux enthusiasts are being paid by someone to write
+software. It's nice that they can play with Linux for free, but if all software
+were free, how would they eat?
+
+            When pushed, the Free
+Software Foundation defines "free" as a matter of liberty, not of price. Many
+people pay for GNU/Linux, but the underlying mechanics are freely available to
+anyone who wants them. Companies that sell Linux offer the support and
+maintenance that people have come to expect--and charge for them.
+
+            But software development religions aside, what is an
+operating system like Linux doing? As the name suggests, it controls the
+fundamental operation of your computer: things like how to read documents from
+a disk and send them to a printer. As you may have heard, the demarcation of
+what is and isn't "in the operating system" can be a touchy question. Some
+companies maintain that an operating system contains any goddamn thing they
+want to put in it, thank you very much. Other folks say that an operating
+system is just the core functionality (or in computer parlance, the kernel)
+necessary to run the chips in your machine.
+
+            Linux is definitely the
+second model. When you turn on a computer using Linux you get no bells,
+whistles, or windows. You just see some lines of text and then a blinking
+cursor. So are we just back to DOS? Well, no: You can add a graphical interface
+known as Xwindows, which looks amazingly like Windows, complete with a Start
+button. Once you start Xwindows, you're back in familiar territory. You can use
+your mouse to open documents and applications (such as WordPerfect). I even ran
+a Web browser. A big practical disadvantage of Linux is that there isn't much
+application software for it. But that's because so few people use it. It
+wouldn't be fair to count this as a negative in weighing Linux's intrinsic
+merits. And so, of course, I won't.
+
+            To begin my experiment I had to get a machine running
+Linux. So I started searching the Web for information. After getting lost on a
+few Web sites, I completely wimped out and went to Barnes & Noble. The
+software may be free, but there's big money in books on how to use it. I made a
+scientific decision based on weight and purchased Red Hat Linux Secrets
+for $39.95, which included Red Hat software's 5.1 version of Linux on a
+CD-ROM.
+
+            Back at the office I did
+the hard stuff. I hijacked a Pentium 133 with 32 megs of memory and
+repartitioned its hard drive into two parts. "Repartitioned" is a fancy way of
+saying "divided." Thus, instead of one big hard drive I now have two little
+ones using the same physical disk. Linux has a utility program that helped me
+do this (because it knows you're going to want to keep running Windows too). It
+did involve some complicated thinking about disk cylinders, but it worked.
+
+            I then fruitlessly tried to get Linux to boot up. First I
+tried to get it to load directly from the CD that came with the book. Then I
+spent another hour trying to get the Linux boot disk I had created to
+acknowledge the existence of the CD drive. Finally, I copied the entire CD onto
+my hard drive and started the install process. I had to create two more floppy
+boot disks.
+
+            I had to repartition my
+drive again within Linux to create swap space for the operating system (for
+those keeping track I now have three partitions on my hard drive). I had to
+format both drives. I then had to remember where on my hard drive I had put the
+install files. Then it got started. Linux found my various devices, such as my
+mouse and graphics card. It configured both relatively painlessly. It wasn't
+complete plug and pray. I still had to select my items from lists, and it was
+good that I generally knew what types of hardware I was running, but it worked.
+Finally I got a blinking cursor at the Linux prompt. I then launched Xwindows.
+To complete the setup, I got the browser configured and read
+
+                  Slate
+               ! After installing Corel's WordPerfect I was even able to
+write this column on Linux in Linux. (Lexicographical curiosity: The word Linux
+is in the WordPerfect spell-check dictionary but not in Microsoft Word's.)
+
+            After spending a day with Linux, I concluded that it runs
+great. It helped that I know Unix, but the system does work. I have basic Web
+browsing capabilities and a word processor. I also configured and set up the
+Web server, so I could, in theory, power all of 
+                  Slate
+                off this
+machine. In fact, Linux is definitely cool as a server. But if you want to
+replace your desktop machine, forget it.
+
+            What makes Linux
+enthralling from a tech-head's point of view is that it is based on Unix
+standards that have been around for decades. Companies from AT&T to Sun
+Microsystems to Apple to IBM to Silicon Graphics have produced varieties of
+Unix for their business customers. While these varieties are generally
+incompatible with one another, all this code-writing has resulted in a
+far-flung community that understands the Unix beast. Linux developers stand on
+the shoulders of these giants, thus Linux has a lot of intrinsic testing behind
+it. That makes it what techies call "robust," meaning resistant to breaking
+down. Enthusiasts claim that Linux can run for years without requiring you to
+restart your system. On my machine I can claim only a week of running without
+restarting, but that is pretty darn good. It also has a solid multithreading
+and multitasking model, meaning that one errant program can't bring the whole
+computer to its knees. (This is a feature Linux shares with Windows NT, but not
+with Windows 95/98.)
+
+            In terms of performance, Linux ran about as quickly as
+Windows 95/98 (though much faster than Windows NT Server) on my low-end Pentium
+machine. For a completely unscientific example, there was little difference in
+basic file operations such as copying and pasting, and WordPerfect ran just as
+fast as it did on a comparable Windows machine.
+
+            Should you switch to
+Linux? In my opinion, if you are a typical computer user, there is no practical
+reason to do so. The best reason is psychological. Linux is a workable
+alternative to Windows, and thus it allows you to vote with your PC. If you
+hate Microsoft, you can use Linux. It has all the basics necessary to get you
+through your computing life, if you are willing to ignore some rough edges here
+and there. For instance, you won't have much trouble importing data from word
+processing and spreadsheet files. But if you crave a huge variety of software
+application--games, personal information managers, graphics programs, financial
+software, reference works--you'd be better off buying a Mac or a Windows PC.
+Some experts predict that the dawning of the Web means that your operating
+system may be less and less important anyway. Many of you have used Linux and
+don't even know it, because many of the Web sites you frequent to check the
+weather or buy airplane tickets are powered by Linux.
+
+            Now I must confess my doubts about the Open Source
+movement. Do all those software developers writing open source code for Linux
+have the incentive to fix problems as they arise and--more important--to help
+people upgrade and keep old code running? Perhaps the greatest technological
+feature that Windows possesses is that it can handle programs as old as the
+first DOS applications. Linux will never do that.
+
+            Some critics say that
+Linux will fracture into a dozen different incompatible versions, just as Unix
+did. Linux champions insists that the community will prevent such a Tower of
+Babel disaster. I suspect that a schism will eventually divide the happy Linux
+community, as equally creative innovators disagree on the operating system's
+future.
+
+            Furthermore, as in 
+                  Slate
+               , software companies
+spend a surprising fraction of their resources testing software, not writing
+it. In my experience, this is the ultimate problem with Open Source
+development: not enough formal engaged testing. Developers want to write code,
+they don't want to solve all the niggling little problems that users come up
+with.
+
+            But if the thought of a free operating system is so
+exciting that you're willing to pay $39.95 and invest hours for the privilege,
+by all means give Linux a try.
+
+         
+      
+   

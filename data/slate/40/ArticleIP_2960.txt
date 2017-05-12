@@ -1,0 +1,169 @@
+
+   
+   
+      
+         
+            Judge Dread
+
+            There are two kinds of law,
+wrote Thomas Paine in 1805: "Legislative law is the law of the land,
+enacted by our own legislators, chosen by the people for that purpose.
+Lawyers 
+               law is a mass of opinions and decisions which courts and
+lawyers have instituted themselves." Paine liked the first kind of law better.
+So does Antonin Scalia. As the most intellectually consistent and stylistically
+gifted member of the Supreme Court, Scalia has never hidden his enthusiasm for
+the American tradition of mistrusting courts and lawyers. The basics of his
+judicial philosophy are now usefully collated in this volume, which consists of
+an essay by the associate justice, followed first by responses from Gordon
+Wood, Laurence Tribe, Mary Ann Glendon, and Ronald Dworkin, and then by a reply
+from Scalia.
+
+            According
+to Scalia, the problem begins in law school, where tomorrow's judges digest a
+steady diet of fusty 19 th -century English appellate decisions, and
+taste--for the first time--the joys of reasoning by analogy and precedent. A
+few of these students befriend their senators, or find some other way to become
+federal judges; by that time, they have internalized what Scalia calls the
+"common-law attitude," and they become a dangerous lot. Faced with an ambiguous
+statute or regulation, these judges, reared on the common law, too often treat
+the enacted text as just one more precedent to circumvent. In other words, they
+hijack the democratic process.
+
+            Scalia offers two antidotes to this epidemic of judicial
+lawmaking: textualism and originalism. "Textualism" is just what it sounds
+like. As Scalia puts it, "The text is the law, and it is the text that must be
+observed." The only democratically binding feature of a statute is its literal
+language, because that language alone has been ratified by both houses of
+Congress and the president in accordance with the Constitution. "Originalism,"
+as Scalia defines it, is a species of textualism particularly relevant to
+constitutional interpretation. Its adherents tether their interpretations to
+plain meanings as they were understood when the text was first penned.
+Originalists believe, as Scalia puts it, that a constitution's "whole purpose
+is to prevent change--to embed certain rights in such a manner that future
+generations cannot take them away."
+
+            None of
+this is new to anyone who has paid attention to Scalia's opinions and other
+writings over the past decade. Yet, in A Matter of Interpretation , his
+reprise of the traditional jeremiad against judicial usurpation concludes with
+a twist. The specter raised by common-law judging, Scalia says, is not the
+unelected judge determined to impose the values of an elite few upon the
+masses, but that old Tocquevillian villain, the tyranny of the majority.
+Scalia's argument goes like this: As judges persist in bending the law, the
+majority of the moment will begin to insist ever more stridently on judges of
+its particular ideological stripe. Once on the bench, these judicial
+politicians (emboldened by their anything-goes common-law attitudes) will set
+about encoding the popular will into law, to the detriment of unpopular
+minorities.
+
+            
+As law Professor Mary Ann Glendon points out in
+her response, this is an odd coda, especially given the majoritarian premises
+of Scalia's philosophy. (Glendon shares Scalia's distrust of undisciplined
+judges, but hers is the more traditional anxiety, rooted in a fear of elites.)
+At the end of the book, Scalia, defending his prediction that judges will carry
+democracy too far, contends that the individual rights favored by judges tend
+to be the same ones championed by popular majorities. Here is Scalia's list:
+women's rights, racial-minority rights, homosexual rights, abortion rights, and
+"rights against political favoritism." Scalia's notion of what constitutes a
+popular cause does seem questionable--racial-minority and gay rights are not
+nearly as universally supported as Scalia seems to think they are. His
+nightmare scenario is also far-fetched: Life-tenured judges are dubious
+vehicles for implementing a popular will that changes from moment to moment.
+Besides, judges can't be relied on: Supreme Court justices, for instance, are
+famous for disappointing their appointers.
+
+            Scalia's
+prescriptions have long drawn fire from legal academics. Some of their
+criticisms are repeated here by legal academics Laurence Tribe and Ronald
+Dworkin: Scalia's originalism is too glib, because it doesn't distinguish
+between what the Constitution says and what its framers expected it to
+do ; too malleable, because it merely substitutes the guesswork of
+historians for the musings of moral philosophers; too value-laden, because it
+imputes an anti-evolutionary purpose to the Constitution. And so on.
+
+            Yet, Scalia is refreshingly right in several particulars.
+He justifiably laments the virtual disregard of statutory interpretation in
+law-school curricula, where the hoary common-law case-study method still
+predominates despite the fact that most law nowadays takes the form of statutes
+and regulations.
+
+            Scalia
+also rightly rejects the use of "legislative history" (committee reports and
+floor debates) as a guide to divining lawmakers' intent. Committee reports are
+worthless, not only because they lack a democratic pedigree, but because they
+are infinitely pliable. (Scalia quotes Judge Harold Leventhal's quip that using
+legislative history is like looking over the heads at a cocktail party until
+you spot your friends.) And Scalia is right to object to the caricature of the
+textualist/originalist judge as wooden and unimaginative--nontextualists, after
+all, can be plenty wooden and unimaginative themselves.
+
+            
+Admitted nontextualists, incidentally, are
+becoming harder and harder to find. Scalia's "plain language" approach has
+certainly become more popular among his bench mates. The simplest proof of this
+is the remarkable increase in citations to dictionaries in Supreme Court
+opinions. A recent study found that dictionary definitions were 14 times more
+likely to appear in the court's decisions five years after Scalia's swearing-in
+than they were five years before it. (The originalists, of course, like to dust
+off old dictionaries--Dr. Johnson's 1785 edition for the Bill of Rights,
+for instance.) This lexicographical trend won't cure the textualists'
+reputation for stiltedness; reading some of these opinions is like listening to
+the high-school valedictorian who inevitably begins, "I didn't know what to say
+today, so I looked up the word 'commencement.' "
+
+            Even
+devotees of the "Living Constitution" like Tribe now declare their fidelity to
+text. It's surprising that Tribe's essay doesn't discuss his textualist
+argument for the unconstitutionality of Colorado's Amendment 2, which forbade
+cities to enact anti-discrimination ordinances based on sexual orientation.
+Citing almost no cases, Tribe told the Supreme Court that the Colorado
+initiative violated the letter of the Equal Protection Clause because it denied
+gays alone the protection of the anti-discrimination laws. Not an airtight
+argument (all anti-discrimination laws pick and choose among protected
+classes), but a cleverly textualist one--and one that seems to have helped
+convince a majority of the court to strike down the amendment, despite a lack
+of helpful precedent. (Scalia offered a different textualist reading of the
+Equal Protection Clause, grounding his arch dissent firmly in
+majoritarianism--"The Court has mistaken a Kulturkampf for a fit of
+spite.")
+
+            So how often are judges actually as willful as Scalia
+claims they are? It still sometimes happens. Last spring, the 9 th
+U.S. Circuit Court of Appeals found in the Due Process Clause a constitutional
+right to physician-assisted suicide by relying on Plato, Montaigne, Thomas
+More, and the Roper poll. Its decision, which Tribe defended before the court
+earlier this month, is almost certain to be reversed, probably on textualist
+grounds. Most of the current textual infidelity, though, occurs because the
+doctrine of stare decisis --which dictates adherence to precedent--forces
+today's judges to live with adventurous Supreme Court decisions from earlier in
+the century. Not surprisingly, Scalia is no big fan of stare decisis : In
+his dissents, he often calls upon the court to scour away layers of encrusted
+precedent in order to get at the original meaning of the underlying text.
+
+            How judges interpret statutes
+and constitutions is, according to Scalia, "a question utterly central to the
+existence of democratic government." That's hard to dispute. Yet, as Wood--a
+historian of early America--shows in his essay, it's also a question we've been
+asking since the colonial era, fitting the answer to the needs of the moment.
+The revolution of 1776, for instance, was fueled in part by the colonists'
+resentment of the overweening powers of royal judges. As early as the 1780s,
+however, the pendulum had swung back, and many Americans looked to the courts
+to check the excesses of their legislators. To Scalia, however, the idea that
+judicial power responds to the demands of the time merely proves that "there
+have always been willful judges who bend the law to their wishes."
+
+            Seen from a historian's
+perspective, Scalia's view of the debate over the judiciary does look a bit
+Manichaean. But it would be a mistake to dismiss him for that reason. Scalia's
+arguments have shaped the debate in our time; he has gone a long way toward
+changing how judges interpret the letter of the law. Not all the way--he has
+not yet succeeded in building a durable majority on the court. Does this mean
+that unpopular individual rights are in peril? More likely, it simply goes to
+show--as do the exchanges in this stimulating book--that there is more than one
+way to read a text.
+
+         
+      
+   

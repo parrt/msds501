@@ -1,0 +1,86 @@
+
+   
+   
+      
+         
+            How To Do an IPO
+            
+
+            In purely financial terms, yesterday's initial public offering from Linux
+networker Andover.net will go down as just another in a series of remarkable
+first-day debuts. The company's shares priced at $18, opened at close to $50,
+and closed the day at $63 3/8. (Andover.net's shares jumped another 14 1/8
+points today.) In other words, it looked just like a typical tech IPO in this
+frothiest of markets. But in fact there was nothing typical about the success
+of the Andover.net IPO. This was a deal the ramifications of which we're going
+to be feeling for years to come.
+
+            That's because Andover.net was the third company to be taken public by W.R.
+Hambrecht, the investment bank that is attempting to transform the IPO process
+by replacing the traditional method of allocating shares and setting opening
+prices with what's called a Dutch auction. (See 
+                  Slate
+               's "Explainer"
+for more on Dutch auctions.) In a typical IPO, the lead underwriter sets an
+initial filing price, then takes provisional orders from institutional
+investors that it uses to gauge demand. The filing price can be adjusted upward
+if demand is strong enough, but in general the offering price for a company
+going public is considerably below the market-clearing price. As a result,
+investors who are able to get in on an IPO have a very good chance of reaping
+some easy gains.
+
+            In a Dutch auction, by contrast, the price is essentially determined by the
+investors, who submit the highest price they're willing to pay and the number
+of shares they want at that price. The people who bid the highest (and, if they
+bid the same price, the earliest) get first dibs on the shares, which are then
+allocated in order from highest to lowest bid, until they're all gone. No
+matter what you bid, though, the price you pay is the lowest price that any
+investor who got shares bid.
+
+            This is a superior way of pricing an IPO because no one gets shares on the
+basis of who they know, and because it ensures that the company going public
+isn't going to leave too much money on the table by going public at a lower
+price than the one the market was willing to pay. It's also superior because it
+eliminates the middleman (the investment bank) and lets the market set the
+price.
+
+            Given the more general move in business toward disintermediation, it seems
+inevitable that eventually this will be the way most companies go public. But
+Hambrecht's Dutch-auction strategy has gotten off to a slow start because its
+first two IPOs, for Ravenswood Winery and Salon.com, were relative busts, at
+least in the sense that neither company has seen a significant gain over its
+offering price. If investors feel they can't make money investing in IPOs
+underwritten by Hambrecht, they'll pay less for them then they would if the
+same companies were being underwritten by more established investment banks,
+thereby defeating the whole purpose of going public with Hambrecht.
+
+            That's why Andover.net's awesome debut, with its price soaring 252 percent
+on the opening day, is so important. It suggests, as I argued at
+the time of Salon.com's IPO, that the problem with the earlier Hambrecht
+offerings was not the Dutch-auction idea, but rather the quality of the
+companies that were going public. Take a real company in a hot sector, like
+Andover.net, and investors can make a lot of money, even as the company itself
+raises more cash in the IPO than it would have done otherwise.
+
+            There is, to be sure, something of a paradox here, since if the point of
+having a Dutch auction is for the company not to leave any money on the table,
+the 252 percent jump in Andover.net's stock price might seem to suggest that
+the auction didn't work all that well. But there are two things to keep in mind
+here. The first, and more mundane, point is that you have to have a brokerage
+account with Hambrecht to participate in its IPOs, so the number of potential
+investors in any Hambrecht offering is significantly smaller than the number of
+investors who might be interested in that offering. (Of course, the more IPOs
+like yesterday's Hambrecht has, the more customers it'll get, since anyone who
+has $2,000 can open an account.) The second, and related, point is that no
+company can control the retail market for its stock. The market-clearing price
+at 10 a.m., in other words, will not be the market-clearing price at noon or at
+3 p.m., and that's true for all stocks, not just IPOs. Now, as investors become
+more comfortable with Dutch auctions, and as more investors take part in these
+kinds of IPOs, the spread between the offering price and the first day's
+closing price will narrow, and that will be a good thing. But for now, the 252
+percent leap Andover.net took is very good news, the first significant blow
+against Wall Street's old-school IPO process.
+
+         
+      
+   

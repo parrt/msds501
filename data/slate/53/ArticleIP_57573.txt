@@ -1,0 +1,103 @@
+
+   
+   
+      
+         
+             Does Crime Pay?
+
+            Criminals, by and large, must be
+risk-lovers--otherwise they'd be car-wash attendants instead of criminals.
+Lottery players, by and large, must be risk-lovers--otherwise they'd buy
+Treasury bonds instead of lottery tickets. You might be tempted to conclude
+that criminals and lottery players are often the same people. That's probably
+the wrong conclusion. After all, risk-lovers enjoy having all their eggs in one
+basket, which suggests they should pursue either crime or the lottery, but not
+both.
+
+            Still, if you want to understand what attracts
+people to crime, it pays to understand what attracts people to risky activities
+more generally, so it pays to understand what attracts people to the
+lottery.
+
+            Lotteries are attractive when they offer big prizes
+or (relatively) good odds. If you're running a lottery and you're going to pay
+out $10 million, you can offer a single $10 million jackpot or you can offer 10
+prizes of $1 million each. Which is more appealing to the players? Usually, the
+former. For the most part, lottery players prefer a small chance of a big
+payout to a bigger chance of a smaller payout. That's because the people who
+prefer a bigger chance of a smaller payout are buying certificates of deposit,
+not lottery tickets. So if you want to make the lottery more attractive, it's
+better to double the size of the jackpot than to double the number of
+winners.
+
+            (More precisely,
+doubling the number of winners makes the lottery more attractive to the sort of
+person who never buys lottery tickets anyway, while doubling the jackpot makes
+it more attractive to the sort of person who might actually be tempted to
+play.)
+
+            Now let's apply the same reasoning to criminal deterrence.
+For the most part, criminals prefer a small chance of a big punishment to a big
+chance of a small punishment. That's because the people who prefer a big chance
+of a small punishment go into punishing careers like construction work or coal
+mining instead of crime. So if you want to make crime less attractive to
+criminals, it's better to double the odds of conviction than to double the
+severity of the punishment.
+
+            Add 10 percent to the
+length of the average jail sentence and crime will fall. Add 10 percent to the
+conviction rate instead and crime will fall even further. Like any risk-lovers,
+criminals are out to beat the odds, so they get particularly demoralized when
+the odds turn against them.
+
+            So much for the theory; now to the facts. What's true of
+the lottery should be true at the racetrack. And gambling consultant Maury
+Wolff confirms that if you're designing a complicated bet like a trifecta, the
+way to generate the most action per dollar's worth of prize money (and hence
+the most profit for the track) is to offer very large prizes at very long odds.
+Why, then, do the tracks continue to offer bets with much smaller payoffs?
+According to Wolff, it's because big prize winners take their money and go home
+while small prize winners plow their winnings back into the next race. That
+sets up an interesting trade-off for the track owner: One big prize maximizes
+profit on the current race, while several small prizes maximize the action on
+the next race. Interesting as that trade-off may be, it's largely irrelevant to
+the main point, which is that players like big prizes and long odds. (On
+another interesting tangent, Wolff asked me whether there's something
+inherently corrupt about a system where the proceeds from state lotteries are
+used to fund school systems that then have an incentive to produce the kind of
+students who will go out and play the lottery.)
+
+            With regard to crime,
+let's consider the most spectacular of all crimes, murder. Here the expert is
+Professor Isaac Ehrlich, who, in the mid-'70s, pioneered the use of
+sophisticated statistical techniques to measure deterrent effects of conviction
+and punishment. Together with Professor Zhiqiang Liu, Ehrlich has recently
+revisited the subject, refuting his most vocal critics and offering new
+evidence in support of his original conclusion: Increase the number of
+convictions by 1 percent and (to a very rough approximation) the murder rate
+falls by about 1 percent. Increase the number of executions by 1 percent (which
+amounts to increasing the severity of the average punishment) and (again to a
+very rough approximation) the murder rate falls by about half a percent. (These
+numbers are based on evidence from the 1940s and 1950s. Capital punishment
+studies tend to focus on decades with more executions and hence more data.) As
+the theory predicts, convictions matter more than punishments.
+
+            That's not to say that punishments don't matter. Executions
+may be a less-effective deterrent than convictions, but they are nevertheless
+an extremely powerful deterrent; according to Ehrlich's numbers, one additional
+execution in 1950 could well have prevented over 20 murders.
+
+            I am grateful to Ehrlich for that amazingly strong
+result, because I use it to illustrate three points that I'm always eager to
+drive home to my students. First, incentives matter, even to murderers. Second,
+economic theory predicts that some incentives matter more than others, and the
+data confirm the theory: Executions prevent murders, but convictions prevent
+even more murders. And finally, if you want to give policy advice, it's not
+enough to know your numbers. You've also got to know your values. Isaac
+Ehrlich, the man who proved to the satisfaction of the economics profession
+that capital punishment works, is a passionate opponent of capital
+punishment.
+
+         
+      
+   

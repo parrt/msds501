@@ -1,0 +1,60 @@
+
+   
+   
+      
+         
+            Are Bush and McCain Really Neck and Neck?
+            
+
+            A recent poll found that John McCain leads George W. Bush among New
+Hampshire Republicans by 3 percentage points, with a 5 percent margin of error.
+Does this mean they are really in a dead heat?
+
+            Possibly. You actually need two numbers to understand a poll. One is the
+margin of error --an estimate of how large a discrepancy might exist
+between a survey's results and the true value. (It's unlikely, for instance,
+that 1,000 people polled in some national survey will speak accurately for all
+260 million Americans. The margin of error measures just how wrong those 1,000
+people could be.) The margin of error is typically 3 to 5 percent and is almost
+always cited alongside the results. The other important number is the degree
+of confidence , which is the likelihood that the real value falls within the
+margin of error. Most polls use a 95 percent degree of confidence, so it's
+usually omitted from news reports.
+
+            Here's an example of how the two numbers work together. This week, a
+Reuters/WHDH-TV poll showed McCain leading Bush 35 percent to 32 percent with a
+5 percent margin of error. This means that there is a 95 percent chance
+(there's the degree of confidence) that between 30 and 40 percent of the
+population supports McCain (that's McCain's 35 percent plus or minus the margin
+of error), and a 95 percent chance that between 27 and 37 percent supports
+Bush.
+
+            So, based on this poll, how sure can we be that McCain is truly ahead of
+Bush? The answer is, less than 95 percent sure. The reported margin of error
+relates to each candidate's individual score. But the margin of error on
+the spread (i.e., the difference between their scores) is much larger, since it
+incorporates the potential variations in both scores. As a rule of
+thumb, you can multiply the reported margin of error by 1.7 to get the margin
+of error for the spread. Since 1.7 times 5 is 8.5, the Reuters/WHDH-TV survey
+would need to show McCain with at least an 8.5 percent advantage over Bush for
+his lead to be 95 percent certain. Since his lead is only three percentage
+points, it's being called a dead heat. But the small lead is not meaningless;
+although it is less than 95 percent certain that McCain leads Bush, it is still
+more likely than not that he is really ahead.
+
+            (Visit the American Statistical Association's Web site
+for extensive information on common methods--and errors--in measuring public
+opinion.)
+
+            
+               The Explainer thanks many 
+               Slate 
+               readers for suggesting this
+topic.
+            
+
+            Next question?
+
+         
+      
+   

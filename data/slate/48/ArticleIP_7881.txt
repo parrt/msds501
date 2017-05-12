@@ -1,0 +1,168 @@
+
+   
+   
+      
+         
+            Is the Economic Crisis a Crisis for Economics?
+
+            I have often used this
+column to defend economics and economists against their critics. It sometimes
+seems as if no public intellectual, be he Irving Kristol or George Soros, feels
+his résumé is complete until he has published an article or book attacking
+economic theory--a project that does not, of course, require that its author
+make much effort to find out what that theory really says. Nonetheless,
+economists can stand a little informed criticism. Right now, it seems to me,
+the discipline is in some trouble. Specifically, the marriage between
+macroeconomics and microeconomics--an imperfect but workable union achieved
+half a century ago, which has allowed economists to combine moderately activist
+views about monetary policy with otherwise generally free market beliefs--is
+now being called into question by events.
+
+            This is
+not an abstract problem. It is one with urgent application to the current
+global economic crisis. Conventional microeconomic analysis depends on the
+presumed ability of governments to maintain more or less full employment. If
+they can't--and if economists can't find a way to resolve the world's newly
+intractable macroeconomic problems--all sorts of heresy become entirely
+reasonable. And in the end that will be disastrous not just for the economics
+profession but for the world economy.
+
+            Suppose, for example, that you are an advocate of free
+trade, but some Brazilian tells you that his country needs export subsidies and
+tariffs to protect its industry and save jobs. Well, if Brazil cannot devalue
+its currency for fear of speculators, cannot use fiscal or monetary policy to
+reflate its economy because to do so would cause capital flight, and the
+country must therefore endure a prolonged period of recession and deflation,
+you cannot in good conscience make the conventional arguments in favor of free
+trade. That is, you cannot tell him that protectionism only redistributes jobs,
+that it cannot create them, since the truth is that, under these circumstances,
+his proposal would increase output and employment.
+
+            Now I am
+not advocating protectionism for Brazil or, for that matter, for anywhere. Nor
+am I giving up on microeconomics in general or on the general presumption in
+favor of free markets in particular. I still believe that macroeconomic
+activism is possible: that Japan can reflate itself out of its slump, that
+countries such as Brazil can find ways to deal with the threat of speculative
+attack. Many people disagree with my ideas; that's fine, as long as they have
+an alternative to offer. But very few of my colleagues, as far as I can tell,
+are even making a serious effort to rise to the challenge.
+
+            To understand the nature of this challenge, you need to
+realize that although the name of John Maynard Keynes is anathema to many
+conservatives, it was in fact Keynesian economics that allowed capitalism as a
+system--as well as belief in the efficacy of free markets--to survive the Great
+Depression. After all, circa 1939 it was very hard for an observant person to
+see much future in the free market. I happen to own a copy of James Burnham's
+The Managerial Revolution , a now-forgotten 1941 book that was for a time
+hugely influential. It purported to see the rise of both communism and fascism
+as part of the inevitable replacement of capitalism by a more efficient
+"managerial" state. Burnham did not attack free market economies; he simply
+regarded them as doomed, and those who thought otherwise as naive:
+
+            The first, and perhaps
+crucial evidence for the view that capitalism is not going to continue much
+longer is the continuous presence within the capitalist nations of mass
+unemployment. ... Capitalism is no longer able to find uses for the available
+investment funds, which waste in idleness in the account books of the banks.
+... [T]he capitalist organization of society has entered its final years.
+
+            Gloomy sentiments indeed,
+but at the time they seemed quite reasonable. As far as most people who thought
+about it could see, capitalist economies were indeed unable to make use of
+their savings and thus of their resources. Given that massive failure, the
+traditional case that free markets lead to microeconomic efficiency--to the
+proper allocation of resources among firms and of goods among consumers--seemed
+not so much wrong as irrelevant.
+
+            But
+Keynesian economics--by which I mean not so much the specifics of Keynes' ideas
+as the understanding that monetary and fiscal policy could be used to fight
+economic slumps--rescued both capitalism and microeconomics from oblivion.
+Thanks in large part to the new understanding of governments that increasing
+interest rates, raising taxes, and cutting spending in a recession is a bad
+idea, the first postwar generation was one of near-full employment in most
+Western countries. And with the assurance that savings would be invested and
+that there would be enough demand to make use of the economy's resources,
+economists could return in good conscience to the microeconomic question of how
+those resources would be used--and to the broad presumption that free markets,
+except in some specific cases, would get it right.
+
+            Take, for example, the debate about the effects of the
+North American Free Trade Agreement. Although most of the public debate over
+that agreement focused on alleged job losses or gains (Ross Perot's "great
+sucking sound" vs. the administration's claim that NAFTA would create hundreds
+of thousands of jobs), believed that the net effect on employment would be
+zero. This is basically because the overall number of jobs in the United States
+is determined by Fed Chairman Alan Greenspan, who is always trying to get the
+economy as close to full employment as he can without creating inflation. So
+for serious economists the real questions about NAFTA involved microeconomic
+issues such as efficiency and income distribution--and efficiency concerns, at
+any rate, offered a strong case in favor of free trade.
+
+            In short, the success of
+macroeconomic activism, in both theory and practice, has made it possible for
+free market microeconomics to survive--again both in theory and in
+practice.
+
+            True,
+during the 1970s and early 1980s macroeconomics suffered a crisis. The
+experience of stagflation--the combination of inflation and unemployment--badly
+damaged the prestige of economists in general and macroeconomics in particular,
+even though it was not that much of a theoretical surprise. Equally important
+was an internal crisis of self-confidence: "Rational expectations" theorists,
+led by Chicago's future Nobelist Robert Lucas, challenged the whole idea that
+governments could do anything to mitigate macroeconomic instability. In the
+end, however, rational expectations to Keynesian macroeconomics. So-called "new
+Keynesian" economists provided at least a theoretical fig leaf for more or less
+Keynesian ideas, and in practical terms the intellectual basis of modern U.S.
+monetary and fiscal policy is pretty much what was already in the textbooks 20
+years ago.
+
+            
+Now, however, economists are in trouble
+again--trouble that is a sort of muted version of what happened in the 1930s.
+The world is not now in depression, nor is a full-scale replay of the 1930s
+likely. But substantial parts of the world economy are depressed--and for one
+reason or another apparently cannot or will not use macroeconomic policy to
+restore full employment. "Emerging market" nations, terrified of capital
+flight, dare not reflate their economies; on the contrary, we find the
+front-line economy of the moment, Brazil, compelled by fear of speculators to
+act in a precisely anti-Keynesian fashion: increasing interest rates, raising
+taxes, and cutting spending even as the economy slides into a nasty recession.
+Meanwhile, Japan--the world's second-largest economy and a country that by
+normal criteria ought to have no trouble increasing demand--finds itself stuck
+in exactly the trap Burnham described: "no longer able to find uses for the
+available investment funds, which waste in idleness in the account books of the
+banks."
+
+            So economists must be
+rushing to solve these problems, right? Well, not exactly. You see, the
+rational expectations challenge to Keynesian economics was half-successful: It
+did not build a workable new structure for macroeconomic theory and policy, but
+it did seriously damage the old structure. And the effect of that damage has
+been to discourage economists from even thinking about the traditional
+Keynesian issues. Most younger economists have simply avoided macroeconomics
+entirely, or--if they do work on macroeconomic issues--they choose "safe"
+topics such as long-run growth, avoiding the academic minefield of business
+cycle research. I can't blame them, but it leaves us with a dangerous lack of
+fresh thinking about how to handle recessions at a time when the usual remedies
+don't seem to be working.
+
+            I wish I
+had more of a sense that other economists understand what is at stake. The
+point is not that the world is going to collapse; that could happen, but it is
+not the clear and present danger. Rather, the point is that the theory and
+practice of more or less free market economics depend crucially on the
+availability of adequate solutions to the problem of macroeconomic
+instability--and for the first time in half a century, the availability of
+those solutions cannot be taken for granted.
+
+            If you didn't chase the
+links in the text, is a reminder of how some people react to the sort of
+pronouncements we economists are prone to make, and is a little more on why the
+"equilibrium macroeconomics" school of thought has recruited few pupils.
+
+         
+      
+   

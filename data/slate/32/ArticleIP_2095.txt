@@ -1,0 +1,167 @@
+
+   
+   
+      
+         
+            The Myth of the 500-Foot Home Run
+
+            On June 24, fans at
+Seattle's Kingdome witnessed one of the most dramatic pitcher-hitter
+confrontations since Walter Johnson faced Babe Ruth. On the mound, the
+Mariner's Big Unit, 6'-10" Randy Johnson, the tallest man ever to play in the
+majors, and the most proficient strikeout pitcher in history. At the plate,
+Oakland's Mark McGwire, the best and strongest home-run hitter since Ruth.
+
+            Although
+Johnson whiffed McGwire twice on the way to a record-breaking total of 19
+strikeouts, McGwire hit what was estimated as the longest home run in at least
+a decade. He got all of a 97-mph fastball, and launched it at 105 mph in the
+general direction of Canada.
+
+            On the radio, Mariner announcer Dave Niehaus marveled, "A
+high fly ball, belted, and I mean belted , deep to left field, into the
+upper deck! My, oh my, what a shot by Mark McGwire! That is probably the
+longest home run ever hit here. ... It will be interesting to see how far that
+ball will be guesstimated. ... We have often wondered if McGwire got ahold of a
+Randy Johnson fastball how far he could hit it, and I think we just saw
+it."
+
+            Shortly
+after, Niehaus gave the estimated distance: "538 feet--unbelievable, absolutely
+unbelievable. The longest home run ever hit here in Seattle ... the longest
+home run I think I have ever seen hit." Not only that, it seems to be the
+longest ball hit since 1988, when the distance of major-league home runs was
+first estimated on a wide scale. Sports pages and broadcasters across the
+country are still heralding McGwire's homer as one of the great feats in
+slugging history.
+
+            
+But there's a catch: The 538-feet figure,
+announced by the Mariners about 40 seconds after the ball landed, was an
+overstatement worthy of P.T. Barnum. According to three physicists who have
+worked independently and have written extensively on the science of baseball,
+the human limit for hitting a baseball at sea level, under normal temperatures
+and with no wind, is somewhere between 450 feet and 470 feet.
+
+            Curious
+that anyone could hit a ball 538 feet in an indoor park near sea level, I
+called the Mariners to see how they devised such a spectacular number. The team
+repeatedly refused to explain how they arrived at the figure or to allow me to
+speak to whoever made the estimate. Mariners PR Director Dave Aust stresses
+that the figure is "a guesstimate." "We don't really believe in the process,"
+Aust says, distancing the team from the McGwire number.
+
+            That "process" has evolved over time. In 1988, IBM
+established the "Tale of the Tape" program, devising a system by which home-run
+distances could be estimated. Sponsorship of the Major League Baseball-licensed
+program was assumed by telecom giant MCI in 1992 and redubbed the "MCI Home Run
+Program." The program's Web site lists the 10 longest home runs of the year and
+provides a searchable database of the home runs of the previous two years.
+
+            "We do not
+measure the home runs," says MCI spokesman Cal Jackson. The distances are
+estimated by the individual clubs and then provided to MCI. "We act as a
+warehouse for the numbers that Major League Baseball sends us."
+
+            
+Unsatisfied with the 538-feet number, I did my
+own figuring. I consulted the 1976 Kingdome blueprints, a more recent
+laser-survey diagram of the stadium, and the Seattle Times game story,
+and visited the park twice. Here are the facts: McGwire's homer landed in the
+eighth row of the left side of section 240 in the second deck--439 feet
+(measured horizontally) from home plate and 59 feet above the playing
+field.
+
+            How much
+further could the ball have gone? Based on a review of the trajectory charts in
+The Physics of Baseball and Keep Your Eye on the Ball: The Science
+and Folklore of Baseball , conversations with University of Puget Sound
+physicist Andrew Rex, and correspondence with aerospace engineer and baseball
+researcher Roger Hawks, I determined that the McGwire home run would have
+traveled about 474 feet. A mighty home run, yes, but still 64 feet short of the
+length claimed.
+
+            Rex and Hawks agree that any home run hit that far must
+approximate the "maximum-distance trajectory"--that is it can only be a high
+fly or a normal fly, not a line drive. McGwire's homer was a high fly, as
+Niehaus attested, and as was confirmed by his broadcast partner Rick Rizzs, who
+marveled at the ball's hang time. According to the Major League Baseball
+system, a high fly will descend at an angle whose cotangent is 0.6. In
+trigonometry-for-dummies terms, what that means is that for every foot the ball
+would have continued to drop vertically, it would have traveled another 0.6
+feet horizontally. Here's the math: 439 feet + (59 feet x 0.6) = 474 feet.
+
+            McGwire's
+"538-footer" isn't the only questionable long ball of the season. The MCI Web
+site claims six 500-footers in 1997, five by McGwire and one by Colorado
+Rockies star Andres Galarraga, hit in Miami. Galarraga's home run, originally
+announced as 573 feet, then revised at the park to 529 feet, is listed at 529
+feet by MCI. By my calculations, it probably went about 479 feet. And yet
+another reason to doubt the 1997 numbers: Apparently, the IBM/MCI program
+recorded no 500-footers from 1988 to 1996.
+
+            
+Don't get me wrong--all the homers listed on
+the MCI top-ten list were remarkable shots. And I'm not arguing that
+500-footers are impossible. A few have been hit, but all were aided by
+altitude, the elements, or both. The best-known of these, Mickey Mantle's
+mythical 565-foot blast on a windy day at Washington's Griffith Stadium,
+probably traveled about 506 feet, according to The Physics of Baseball
+author Robert K. Adair.
+
+            The MCI Web site spells out
+the intended method of measuring these home runs. "Distances are measured using
+a grid system matched to each ballpark's unique parameters and configuration.
+Each home run is estimated based on how far it would have traveled from home
+plate on a horizontal line had it not been obstructed by something (seats,
+fence, roof, foul pole, other stadium parts, etc.)."
+
+            If every team worked
+according to the MCI plan, each stadium would be accurately diagramed with a
+fine-grained grid related to its seating sections, level by level. This would
+tell the estimator how far the ball was from home plate when it landed in the
+seats, bullpen, or other stadium area, and how high it was above field level
+when it landed. (In today's stadiums, very few home runs touch the ground
+before hitting something higher first.)
+
+            Working
+with the distance and height, the estimator would assess the ball's
+trajectory--was it a liner? a normal fly? a high fly?--and use a formula to
+determine the ultimate distance the ball would have traveled. Click for the
+formula.
+
+            In theory this is not a bad system, but in practice it's
+not always fully observed. Some teams work from arcs rather than grids, making
+the estimators' jobs more difficult. Some teams measure only to the point of
+impact, rather than to the likely field-level landing point. The Rockies don't
+have height data, and must estimate that dimension. The Red Sox can't see where
+balls, hit beyond "The Monster" into the street, land. If McGwire had hit his
+home run in Baltimore, for example, it would have been measured at about 448
+feet under the Orioles' point-of-impact house rules. Such departures make the
+various major-league home-run distances inconsistent, and usually make them
+less accurate as well.
+
+            Major
+League spokesman Patrick Courtney acknowledges that there have been questions
+about the MCI program, and says that the measurement issue will be discussed at
+league PR meetings next month "so everyone will be on the same page for next
+year."
+
+            
+Let's hope so. Baseball, a game of inches and
+meticulous record-keeping, deserves accurate and consistent data, and these
+awful numbers have already tainted one set of record books. Click for the
+story. The pity is that the home-run-measurement program, as conceived by IBM
+in 1988, was never uniformly implemented. Now is the time for scientists to
+review and refine the system and for Major League Baseball to ensure compliance
+and train the estimators.
+
+            After a period of
+adjustment, during which many long home runs will seem puny, we'll slowly
+reacclimate ourselves to reality. Weaned off the inflated estimates, numbers
+that add 60 feet to big home runs, we'll finally appreciate the majesty of a
+440-footer.
+
+         
+      
+   

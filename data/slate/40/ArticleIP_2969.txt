@@ -1,0 +1,117 @@
+
+   
+   
+      
+         
+            Valley Boys
+
+            Every so often, friends in
+the computer industry will develop an unrealistically charitable view of their
+place in the world. "I'm not here to get rich," they pronounce. "I'm here to
+change the world!" Easy to say, when you happen to be getting rich. Why don't
+they work in pure research? "Research is an ivory tower," they respond.
+"Shipping products is the way you change the world." And so they find
+themselves in the cozy position of believing they're beyond materialism while
+they cruise around in their Ferraris.
+
+            The
+characters in Po Bronson's novel The First $20 Million Is Always the
+Hardest have it much harder. The fictional nonprofit research laboratory La
+Honda provides an opportunity to work with the best people in the field,
+designing products for other companies to sell. They may be changing the world,
+but they're also underpaid. They have their reasons for being there: For
+marketer Andy Caspar, La Honda is an opportunity to leave struggling chip maker
+Omega Logic and prove he's one of the "Ironmen" who make the technologies that
+drive the information age. For chip designer Francis Benoit, it's, er, a way to
+leverage corporate resources without corporate interference. For La Honda
+director Hank Menzinger, it's a way to change the world without doing the
+actual work himself. For Omega Logic CEO Lloyd Acheson, uh ... actually it's
+hard to figure out why his company would fund an external research laboratory
+instead of having its own. La Honda is an unlikely beast, and pretty quickly
+into this book it starts to smell a whole lot like a plot device. Only in such
+a place would the motives of the engineers, designers, reporters, and
+businessmen in this novel combine in the convenient way they do. Fortunately,
+about halfway through, Caspar and two engineers leave to form a start-up, and
+La Honda's strange odor fades into the background.
+
+            They're starting a company to make a $300 "VWPC"--the
+Volkswagen (people's car) of Personal Computers. They can do so only if they
+ignore the conventional wisdom that every new computer must be faster than the
+last and do more. What's better, their simplified software will run on any
+computer, uniting the world in a new technological brotherhood. Needless to
+say, these mavericks have an uphill battle to sell their idea.
+
+            Where
+$20 Million succeeds is as a character study. According to the book
+jacket, Bronson has written about Silicon Valley for Wired , the New
+York Times Magazine , and Forbes ASAP , and he has clearly understood
+something about the psychology of the place. The misanthropic engineers, the
+monotonic human-resource drones, the evangelistic marketers, even the
+nontechnical but talented girlfriend all strike painfully home. I know these
+people. They are my friends, my co-workers--my wife. We see nerds at work,
+nerds at play (which is to say, at work), nerds in love, and of course some
+nerd humor. "If Microsoft made cars ... we'd all have to switch to Microsoft
+gas," says Caspar. (Have him killed.)
+
+            
+So long as Bronson stays inside their heads, I
+accept everything that happens, even when the technology and events veer away
+from a world I recognize. It's only when the plot forces him to hide the cards
+of certain players, which it does periodically, that my disbelief is
+unsuspended. When we can see into their heads, Benoit and Acheson are avowed
+enemies. The next thing we know, they are teaming up to steal the VWPC from
+Caspar and company, and we can't really see how or why this might have
+happened. Suddenly they are characters in a novel, not in my life.
+
+            The lack
+of a profit motive is what really jars. Even when our start-up friends go out
+on their own, they are doing it because it's the only way to get things done.
+They hardly seem to care about the money. They give away rights for a song.
+They are totally focused on delivering technology to the masses. I concede that
+this is admirable, but everyone I know who has gone the start-up route has been
+pretty certain that they were also in it for the financial upside. It's almost
+as if Bronson had started believing all the "I'm not in this to get rich"
+speeches he must have heard as a reporter.
+
+            Otherwise, this book is pretty convincing, and one of the
+reasons it is, even (or especially) to those in the know, is that its plot is
+essentially a novelization of real-life technology and events. The fictional
+VWPC and its enabling software "Hypnotizer" look a great deal like the
+real-life Network Computer and Java. If you don't already know, Java is a
+programming language well suited to the Internet. Using Java, you can create
+programs that are downloaded directly off the Internet and run on almost any
+computer. In theory, this makes it possible to create a simple computer that
+runs directly off the network and doesn't even need a hard drive.
+
+            The soap
+opera that begat Java deserved to be written as a novel. Sun Microsystems
+engineers working on a set-top box for interactive television devised a new
+language. They were ignored for over a year, until someone finally realized
+this was the perfect language for the World Wide Web. Sun's marketers and top
+management fought it out with the engineers for control of the language, and
+won. Java is now Sun's core technology asset, and most of its designers have
+left the company.
+
+            
+This user-friendly computer is not, however,
+the magic bullet that both Sun and Bronson make it out to be. The
+lowest-common-denominator approach its creators take to solving the problems of
+today's heterogeneous computer systems is highly controversial, and not just
+because Microsoft and Intel (who have the most to lose if the Java approach
+wins out) say so. Java works because it lets everyone run the same program, but
+it is not clear that everyone wants to run the same program. For
+example, Microsoft has had a difficult time producing Macintosh versions of its
+products. Why? Because Macintosh users want Macintosh programs, not warmed-over
+Windows programs. Java threatens us with a world where every program feels
+warmed-over in the same way--functional, but not optimal.
+
+            
+               $20 Million would be
+a good read even if you know nothing about computers, but it's an even better
+read if you do, since it delves intriguingly in and out of the psychoses and
+oddball situations rife in this industry. Just don't ask any hard questions of
+the book, because it won't answer them.
+
+         
+      
+   

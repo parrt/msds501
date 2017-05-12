@@ -1,0 +1,78 @@
+
+   
+   
+      
+         
+            The SEC's Battle Against Selective Disclosure
+            
+
+            Sometimes a situation seems so obviously wrong that you can't believe it's
+allowed to continue. Then someone--like, say, the Securities and Exchange
+Commission--comes along and says the situation won't be allowed to continue,
+and a host of opponents spring up to say, unbelievably, "Things are just fine
+the way they are." To which the only reasonable response, of course, is to say,
+"Who are these people?"
+
+            This is pretty much the story of the SEC's battle against the selective
+disclosure of significant financial and business information by companies to
+investment bank analysts and large institutional investors, who routinely get
+looks inside companies and notifications of changes in future outlooks long
+before everyone else does. SEC Chairman Arthur Levitt has been publicly on the
+attack against selective disclosure for the past 18 months, and yesterday the
+SEC issued a remarkably measured proposal, Regulation FD, that simply stated in
+essence that companies would not release any "material information" privately.
+Instead of applauding the regulation, Wall Street looks ready to fight it.
+
+            From one perspective, of course, this is hardly surprising. Investment banks
+and brokerage houses built their businesses around their access to information,
+and their ability to get that information to their clients before it reached
+anyone else. And while in theory that information could be--and sometimes
+is--the product of especially dedicated digging or sharp analysis, it's often
+the product of a phone call to a chief financial officer, or comes from a vice
+president who lets slip that the fourth quarter is looking especially good. If
+you give up selective disclosure, and create a truly free flow of information
+between companies and all of their investors, then the possibility of making
+easy profits (either by getting in before everyone hears the good news, or
+getting out before everyone hears the bad) disappears.
+
+            That's hardly an argument even Wall Street could use to defend itself. So
+instead what you hear is the classic "this will lead to a general chill on
+information" argument, which says that since companies don't want to put out
+press releases all the time, they'll stop talking to analysts at all, for fear
+that they'll be breaking the law. And since markets function best when there's
+more information, the market will work less well if Regulation FD is
+ratified.
+
+            The truth is, it's not clear that there would be any damage done at all if
+companies stopped having private conversations with analysts. The privileged
+position of the analyst, after all, is a vestige of the days when just about
+all investors had accounts with the major brokerage houses. In today's world,
+with the profusion of online brokerages, that's an unnecessary privilege. At
+the same time, if you look at analysts' estimates for companies' quarterly
+earnings, they tend to be quite similar, which suggests that they're the result
+not of aggressive independent research but rather of company guidance. If
+that's the case, then let the company give its guidance publicly, in a
+conference call accessible to the public, broadcast on the Internet, and
+transcribed on the company's Web site. The same should be the case with any
+disclosure of material information.
+
+            Regulation FD will work, though, only if it's followed up with a loosening
+of the rules on the kinds of public statements companies can make without fear
+of running afoul of either the SEC or minority-shareholder lawsuits. Even
+today, the SEC continues to limit the kinds of forward-looking statements
+companies can make, out of a desire to protect individual investors--whom it
+considers less serious and financially responsible--from potentially deceptive
+statements. And the ability of lawyers to sue every company executive who makes
+a prediction that doesn't come true obviously keeps executives from making
+predictions that would be of great use to investors. Both of these phenomena
+are legacies of Depression-era laws passed when Wall Street was purely an
+insider's game and individual investors really were at a radical disadvantage
+in terms of separating truth from lies. But protecting individual investors
+today has the ironic effect of perpetuating their informational disadvantage.
+If we're going to have full disclosure, then we have to accept the risks that
+go along with it. So let companies speak and investors listen and decide from
+themselves, and cut out the middle men.
+
+         
+      
+   

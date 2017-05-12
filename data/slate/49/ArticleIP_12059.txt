@@ -1,0 +1,188 @@
+
+   
+   
+      
+         
+             Browser Bork Replies
+
+            Michael Kinsley seeks to
+find a contradiction between the book I wrote in 1978, The Antitrust
+Paradox , and my representation of Netscape and other firms that support the
+government's antitrust case against Microsoft. He goes on to suggest that I
+have become a "disingenuous cynic" and have endangered, if not lost, my
+scholarly reputation. Though he reveals his own conflict of interest, which
+hardly requires confession, since everyone knows that Microsoft owns
+
+                  Slate
+               , his attack follows the Microsoft line. That company's
+minions are masters of the ad hominem.
+
+            Let us begin with my
+motivation, which Mr. Kinsley questions. When Netscape first approached me, I
+said I thought I was on the other side. All I knew then came from newspaper
+accounts that described the case as an attack on tie-ins. I continue to think
+tie-in law mistaken, but this was not a case of extending a monopoly to a
+competitive market. Rather, Microsoft, as its own internal documents show, was
+trying to stamp out a product, the Netscape browser, that might compete with
+its monopoly operating system. Netscape sent not only the reference to my book,
+The Antitrust Paradox , but an explanation of why predation would work in
+this market. At about that time, a lawyer for Microsoft called and, in
+conversation and by letter, tried to convince me that the company's practices
+created efficiency. He offered me a retainer. I have no idea how large that
+might have been because I did not ask or try to negotiate with him. I said that
+if he convinced me, I would simply stay out of the case. He did not persuade
+me, and I went with Netscape, charging the same hourly rate I charge all
+clients, no more, no less. There was no reason why I should make that choice
+except that I thought, and continue to think, Netscape is right. The government
+seems to be proving that in the courtroom.
+
+            Mr. Kinsley's economic analysis fares no better than his
+personal attack. The key question is whether predation, including price
+predation, can be an effective monopolizing technique. As I recall Mr.
+Kinsley's review of my book, it was one of the less comprehending assessments.
+The ensuing 20 years have not improved his comprehension, and it is too much to
+expect that he will reread the work now. My belief that Netscape has the better
+of the argument with Microsoft rests on much more than the Lorain
+Journal case. To refresh Mr. Kinsley's memory, the relevant passage begins
+at Page 148, where I wrote that "The technique of predation, rather than the
+question of reserves, is likely to be decisive in the success of the tactic,
+and the law should focus upon this issue."
+
+            Price cutting will
+usually not be a successful technique, I wrote, because it requires the
+predator to expand his rate of output in order to drive prices down. In the
+case I posited, an expansion of output imposes increasing costs upon the
+predator because his marginal costs will rise and the victim's will not. That
+will be true in almost all industries. It follows from the argument that price
+cutting can be a successful predatory tactic if marginal costs are not rising.
+I did not make the point explicit because it seemed obvious and a rare
+case.
+
+            Microsoft's representatives have made it clear that, after
+development costs, the production and distribution of software displays a flat
+marginal cost. The predator is at no disadvantage. If his financial reserves
+are larger than the victim's (in proportion to their market shares), the
+predator can destroy the victim's business. This is especially true where the
+predator is spending only a small fraction of its monopoly profits while the
+victim has no such profits. Nor will outsiders put up the capital to resist the
+predator, for they will know the victim is at a disadvantage in the fight.
+
+            That, in essence, is the
+case against Microsoft's attempted destruction of the Netscape browser in order
+to defend its monopoly in operating systems. I trust the matter is now clear to
+Microsoft, 
+                  Slate
+               , and Mr. Kinsley, but it is too much to hope
+that any of them will concede.
+
+            
+               
+                  Michael Kinsley
+responds:
+               
+            
+
+            First of all, thanks to Judge Bork for the above
+response. Next, a few points in reply:
+
+            1. I consulted no one at Microsoft, outside of
+
+                  Slate
+               , in writing my piece. The company's "minions" didn't even
+know I was writing it until it appeared. I did read a document or two off the
+company's publicly available antitrust suit propaganda
+page, as well as a similar page sponsored by the Justice
+Department.
+
+            2. One of the striking
+things about the Microsoft trial, so far, is the extent to which the Justice
+Department and its lawyer, David Boies, have built their case around personal
+vilification of Bill Gates. This may be justified or not--we like him well
+enough around here!--but it does seem unreasonable for a supporter of the DOJ
+to suggest that ad hominen attacks are a Microsoft specialty.
+
+            3.In his response, Mr. Bork fleshes out his earlier
+statements about how he came to sign up with Netscape. Until Netscape
+approached him, he thought Microsoft was right and Netscape was wrong--based on
+his general view that "predation" (misuse of market power) is largely a myth.
+Netscape didn't merely point out a two page discussion in his book of a single
+case that pointed the other way. Netscape also sent him "an explanation of why
+predation would work in this particular market." If Netscape supplied Mr. Bork
+with the argument why his own theories supported Netscape's position, what
+did Mr. Bork supply ?
+
+            4. Mr. Bork says that when Microsoft also tried to
+hire him, he gave the company's lawyer a hearing, with the understanding that
+"if he convinced me, I would simply stay out of the case." Bizarrely, Mr. Bork
+seems to think this arrangement allowed him to choose sides with complete
+neutrality. Let's see: If he chose Netscape, he got "the same hourly rate I
+charge all clients, no more, no less." If he chose Microsoft, he got ...
+nothing. Sure, that sounds perfectly neutral.
+
+            5. I'm sorry Mr. Bork
+recalls my review of his book as "one of the less comprehending assessments."
+It was, as I said, a favorable review. Maybe that's why.
+
+            6.Mr. Bork says his argument against Microsoft is based on
+"much more" than his book's two page discussion of the Lorain Journal
+case. I guess it depends on what you mean by the word "much." All he cites in
+this reply is one additional passage from the book, which, he concedes, "does
+not make the point explicit." Indeed it does not. The discussion of predation
+in the pages following Page 148 does not contain a single word suggesting that
+Bork believes predatory pricing can ever be a valid antitrust concern. In fact,
+the only "technique of predation" that Bork, in his book, expresses any concern
+about is "misuse of government process." He writes, "Misuse of courts and
+government agencies is a particularly effective means of delaying or stifling
+competition."
+
+            7. "The point" is his current argument that his
+earlier argument--that predation by price cutting doesn't work--only applies
+where marginal costs are rising. He says his current argument is implied,
+though not "explicit," in the book (and therefore, by further implication, he's
+not a hypocrite). It's true the book assumes rising marginal costs, but it does
+not "follow," as he claims, that predation by cost cutting depends on rising
+marginal costs. (If you assume you're holding an apple and conclude from that
+you're holding a fruit, it doesn't "follow" that if you're holding an orange
+you're not holding a fruit.) Mr. Bork's current argument may be right or
+wrong, but it's certainly not derived from his book.
+
+            8. The assumption of
+rising marginal costs (in any but the shortest of short terms) is widely
+regarded as the weak link in the logic of neoclassical economics. Software may
+be an extreme example of marginal costs that plunge immediately to near zero
+and stay there, but learning curves and economies of scale are more
+characteristic of most modern industries than rising marginal costs. Yet in
+order to defend his current position, Mr. Bork now
+declares--unnecessarily!--that his whole theory of antitrust rests on this weak
+point. His life's great intellectual achievement, he says in effect, doesn't
+apply in most real-life situations.
+
+            9.On the merits of his current argument, Mr. Bork is right
+to call me uncomprehending. His original argument that predatory price cutting
+can't work (and therefore needn't be illegal) was that it will always cost the
+predator more than the intended victim, because the predator is selling more
+units during the price war in which both parties are losing money. I do not
+comprehend why that depends on rising marginal costs. It's true that rising
+marginal costs increase the predator's losses--but even with flat marginal
+costs, the predator's losses get bigger and bigger until the victim surrenders.
+Zero marginal costs, if anything, ought to make it even harder to drive a
+competitor from the field with devastating losses. Am I missing something?
+
+            10. And--to finish the argument--if Mr. Bork's
+original argument about relative losses doesn't depend on rising marginal
+costs, neither does its corollary that capital markets should be willing to
+bankroll a price war that the victim could win with an adequate war chest.
+(This is actually the very point, in context, of the sentence Mr. Bork quotes
+from Page 148 of his book.) I therefore do not comprehend why Mr. Bork now
+thinks it matters that Microsoft has more money than Netscape when he was so
+specifically contemptuous of that argument 20 years ago.
+
+            11. This is not to say that Mr. Bork's old theory
+was right or that his new one is necessarily wrong--only that the two theories
+are irreconcilable. And if what Mr. Bork is arguing today cannot be honestly
+derived from his seminal book 20 years ago, this makes the question of what
+Netscape is paying him for even more piquant.
+
+         
+      
+   

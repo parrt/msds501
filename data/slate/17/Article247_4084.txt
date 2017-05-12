@@ -1,0 +1,79 @@
+
+   
+   
+      
+         
+            What Is Source Code?
+            
+
+            Among the legal remedies being considered in the Microsoft antitrust trial
+is a court order that would force the company to reveal the "source code" for
+part or all of its Windows operating system. What exactly does this mean?
+
+            Source code is simply the human-readable version of the computer commands
+that make up a program. It is the letters and symbols that software engineers
+type into their computers when they create an application or operating system.
+For example, if a C++ programmer wrote a program to make his computer display
+the words, "Hello, World," the source code might look like this:
+
+            #include <iostream.h>
+void main()
+{
+cout<<"Hello, World";
+}
+
+            Although these commands are intelligible to engineers, they are useless to
+computers, which understand only ones and zeros. So, to make the source code
+into a functioning program, translation software (called a "compiler") must
+convert it into the binary "object code" that computers can process.
+
+            Open source software, such as the Linux operating system, makes both the
+object code and the source code freely available so that any programmer can
+figure out how the program is constructed and then alter it to his
+satisfaction. But closed source software, such as Windows and most commercial
+programs, is shipped with the object code only. Software companies argue that
+source code contains valuable intellectual property that must be protected. One
+common analogy compares source code to the formula for Coca-Cola: The Coca-Cola
+Co. ships only bottles of Coke to its customers, not the formula for the drink,
+because it doesn't want competitors to brew knock-offs or use the formula to
+improve their drinks.
+
+            With software, "decompilers"--or, reverse-translation programs--can
+theoretically convert object code back into source code. But their inaccuracies
+render them largely ineffective. (Think of one person translating a sentence
+from English to Japanese and another translating it back into English; chances
+are slim that the sentence would end up in its original form.) Additionally,
+attempting to reverse engineer software is illegal: Like most commercial
+software companies, Microsoft forbids it as part of its licensing
+agreement.
+
+            If Microsoft (which owns 
+                  Slate
+               ) were to make the Windows
+source code public, competitors could use this information to market Windows
+clones or alter their operating systems (Linux, Mac OS, etc.) to run software
+designed for Windows. However, neither project would be easy. Windows 98
+contains approximately 20 million lines of source code written in multiple
+computer languages. To use the source code effectively, a competitor would need
+to figure out which commands affect which functions and how changes to one part
+would affect the functioning of the whole--a nearly impossible guessing game
+for even the most experienced programmers. For this reason, releasing the
+Windows source code might not instantly erode Microsoft's dominance in PC
+operating systems unless a great number of software engineers applied
+themselves to the effort. Microsoft argues that releasing the source code would
+be bad for consumers because it would result in many incompatible versions of
+Windows.
+
+            So far, the results of releasing source code to the public are mixed. It can
+stir great creativity among programmers, as the Linux story illustrates. Or, it
+can prove a disappointment. Netscape made public the source code for its
+Navigator browser a year an a half ago, and most estimate that it will take at
+least another six months for programmers to create a new product with it. And a
+browser's source code is only a fraction of the size of that of an operating
+system.
+
+            Next question?
+
+         
+      
+   

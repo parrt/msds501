@@ -1,0 +1,344 @@
+
+   
+   
+      
+         
+            Booze You Can Use
+
+            I love beer, but lately I've been wondering: Am I
+getting full value for my beer dollar? As I've stocked up on microbrews and
+fancy imports, I've told myself that their taste is deeper, richer, more
+complicated, more compelling--and therefore worth the 50 percent to 200 percent
+premium they command over cheap mass products or even mainstream Bud. And yet,
+I've started to wonder, is this just costly snobbery? If I didn't know what I
+was drinking, could I even tell whether it was something from Belgium, vs.
+something from Pabst?
+
+            I'm afraid we'll never know the answer to that
+exact question, since I'm not brave enough to expose my own taste to a real
+test. But I'm brave enough to expose my friends'. This summer, while working at
+Microsoft, I put out a call for volunteers for a "science of beer" experiment.
+Testing candidates had to meet two criteria: 1) they had to like beer; and 2)
+they had to think they knew the difference between mass products and high-end
+microbrews.
+
+            Twelve tasters were
+selected, mainly on the basis of essays detailing their background with beer. A
+few were selected because they had been bosses in the Microsoft department
+where I worked. All were software managers or developers ; all were male, but I
+repeat myself. Nearly half had grown up outside the United States or lived
+abroad for enough years to speak haughtily about American macrobrews. Most
+tasters came in talking big about the refinement of their palates. When they
+entered the laboratory (which mere moments before had been a Microsoft
+conference room), they discovered an experiment set up on the following
+lines:
+
+            1 Philosophy
+               : The
+experiment was designed to take place in two separate sessions. The first
+session, whose results are revealed here, involved beers exclusively from the
+lager group. Lagers are the light-colored, relatively lightly
+flavored brews that make up most of the vattage of beer consumption in the
+United States. Imported lagers include Foster's, Corona, and Heineken.
+Budweiser is a lager; so are Coors, Miller, most light beers, and most
+bargain-basement beers.
+
+            Beer snobs sneer at lagers, because they look so
+watery and because so many bad beers are in the group. But the lager test came
+first, for two reasons. One, lagers pose the only honest test of the ability to
+tell expensive from dirt-cheap beers. There are very few inexpensive nut brown
+ales, India pale ales, extra special bitters, or other fancy-pantsy,
+microbrew-style, nonlager drinks. So if you want to see whether people can
+taste a money difference among beers of the same type, you've got to go lager.
+Two, the ideal of public service requires lager coverage. This is what most
+people drink, so new findings about lager quality could do the greatest good
+for the greatest number.
+
+            In the second stage of
+the experiment, held several weeks later, the same testers reassembled to try
+the fancier beers. The results of that tasting will be reported separately,
+once Microsoft's mighty Windows 2000-powered central computers have .
+
+            2 Materials
+               : Ten lagers
+were selected for testing, representing three distinct price-and-quality
+groups. Through the magic of the market, it turns out that lager prices nearly
+all fall into one of three ranges:
+
+            a) High end at $1.50 to $1.60 per pint. ("Per pint"
+was the unit-pricing measure at the Safeway in Bellevue, Wash., that was the
+standard supply source for the experiment. There are 4.5 pints per six pack, so
+the high-end price point is around $7 per six pack.)
+
+            b) Middle at around 80 cents per pint, or under $4
+per six pack.
+
+            c) Low at 50 cents to 55 cents per pint, or under
+$3 per six pack.
+
+            The neat 6:3:2
+mathematical relationship among the price groups should be noted. The high-end
+beers cost roughly three times as much as the cheapest ones, and twice as much
+as the middle range. The beers used in the experiment were as follows:
+
+            
+               High End
+            
+
+            
+               Grolsch. Import lager (Holland). $1.67 per
+pint. (See an important .) Chosen for the test because of its beer-snob chic;
+also, one of my favorite beers.
+
+            
+               Heineken. Import lager (Holland). $1.53 per
+pint. (Sale price. List price was $1.71 per pint.) Chosen because it is
+America's long-standing most popular import.
+
+            
+               Pete's Wicked Lager. National-scale
+"microbrew." $1.11 per pint. (Deep-discount sale. List price $1.46 per pint.)
+Like the next one, this put us into the gray zone for a lager test. Few
+American "microbreweries" produce lagers of any sort. Pete's is called a lager
+but was visibly darker than, say, Bud.
+
+            
+               Samuel Adams Boston
+Lager. National macro-microbrew. $1.56 per pint. (That was list price. The
+following week it was on sale for $1.25 per pint, which would have made it do
+far better in the value rankings.) Calls itself America's Best Beer. Has dark
+orangey-amber color that was obviously different from all other lagers
+tested.
+
+            
+               Mid-Range
+            
+
+            
+               Budweiser. $.84 per pint. (Sale. List price
+$.89 per pint.) Self-styled King of Beers.
+
+            
+               Miller Genuine Draft. $.84 per pint. (Sale.
+List price $.89 per pint.)
+
+            
+               Coors Light. $.84
+per pint. (Sale. List price $.89 per pint. Isn't price competition a wonderful
+thing?) The Silver Bullet That Won't Slow You Down.
+
+            
+               Cheap
+            
+
+            
+               Milwaukee's Best. $.55 per pint. (Sale. List
+price $.62 per pint.) A k a "Beast."
+
+            
+               Schmidt's. $.54 per pint. (Sale. List $.62
+per pint.) Box decorated with a nice painting of a trout.
+
+            
+               Busch. $.50 per pint. (Sale. List $.69 per
+pint.) Painting of mountains.
+
+            The Safeway that
+supplied the beers didn't carry any true bargain-basement products, such as
+"Red, White, and Blue," "Old German," or the one with generic printing that
+just says "Beer." The experiment was incomplete in that regard, but no tester
+complained about a shortage of bad beer. Also, with heavy heart, the test
+administrator decided to leave malt liquors, such as Mickey's (with its
+trademark wide-mouth bottles), off the list. They have the air of cheapness but
+actually cost more than Bud, probably because they offer more alcohol per
+pint.
+
+            3 Experimental 
+               procedure: Each
+taster sat down before an array of 10 plastic cups labeled A through J. The
+A-to-J coding scheme was the same for all tasters. Each cup held 3 ounces of
+one of the sample beers. (Total intake, for a taster who drank all of every
+sample: 30 ounces, or two and a half normal beers. Not lethal; also, they were
+just going back to software coding when they were done.) Saltines were
+available to cleanse the palate. The cups were red opaque plastic, so tasters
+could judge the beer's color only from above. There was no time limit for the
+tasting, apart from the two-hour limit in which we had reserved the conference
+room. One experimenter (the boss of most of the others there) rushed through
+his rankings in 10 minutes and gave the lowest overall scores. The taster who
+took the longest, nearly the full two hours, had the ratings that came closest
+to the relative price of the beers. (This man grew up in Russia.) The
+experimenters were asked not to compare impressions until the test was
+over.
+
+            After tasting the beers, each taster rated beers A
+through J on the following standards:
+
+            
+               Overall quality points: Zero to 100, zero as
+undrinkable and 100 as dream beer. Purely subjective measure of how well each
+taster liked each beer.
+
+            
+               Price category: The tasters knew that each
+beer came from the expensive, medium, or cheap category--and they had to guess
+where A through J belonged. A rating of 3 was most expensive, 2 for average, 1
+for cheap.
+
+            
+               Description: "Amusing presumption," "fresh on
+the palate," "crap," etc.
+
+            
+               Best and Worst: Tasters chose one Best and
+one Worst from the "flight" (as they would call it if this were a wine
+test).
+
+            When the session was over, results for each beer
+were collected in a grid like this:
+
+             
+
+            To see all the grids for
+all the beers, click .
+
+            4 Data 
+               Analysis: The ratings led to
+four ways to assess the quality of the beers.
+
+            
+               1. Best and Worst.
+Least scientific, yet clearest cut in its results. Eleven tasters named a
+favorite beer. Ten of them chose Sam Adams . The other one chose
+Busch , the cheapest of all beers in the sample. (The taster who made
+this choice advises Microsoft on what new features should go into the next
+version of Word.) Busch was the only beer to receive both a Best and a Worst
+vote.
+
+            Bottom rankings were also clear. Of the 11 naming a
+Worst beer, five chose Grolsch , the most expensive beer in the survey.
+Results by best/worst preference:
+
+             
+
+            
+               2. Overall 
+               preference
+points
+               . This was a subtler and more illuminating look at
+similar trends. The beers were ranked on "corrected average preference
+points"--an average of the zero-to-100 points assigned by each taster,
+corrected, just like ice skating scores, by throwing out the highest and lowest
+score each beer received. The tasters used widely varying scales--one confining
+all beers to the range between zero and 30, another giving 67 as his lowest
+mark. But the power of our corrected ranking system surmounted such
+difficulties to provide these results:
+
+             
+
+            Here again one costly beer-- Sam
+Adams --shows up well, while another, Grolsch ,
+continues to struggle, but not as badly as the medium-price Miller
+Genuine Draft . Sam's success could reflect its quasi-mislabeling,
+presenting a strong-flavored beer as a "lager." It could also reflect that
+participants simply thought it was good. (Only one guessed it was Sam Adams.)
+As for Grolsch ... it is very strongly hopped, which can seem exotic if you
+know you're drinking a pricey import but simply bad if you don't. MGD overtook
+Grolsch in the race for the bottom because, while many people hated Grolsch,
+some actually liked it; no one liked MGD. There are some other important
+findings buried in the chart, but they're clearest if we move to ...
+
+            3) Value for Money: the
+Taste-o-meter® . Since this experiment's real purpose was to
+find the connection between cost and taste, the next step was to adjust
+subjective preference points by objective cost. The Taste-o-meter rating for
+each beer was calculated by dividing its corrected average preference
+rating by its price per pint . If Beer X had ratings twice as high as
+Beer Y, but it cost three times as much, Beer Y would have the higher
+Taste-o-meter rating. When the 10 beers are reranked this way, the results
+are:
+
+             
+
+            In a familiar pattern, we have
+Grolsch bringing up the rear, with less than one-quarter the
+Taste-o-meter power of Busch , the No. 1 value beer. The real
+news in this ranking is: the success of Busch ; the
+embarrassment of Heineken and Miller Genuine
+Draft , an expensive and a medium beer, respectively, which share the
+cellar with the hapless Grolsch ; and the nearly Busch-like
+value of Milwaukee's Best and Schmidt's . It
+is safe to say that none of our testers would have confessed respect for Busch,
+Milwaukee's Best, or Schmidt's before the contest began. But when they didn't
+know what they were drinking, they found these beers much closer in quality to
+"best" beers than the prices would indicate.
+
+            
+               4) Social Value for Money: the
+Snob-o-meter® . In addition to saying which beers they
+preferred, the tasters were asked to estimate whether the beers were expensive
+or not--in effect, to judge whether other people would like and be impressed by
+the beers. One taster perfectly understood the intention of this measure when
+he said, in comments about Beer B (Heineken), "I don't like it, but I bet it's
+what the snobs buy." The Snob-o-meter rating for each beer is similar to the
+Taste-o-meter. You start with the "group" ranking--whether the tasters thought
+the beer belonged in Group 1 (cheap), 2, or 3--and then divide by the price per
+pint. The result tells you the social-mobility power of the beer--how
+impressive it will seem, relative to how much it costs. The Snob-o-meter
+rankings are:
+
+             
+
+            We won't even speak of
+poor Grolsch or MGD any more. The story here is the amazing
+snob-power-per-dollar of Busch , closely followed by Schmidt's . A
+dollar spent on Busch gets you three times the impressiveness of a dollar spent
+in Grolsch, useful information when planning a party. Not everyone liked
+Busch--one called it "crap"; another, "Water. LITE." But the magic of
+statistics lets us see the larger trends.
+
+            
+5 Conclusions
+               . Further
+study is needed. But on the basis of evidence to date, we can say:
+
+            
+
+               One and only one beer truly survived the blind taste test. This is Sam
+Adams , which 10 tasters independently ranked "best" without knowing they
+were drinking a fancy beer. (They knew it was darker than the others but
+couldn't have known whether this was some trick off-brand sneaked into the
+test.)
+
+               Don't serve Grolsch unless you know people will consider it exotic,
+or unless you've invited me.
+
+               Apart from Sam Adams and Grolsch, the tasters really had trouble telling
+one beer from another . This conclusion is implicit in many of the
+findings, but it was really obvious during the experiment itself, when the
+confident look of men-who-know-their-beer quickly turned to dismay and panic as
+they realized that all the lagers tasted pretty much the same.
+
+            
+
+            The evidence suggests other implications about
+specific beers. For instance, the comments about Coors Light are much
+less enthusiastic than the average-or-better numerical rankings. Most tasters
+paused to complain about it--"fizzy and soapy"--before giving it reasonable
+marks. But the main implication, and the most useful consumer news from this
+study, is a radically simplified buying philosophy for lager beers.
+Based on this study, rational consumers should:
+
+            1) Buy Sam Adams when they want an individual
+glass of lager to be as good as it can be.
+
+            2) Buy Busch at all other times, since it
+gives them the maximum taste and social influence per dollar invested.
+
+            The detailed rankings and comments for all tasters
+on all beers may be found .
+
+            Next installment: fancy beers .
+
+         
+      
+   

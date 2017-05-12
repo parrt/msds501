@@ -1,0 +1,127 @@
+
+   
+   
+      
+         
+            Slate Home Delivery
+
+            
+
+               
+                  Slate Home Delivery
+            
+
+            (Click to go directly to
+
+                  Slate
+                Home Delivery instructions.)
+
+            Imagine this: You wake up,
+stumble out of bed, pour a cup of coffee, and go to your printer. There, fresh
+and warm, are 
+                  Slate
+               's "Today's Papers," a few of your other
+favorite 
+                  Slate
+                departments, maybe even a non-
+                  Slate
+               
+item or two such as that morning's Washington Post news digest. No need
+to boot up or log on. No need to read onscreen or wait for a printout. Why,
+there's no need even to go outside and collect the newspaper. True home
+delivery-- inside your home. Sound good?
+
+            It
+occurred to us a while ago: Why can't people leave their computers and their
+printers on overnight, or whenever, and have their printouts waiting for them,
+rather than vice versa? There are "push" technologies, such as PointCast and
+the "channels" on Microsoft Internet Explorer, which will download Web pages
+automatically. But none of them takes the next step of printing the pages out.
+Why not? Could it be that computer types don't appreciate the widespread
+aversion to reading things on a screen? Whatever the reason, how hard would it
+be to offer this service to 
+                  Slate
+                readers?
+
+            As we do with all deep philosophical questions, we took
+this one to the nearest software developer, who happened to be
+
+                  Slate
+               's own Chief Computer Guy Andrew Shuman. And Shuman gave his
+usual two-part answer: a) Very easy. No problem at all. b) Very difficult.
+Would require many a moon. Need new staff, much wampum. Accused of
+self-contradiction, he sniffed: "To you it's a contradiction. To me it's a
+paradox. Some people can't tell the difference." And he added, "If you think
+it's so easy, why don't you do it yourself?"
+
+            So we did.
+The process gave us new respect for software developers. We deeply regret any
+harsh or impatient words we may have uttered to them (or even behind their
+backs). Nevertheless, we have a solution. Shuman wishes it known that this is
+not an official 
+                  Slate
+                service, and the publisher wishes it known
+that we cannot supply support or advice on it. It's just a whimsy of
+
+                  Slate
+               's journalistic element. It hasn't been tested. It doesn't
+work on AOL and may not work on any configuration of equipment and services
+other than those on the editor's home machine. Nevertheless, we think it's
+pretty cool.
+
+            
+It's actually just an adaptation of some
+software from Hewlett-Packard called HP Web PrintSmart. You can download the software free from HP's Web site. (Although the site
+implies the software is intended only for HP printers, it actually plays well
+with others.) PrintSmart has various features, and you're welcome to piss away
+as many hours horsing around with it as we have. But for our purposes, it does
+three things. First, at a time and frequency you determine (just once, once a
+week, every day, or every weekday), it dials your Internet service provider (if
+necessary), makes a connection, downloads the Web pages you have selected,
+closes the connection, and hangs up. Second, it very cleverly reformats the
+pages to look good and save paper when printed out. Third, it does print them
+out.
+
+            
+PrintSmart can be customized for 
+                  Slate
+                fairly easily. You can
+instruct the program to search in various ways for pages linked to other pages.
+By setting these parameters correctly, you can schedule an overnight printout
+of any combination of 
+                  Slate
+                articles or departments you wish.
+(You can add other Web sites, too.) And in the morning, if you wish, you can go
+to a checklist of 
+                  Slate
+                pages, preview them, and choose other
+articles to print out--all without dialing in again.
+
+            PrintSmart has some flaws, and for our purposes it's more
+complicated than it ought to be. 
+                  Slate
+                and HP both have ambitions
+for a simpler process, and you can expect to see some developments over the
+next few months.
+
+            We also should mention a
+rival product put out by another printer company, Canon. Called WebRecord, it
+has some advantages over PrintSmart. For example, it formats printouts for two
+or three columns a page, thus saving even more paper. But it doesn't have a
+search mechanism, it doesn't have a scheduler--and it costs $30. Nevertheless,
+if you're into printing out, it's worth
+investigating.
+
+            For instructions on setting
+up 
+                  Slate
+                Home Delivery using HP PrintSmart, .
+
+            
+
+               --Michael Kinsley
+            
+
+         
+      
+   

@@ -1,0 +1,50 @@
+
+   
+   
+      
+         
+            What Is Moore's Law?
+            
+
+            Last month, in Science magazine, a scientist wrote that the computer
+industry is "in serious danger" of violating Moore's Law. What is he referring
+to?
+
+            Moore's Law is really just a prediction that the processing power of the
+state-of-the-art computer chip will double every 18 months. It's named after
+computer engineer Gordon Moore, a co-founder of the Intel Corporation. In 1965,
+Moore observed that since the invention of integrated circuits (or microchips)
+in 1959, the number of transistors that a chip of constant surface area could
+hold had doubled once every year or two. (Integrated circuits are the basic
+units of computer logic and memory, and transistors are the "on-off" switches
+that allow digital information to be transmitted, processed, and stored. The
+more transistors you can pack on a circuit, the more powerful the circuit
+becomes.) Moore simply predicted that this pattern would continue.
+
+            Even though it's not really a law, Moore's prediction has held true for the
+past three decades. In fact, its hallowed status has made it self-fulfilling:
+Chipmakers and industry analysts now set their goals and forecasts based on
+Moore's Law. And because chip prices have decreased even as capacity has risen,
+the computer processing power available to consumers at a given price has
+doubled even more quickly.
+
+            Since Moore's Law depends on the continuous shrinking of transistors,
+scientists generally agree that it will eventually be violated. Previous
+predictions that it would break down have proved incorrect, and most scientists
+expect Moore's Law to hold for at least 10-15 more years. But the
+Science article suggests that Moore's Law may encounter physical limits
+sooner. Transistors have already shrunk to one five-hundredth the width of a
+human hair. To adhere to Moore's Law, within five years engineers would have to
+create transistors that are only a few dozen atoms across--a feat that might be
+impossible, since atomic movement is so difficult to predict. (Click here to read the New York Times '
+non-technical piece on the Science article.) Engineers are currently
+investigating new materials and technologies that might allow Moore's Law to
+survive this latest challenge.
+
+             
+
+            Next question?
+
+         
+      
+   

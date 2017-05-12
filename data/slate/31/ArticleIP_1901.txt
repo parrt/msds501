@@ -1,0 +1,157 @@
+
+   
+   
+      
+         
+            Tough-Talking Nerds
+
+            Company X "dominates" its
+market, seeking to "crush" company Y. Meanwhile, CEO A is locked in a "war"
+with CEO B, declaring an intention to "take no prisoners." Mr. B, for his part,
+says he "loves a good fight" and predicts "Armageddon," since his upcoming
+product release will "nuke 'em till they glow." The IPO of company Z is hot
+because analysts think it will "suck the life out" of established companies.
+Any discussion of the technology business is colored with the lurid vocabulary
+found mainly in Quentin Tarantino films. Observers who knew business only from
+these descriptions would reach one of two conclusions: 1) Business is an epic
+and violent struggle, fought by heroic and powerful men. 2) They are
+overhearing a bunch of pre-teen boys playing with action figures. The second
+option is a lot closer to the truth.
+
+            Titans of
+industry as overpaid Ninja Turtles? Surely this isn't the case. Business is
+war! Its leaders are strategic commanders, who boldly snatch victory from the
+jaws of defeat--and who perform other acts of derring-do. This kind of talk
+sounds great in the boardroom, and, for that matter, in the bookstore, where
+dozens of authors counsel would-be corporate warriors. Sun Tzu is alleged to
+have written The Art of War some 2,500 years ago--so he isn't personally
+plying the seminar circuit, but his translators and interpreters are, along
+with those promoting other military-history hall of famers like Attila the Hun,
+Karl Von Clausewitz, and the 17 th -century samurai who wrote A
+Book of Five Rings.
+            
+
+            The first clue that something is amiss is that only dead
+generals seem to give business advice. Live generals are experts on the
+specialized killing of modern armies--efficient, but lacking the cachet of
+ancient warfare. Where's the chivalry in a stealth bomber? Besides, modern
+examples are obviously irrelevant to the next marketing plan. Dead experts, on
+the other hand, can opine on topics like swordsmanship, which are so irrelevant
+that they can be mistaken for a mystical metaphor.
+
+            When I
+first moved from theoretical physics to business, I dutifully read the
+business-as-war books, hoping to gain some insights. I did learn a lot about
+how the ancient kingdom of Wu conducted foreign policy, the virtue of a few
+beheadings to discipline the troops, and how Von Clausewitz thought you should
+deploy field artillery. A decade later I must confess that I've never deployed
+artillery, and that the kingdom of Wu has yet to come up. Nor have I had an
+opportunity to behead miscreant employees (although in some cases, it is a
+pleasing thought). This is true even though I've served on the front lines of
+the purported "battles" famed in the lore and legend of the software
+industry.
+
+            
+Software-industry battles are fought by highly
+paid and out-of-shape nerds furiously pounding computer keyboards while they
+guzzle diet Coke. The stakes aren't very dramatic. Life? Liberty? The pursuit
+of happiness? Nope, it's about stock options. The winners will be worth
+something; the losers will negotiate new compensation deals with the next
+employer. A great deal of intellectual effort goes into this competition, but
+violence or heroism? Not that I've seen. Late-night pizza parties are about as
+wild as it gets.
+
+            The
+bigger the technological "confrontation," the more slowly it occurs. Industry
+pundits have long predicted the death of the mainframe computer at the hands of
+PCs and workstations. Twenty years after this funeral dirge started, it seems
+safe to say the predictions were a bit premature. For the first 15 years, the
+personal computer had no direct competition with mainframes--they simply did
+different things. Utilities bills and payroll were not good candidates for a
+PC, just as flying-toaster screen savers were rare on IBM 3090s. More recently
+a few mainframe applications have become feasible on PC servers, and it is
+clear that one day, the last mainframe will be turned off. That day may be
+another 20 years hence, or perhaps only 10. Either way, this clash of the
+titans has been about as exciting to watch as a melting glacier. Yet it is far
+more typical of a technology change than the slam-bang predictions would
+suggest.
+
+            A new and fast-growing technology is, almost by definition,
+expanding into a vacuum by operating in a new or unprecedented manner. It's
+hard to take the world by storm and butt heads with entrenched competitors at
+the same time. Technological "revolutions" don't really overthrow
+anything--they simply append a new and dynamic market to that which went
+before. The new appendages might grow faster than their predecessors, and so
+eclipse them as the darling du jour of Wall Street. However, being upstaged
+isn't quite the same as being annihilated, and it certainly isn't anything like
+war. Less frequently, something is rendered totally obsolete--but usually only
+if it has been around a long time. Records were replaced by CDs, and lead type
+died in favor of computerized fonts. However, each had a 100-year ride of
+popularity, so you can't feel too bad for them.
+
+            Products
+and companies do go head-to-head in direct competition, but it is rare that the
+challenger stages an upset during the initial period of high growth. The
+fastest a competitor can win is in three or four product versions--which is to
+say, over a period of four to six years. Hardly a blitzkrieg. When a winner
+does emerge, the victory is rarely equivocal. Suicide, rather than death in
+battle, is the proximate cause of every high-tech demise I can think of.
+Competitors bring pressure to bear on a company, but the really damaging moves
+are invariably self-inflicted. The immediate causes are many: A disastrous
+acquisition drains cash reserves and defocuses management; a crucial technology
+trend is ignored; attempts to diversify beyond the initial product line stall.
+The most common problem is that the company loses touch with the creativity and
+technical wizardry that were once its raison d'être, often because of the exit
+of the founders and key technical staff. No competitor or other external agent
+can cause this sort of mortal damage; to find the culprit, senior management
+needn't look further than a mirror.
+
+            
+This perspective might seem self-serving, since
+people use the word "domination" more often when referring to my employer than
+they do in calls to 900 numbers. It's rather amusing to conjure up this image
+as I walk past colleagues clad in chinos and Birkenstocks. Not exactly the garb
+you'd envision for world domination. Perhaps my insider's view is biased, but
+at least it's informed, unlike those of the many armchair experts opining on
+the matter. Be that as it may, bellicose language and self-inflicted wounds are
+not exclusive to those parts of the industry where Microsoft is involved--you
+find them everywhere.
+
+            The story
+of the technology business gets spiced up because the reality is so bland.
+Professional storytellers find this particularly vexing. The business press is
+keen on salacious sound bites, because without such enhancement, nobody would
+give a damn. "Man Bites Dog" is a great headline. "Dog Bites Man" is a poor
+substitute, but beats "Man and Dog Work Really Hard Late at Night for a Long
+Time Until One of Them Screws Up." The last has all the excitement of a game of
+chess played via postcards--until it is recast as single-warrior combat.
+
+            It's easy to mock the shallow treatment of complex
+technology issues in the press, and the absurd opinions of self-proclaimed
+experts, analysts, and other touts. But the press only borrows the martial
+rhetoric that business leaders use themselves. It's not hard to see why they
+use it. In a culture where Xena and Hercules have hit TV shows, it's a lot more
+fun imagining that you are a valiant warrior doing business-as-battle than it
+is to admit that you're a pudgy functionary whose most daring deed is to draft
+a boldly worded memo. Just ask me.
+
+            Tough talk and the rhetoric
+of conflict help hide the basic truth that business leaders are, in real life,
+more contemplative than combative, more sedentary than savage. Leadership is
+about being clever, hard-working, and drawing the best work from a team. Coming
+to terms with this reality isn't easy, especially for the largely male
+contingent of senior managers and pundits whose personal machismo is on the
+line.
+
+            Ever see a contemplative
+Power Ranger? Little boys face a problem very similar to that of high-tech
+executives. They're steeped in a culture that honors power and conflict, yet
+plainly don't yet have the physiques to match the myth. So, they compensate
+with vocabulary, animating their play with exaggerated violence and tough talk,
+smashing, kicking, and zapping the imaginary bad guys. The good news is that
+they are prime candidates for high-technology management--they only have to get
+older, not more mature.
+
+         
+      
+   

@@ -1,0 +1,453 @@
+
+   
+   
+      
+         
+            Krugman's Life of Brian
+
+             
+
+            
+               Where it all started:
+Paul Krugman's 
+               "The Legend of Arthur."
+            
+
+            
+               Letter from John Cassidy
+            
+
+            Paul Krugman replies to John Cassidy
+            
+
+            
+               Letter from M. Mitchell Waldrop
+            
+
+            Paul Krugman replies to M. Mitchell Waldrop
+            
+
+            
+               Letter from Kenneth J. Arrow
+            
+
+            
+               Letter from Ted C. Fishman
+            
+
+            
+               David
+Warsh's July 3, 1994, Boston Globe
+               
+            
+
+            
+               
+                  Letter from John Cassidy:
+               
+            
+
+            Paul Krugman loves to berate
+journalists for their ignorance of economics, particularly his economics, but
+on this occasion, I fear, his logic is more addled than usual. I am reluctant
+to dignify his hatchet job with a lengthy reply, but some of his claims are so
+defamatory that they should be addressed, if only for the record.
+
+            1) Krugman claims that my
+opening sentence--"In a way, Bill Gates's current troubles with the Justice
+Department grew out of an economics seminar that took place thirteen years ago,
+at Harvard's John F. Kennedy School of Government"--is "pure fiction." Perhaps
+so, but in that case somebody should tell this to Joel Klein, the assistant
+attorney general in charge of the antitrust division. When I interviewed Klein
+for my piece about the Microsoft case, he singled out Brian Arthur as the
+economist who has most influenced his thinking about the way in which
+high-technology markets operate. It was Klein's words, not those of Arthur,
+that prompted me to use Arthur in the lead of the story.
+
+            2) Krugman wrote: "Cassidy's
+article tells the story of how Stanford Professor Brian Arthur came up with the
+idea of increasing returns." I wrote no such thing, and Arthur has never, to my
+knowledge, claimed any such thing. The notion of increasing returns has been
+around since Adam Smith, and it was written about at length by Alfred Marshall
+in 1890. What I did say in my article was that increasing returns was largely
+ignored by mainstream economists for much of the postwar era, a claim that
+simply isn't controversial. (As Krugman notes, one reason for this was
+technical, not ideological. Allowing for the possibility of increasing returns
+tends to rob economic models of two properties that economists cherish:
+simplicity and determinism. As long ago as 1939, Sir John Hicks, one of the
+founders of modern economics, noted that increasing returns, if tolerated,
+could lead to the "wreckage" of a large part of economic theory.)
+
+            3) Pace Krugman, I
+also did not claim that Arthur bears principal responsibility for the
+rediscovery of increasing returns by economists in the 1970s and 1980s. As
+Krugman notes, several scholars (himself included) who were working in the
+fields of game theory and international trade published articles incorporating
+increasing returns before Arthur did. My claim was simply that Arthur applied
+increasing returns to high-technology markets, and that his work influenced how
+other economists and government officials think about these markets. Krugman
+apart, virtually every economist I have spoken to, including Daniel Rubinfeld,
+a former Berkeley professor who is now the chief economist at the Justice
+Department's antitrust division, told me this was the case. (Rubinfeld also
+mentioned several other economists who did influential work, and I cited three
+of them in the article.)
+
+            4) Krugman appears to
+suggest that I made up some quotes, a charge that, if it came from a more
+objective source, I would consider to be a serious matter. In effect, he is
+accusing Brian Arthur, a man he calls a "nice guy," of being a fabricator or a
+liar. The quotes in question came from Arthur, and they were based on his
+recollections of two meetings that he attended some years ago. After Krugman's
+article appeared, the Santa Fe professor called me to say that he still
+recalled the meetings in question as I described them. Krugman, as he admits,
+wasn't present at either of the meetings.
+
+            5) For a man who takes his
+own cogitations extremely seriously, Krugman is remarkably cavalier about
+attributing motives and beliefs to others. "Cassidy has made it clear in
+earlier writing that he does not like mainstream economists, and he may have
+been overly eager to accept a story that puts them in a bad light," he
+pronounces. I presume this statement refers to a critical piece I wrote in 1996
+about the direction that economic research, principally macroeconomic research,
+has taken over the past two decades. In response to that article, I received
+dozens of messages of appreciation from mainstream economists, including from
+two former presidents of the American Economic Association. Among the sources
+quoted in that piece were the then-chairman of the White House Council of
+Economic Advisers (Joseph Stiglitz), a governor of the Federal Reserve Board
+(Laurence Meyer), and a well-known Harvard professor (Gregory Mankiw). To
+claim, as Krugman does, that I "don't like mainstream economists" and that I am
+out to denigrate their work is malicious hogwash. The fact of the matter is
+that I spend much of my life reading the work of mainstream economists,
+speaking to them, and trying to find something they have written that might
+interest the general public. In my experience, most economists appreciate the
+attention.
+
+            6) I
+might attach more weight to Krugman's criticisms if I hadn't recently reread
+his informative 1994 book Peddling Prosperity , in which he devotes a
+chapter to the rediscovery of increasing returns by contemporary economists.
+Who are the first scholars Krugman mentions in his account? Paul David, an
+economic historian who wrote a famous paper about how the QWERTYUIOP typewriter
+keyboard evolved and, you guessed it, Brian Arthur. "Why QWERTYUIOP?" Krugman
+wrote. "In the early 1980s, Paul David and his Stanford colleague Brian Arthur
+asked that question, and quickly realized that it led them into surprisingly
+deep waters. ... What Paul David, Brian Arthur, and a growing number of other
+economists began to realize in the late seventies and early eighties was that
+stories like that of the typewriter keyboard are, in fact, pervasive in the
+economy." Evidently, Krugman felt four years ago that Arthur's contribution was
+important enough to merit a prominent mention in his book. Now, he dismisses
+the same work, saying it "didn't tell me anything that I didn't already know."
+Doubtless, this change in attitude on Krugman's part is unconnected to the fact
+that Arthur has started to receive some public recognition. The eminent MIT
+professor, whose early academic work received widespread media attention, is
+far too generous a scholar to succumb to such pettiness.
+
+            
+               --John Cassidy
+            
+
+            
+               
+                  Paul Krugman replies to John
+Cassidy:
+               
+            
+
+            I think that David Warsh's
+1994 in the Boston 
+               Globe says it all. If other journalists would
+do as much homework as he did, I wouldn't have had to write that article.
+
+            
+               
+                  Letter from M. Mitchell Waldrop:
+               
+            
+
+            Thanks to Paul Krugman for
+his lament about credulous reporters who refuse to let facts stand in the way
+of a good story ("The
+Legend of Arthur"). As a professional journalist, I found his points well
+taken--even when he cites my own book, Complexity as a classic example
+of the gullibility genre.
+
+            Among many other things,
+Complexity tells the story of the Irish-born economist Brian Arthur and
+how he came to champion a principle known as "increasing returns." The recent
+New Yorker article explains how that principle has since become the
+intellectual foundation of the Clinton administration's antitrust case against
+Microsoft. Krugman's complaint is that the popular press--including
+Complexity and The New Yorker --is now hailing Brian Arthur as the
+originator of increasing returns, even though Krugman and many others had
+worked on the idea long before Arthur did.
+
+            I leave it
+for others to decide whether I was too gullible in writing Complexity .
+For the record, however, I would like to inject a few facts into Krugman's
+story, which he summarizes nicely in the final paragraph:
+
+            When Waldrop's book came
+out, I wrote him as politely as I could, asking exactly how he had managed to
+come up with his version of events. He did, to his credit, write back. He
+explained that while he had become aware of some other people working on
+increasing returns, trying to put them in would have pulled his story line out
+of shape. ... So what we really learn from the legend of Arthur is that some
+journalists like a good story too much to find out whether it is really
+true.
+
+            Now, I will admit to many
+sins, not the least of them being a profound ignorance of graduate-level
+economics; I spent my graduate-school career in the physics department instead,
+writing a Ph.D. dissertation on the quantum-field theory of elementary particle
+collisions at relativistic energies. However, I am not so ignorant of the
+canons of journalism (and of common sense) that I would take a plausible fellow
+like Brian Arthur at face value without checking up on him. During my research
+for Complexity I spoke to a number of economists about his work,
+including Nobel laureate Kenneth Arrow, co-creator of the General Equilibrium
+Theory of economics that Brian so eloquently criticizes. They generally agreed
+that Brian was a maverick in the field--and perhaps a bit too much in love with
+his own self-image as a misunderstood outsider--but basically sound. None of
+them warned me that he was usurping credit where credit was not due.
+
+            Which brings me to Professor
+Krugman's letter, and my reply. I remember the exchange very well. Obviously,
+however, my reply failed to make clear what I was really trying to say. So I'll
+try again:
+
+            a) During our interviews,
+Brian went out of his way to impress upon me that many other economists had
+done work in increasing returns--Paul Krugman among them. He was anxious that
+they be given due credit in anything I wrote. So was I.
+
+            b) Accordingly, I included a
+passage in Complexity in which Brian does indeed describe what others
+had done in the field--Paul Krugman among them. Elsewhere in that same chapter,
+I tried to make it clear that the concept of increasing returns was already
+well known to Brian's professors at Berkeley, where he first learned of it.
+Indeed, I quote Brian pointing out that increasing returns had been extensively
+discussed by the great English economist Alfred Marshall in 1891.
+
+            c) So, when I received
+Krugman's letter shortly after Complexity came out, I was puzzled: He
+was complaining that I hadn't referenced others in the increasing-returns
+field--Paul Krugman among them--although I had explicitly done so.
+
+            d) But, when I checked the
+published text, I was chagrined to discover that the critical passage
+mentioning Krugman wasn't there.
+
+            e) Only then did I realize
+what had happened. After I had submitted the manuscript, my editor at Simon
+& Schuster had suggested a number of cuts to streamline what was already a
+long and involved chapter on Brian's ideas. I accepted some of the cuts, and
+restored others--including (I thought) the passage that mentioned Krugman. In
+the rush to get Complexity to press, however, that passage somehow wound
+up on the cutting-room floor anyway, and I didn't notice until too late.
+
+            That
+oversight was my fault entirely, not my editor's, and certainly not Brian
+Arthur's. I take full responsibility, I regret it, and--if Simon & Schuster
+only published an errata column--I would happily correct it publicly. However,
+contrary to what Professor Krugman implies, it was an oversight, not a breezy
+disregard of facts for the sake of a good story.
+
+            
+               --M. Mitchell
+Waldrop Washington
+
+            
+               
+                  Paul Krugman replies to M. Mitchell
+Waldrop:
+               
+            
+
+            I am truly sorry that The
+New Yorker has not yet established a Web presence so that we could include
+a link directly to the Cassidy piece. However, you can get a pretty good idea
+of what the piece said by reading the summary of it presented in "Tasty Bits
+from the Technology Front." Cassidy did not present a story about one guy
+among many who worked on increasing returns. On the contrary: He presented a
+morality play in which a lonely hero struggled to make his ideas heard against
+the unified opposition of a narrow-minded profession both intellectually and
+politically conservative. As TBTF's host--not exactly a naive reader--put it,
+"These ideas were anathema to mainstream economists in 1984 when Arthur first
+tried to publish them."
+
+            That morality play--not the
+question of who deserves credit--was the main point of my column, because it is
+a pure (and malicious) fantasy that has nonetheless become part of the story
+line people tell about increasing returns and its relationship to mainstream
+economics.
+
+            The fact, which is easily
+documented, is that during the years that, according to the legend, increasing
+returns was unacceptable in mainstream economics, papers about increasing
+returns were in fact being cheerfully published by all the major journals. And
+as I pointed out in the chronology I provided with the article, even standard
+reference volumes like the Handbook of International Economics
+(published in 1984, the year Arthur supposedly met a blank wall of resistance)
+have long contained chapters on increasing returns. Whatever the reason that
+Arthur had trouble getting his own paper published, ideological rigidity had
+nothing to do with it.
+
+            How did this fantasy come to
+be so widely believed? I am glad to hear that you tried to tell a more balanced
+story, Mr. Waldrop, even if sloppy paperwork kept it from seeing the light of
+day. And I am glad that you talked to Ken Arrow. But Nobel laureates, who have
+wide responsibilities and much on their mind, are not necessarily on top of
+what has been going on in research outside their usual field. I happen to know
+of one laureate who, circa 1991, was quite unaware that anyone had thought
+about increasing returns in either growth or trade. Did you try talking to
+anyone else--say, to one of the economists who are the straight men in the
+stories you tell? For example, your book starts with the story of Arthur's
+meeting in 1987 with Al Fishlow at Berkeley, in which Fishlow supposedly said,
+"We know that increasing returns can't exist"--and Arthur went away in despair
+over the unwillingness of economists to think the unthinkable. Did you call
+Fishlow to ask whether he said it, and what he meant? Since by 1987 Paul
+Romer's 1986 papers on increasing returns and growth had started an avalanche
+of derivative work, he was certainly joking--what he probably meant was "Oh no,
+not you too." And let me say that I simply cannot believe that you could have
+talked about increasing returns with any significant number of economists
+outside Santa Fe without Romer's name popping up in the first 30 seconds of
+every conversation--unless you were very selective about whom you talked to.
+And oh, by the way, there are such things as libraries, where you can browse
+actual economics journals and see what they contain.
+
+            The point is that it's not
+just a matter of failing to cite a few more people. Your book, like the Cassidy
+article, didn't just tell the story of Brian Arthur; it also painted a picture
+of the economics profession, its intellectual bigotry and prejudice, which
+happens to be a complete fabrication (with some real, named people cast as
+villains) that somehow someone managed to sell you. I wonder who?
+
+            Even more to the point: How
+did Cassidy come by his story? Is it possible that he completely misunderstood
+what Brian Arthur was saying--that the whole business about the seminar at
+Harvard where nobody would accept increasing returns, about the lonely struggle
+of Arthur in the face of ideological rigidity, even the quotation from Arthur
+about economists being unwilling to consider the possibility of imperfect
+markets because of the Cold War (give me a break!) were all in Cassidy's
+imagination?
+
+            Let me say that I am
+actually quite grateful to Cassidy and The New Yorker . A number of
+people have long been furious about your book--for example, Victor Norman, whom
+you portrayed as the first of many economists too dumb or perhaps narrow-minded
+to understand Arthur's brilliant innovation. Norman e-mailed me to say that "I
+have read the tales from the Vienna woods before and had hoped that it could be
+cleared up by someone at some point." Yet up to now there was nothing anyone
+could do about the situation. The trouble was that while "heroic rebel defies
+orthodoxy" is a story so good that nobody even tries to check it out, "guy
+makes minor contribution to well-established field, proclaims himself its
+founder" is so boring as to be unpublishable. (David Warsh's 1994 series of
+columns in the Boston Globe on the increasing-returns revolution in
+economics, the basis for a forthcoming book from Harvard University Press, is
+far and away the best reporting on the subject, did include a sympathetic but
+devastating exposé of Arthur's pretensions--but to little effect. [Click to
+read Warsh on Arthur.]) Only now did I have a publishable story: "guy makes
+minor contribution to well-established field, portrays himself as heroic
+rebel--and The New Yorker believes him."
+
+            Thank
+you, Mr. Cassidy.
+
+            
+               
+                  Letter from Kenneth J. Arrow:
+               
+            
+
+            Paul Krugman's attack on
+Brian Arthur ("The
+Legend of Arthur") requires a correction of its misrepresentations of fact.
+Arthur is a reputable and significant scholar whose work is indeed having
+influence in the field of industrial organization and in particular public
+policy toward antitrust policy in high-tech industries. Krugman admits that he
+wrote the article because he was "just pissed off," not a very good state for a
+judicious statement of facts, as his column shows.
+
+            His theme is stated in his
+first paragraph: "Cassidy's article [in The New Yorker of Jan. 12] tells the
+story of how Stanford Professor Brian Arthur came up with the idea of
+increasing returns." Cassidy, however, said nothing of the sort. The concept of
+increasing returns is indeed very old, and Cassidy at no point attributed that
+idea to Arthur. Indeed, the phrase "increasing returns" appears just once in
+Cassidy's article and then merely to say that Arthur had used the term while
+others refer to network externalities. Further, Arthur has never made any such
+preposterous claim at any other time. On the contrary, his papers have fully
+cited the history of the field and made references to the previous papers,
+including those of Paul Krugman. (See Arthur's papers collected in the volume
+Increasing Returns and Path Dependence in the Economy, especially his preface
+and my foreword for longer comments on Arthur's work in historic perspective.
+Click to see the foreword.) Hence, Krugman's whole attack is directed at a
+statement made neither by Arthur nor by Cassidy. Krugman has not read Cassidy's
+piece with any care nor has he bothered to review what Arthur has in fact
+said.
+
+            What Cassidy in fact did in
+his article was to trace a line of influence between one of Arthur's early
+articles and the current claims of the Department of Justice against Microsoft.
+It appears that Cassidy based his article on several interviews, not just
+one.
+
+            The point that Arthur has
+emphasized and which is influential in the current debates about antitrust
+policy is the dynamic implication of increasing returns. It is the concept of
+path-dependence, that small events, whether random or the result of corporate
+strategic choice, may have large consequences because of increasing returns of
+various kinds. Initial small advantages become magnified, for example, by
+creating a large installed base, and direct the future, possibly in an
+inefficient direction. Techniques of production may be locked in at an early
+stage. Similar considerations apply to regional development and learning.
+
+            
+               --Kenneth J.
+Arrow Nobel laureate and Joan Kenney professor of economics emeritus
+Stanford University
+
+            
+               
+                  Letter from Ted C. Fishman:
+               
+            
+
+            After
+reading Paul Krugman vent his spleen against fellow economist Brian Arthur in
+"The Legend of
+Arthur," I couldn't help wondering whose reputation he was out to trash,
+Arthur's or his own. Krugman seems to fear a plot to deny economists their
+intellectual due. If one exists, Arthur is not a likely suspect. In a series of
+long interviews with me a year ago (for Worth magazine), I tried, vainly, to
+get Arthur to tell me how his ideas about increasing returns have encouraged a
+new strain of economic investigations. Despite much prodding, Arthur obliged
+only by placing himself in a long line of theorists dating back to Adam Smith
+and Alfred Marshall. I also found him disarmingly generous in giving credit to
+the biologists, physicists, and fellow economists who have helped advance his
+own thinking. Savvy to the journalist's quest for heroes, Arthur urged me to
+focus on his ideas, not his rank among his peers. Krugman has made a career out
+of telling other economists to pay better attention to the facts, yet as a
+chronicler of Arthur's career and inner life, Krugman seems to have listened
+only to his own demons.
+
+            
+               --Ted C.
+Fishman
+            
+
+            
+               
+                  (For
+additional background on the history of "increasing returns" and Brian Arthur's
+standing in the field, click for David Warsh's July 3, 1994,
+                
+               Boston
+Globe 
+               
+                  article on Brian Arthur)
+               
+            
+
+         
+      
+   

@@ -1,0 +1,121 @@
+
+   
+   
+      
+         
+             The Agony of Victory
+
+            Online auctions are the
+Internet flavor of the moment. The best-known auction site, eBay, went public
+in September 1998 at $18 and shot up to $47 by the end of its first day. It's
+now at about $150, which means that investors value the company at around $20
+billion despite only $47 million in sales over the last 12 months. Traditional
+businesses want in on online auctions as well. You have until March 21, 1999,
+for instance, to bid on the pink satin eye mask Faye Dunaway wore in Mommie
+Dearest (current high bid: $650) at Universalstudios.com.
+
+            A technology that allows
+you to bid on a 1970 Château Lafite-Rothschild (Wine.com, $205) without leaving
+your study is impressive. But it cannot repeal the laws of economics. One such
+law is dubbed the "winner's curse" and holds that the winner of an auction
+almost always overpays. As an understanding of this law makes clear, online
+auctions make the winner's curse even worse.
+
+            Auctions are often thought of as models of economic
+efficiency, uniting buyers and sellers at just the right price to maximize
+their mutual satisfaction, put resources to their highest and best use, and so
+on. But three petroleum engineers writing in the Journal of Petroleum
+Technology explained in 1971 why this is not the case.
+
+            Suppose several petroleum
+firms are bidding on the drilling rights to a piece of tundra. No firm is sure
+how much oil is underneath the property, so they hire a team of engineers to
+poke at the surface rocks and make a guess. The guesses will likely range from
+too low to too high. Some firm's engineer will probably guess right, but that
+firm won't win the auction. The winner will be the firm whose engineer was the
+most overoptimistic. The winning firm won't ultimately get as much oil as their
+engineers promised, meaning the firm paid too much. In short, the auction
+"winner" is ultimately a loser.
+
+            This is a particularly clear example because the thing
+being auctioned will have a definite value in the future that is unknowable at
+present. But the winner's curse afflicts auction bidders whenever there is
+uncertainty over the current or eventual value of the item on the block. This
+is true even when bidders have no intention of reselling the item and when its
+innate value seems inherently subjective.
+
+            For example, bidders for
+Faye Dunaway's pink eye mask must make some judgment on how much they care
+about Faye Dunaway. If that were all, the winner would likely be the person who
+cared the most. That would be economically efficient in two senses: 1) the
+utility of Dunaway's eye mask would be maximized by placing it with the person
+who can extract the greatest pleasure from it (just as, uncertainty aside, the
+highest bidder for an oil field will be the person who can extract the most oil
+from it); and 2) that person would pay no more for the eye mask than the
+pleasure of owning it was worth to him.
+
+            But the course of love is as uncertain as the petroleum
+content of a pile of rocks. Bidders must also try to guess how much they'll
+care for Faye Dunaway in, say, 10 years. The more you overestimate your undying
+affection, the more likely you are to win the auction--and the more likely you
+are to feel like an idiot in 2009.
+
+            Economists have pointed
+out that if bidders were truly rational, they'd simply reduce their bids to
+correct for the winner's curse. There is even a mathematical proof that a
+perfectly rational actor can avoid the curse. But experimental evidence
+suggests that even experienced bidders don't reduce their bids by enough. For
+instance, a study of oil field auctions shows that even seasoned firms
+typically pay far too much for drilling rights given the amount of oil they
+eventually recover. The same phenomenon has been observed when corporate
+takeover wizards bid on other companies--the "winner" often overpays. In other
+words, oil firms and corporate takeover specialists keep on getting burned in
+auctions but persist in bidding too high. They simply don't learn.
+
+            Irritatingly, a rational person who understands the
+winner's curse can't do anything about it so long as the other bidders continue
+to bid irrationally. If you bid rationally (lower), you won't win any auctions;
+if you bid what it takes to win auctions (higher), you'll lose money because of
+the winner's curse. Economist Richard Thaler wickedly suggests a solution:
+Explain the theory to your competitors. He posits that this is exactly why the
+three oil engineers published their article explaining the curse in 1971. Their
+hope was to induce other firms to reduce their bids. If so, it didn't work,
+since oil firms continue to overpay.
+
+            Online auctions worsen
+the winner's curse by increasing the number of bidders. The craziest poor
+sucker in a group of 20,000 bidders on the Internet is likely to be crazier
+than the craziest one among 200 in a Burbank hotel ballroom. That's another
+thing that experimental economists have confirmed--the larger the group, the
+bigger the winner's curse. There's no satisfactory way to buy rare or one of a
+kind items, but online auctions are a particularly bad method.
+
+            On the other hand, if buyers at online auctions are
+persistently disappointed, it's possible that after a while they'll stop
+bidding. It's also possible that experience will lead them to approximate
+"rationality," and they'll reduce their bids. Either way, sellers would find
+their inflated profits eroded. But auctions have survived the winner's curse
+for millenniums, and even the Internet is unlikely to change that.
+
+            To be sure, not all auctions are rip-offs. Remember,
+there is no danger of the winner's curse if you are sure about the value
+of an item to you . In that situation, the auction device serves its
+proper purpose of putting the item in the hands of whoever values it the most.
+For instance, suppose you are buying a Beanie Baby for your little brother or a
+discounted airline ticket to Cabo San Lucas. Most folks have a pretty clear
+idea of how much pleasure they'll get from their brother's smiles or a few days
+of sand and surf. And sane consumers won't bid more than these respective
+pleasures are worth to them--meaning that they can't feel cheated.
+
+            The winner's curse also doesn't apply when there are
+many identical items being auctioned off. In those cases, where there is enough
+quantity available to satisfy most bidders, the going price will be set by the
+sensible middle of the pack rather than by the most overoptimistic extremist.
+The leading example of such an auction is the stock market. So the winner's
+curse can't explain the extravagant price of shares in eBay itself. Unless, of
+course, when it comes to Internet shares there is no sensible middle. If
+everyone's gone crazy, economic theory isn't much help.
+
+         
+      
+   

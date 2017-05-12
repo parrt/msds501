@@ -1,0 +1,57 @@
+
+   
+   
+      
+         
+            Hey, Teacher, Leave Those Kids Alone!
+
+            
+               The Chronicle of Higher Education reports that linguists have
+invented a computer program that understands student writing. That would be a
+welcome advance in civilization, had it not also opened a window on the corrupt
+bargain between students and professors when it comes to teaching basic
+literary skills in the first place.
+
+            The Intelligent Essay Assessor (an Orwellian misnomer, of course) is based
+on a form of artificial intelligence called LSA--latent semantic analysis,
+explained in detail on this website. In brief--bear with me here--the program first compares
+reference materials to sample essays which have been graded by a professor,
+then compares the sample essays to student essays. The students don't have to
+use particular keywords for the program to figure out what they're talking
+about; it has a wide vocabulary. As for grading, "[I]f an essay appears to
+convey the same knowledge as verifiably good essays, the computer gives it a
+good score. If a student's work looks similar to a poor essay, it gets a low
+score."
+
+            Here's what the IEA catches: Students who never read the assignment in the
+first place; plagiarists; people who try to beat the program by packing the
+essay with relevant keywords but not stringing them together in any meaningful
+way. Here's what it doesn't catch: "clever turns of phrase or creative
+approaches to an assignment." But isn't that the essence of higher education?
+Wrong! This month's issue of American Demographics reports that more
+students than ever don't give a fig about clever turns of phrase or creative
+approaches to assignments. They want big financial aid packages and the
+assurance of a good job after graduation. Once they get into the school of
+their choice, they study less than they ever have. "College students want to
+reap what they consider to be the maximum benefits -- money and social status
+-- for the minimum amount of work," says the study's author.
+
+            This suits professors just fine. They've told the Chronicle that
+they're grateful to have their workload lightened by a computer. And why
+shouldn't they be? They're not graded on how well they teach; they're graded by
+the number of articles they publish in research journals. Deepening the
+intellectual understanding of the next generation, or just teaching it to
+compose a decent sentence, seems to be the last thing on anyone's mind. The
+University of Colorado and New Mexico State University, quick to grasp that
+their role is to funnel students into professional schools and high-income
+jobs, not to burden them with fine points of style, have already adopted the
+Intelligent Essay Assessor; so has the Graduate Management Admission Test. It
+won't be long before the rest of the country does too. So, kids, it's a deal:
+We won't teach you how to write, and you won't object that you can't.
+
+            -- Judith Shulevitz
+            
+
+         
+      
+   

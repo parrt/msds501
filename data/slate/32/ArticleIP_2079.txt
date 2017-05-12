@@ -1,0 +1,269 @@
+
+   
+   
+      
+         
+            Small-Biz Blarney
+
+            Everybody knows that small
+business creates all the jobs. Why, only last week during the vice-presidential
+debate, Jack Kemp argued with evangelical passion for a small-business
+capital-gains cut to grow the economy faster. "How about the small businessmen
+and women of America that create 91 percent of all the new jobs?" he asked. A
+few weeks earlier, during the minimum-wage debate (in which small business was
+once again singled out for favored tax treatment), virtually every opponent
+argued that raising the minimum wage could hurt small businesses--which create
+most of America's jobs.
+
+            This mantra is repeated so
+often that everybody believes it. But everybody is wrong.
+
+            What does
+it take to kill a bad statistic? More than a Nobel laureate, apparently. Milton
+Friedman, a conservative economist and proponent of free-market solutions,
+pointed out in a recent Journal of Economic Literature article that the
+myth of small businesses' job-creating potency is one of the most durable
+falsehoods of America's political economy. Numerous other economists--and even
+the occasional columnist--have tried to debunk the myth, but to no avail.
+
+            For example, in his paper titled "On the Size Distribution
+of Employment and Establishments," Jonathan Leonard finds that large firms are
+the main job generators. Three Census Bureau fellows, S. Davis, J. Haltiwanger,
+and S. Schuh, recently published a report titled "Small Business and Job
+Creation: Dissecting the Myth and Reassessing the Facts," in which they assert
+flatly, "Conventional wisdom about the job-creation prowess of small business
+rests on statistical fallacies and misleading interpretations of the data."
+(.)
+
+            Magazines
+and newspapers have recently run articles like "Debunking the Small Business
+Myth," "Small Is Not Beautiful," "Doing the Small Business Shuffle," and "The
+Real Engine of U.S. Economic Growth Might Be Bigger Than Any Believe," all of
+which have declared the small-business lobby's claim "phony."
+
+            
+               Where the
+Bad Data Come From
+            
+
+            Not only politicians but
+newspaper reporters continue to perpetuate the small-business fallacy, usually
+without challenge. Take an article in the Los 
+               Angeles
+
+               Times on July 6, which referred to "98 percent of all jobs since 1989
+being created by businesses with fewer than four employees." Where do these
+numbers come from? The Office of Advocacy of the Small Business Administration
+will gladly supply you with a table that might appear, at first glance, to lend
+support to such claims (see Figure 1).
+
+            Look
+across the second row, for example, which seems to tell you that firms with no
+employees in 1991 netted an astounding 1,898,600 jobs by 1993.
+
+            
+               Figure 1
+            
+
+            
+               Net Job
+Creation by Firm Size, 1991-1993 (Data in Thousands)
+
+            Firm Size (Number of
+Employees in 1993)
+
+            [CHART 1 GOES HERE]
+
+            
+               *Computed
+by subtraction within the same size class.
+            
+
+            
+               ** Firms with no
+employees, but some payroll expenses, in 1991.
+            
+
+            Add in the
+jobs created by firms with one to 499 employees in 1991 (the next five rows),
+and you would compute that small businesses (defined by SBA as having fewer
+than 500 employees) added all but 44,800 of the total 2.4 million net jobs
+gained by the economy over that period.
+
+            
+Well, what's the matter with that? The matter,
+of course, is that the rows broken out by initial firm size tell only part of
+the story--the happy part. What SBA doesn't make clear in the table it hands
+out (though it will tell you if you persist) is that the firm-size rows only
+include those firms that "made it"--i.e., those that stayed continuously in
+business throughout the period.
+            
+
+            And, of
+course, it is a fact of America's dynamic marketplace that while many
+firms--especially small firms--open for business every year and hire new
+workers, almost as many close their doors, sending their workers onto the
+unemployment rolls. Overcounting gains and undercounting losses in this and
+other ways is what produces the grossly exaggerated picture of small business's
+contribution to the U.S. economy. (Economists call the SBA's technique of
+sorting firms by class size in a dynamic situation the "regression fallacy."
+For a simple example of why it produces a misleading result, click .)
+
+            
+
+               A Quick Fix
+            
+
+            To get a better, though
+still static, picture of what's really going on, let's relabel and complete
+SBA's table (see Figure 2):
+
+            
+               Figure 2
+            
+
+            
+               Net Job
+Creation by Firm Size, 1991-1993 (Data in Thousands)
+
+            Firm Size (Number of
+Employees in 1993)
+
+            [CHART 2]
+
+            
+               *
+Computed by subtraction within the same size class.
+            
+
+            
+               ** Firms
+with no employees but some payroll expenses in 1991.
+            
+
+            
+               Source: Office of
+Advocacy, U.S. Small Business Administration, from U.S. Department of Commerce,
+Bureau of the Census Data, prepared under contract (table prepared July
+1996).
+            
+
+            Focus on the top row, the one
+optimistically labeled "Net Births" in SBA's version. These are the net changes
+(mostly net losses) in job counts produced by firms that either opened or
+closed during the period. Looking down at the now-complete bottom-row totals,
+you will get quite a different picture of where the net new jobs are. By this
+calculation, some 1,673,400 (or almost 70 percent) of the jobs still around in
+1993 were added by firms with more than 500 employees in that year--i.e., by
+"big" business.
+
+            
+Classifying firms by their end--rather than start--size might also seem unfair,
+since some very successful small companies may end up big by the close of the
+period, and vice versa. We need a more dynamic model to get a real sense of
+what's going on.
+
+            
+
+               Going With the Flow
+            
+
+            Getting a
+good fix on this phenomenon isn't easy, because most government data are
+collected to measure monthly employment changes, and there are no current data
+available on gross job flows by business size. As a senior economist at SBA,
+however, I was able to specify the preparation of special tabulations by the
+Census Bureau from business payroll tax reports for the entire private nonfarm
+economy. These tabulations make it possible, for the first time, to study job
+flows for the same firms as they migrate from one employment size class
+to another.
+
+            These
+statistics-- never released by SBA and published here for the first
+time --tell a fascinating story of job creation and destruction. For
+example, the number of firms with employees increased by 30,000 in the period
+between 1989 and 1991. This end result, however, was produced by some 1,260,000
+firm "births" (a firm reporting no payroll in 1989, but some payroll in 1991),
+which were offset by 1,230,000 firm "deaths."
+
+            Looking at job flows by firm size (see Figure 3), we see
+that firms that remained small (including those that entered or went out of
+business) lost 192,000 jobs during this recession period.
+
+            
+               Figure 3
+            
+
+            
+               Job
+Generation by Size of Firm in 1989 and 1991
+            
+
+            (Numbers of Jobs in
+Thousands)
+
+            xxxxxxx
+
+            * Net jobs
+created by boundary crossers = 69,000
+
+            
+xxxxxxxxx
+
+            
+
+               Source: Bureau of the Census, special tabulations
+            
+
+            
+Employment gains from firms going from small to
+large were essentially offset by employment losses of firms that were large and
+became small. But on net, there was a job gain of 69,000 for
+"boundary-crossing" firms. At the same time, large businesses (again including
+those that opened or closed) added 802,000 to their payrolls. Subtracting the
+small-business losses from the big-business gains gives us a net total of
+679,000 jobs added to the entire economy during this period. The analysis thus
+confirms what earlier studies had suggested: Big business, not small business,
+is the primary generator of U.S. jobs.
+
+            
+Predictably, SBA's counts show a totally different (and false) picture (see
+bottom of Figure 3). By using the beginning-year counting rule, SBA reports
+that small business generated 557,000, or 82 percent, of the jobs. If the
+end-year counting rule is used, small business destroyed 872,000 jobs. Neither
+statistic is reflective of the job-generation process; they measure only
+economic volatility.
+
+            Of course, the period between 1989 and 1991 was one of
+recession. However, Census Bureau counts show that during the phase of rapid
+growth between 1982 to 1987, an equal number of firms in each size class
+reported job gains as losses. This same result held true in the period from
+1989 to 1991, demonstrating again that, irrespective of business-cycle
+conditions, the probability that a firm will add or lay off workers is
+independent of its size. Analysis of the SBA net-change data for the
+expansionary period between 1991 and 1993 also reveals that small businesses
+created jobs in proportion to their numbers--no more, and no less.
+
+            A simple economic explanation
+accounts for these observations. Firms are constantly competing with each
+other. Both small and large businesses expand when there is a demand for their
+goods and services that they can meet efficiently. All the economic research
+suggests that there is no difference in the efficiency of small and large firms
+once a firm grows beyond a minimum size. It is for this reason that Census
+Bureau data for the last 50 years show no evidence of any change in the
+employment size distribution of firms and establishments.
+
+            All this might not matter, if
+the small-business fallacy were not used by its promoters as justification for
+carving exemptions and preferences for small business into virtually every
+piece of economic legislation that passes Congress. As the editor of this
+magazine wrote in the Washington 
+               Post in August 1993, "Small
+business is an important part of the American economy. Most small-business
+owners are admirable, hard-working, patriotic. But the case for tilting public
+policy in favor of 'small business' is based on logical fallacies and
+lobbyists' hokum."
+
+         
+      
+   

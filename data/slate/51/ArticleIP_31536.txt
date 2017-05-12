@@ -1,0 +1,117 @@
+
+   
+   
+      
+         
+             The Love Bloat
+
+            A day doesn't go by that I don't read in the press
+... or some Microsoft customer sidles up to me ... or even my girlfriend says,
+"Hey, Shuman, why is Microsoft software so bloated, so full of junk, sucking up
+megs of space on my hard drive, hogging memory, and taking forever to load! The
+toolbar buttons look like they were lifted from the cockpit of an F-16." My
+grouchy critics are ramping up again as the very large Office 2000 software
+suite hits the stores: "Shuman, why don't you and the other boy developers at
+Microsoft write some trim and tight code?"
+
+            Well, ladies and
+gentlemen, I'm going to let you in on a little secret. The problem with
+software today is not that it is bloated. The problem is that it's not
+bloated enough!
+            
+
+            What is bloat? Bloat is the American dream: bigger, better,
+and everywhere all at once. Supersize it! From VCRs to food processors to Ford
+Expeditions, industry has historically provided consumers with features to
+have , not necessarily to use. How many of you have programmed your VCR?
+Minced carrots with your Cuisinart? Or gone off-roading in your SUV?
+
+            Why should software be
+any different? Do you really think software developers add features just for
+fun, like some cackling tormentor? If only that were the case. Sadly, it is
+you, the customer, who demands bloat, forever clamoring for new features.
+Software companies take your wish lists seriously, and then make them happen.
+It's like the violence-in-the-media argument: We hate it, but we buy it.
+
+            Now, I don't deny that software is getting, um, alarmingly
+large. A complete installation of Office 2000 requires 200 megabytes of
+hard-disk space. This compares to the puny installation requirement of 5 megs
+to 10 megs of hard-disk space for a similar array of DOS applications, circa
+1988: WordPerfect, Lotus 123, dBase, Crosstalk, etc.
+
+            But thanks to Moore's Law and its corollaries,
+computer power continues to double every 18 months and prices keep falling.
+Most computer users want to do fancy new things with their speedy
+Pentium chips and mongolarge hard drives, not just run their old applications
+faster. So if computers are getting more powerful, shouldn't we developers
+harness that capacity?
+
+            The anti-bloat whiners
+would have you believe that Microsoft is coercing them into using our
+extralarded software products! I call their bluff. The elegance of the Windows
+98 operating system is that it runs practically every application from the DOS
+days and all those goofy Windows 3.1 programs. If you want to run unbloated
+legacy programs such as WordStar for Windows or Bitcom for DOS instead of new
+applications, be my guest. (Also, you lovers of legacy applications should know
+that one of the reasons Windows 95 and Windows 98 are so "bloated" is so that
+they can run the old applications.)
+
+            It is precisely because users can ignore the new releases
+from Microsoft or Lotus or Corel that the software industry works overtime to
+add new features to software, features that will convince users to spend $300
+on an upgrade to do the same computing as they're doing now, only with more
+bells and whistles and excitement. The day that Microsoft fails to convince you
+to upgrade--i.e., to buy a product that the malcontents call bloated--is the
+day that Redmond becomes a ghost town.
+
+            Most bloatware complaints
+come from users who own 2- to 3-year-old machines. They don't understand that
+the new (bloated) versions of software are meant for the new 400-megahertz
+machines and the wickedly fast machines to come in the next 18
+months--including 1-gigahertz computers--not their Pentium 133 doorstops. Or
+the complainers single out features that they never use, such as AutoSummarize
+in Word or the Journal feature in Outlook (that can slow even the fastest
+computer to a crawl). My advice to these complainers: Turn these features off
+or ignore them.
+
+            Having praised bloat, let me confide that when I worked on
+the Microsoft Outlook team, bloat was my biggest enemy. A mean boss named Biff
+routinely yelled hurtful things at me when I wrote indulgent, fat code, because
+his bosses wanted programs to load and work quickly. Outlook SWAT teams swooped
+down daily to reduce the size of our code. I remember endless hallway
+discussions about how to balance the demand for lean and quick code against the
+bloat required to add new and nifty features. (We were ultimately successful:
+If you compare Outlook 2000 to the first version, Outlook 97, you'll see a vast
+improvement in performance and stability. You'll also see a lot more cool
+features, such as HTML mail and Preview Pane, to name but two.)
+
+            The struggle between
+concise code and bloated code plays out under the threat of a deadline. If our
+software is occasionally too fat, we developers fall back on the same excuse
+philosopher Blaise Pascal offered three centuries ago for his verbose letters:
+"I have only made this [letter] longer because I have not had the time to make
+it shorter."
+
+            If you're truly anti-bloat, there's a whole subgenre of
+dainty, low-bloat computers out there for you: The PalmPilot and Windows CE
+handheld devices. They pack a lot a power into little boxes, but let's not kid
+anybody: Sometimes you can make do with a bicycle, but other times you need a
+car. A fast car. A fast car with a big noisy engine and a bone-crushing CD
+sound system. A Bloatmobile.
+
+            I began this column with the provocative thesis that
+software isn't anywhere near bloated enough. By that I meant that if we
+software developers were really doing our jobs instead of resting and vesting
+our stock options, word processors would have already bloated into 99.999
+percent reliable voice-recognition software. Your computer would have fused the
+functions of your telephone, television, and fax machine into one seamless
+whole. Your computer would have become the instantly searchable repository of
+all your correspondence, financial transactions, data searches, and phone
+conversations. Plus, it would be making smart connections between your data and
+actions. For instance, it will tell me, "Hey, Shuman, you can get a better auto
+insurance policy from GEICO." Or, "Hey, Shuman, lay off the fatty, fried food,
+why doncha? You want to get bloated or something?"
+
+         
+      
+   

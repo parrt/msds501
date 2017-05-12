@@ -1,0 +1,119 @@
+
+   
+   
+      
+         
+            Search Me
+
+            Imagine walking into your
+local library to look for a book. Hoping for a librarian to guide you, you are
+confronted instead by a bewildering array of entrepreneurs, each offering to
+find what you're looking for. But none has cataloged the whole library, each
+has cataloged a different part of it, each uses a different system, and none is
+terribly satisfactory. That is the situation on the Internet today.
+
+            The
+old-fashioned librarian still has an edge over the vast resources and computing
+power of the Internet in several ways. First, a library offers more valuable
+stuff . Certainly there is more raw information on the Web than in any
+library. But the kind of stuff people are actually willing to pay for is sadly
+lacking. So long as publishers fear cannibalizing their sales--or aren't able
+to make money maintaining Web sites--there will be books and periodicals that
+are only available offline, or online for a fee. You can read the Wall
+Street Journal free at your library, but you have to pay to read it
+on the Web. And of course
+there are for-a-fee search services like LEXIS-NEXIS that allow you to read documents online, but
+for the time being, serious research--especially for the budgetarily
+challenged--still usually leads to paper.
+
+            Libraries also have a distributed cataloging
+infrastructure . This means that everyone shares a common cataloging system.
+When a new book gets published, a single library will do the work to abstract
+and catalog it, then share that work with all the others. This effort
+(coordinated by the Online
+Computer Library Center) is assisted by standards for cataloging
+information . The Dewey Decimal System and the Library of Congress are both
+schemes that help guarantee that a book can be found the same way in different
+libraries.
+
+            Most
+important, though, libraries invite reduced expectations . No one expects
+to walk into a library and get a list of every book that contains the word
+"poker" organized by subject, title, and author. We're just happy to look up
+"poker" in the (online?) card catalog and find the books that are actually
+about poker. And typically we'd be just as happy not to find the references to
+"red-hot poker" or "poker faced."
+
+            
+Of the many Internet search services, Yahoo! comes the closest to this
+card-catalog approach. It does it the old-fashioned way, hiring people to look
+at each site and assign it an abstract and one or more categories. This is easy
+for people to understand, but it's not comprehensive. Even very diverse sites
+seldom appear in more than a few categories. For instance, a search for Slate
+(click here) shows it somewhere under the Politics
+category, but not the Movie Reviews or Economics
+categories. Yet Slate runs a movie review every week and has published many
+articles on economics.
+
+            Even if Yahoo! wanted to be
+this comprehensive, the humans cataloging the materials cannot possibly keep up
+with the ever changing nature of the Web. To stay current, they would have to
+read every page of every site every day. To solve this problem, most other
+search services use computers instead of humans to do their cataloging. Their
+machines scan every Web page they can find by a process known as crawling (see
+my discussion of crawling in a previous "Webhead" column) and put every word on every page
+into a giant index.
+
+            One of the first sites to
+take that approach was Infoseek. Click here to search for "slate." The naive user might expect to
+see a link to our home page. But the problem is that our home page includes few
+instances of the word "slate"--many fewer than, say, the home page of a dealer
+of roofing materials or pool tables is likely to. That's the limitation of a
+system based on text indexing. It doesn't really know what a page is about,
+just what words appear on it. Using a little artificial intelligence, the
+computer tries to decide which pages are more "about" a given word than others,
+but it's not always successful.
+
+            HotBot is another search
+site. Try the "slate" search by clicking here. By the way, as you try out these searches, you may
+see an advertisement for Slate. That means we bought the rights to the word
+"slate." Whenever someone searches for it, our ad shows up. On the Web you can
+buy words--isn't that great?
+
+            Excite's site uses some of that
+artificial intelligence to help you refine your searches. Try searching for
+"slate" by clicking here. If you find a page that you like you can click on "more like
+this." Excite will return a list of pages which "look like" the page you
+clicked on. That means that similar words appear on the pages with similar
+frequency. Sometimes this works, more often it returns pages that seem
+impressively unrelated. For instance, this search for pages like the Slate parody Stale yields not only Slate (a good
+guess) but also the Steel Lunch Boxes Web page (not a good guess, but
+entertaining nonetheless).
+
+            AltaVista's site takes a
+weirder approach to this idea of refining searches. Search for Slate by
+clicking here. Adding or subtracting words from your search criteria
+can help find what you're looking for. For instance adding "Kinsley" and
+subtracting "roofing" would probably increase your chances of finding our home
+page. Their "LiveTopics" technology attempts to help you do this. They look up
+"slate" in their index and see that it often occurs on the same page as "roof,"
+so they suggest this as a possible refinement of the search. But since these
+suggestions are generated by computer, they can be very weird. (To see this in
+action, click on one of the "LiveTopics" links on the AltaVista search-results
+page.) How did "Adaptec" or "Skadden" get on the list? Your guess is as good as
+mine. (Well, for Skadden it's not such a mystery, considering that "Slate" is
+part of the name of the D.C. law firm Skadden, Arps, Slate, Meagher &
+Flom.)
+
+            The best solutions for searching will probably result from
+a combination of humans and computers. If AltaVista's list of search
+refinements was generated by a human, for instance, it might be more helpful.
+If the producers of every site cataloged it themselves, then Yahoo! wouldn't
+have a hard time keeping up with them. Of course, everyone would have to agree
+on standard ways to do this, and if everyone agreed, for-profit search sites
+like Yahoo! probably wouldn't be necessary. So don't be surprised if the status
+quo lasts just a little while longer.
+
+         
+      
+   

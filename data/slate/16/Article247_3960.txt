@@ -1,0 +1,96 @@
+
+   
+   
+      
+         
+            Fallout From the Microsoft Trial
+            
+
+            Some quickly jotted-down thoughts on Judge Thomas Penfield Jackson's
+findings of fact in the Microsoft antitrust trial, a ruling handed down about
+an hour ago.
+
+            1. The press is treating Jackson's chief conclusions--that Microsoft has
+monopoly power in the PC-operating-systems market; that Microsoft has used that
+power to harm competitors in other markets; and that using its power in that
+way has harmed consumers--as surprising. But the real surprise may be that
+anyone's surprised, given Jackson's attitude and behavior throughout the case.
+While the trial was going on, in fact, you would have been hard-pressed to find
+a single reporter covering it who thought that Microsoft was going to win. But
+since the trial has ended, the media was apparently seized by the conviction
+that Jackson would be temperate in his decision. He wasn't.
+
+            2. The stock market, on the other hand, seems to have been taking the
+implications of this decision into account for some time. Even as the Nasdaq
+has rallied strongly in the last couple of weeks, Microsoft's stock has been
+treading water. In fact, it's trading about where it was back in April. Now, in
+the wake of the ruling, the stock did sell off a bit in after-hours trading,
+but markets are all about anticipation, and the stock market appears to have
+already anticipated something like the ruling Jackson produced.
+
+            3. That's not to downplay the one-sidedness of the findings of fact.
+Although Jackson did credit Microsoft with helping accelerate the expansion of
+the Internet and with benefiting consumers via innovation in other cases, the
+weight of his ruling is on the side of the government. In particular, his
+ruling treats Microsoft as a textbook example of the idea that a monopolist can
+use its control of one market to give itself control over another, and that it
+can use the profits--"immense profits," Jackson calls them--reaped as a result
+of its monopoly to fund the domination of another.
+
+            These happen to be ideas that many academic economists are deeply skeptical
+of, since if it makes long-term economic sense for Microsoft to expand into,
+say, browsers, it should also make long-term economic sense for someone else to
+fund Microsoft's competitors. But Jackson is essentially saying that Microsoft
+is too powerful--because of its control of the operating-system market--and too
+profitable for anyone else to enter the fray against it. In fact, near the end
+of his ruling, he explicitly says that Microsoft's power has limited
+technological investment that would otherwise have taken place.
+
+            4. Without sounding like a Microsoft shill here (and yes,
+
+                  Slate
+                is published by Microsoft), the findings of
+fact do seem as if they're describing a world that doesn't quite exist anymore.
+The advent of Linux; the continued penetration of Java; the merger between AOL
+and Netscape; and the rapid growth in PDAs and non-desktop applications: All of
+these are phenomena that don't fit into the picture of a computing world in
+which domination of the PC operating system translates into domination
+elsewhere. Jackson's ruling was, of necessity, backward-looking, since he had
+to decide what had happened. But insofar as he remains guided by a PC-centric
+definition of computing, it's not clear whatever remedies he suggests will
+really conform to the way things are, rather than the way things were.
+
+            One of the odd things about the centrality of the browser war to the
+antitrust trial, in fact, is that the browser itself now seems about as
+important and distinctive as something like Wordpad (which is to say, not very
+important at all). Once, it seemed like he who controlled the browser would
+control the Internet. Now, if anyone controls the Internet, it's the portals.
+The unanswerable question, of course, is whether this would have happened had
+there been no antitrust trial.
+
+            6. As everyone is pointing out, the findings of fact do not tell us how
+Jackson will read the relevant laws in the case (that's Phase 2) or what
+remedies he may prescribe (Phase 3). And it certainly seems possible that
+Microsoft and the Justice Department will reach a settlement. Some have even
+suggested that Jackson's strong language was intended to spur just an
+agreement, although one might have thought a more balanced opinion would have
+had a better effect in that direction.
+
+            Nonetheless, there is at least one thing worth thinking about going forward.
+You could read Jackson's ruling as essentially implying that Microsoft's
+monopoly over the PC operating system means that any expansion into other
+contiguous markets--and most computing markets can still be construed as in
+some way contiguous to the PC--is an unacceptable exercise of monopoly power,
+then what kind of business can Microsoft legally pursue? Does Jackson secretly
+think that Microsoft shouldn't ever have been able to branch out into desktop
+applications like Word and Excel? In other words, does control of the
+operating-system market really preclude a company from seeking to compete in
+others? If Jackson's answer to that last question is really yes (which would
+be, I think, a startling answer), then we may in fact be talking about the
+AT&T decision all over again. And that really would be a surprise. But
+then, AT&T settled. And after this ruling, Microsoft may decide it's better
+off in the appellate courts after all.
+
+         
+      
+   

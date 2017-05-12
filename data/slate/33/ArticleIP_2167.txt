@@ -1,0 +1,143 @@
+
+   
+   
+      
+         
+            What Price ValuJet?
+
+            Discount airlines ought to
+be more dangerous.
+
+            (1,228 words; posted
+Friday, July 5; to be composted Friday, July 12)
+
+            The Federal Aviation
+Administration revealed Wednesday (July 3) that ValuJet has applied to resume
+flying. You can be pretty sure the FAA is not going to approve this application
+casually. Regulators shut down the discount airline after the May 11 crash in
+Florida that killed 110 people. The past two months have seen a festival of
+recriminations about sloppy practices at both ValuJet and the FAA. A
+Washington Post editorial declared, "The public needs evidence that the
+government is insisting on the highest safety standards possible."
+
+            A seemingly
+unobjectionable sentiment--but there are two problems with it. The first is
+that the highest safety standards possible are too high. You can always make
+flying--or any other economic activity--safer by making it more expensive
+(increasing the minimum distance between aircraft or time between takeoffs,
+requiring wider aisles, and so on). The inevitable trade-off between safety and
+cost, plus the law of diminishing returns, dictates that you stop well short of
+the highest possible standards.
+
+            Second,
+there is no reason every airline should meet the same level of safety. In fact,
+it makes perfect sense for discount airlines to be less safe than traditional
+full-price carriers. This is no excuse for negligence and rule-breaking. But if
+the rules don't recognize that some people, quite rationally, will wish to buy
+less safety for less money, they are doing the flying public a disservice.
+
+            Try some rough math on the back of an envelope. According
+to Transportation Secretary Federico Peña, discount airlines have lowered
+ticket prices, on routes where they compete, by an average of $54 (or $70 to or
+from an airline "hub"). The standard statistic on airline safety is that you
+could fly once a day, every day, for 21,000 years before dying in an airplane
+crash. So suppose that flying discount made it 10 times more likely that
+you would die in a crash. Now the odds are on a fatal crash in just 2,100
+years. Is it worth it--just to save $54? Well, by my calculation (checked with
+folks whose grounding in mathematics is sturdier and more recent), you're
+increasing your chance of a fatal crash by about one in 855,000. Looked at the
+other way, paying the extra $54 to avoid the added risk (and leaving
+aside other advantages of grown-up airlines, such as the delicious meals, roomy
+seats, punctual departures, on-board golf courses, etc.), puts an implicit
+value on your life of about $46 million.
+
+            Now you
+may think your life is worth $46 million, but unless you've got $46 million to
+spend on it, that's a hollow boast. Every day you make decisions--probably
+including the decision to step outside your house and risk being torn apart by
+hounds as you pick up the morning paper (you could, after all, hire someone to
+bring the paper inside for you every day, just to be safe)--that implicitly
+value your own life at less than $46 million. Of course Freedom of Neuroses is
+one of the basic American liberties we celebrate this Independence Day weekend,
+and people should be free to spend $54 to avoid a one-in-855,000 risk if they
+so desire. But society should not force them to do so. And society, in setting
+its rules, cannot possibly value each person's life at $46 million, without
+grinding to a halt.
+
+            In recent years, the FAA has been struggling with the
+question of whether to require small children to fly in safety seats. The rule
+has long been that kids less than 2-years-old may sit in a parent's lap--and
+therefore, usually, fly for free. Flight attendants and other supporters of
+safety seats make a good argument that it's a bit odd for the government to
+require that coffee pots, and adults, be strapped down, but not little
+children. But an FAA-commissioned study determined that requiring safety seats
+would actually cost lives. How? By leading families to drive instead of
+fly. The study figured that the end of small-children-fly-free would raise the
+average fare for affected families by $185, causing one-fifth of them to take
+the car instead. Whereas the safety seats would save an average of one child's
+life per decade, the extra driving (far more dangerous than flying) would cost
+nine lives. Or so the study figured. Critics objected to the calculations, but
+the principle of thinking about safety in this way survives any quibbling about
+the numbers.
+
+            You could think about the
+discount-airline question the same way. Discounters carried some 47 million
+passengers last year. What fraction of that number chose to fly instead of
+drive because of the cheap fare, and how many of those would have died in
+traffic accidents if they'd driven? Even in the trade-off of lives for lives,
+let alone the less appealing trade-off of lives for dollars, making airlines
+too safe may be a bad deal.
+
+            The discount airlines deny
+vehemently that they are less safe than the majors, and the statistics show no
+clear connection between price and safety. But if there isn't a connection,
+that's too bad. Flying at a discount should be more dangerous. Otherwise,
+you're overpaying.
+
+            SLATE News
+
+            Of all the
+good stuff in this issue of SLATE, I'm probably most excited at having the
+wonderful novelist Muriel Spark writing our diary column. Her Memento
+Mori is one of my all-time favorites (short, mean, and funny--three
+priceless qualities). She doesn't have a computer, but she'll be faxing daily
+from Tuscany.
+
+            Check out
+our newest feature, Ask Bill Barnes. Bill, our program manager (chief tech guy)
+answers questions about problems and possibilities in reading SLATE. "Ask Bill"
+is part of our E-mail to the Editors page. We've received thousands of e-mail
+messages since our launch June 24 (most of them friendly, thanks), and this is
+a small taste.
+
+            The
+Committee of Correspondence was redesigned on the fly, three days after our
+launch, when it became clear the original design (one very long page)
+was too cumbersome. Try the new model; we think you'll like it. Other design
+changes and "tweaks" will be coming along as this experiment continues.
+
+            What's
+known around our office as "The Battle of the Curly Quotes" was fought this
+week. To make our pages more attractive, we had been using quotation marks and
+apostrophes that curl left or right, as appropriate, rather than all-purpose
+marks that are straight vertical. But it turns out that curly quotes don't show
+up at all on UNIX computers. The issue: Should we improve our appearance in a
+small way for the majority, or avoid a major problem for a small (but vocal)
+minority? Such are the issues that bedevil cyberpublishing. You can see for
+yourself how it came out.
+
+            
+               When
+does SLATE "go to press"? Many readers are asking this, and the
+answer does take some getting used to. There is new material in SLATE every
+weekday. In general, the cultural reviews are posted Monday and Tuesday, the
+feature articles Wednesday and Thursday, and the newsiest departments updated
+Friday afternoon. Perhaps the best time to read SLATE is over the weekend. But
+every article in SLATE stays "live" for at least a week, so you can read or
+print out SLATE on any day and get a whole magazine. And if you do miss
+something, you can always retrieve it (free) from our archive, "The
+Compost."
+
+         
+      
+   

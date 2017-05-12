@@ -1,0 +1,118 @@
+
+   
+   
+      
+         
+            Mirror, Mirror on the Web
+
+            At
+long last, there's a cure for the intractable problem of the "undecided" voter.
+Thanks to a new site called the American Presidential Candidate Selector , the Web can
+actually tell you who you should vote for. Simply type in your opinions on a
+range of issues, and the site tells you which candidate agrees with you
+most.
+
+            The
+Candidate Selector is one of several Web tools offered by SelectSmart.com , a company
+that produces Web sites to help with all sorts of complicated decisions (its
+slogan is, "Before You Decide"). In addition to the Presidential Candidate
+Selector, the company offers a Lawn Grass Selector, a Pet Selector, a Hair
+Products Selector, and a Contraception Selector. Gary Bauer will be matched
+with your pro-life, creationist views the same way Leave-In Conditioning Spray
+will be recommended for your dry, frizzy hair.
+
+            Here's
+how the Candidate Selector works: The site asks your positions on 17 issues,
+from abortion to defense spending to free trade, and also asks you to choose
+whether you feel "strongly" or "somewhat strongly" about each of those stands.
+You can also answer "no preference" to any of the questions. When you're done,
+the program spits out a list of all the presidential candidates, ranked and
+scored in order of how closely their platforms match your views.
+
+            The
+tool claims moderate accuracy. According to a poll on the site, 41 percent of
+users found that the candidate for whom they intend to vote appeared at the top
+of their list. Another 19 percent found their top candidate in second place.
+The poll doesn't ask the far more interesting question of how many users might
+change their votes because of the SelectSmart.com results.
+
+            I
+asked a few colleagues with disparate political views to test-drive the
+Selector. They ended up with funhouse-mirror versions of their actual
+preferences--accurate in some places, comically distorted in others. The
+selector placed Bill Bradley and Al Gore, first and second, respectively, on ""
+Timothy Noah's list--wrong order, he says, but not bad. Timothy's list got less
+accurate as it continued: It placed Socialist David McReynolds, the Natural Law
+Party's John Hagelin, and Warren Beatty (who is not even a candidate) before
+Timothy's real-life third choice, John McCain. He observes that "the only
+accurate score is for Alan Keyes, who I would indeed rank dead last."
+Meanwhile, the site told Tucker Carlson, who writes for the conservative
+Weekly Standard , to vote for Orrin Hatch--"the candidate for whom I have
+the most contempt," Tucker says--while awarding John McCain ninth place, behind
+Hatch, George W. Bush, Harry Browne, Alan Keyes, Steve Forbes, Gary Bauer,
+Howard Phillips, and Pat Buchanan. "Do they have a drunk guy doing the
+rankings?" Tucker asks.
+
+            Curt
+Anderson, the site's designer, sounded sober on the phone, but he has certainly
+crafted some sloppy questions. One asks users about whether they advocate
+teaching evolution or creationism in schools. This is not exactly an issue for
+the next president, but in any case, giving it the same weight as such topics
+as health care or taxes seems preposterous. Even when Anderson does hit on
+major issues--crime prevention, environmental protection, foreign policy--his
+phrasing is without nuance and sometimes without sense. For example, the
+Selector asks, "Would you prefer your candidate promise to protect or reform
+(or even abolish) Social Security?" This question is impossible to answer from
+the choices provided. The distinction between protecting and reforming Social
+Security is anything but clear: Some candidates such as Steve Forbes suggest
+that the best way to protect Social Security is to reform it , while even
+those candidates who advocate preserving the current system--such as Bush and
+Gore--advocate some significant changes . "Reform" could mean any number of
+things, from minor tweaks (the addition of individual savings accounts) to more
+radical fixes (replacing Social Security taxes with privately managed
+individual accounts). Even if the site asked the question more precisely--say,
+by asking users if they prefer government-managed savings or private
+savings--it would reduce an issue of agonizing actuarial detail to a flippant
+one-liner.
+
+            The
+options for answers are just as clumsy as the questions. The "somewhat" button
+is ambiguous--if I tell the Selector that I am "somewhat" pro-choice, I might
+be saying that I want a candidate who is generally pro-choice but who opposes
+partial-birth abortions. Or I might simply be expressing that abortion is a
+less urgent issue for me than others. Indeed, the site doesn't allow you to
+designate which issues are most important to you. You may care about gun
+control far more than you do about anything else, but unless you leave the
+other 16 questions blank, your candidate list won't reflect your
+priorities.
+
+            The
+biggest problem with the Presidential Selector, though, is that it reflects an
+utterly unrealistic sense of how people choose candidates. It undermines itself
+with its own idealism: Anderson boasts that his Candidate Selector screens out
+superficial factors such as advertising, hype, and image, and allows voters to
+base their choices solely on the issues. But few people make up their minds on
+the basis of positions alone. The site does not try to measure intangibles like
+integrity, experience, passion, and electability that do--and should--matter to
+voters.
+
+            Right
+now, the site is most helpful to the minor candidates, whom it gives the same
+weight as the major players. It helps them find voters--Orrin Hatch's Web site
+now links to the Candidate Selector, and Libertarian Harry Browne says that a
+number of people who found themselves matched to him have become followers.
+
+            If the questions and
+answers were formulated more precisely, the site could make for a fascinating
+exercise. It would allow you to see how closely you line up with the candidate
+for whom you intend to vote, and thereby tell you whether your attraction is
+based on a congruence of views or a more ephemeral sense of goodwill. The
+technology might usefully be applied in local races, in which it's hard to sort
+out the platform of every potential state senator, judge, school board
+official, and city council member. But for now, the Candidate Selector is no
+more than a terrific party game--the election-year equivalent of having your
+palm read.
+
+         
+      
+   

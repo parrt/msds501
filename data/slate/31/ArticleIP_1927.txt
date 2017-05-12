@@ -1,0 +1,165 @@
+
+   
+   
+      
+         
+            Speed Trap
+
+            A couple of years ago the
+editor of Business Week had a problem with his car: Whenever he went too
+fast--whenever the needle on his speedometer went above 40--the car developed a
+dangerous shimmy. So he carefully drove to the repair shop, never letting the
+needle go past 39. Alas, after looking at the car, the mechanic declared that
+he couldn't fix the shimmy. Moreover, he had found another problem: The
+speedometer was defective. In fact, when the needle was pointing to 40, the car
+was actually going 55. And he couldn't fix that problem, either.
+
+            To the mechanic's surprise,
+the editor was pleased with this news. "So what you're telling me is that the
+car doesn't shimmy until I go 55 miles per hour. That means I can drive home 15
+miles an hour faster than I drove here!"
+
+            OK, OK, I
+made that story up. I have never met Stephen Shepard, editor in chief of
+Business Week , but I'm sure that he would never make that kind of
+mistake in ordinary life. It would not be necessary for the mechanic to explain
+pedantically that, while it was true that the news about the speedometer
+implied that the car could go faster than previously thought, it did not change
+the speedometer reading at which the car shimmied.
+
+            But he is apparently not so clearheaded when it comes to
+economics. Indeed, the whole "New Economy" doctrine--a doctrine relentlessly
+espoused by his magazine for the last few years and vociferously defended in a
+recent signed essay by Shepard himself--is based on a misunderstanding of the
+relationship between measurement and reality that is conceptually identical to
+the garbled thinking of the imaginary editor retrieving his car.
+
+            The New Economy doctrine,
+sometimes called the New Economic Paradigm, may be summarized as the view that
+globalization and information technology have led to a surge in the
+productivity of U.S. workers. This, in turn, has produced a sharp increase in
+the rate of growth that the U.S. economy can achieve without running up against
+capacity limits. "Forget 2% real growth," urges Shepard. "We're talking 3%, or
+even 4%." This increase in the potential growth rate, in turn, is supposed to
+explain why the United States has managed to drive unemployment to a 25-year
+low without inflation.
+
+            The
+conventional view that the economy has a "speed limit" of around 2-percent to
+2.5-percent growth does not come out of thin air. It is based on the real-life
+observation that when the output of the U.S. economy--as measured by real gross
+domestic product--is growing rapidly, the unemployment rate falls; when the
+output is growing slowly or is shrinking, the unemployment rate rises. Over the
+last 20 years, the break point--the growth rate at which unemployment neither
+rises nor falls--has been between 2 percent and 2.5 percent. And this break
+point does not seem to have changed much in recent years: Since mid-1994, GDP
+has grown at about a 2.7-percent annual rate, while unemployment has fallen at
+a steady rate, implying that the no-change-in-unemployment growth rate is
+closer to 2 percent than to 3 percent. (Click to see a chart that illustrates
+the break point.)
+
+            
+So what? Don't we want unemployment to
+fall? Yes, of course, but the unemployment rate can fall only so far. Obviously
+it can't go below zero; and in reality, the limits to growth are reached long
+before the economy gets to that point. Both logic and history tell us that when
+workers are very scarce and jobs very abundant, employers will start bidding
+against each other to attract workers, wages will begin rising rapidly, and
+real growth will give way to inflation. That means that while the economy can
+grow faster than 2-point-whatever percent for a while if it starts from a high
+rate of unemployment (like the 7.5-percent unemployment rate that prevailed in
+late 1992), in the long run, that growth rate cannot remain higher than the
+rate that keeps unemployment constant. And that is where the infamous "speed
+limit" comes from.
+
+            Behind
+that speed limit, in turn, lies another bit of arithmetic: The rate of growth
+of output, by definition, is the sum of the rate of growth of employment (which
+is limited by the size of the potential labor force) and that of productivity,
+a k a output per worker.
+
+            Aha! say the New Economy advocates--that's exactly our
+point. Productivity growth has accelerated, which means that the old speed
+limit has been repealed. It's true, they concede, that official productivity
+statistics do not show any dramatic acceleration--in fact, measured
+productivity growth in the '90s has been about 1 percent per year, an
+unimpressive performance similar to that of the two previous decades. (It has
+gone up more than 2 percent in the last year, but this is probably just a
+statistical blip.) But they insist that the official statistics miss the
+reality, understating true productivity growth because, as Shepard insists, "we
+don't know how to measure output in a high-tech service economy."
+
+            He's
+probably right about that. What he may not realize is that we really didn't
+know how to measure output in a medium-tech industrial economy, either. How
+could productivity indexes--which basically measure the ability of workers to
+produce a given set of goods--properly take account of such
+revolutionary innovations as automobiles, antibiotics, air conditioning, and
+long-playing records? Just about every economic historian who has looked at the
+issue believes that standard measures of productivity have consistently
+understated the true improvement in living standards for at least the past 140
+years. It's anybody's guess whether unmeasured productivity growth in the last
+few years is greater or less than in the past. (My personal guess is that the
+hidden improvements are less important than they were in the 1950s and
+1960s: For example, direct-dial long-distance calling and television made more
+real difference to our lives than the Internet and DVD.)
+
+            
+But anyway, that is all beside the point. After
+all, what is this number we call "productivity"? It is measured real GDP per
+worker --nothing more, nothing less. Suppose Shepard is right that we are
+understating productivity growth by, say, 1 percent. Since nobody thinks we are
+overstating employment growth, he must believe that the official statistics
+understate true output growth by exactly the same amount. Now Shepard is quite
+right that if true productivity growth is 2 percent, not the 1-percent measured
+rate, and if the labor force is growing at 1 percent, then the economy's true
+speed limit is 3 percent, not 2 percent. But when the economy is
+actually growing at 3 percent, the statistics will say that it is
+growing at 2 percent--and yet it cannot grow any faster.
+
+            Still,
+Shepard thinks that it can. "Perhaps the 4% rate of the past 12 months is too
+high. ... But the 2%-to-2 ½% speed limit is probably obsolete. In an era of
+stronger productivity growth, which may just now be showing up in statistics,
+the speed limit is probably 3% to 3 ½% a year." In short, now that he knows
+(or, anyway, prefers to believe) that the speedometer has been understating his
+speed, and that the shimmy therefore doesn't start until he is really
+going 55, he thinks that he can drive 55 as measured using that same
+speedometer . Uh-uh.
+
+            But doesn't the happy combination of low unemployment and
+low inflation show the payoff from hidden productivity growth? Well, higher
+productivity growth would mean lower inflation for any given rate of wage
+increase. And if official productivity statistics understate the real rate of
+progress by 1 percent, official price statistics also overstate
+inflation by exactly the same amount. This is a cheerful thought, but it also
+means that invoking covert productivity increases doesn't help explain why even
+measured inflation remains quiescent. The low rate of inflation in the
+U.S. economy is indeed a surprise: But the puzzle is why wages have not risen
+more rapidly despite very tight labor markets, not why prices have remained
+stable given very moderate wage increases. And productivity us with that
+one.
+
+            Shepard's essay was pretty
+obviously intended as a response to economists--including Princeton's Alan
+Blinder, Morgan Stanley's Steve Roach, and me--who have recently been critical
+of the New Economy doctrine, among other things pointing out (though apparently
+to little effect) the dependence of that doctrine on the speedometer fallacy.
+It seems clear that he is baffled by the reluctance of "Old Economists" to join
+the party, and that he can only explain it by their unwillingness to accept the
+idea that the world has changed and that their pet theories are no longer
+valid. Well, I can't speak for the others, but I have no particular aversion to
+admitting that the economy can change and that old rules sometimes don't apply.
+In fact, as anyone who makes much of his income from book royalties and
+speeches can tell you, the incentives are all the other way: People would much
+rather hear about how everything has changed than about why most of the usual
+rules still apply. (And feel-good optimism sells much better than dismal
+realism.)
+
+            No, the reason I can't buy
+into the New Economy is actually very simple: Despite all the incentives, I
+can't bring myself to endorse a doctrine that I know to be just plain dumb.
+
+         
+      
+   

@@ -1,0 +1,111 @@
+
+   
+   
+      
+         
+            Why High Interest Rates Are Bad for Stocks
+            
+
+            A couple of notes before the actual substance--thank you for refraining from
+chuckling--of today's column: Today's stock-market action was actually quite
+fascinating to watch, especially once the early-day plunge was out of the way.
+Unlike yesterday, when stocks fell in unison, there was a meaningful divergence
+between stocks today. The most obvious example of this was the contrast between
+the Dow's rise and the Nasdaq's fall, but the more interesting example was that
+by the end of the day most (though, not all) of the tech powerhouses--that is,
+those with profits--had recovered sharply and were actually up on the day,
+while most (though again, not all) of the Internet high-fliers, in both the
+e-retailer and B2B camps, were down, often sharply. As I suggested on Monday,
+this kind of divergence is a good and comforting thing, since it suggests
+investors are distinguishing between companies rather than throwing them all
+into one big buy-or-sell pot.
+
+            The other good--and comforting--thing was that both the New York
+Times and the Washington Post led with Greenspan's reappointment
+rather than with the market sell-off. (I realize I wrote about the
+sell-off yesterday instead of Greenspan, which might seem to be
+discomfiting by my standards, but I've already issued too many hosannas to the
+Great Alan for another one to be interesting. Until the next one, of course.)
+For that matter, the Daily News put the Turner-Fonda separation on its
+front page. These seemed like nicely measured, and somewhat surprising,
+reactions to what might have been played as a much scarier event than it really
+was.
+
+            One crucial ingredient in all of today's explanations of the sell-off (and
+we are now entering the putatively substantive part of the column, so watch
+your heads) was, of course, "interest-rate concerns." Unfortunately, it's
+usually not explained why people who are investing in stocks should be all that
+concerned about interest rates. In fact, they should be--and are--concerned.
+It's just that the reasons for their concern are complicated, because interest
+rates affect stocks in different ways and, for that matter, because there are
+different interest rates to be concerned about.
+
+            The interest rate that most journalists have in mind when they talk about
+"interest-rate concerns" is not the interest rate that you see at the bottom of
+that bug in the corner of the CNBC screen. That's the interest rate on the
+30-year U.S. bond. The rate most journalists are talking about is the federal
+funds rate, which is the interest rate the Federal Reserve raises or lowers in
+order, in theory, to speed up or slow down the economy by increasing or
+shrinking the size of the U.S. money supply and indirectly raising or lowering
+interest rates on things like car and home loans (since banks pass along
+changes in interest rates to their customers). It now appears that the Fed will
+raise interest rates at its February meeting, and of late investors have got it
+in their heads that instead of its typical 25-basis-point (0.25 percentage
+point) increase, the Fed is going to hike rates by 50 basis points.
+
+            These interest-rate concerns, then, are concerns that the Fed's actions will
+slow down the economy, which in turn will make corporate profits grow less
+quickly than otherwise, and since investors are paying prices for stocks that
+assume very fast profit growth in the future, the threat of a slowing economy
+makes them want to sell.
+
+            Fair enough. But one of the odd things about this most recent sell-off is
+that, with the exception of banks (which are always hit hard by interest-rate
+worries), the hardest-hit companies were those companies whose profit prospects
+will be the least hurt by a fed-funds hike. If you're a big retailer, or an
+aluminum company, or even a car company, an interest-rate hike could
+have--though I stress could--a big impact on your business. But if you're Cisco
+(which I own) or another major supplier of technological infrastructure to big
+business, you're going to weather anything short of a complete recession,
+because American business shows absolutely no sign of cutting back on
+investment. And that's because in this competitive environment, it can't.
+
+            So why would interest-rate concerns hit the high-priced tech stocks so hard?
+You might ascribe it simply to panic, which undoubtedly played a part. But
+there are also two other reasons, which have to do with that other interest
+rate, the one on the 30-year bond. That interest rate is effectively the
+risk-free rate of return for any investment you want to make, and as the
+interest rate on bonds rises, bonds become more attractive and stocks less
+attractive. This has a practical consequence, which is that rising rates lead
+institutions--primarily, at this point--to pull money out of the stock market
+and put it into bonds. And the opposite is true when rates are going in the
+other direction.
+
+            But rising rates also have a theoretical consequence that's even more
+important. If you want to figure the present value of a stock--which is to say,
+how much it's worth today given how much free cash flow the company is going to
+generate in the future--you need to discount that cash flow by your required
+annual rate of return. (If your required rate of return is 10 percent, then the
+total free cash generated by the company in 20 years needs to be divided by 1.1
+to the 20th power.) And a crucial component of that rate of return is the
+interest rate on the 30-year bond, since you know you can get that without any
+risk at all.
+
+            If interest rates rise, then, the present value of the future cash generated
+by the company--even if the amount of that cash is unchanged by the rise in
+interest rates--shrinks. Even a relatively small rise in interest rates can
+have a major effect on that present value if it's spread out over 30 years. And
+since the stock prices of the most valuable companies in the world today in
+fact reflect investors' confidence that they're still going to be generating
+huge amounts of cash 30 years from now, rising interest rates can have serious
+effects on current stock prices.
+
+            In the end--although you'll hear plenty of people tell you that this is an
+old-fashioned idea--a stock's price is a mechanism for discounting the future.
+And as the discount rate rises, it's not surprising if stock prices fall. The
+equation is not automatic or perfect. But in the long run, it's
+unavoidable.
+
+         
+      
+   

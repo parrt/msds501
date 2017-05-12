@@ -1,0 +1,172 @@
+
+   
+   
+      
+         
+            
+
+            
+
+               STARTING MONDAY IN 
+               
+                  Slate
+               
+               :
+Norman Podhoretz and Midge Decter chew over the news in "The Breakfast Table."
+And save your Sunday: Skip the talk shows and let "Pundit Central" brief you on
+them; it's posted late Sunday evening.
+            
+
+            
+               Length
+Matters
+            
+
+            Several readers complained about the length of last
+week's 
+                  Slate on Paper
+               . This is the document available by
+e-mail or download around midday each Friday, containing a week's worth
+of 
+                  Slate
+                goodies nicely formatted for printout on standard size
+paper. Last week's was especially long (85 pages) because it included our
+annual "
+                  Slate
+                60" list of rich people ranked by their
+contributions to charity. But even in a normal week, 
+                  Slate on
+Paper
+                has been running around 55-60 pages.
+
+            Meanwhile, some America
+Online readers have complained about not getting their 
+                  Slate
+               
+e-mail at all. This was an AOL screw up, but we've straightened it out. We
+hope.
+
+            As for the length problem: We used to limit 
+                  Slate on
+Paper
+                to 44 pages. Readers complained that we were leaving out their
+favorite stuff. So, a few weeks ago, we asked readers whether they would prefer
+a file containing everything in 
+                  Slate
+                each week. The overwhelming
+answer was "yes." Even though it will take longer to download? Yes. Even though
+it will require more pages to print out? Yes. You're absolutely sure, are you?
+Oh yes. Because Mommy and Daddy don't want to send you a great big file if
+you're not going to want it. Oh yes, we want it.
+
+            So for those who think
+
+                  Slate on Paper
+                is too long, you're apparently in the minority.
+And like all minorities in our melting-pot society, you should try to blend in
+and not be so conspicuous. Keep quiet and work hard. Consider marrying an
+"include-it-all" and raising the children that way. They'll grow up to play
+golf and download the long version of 
+                  Slate on Paper
+               , and you'll
+feel like a real American.
+
+            Many readers did raise a good question: Why doesn't the
+
+                  Slate on Paper
+                file allow you to choose which articles you wish
+to print out instead of all or nothing at all? The answer, as to so much in
+life, is: We're working on that. (Or, as 
+                  Slate
+               's crack software
+development team puts it, in the strange argot of their tribe: "Yeah, yeah,
+yeah, we're working on that.")
+
+            Meanwhile, the editor has wasted far too much time
+poking around the many byways and cul-de-sacs of Microsoft Word, looking for
+some quick and dirty solution to this dilemma. Although we say so as a sister
+division of the same company, Word is an amazing and underappreciated piece of
+software. Amazing for the things it can do and underappreciated because no one
+knows about them. No one knows about them primarily because software
+instruction manuals get thinner and thinner. Even Word's online Help (in recent
+versions an annoying talking paper clip that many people quite rightly refuse
+to interact with) doesn't seem to know about some things the program can do.
+What other industry besides software goes to the trouble of improving its
+product and then keeps the improvements a secret?
+
+            Nevertheless, if you use
+the Microsoft Word version of 
+                  Slate on Paper
+                (we also offer an
+Adobe Acrobat version) a couple of Word's features can help you to print out
+just the articles you want. They're a bit clumsy for this purpose, but they do
+the job.
+
+            
+
+               
+                  Outline View. With the slate.doc file on your screen, on
+the View menu, click Outline . (Or, in later versions of
+Word, click the fourth tiny box in the lower-left corner of the Word
+window--just above the page number.) If you then click 1 on the
+Outline toolbar that will have appeared (with any luck), you
+should get a list of 
+                     Slate
+                  's departments, from "Today's Papers"
+through "The Fray." At the left of each item is a plus sign. If you click once
+on the plus sign, you have selected that department. You can then print the
+selection (an option on the Word Print menu). Or you can select and
+delete all the articles you don't want and print the whole remaining
+document. Or, if you want to get fancy, you can create a blank document in a
+new window, and then drag and drop the articles you want into it.
+
+            
+
+            
+               You also can
+double-click the plus sign for any one listing or hit one of the higher numbers
+on the Outline toolbar to affect the whole file and expose various
+sub-levels of headline, posted date, etc. For departments (such as Today's
+Papers, "Moneybox," etc.) that consist of multiple items, you can hit the plus
+sign and do your stuff for just the items you want.
+            
+
+            
+
+               
+                  Master Document view. This is a recherché
+variation on Outline view, also available on the View menu. It
+allows you to turn various subdivisions of a file into separate files, which
+you can then move around or otherwise submit to your will. Try this: Select a
+department you want to print (it can't be the first one, Today's Papers, for
+some damned reason) and hit the "Create Subdocument" toolbar icon. (It's a tiny
+horizontal rectangle inside a vertical rectangle with a turned-down upper-right
+flap--just as you would have guessed.) Your selected piece is now a separate
+file, set in an attractive gray box. You can drag'n'drop the other stuff you
+want into that box, double-click the little square icon in the upper-left
+corner of the box to expand the file, then hit Print . It might
+work.
+
+            
+
+            There has got to be a way--using these and other Word
+features such as macros, templates, fields, styles, and so on to make a simple
+selective-printout menu that either could be built into each week's 
+                  Slate
+on Paper
+                file or could be offered as a downloadable tool. What about
+using "hidden text"? (Hidden from screen view but printed? Or visible on screen
+but not printed?) Or the automatic table of contents generator? (Could the
+whole text be turned into a table of contents? What on earth for?) Strictly as
+an amateur, the editor has tried them all and admits defeat.
+
+            Is there another amateur among 
+                  Slate
+               's
+readers who would like to pick up the challenge? If you beat the pros to a
+solution, we will name it after you, and you'll be immortalized in this little
+corner of cyberspace.
+
+         
+      
+   

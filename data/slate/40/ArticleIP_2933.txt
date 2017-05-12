@@ -1,0 +1,132 @@
+
+   
+   
+      
+         
+            Net Result
+
+            Were it not
+for a coin tossed in the fall of 1962, the Internet might not exist. The winner
+of the toss, MIT computer scientist Joseph Carl Robnett Licklider (or "Lick,"
+as he insisted on being called), got the top job at an obscure government
+agency known as the Command and Control Research Division, a division of the
+Pentagon's Advanced Research Projects Agency (ARPA), which was created after
+Sputnik to close the purported gap between Soviet and American science.
+
+            When Licklider arrived, his
+agency specialized in the sort of esoteric Department of Defense research that
+could only be called "asinine" (his word, in fact). Air Force intelligence, for
+instance, wanted to use the agency's huge mainframe computers to detect
+patterns of behavior among high-level Soviet officials. The idea was to feed
+the computers bits of information like, "The Soviet Air Force chief drank two
+martinis yesterday," or, "Kruschev isn't reading Pravda on Mondays,"
+from which the computer was to deduce that the Soviets were building a new
+missile, or that some inner-circle coup was imminent, or whatever.
+
+            This is a test
+of Word's abilities.
+
+            Licklider
+got rid of the fanciful war games, substituting something that must have
+sounded equally bizarre--the creation of an "Intergalactic Network." In two
+short years on the job (he returned to MIT in 1964), Licklider poured enough
+money into America's universities to influence an entire generation of computer
+scientists, of whom some would go on to invent video games, the mouse, the
+metaphor of "windows" and "icons" and, of course, the Internet itself.
+Licklider's prescience stemmed from his pioneering research on
+"time-sharing"--the then-unthinkable notion that more than one person could
+share a computer at the same time, through terminals. "Time-sharing" had the
+added benefit of letting people get their hands on keyboards, which few of them
+had ever done. Computer science up to that point had been dominated by
+"batch-processing," a system believed to be maximally efficient, wherein
+programmers wrote code at their desks, copied it onto stacks of cards with
+holes punched into them, and handed them over to technicians who had a
+priestlike say over who got to use the computer, and when.
+
+            Considering his achievements, J.C.R. Licklider may be the
+most influential little-known person in the history of computer science. Katie
+Hafner and Matthew Lyon, authors of Where Wizards Stay 
+               Up Late: The
+Origins of the Internet , dedicate their book to him, although that,
+unfortunately, is the grandest of their corrective gestures. The short 15 pages
+they devote to his life do little more than summarize his résumé.
+
+            This reflects a larger flaw
+in the book. Hafner, a contributing editor at Newsweek and co-author
+with John Markoff of Cyberpunk: Outlaws and Hackers on the Computer
+Frontier , and Lyon, her husband and an assistant to the president of the
+University of Texas, have written an epic technological history. Their story of
+how the Internet was discovered is a blow-by-blow saga of how a single
+engineering problem, in this case the construction of the ARPANET (precursor to
+the Internet), was solved. But the larger intellectual revolution undergirding
+the Internet--the redefinition of the relationship between people and
+computers, which turned impersonal calculating machines into intimate tools for
+everyday thought--earns only a few mentions in passing. There is merit to
+Hafner and Lyon's narrowly focused approach. They've conducted extensive
+interviews with the scientists involved, culled material from archives and
+private collections, and revised the historical record where necessary.
+
+            For
+instance, they debunk the long-standing myth that the Internet was created as a
+test to see if computer networks could be designed to survive a nuclear war.
+Instead, as Lyon and Hafner show, the Net was built because the federal
+government needed a way for all the incompatible computers being used for
+government research to communicate with each other. In a sense, the Internet
+was the ultimate time-sharing project: a nationwide network capable of
+connecting any sort of computer with another computer.
+
+            
+The logistics were daunting. How on earth were
+scientists to create connections between dozens, let alone hundreds, of
+computers without running up a fortune in telephone bills? The answer, which
+occupies three chapters of the book, is "packet switching," and it remains the
+core of today's Internet. Instead of opening a direct connection with the
+destination computer, messages are sent willy-nilly, chopped up into little
+packets that are reassembled when they get to their destination.
+
+            Hafner
+and Lyon tell the story of how two scientists, Paul Baran in America and Donald
+Davies in England, arrived independently at the notion of packet switching.
+They trace the web of conversations that brought their ideas to the office of
+Bob Taylor, Licklider's successor. Taylor didn't have time to manage the
+details of the ARPANET project, and hired one particularly brilliant graduate
+student named Larry Roberts to do it for him. Roberts assembled his fellow
+graduate students from universities around the country, then gave them the
+right to do more or less whatever they wanted. Perhaps the greatest mystery in
+the history of the Internet is one about which Hafner and Lyon never bother to
+speculate--how and why the Pentagon, at the height of the backlash against the
+Vietnam War, was persuaded to grant a bunch of longhaired, Tolkien-reading grad
+students huge sums of money, without insisting on oversight. Whatever the
+reason, it worked: The crucial design decisions were made at a series of
+informal grad-student conferences, and by September 1969, a working connection
+had been opened between a computer at UCLA and one at Stanford.
+
+            The second half of Where Wizards Stay Up Late
+describes the aftermath of the ARPANET project. We read about how the students
+developed interactive games, created the first online discussion groups, fought
+over what technical standards to adopt, and ran headfirst into issues still
+relevant today--privacy online, the appropriate use of computers, ownership of
+software, how to govern the Internet. Once again, though, the authors don't
+interpret the picture they're painting in such studious detail. The Internet,
+barely in the government's hands in the first place, was hijacked by the
+students, who seemed to be more interested in playing Dungeons and Dragons than
+in using the network solely for research.
+
+            How does the architecture of
+the Internet reflect the strange counterculture these students conjured up out
+of Pentagon funds? Readers who want a more complete picture should read two
+other books: Steven Levy's Hackers: Heroes of the Computer Revolution
+(1984), which gives a still-fresh account of MIT's Project MAC (not
+coincidentally funded by Licklider), an enterprise dominated by the "hacker
+ethic"--the compulsive urge to explore and improve on things. (In that sense,
+the Internet was the ultimate hack.) And Stewart Brand's II Cybernetic
+Frontiers (1974), which recounts how this generation of "computer kids"
+designed computer games based on science fiction and used the Internet to
+fashion a universe of their own. Building the Internet was not simply about
+building a better mousetrap; it was, for its creators, also about building a
+better and smarter, and wildly utopian, world. That story remains to be
+told.
+
+         
+      
+   

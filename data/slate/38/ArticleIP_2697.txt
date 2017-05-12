@@ -1,0 +1,205 @@
+
+   
+   
+      
+         
+            Microsoft Monopoly?
+
+            
+               "Frame Game" is an
+occasional Slate department based on the premise that who wins in
+Washington is often determined by how the issue is framed. The author neither
+endorses nor condemns any of the views expressed, however laudatory or
+repellent.
+            
+
+            On Jan.
+13, a federal judge will resume hearing the Justice Department's antitrust case
+against Microsoft. DOJ accuses Microsoft of violating a consent decree by
+leveraging Windows' 90-percent share of the computer-operating-system market to
+corner the browser market with its Internet Explorer. Microsoft says it's
+"integrating" IE into Windows. DOJ says that the two products are separate and
+that Microsoft is illegally forcing computer makers to load their machines with
+IE--first by threatening to deny them Windows, then by artificially repackaging
+the two programs as one. Microsoft faces similar charges from competitors,
+consumer activist Ralph Nader, and possibly several state attorneys general.
+The press has turned against Microsoft, even comparing it to the tobacco
+industry. If Microsoft is so shrewd and powerful, why isn't it winning this
+public-relations game? Because it's overplaying tactics and neglecting strategy
+on several fronts:
+
+            1 Power vs. beneficence. Is Microsoft too powerful?
+Bill Gates, like Bill Clinton, answers ideology with economic practicality,
+touting the country's prosperity and taking as much credit as he can. Microsoft
+isn't committing the sins monopolies are supposed to commit, Gates argues.
+Windows is cheap, and IE is free. Lots of companies are selling software, their
+products are rapidly improving, and prices are falling. Thanks to high-tech
+capitalism, the economy is booming.
+
+            This
+change of subject has earned some good press: News stories have quoted analysts
+and consumers vouching for the quality and low price of Microsoft products.
+"Microsoft's Strategy Has Given Users Some Benefits," proclaimed a New York
+Times headline over a laudatory Associated Press story. But whereas
+changing the subject usually works in politics, it's not as effective in legal
+fights. The court's proceedings keep the media spotlight on the question of
+monopoly.
+
+            
+2 Big government vs. big business. A
+well-known law of politics says that if the debate is about you, you'll lose.
+For that reason, Microsoft says the antitrust case is about governmental power.
+The company portrays Big Brother as the principal threat not just to Microsoft,
+but to free enterprise, consumer choice, and prosperity. Gates calls the choice
+between private and government control of software "the question at the center"
+of the case. Nathan Myhrvold, Microsoft's chief technology officer, conjures up
+the specter of a "Federal Bureau of Operating Systems." Conservative pundits
+have flocked to this argument.
+
+            DOJ antitrust chief Joel
+Klein offers the standard liberal rejoinder: Big business, too, can threaten
+consumer choice, and government is the only institution capable of stopping it.
+Klein has repeatedly described Microsoft as the enemy of "choice," declaring,
+"No consumer should be denied the browser of their choice because Microsoft
+made their computer vendor an offer they couldn't refuse."
+
+            Klein will have a hard time
+persuading the public that Microsoft is coercive, because the company exerts
+its market-share leverage subtly: It distributes IE free, negotiates with
+computer manufacturers to make IE the default browser on their machines, and
+links Windows to software and services it wants to promote. These methods allow
+Microsoft to argue that computer makers can add other browsers (such as
+Netscape's popular Navigator) and that users remain free to switch to them.
+
+            But Larry
+Lessig, the legal scholar enlisted by the court to sort out the case, is an
+expert on subtle methods by which software providers can steer consumer
+choices. He has argued that the cyberindustry's hidden "tyranny of code" can be
+more pernicious than the clumsy, overreaching state. These views bode ill for
+Microsoft.
+
+            3 Public vs. private interest. While Microsoft
+started with the ideological advantage of not being the government, DOJ started
+with the ethical advantage of not being a private interest. Microsoft appears
+to have evened the score by persuading the press to link DOJ, Nader, and
+anti-Microsoft politicians to the company's competitors. When Sen. Orrin Hatch,
+R-Utah, held hearings on Microsoft's alleged misdeeds, newspapers noted that
+Novell, a rival of Microsoft, is a major employer in his state. The New York
+Times observed that at Nader's anti-Microsoft conference, "The panels were
+full of Microsoft competitors and lawyers representing them." AP reported that
+Netscape was "using" the antitrust case in a marketing campaign.
+
+            Microsoft
+has used the image of its competitors' political influence to portray its own
+lobbying as "self-defense." Microsoft spokesmen simultaneously profess 1)
+"reluctance" at being forced to stoop to lobbying and 2) chagrin at having done
+so "belatedly." Newspapers have bought both these spins, alternately praising
+and criticizing Microsoft's virginity, but accepting it as a given. (For
+
+                  Slate
+               's view, see Jacob Weisberg's "Dear
+Microsoft.")
+
+            
+4 Browser market vs. operating-system
+market. Microsoft's critics point out that Windows has 90 percent of the OS
+market. Conversely, Microsoft points out that IE has less than 40 percent of
+the browser market, compared with Netscape's 60 percent. On this basis,
+attorney Charles (Rick) Rule, who has been retained to represent Microsoft,
+accuses DOJ of suing "a company with a smaller share of sales in order to
+protect the ability of its dominant competitor to secure an exclusive." (For
+Rule's views on the case see "The Case Against the Case Against Microsoft" in
+
+                  Slate
+               .) But distinguishing between the two markets undermines
+Microsoft's thesis that IE and Windows are "integrated."
+
+             
+
+            5 Technology vs. marketing. Microsoft says its
+linkage of IE to Windows yields "improved features and functionality." DOJ says
+the linkage is a marketing ploy, not a technical necessity. Rule concedes that
+"suppliers and consumers will gravitate toward the most widely disseminated
+standard, regardless of whether it is technically the best." Therefore,
+Microsoft owes its success to "the good fortune of being the pre-eminent
+operating system on IBM PCs." Gates calls the Windows-IE marriage the latest
+"incremental step" in Microsoft's "long history" of absorbing "separate
+offerings" (e.g., disk compression and networking) into Windows.
+
+            Critics
+interpret this kind of standardization and integration, for all their benefits
+to consumers, as triumphs of marketing, not technology. On this view, Microsoft
+buys out potential rivals or starves them to death by stealing their
+innovations and adding them to Windows. It doesn't create breakthroughs; it
+absorbs them. The company's recent buyouts of WebTV and Hotmail, the leading
+purveyors of TV Internet service and free e-mail, exacerbate this complaint. If
+DOJ persuades the court that Windows-IE integration is just one in a series of
+Microsoft marketing schemes, the company could lose an image war bigger than
+the courtroom battle.
+
+            
+6 Platform vs. tollbooth. Much of the
+debate turns on a contest of metaphors. Gates calls Windows a "stable," "open,
+integrated platform" that gives software and hardware innovators "the certainty
+they need to build products." The metaphor emphasizes stability's virtues
+(facilitating "openness" and "innovation") over its drawbacks (stifling
+competition). By sundering IE from Windows, Gates suggests, the government
+would fracture the platform and pull down the whole house of cards.
+Pro-Microsoft programmers dramatized this point by staging a press conference
+at Nader's forum, crediting their livelihoods and the nation's "small business
+development" to the Microsoft platform. The press ate it up.
+
+            
+Microsoft's enemies counter with less flattering analogies. Citing a Microsoft
+memo, they accuse the company of plotting to parlay its primacy into a
+"vig"--i.e., a bookie's percentage--on Internet transactions. Nader and others
+foresee Microsoft "tollbooths" at entry ramps to the information superhighway.
+(For Nader's views see "The Microsoft Menace" in 
+                  Slate
+               .) Gates replies that
+Windows PCs enable entrepreneurs and artists to reach audiences over the
+Internet, cutting out the fee-charging middlemen who control traditional media.
+To which critics rejoin: Why not cut out Microsoft, too?
+
+            7 Desktop vs. network. An alliance of
+competitors--Sun, Oracle, Netscape, Novell, and IBM--is developing machines and
+a universal programming language (Java) based on the network, an alternative
+platform to the desktop. Microsoft wants to make sure that the desktop (where
+Windows holds sway) becomes the platform for the network, not the other way
+around. That's why network advocates have accused Microsoft of tinkering with
+Java to frustrate collaboration between Windows-based and non-Windows-based
+computers. It's also why Microsoft is marketing a browser, folding it into
+Windows, and battling the antitrust suit. "While the Justice Department is
+claiming that Windows should not include browsing capabilities," Gates
+protests, "Microsoft's competitors are busy incorporating basic operating
+system services ... into their browsers."
+
+            8 Danger vs. dinosaur. Faced with two challenges--the
+antitrust case and the network-paradigm alliance--Microsoft is pitting the
+latter against the former. If the network paradigm is as mature and superior as
+proponents claim, asks Gates, how can the government deem Microsoft an
+entrenched monopoly? In fact, Gates argues, the network-paradigm assault makes
+incorporation of a browser "critical for Windows to stay competitive." Windows
+must eat the browser market or be eaten.
+
+            9 Technicalities vs. tone. Microsoft's
+argumentativeness has disastrously overshadowed its arguments. Its lawyers have
+sought the removal of Lessig and the judge. They've derided a government brief
+as proof that "poorly informed lawyers have no vocation for software design."
+When instructed by the judge to give computer makers an alternative to
+packaging IE with Windows, Microsoft made the alternatives unworkable or
+undesirable. This conduct has embarrassed the company's supporters and
+triggered an avalanche of editorials calling Microsoft rich, ruthless, sneaky,
+petty, arrogant, and stubborn.
+
+            Some reports indicate that
+this tone-deaf performance has already irked the judge and has convinced him to
+enjoin Microsoft's marketing practices on the grounds that the company can't be
+trusted to regulate itself. Even if Microsoft wins the courtroom battle, it
+risks losing the war for consumers' hearts and minds. The rap on nerds has
+always been that they're technically brilliant but socially inept. Microsoft's
+behavior has done little to prove otherwise.
+
+         
+      
+   

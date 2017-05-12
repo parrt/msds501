@@ -1,0 +1,202 @@
+
+   
+   
+      
+         
+            Gates Crashing
+
+            
+               Subject: Don't
+Condescend to the WTO Protesters
+
+            
+               Re: "" (Dec. 1)
+
+            
+               From: 
+               Richard Perry
+            
+
+            
+               Date: Wed Dec 1
+
+            It's not just interesting that the major media
+coverage of WTO/Seattle, this piece included, has been dismissive and
+condescending--it's telling. The New York Times ' front-page piece, which
+Today's Papers quotes, refers to the protesters' "sentiments"; the smug
+"Brainless in Seattle" headline in "TP" betrays a similar willful
+ostrich-pose.
+
+            The protesters' main victory lies in making the WTO
+front-page news in the first place. The WTO is a non-democratic (unless
+you want to stretch the definition of "democratic" to absurd proportions)
+organization with great power to affect, well, everyone . It is
+symptomatic of the decay of accountability and legitimacy in ostensibly
+democratic, people-centered government.
+
+            This is a major issue, and it's not going to get
+play if a few loud activists don't make noise and force corporate media to at
+least take note, even as they reel out the tired Friedman-esque line that a
+global economy is both inevitable and the best of all possible worlds, so get
+used to it, take your medicine, shut up and get back to work. Guys in black
+masks smashing Starbucks windows make easy targets, sure. It's a lot harder to
+actually look beneath the surface and think through the present and potential
+effects of the incredibly complex--and in many ways dangerous--phenomenon of
+globalization.
+
+            (To reply, click
+here .)
+
+            
+               Subject: Don't Pick
+on Skip Gates
+
+            
+               Re: "" (Dec. 1)
+
+            
+               From: 
+               Gary Imhoff
+            
+
+            
+               Date: Wed Dec 1
+
+            Yes and no to both Gerald Early's and David
+Nicolson's reviews. Yes, the book as a whole is insufferably smug (with Cornel
+West at the head of the smirking line) and politically correct. Yes, its
+choices are trendy and will date it badly and quickly. In this, it is very much
+like another Microsoft product, the new Encarta Dictionary . The
+dictionary and its style guide would make Mrs. Grundy proud. They cite as
+"objectionable" three times as many words as any other dictionary, damning
+every word that any small political group anywhere has ever criticized. (The
+style guide suggests not using "homosexual," although it gives no usable
+alternative; it labels "cancer patient" as offensive, and recommends "patient
+with cancer" as the proper phrasing.)
+
+            However, the personal criticism of Henry Louis
+Gates is, in my opinion, overdone. Gates wants to, and has, succeeded in his
+profession. That isn't a bad thing. He has done so by hard work, by doing a lot
+of worthy editing and literary criticism. He wants to read and know everything,
+much like Diderot, to whom Early compares him. That's admirable, not a
+weakness. Sheath the claws.
+
+            (To reply, click
+here .)
+
+            
+               Subject:
+Plagiarized Obits
+
+            
+               Re: "" (Nov.
+23)
+
+            
+               From: 
+               Ken Hobson
+            
+
+            
+               Date: Mon Nov
+29
+
+            Regarding Scott Shuger's comment on plagiarized
+New York Times obituaries: When I worked for the New Bedford Standard
+Times in 1964 it was common to lift obits from the Providence
+Journal word for word.
+
+            (To reply, click
+here .)
+
+            
+               Subject: Re:
+Plagiarized Obits
+
+            
+               Re: "" (Nov.
+23)
+
+            
+               From: 
+               Richard Riley
+            
+
+            
+               Date: Mon Nov
+29
+
+            Re: the Washington Post and New York
+Times obituaries of the same person containing an identical paragraph:
+Doesn't that probably just mean that the paragraph came from a wire service
+that both papers subscribe to (probably the Associated Press)? If so, that's
+not plagiarism--while I don't know this, my guess is that agreements between
+newspapers and the AP or other wire services let the papers do pretty much
+whatever they want with the wire copy. The episode involving a Baltimore
+Sun music critic, on the other hand, does sound more like plagiarism, so I
+don't see that the cases are alike.
+
+            (To reply, click
+here .)
+
+            
+               Subject: How Big Is
+the Windows Source Code? Don't Ask Microsoft
+
+            
+               Re: ""
+
+            
+               From: 
+               dan kloke
+            
+
+            
+               Date: Wed Dec 1
+
+            Aaaargh! Explainer was humming along just great,
+hitting the nails on the head, until the last sentence: "And a browser's source
+code is only a fraction of the size of that of an operating system."
+
+            Ewww. That is only true if you accept the Microsoft
+premise that welding a graphical user interface (GUI) onto an operating system
+leaves you with a bigger, better operating system (OS)--a proposal which is
+not universally accepted by the computer programming community at large.
+A browser's source is small because it uses the functions of the GUI. In
+UNIX/Linux, the OS isn't tightly bound to a GUI, hence Linux's greater
+configurability for specific tasks, as well as its potential for more than one
+GUI. This is the real problem with Windows: It's much more than an operating
+system, it's an OS (DOS or NT) inextricably meshed with a GUI (MS-Windows).
+Most of the "size" of the Windows basic installation software are details for
+add-on services to the OS, many of which go unused.
+
+            An OS is not a GUI, and a GUI is not an OS, even
+when their coding is intertwined. The size of the OS, in the context of code
+(source or object), is the size essential to execute files. For Windows, that
+amounts to a DOS layer (the minimum required for complete, if not pretty,
+control), about 400k of object code on disk. In Linux, it's a kernel with
+enough support to maintain a command console, something around 120k. (Remember:
+Both of these OS's can boot from floppies!)
+
+            Browsers, as mentioned, don't have to be very big
+either if they have a rich set of GUI features to draw from. It's the dressy
+Windows GUI that takes up all the space on your disk. Yes you have it, yes you
+installed it "with" the OS--but the GUI isn't the OS! Even at Microsoft, the
+GUI and the OS are coded by separate, different teams of programmers.
+
+            Deftly and flawlessly unraveling the (deliberately
+convoluted) intricacies of the Microsoft situation may be too much for the
+valiant 
+                  Slate
+                crew, already caught in the middle (twixt truth and
+fealty) as they are. The OS/GUI distinction is among those at the core of the
+government's antitrust case. I hate to be nit-picky, but this distinction is
+the nit ! If you don't get how important the distinction is, would you at
+least credit the vehemence with which the computer software community argues
+this issue? The article's closing sentence manages to gloss it right over.
+
+            (To reply, click here .)
+
+         
+      
+   

@@ -1,0 +1,166 @@
+
+   
+   
+      
+         
+            Take This Simple Test
+
+            Here's a three-question quiz
+to determine how rational you are. This will work best if you stop and answer
+each question before going on to the next.
+
+            Imagine
+that each of your three fabulously wealthy cousins offers you a choice of two
+Christmas gifts. In each case, choose the one you'd prefer.
+
+            
+               1.
+Cousin Snip offers you a choice of:
+            
+
+            A. $1
+million in cash.
+
+            B. A lottery ticket. The
+ticket gives you a 10-percent chance of winning $5 million, an 89-percent
+chance of winning $1 million, and a 1-percent chance of winning nothing at
+all.
+
+            
+               2.
+Cousin Snap offers you a choice of:
+            
+
+            A. A
+lottery ticket that gives you an 11-percent chance of winning $1 million.
+
+            B. A lottery ticket that
+gives you a 10-percent chance of winning $5 million.
+
+            
+               3.
+Cousin Snurr offers you a choice of:
+            
+
+            A. $1
+million in cash.
+
+            B. A
+lottery ticket that gives you a 10/11 chance of winning $5 million.
+
+            Now that you've made your choices, you can read on to
+discover whether you're a rational creature. "Rational" does not mean
+"risk-neutral." A risk-neutral person is one who is indifferent when given a
+choice between 50 cents and a 50-50 chance of $1. A risk-neutral person would
+choose B in all three cases. In Snip's offer, 10 percent of $5 million
+($500,000) plus 89 percent of $1 million ($890,000) equals $1.39 million, which
+trumps $1 million. In Snap's offer, 10 percent of $5 million ($500,000) trumps
+11 percent of $1 million ($110,000). In Snurr's offer, 10/11 of $5 million is
+$4.55 million, which trumps $1 million.
+
+            But it's
+equally rational to avoid risk or to seek it out. The insurance and gambling
+industries are based on these proclivities. Even so, rationality does imply
+some logical consistency in your choices about risk. It would be embarrassing
+if a lot of 
+                  Slate
+                readers failed this test, so I'm going to make
+it easy by adopting a very broad definition of rationality. As long as you
+satisfy two simple criteria, I'm willing to call you rational.
+
+            
+Here's my first criterion: If you prefer A to
+B, then you should prefer a chance of winning A to an (equally large)
+chance of winning B. And here's the test to see whether you've met that
+criterion: Your answers to Questions 2 and 3 should be the same. That's because
+Snap's choice A is an 11-percent shot at a million bucks, and Snurr's choice A
+is a million bucks. Therefore Snap's A is an 11-percent shot at Snurr's A.
+Meanwhile, Snap's choice B amounts to an 11-percent shot at Snurr's choice B.
+(Do the math: A 10-percent chance of winning $5 million is the same as an
+11-percent chance of winning a 10/11 chance of winning $5 million. 0.11 x 10/11
+= 0.10) So, if you prefer Snurr's A to Snurr's B, you should prefer Snap's A to
+Snap's B.
+
+            Here's my
+second criterion of rationality: If you're choosing between two lotteries with
+identical chances to win, then your preference should be unaffected if I throw
+in a consolation prize that you get if you lose in either case. You pass that
+test if your answers to Questions 1 and 3 are the same. This is why:
+
+            Snip's choice A is $1
+million. Another way to say $1 million--weird, but bear with me--is "an
+11-percent chance to win $1 million, with a consolation prize of $1 million for
+losing." Snurr's choice A is also $1 million. So Snip's A is an 11-percent shot
+at Snurr's A with a $1-million consolation prize.
+
+            Snip's
+choice B is a 10-percent chance of winning $5 million plus a 1-percent chance
+of winning nothing plus an 89-percent chance of winning $1 million. The first
+two items, taken together, amount to an 11-percent chance of a 10/11 chance of
+winning $5 million. The third item means you get $1 million if that 11-percent
+chance doesn't come through. Snurr's choice B is a 10/11 chance to win $5
+million. Snip's choice B is therefore an 11-percent shot at Snurr's choice B
+with a $1-million consolation prize.
+
+            So if you
+prefer Snip's A to Snip's B, you should prefer Snurr's A to Snurr's
+B-- if you're rational.
+
+            To sum up, if you are even minimally rational, your answers
+to Questions 1, 2, and 3 should all be the same. But they probably aren't.
+According to survey data collected by Nobel laureate Maurice Allais--and
+duplicated by several subsequent researchers--most people answer A to Question
+1 and B to Question 2. There is no way to reconcile that combination of answers
+with the most rudimentary theory of rationality, no matter how you answer
+Question 3. In other words, people prefer the cash over the lottery ticket--to
+an extent that rational risk aversion can't explain.
+
+            Economists
+have variously viewed the "Allais Paradox" as a warning, a trifle, an
+opportunity, and a challenge. If you're looking to explain all human behavior
+on the basis of a few simple axioms, it's a warning. If you don't believe that
+casual answers to abstract survey questions constitute an important part of
+human behavior, it's a trifle. If the survey responses mean that people are
+less rational than they ought to be, it's an opportunity for economists to
+teach better decision-making skills. If you conclude that there's a critical
+element missing from our theory of rationality, it's a challenge to identify
+that element.
+
+            
+One missing element is regret . When you
+choose a lottery instead of a sure thing (as in Question 1), you risk not just
+losing the lottery but also feeling regretful about your recklessness. But when
+you choose between two lotteries (as in Question 2), you can always reconcile
+yourself to a loss by thinking, "Well, I'd probably have lost no matter
+what I chose." Maybe that's why most people go for the sure thing in
+Question 1 but are willing to go for the slightly riskier of the two bets in
+Question 2. (Click for an experiment that could test this hypothesis.)
+
+            Here's another
+thought-experiment that indicates the importance of avoiding regret. Suppose
+you belong to a company of 10 soldiers, of whom one must be chosen for the
+distasteful task of executing a prisoner. Which of the following do you prefer?
+A) One soldier is selected at random to shoot the prisoner? Or B) all 10
+soldiers fire at once, without knowing which one of the 10 has been issued live
+ammunition? Either way, you'd have a 10-percent chance of being the
+executioner, so simple theories of rationality suggest that you should be
+indifferent when asked to choose between the two options. Yet most people
+prefer B), because in case B) you never know whether you've been
+unlucky.
+
+            The
+analogy between the soldiers and the Allais survey respondents is imperfect;
+the soldiers who choose method B) are trying to avoid regret over bad luck,
+while the survey respondents are, perhaps, trying to avoid regret over bad
+decisions. But in either case, ignoring the human impulse toward
+regret-avoidance might give a social scientist cause for regret.
+
+            
+               Note to
+readers: A week after this article was posted, Landsburg clarified the "simple
+test." Read his addendum in "E-Mail to the Editors."
+            
+
+         
+      
+   

@@ -1,0 +1,193 @@
+
+   
+   
+      
+         
+            Dead Head
+
+            Back when I was a
+journalist--before I became a provider of digital content--I thought life would
+always be simple: I would write articles, and people would pay to read them.
+But then I heard about the impending death of intellectual property, a scenario
+painted by cyberfuturists John Perry Barlow and Esther Dyson. As all media move
+online, they say, content will be so freely available that getting paid to
+produce it will be hard, if not impossible. At first, I dismissed this as
+garden-variety, breathless overextrapolation from digerati social theorists.
+But even as I scoffed, the Barlow-Dyson scenario climbed steadily toward the
+rank of conventional wisdom.
+
+            Barlow and Dyson do have a
+solution. In the future people like me, having cultivated a following by
+providing free content on the Web, will charge our devotees for services that
+are hard to replicate en masse. We will answer individual questions online,
+say, or go around giving speeches, or spew out insights at private seminars, or
+(this one is actually my idea) have sex with young readers. The key, writes
+Barlow, will be not content but "performance." Barlow, a former lyricist for
+the Grateful Dead, offers this analogy: The Dead let people tape concerts, and
+the tapes then led more people to pay for the concerts.
+
+            The
+seminal version of the Barlow-Dyson thesis is Barlow's 10,000-word 1994 essay
+in Wired . It is with some trepidation that I challenge the logic of this
+argument. Barlow is a noted visionary, and he is famously derisive of people
+less insightful than himself (a group which, in his opinion, includes roughly
+everyone). He says, for example, that the ability of courts to deal correctly
+with cyberissues depends on the "depth of the presiding judge's
+clue-impairment." Well, at the risk of joining Barlow's long roster of the
+clue-impaired, here goes.
+
+            Barlow's argument begins with a cosmic premise: "Digital
+technology is detaching information from the physical plane, where property law
+of all sorts has always found definition." This is wrong on two counts. First,
+all information does take physical form. Whether digital or analog, whether in
+ink or sound waves or synaptic firings or electrons, information always resides
+in patterns of matter or energy (which, as Einstein noted, are interchangeable
+manifestations of the physical world).
+
+            To be
+sure, the significance of information is independent of its particular
+physical incarnation. So is its value. You download this article from Slate's
+servers and copy it onto your own hard disk, and it's still worth--well,
+nothing, but that's a . Suppose it were a Madonna video: You'd get just as much
+enjoyment out of it regardless of which particular bunch of electrons embodied
+it.
+
+            
+
+               B >ut this independence of meaning and value from physical incarnation
+is nothing new. It is as old as Sumerian tablets, to say nothing of the
+Gutenberg press. Indeed, the whole reason intellectual-property law exists is
+that people can acquire your information without acquiring the particular
+physical version of it that you created. Thus Barlow's belief that "property
+law of all sorts" has always "found definition" on the "physical plane" signals
+a distressing confusion on his part. The one sense in which it's true that
+information is "detached" from the "physical plane"--the fact that
+information's value transcends its physical incarnation--not only fails to
+qualify as an original insight, and not only fails to make
+intellectual-property rights obsolete; it's the very insight that led to
+intellectual-property rights in the first place! Barlow announces from the
+mountaintop: "It's fairly paradigm warping to look at information through fresh
+eyes--to see how very little it is like pig iron or pork bellies." Maybe so,
+but it's hard to say for sure, since the people who really did take that fresh
+look have been dead for centuries.
+
+            If you somehow forced Barlow
+to articulate his thesis without the wacky metaphysics, he'd probably say
+something like this: The cost of copying and distributing information is
+plummeting--for many purposes, even approaching zero. Millions of people can
+now do it right at their desks. So in principle, content can multiply like
+fruit flies. Why should anyone buy an article when a copy can be had for
+nothing?
+
+            Answer: Because it can't.
+The total cost of acquiring a "free" copy includes more than just the
+copying-and-transmitting costs. There's 1) the cost--in time and/or money--of
+finding someone who already has a copy, and will give it to you for free or for
+cheap; 2) the risk of getting caught stealing intellectual property; 3) any
+premiums you pay to others for incurring such risks (as when you get copies
+from bootleggers); and 4) informal punishments such as being labeled a cheat or
+a cheapskate. The size of this last cost will depend on how norms in this area
+evolve.
+
+            Even in
+the distant future, the total cost of cheating on the system, thus figured,
+will almost never be zero. Yes, it will be way, way closer to zero than it used
+to be. But the Barlow-Dyson scenario still is wrong. Why? Because whether
+people cheat doesn't depend on the absolute cost of cheating. It depends on the
+cost of cheating compared with the cost of not cheating. And the cost of
+getting data legally will plummet roughly as fast as the cost of getting it
+illegally--maybe faster.
+            
+
+            In their writings, Barlow and Dyson make clear they're
+aware of this fact. But they seems unaware of its fatal impact on their larger
+thesis. How could cybersages have such a blind spot? One theory: Because
+they're cyber sages. You have to be a career paleohack like me, getting
+paid for putting ink on paper, to appreciate how much of the cost of legally
+acquiring bits of information goes into the ink and paper and allied
+anachronisms, like shipping, warehousing, and displaying the inky paper. I
+wrote a book that costs $14 in paperback. For each copy sold, I get $1. The day
+may well come, as Barlow and Dyson seem to believe, when book publishers as we
+know them will disappear. People will download books from Web sites and either
+print them out on new, cool printers or read them on superlight wireless
+computers. But if so, it will then cost you only $1--oh hell, make it $1.25--to
+get a copy of my book legally from my Web site.
+
+            Now
+imagine being at my Web site, reading my promotional materials, and deciding
+you'd like to read the book. (Thank you.) A single keystroke will give you the
+book, drain your bank account of five shiny quarters, and leave you feeling
+like an honest, upstanding citizen. Do you think you'll choose, instead, to
+call a few friends in hopes of scoring an illegal copy? And don't imagine that
+you can just traipse on over to the "black-market book store" section of the
+Web and find a hot copy of my book. As in the regular world, the easier it is
+for Joe Consumer to track down an illegal distributor, the easier it is for
+cops to do the same. Black marketeers will have to charge enough to make up for
+this risk, making it hard to undersell my $1.25 by much. And there are , too,
+why the cost of cheating will be nontrivial.
+
+            
+
+               M >eanwhile, on the other side of the ledger, there's another reason
+for the cost of legal copies to drop. Many journalists will reach a much larger
+audience on the Web than they do now. The "magazine" model of bringing
+information to the attention of readers is stunningly inefficient. I hope it's
+not egotistical of me to think that when I write an article for, say, the
+New 
+               Republic , I am not reaching nearly everyone who might have an
+interest in it. Granted, the Web is not yet a picture of efficiency itself.
+Search engines, for example, are in the reptilian phase of their evolution. But
+most observers--certainly the Barlows of the world--expect radical improvement.
+(I'm not saying all journalists will see their audiences grow. The likely
+trend, when you , will be for many obscure and semiobscure journalists to see
+their audiences grow, while the few rich and famous journalists will see their
+audiences shrink. Cool.)
+
+            One
+much-discussed cybertrend is especially relevant here: the scenario in which
+various data brokers offer a "Daily Me," a batch of articles tailored to your
+tastes, cheaply gleaned from all over the Web. When this happens, guys like me
+will be living the life of Riley. We will wake up at noon, stumble over to the
+keyboard in our pajamas, hammer out 1,000 words, and then--without talking to a
+single bothersome editor--make our work available to all data brokers. Likely
+fans of my article will be shown, say, the first couple of paragraphs. If they
+want to read more, they deposit a quarter. Will you try to steal a copy
+instead? Do you steal Tootsie pops at checkout counters? The broker and the
+electronic cash service will pocket a dime of that. I take my 15 cents and head
+for the liquor store.
+
+            Of course, this "disaggregation of content" may be ruinous
+for magazines like Slate. But consider the upside. Not only will the efficiency
+of the system permit rock-bottom pricing that discourages cheating, but the
+fluidity of content will disrupt channels of potential cheating. If you
+subscribe to a regular, old-fashioned online magazine, it's easy to split the
+cost of a subscription with a few friends and furtively make copies. (You
+wretched scum.) But if you subscribe to the "Daily Me," this arrangement makes
+no sense, because every Me is different. Sure, you may e-mail a friend the
+occasional article from your "Me." (You wretched scum.) And, in general, this
+sort of "leakage" will be higher than in pre-Web days. But it would have to
+reach massive proportions to negate the overall gains in efficiency that will
+keep people like me in business.
+
+            This argument, like all
+arguments about the future, is speculative. It may even be wrong. But it is
+consistent with the history of the world. The last half-millennium has seen 1)
+data getting cheaper and easier to copy; and 2) data-creation occupying a
+larger and larger fraction of all economic activity. Thus far, in other words,
+as the realm of information has gotten more lubricated, it has become
+easier , not harder, to make a living by generating information.
+Cyberspace is essentially a quantum leap in lubrication.
+
+            Barlow's insistence that
+intellectual property will soon be worthless is especially puzzling since he is
+one of the biggest troubadours of the Third Wave information economy. Sometimes
+he seem to think it's possible for a sector of a market economy to get bigger
+and bigger even while the connection between work and reward in that sector
+breaks down. He writes: "Humanity now seems bent on creating a world economy
+primarily based on goods that take no material form. In doing so, we may be
+eliminating any predictable connection between creators and a fair reward for
+the utility or pleasure others may find in their works." Far out, man.
+
+         
+      
+   

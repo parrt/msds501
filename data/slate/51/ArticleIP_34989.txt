@@ -1,0 +1,151 @@
+
+   
+   
+      
+         
+            The Business of Net Campaigns 
+
+            Twelve
+years ago I worked at a small, left-leaning think tank in New York City. As the
+1988 presidential primary election approached, we thought the voters might want
+to differentiate between the various candidates. So we drew up 15 questions,
+covering everything from reflagging oil tankers in the Persian Gulf (a hot
+issue at the time) to gay and lesbian rights.
+
+            We
+then mailed letters to the dozen or so declared candidates from both parties
+and requested position statements from their campaigns. We deliberately cc'd
+the issues managers, figuring that this clever move would expedite the
+responses. It didn't. The Republicans practically ignored us. The Democrats had
+to be wooed, cajoled, and mildly threatened before they coughed up their
+answers. Ultimately, we printed a decent-sized booklet and sold several
+thousand copies at $10 apiece. It was a modest contribution to the cause of an
+informed electorate, and it yielded an equally modest return on the investment
+of our 100 or so hard-worked hours.
+
+            Today
+it would take just a couple of hours for a person with a Web connection and a
+printer to produce a similar document for the 2000 presidential race. Each of
+the declared presidential candidates maintains a sophisticated Web site that
+details positions on a wide range of critical issues. (Granted, if you visit
+http://gopatgo2000.org,
+click on "Issues," and read Pat Buchanan's statement on the environment, you
+may find the air a bit thin. But this is presidential politics, and vague
+positions are hardly unique to cyberspace.)
+
+            As
+with other areas of the Net, e-mail is the great connector. Any campaign can
+now take a press release that at one time would have gone to a few dozen
+political reporters and e-mail it to tens of thousands, even millions, of
+Internet users. That remarkable development helps to bind a portion of the
+electorate more tightly to the campaigns. But we're still talking about a press
+release, and any reporter will tell you that the value of such releases is
+inversely proportional to the volume received.
+
+            That's
+just one illustration of how the Net's contributions to American Democracy
+remains nascent and hard to define. While the 2000 campaign will be the first
+presidential contest in which the Web plays a significant role, it is unclear
+how profound that role will be (see Jacob Weisberg's accompanying piece,
+"").
+
+            One of
+the premises of the Standard is that the Internet has seeped into and
+changed every important business in the United States--and will soon have the
+same effect around the world. Politics is not exempt. Although it's all too
+often overlooked as a business, American politics is a multibillion-dollar
+industry that employs millions. So it's the Standard 's job to cover how
+the Internet will shape it. And that's the mandate for our once-a-week
+contribution to "Net Election."
+
+            
+               Politics
+
+               Meets E-commerce
+            
+
+            What
+does politics-as-Net-business mean? In the most salient case, campaigns
+themselves are businesses (albeit short-lived ones that cannot legally make a
+profit). As of mid-July, more than six months before anyone could cast a vote
+for Bill Bradley, the former basketball star had raised more than $240,000
+through his Web site. That's only about 2 percent of his contributions. But the
+site wasn't operational until January. Moreover, it wasn't until June that the
+federal government said it would match online credit card contributions with
+public funds, just as it matches money raised the old-fashioned way. With that
+decision, every campaign has been rethinking its Internet fund-raising
+strategies. We'll be closely examining their renewed efforts.
+
+            One
+question that leaps to mind is, "Are there viable forms of e-commerce that play
+off of a political audience?" To date, the answer is essentially no. Sure, you
+can connect to the Arizona Democratic Party's online gift shop. But
+how many donkey Beanie Babies do you think have been sold there? eBay is not
+yet disturbed.
+
+            Still,
+the tip of political e-commerce is beginning to poke up through the Web's
+surface. In May, Texas Gov. George W. Bush tried to quash the parody site
+www.gwbush.com, saying
+infamously, "There ought to be limits to freedom." The result? The site got 6
+million hits in a month. Net logic holds that eyeballs equal dollars, and sure
+enough the controversial site was soon peddling T-shirts and bumper stickers
+featuring Bush's quote. Another site looking to cash in on the campaign is
+www.gore2000.com . It's not officially affiliated with the
+Gore campaign, but the site sells a wide array of Gore
+paraphernalia--everything from buttons to gourmet coffee. And it gives a
+package of free collectibles to any Webmaster who picks up its banner.
+
+            
+               Online
+
+               Advertising Gets Political
+            
+
+            The
+Internet has already begun to transform the general advertising industry, and
+it will soon hold sway over the tens of millions of dollars spent every
+electoral season on television and radio ads. Web advertising holds the strange
+position of being almost entirely unregulated. Fraud and defamation laws
+presumably apply to Net advertising, just as they do to all advertising. But
+the specific sections of communications law that constrain political speech in
+the electronic media--including provisions for equal time for all
+candidates--do not apply to the Internet.
+
+            
+Consider how such loopholes can alter the electronic media landscape: Each
+weekday, Steve Forbes records a brief commentary about his pertinent issues.
+The Forbes campaign claims that more than 160 stations in 45 states "carry"
+this commentary. (Just because they carry it, of course, doesn't mean they
+actually play it five times a week.) According to federal regulations,
+beginning 45 days before a primary, any radio station that carries a prepared
+audio message from a presidential candidate is required to give equal time to
+any other candidate who requests it. As a practical matter, most radio stations
+in that situation would simply drop the Forbes editorials. But his Web site can
+continue to pump out a Netcast with no interference.
+
+            
+Changes like these should spur "Net piggybacking" throughout the 2000 race.
+Here's how it works: Say a candidate is adamantly opposed to any form of new
+taxes, regardless of whether they are advocated by the opponent. So the
+candidate crafts a 15-second TV spot that does not directly attack her opponent
+but warns viewers of an ominous, high-tax future and instructs them to punch up
+www.nonewtaxes.com, where they'll find a complete history of the opponent's
+record on taxation. Viewers might be asked to fill out petitions with their ZIP
+codes and e-mail addresses, which would be used to alert them to the ad's next
+installment. These techniques have already been used in a number of Senate and
+congressional campaigns.
+
+            Finally, we'll also be
+watching the Net polling, Net focus groups, and Net organizing that follow the
+flow of money around an election. Our goal, shared with editorial partner
+
+                  Slate
+               , is to capture the way the unfolding 2000 presidential race
+looks from the Web. Whether you're a political junkie or not, we hope you'll
+find Net Election informative, enlightening, and fun. At least, as much fun as
+presidential politics will allow.
+
+         
+      
+   

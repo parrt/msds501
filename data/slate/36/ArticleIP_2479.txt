@@ -1,0 +1,134 @@
+
+   
+   
+      
+         
+            The Case Against the Case Against Microsoft
+
+            
+               (Note: Ralph Nader made
+the case against
+Microsoft in Slate two weeks ago. In the following article, hotlinks
+lead to more detailed discussion.)
+            
+
+            It is no crime for a company
+to be successful. The are designed to complement, not displace, market forces.
+The laws do not prevent market winners from enjoying the fruits of their
+success or protect losers from the consequences of their failure.
+
+            What the
+antitrust laws do condemn is anti-competitive conduct--truly exclusionary or
+predatory acts--by firms that have ""--the power to raise prices or exclude
+competitors from the market. Microsoft's critics have never established that
+Microsoft and its conduct satisfy either element of the law.
+
+            In most discussions of Microsoft, it is just assumed that
+the company has monopoly power. However, no court has ever reached that
+conclusion. Even though more than 80 percent of the personal computers in the
+world use Microsoft's operating system, it is far from clear that an antitrust
+court could be persuaded that personal computer operating systems constitute a
+separate market. After all, Microsoft's critics claim that browsers in the near
+future will (or perhaps already do) .
+
+            Even
+assuming for the sake of argument that Microsoft does have monopoly power, the
+question still is whether truly anti-competitive behavior accounts for its
+success. We don't need to speculate about the answer, because government
+antitrust enforcers have spent the better part of seven years putting
+Microsoft's competitive behavior under a microscope.
+
+            
+Almost seven years ago the Federal Trade
+Commission set out to determine whether Microsoft had monopolized personal
+computer operating systems. After one of the most extensive antitrust
+investigations in history (completed by the Justice Department when the FTC
+failed to issue a complaint), the government found only a single, rather
+picayune practice--the so-called "per processor" license--worthy of challenge.
+According to the government itself, that practice did not account for
+Microsoft's competitive success. Rather than suffer the cost and hassle of
+litigation, Microsoft agreed to a ending the practice.
+
+            For
+Microsoft, acceding to the consent decree was just the beginning. Bill Gates
+couldn't blow his nose without starting a new investigation. The Justice
+Department stopped Microsoft from acquiring Intuit, the maker of Quicken
+personal-finance software. It threatened to block Microsoft's introduction of
+Windows 95 because Microsoft included the .
+
+            Now comes the charge that Microsoft has by including its
+Internet browsing software, Internet Explorer, with Windows 95. Microsoft
+points to a that was negotiated by Microsoft for the specific purpose of
+allowing the company to include IE with Windows.
+
+            It is
+telling that the government chose not to attack the "bundling" of IE with
+Windows as an actual antitrust violation--merely as a violation of the consent
+decree. Whatever the technical merits of the government's interpretation of the
+decree, you have to wonder what important public interest will be served if the
+government's case succeeds. Microsoft makes the IE browser to consumers who buy
+new personal computers with Windows 95 installed. And more convenient, seamless
+access to the Internet from the desktop will . It is hard to see any
+anti-competitive danger that justifies denying people these benefits.
+
+            
+Microsoft's inclusion of IE with Windows does
+not prevent computer manufacturers from installing competing browsers or
+putting those browsers on the desktop. Indeed, the computer companies that
+wanted to take IE off their desktops (the behavior Justice wants to prevent
+Microsoft from forbidding) probably intended to give Netscape Navigator an
+exclusive position on the desktop. Microsoft did not demand that Netscape be
+removed, only that IE be there as well. This may be the first time that the
+government has gone against a company with a smaller share of sales in order to
+protect the ability of its dominant competitor to secure an exclusive.
+
+            So after
+seven years and millions of dollars spent investigating Microsoft, the
+government seems to have found virtually no anti-competitive acts to account
+for the company's success. Is this because all Microsoft's competitors,
+licensees, and suppliers are too scared to tell the government what they know?
+Unlikely. Has the government not tried hard enough? Hardly. All the incentives
+for antitrust enforcers--media adulation, professional recognition, and
+congressional budgetary rewards--push the government toward "bagging the
+biggest game." We taxpayers are employing an army of lawyers and economists who
+spend their every waking moment--and probably a few in dreamland--thinking of
+ways to get Microsoft. They are the best in the business, and their efforts
+have turned up precious little.
+
+            The ongoing government scrutiny itself may help to explain
+the absence of verifiable episodes of anti-competitive behavior by Microsoft. A
+swarm of government enforcers peering over a company's shoulder is a strong
+incentive for it to behave. More fundamentally, though, Microsoft's success is
+not a mystery requiring any criminal explanation. The real and obvious source
+is the good fortune of being the pre-eminent operating system on IBM PCs. This
+is not an antitrust violation.
+
+            
+Microsoft's position is a reflection of an economic phenomenon often referred
+to as "network externalities" (a k a "positive economic feedback" or
+"increasing returns to scale"). In the market for personal computers, the value
+of a machine is directly proportional to the number of applications that run on
+it. Both suppliers and consumers will gravitate toward , regardless of whether
+it is technically the best. Once such a standard becomes predominant, it will
+be very difficult to displace--at least until the next "paradigm shift" comes
+along.
+
+            
+Being the operating system on IBM PCs, which
+set the standard for personal computing, meant that Microsoft became the
+standard personal computer operating system. The fact that Microsoft won that
+round is no guarantee it will emerge the winner of the next paradigm shift. In
+the browser wars, Microsoft faces a formidable array of opponents--Sun and
+Oracle, to name just two--and, after two years, it still lags behind Netscape
+even though IE generally gets better reviews than Navigator.
+
+            Microsoft's competitors,
+however, want the government to put some sand in Microsoft's saddlebags.
+However frightening Bill Gates may seem or however unfair and imperfect the
+market phenomenon of network externalities may appear, do we really want
+antitrust lawyers and economists determining Internet standards? It's difficult
+to believe the answer is "yes."
+
+         
+      
+   

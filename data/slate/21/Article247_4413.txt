@@ -1,0 +1,130 @@
+
+   
+   
+      
+         
+            Change Should Be Welcomed
+            
+
+            Well, I am more than glad that Larry
+thinks that I have joined issues on the matter, and have been able to penetrate
+this world notwithstanding my ivory-tower-libertarian credentials. Indeed, I
+think that his answer is so useful precisely because it does not rely on any
+private norms of the cyberspace community in dealing with the broader issues.
+Substantively, the question he poses at the outset of his letter is one that we
+should all answer: Why is this space different from any other space? Why and
+how will markets reduce freedom there?
+
+            In answering that question, I will start again from the other side, to make
+the case that the complications and issues that he sees in cyberspace are
+reflections of similar issues that have developed in other markets, where the
+issue is the same: How do we overlay private businesses of one sort or another
+on some common grid or infrastructure? It is clear that architecture matters in
+both kinds of space and in pretty much the same kind of way. As a first
+approximation, we need to have public highways because it is simply too costly
+in ordinary space to build roads that stand one beside the other each limited
+to a certain group. But the converse hardly follows from that observation:
+There is no need for all roads to be public. A large ranch can have lots of
+private highways for internal communication. Common gated communities have
+roads that exclude the public by allowing limited entry by all members of this
+commons. And if someone could acquire the land to build a private road beside a
+public one, we should not begrudge him because he removes some traffic from the
+common infrastructure.
+
+            Now what happens if the cost of private roads really drops, so that everyone
+can afford the right level of individualization? The answer is that we get more
+private roads. This is what has happened in the telephone industry: The party
+line (by which several families shared a single telephone line) went the way of
+the dodo when the cost of technology allowed for cheaper phone lines to be
+developed. And so it is on the Net. The reduction in cost could easily allow
+the creation of private lines side by side with that open space; and if we have
+these two regimes, public and private, operating side by side, we can recognize
+it not only as a profound change in the Net, but a welcome change that is
+predictable as a matter of general economic theory.
+
+            Larry is less sanguine about this because he thinks that the architecture of
+these private structures does more than make commerce more efficient. It also
+makes control cheaper. But here I can accept the descriptive conclusion but
+doubt whether he has pointed to a matter of concern. It is as not as though
+when AT&T starts its broadband system that it can compel me to join it.
+There still remains the older public road for those who do not want to go along
+the private road. The presence of AT&T allows for more sorting in the
+marketplace, which means that those people who care more about freedom can move
+in one direction, with the legions of hackers and researchers; while those who
+care more about security can migrate to a network that gives them protection
+against anything from advertisement to smut. It is hard to see any systemwide
+threat to liberty when new technology increases the ability of all individuals
+to separate themselves from their fellow man and to filter out the information
+that they do not want. It is not as though AT&T is replacing the open Net.
+It is giving an alternative avenue to it.
+
+            Larry then talks about the issue of anonymity, and there again we have to
+look at both sides of the question. Some people prize anonymous speech: The
+Federalist Papers were written in that voice. But no one prizes anonymous
+threats or thefts; so the question is whether individuals will trade in liberty
+for security in the same fashion that Locke asked in dealing with the social
+contract. Nor is there anything that says that the choice of anonymity or
+identification has to be made once and for all. Credit-card companies
+frequently collate data in ways that allow for targeted mailings by
+advertisers. Most people welcome this because they know that the address can be
+used by an advertiser without being given to him: The company prepares a list
+for third-party use and guarantees that the names fit certain protocols. Anyone
+who wants out can click a button to escape. Here, a good technology allows
+choices to be heavily individuated. A technological and design issue that
+expands freedom in sensible ways. It is not that the Net is "architected" as
+though it were an all or nothing issue. It is the extent that any portal to the
+Net architects itself and gives notice of its deep structure to the rest of the
+world.
+
+            On a similar front, several high-school students at the University of
+Chicago Laboratory Schools designed a program that allows individuals to cover
+their tracks when they surf the Net. Here again the private response to the
+systemwide structure helps improve matters. Cookies are subject to the same
+analysis. Let Netscape track me so long as they disclose what they are doing.
+But I think that they would lose market share if they did not allow users to
+disable the system with a click of the mouse, which I take it they do. So again
+individuation works. Taken as a whole, then, I see no reason for gloom that we
+have changed the Net as its user population changes.
+
+            Larry promises us that more is in store: The older Net was "end-to-end," so
+that all the action was in the user applications. That is fine in principle.
+But what if the user wants to put his own private network at the end? I see
+nothing wrong with this approach, and it would allow Harvard to have, as Larry
+notes, a heavily regulated internal computer culture, while the University of
+Chicago is more open--a good reason for Larry to return to his intellectual
+home at Chicago. But does the new network add-on violate the old principle? Not
+as far as I can see. It is the gated community example all over. The same open
+Net carries the same traffic as before. It is not as though the size of the
+commons is diminished because of the subdivision on its side.
+
+            But what about AT&T? Let it build its own system so long as it does not
+shut down any other. But now they want to make sure that they influence the
+traffic over the Net. So they will get less for the service they supply and
+others will remain part time on the public highway. Or, if they have acquired
+too many direct competitors, then we have a situation where there are possible
+earthbound antitrust issues, a point on which I would be skeptical given the
+ease of entry through other portals on the Net. Its power to discriminate could
+add value to consumers; and if it does not, it will become the Gandor Airport
+of the 21 st century.
+
+            Maybe now we have an explanation for the larger puzzle. Why are
+cyber-libertarians slow to recognize the dangers to the Net from the new set of
+uses? My explanation is that of optimism itself. I don't think there are
+dangers that are anything close to the enormous possibilities that are
+introduced by the enormous expansion of its use. That one Net can support
+millions of Web sites dedicated to all sorts of different ends is a tribute to
+the original model of how private diversity can flourish on a public grid. What
+is truly optimistic about the Net is the sense of ratios. The amount of space
+that has to be kept public for all to gain access is relatively small compared
+with the amount of land that has to be used to maintain a coherent highway
+system. So I quite agree that we should pay attention to these changes. But I
+disagree that we should view them with suspicion. The blurb on Larry's book
+speaks of it as a "dark, exhilarating work." I see the cause of exhilaration
+but don't have Larry's dark forebodings. So long as we keep our intellectual
+feet firmly on the ground, we shall not lose our way in cyberspace. Over to you
+Larry, to explain why this happy estimation of the future is misguided, and a
+gloomier response is warranted.
+
+         
+      
+   

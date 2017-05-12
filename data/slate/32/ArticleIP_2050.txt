@@ -1,0 +1,149 @@
+
+   
+   
+      
+         
+            Taken to the Cleaners?
+
+            My dry cleaner charges $1.65
+to clean and press a man's shirt and $5.25 for a woman's blouse. What's going
+on here?
+
+            The laws
+of arithmetic allow only two possibilities. Women's clothing must be associated
+either with higher costs or with higher profit margins for the dry cleaner.
+Unfortunately, neither theory seems terribly plausible.
+
+            Let's start with the "higher cost" theory. In its most
+naive form, this theory predicts that if I move the buttons on my dress shirts
+from the right side to the left, the cost of laundering them will more than
+triple. That one's not going to fly. So, to give the theory a fair chance, we
+have to look for more significant differences between men's and women's
+clothing.
+
+            Well, like what? You could
+argue that women's clothing is typically made of more delicate fabrics than
+men's. But if that's the relevant factor, why don't dry cleaners just quote
+different prices for different fabrics? (For some materials, such as silk, they
+typically do quote separate prices. The question is why this practice
+does not completely displace that of distinguishing between men's clothes and
+women's.)
+
+            An
+alternative version of the theory is that women's clothes are costlier to
+process because women demand higher quality work. I can't disprove that
+version, but I have no real evidence to support it, either. So, in a search for
+better alternatives, I called three different dry cleaners and asked for
+their explanations. The first said that men's shirts are machine
+pressed, while women's are hand pressed. That left me wondering why they don't
+simply quote different prices for different kinds of pressing. The second said
+that women's shirts require specialized treatment because they are typically
+doused with perfume. That left me wondering why men who use after-shave are not
+chronically dissatisfied with their dry cleaners. The third said that this was
+their pricing policy, and if I didn't like it, I was free to shop
+elsewhere.
+
+            
+In the absence of a clear, convincing story
+about gender-specific costs, let's see what kind of story we can tell about
+gender-specific profit margins. In other words, let's ask whether my dry
+cleaner is exploiting female customers through higher markups.
+
+            To make
+sense of that theory, you have to ask why dry cleaners would want to
+discriminate specifically against women, as opposed to, say, men. That strategy
+makes sense only if men are more price-sensitive than women and hence more
+likely to walk away in the face of a high markup. But why should men be more
+price-sensitive? You could argue that men are less diligent about cleanliness
+and so more likely to respond to high prices by wearing unlaundered shirts. But
+as long as we're dealing in stereotypes, you could argue equally well that
+women are more willing to do their own laundry--in which case women
+would be more likely to walk away from a high price, and it would make more
+sense to discriminate against men.
+
+            So it isn't clear which gender is the more natural
+candidate for getting soaked at the cleaners. But there's a more fundamental
+reason to doubt that either gender can be victimized by price
+discrimination, and here it is: There are over half a dozen dry cleaners within
+easy walking distance of my house. If they're all earning higher profits on
+women's blouses than on men's shirts, why hasn't any of them decided to
+specialize in women's blouses?
+
+            Let me
+make that more concrete. Suppose the going prices are $1.65 for a man's shirt
+and $5.25 for a woman's blouse, even though (under the theory we're currently
+entertaining) they are equally expensive for the cleaner to handle. Then if I
+were a dry cleaner, I would announce a uniform price of $5 for all shirts and
+blouses--thereby attracting all the women's business and none of the men's.
+Because nobody has adopted that obvious strategy, we should suspect that
+despite appearances, the profit margin on women's clothing can't be much higher
+than on men's.
+
+            
+In fact, the process wouldn't stop there. As
+soon as I announced a uniform price of $5, my neighbor would announce a price
+of $4.75. Ongoing competition for the (temporarily) more lucrative women's
+business would quickly eliminate any profit differential.
+
+            That
+argument rests on the fact that dry cleaners are highly competitive. If
+Microsoft ran the entire dry cleaning industry, it might very well choose to
+discriminate against women (or men, depending on market conditions). But in the
+world we live in--or at least in the neighborhood I live in--there are
+so many interchangeable dry cleaners that none of them should be able to get
+away with exploiting anyone.
+
+            One of my colleagues' wives insists I've got this
+wrong--she says she's so loyal to her own dry cleaner that no discounter can
+lure away her business. If most customers are as devoted as she is, then each
+dry cleaner is like a mini-Microsoft, with its own captive customer base. In
+that case, price discrimination can survive. But I am instinctively skeptical
+that many customers are as fanatically loyal as my colleague's wife.
+
+            The theory
+that only a monopolist can price discriminate is standard textbook fare, and
+it's borne out by a lot of observations. Movie theaters have a certain amount
+of monopoly power (on a given night, a given moviegoer is likely to have a
+strong preference for a particular movie at a particular theater), and they
+price discriminate by offering discounts to senior citizens (which is
+equivalent to discriminating against everybody under the age of 65).
+Airlines have even more monopoly power--once you know where and when you want
+to fly, you are likely to have an extremely limited choice of airlines--and
+they heavily discriminate against business travelers by charging more for
+midweek flights than for weekend flights (when most travel is for leisure).
+
+            
+By contrast, in the most competitive
+industries, there is no price discrimination. As I am fond of pointing out to
+my students, you've never heard of a wheat farmer who offers senior citizen
+discounts. Likewise for gas stations, which are ubiquitous and sell to everyone
+at a single price.
+
+            Well, at
+least that's what I used to tell my students. But I might have to make a
+small change in my lesson plan. The gas station nearest our campus has just
+announced a policy of senior citizen discounts on Wednesday afternoons. Is this
+price discrimination in favor of seniors, or does it reflect a genuinely lower
+cost of serving them?
+
+            If you push me hard enough, I can probably concoct some
+kind of story about lower costs. Maybe seniors tend to drive cars with bigger
+gas tanks, so they buy 20 gallons at a time instead of 10, thereby saving on
+the cost of processing credit cards. (A significant part of that cost is the
+time spent waiting for the card to be approved, during which the pump is
+unavailable.) But if this cost saving is significant, why has only one local
+gas station recognized it? And why is it significant only on Wednesdays?
+
+            I have suggested to my
+colleagues that none of us should be permitted to present ourselves to the
+world as economists until we figure out what this gas station is up to. Nobody
+has risen to the challenge. A few have suggested that perhaps the gas station
+owner is just a little quirky. Maybe that's right. But it would be far harder
+to believe that the entire dry cleaning industry is just a little quirky.
+Either there is enough monopoly power to sustain price discrimination, or there
+is some reason why women's clothes are incredibly expensive to clean and press.
+But I have no idea which.
+
+         
+      
+   

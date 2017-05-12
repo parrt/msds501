@@ -1,0 +1,152 @@
+
+   
+   
+      
+         
+            Common Ground
+            
+
+            There's this really awful experience that some teachers know--not great
+teachers, but ordinary teachers, or at least teachers who have not taught well.
+It is the experience of reading an exam from a student who just didn't get it.
+There are hundreds of tricks to pass the blame--the student didn't study; the
+student just isn't bright; the student must have had a bad day, etc. But in the
+end, such a teacher can't escape the feeling that the fault is in the teacher.
+Had the teacher--had I--done a better job in explaining it, then this student
+would have gotten it.
+
+            And so it is with Richard's latest reply. I don't have the excuse of a slow
+student--trust me on that. And obviously before reviewing a book, a scholar
+such as Richard would have read it. So to see his latest filled with mistakes
+can only say something about the teacher.
+
+            The picture that animates Richard's third reply is "side by side" networks.
+This mirrors his picture of before, of many different sites at the ends of the
+wires, so to speak, some commercial, some not. With both pictures, the moral is
+the same--neither the network on the side, nor the commercial sites at the
+ends, will effect the value of the commons. The original Internet is that
+commons; the rise of commerce won't diminish it.
+
+            But the story I told in my book--I thought ad infinitum, but apparently not
+enough--was of changes that would affect the commons. Changes that would change
+the experience of the Net that we know right now. Changes that would make it
+less protective of free speech, changes that would make it more invasive of
+privacy, changes that would make it more susceptible to regulation, changes
+that would interfere with the free flow of ideas.
+
+            So take the example of regulation. It was commonplace at the start of the
+Internet revolution for people to celebrate the fact that life there could not
+be regulated. But in my book, I told the story about an increasingly
+"certificate-rich" Internet--meaning an Internet where people more and more
+frequently carried ("voluntarily") digital IDs. In one version of that story,
+these IDs collect all sorts of facts about people. And in that version, these
+IDs are designed to be checked automatically by servers as you pass along the
+information highway. And thus, in that version, quite invisibly, the network is
+now able to identify all sorts of facts about you--whether you are an American,
+whether you are over 18, where you live, etc. And then, as a byproduct of this
+change, it becomes possible once again for local government to begin to impose
+regulation on people on the Net, by forcing local servers to condition access
+based on the features of who people are. It becomes possible, that is, to zone
+the net, and to re-empower government control over behavior on the Net.
+
+            Now, the argument is a bit complex. And no doubt one could disagree with it.
+But it is hard for me to see how one could read that argument, and then talk
+about "gated communities" or "side by side" networks. The argument is about the
+commons, not the ends; it is about the control that is enabled for those in the
+Internet we know now; and it is about the control that gets enabled because of
+the emergence of one kind of architecture of identity. It is about a control
+over the commons, not a control in gated communities.
+
+            Or consider another argument at the core of the book, this one about free
+speech. When the concern about kids and "porn" became pressing, many said a
+perfect solution would be code that helped filter content on the Net. And a
+group of very talented architects came up with an architecture to facilitate
+this filtering. They called it the Platform for Internet Content Selection, or
+PICS. Using PICS, individual sites could rate their material, but more
+important, third parties could rate the material of others. PICS was valuable
+because it was "neutral." The Christian Right could have its ratings; the ACLU
+its ratings as well. Individuals would then select the rating system they want,
+and then their PICS-enabled browser (as both Netscape and Internet Explorer are
+just now) would filter content according to this rating.
+
+            Sounds just great. Until one notices another feature of this
+architecture--not only is it neutral horizontally (anyone can rate the Net),
+but it is also neutral vertically (the filters can be imposed at any place in
+the distribution chain--at the school, at the ISP, at the corporation, or
+conceivably, the nation). And more significant, this vertical filter would not
+announce itself as a filter. It could block access invisibly. So that this
+technology inspired to help Americans deal with the problems of "porn" would
+now become a technology that would lower the cost of censorship generally. And
+so the feature of the original Internet that people celebrated most
+firmly--that it embedded, architecturally, a First Amendment--would, under this
+plan, flip. The technology would enable just the sort of speech control the
+First Amendment bans.
+
+            Now again, this is not a straightforward argument. One can disagree with it,
+as many have. Mike Godwin and Paul Resnick have written strong and persuasive
+articles against my position. And I have seen how earlier parts of my argument
+were wrong.
+
+            But I don't understand how one would believe that this change that I am
+describing is only about gated communities, or a side-by-side network. I don't
+understand how one would read this argument and not get that it is about the
+effect these changes will have on the commons.
+
+            Or finally, take privacy again. Once again, Richard has a rosy story.
+There's nothing to worry about in this best-of-all-possible-worlds:
+
+            "Let Netscape track me so long as they disclose what they are doing. But I
+think they would lose market share if they did not allow users to disable the
+system with a click of the mouse, which I take it, they do."
+
+            First let's clear up a confusion. The question isn't Netscape's tracking, it
+is the tracking of servers that we're describing. And second, in fact, there is
+no obligation to disclose anything. Sites have their "privacy policies" (has
+anyone ever read one of them?), but the interesting question is about sites
+sharing data. You give your name to one site, but choose not to give your name
+to another, yet unbeknownst to you, the sites are allied, and using a common
+cookie identification, they can share what you didn't want shared.
+
+            "Let them disclose," Richard says. But why would they, absent an obligation
+to do so? Because again, by hypothesis, consumers don't know the data is being
+shared. So they don't know enough to punish the sharer, by reducing its market
+share.
+
+            But of course, Richard says, Netscape will allow users to turn cookies off.
+But Richard, have you ever tried to turn cookies off and then surf the Net?
+Sure, both Netscape and Microsoft have given you that "option," but the option
+individuals are given is not, as you predict, a technology that "allows choices
+to be heavily individuated." The option is a crude one--all off, or all on, or
+clumsily choose at each site.
+
+            There are more efficient technologies, that wouldn't bother you at each turn
+with the cookie question--you'll recall I describe at least one in my book. But
+as I ask there, why would one expect the market voluntarily to adopt these
+technologies? For to build in a technology that allows choices to be heavily
+individuated is to build in a technology that increases the costs of getting
+data. But in Internet space, data is gold. Under the existing architecture,
+commercial sites get it for free. What is the mechanism that one would imagine
+whereby these sites adopt technologies to give up what they now get for
+free?
+
+            Once again, mine is a hard argument to make. Reasonable people have
+disagreed with the particulars I recommend. But I don't see how one can see
+this as a problem about gated communities. Once again, it is a change that
+affects life in the commons.
+
+            In all these cases, the changes I am describing are changes to the core
+experience of life on the Net. And the question we should ask is how these
+changes will affect what we find valuable in the Net. The point is not against
+libertarians. Indeed, one could imagine a libertarian critique of emerging
+architectures on the Net just as one could imagine a libertarian critique of
+new laws for the Net. I'm not arguing about the values you should have; I'm
+trying to point to a newly salient threat to whatever values you might
+have--the regulations of code.
+
+            Trying, but not succeeding, not even with one of my brightest students. So
+we part ways here. You and Dr. Pangloss, me and the reality that what I thought
+was a fairly obvious point, I have obviously failed to convey.
+
+         
+      
+   

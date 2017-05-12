@@ -1,0 +1,74 @@
+
+   
+   
+      
+         
+            To Intel Analysts: Margins Aren't Everything
+            
+
+            Today's Nasdaq sell-off was relatively steep (although you have to remember
+that with the Nasdaq near 3,000, 71 points is just not panic-inducing). And
+while picking proximate causes for market movements is a fool's game, I'll be a
+fool and point to two important reasons: bond prices and Intel.
+
+            With the yield on the 30-year bond now at a two-year high, at 6.3 percent,
+bonds are looking like a tastier investment, and there's still a lot of concern
+that the Federal Reserve will raise interest rates at its Nov. 16 meeting.
+Neither of those things are good for stocks. As for Intel, it came in with
+quarterly numbers that were a couple of cents shy of analysts' expectations and
+got crushed as a result, with much of the rest of the tech sector falling in
+sympathy (or empathy, or whatever you want to call it).
+
+            Intel is a true tech bellwether, since its chips go into most of the PCs in
+the world, meaning that if it's having trouble, a lot of other companies
+probably are, too. And given that in the past few months expectations for the
+semiconductor industry have risen sharply, Intel's failure to blow away
+estimates--something it hasn't done, by the way, for a couple of years--came as
+a shock. But there are good reasons to think that today's sell-off was overdone
+and that whatever trouble Intel is having has less to do with the "tech sector"
+(whatever that mythical beast is) in general and more to do with Intel in
+particular.
+
+            The company, for instance, took great pains to point out that demand for its
+chips was not the problem. In fact, in a curiously un-Intel-like performance,
+it was manufacturing the chips, especially its newest chips, that tripped the
+company up. Intel delayed the release of its highest-powered Pentium processor,
+Coppermine, and a new chipset for memory chips because it couldn't hit the
+production schedules its customers needed. Had they shipped as planned, Intel
+would have had no trouble meeting estimates. Traditionally, it's Intel's
+competition, most notably Advanced Micro Devices, that finds deadlines
+bothersome. But apparently even masters of manufacturing can trip up.
+
+            There's a bigger point than just manufacturing mishaps at stake in the Intel
+sell-off, though, and that's what you might call the "fetishization of margins"
+problem, which I touched on in last week's 
+discussion of Amazon.com's zShops initiative. Nearly all the analysts
+who marked down Intel today emphasized that the company's gross margins--which
+equals revenue from products minus the cost of sales for those products--fell
+in the most recent quarter. Now, they fell 0.2 percent, from 58.9 percent to
+58.7 percent, which is statistically insignificant. But the important point,
+for the analysts, was that they didn't rise.
+
+            What this demonstrates, supposedly, is the impact on Intel of having to sell
+so many more of its cheap chip--the Celeron--rather than its higher-priced
+Pentiums. As consumers have got used to the sub-$1,000 PC, Intel has had to
+make chips that cater to that market, and naturally they earn less profit on
+the $80 Celeron than on the $250 Pentium III. Analysts see this as a slippery
+slope, so that pretty soon Intel will watch its margins driven down to a
+sliver.
+
+            Well, maybe. But somehow I doubt it. In the first place, Intel's margins are
+still remarkably high for a manufacturing company (and would have been much
+higher had they shipped Coppermine). More to the point, falling margins are
+not, in and of themselves, evidence that things are falling apart. If you do
+things right, turning inventory more rapidly, you can make it up on volume. The
+value of a business depends not on how hefty its profit margins are but on how
+efficiently it uses capital, and you can use capital efficiently by setting up
+a revolving door of low-margin products (Wal-Mart), a steady stream of
+high-margin products (most banks), or a mix of the two (which is where Intel is
+going). So let's wait a little while before deciding that Intel is really on
+the road to destruction.
+
+         
+      
+   

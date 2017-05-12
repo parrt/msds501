@@ -1,0 +1,155 @@
+
+   
+   
+      
+         
+             Fortune and Men's Eyeballs
+
+            Bill Gross, a Pasadena,
+Calif., businessman, has a great moneymaking idea. His firm, Free-PC.com, will
+ship you a free 333-megahertz Compaq computer. He'll also give you free
+Internet access and a free maintenance contract. In return, all he wants is two
+little things. Your soul and a pound of flesh? No, just your eyeballs and a bit
+of demographic information. "Eyeballs" is Webspeak for the number of people who
+see a Web page--and, presumably, any ad that is on it. If a Web page is served
+to 100,000 computers, that counts as 100,000 eyeballs, although literally it's
+more like 200,000, assuming two eyeballs per person.
+
+            Gross' company will
+place ads on a small portion of the screen as you use your free computer. And
+with the information you give him about your income, tastes, and so on, he will
+be able to sell you to advertisers whose products and pitches are aimed at your
+sort of person. The more an advertiser knows about you, the more it is willing
+to pay to reach you. On the Internet, such information is even more useful
+because it's easier to fine-tune who sees an ad. The ad you see at the top of
+this page may be different from the one your neighbor sees when she visits this
+same article. Bill Gross can send each of his free computer owners ads for
+precisely what he or she is most likely to buy. In this way Gross hopes to make
+back his costs and then some.
+
+            Of course, Gross is not the only one with this idea. The
+Web is full of sites that give away valuable stuff free in the hope of making
+it back in advertising. 
+                  Slate
+               , notoriously, for starters. And
+this practice is not unknown in other media, either. Television programming is
+still mostly free to the user. And even newspapers and traditional magazines
+don't begin to cover their costs from what readers pay. Those readers are
+heavily subsidized by advertisers hoping to sell them stuff. What's notable
+about the Web is the profusion of free offerings that go way beyond mere
+editorial content filling in the space between ads. There's an online store
+called Onsale atCost selling computer equipment at the true wholesale price.
+Onsale atCost may be the only store in the world to hire PricewaterhouseCoopers
+to document that it is not going to make a profit. CBS's SportsLine.com
+actually pays you to get sports scores from their site. The site counts the
+number of times you visit SportsLine, and frequent users are given T-shirts and
+sunglasses. Each time you visit you are even entered in $1 million prize
+sweepstakes. And AllAdvantage.com promises to pay you up to $20 per month for
+downloading an application that displays ads in the corner of your screen.
+It'll pay you even more if you can convince your friends to sign up as
+well.
+
+            eFax.com will give you a
+free fax number and allow you to receive faxes by e-mail--free. Everyone wants
+to give you free e-mail. Free personal address books and calendars, free
+mapping services, free personalized news and weather--all are available in
+exchange for your eyeballs and a bit of information about yourself, either
+asked for explicitly or gleaned from what you reveal in using the free
+service.
+
+            Which raises the question: How much can your eyeballs
+possibly be worth? Suppose I could insidiously find out enough about you to
+influence every purchasing decision you make. Suppose I could promise that
+every ad I sold you would go straight to your spending reflex. What could I
+sell that power for?
+
+            Let's do some math.
+Newsweek says Gross pays $600 for the computer. Add $100 a year for the
+Internet connection and the service contract and assume the computer has a
+usable life of two years. He's paying $400 per year for your attention. How on
+earth is he going to make this back? Well, suppose some Chiat/Day ad wizard can
+create a series of banner ads, which, by blinking in the corner of your screen,
+compel you to go out and buy $400 worth of stuff. It's hard to imagine, but
+it's not crazy. But $400 of sales isn't good enough. Hewlett-Packard isn't
+going to pay $400 for your eyeballs if you're just going buy one $400
+Hewlett-Packard printer. Hewlett-Packard needs $400 in profit , which may
+mean 10 or 20 printers . That is, Gross must convince his advertisers
+that they'll get $400 of profit per customer, which means, say,
+something like $4,000 in sales . Each year. Just from you. And just
+because of his ads.
+
+            Now consider that advertisers spend an estimated $100
+billion plugging goods and services to America's 100 million households. In
+other words, advertisers, as a group, think that affecting the purchasing
+decisions of an entire household of average eyeballs is worth $1,000 per year.
+That's for all the ads you see in every medium, from television to billboards,
+in the course of a year. Bill Gross is betting that his ads alone, aimed at
+just one person, will be worth almost half that amount. Maybe he will manage to
+find bigger spenders. Or maybe he'll be wildly more successful in affecting
+their decisions. Or maybe he's nuts.
+
+            His task will be easier
+if his $400 doesn't have to come out of what advertisers are already spending
+but by convincing them that it's worth spending more. That's where the
+demographic information comes in. This is not a new concept, of course. John
+Wanamaker, who built a department store empire in 19 th -century
+Philadelphia, once said, "Half the money I spend on advertising is wasted ... I
+only wish I knew which half."
+
+            Targeting is a solution to Wanamaker's problem. You can
+deliver Lexus ads to affluent customers pulling down more than $100,000 per
+year. To less fortunate customers, you can deliver, say, Hyundai ads. To get a
+sense of how valuable targeting is to advertisers, the New York
+Times-- which makes you give demographic information in order to register
+for the site--charges four cents for a banner ad that's shown to everyone and
+six cents for one that is targeted. In other words, targeted ads are worth 50
+percent more. Yahoo! can tell what your interests are by the search you're
+entering. In writing this article, I entered "Lexus" into Yahoo! and, sure
+enough, a banner ad for a Lexus popped up above my search results. And when I
+entered "New York Times" I got a banner ad for the New York Times . Both
+Lexus and the Times pay for this service. On average, these targeted
+search engine ads cost 50 percent more than ordinary bulk ads.
+
+            But is the Internet so
+miraculous an advertising vehicle that Gross will be able to siphon off $400
+per person from total ad spending of $1,000 per family--or persuade advertisers
+to spend an additional $400 to reach each of his customers? This isn't so
+obvious. After all, targeting is not unique to the Internet. A Lexus ad in
+Car and Driver or Fortune is pretty well targeted at affluent
+people who like fancy cars. And ads on the Internet, at least so far, lack
+oomph. A banner at the top of a Web page just isn't the same as a luxurious
+two-page color spread.
+
+            Targeting may increase what advertisers will spend per
+eyeball, but it also reduces the number of eyeballs they have to pay for.
+Unless Wanamaker was willing to pay double for reaching the right half of the
+people, his total ad spending would go down and not up. The apparent going
+premium of 50 percent for a targeted ad on the Internet suggests that Internet
+advertising may be as likely to reduce total ad spending as to increase it.
+
+            Last year, advertisers spent $2 billion on the
+Internet, compared with $35 billion spent on broadcast TV and $10 billion spent
+on cable. That's 2 percent of the $100 billion total spent on ads in all media.
+The Internet ad market is growing at two or three times the rate of any other
+medium. So suppose advertisers direct one-fifth of their resources onto the
+Internet. That would be a tenfold increase in the Internet's share. And
+suppose the total market for advertising doubled . In this highly
+optimistic scenario, Internet ad spending would be $400 per household. In other
+words, Bill Gross could break even--provided he was the only advertiser on the
+Web.
+
+            Eyeballs are worth money only because they are
+attached to wallets. And the size of the wallets is a strict limit on the value
+of the eyeballs. So have I just argued myself out of a job by mathematically
+disproving the theory on which my paycheck is based? Not at all--or at least I
+don't think so. Free magazine articles are one thing, free computers are
+another. Exchanging stuff for eyeballs makes sense as long as the cost of
+providing the stuff is less than the value of the eyeballs to advertisers. What
+it has cost 
+                  Slate
+                to provide this article by me can be the basis
+for a very profitable ad-based business. Take my word for it.
+
+         
+      
+   

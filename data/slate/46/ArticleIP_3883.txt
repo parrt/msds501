@@ -1,0 +1,237 @@
+
+   
+   
+      
+         
+            
+
+            
+               Address your e-mail to
+the editors to letters@slate.com. Please include your address and daytime phone
+number (for confirmation only).
+            
+
+            
+               Don't
+Believe the Hype
+            
+
+            Cullen Murphy is so good
+that it really stands out when he blows it, as he does in "Too Much of a Good
+Thing." Hype derives from hyperbole , and when it came into
+use in the '60s, it was used, in much the way overhyped is used today,
+to refer to something praised far in excess of its value ("Sergeant
+Pepper has been hyped as a masterpiece, but the fact is, most of the songs
+on it aren't of the first rank").
+
+            Once the provenance of
+hype has been established, you can discard Murphy's elaborate apparatus
+for explaining overhyped . That ghastly neologism is just the latest
+example of the peculiar American tendency toward tautological idioms. Similar
+excrescences include: preplanning and its business familiar, advance
+planning (when the heck else are you going to plan something--after the
+fact?); and my own special hate, self-confessed (if someone else is
+doing your confessing for you, honey, it ain't a confession). Yes, yes, I
+understand that self-confessed follows the path laid down by perfectly
+acceptable terms like self-professed and self-avowed ; I still
+hate it.
+
+            Well, I'm
+glad that's straightened out.
+
+            -- Harris
+Collingwood New York City
+
+            
+               Cullen
+Murphy replies: Harris Collingwood's letter is one of many I have received that
+would derive hype from hyperbole rather than more circuitously
+from the hype derived from hypodermic , and thus from the idea of
+stimulation associated with drug use. I stand my ground, though. Yes, at first
+glance, this alternative derivation would seem to make sense, because hype
+sort of sounds like hyperbole and sort of means hyperbole . It
+would also seem to make sense that frosh would be derived from
+freshman , since it sort of sounds like freshman and sort of means
+freshman . But it isn't.
+            
+
+            Hype in the sense of
+excessive or false publicity goes back much further than the 1960s
+(Collingwood's suggested decade of origin)--to at least the 1920s (per the
+Oxford English Dictionary ), which is the same time that hype is
+attested to as a verb and noun associated with drug use, and the word is
+explicitly linked to hypodermic . The OED , the Dictionary of
+American Slang , the Barnhart Dictionary of New English , and the
+Random House Historical Dictionary of American Slang all make the
+hypodermic connection. None of them makes a hyperbole connection.
+William Safire in his New Political Dictionary writes: "Investing a
+minor occurrence with false importance is called 'hype' or 'media hype,' from
+the euphoric kick one gets from an injection of a narcotic with a hypodermic
+needle."
+            
+
+            
+               I asked J.E. Lighter, the
+editor of the Random House Historical Dictionary of American Slang
+(whose volume containing "H" words has just been published), about the
+possibility that hype was derived from hyperbole . His immediate
+response was, "I very much doubt that." He went on to note that "hyperbole
+comes from a rather elevated level of diction for the kinds of people who
+begin using the word hype ." He did observe that the existence of the
+word hyperbole could well be offering hype a certain
+reinforcement. "Once a word comes into circulation," Lighter said, "its
+survival is based in part on all of the associations it brings to
+mind."
+            
+
+            
+
+               ( Frosh , by the way, seems to have come from the German for "frog"--it
+was a 19 th -century nickname for members of an entering class of
+German university students.)
+            
+
+            
+
+               Jingoistic Java Juggernaut
+            
+
+            I am very disappointed by
+Andrew Shuman's "Weak Java." If you want to look like a propaganda organ of
+Microsoft, about the best thing you could do would be to publish an article
+about a very hotly contested industry issue, take Microsoft's side, and support
+your point with misinformation and untruths.
+
+            The most egregious example
+was Shuman's statement that Sun's plan to make Java faster is to make "Java
+into an operating system." This is entirely and totally wrong, and anyone
+paying any attention to what's going on with Java would know this. I am really
+appalled.
+
+            Slate is
+certainly free to come out on any side of any issue, but when it comes to an
+issue in which Microsoft has a huge financial stake, I think the least we
+readers can ask is that you take care to learn the basic facts of the matter
+and check that what's in the article is at least remotely plausible.
+
+            -- Daniel
+Weinreb Arlington, Mass.
+
+            
+               Andrew
+Shuman replies: This letter is one of the nicer ones I have received in the
+past two weeks. I had two goals for my article: first, to explain what Java is;
+and second, to debunk the Java hype. I can only gather by the voluminous
+responses to my article that I was successful in touching a few nerves. I would
+like to quote myself on two points readers seem to have overlooked: 1) "I work
+for Microsoft" and 2) "Java is cool."
+            
+
+            
+               First off, to all you
+speed demons who claim Java will soon be as fast as C/C++ and who rightly point
+to some of the work on making Java much faster: You are half-right. There is a
+great deal of effort afoot to make Java faster (just-in-time compilation,
+native-code generation, etc.). However Java will never be as fast as
+straight C/C++; there are too many rich features of the language (garbage
+collection, array-and-string bounds checking, dynamically loaded classes) for
+it to ever be as fast as raw C/C++. Yes, I agree that the differences will
+shrink, but they will still be with us. Furthermore, Java will never work well
+on more memory-constrained systems because of the large overhead of these
+features. I apologize for having the wrong ratio in how slow current Java
+implementations are. It is indeed now only three times as slow as native code,
+not 20 times slower as I stated.
+            
+
+            
+               Second:
+Many readers have pointed out how great Java is; I agree! Java makes code
+easier to write, but at a cost--and that cost will always be with us.
+Java should rightly be compared to Visual Basic and other tools meant for rapid
+development of applications. It should not be compared with C/C++, however.
+This is the comparison most Java pundits make; therefore, it was the comparison
+I chose to highlight. I have not found any examples of truly complicated robust
+applications written in Java. The only thing that came close was Corel's office
+suite, and it was w-a-y t-o-o s-l-o-w.
+            
+
+            
+
+               Monologue
+            
+
+            I was
+under the impression that the purpose of Slate's dialogues was to allow two
+well-informed people with opposing views to duke out a topic at length. Why,
+then, in your Promise Keepers "Dialogue," have you chosen two Promise Keepers cheerleaders to
+face off on the burning question "Are the Promise Keepers totally wonderful, or
+only mostly wonderful?" The last time I checked, 45 percent of Slate voters
+were taking the position that the Promise Keepers are not a healthy phenomenon.
+Maybe their side should be represented in the discussion.
+
+            -- Melanie
+Dexter Emmaus, Pa.
+
+            
+               I Ain't
+Gonna Work on Marlboro's Farm No More
+            
+
+            In
+"Smokey and the Bandits," I agree with most of the points, but it
+seems to me that Stephen Chapman ignores the fundamental dilemma of the tobacco
+farmer. If he's living on 100 acres surrounded by other tobacco farmers, just
+how does he change his crop? He needs more land. He can only buy it from other
+tobacco farmers, thereby putting them out of business. One way or another many
+tobacco farmers are forced out of their livelihood.
+
+            -- Rod Allen Mountain
+View, Calif.
+
+            
+
+               Religious Extremists
+            
+
+            
+Congratulations to Seth Stevenson on "Extreme
+Prejudice," a terrific piece on the lunacy associated with "extreme"
+activities. The inordinate attention granted to these activities by the
+advertising-driven media is merely another symptom of the triumph of form over
+substance that characterizes today's America. Participants in this nonsense
+have lost their ability to enjoy physical activities just for fun and the
+satisfaction derived from a good, hard workout. They feed their resultant
+emptiness with manic, life-threatening, competitive pursuits that become
+substitutes for their sense of self worth. These sorts of things once seemed to
+be restricted to 20-year-old boys and middle-aged dorks going through midlife
+crises. Now it seems that the disease has cut a swath through a much broader
+sector of the population, and no longer requires testosterone poisoning as a
+condition of entry.
+
+            -- Mark Proulx Des
+Moines, Wash.
+
+            
+               New Media
+1, Old Media 0
+            
+
+            All of a
+sudden the New Republic and The Nation bore me to tears. They sit
+on my nightstand until I chuck them. I just figured out that it's Slate's
+fault. Every issue is interesting; I read every article. Your links are
+wonderful. Most of my bookmarks are Slate links that I would never have thought
+to look for otherwise. Thank you.
+
+            -- Ingrid Peters
+            
+
+            
+               Address your e-mail to
+the editors to letters@slate.com. Please include your address and daytime phone
+number (for confirmation only).
+            
+
+         
+      
+   

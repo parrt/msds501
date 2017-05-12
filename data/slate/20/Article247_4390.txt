@@ -1,0 +1,126 @@
+
+   
+   
+      
+         
+            Libertarianism Is Not Anarchism
+            
+
+            I have been asked to kick off this
+discussion with Larry about what may be termed the rapid colonization of the
+Internet. As with all new spaces, someone has to figure out the rights and
+duties of all the participants to that new world. And to do that it becomes
+important to use, but not abuse, the analogies that are available to us from
+existing spaces. In doing this inquiry, we can work the issue descriptively,
+and ask how things have gone. But the focus, I think, of Larry's book, is to
+ask the normative question, given who we are as people, what ought to be the
+way in which this new space is occupied by its new tenants?
+
+            In answering that question, I'll take my cue from Larry's favorite foil, the
+libertarian, to see how he or she would inhabit that space. I might also state
+from the outset that I take this tack with a certain rooting interest, since my
+affection for libertarian thought (at least of the limited-government variety)
+long antedates my concern with cyberspace. In so doing, I shall break ranks,
+however, from those cyberspace devotees who think, on Larry's account, that
+cyberspace is unique because its basic structure, or its "nature," rules out of
+bound any form of effective state regulation.
+
+            I confess that this is not my understanding of the problem at all. The use
+of "nature" as a trope for libertarian thought goes back a long way before
+cyberspace. There were lots of libertarians who thought that human beings were
+by nature free, or that individuals could acquire property by first possession
+(that is, for non-lawyers, the capture of animals or movables, or the
+occupation of land): Indeed, occupation was called the "natural mode" of
+occupation. But these efforts to win the libertarian battle by appealing to
+some sort of natural law, natural right, or natural necessity, always turned
+out to be losers. Someone could come along and argue that the brute fact of
+possession did not translate itself into a right. But, of course, skepticism
+could run in every conceivable direction at once, so that once the challenge
+was made, at least one riposte was possible: Animals, lands, and chattels are
+not communal by nature, either. Someone has to come up with an argument that
+shows why their preferred form of social organization should induce the rest of
+us as rational agents to sign on to their program. Stated in that way, the case
+for private property rests on the incentives that it creates for the
+preservation and spread of wealth, while the case against it rests on similar
+utilitarian commitments: giving private ownership to a river blocks
+transportation, recreation, and aesthetic values. And then one has to pair up
+different regimes of ownership with different kinds of assets.
+
+            So it is with cyberspace. It is quite possible to think that it is best for
+government to have a copy of each and every communication that takes place
+across the net; and someone armed with that conviction could think it proper to
+stage nighttime raids in private homes to shut down nonconforming machines. Or
+we could simply refuse to allow people to communicate over the net, much the
+way in which the old Soviet system refused to allow private individuals to
+communicate with each other by telephone. So I quite agree that the legal
+structure, sensible or Draconian as it might be, can shape the nature of
+interactions on the net, just as it has shaped interaction first on land and
+sea, and then on the spectrum. If Larry wants to call the sum of regulation,
+public and private, code, so be it. But I don't see what the use of that
+terminology, which cuts at variance with ordinary English, adds to the
+discussion of the matter.
+
+            That said, I think that it is important to answer the question of why so
+many people who are attracted to the Net call themselves or think of themselves
+as libertarian. Here on earth, the libertarian is not an anarchist who
+thinks that all government conduct is bad and all private conduct good. He does
+not believe, as Larry would have him say, that "government, in the modern
+libertarian's view, is the threat to liberty, private action is not" (Page 85).
+Nor would a libertarian accept that his goal "is focused on reducing
+government's power." That is surely the current objective, given the bloated
+government that we have. But it is not the way in which a
+libertarian--traditional or modern--thinks about government if we start, as
+political theory often starts, in the state of nature. Rather, the libertarian
+is someone whose objective function starts with the goal of minimizing the use
+of force and fraud in human interactions. The hard part of the system is to
+figure out a way in which that minimization takes place over both public and
+private actors: Aggression by private persons produces small gains and very
+large losses; which is why we allow force in self-defense. But aggression--that
+is, the use of force by government--is subject to the same peril, and becomes
+even more dangerous if the state falls into the wrong hands when it has a
+monopoly of force against all persons. Unfortunately, the world is such that we
+will not minimize the total amount of aggression by reducing the amount of
+government aggression to zero: That is why the libertarian is not an anarchist.
+But we would like, with some sense of rough justice, to create a system in
+which each increment of government force results in a greater decrement of
+private force, so that at the margin the sum of both is minimized. But even
+that program is called into question at least in part because some government
+coercion is justified, such as taxes to secure the creation of infrastructure
+and the police force to prevent private aggression (while curbing the excesses
+of rogue officers).
+
+            One real dispute is just how much force results in the social optimum. If
+one looks to the Internet it is clear that we can get along with a lot less
+government force than in other places. Physical aggression against neighbors is
+ruled out in part by the anonymous participation that is possible online. And
+there is a widespread recognition of the inability to form a complex
+infrastructure by largely private means. Someone, perhaps the state, has to organize some
+infrastructure over which all communications must travel. But then it is
+possible (as in physical space) to add on to that collective spine all sorts of
+"gated" communities in cyberspace, which can be subject to their own internal
+organization and rules. Larry is right to point out that the architecture of
+the Harvard system is more centralized (to its detriment) than the Chicago
+system. But to a libertarian, that is just fine, since each of these
+organizations is internally organized under a principle of unanimous consent.
+But it is the want of force and the successful nature of voluntary interactions
+that allow people to see how much can be done without government.
+
+            But still the idea that liberty converges onto anarchy seems to me to be
+misguided. It is still possible to steal confidential information that is
+transferred on the net, and so we need at a minimum some law of privacy and
+trade secrets. It is possible to defame people over the net, and to do so far
+and wide: The problem of multi-jurisdiction squabbles over libel and slander
+does not disappear It is possible to blackmail people over the net, as well.
+And so it goes. As a libertarian, I don't see the net as a safe harbor from
+government regulation. But I do see it as a place in which the social successes
+from following libertarian norms of force, fraud, and taxation, for example,
+yield pretty positive results. And if those principles work so well in
+cyberspace, then maybe we should have a greater attraction to them in our more
+earthbound behaviors as well. That said, it's over to Larry to explain why the
+same version of sensible libertarianism (private property, freedom of contract,
+some state supplied infrastructure, and easy taxation) should not guide our
+activities in cyberspace as it does on earth.
+
+         
+      
+   

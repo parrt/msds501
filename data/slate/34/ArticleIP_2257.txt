@@ -1,0 +1,142 @@
+
+   
+   
+      
+         
+            Strange Webfellows
+
+            Ira Magaziner is best known
+as the chief structural engineer of the Clinton administration's biggest
+boo-boo, its first-term attempt to pass comprehensive health-care reform.
+Though he stayed on at the White House after that debacle, Magaziner hasn't
+been much heard from since, and his actual responsibilities have been something
+of a mystery. Well, Magaziner has been found--making policy for the Internet.
+Webheads, already angry at Clinton for the Communications Decency Act, might
+regard Magaziner's latest assignment as insult added to injury. But in fact,
+the story of the Clinton administration and the Internet--and especially of how
+the White House came to support the unconstitutional, unpopular law known as
+the CDA--is more complicated and interesting than that.
+
+            Magaziner
+has spent the last eight months in charge of an interagency task force that is
+trying to figure out how to expand international opportunities for online
+business. I hold in my hands, a few days in advance of its release, the task
+force's draft report. It contains one remarkable passage. Along with their
+worries about intellectual-property protections, tariffs, and technical
+standards, Magaziner and company write that they are concerned that "many
+countries, including the United States, are considering or have adopted laws to
+restrict access to certain types of content through the Internet. ... These
+multiple interests may result in barriers for US providers attempting to enter
+certain national markets." The report proposes a statement of U.S. policy on
+content restrictions: "Promote the use of industry ... self-regulation and
+rating systems, and technical solutions to empower parents and other users to
+resolve contentious access issues (e.g. children's access, pornography and
+violence)." (The latest version removes the word "pornography" from this
+sequence.)
+
+            This white paper is notable for two reasons: The first is
+that the chief author, who is known (fairly or otherwise) for his fondness for
+heavy regulation, seems to be leaning in a more libertarian direction.
+Congratulations, Ira. But the more significant point is that the report
+completely contradicts what has heretofore been the Clinton administration's
+position on the Communications Decency Act, which was signed by the president
+in February. The CDA, as most people reading this probably know, attempts to
+regulate content through criminal penalties for those who violate standards of
+decency (standards drawn so broadly that they might prohibit, for instance,
+David
+Sedaris' "Diary" from last week) with "any comment, request, suggestion,
+proposal, image, or other communication that, in context, depicts or describes,
+in terms patently offensive as measured by contemporary standards, sexual or
+excretory activities or organs."
+
+            The Clinton administration's
+support of the CDA--which it is now defending before the Supreme Court--has
+been a bit of a mystery. It turns out to have been a bit of an accident. Last
+year, when the CDA was first proposed by James Exon, the Democratic senator
+from Nebraska, the Clinton Justice Department frowned. In May 1995, then-acting
+Assistant Attorney General Kent Markus wrote to Sen. Patrick Leahy that among
+other problems, the proposal was an attempt to "impose criminal sanctions on
+the transmission of constitutionally protected speech." Inside the White House,
+according to Clinton sources, Vice President Al Gore and members of his staff,
+who have general responsibility for Internet-related issues, tried to steer the
+administration away from supporting the act.
+
+            As the
+bill headed toward overwhelming passage in the Senate, however, political
+reality began to assert itself. With an election coming up, the last thing the
+Clintonites wanted was to get on the wrong side of a potentially explosive
+issue dealing with children and pornography. "No way are you going to get
+yourself in a position where the president isn't willing to go as far as a
+Democratic senator in restricting child pornography on the Internet," one
+senior administration official explained. Child pornography and obscenity are
+illegal anyway, but that was a fine point the administration wasn't willing to
+risk elucidating on the verge of a campaign.
+
+            
+So, part of the explanation is cowardice in the
+face of potential demagoguery. Another part is that the CDA was folded into the
+telecommunications bill, an acre of legislation that reorganizes one-seventh of
+the nation's economy. It was a bill in which the administration had many
+interests--the v-chip, competition among local telephone companies, and so on.
+The White House could not afford to antagonize Exon by opposing his pet
+provision. Those inside the administration who were troubled by the
+constitutional implications of the CDA rationalized their cop out by saying
+that the law was sure to be overturned anyway--as indeed it was, in a 3-0
+decision that gave three Philadelphia judges a welcome opportunity to sound
+like Oliver Wendell Holmes.
+
+            
+Clintonites say the decision to appeal that ruling is essentially pro
+forma ; the solicitor general rarely chooses not to not defend the
+constitutionality of a law the president has signed. The CDA was almost one of
+those rare occasions. In its Court of Appeals brief, the Justice Department
+stipulated that the so-called Comstock provision in the law, which restricts
+the dissemination of information about abortion, was unconstitutional and would
+not be enforced. Gore, in particular, wanted to avoid an appeal by finding a
+way to settle with the various plaintiffs in the suit. According to
+Clinton-campaign scholar Dick Morris, "the administration's decision to take
+the bill to the Supreme Court was over Gore's objections." Morris says he had
+two discussions with Gore about whether there might be an alternative way to
+stop children from gaining access to inappropriate material on the Internet.
+"We couldn't really find a technical way of doing it," Morris says. Others in
+the White House believe it was Morris himself who prevailed against Gore and
+got the administration behind the act.
+
+            In any case, political logic prevailed. Officially, the
+decision was made by Clinton's first solicitor general, Drew Days III. He had
+his own reasons for pursuing the case. In the early days of the administration,
+Days made a legally sound but politically disastrous decision to appeal the
+child-pornography conviction of a graduate student for having videotapes that
+showed teen-age models with their clothes on. The Supreme Court agreed with the
+brief Days filed in that case, Knox vs. U.S ., but the Senate voted 100-0
+to condemn his intervention, and Clinton promptly disavowed his own solicitor
+general in public. Days, who previously was thought to have a good shot at a
+seat on the Supreme Court, fell off the Clinton short-list. Soon after deciding
+to appeal the CDA, he returned to Yale Law School.
+
+            Days' successor, Walter
+Dellinger, will argue the case before the court in March. Friends seem certain
+that the former constitutional-law professor at Duke personally opposes the
+CDA. But Dellinger, who is still acting solicitor general pending official
+nomination and confirmation by the Senate, wasn't about to risk premature
+termination of his career. He wouldn't comment. But privately, he may believe
+what many in the administration offer in defense of their indefensible
+position: that a resounding Supreme Court decision against them will do more to
+advance the cause of free expression than would leaving the Court of Appeals
+opinion unchallenged.
+
+            If that is the
+administration's strategy, it is foolhardy. The Supreme Court might not
+cooperate in rejecting the administration's public position and embracing its
+secret desire. Furthermore, it's preposterous that a president re-elected on
+rhetoric about building a bridge to the 21 st century hasn't bothered
+to work out a minimally consistent position on the Internet. The basic problem,
+as I've argued before, is Clinton's lack of respect for civil liberties,
+exacerbated in this instance by a lack of understanding beyond the vice
+president's office of what is at stake in the development of the Internet. But
+a simple solution might be at hand. It can be expressed in four words I thought
+I'd never utter: Listen to Ira Magaziner.
+
+         
+      
+   

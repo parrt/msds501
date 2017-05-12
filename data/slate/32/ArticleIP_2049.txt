@@ -1,0 +1,130 @@
+
+   
+   
+      
+         
+            Monopoly Shopping
+
+            Microsoft is paying me to
+write this column. Does that affect my objectivity? I don't think so, but I
+might be wrong. Fortunately, it doesn't matter. I'm not asking for your trust.
+I'm going to lay out a simple logical argument that you can check for yourself.
+The argument stands or falls on its own merits.
+
+            In other
+words, I aim to occupy the same high ground claimed by Abraham Lincoln in his
+sixth debate against Stephen A. Douglas:
+
+            If you have ever studied
+geometry, you remember that by a course of reasoning Euclid proves that all the
+angles in a triangle are equal to two right angles. Euclid has shown you how to
+work it out. Now, if you were to undertake to disprove that proposition, would
+you prove it to be false by calling Euclid a liar?
+
+            I am
+prepared to go Lincoln one better and to assert that you could not prove
+Euclid's proposition to be false even by calling him a Microsoft employee.
+
+            Now, then, let's talk about Web browsers. More
+specifically, let's talk about what will happen if Microsoft extends its
+operating system monopoly into the browser market as the Department of Justice
+claims it is trying to do. Microsoft denies that intention, claiming it bundles
+browsers with operating systems only to take advantage of technical
+synergies.
+
+            Who's
+right about that one? I have no idea. Well, OK, I have some ideas, but they're
+probably no better informed than yours. Instead, I want to ask a related
+question, one that is central to this whole affair but has been almost entirely
+ignored in the dozens of op-ed pieces that have cropped up over the past couple
+of weeks. Namely: Would a Microsoft browser monopoly be good or bad for
+consumers?
+
+            
+Well--good or bad compared with what? What is
+the alternative to a Microsoft browser monopoly? There are several scenarios
+you might envision. One is an eternal competition between Microsoft and
+Netscape, each striving to capture market share through innovation. The upside
+of that scenario is that browsers would get better; the downside is that
+innovation uses a lot of resources that might be better employed elsewhere.
+It's not clear whether the benefits of that competition would outweigh the
+costs, or vice-versa.
+
+            Another
+alternative to a Microsoft monopoly is a Netscape monopoly. Which of
+those would be better for consumers? Your gut response to that question
+is likely to depend pretty heavily on whose software has caused you the most
+recent frustration. For the record, my own level of frustration with
+both companies' products is so high that I don't run Windows 95
+or Netscape Communicator. But let's you and I try putting aside our
+individual peeves and recasting the question at a more abstract level. Assume,
+for the sake of argument, that there will be only one browser and that its
+quality will be the same regardless of whether Microsoft or Netscape supplies
+it. Then should you, the consumer, care who supplies it?
+
+            Under those assumptions, there's an unambiguous answer: You
+should root for Microsoft. Give me a few paragraphs, and I'll explain why.
+
+            Windows 95
+costs about $90 at my local computer superstore. Why doesn't it cost more?
+Because, despite its monopoly power, Microsoft remains subject to the laws of
+the marketplace. At a higher price, too many customers would walk away. (If you
+doubt a small price increase would significantly affect the sales of Windows
+95, you must conclude Microsoft is undercharging out of either foolishness or
+generosity--neither of which is terribly consistent with the way the Justice
+Department and the public at large think of Microsoft.)
+
+            
+In fact, every time Microsoft raises the price
+of Windows 95, it gets punished twice. First, it loses sales of Windows 95.
+Second, with each of those lost sales, it loses a potential user of Internet
+Explorer. For example, if Microsoft has half the browser market, then 2,000
+lost Windows sales imply 1,000 fewer users of Internet Explorer. (This assumes
+people who don't buy Windows won't need a browser.)
+
+            You might
+ask why Microsoft is "punished" by the loss of an Internet Explorer user, given
+that Internet Explorer can be downloaded free. The answer, of course, is that
+in the long run, it won't be free. Even when it comes packaged "free"
+with Windows 98, you'll really be paying a combined price for the operating
+system and the browser, which will surely be higher than the price Microsoft
+would charge for an operating system alone.
+
+            Now think what would happen if Microsoft had a monopoly in
+the browser market. The second punishment would be doubled--2,000 lost Windows
+sales would mean 2,000 lost Internet Explorer sales, not 1,000. That's good
+news for consumers. Give Microsoft a monopoly on browsers, and you'll intensify
+the downward pressure on the price of its operating systems.
+
+            In fact,
+the same kind of pressure works to lower browser prices too. Just as a doubly
+monopolistic Microsoft would be reluctant to raise the price of Windows 95 for
+fear of losing Internet Explorer users, it would be equally reluctant to raise
+the price of Internet Explorer for fear of losing Windows 95 users (who might
+not be willing to invest in a computer at all if the price of browsers is too
+high). Of course prices will still rise and fall in response to other
+forces--but they will never rise as high under a dual monopoly as they would
+under two separate monopolies.
+
+            
+That doesn't prove that a Microsoft monopoly
+beats any alternative. But it does prove a Microsoft monopoly beats a
+Netscape monopoly, assuming the companies provide products of comparable
+quality.
+
+            I promised to make an
+argument that would stand or fall on its own merits, and I claim to have
+fulfilled that promise. You can judge the argument for itself, and it doesn't
+matter who else has endorsed it. But I do want to mention for the record that
+it has a lot of endorsements. In economics textbooks, it is commonplace to
+observe that vertical integration of monopolies tends to reduce consumer
+prices--for essentially the same reasons I've given in this column. That
+observation wasn't always commonplace, but it has been for nearly 20
+years now--ever since one Robert H. Bork forcefully called it to economists'
+attention. (In my own textbook, the discussion of this issue is peppered with
+quotes from Bork.) In his recent public statements, he has skirted this issue
+entirely. Of course, Netscape pays him a lot more than Microsoft pays me.
+
+         
+      
+   

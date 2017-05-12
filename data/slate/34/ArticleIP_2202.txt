@@ -1,0 +1,104 @@
+
+   
+   
+      
+         
+            Mo' beta SLATE.
+
+            
+               Mo' Beta
+Slate
+            
+
+            Slate proudly announces
+Slate Explorer, a new way to navigate through the delights of slate.com. (So
+why didn't we name it Slate Navigator ? We dunno. Explorer just seemed
+more euphonious, somehow.) We think it's pretty darn cool (a technical
+software industry term, used to imply strong feelings of affirmation), and hope
+you will as well. (Click here for instructions on how to download Slate
+Explorer.)
+
+            And what is Slate Explorer?
+It's a poem, an ice cream cone on a hot summer day, the smell of Styrofoam when
+you crack open that box containing your new computer. It's ... well, it's a
+small program, actually, that puts a small box on your Windows desktop. (Sorry,
+it doesn't work on Macs. Yes, we know, we know. ... But to be fair, it doesn't
+work on Windows 3.1 either. It does work on Windows 95 or Windows NT 4.0.)
+Click on the little arrow, and the box expands horizontally into a list of
+Slate's major categories (Briefing, Columns & Features, Back of the Book,
+Dispatches & Dialogues, Utilities). Click on a category, and it expands
+vertically into a list of current contents. Click on one of these listings, and
+the article will appear.
+
+            Slate Explorer works, in
+most cases, even when you're not online. When you select an article, the
+program will launch your browser and initiate a Web connection. When you are
+online, Slate Explorer will automatically update itself, even if--for some
+inexplicable reason--you're not reading Slate at the moment. It's all a bit
+hard to explain, but fun to try.
+
+            Now, listen carefully. This
+is a beta release of Slate Explorer. "Beta" is a software industry term
+for a product that is perhaps just a teensy bit short of absolute perfection,
+but is being released anyway because we just can't wait anymore--or rather,
+because we want to let the software-using community share in the excitement of
+finding any last-minute bugs. We're reasonably sure that Slate Explorer won't
+cause your computer to explode, or to charge large sums to your Visa card, or
+to take up smoking, or to insult a police officer. But we make no
+guarantees.
+
+            For the
+moment, this beta release is only being promoted in Readme--that is, to our
+most loyal and discerning readers (who are also immune to crass flattery). If
+you do happen to discover a flaw in Slate Explorer, just keep it to yourself,
+OK? No, please e-mail us about it at help@slate.com. But be polite. Remember: This is a beta.
+
+            
+               10,000
+Pennies for Your Thoughts
+            
+
+            How would
+you like to get paid to do something you do all the time anyway for zippo? If
+we know our readers, you're full of opinions and don't mind making them known!
+So how would you like to spout off a lot of opinions and have perfect strangers
+take them seriously, even if they make no sense at all ? And get a check
+for $100 in the bargain! Sounds too good to be true? Well, it is, you idiot.
+... No, we mean, it isn't , thanks to a wonderful opportunity sponsored
+by Slate's associate publisher, Colene McBeth. Colene is looking for
+participants in a second annual round of Slate reader focus groups. The
+sessions will be held in early October in Washington, D.C.; Chicago; and San
+Francisco (locations scientifically chosen as reflecting places Colene likes to
+visit). It's your chance to tell us what you think about Slate and how you
+might like to see it improve. And we'll pay you $100 for your trouble. If
+you're interested, please e-mail Alice Baker at a-abaker@microsoft.com, or
+call collect ([425] 882-8080, ext. 25848). If you were in a Slate focus group
+last year, or if your name is Bill Gates, you're not eligible. But if you are
+one of the many we didn't have room for last year (or if your name was Bill
+Gates last year, but you've changed it), please feel free to try again.
+
+            
+
+               Traditional Values
+            
+
+            Most of Slate will not be
+published next week, the third and last of our traditional summer weeks off.
+(Or at least, we hope to make this a tradition, and have got away with it for
+two summers so far.) We will, of course, be hard at work throughout the week
+for the betterment of Slate, the Microsoft Corp., and the world, in roughly
+that order. Or at least, we'll be thinking occasionally about the betterment of
+these fine institutions. And Scott Shuger will be posting "Today's Papers"
+early every morning as usual, except for Sunday and Labor Day. Slate will
+return to its normal schedule Monday, Sept. 8.
+
+            
+
+               --Michael Kinsley
+            
+
+             
+
+         
+      
+   

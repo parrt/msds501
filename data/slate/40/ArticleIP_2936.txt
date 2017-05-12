@@ -1,0 +1,143 @@
+
+   
+   
+      
+         
+            Microcosm
+
+            Business writing bores me.
+It tends to be drier, less passionate, and less accurate than other forms of
+journalism. Business writers are generally outsiders looking in: They lack the
+access granted to political, sports, or even entertainment reporters, since few
+companies seek the kind of publicity the press wants to bestow upon them.
+
+            
+Sometimes, practitioners of the genre can rise above its limitations; but you
+can count on two fingers the number of books that have migrated from the
+business-aisle ghetto to the mainstream: Barbarians at the Gate and
+Den of Thieves . Barbarians succeeded because its writers, Bryan
+Burrough and John Helyar, weren't seduced by the power of its subjects. They
+knew that the RJR Nabisco-leveraged buyout represented the nadir of that era's
+financial engineering. They called a moron a moron, and damned the whole lot of
+them. Den of Thieves required even more intelligence work, as well as
+author James B. Stewart's master touch at cutting through the
+multimillion-dollar public-relations campaign--still ongoing--that tried to
+make Michael Milken look like Albert Schweitzer pursued recklessly by
+jackbooted government thugs.
+
+            Unfortunately, Randall E. Stross' The Microsoft Way ,
+an inside look at the software giant that publishes this magazine, will not
+match the gold standard set by Barbarians and Thieves . The book
+succumbs to all the usual pitfalls of business writing. It shouldn't have.
+Stross had unparalleled access to Microsoft executives, including the right to
+stroll through the campus without an apparatchik at his side. And the tale of
+Microsoft is certainly worth telling, if only because we can all learn from the
+successes of one of the world's greatest companies.
+
+            To his
+credit, Stross does grasp what's right at Microsoft: the hard-boiled
+meritocracy that makes rich those who contribute to it; Bill Gates' prediction
+that consumers, not just large businesses, would jump at the chance to own
+computers; and his--and his company's--driving desire to outsmart and outfox
+the competition. But Stross fails to see the larger context for Microsoft's
+dominance, and we know that from the get-go, when he begins his book with a
+pretentious foreword that postulates the similarities between Henry Ford and
+Bill Gates, a comparison to which he alludes repeatedly over the next 239
+pages.
+
+            
+In fact, the flawed Ford-Gates analogy is a
+perfect metaphor for what's wrong with Stross' book. Ford's genius lay in mass
+production, and in bringing down the cost of the product so that the consumer
+could afford to purchase a one-time luxury item. In the province of computing,
+that feat was accomplished not by Gates--who has never fought to reduce the
+price of computing power, lest his margins suffer unnecessarily--but by the
+boys at Intel, led by Gordon Moore, Andy Grove, and the late Robert Noyce--who,
+years before his death, joked with IBM execs that computers in the future would
+not only be more powerful than IBM mainframes, but would be smaller, and much,
+much cheaper.
+
+            A better
+comparison for Gates would have been John D. Rockefeller, who sought to
+monopolize the fuel that went into automobiles. Like MS-DOS or Windows 95,
+gasoline engines serve as the operating system of cars, and to be the dominant
+provider of the fuel for that operating system seems a lot more Gates-like.
+
+            This hits on the larger flaw of Stross' analysis. Had the
+writer drawn the obvious parallels, he would have run the risk of endorsing the
+Justice Department's case against the monopolist Microsoft, a case Stross
+spends almost the entire book debunking. Microsoft in The 
+               Microsoft
+Way is a benign, friendly company that succeeded in spite of itself. It
+dominated the software industry because its rivals were such lightweights and
+buffoons, and because it hired the smartest and brightest software writers.
+When it came up against serious competition, in the form of Intuit, it was just
+another bumbling competitor, hardly worth the Antitrust Division's time. (To
+recap: The Justice Department vetoed Microsoft's 1994 attempt to purchase
+Intuit, maker of the personal-finance program Quicken, on the grounds that it
+was anti-competitive--a bid to corner the personal-finance-software market.)
+Microsoft's aborted purchase of Intuit, says Stross, shows not only that the
+company does not dominate, it can't even shoot straight.
+
+            Stross
+could have written a fabulous book about how Microsoft's meritocracy produced a
+perfect monopoly, out of sheer grit and the love bestowed upon its team of
+managers by America's mutual funds (their fondness for Microsoft stock yielded
+a price that allowed the company, with its handsome stock-option compensation
+program, to hold on to its best, most talented players). He could have written
+about how severely that monopoly was soon to be tested by the Internet, and by
+its proselytizer, Netscape's Marc Andreessen. Instead, Stross spends most of
+his time talking about Microsoft's attempts to produce consumer-software CDs,
+which is only anecdotally interesting. (Intriguing, though, to learn that
+Microsoft only approached Funk & Wagnalls to collaborate on an encyclopedia
+CD-ROM after being turned down by a haughty Encyclopedia
+
+               Britannica . Microsoft and Funk & Wagnalls' Encarta is now the
+leading encyclopedia in the multimedia market, whereas Britannica is up
+for sale.) And Stross skips almost entirely over Microsoft's chief strength,
+the operating systems of both personal computers (first MS-DOS and then Windows
+95) and big corporate machines (Windows NT). Rather than find out how Microsoft
+produced Encarta , I would really like to know how Microsoft got every PC
+company to load its computers with Microsoft software and not that of other--at
+times, superior--operating systems (the conventional wisdom that Gates handed
+his systems' standards out to everyone while his competitors kept their
+standards proprietary doesn't begin to account for the enormity of Microsoft's
+success).
+
+            
+Don't get me wrong. I didn't agree with the
+Justice Department's suit for one minute. I don't want a company to be punished
+simply because it dominates. Were it not for the monopolistic traits of both
+Intel and Microsoft, I believe that the Japanese would have had a choke hold on
+this industry and destroyed the comeback that America has enjoyed in the last
+10 years. But if you come at the industry with the perspective of a Microsoft
+defense lawyer, as Stross does, you won't ever learn--let alone be able to
+explain--why Microsoft succeeds the way it does.
+
+            Had Stross written his book
+next year, he would have had a whole new story line: how Microsoft was or was
+not able to translate its dominance in personal computers to the Internet. This
+phenomenon happened so quickly, like much in the computer industry, that Stross
+couldn't incorporate it cogently. Somehow I got the feeling, when reading
+The Microsoft Way , that I was reading about the greatness of the French
+army and its Maginot line in 1939. Bill Gates may not be waking up in the
+middle of the night worried about whether Netscape has stormed the Ardennes on
+the way to Sedan, but I'm sure somebody at Microsoft is worried (probably Steve
+Ballmer, a college buddy of mine who would wake up in the middle of the night
+if he bothered to sleep), and is working on a devastating counterattack this
+very moment. Microsoft doesn't seem like the kind of place that would fight new
+wars with old-war strategies, but it is insightful to see just how little of
+the Microsoft that Stross saw was focused on the Net, and how much was focused
+on old-fashioned software-delivery systems.
+
+            Maybe we'll never know what
+really goes on inside Microsoft. The people I've worked with there, including
+my editors at Slate, certainly don't seem to know. Whether that's by design or
+disinformation on the part of their nonjournalist Microsoft bosses, I can't
+tell. My conclusion after reading The Microsoft Way : Stross has plenty
+of company when it comes to those who are clueless about this huge capitalist
+success story.
+
+         
+      
+   

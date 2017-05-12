@@ -1,0 +1,4 @@
+parrt: tombu, dmose, parrt
+tombu: dmose, kg9s
+dmose: tombu
+kg9s: dmose

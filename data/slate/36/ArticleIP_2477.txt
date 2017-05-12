@@ -1,0 +1,144 @@
+
+   
+   
+      
+         
+            
+
+            The Nobel Prize in economics
+was recently awarded to Myron Scholes and Robert Merton. Their work has had
+tremendous practical impact on the world of finance. Yet their own lives call
+into question a key assumption of economic theory.
+
+            The issue is simple. One day
+in 1970, three hard-working associate professors of finance scribbled down a
+few equations on a blackboard, and eureka! They had discovered a method for
+pricing options. (The third man, Fischer Black, died in 1995.) What did they do
+with this extremely valuable information? They gave it to the rest of us for
+free. That is the problem.
+
+            The
+assumption that appears to be in jeopardy is profit maximization. In markets,
+particularly financial markets, when profit opportunities arise, it is assumed
+that savvy individuals will take advantage of them in order to capture profits.
+Some economists describe it this way: No one leaves $500 bills lying on the
+street. Indeed in finance theory--including the Nobel prize winners' own
+formula--the profit motive is the engine that moves financial markets from one
+equilibrium to another. (Equilibrium being the place where nothing really
+happens.)
+
+            Modern financial theory is highly dependent on such strange
+theoretical beings--greedy fortunetellers who can compute the third derivative
+of their utility function. For example, the creatures assumed in the Capital
+Asset Pricing Model, the keystone of most academic finance, are assumed to care
+only about risk and return. The people trapped in the CAPM are assumed to apply
+the equations provided by Sharpe, Lintner, and Treynor (for which only Sharpe
+won a Nobel) to pounce on the slightest deviation from equilibrium in order to
+get more . This greed is their most important trait. If they aren't
+greedy, the theory falls apart, as would most other economic theories.
+Professors Merton and Scholes have undoubtedly assumed unbridled greed hundreds
+of times in classrooms, academic conferences, and cocktail parties. The
+question at hand is whether our generous academics were greedy enough to be
+consistent with their own assumptions.
+
+            On that day in 1970, they
+surely knew that they had discovered something of great value. Why didn't they
+take their solution and their measly academic salaries and start trading
+options? With the formula programmed into only their calculators, they
+could have ruled the emerging Chicago Board of Options Exchange, taking the
+money of the hapless traders who were still pricing based on history, rules of
+thumb, or their guts (a potentially substantial source of wisdom here in
+Chicago). There is no way to know how much money they would have made, but it
+surely would dwarf the million bucks they scored for the Nobel. They had the
+key equation that now drives hundreds of billions, if not trillions, of dollars
+of annual trading volume in stock options, futures options, mortgages,
+over-the-counter currency options, and most of the derivatives industry.
+
+            To be
+sure, these guys have made a lot of money working for Wall Street firms in
+recent years. They surely have been adequately greedy in the rest of their
+careers to satisfy their own assumptions. But their youthful charitable lapse
+must still be explained.
+
+            
+One possible explanation is that if they had
+kept the formula to themselves, the budding options market would have been
+stunted. They would have quickly taken all the money from the suckers trading
+against them, and no one would have been foolish enough to take them on.
+Perhaps they actually have maximized their income by settling for a tiny piece
+of the huge pie that their formula created? This explanation ignores the
+underlying premise of the financial markets: There's a sucker born every
+minute. The market might not have grown as big if they had hoarded their
+secret, but they would have been able to dominate it.
+
+            Another explanation is that
+they may have feared some other finance professor would ruin their monopoly.
+There usually is a pathetic close second for any theoretical breakthrough in
+academia. That's the nature of the idea market. Someone else eventually would
+have stumbled onto the same formula. In which case they would have had to cut
+the spoiler in for half. Or even worse, the spoiler might have given the
+formula away, leaving our laureates with neither fame nor fortune. Any claims
+that they actually discovered it first, but kept it to themselves, would have
+been met with skepticism at the faculty club.
+
+             
+
+            This leads us to a third possibility: They couldn't trust
+each other. Perhaps The Treasure of the Sierra Madre was showing in
+Cambridge that weekend and each economist realized that he would always have to
+worry about the other two guys. As any 10-year-old knows (and game theorists
+can now elaborately prove), three-person secrets are particularly troublesome
+in this regard, because nobody can ever pinpoint which of the other two might
+have cheated. Thus, they may have opted for full, public disclosure because
+they knew that that was the only way to ensure that they shared equally in the
+spoils. (In the end, they didn't share equally, though. Scholes got his name on
+the formula and the Nobel, Black only got his name on the formula, and Merton
+only got the Nobel.)
+
+            Here's a
+thought: Maybe Black, Scholes, and Merton were interested in serving the public
+good, and the giveaway was strictly for the betterment of humanity! Before the
+guffaws start, we should at least consider this alternative. The formula was
+most directly a gift to the options traders around the world, which is not a
+group that usually inspires charitable acts. So these three weren't in the same
+league with Mother Teresa. Scholes and Merton reportedly are applauded when
+they appear on the floor of the options exchange, which shows that options
+traders are at least appreciative, if not deserving, of the rare charities that
+they receive. However, the benefits of this formula do extend beyond the pits.
+The efficient and accurate pricing of options has helped to make the economy
+more efficient. So we all have benefited indirectly.
+
+            
+Another alternative is that our heroes were
+pursuing the noble goal of academics everywhere--tenure. Certainly tenure was
+in the bag for these fellows after coming up with the formula, though it
+probably was likely for them anyway. Or, if not tenure, their goal might have
+been the eternal fame associated with having your name on an important piece of
+human wisdom. Economists are as guilty of this hubris as are members of any
+discipline: There's the Fischer Effect, the Sharpe Ratio, the Miller-Modigliani
+Theorem, Tobin's Q, the Laffer Curve (the only one in which the name helps
+characterize the discovery), and the greatest of them all, Pareto Optimality.
+Of these bits of academic immortality, Black-Scholes is probably the most
+widely used by nonacademics, so they have made a good buy on the formula's fame
+value.
+
+            The first three explanations
+all rely on various forms of greed or other base human motivations that are
+close enough to greed to be easily worked into economic theory. The last three
+motives--public good, tenure, and fame--don't fit as well with the basic
+assumptions of economics. It is possible to fit them in by the economist's
+magic trick of defining any behavior as maximizing something called "utility,"
+utility being defined as whatever you choose to maximize. But plain old greed
+should be adequate to explain nearly everything in finance, because finance is
+about making money. If the behavior of people who are in the profession of
+making money isn't well explained by the motivation of making money, then it
+seems a real stretch to apply it elsewhere--for example, to nurses.
+
+            For straight cash greed, our
+Nobel laureates fall woefully short of their own standard. Someday a Nobel may
+go to theoreticians in behavioral finance who will be able to build a model
+that explains their own behavior as well as it does that of others.
+
+         
+      
+   

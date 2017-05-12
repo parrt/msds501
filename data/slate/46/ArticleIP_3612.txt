@@ -1,0 +1,288 @@
+
+   
+   
+      
+         
+            The Slate Arts Index
+
+            According to the Wall
+Street Journal , high culture is flourishing in America. The evidence? In a
+front-page story published a couple of weeks ago, the paper noted that
+Americans are drinking microbrews instead of Bud and that you can now get a
+cappuccino in Alpena, Ark.
+
+            Though it
+might shock my Seattle-based colleagues, I'm not sure that better coffee is the
+ultimate measure of a civilization. But if we don't count Starbucks, how do we
+know that the arts are flourishing in America? There's some support for the
+notion in a recent survey of public participation in the arts published by the
+National Endowment for the Arts. According to numbers extrapolated from a poll,
+97 million people, or half the adult population of the United States,
+participate in the arts in some way. A full 34.9 percent of us went to an art
+museum last year; 15.6 percent attended classical music concerts. From these
+numbers, the NEA has derived a figure of 88 million classical music concerts
+attended in 1997 vs. 60 million in 1992, and 225 million art museum visits in
+1997, up from 163 million in 1992.
+
+            However, the NEA points out that its 1992 numbers aren't
+comparable to the 1997 ones. Weirdly, the 1992 survey was appended to the
+National Crime Victimization Survey. (Has anyone in your household been mugged
+in the past 12 months? Have you been to see Riverdance ?) The bleak
+context may have led to underreporting. The 1997 poll, by contrast, was
+free-standing, but one can see how it might register false positives. An NEA
+survey that asks whether you like to go to the theater, opera, ballet, etc.,
+subtly begs for affirmative answers. And in fact, the five year increase
+indicated by the NEA is much greater than the numbers tabulated by various
+arts-service organizations--which in some cases report a decline where the NEA
+sees growth.
+
+            But the chief limitation of
+using the NEA numbers as a proxy for the health of high culture is that it's a
+demand-side picture--it captures consumption rather than production. It tells
+us nothing about the quality or quantity of high culture being created in the
+United States today. And in fact, the new study's upbeat tone cuts directly
+against the conclusions of a report issued by former NEA Chair Jane Alexander
+on her way out. The American Canvas study, published in 1997, argues that arts
+institutions are elitist, complacent, and largely hostile to popular audiences.
+Last year, according to the NEA, the arts were sick. This year, they're
+thriving.
+
+            Of course,
+numbers can never resolve the inherently subjective question of cultural
+health. For a consensus about whether a lot of masterpieces were painted or
+written in 1998, check back in 100 years. But it may be possible to come up
+with a more rounded portrait of relative cultural well-being--one that takes
+into account how well artists are doing as well as how many butts are in
+auditorium seats.
+
+            To that end, I hereby initiate the 
+                  Slate
+                Arts
+Index. This is a measure based on statistics culled from various sources that
+give a clue about the health of different art forms. Here's how it works. The
+baseline is 100 points, composed of six separate categories. It breaks down as
+follows: 20 points for literature, 20 for music, 20 for the fine arts, 20 for
+theater, 10 for film, and 10 for dance. On the basis of the numbers I've
+gathered, it's hard to say how well any art form--or culture as a whole--is
+doing. But in a year, we should be able to say whether they're doing better or
+worse. If the music score rises to 22, that would suggest a 10 percent
+improvement. A total tally of 92 would mean an 8 percent decline in the health
+of high culture overall.
+
+            
+
+               Literature (20 points)
+            
+
+            10 points--number of weeks
+that literary books were on the New York Times best-seller list
+
+            (1997 =
+295)
+
+            5 points--number of
+full-length poetry titles published
+
+            (1997 =
+942)
+
+            5 points--number of Penguin
+classics sold
+
+            (1997 =
+3.95 million)
+
+            The only
+book question on the NEA survey is "Have you read any literature in the past
+year?" Sixty-three percent said yes. The 
+                  Slate
+                literature index
+derives from three more compelling factors. The first is the number of weeks
+new works of literature spent on the Times best-seller list in the past
+year--295, as it turns out, out of a total of 780. What is literature? Rather
+than attempting to gauge quality, I have included all books that have literary
+aspirations or are regarded as literature by most reviewers: Cold
+Mountain , yes, The Partner , no. Elmore Leonard, yes, Carl Hiaasen,
+no. As opposed to the commonly cited figure of total book sales, this number is
+a reasonable stand-in for the question of how many Americans are reading
+nonpulp new novels. I've reserved the other 10 points for poetry and classic
+literature. Our proxy for verse is a fairly crude one--the number of books of
+poetry published. For classics, I'm using sales from one publisher, since
+Penguin keeps most of the world's great literature in print.
+
+            
+               Music (20
+points)
+            
+
+            4 points--number of opera
+performances
+
+            (1996-97
+season = 2,397)
+
+            4 points--number of opera
+premieres
+
+            (1997-98
+season = 13)
+
+            4 points--number of trips to
+the symphony
+
+            (1996-97 =
+31.9 million)
+
+            4 points--number of new
+orchestral works commissioned and performed
+
+            (1997-98 =
+211)
+
+            4 points--jazz sales as a
+share of the recorded music market
+
+            (1997 =
+2.8 percent)
+
+            The logic
+here is that while the first number gives a sense of the availability of opera
+as whole, the second number gives a sense of whether new work is being added to
+the standard repertoire. Both statistics come from Opera America. The third and
+fourth numbers, provided by the American Symphony Orchestra League, do the same
+thing with orchestral music. It would be nice to include chamber music, but
+there are simply no useful statistics. Lastly, while I wasn't able to find any
+reliable numbers on jazz performance, the Recording Industry Association of
+America keeps track of jazz CD sales relative to other kinds of music.
+
+            
+               Fine
+Arts (20 points)
+            
+
+            10 points--attendance at 149
+art museums
+
+            (1997 =
+42.7 million)
+
+            10 points--number of people
+employed as painters, sculptors, craft-artists, and artist printmakers
+
+            (1997 =
+251,000)
+
+            Art
+museum attendance is a reasonable proxy for how many people are experiencing
+art. The American Association of Art Museum Directors reports a much smaller
+increase in visits than the NEA. Based on the constant number of museums that
+responded between 1993 and 1996, attendance rose from 37.1 million to 41.3
+million (for a slightly smaller sample group than the one used in 1997). As
+more people pay attention to art, it's becoming easier to get by as an artist.
+The other useful figure is the number of people working as artists. According
+to the Department of Commerce, 251,000 people made their livings as painters,
+sculptors, and craft-workers last year, up from 222,000 in 1993.
+
+            
+               Theater
+(20 points)
+            
+
+            10 points--attendance at 81
+nonprofit theaters
+
+            (1997 =
+11.98 million)
+
+            10 points--number of
+nonprofit theaters in the United States
+
+            (1997 =
+800)
+
+            The
+Theater Communications Group, a New York-based organization, keeps figures for
+nonprofit theaters such as the American Repertory Theater in Cambridge, Mass.,
+the Guthrie in Minneapolis, and the Steppenwolf in Chicago. For 197 theaters
+surveyed in a forthcoming TCG study, attendance was 17.25 million. However, in
+the interest of having an apples-to-apples comparison in the future, I'm using
+the smaller sample of 81 theaters tracked over time. In these, aggregate
+attendance is up slightly over the past three years--from 11.79 million in 1995
+to 11.98 million in 1997. This does not include Broadway musicals, but then,
+we're looking at high culture. Our other measure is the total number of
+nonprofit theaters--800, also according to TCG.
+
+            
+               Film (10
+points)
+            
+
+            5 points--box office
+receipts for independent films as a share of total
+
+            (1997 =
+3.8 percent)
+
+            5 points--foreign film
+receipts as a share of total
+
+            (1997 =
+1.1 percent)
+
+            According
+to Exhibitor Relations, which provides numbers to Variety , box office
+receipts from independent films were $239 million in 1997, out of a total of
+$6.3 billion for all films. Foreign film receipts were $68.8 million. The first
+number is likely to be higher for 1998--the year-to-date figure is $210
+million, while the second looks to be much lower--there being no Full
+Monty import hit this year. I'm using percentages rather than dollar
+amounts so that I don't have to adjust for inflation in future. These numbers
+reflect consensus trends--foreign films are barely alive, while independent
+ones are flourishing.
+
+            
+               Dance (10
+points)
+            
+
+            5 points--average attendance
+at 25 largest ballet companies
+
+            (1997 =
+1,997)
+
+            5 points--contract hours per
+week for dancers at ballet and modern companies
+
+            (1997 =
+36)
+
+            Dance indicators have been
+falling since 1991, when John Munger began keeping systematic track for
+Dance/USA. This contradicts the NEA report, a discrepancy possibly explained by
+a rise in attendance at school performances. There are two useful measures of
+dance strength. The first is the average attendance per performance at the 25
+largest ballet companies, which has declined from 2,400 in 1992 to 1,997 last
+year. The other is the average number of contract weeks for dancers at major
+companies--which includes modern as well as ballet companies. That figure was
+36 in 1997--up from a low of 34 in 1994. In other words, the dance audience has
+been declining, while professional dancers are finding slightly more work. This
+suggests philanthropy at work.
+
+            I couldn't come up with a
+plausible indicator for architecture. Nor have I devised one for criticism,
+which, perhaps self-servingly, I consider to be an important component of
+cultural health. Lastly, the 
+                  Slate
+                Arts Index doesn't try to
+measure--as the NEA survey does--how many Americans are actively participating
+in the arts as amateur singers, writers, and painters. What the
+
+                  Slate
+                index does do is establish a baseline. Next fall, we should
+be able to come back and say something meaningful about what kind of year the
+arts have had. For what it's worth, I'm predicting we'll hit 104.
+
+         
+      
+   

@@ -1,0 +1,86 @@
+
+   
+   
+      
+         
+            Justice
+
+            Two hundred years ago, a
+lawyer named William Blackstone said it's better for 10 guilty people to go
+free than for one innocent person to suffer. And for two centuries, legal
+scholars have considered Blackstone's pronouncement a profound statement of
+principle. Apparently, none of those scholars has thought to ask the obvious
+follow-up question, namely, why 10? Why wasn't it 12 or eight? The answer, of
+course, is that Blackstone invented a number out of thin air. That kind of
+flippancy amounts to a defiant refusal to think seriously about the trade-offs
+involved in designing a criminal justice system. But for 200 years, legal
+scholars have cited Blackstone's refusal to think and mistaken it for an
+example of a thought.
+
+            There's
+nothing profound about recognizing a trade-off between convicting the innocent
+and acquitting the guilty. The hard part is deciding how many false acquittals
+you're willing to accept to avoid a false conviction. That number matters. It
+matters whether it is 10 or 12 or eight, because every time we rewrite a
+criminal statute or modify the rules of evidence, we are adjusting the terms of
+the trade-off. So it's got to be worth it to think about what terms we want to
+aim for.
+
+            Here's one approach: Imagine how a guilty man going free or
+a free man getting convicted might affect your life. (Or, so we don't get too
+deeply sidetracked into your personal idiosyncrasies, how the guilty going free
+or the free getting convicted might affect the lives of your neighbors.) On the
+one hand, your neighbors risk being falsely accused and convicted. On the other
+hand, they risk being victimized by criminals who have been falsely acquitted
+(or by others who were emboldened to become criminals because of the frequency
+of false acquittals). In principle, the cost of either disaster can be measured
+in dollars. In practice, we can approximate those measures by making a
+reasonable guess as to how much your typical neighbor would be willing to pay
+to avoid a year in jail or to avoid being robbed on the way home from work.
+
+            After
+estimating the costs of being either an imprisoned innocent or a crime
+victim, we can estimate the probability that your neighbor will actually
+face each of these problems. But once we know the cost and the probability
+associated with a given risk, we can infer a lot about how undesirable that
+risk is. We can do this, for example, by observing the way people behave in
+insurance markets. Suppose you want to know just how unpleasant it is to face a
+1 percent chance of a $100,000 loss. Then all you have to do is look at those
+people who face a 1 percent chance of losing their $100,000 homes in a fire and
+see how much they are willing to pay for fire insurance.
+
+            
+If you don't like insurance markets, you can
+look at labor markets: How much extra must you pay a worker to get him to take
+a 1 percent risk of, say, losing an arm? If we believe for independent reasons
+that the value of an arm is $100,000 (no, I don't mean to say that is
+the value of an arm; this is a hypothetical example), then we have another way
+to put a dollar value on the unpleasantness of a 1 percent risk of a $100,000
+loss.
+
+            Or you
+can use data from financial markets: How much more interest must you offer an
+investor to get him to accept a 1 percent risk of a $100,000 financial loss?
+That's relatively easy to observe, and it gives yet another measure of how much
+people dislike this particular level of risk.
+
+            False acquittals and false convictions are each associated
+with certain levels and probabilities of risk. By examining behavior in
+insurance markets, labor markets, and financial markets, we can make some
+reasonable guesses about how much people dislike each of these prospects, and
+also the extent to which people are willing to trade off one kind of risk for
+the other. That will give an indication of whether we ought to be expanding or
+restricting the rights of defendants.
+
+            It would take quite a bit of
+work to complete that project, and at the end all you'd have is a rough
+estimate. Your final number would be suspect in a hundred ways. For example,
+the data from insurance and labor markets tell a pretty consistent story about
+people's aversion to risk, but the data from financial markets make the degree
+of risk aversion appear much higher. There might be no entirely satisfactory
+way to resolve such inconsistencies. But until you've done some kind of
+analysis, quoting a number such as "10" is both dishonest and disreputable.
+
+         
+      
+   

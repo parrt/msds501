@@ -1,0 +1,156 @@
+
+   
+   
+      
+         
+            Web Weather Today 
+
+            A few nights ago, I turned
+on Channel 4 to watch the 6 p.m. weather forecast. Or rather, I turned on
+Channel 4 to watch meteorologist Bob Ryan. It was a deeply satisfying six
+minutes. Bob's brow was furrowed; his jaw was tense. A cold front, he warned,
+had "gathered strength in the Canadian Rockies" and "cut a swath across the
+Midwest." It was now "bearing down on Washington [D.C.],
+threatening to wallop the Washington area with 6 to 8 inches of snow."
+Then his mouth relaxed slightly. He said that a high-pressure system was
+"building in the Southeast" and would shoot a "blast of warm air" up the
+Atlantic coast. Would it reach us in time to fend off the snow? Bob was
+hopeful.
+
+            American
+weather forecasters like to say that the United States has the most exciting
+weather in the world. It's biblical--from hurricanes to blizzards, droughts to
+floods, and the occasional plague of locusts for good measure. I don't know if
+the United States does have the most exciting weather, but it certainly has the
+most exciting weather forecasts. They, too, are biblical. The ancient Greeks
+ascribed lightning to Zeus; we haven't made much progress. The weather forecast
+is still an epic, a story of God's war with man. Hot and cold air masses
+"clash," storms "strike," and sweeping "fronts" ravage the nation. The forecast
+is a tale of heroes (the noble high-pressure system), savage villains
+(Hurricane Andrew), and omnipotent, inexplicable deities (El Niño, the Jet
+Stream). I'm sure I'm not the only one who feels a frisson when a
+forecaster announces that a cold front is "descending" from Canada--as if some
+malevolent Arctic god were coming to exact revenge for the sins of
+Washington.
+
+            Weather, in short, is a crackling good story, infused with
+enough drama to sustain local news broadcasts, millions of water-cooler
+conversations, and an entire cable channel. So imagine my excitement when I
+stumbled upon the Web weather industry. Here was a world of
+weather--24-hours-a-day weather, personalized weather, global weather, fishing
+weather, flying weather, farming weather, e-mail weather, graphics weather,
+text weather. Its breadth boggles the mind. CNN forecasts day
+and night on its snazzy weather site. So do USA Today,
+MSNBC, and The Weather Channel (which has claimed the best weather address
+on the Web). Other Web forecasters include weatherOnline, INTELLICAST, WeatherNet, TVWeather, AccuWeather, Geocities, Canada's The Weather Network, BBC Weather, and the
+National Weather
+Service--to name only the mainstream sites.
+
+            
+There is, of course, something obviously ironic
+about all this Web weather: The Web doesn't have any weather (unless you count
+the hot air that envelops most newsgroups). In fact, you could argue that the
+entire point of cyberspace is to have no weather, to liberate us from
+the mundane and inconvenient physical world. But the Web will have
+weather, weather or not.
+
+            Indeed,
+Web weather technology is as sophisticated as it gets. The sites make
+television's Weather Channel look amateurish (or rather, even more amateurish
+than it already looks). All the sites are constantly updated. You never have to
+wait for a forecast. The sites are both easy to navigate and comprehensive. On
+most, a few mouse clicks will retrieve the five-day forecast for any ZIP code,
+any city, any state, any nation--complete with smiling sun/frowning raindrop
+animations. You like satellite photos? The Web lets you download current
+satellite images of any corner of the earth. (On several sites, you can string
+together the last few hours of satellite photos into a cloud movie.) Are you
+big on ground radar? Most sites offer pictures from more than 100 Dopplers.
+Many will let you monitor earthquake activity, ozone levels, humidity, and
+flood threats.
+
+            All the sites rely on essentially the same package of NWS
+data, satellite photos, and Doppler images, so they do have a certain
+laundry-detergent quality: same powder, different box. (This monotony is
+reminiscent of sports Web sites, which also draw from a single well of data.)
+So sites strive desperately to build brand identity. Some make four-day
+forecasts instead of five-day forecasts. Some dispense with jaunty graphics,
+delivering temperatures in sober gray text. Some niche-market to pilots,
+sailors, or farmers. CNN and the Weather Channel supply a weather newswire
+("Light snow dusts the Dakotas, West is dry"). An illustrated weather
+encyclopedia accompanies USA Today 's site. And weatherOnline reviews
+weather media and will soon launch The Adventures of Weatherboy , a
+cartoon based on the exploits (such as they are) of a real-life teen weather
+forecaster. The grand prize for gimmickry goes to AccuWeather.com. It devotes an entire Web page to the most
+important weather in the world: mine. When the password works (which is
+rarely), I can view "David Plotz's Personal AccuWeather TM ." This
+page has my five-day forecast (well, Washington, D.C.'s), a chart of
+my current weather conditions (actually National Airport's); and a radar
+map centered over my house (Sterling, Va., but who's counting). It's
+exactly the same information available on all the other Web weather sites, but
+it's got my name on it.
+
+            At this
+point, I am supposed to pause to pay homage to the miraculous Internet. Web
+weather, I should say, displays all the medium's virtues: Efficiency!
+Convenience! Personalized service! A rich supply--no, a surfeit --of
+useful information! How extremely useful it is!
+
+            
+Too useful, actually. Even the best Web weather
+sites-- USA Today , INTELLICAST, The Weather Channel--manage to do what I
+thought was impossible: They make weather boring. Following weather on the Web
+is like following baseball by reading scorecards. The weather forecast is more
+than "rain." You must also hear the story of the rain. Where is it coming from?
+Whose fault is it? Canada's? The Great Lakes'? The Bermuda High's? What kind of
+rain is it? When it will arrive? Will the Jet Stream protect us from it? Is it
+"much-needed" or "unwelcome"? You do need a weatherman to know which way
+the wind blows.
+
+            But the
+Web dispenses with all that. The cyberforecast is purely mechanical and purely
+boring. Even the Web's supposed innovation--individualized forecasts--is
+depressing. We no longer make common cause against the weather god. Now I have
+my weather--David Plotz's Personal AccuWeather TM --and you have
+yours.
+
+            Fortunately, not all Web weather is such a drag. Commercial
+sites comprise only a fraction of online meteorology. Just as it has for New
+Jersey Nets fans and Whitewater conspiracists and foot fetishists, the Web has
+also given birth to a community of weather fanatics. Granted, theirs is a most
+peculiar kingdom. It feels almost exactly like a normal place--you can shop,
+travel, talk, learn, watch movies--except there is only one subject:
+weather.
+
+            Amateur
+meteorologists, for example, make chitchat at two Usenet newsgroups devoted to
+general weather (sci.geo.meteorology and uk.sci.weather). True devotees talk
+shop at even more specialized groups, such as one on Northeastern weather
+(ne.weather), whose recent conversation topics included the great blizzard of
+1978 and the freak snowstorm of May 1977. Weather obsessives shop on the Web.
+Three--count 'em--online weather stores, including the WeatherStore, hawk
+meteorological gizmos. (Favorite gizmo: the weather
+radio, which is tuned permanently to National Weather Service broadcasts.)
+You can plan a weather holiday on the Web: At least two outfits, including
+Cloud 9
+Tours, sell "storm-chasing tours" online. (Designed for folks who've
+watched Twister too many times, these "vacations" consist of spending
+two weeks driving a van around the bleakest parts of the Midwest hunting for
+tornadoes.) Weather voyeurs can sneak a glance at more than 100 weather cameras
+filming the skies in other cities. Weather games, weather videos, weather
+prizes--they have all found their way to the Web. There is even weather
+identity politics: "Women in Weather" profiles female meteorologists and hosts
+discussions about topics female and meteorological ("We're both meteorologists
+... how will we both get jobs in the same place?").
+
+            It may be the disaster sites that best capture the spirit
+of the weather Web. Dozens and dozens of sites, such as Eye on the
+World, celebrate tsunamis, typhoons, hurricanes, droughts, and--of
+course--tornadoes. Most are illustrated with brutal photos of beached
+ships, downed trees, and shattered houses. These sites are, I think, the
+meteorological equivalent of snuff films. They prove that even when all you
+care about is weather, the Web still has plenty of dirty pictures to show
+you.
+
+         
+      
+   

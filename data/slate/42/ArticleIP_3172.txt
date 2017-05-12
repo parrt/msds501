@@ -1,0 +1,127 @@
+
+   
+   
+      
+         
+            How to Delight With Statistics
+
+            
+Etymology, the study of word origins, often interests people otherwise
+uninterested in language. The reason, surely, is that etymology is tethered to
+ordinary life in ways that are easy to grasp. Anyone can enjoy knowing how a
+$10 bill came to be called a sawbuck (the Roman numeral "X" that appeared on
+early notes reminded people of the wooden sawbuck used in carpentry), or how
+the word "robot" came into English (it comes from the Czech word "robota,"
+meaning "drudgery," and was part of the title of a widely popular 1920 Czech
+play), or how the Indo-European root for "beech tree," "bhago-," gave us the
+word "book" (Germanic tribes used beech staves to carve runes on). We like
+etymologies because they tell us stories.
+
+            There would be no telling of stories at all, of course,
+without grammar. But people uninterested in language issues are content to
+remain uninterested in grammar. Grammar, the genetic blueprint of meaning,
+operates at a level of abstraction. Nouns and verbs and other parts of speech
+are considered not as familiar individuals but as members of different species.
+Their interactions are considered as elements of an ecosystem. Grammar is hard
+to visualize, and it is harder to enjoy.
+
+            Or at
+least it was, until a man named Edward R. Tufte began to publish his work about
+the display of information in the early 1980s. Tufte has produced three books
+that make it possible to see the dynamics of linguistic grammar in a
+brilliantly synesthetic way--books that succeed in this task by not having
+grammar as their ostensible subject at all.
+
+            
+Edward Tufte is a professor at Yale who teaches
+courses in statistics and information design. In 1983 he produced an elegant
+book with the unprepossessing title The Visual Display of Quantitative
+Information , which both explained and demonstrated certain rules for
+presenting numerical data in a graphically arresting manner. This tour de
+force--written, designed, and published by Tufte himself--was immediately
+recognized as a classic by data wonks and makers of fine books alike. It has
+never been out of print.
+
+            In his
+analysis of such improbably compelling genres as railroad schedules and balance
+sheets, chemical symbols and weather summaries, Tufte reprinted numerous
+graphic displays that epitomized the statistical draughtsman's conceptual art.
+In the French engineer Charles Joseph Minard's 1861 encapsulation of Napoleon's
+Russian campaign, for example, a compact space revealed the diminishing size of
+the army, its day-to-day geographical location, the direction of its route, the
+passage of time, and the gradual drop in the temperature. It is a map, Tufte
+noted, that illustrates "how multivariate complexity can be subtly integrated
+into graphical architecture, integrated so gently and unobtrusively that
+viewers are hardly aware that they are looking into a world of four or five
+dimensions."
+
+            Tufte did not explicitly spell out his ultimate intentions
+in that first volume of his trilogy, but it has turned out that the whole
+series has been produced according to a precise schema--as he now indicates in
+the introduction to Visual Explanations , which was just published by his
+company, . The Visual Display of Quantitative Information had been
+devoted to pictures of numbers, he explains--"how to depict data and enforce
+statistical honesty" whether the subject is traffic deaths or the distribution
+of galaxies. The second book in the series, Envisioning Information
+(1990), was about pictures of nouns--that is, about representational rather
+than numerical reality: the depiction of cartographic information, diagrams,
+and signage. (What's the best way to show sunspot activity, for example, or the
+working of a subway system?) The third book, Visual Explanations , is
+about pictures of verbs--that is, about displays that illustrate dynamic
+processes and can therefore function as explanatory narratives.
+
+            
+These explanatory narratives, these pictures of
+verbs, can offer remarkable insight when properly conceived. Tufte's inclusion
+of John Snow's famous map of the 1854 cholera epidemic in London is a case in
+point: Snow's street-by-street tracking of cholera deaths pointed unmistakably
+to the culprit--the water coming out of the Broad Street pump. The pump handle
+was removed at once, and the epidemic ceased.
+
+            In
+contrast, these verb pictures can also smother insight when ill-conceived--as
+were the charts prepared by the manufacturer Morton Thiokol to illustrate the
+behavior in cold weather of the O-rings on the space shuttle Challenger. These
+charts, which failed to convince NASA officials not to launch the shuttle, were
+confusing--dense with invitations to second-guess, even though crucial
+information that would have delayed the launch was undeniably "there"
+(somewhere). The O-ring itself, Tufte makes clear, was not the only design
+element whose malfunction contributed to the Challenger tragedy. After
+presenting his own version of what the charts should have looked like,
+Tufte writes, "There are right ways and wrong ways to show data; there are
+displays that reveal truth and displays that do not."
+
+            What makes a visual display effective? Tufte lays out rules
+about such things as density and emphasis, chartjunk and clutter, layering and
+hierarchy, color and parallelism--all of which have synesthetic grammatical
+analogs in writing. (Hierarchy, for instance, is the building of large
+structures out of small ones, be they nautical charts out of soundings or
+sentences out of morphemes.) Aware of the parallels between visual grammar and
+written grammar, Tufte frequently makes direct comparisons that enhance one's
+understanding of each. In one place he shows how the rhetorical shape of a
+passage in Gibbon's Decline and Fall of the Roman Empire , with its
+paired images and a ribbing of parallel verbs, finds a visual counterpoint in
+works of landscape design and even dance notation. (To get the full picture, so
+to speak, you'll have to look at the book yourself.) An entire chapter is
+devoted to the concept of "smallest effective difference," showing how
+distinctions that are subtle but clear (two light colors on a map, say) can be
+far more powerful visually than any amount of heavy-handed contrast--as useful
+a lesson in writing as it is in graphic design.
+
+            
+What one does not expect in a book of this
+kind--a book that is technical even as it is beautiful--is that the author will
+be not just fastidious but also an evocative and wonderfully quirky writer.
+Tufte is all of these. In his discussion of one historic work--Jean Buchon's
+comparison of American rivers in his 1825 Atlas Geographique --Tufte
+notes how the depictions of the Mississippi and the Amazon must curl around the
+page, since there's no room to show them stretched out like the other rivers.
+Actually, what Tufte says is, "[T]he two rivers meander boustrophedonically
+around a tight frame." That word boustrophedon describes writing that goes from
+left to right on the first line, then right to left on the second, then left to
+right on the third, and so on; it comes from a Greek word describing the
+turning in a field of an ox and plow. Tufte, too, likes his etymologies.
+
+         
+      
+   

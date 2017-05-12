@@ -1,0 +1,173 @@
+
+   
+   
+      
+         
+            Amazon.Con
+
+            Amazon.com calls itself
+"Earth's Biggest Bookstore," and the media, online and off, have accepted that
+claim uncritically. "The toast of cyberspace" is the Economist 's
+accurate characterization of this Internet book-ordering service, which was
+founded in 1995. Time rated Amazon one of the 10 best Web sites of 1996.
+The Washington Post called Amazon a "megawarehouse." The New
+Yorker pointedly compared Amazon's claimed inventory of 1.1 million books
+with the mere 170,000 titles available at a Barnes & Noble superstore.
+
+            In fact,
+Amazon's "megawarehouse" in downtown Seattle contains just 200 or so titles.
+Any other book must be obtained from a wholesale distributor or the publisher.
+This is exactly what any traditional bookstore does when it doesn't have a book
+in stock. The difference is that traditional bookstores start out with a lot
+more than 200 titles in stock. "Earth's Biggest Bookstore"? More like "Earth's
+Smallest."
+
+            How does Amazon get the books it doesn't have in its
+warehouse? According to Jennifer Cast, vice president for marketing, it uses
+several big distributors--including the Ingram Book Co., one of the
+largest--and sometimes, it calls the book's publisher directly. She says that
+in certain cases, it has even called the authors. And how do less advanced
+booksellers do it? At Politics and Prose, a small local bookstore in northwest
+Washington, D.C., one employee told us, "We try Ingram first, ... and then call
+the publishers." At a northern Virginia outlet of Borders Books, the superstore
+chain, an employee said: "It's no secret we try Ingram. ... If all that fails,
+I guess we go to the publishers."
+
+            So why
+shop at Amazon? Cast gives four reasons: "One, we have a lower price. Two, we
+have a better selection. Three, we're probably much faster. And we're
+definitely more convenient." We conducted an experiment to test these claims.
+On Dec. 16 we ordered the same two books from Amazon, Politics and Prose, and
+Borders. All three were told to gift-wrap and ship each book as soon as
+possible. One book was Scott Turow's newest novel, The Laws of Our
+Fathers , the kind of best seller that even Amazon actually has in stock.
+The other was an obscure psychology text even Borders wouldn't carry, chosen
+from the catalog of the State University of New York Press, called The Ego
+and the Dynamic Ground: A Transpersonal Theory of Human Development (second
+edition), by Michael Washburn.
+
+            
+How did the three booksellers compare by
+Amazon's own standards?
+
+            
+               
+                  Selection?
+               
+We've covered that. If you define "inventory" as any book a store can
+special-order for you, as Amazon does, then the selection is identical at
+almost every halfway-decent bookstore in America. At Amazon, you can browse
+through all the titles and authors--and through some descriptive material--by
+computer. At a conventional bookstore, you can pick up and leaf through actual
+books, but fewer of them.
+
+            
+               
+                  Convenience?
+               
+For ordering, Politics and Prose was by far the easiest. Heidi answered the
+phone on the first ring. She was chatty, but professional. The store had "many,
+many, many" copies of the Turow on hand, and she promised to send one out
+"right away, tomorrow morning at the very, very latest." When asked about the
+psych text, Heidi apologized ("sorry, sorry") for not carrying it, and offered
+to order it. Estimated time of arrival: four weeks. She took a name, address,
+credit-card number. The entire phone call took 2 minutes and 38 seconds.
+
+            Borders
+was slightly less helpful. When asked to send the Turow, Drew groaned at our
+lowbrow taste, but quickly said he'd send it the next day. The second
+selection's obscurity didn't cheer him up: "Ugh, can't do you the Washburn
+book." When pressed, he said it could be ordered, but would probably take two
+weeks. Borders' system is that when the book arrives, you are sent a postcard
+asking you to come to the store and pick it up. Can't they just send the book?
+"We prefer people do it this way," Drew said, but then he gave in and agreed to
+send it. Total phone time: 9 minutes and 32 seconds.
+
+            After calling the stores, we connected to Amazon using
+Netscape Navigator 3.0 and a 28,800-baud modem. Amazon has a special page
+dedicated to the Turow book, complete with a picture of the cover and some
+unenlightening amateur commentaries from other Amazon users. The psychology
+text, not surprisingly, was listed with no description and no commentaries.
+Amazon said it would take one to two weeks to order.
+
+            After clicking your purchases
+into a "shopping cart," you are directed to a "secure Netscape server" that
+will encrypt your credit-card information. After this is done, you are told:
+"Finalizing Your Order Is Easy." Nothing could be further from the truth. Lower
+down in the verbiage, Amazon concedes, "Though we have tried hard to make this
+form easy to use, we know that it can be quite confusing the first time."
+Amazon users have to page through screen after screen of details about shipping
+charges, refund rules, and disclaimers about availability and pricing. Then you
+are told to allow between three and seven days for delivery after your book
+leaves Amazon's warehouse. "Upgrading to Next Day Air does NOT [their emphasis]
+mean you'll get your order the next day."
+
+            Total
+online time from when we accessed Amazon's home page to when we completed the
+book order: 37 minutes and 12 seconds. It would be shorter once you got the
+hang of it.
+
+            
+
+               Speed? Turow's book arrived in three
+days from both Borders and Politics and Prose, in plenty of time before
+Christmas. Politics and Prose wrapped the book perfectly. Borders wrapped it
+attractively, but left the receipt inside. The Turow didn't arrive from Amazon
+until Dec. 27--more than a week after the conventional stores. Furthermore, the
+wrapping looked as if it had been done by a fourth grader. However, it came
+bundled with the obscure psych book (which still hadn't arrived from the
+conventional stores as of New Year's Day). Eleven days for that one is pretty
+good. As for the Turow, we had checked a box asking that each book be sent
+separately, as soon as possible--so, either Amazon ignored these instructions
+or it really needed the full 11 days to get the Turow to us.
+
+            By the way, let's not forget
+that in a conventional bookstore, you can also--if you choose--acquire books in
+zero days, by "going to" the store in the pre-Internet sense of actually going
+there.
+
+            
+
+               
+                  Price?
+                Amazon and Borders both offered the Turow for 30 percent
+off the list price. Politics and Prose offered 20 percent off. All three wanted
+full price for the psych book. Amazon charges $3 plus 95 cents per book for
+standard shipping. Borders charged $4 to ship the Turow, and Politics and
+Prose, $3.50. Amazon charges $2 a book for gift-wrapping, which is free at the
+other two stores, but Amazon accidentally charged only $2 for wrapping both
+books. Finally, stores with local outlets must charge sales tax on shipped
+items; Amazon does not (unless you live in Washington state). In all, the Turow
+cost $23.72 from Borders and $26.30 from Politics and Prose. If Amazon had sent
+it separately as we had instructed, it would have cost $24.82. Gift-wrapped and
+sent separately, the psych text would cost more at Amazon than at the other
+two; unwrapped and bundled, about the same.
+
+            There is a third category of books (besides those that
+everyone has in stock and those that no one has in stock). These are books that
+Amazon doesn't have in stock, but a normal bookstore does. (Barnes &
+Noble's 170,000-strong inventory, sniffed at by The New Yorker , is a
+good example.)
+
+            This category is Amazon's
+greatest weakness. It includes hardly obscure current books that aren't best
+sellers, like The New Our Bodies, Ourselves , produced by the Boston
+Women's Heath Book Collective. Borders' had three copies on the premises.
+Amazon needs two to three days to obtain this one, plus between three and seven
+days to send it to you. Likewise for a classic like the Penguin paperback of
+Charles Dickens' A Tale of Two Cities , which any Borders or Barnes &
+Noble will have on hand.
+
+            Then there's a semiobscure
+book such as Robert Marr Wright's Dodge City: The Cowboy Capital and the
+Great Southwest . This hardcover book about cowboys is on Borders' shelves.
+At Amazon it is listed as a "special order," which means it might be available
+to be shipped in four to six weeks, but, our computer informs us: "PLEASE NOTE
+that it might not be available at all. Publishers do not always notify the book
+community about changes in the availability of their titles." Not
+available? So much for the pretense that Amazon's list of 1.1 million books
+makes it "Earth's Biggest Bookstore" in even a metaphorical sense.
+
+         
+      
+   

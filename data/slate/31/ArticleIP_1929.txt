@@ -1,0 +1,175 @@
+
+   
+   
+      
+         
+            Entertainment Values
+
+            Thirty years ago, when John
+Kenneth Galbraith published The New Industrial State , he was sure he
+knew where the modern economy was going and was contemptuous of economists who
+clung to their old ideas about the primacy of markets. Clearly giant
+corporations, driven by the imperatives of technology, were replacing the chaos
+of the market with bureaucratic order. The age of business heroes was over:
+"With the rise of the modern corporation, the emergence of the organization
+required by modern technology and planning and the divorce of the owner of
+capital from control of the enterprise, the entrepreneur no longer exists as an
+individual person in the mature industrial enterprise." The economy of the
+future would be run by faceless organization men, whose ability to manipulate
+pliable consumers would eliminate the traditional uncertainties associated with
+market competition. In effect, capitalism was evolving spontaneously into
+socialism without the justice.
+
+            Instead,
+of course, only the paranoid survived, or something like that. And yet
+Galbraith's mistake--believing that one can discern the shape of tomorrow's
+economy by extrapolating from today's iconic corporations--is one that each
+generation seems to repeat. Yesterday every industry was going to look like
+automobiles, and every company like General Motors; today every industry is
+going to look like software, and every company like Microsoft.
+
+            Like Galbraith, the prophets of what is variously called
+the "business revolution," the Knowledge Economy, the Network Economy, and the
+"new economy" (not to be confused with the New Economy I wrote about last month) are likely to
+be disappointed. Even though information technology may well be the main
+driving force behind future economic growth, it's very unlikely that the
+information-technology industry is ever going to be more than a fairly
+small share of the economy. In its day electricity changed everything, too, but
+there was never a time when most people worked for electric utilities or even
+for employers who looked anything like electric utilities. Still, even if every
+industry isn't about to look like software, it is worth asking what is
+special about those industries that do.
+
+            It's
+important to get past the obvious, but mainly irrelevant, surfaces of things.
+Of course information technology is nifty; but the latest technology
+always seems nifty (At the 1876 Philadelphia Centennial Exposition,
+triumphant banners proclaimed "All By Steam!"). The real question is whether
+there really are, as Wired 's Executive Editor Kevin Kelly put it in the
+title of a widely read recent article, "New Rules
+for the New Economy."
+
+            
+Kelly manages to come up with no less than 12
+such rules, ranging from the more or less incomprehensible ("Embrace dumb
+power") to the basically silly ("Follow the free"), all wrapped in trendy
+rhetoric about living "on the edge of chaos" and all that. But most of his
+rules amount to variations on two themes: In the Network Economy supply curves
+slope down instead of up, and demand curves slope up instead of down. At least,
+that's what I think he's saying. To the extent that he is, he is actually on to
+something--though not something new.
+
+            True,
+traditional economic theory--the stuff that occupies the first 10 or so
+chapters of most introductory textbooks--does assume "diminishing returns" in
+both production and consumption. That is, the more units of something the
+economy is already producing, the harder it is to produce one unit more; the
+more units of something people are already consuming, the less they are willing
+to pay to consume one unit more. That is why the conventional supply curve,
+which shows how much will be produced at any given price, slopes up; and the
+demand curve, which shows how much people will buy at any given price, slopes
+down.
+
+            But even Alfred Marshall--the Victorian economist who
+invented supply and demand as we know it--was well aware that while diminishing
+returns are a good assumption for agriculture (The more wheat you try to grow,
+the worse the land on which the marginal bushel is grown), elsewhere in the
+economy it is quite possible to have increasing returns, in which the
+more you produce, the easier it gets. Way back in 1890 he explained that
+concentrations of industry (yes, they existed before Silicon Valley--his prime
+example was the Sheffield cutlery district) can create a virtuous circle in
+which the availability of skilled labor, the presence of specialized suppliers,
+and the diffusion of knowledge . Increasing returns to consumption are probably
+less common, but can result among other things from "network externalities"--a
+bit of useful jargon for what happens when the usefulness of a product depends
+on how many other people possess something similar. A telephone is a toy when
+only a few people have one; it is a necessity when everyone has one.
+
+            The
+old-fashioned examples are deliberate: Increasing returns have been around for
+a long time. And while economists may historically have downplayed their
+importance, those days are long past. In fact, by now, increasing returns are
+rather old hat. Everybody knows that sufficiently strong increasing returns can
+cause discontinuous change, with markets exploding when they reach a "critical
+mass," that small events can have big effects when a market is near a "tipping
+point," that economic choices (like VHS vs. Betamax, or Silicon Valley vs.
+Route 128) can be subject to "lock-in" by past accidents, and so on. Everybody
+also knows that while it is easy to tell good stories along these lines, it's a
+lot harder when you get down to real cases: It's amazingly hard to identify a
+critical mass or a tipping point for an actual industry, even after the
+fact.
+
+            
+So what's new about Kelly's New Rules? Well,
+for one thing, they may be new to him. Cybercritic Paulina Borsook has pointed
+out to me that technology enthusiasts like Kelly are prone to "Luke Skywalker
+fantasies," imagining themselves heroic rebels against the empire of orthodoxy.
+(The quintessential example of the Luke Skywalker Syndrome is the story of
+Brian Arthur, as described in my column last week.) They are so
+sure that boring conventional thinkers could not have anticipated their radical
+ideas that it would never occur to them to check.
+
+            Or maybe
+what's new about the rules is the claim that now, for the first time, they
+apply to a large part of the economy. However, technology boosters, who won't
+stop thinking about tomorrow, often forget to think about yesterday: It's not
+at all clear that increasing returns are any more important in software than
+they were in the early days of railroads, electricity, telephones, radio, even
+automobiles (What good is a car without gas stations? Why open a gas station if
+nobody has a car?). And it's very unlikely that in the future everything will
+look like software--indeed, it's much more likely that eventually the
+information sector itself will turn into a boring mature industry.
+
+            If there is something new in the writings of Kelly and
+other cyberprophets, it is the fact that they don't just predict a
+future in which the curves slope the wrong way, they endorse it. That
+is, along with the gee-whiz pronouncements about how the economy supposedly
+works goes a pronounced libertarian bent, a belief that the new economy is too
+dynamic, organic, or whatever to be regulated from above.
+
+            What is
+odd about these libertarian conclusions is that they do not at all follow from
+the premises. On the contrary: A world in which increasing returns are
+prevalent is one in which markets are likely to get it wrong. Products that
+should be developed never get off the ground, or do so much later than they
+should, because everyone is waiting for other people to move. (I'll buy a fax
+machine only when enough other people have them to make it worthwhile.)
+Industries can get locked into the wrong technology (Macintosh is better than
+DOS, but everyone uses DOS because everyone else uses DOS). Waste occurs
+because of coordination failures (In the early days of railroads each line had
+a different gauge). Indeed, increasing returns have traditionally been used as
+arguments against free markets, for government intervention. You
+may not believe that such intervention will work in practice, but that's a
+judgment about the rules of politics, not economics.
+
+            
+Of course the information-technology sector has
+been wonderfully successful--but that is because it has been in a position to
+exploit the extraordinary possibilities offered by photolithography, not
+because of any special virtue in the way it operates. Other sectors in which
+increasing returns to both production and consumption prevail--and there are
+quite a few outside what is normally thought of as high technology--do not seem
+especially admirable.
+
+            Consider, in particular, an
+industry few would regard as a role model: Hollywood. It is obviously
+characterized by increasing returns to production: Once you've made a movie,
+showing it to another person costs virtually nothing. It is also characterized
+by increasing returns to consumption: Many people want to see a movie because
+other people have seen it. In fact, by my reckoning, the movie business handily
+fits 11 of Kelly's 12 rules. It even fits "Follow the free," which I think
+means "Sell your signature product cheap, and make money off accessories";
+major blockbusters make much of their money off product placements and toy
+sales, and even theater owners depend on sodas and snacks to turn a profit. The
+only rule I can't apply to Hollywood is "Embrace dumb power"--but then again,
+some of those studio bosses ...
+
+            So think of it this way:
+While the prophets of the "new economy" may seem to be telling us that we're
+heading for a future in which every industry looks like Silicon Valley, what
+they are really saying is that we are on our way to an era in which there's no
+business that isn't like show business. Let's hope they're wrong.
+
+         
+      
+   

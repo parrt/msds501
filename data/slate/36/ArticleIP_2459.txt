@@ -1,0 +1,129 @@
+
+   
+   
+      
+         
+            Filtering Filth
+
+            Artificial intelligence
+expert Keith Devlin wrote that a computer will never be able to tell the
+difference between "time flies like an arrow" and "fruit flies like honey." Add
+to this mix "she unzipped their flies like there was no tomorrow," and you get
+some idea of the challenge faced by software manufacturers hawking filters to
+protect children from the nastiness on the Web. The filters are supposed to
+block access to sites parents wouldn't want their children to see.
+
+            The Web
+community has insisted that government regulation of pornographic Web
+content--as in last year's Communications Decency Act--is unnecessary because
+software filters can do the job. Now that the Supreme Court has ruled the CDA
+unconstitutional, that bluff has been called. Do filters work? And which ones
+work best?
+
+            In essence, all filter programs work like search engines in
+reverse, keeping out anything with certain words or combinations of letters.
+The Sussex County Fair Web page has been blocked by filters because it contains
+the three letters s-e-x. The breast-cancer survivors group found its discussion
+blocked by America Online (which quickly apologized). Even the Web page for
+Microsoft's Encarta encyclopedia has been blocked, presumably because somewhere
+there was a mention of s-e-x or even b-r-e-a-s-t-s.
+
+            Software
+companies have two different approaches to marketing the filter programs. One
+evokes law enforcement. This category includes SurfWatch as well as Cyber
+Patrol (motto: "To Surf and Protect"), which operates from a screen that looks
+like the command center of Rescue 911 . Other filters evoke Mary Poppins,
+with names like CYBERsitter and Net Nanny. Despite its cozy name, CYBERsitter
+is in one way the strictest of the programs: It's a tattletale. The software
+keeps a log of the sites the child has attempted to access, "including attempts
+to access blocked material." Net Nanny's more liberal approach is indicated by
+its two-pronged motto: "The Best Way To Protect Your Children And Free Speech
+On The Net." It provides parents with a suggested list of sites to exclude, but
+nothing is excluded without being specifically designated by the parents. As a
+spokesperson told me in an e-mail, "We do not automatically block, as that
+would be infringing on your rights." Think Mary Poppins in a Lilith Fair
+T-shirt.
+
+            
+All the filters are designed to block sites
+with explicitly sexual text or pictures, and most also screen out sites dealing
+with drugs, alcohol, hate speech, and gambling. Filters fail in two ways:
+over-inclusiveness--blocking sites that shouldn't be blocked--and
+under-inclusiveness--letting bad stuff through. All the filter products claim
+to have sophisticated algorithms to avoid these pitfalls. The challenge is in
+applying a formulaic approach to a heavily context-sensitive sorting problem.
+Cyber Patrol says that it excludes sites that advocate drug use or bigotry, but
+that it does not exclude "opinion or educational material, such as the
+historical use of marijuana or the circumstances surrounding 1940's
+anti-Semitic Germany." As Devlin's example shows, this is easier in theory than
+in practice. CYBERsitter, which touts its sophisticated content-based filters,
+blocks all sites with the word "anarchy."
+
+            But
+over-inclusiveness is less troubling to parents than under-inclusiveness. In
+testing each of the filters I was able to pull up X-rated material without much
+effort. Filters may prevent access to certain sites, but blocked sites can show
+up when kids use search engines, and there is nothing to prevent kids from
+reading the raunchy descriptions of the sites or writing down the Web addresses
+and going off to a friend's house--or to the local public library, which, in
+keeping with cherished anti-censorship policies, probably doesn't use filter
+software.
+
+            Filters can protect kids from accidentally (or
+intentionally) visiting a Web site that includes material deemed inappropriate
+by their parents, but they are limited to what we might term the "pull" side.
+The bigger problem is on the "push" side, and there the filters are helpless.
+One of the boys in my Cub Scout troop received, via AOL e-mail, a photograph of
+two men having sex. It was sent as a joke by an older boy he knew. My son, then
+11, participated in a sports discussion group on Prodigy. The group was
+exceptionally kind and protective, except for one participant, who was cut off
+by the discussion leader for general obnoxiousness. He retaliated by using a
+free AOL account to send 5,000 copies of an obscene e-mail to everyone who had
+ever participated in the Prodigy discussion, including my son.
+
+            Coming
+soon are filters based on criteria developed by particular groups. Parents will
+be able to select from filters endorsed by anyone from the Christian Coalition
+to the National Education Association. Ultimately, the W3C plan, developed by
+the international World Wide Web Consortium, will provide standard ratings, to
+be assigned to each page by its developer. Parents will be able to set their
+browsers to deny access to pages without ratings. And so they can breathe
+easier, knowing that their children will only be able to see pages certified as
+suitable by their own operators.
+
+            
+Meanwhile, you can download trial versions of
+filter software to find the one you like best. That decision will be based more
+on your technical facility than on your notions of what material you want your
+kids to see, because the programs vary much more in their dependence on
+parental tweaking than on their approaches to excluding material. Parents who
+are less adept than their kids at using the Internet will probably prefer
+CYBERsitter. It errs
+on the side of exclusion, and was especially thorough at preventing even the
+results of Web searches that included inappropriate URLs. Parents who are
+willing to devote the time to setting their own parameters will be better off
+with Cyber Patrol. It
+allows separate settings for separate users, important for families with older
+children or children of different ages. It also makes it possible for parents
+to block outgoing information, to prevent kids from revealing their last names,
+phone numbers, addresses, and passwords in an online chat. Ultimately, though,
+even the best filters are a limited and temporary solution. None are as
+effective as good communication and (maybe even more important) keeping the
+family computer in a central location so that all surfing is done within
+earshot.
+
+            But filters aren't just for
+concerned parents. The cover story in the last issue of the business magazine
+Across the Board identifies nonbusiness-related use of the Web as a
+serious problem at the office. Among the most frequent visitors to
+Penthouse magazine's Web site are employees at AT&T, Hewlett-Packard
+Co., IBM, and NASA. One statistic floating around is that workers spend about
+90 minutes a day on nonwork-related computer games and Web surfing, with an
+estimated productivity cost of $50 billion. And, as SurfWatch's promotional
+literature is happy to point out, filters can help protect management from
+liability for permitting sexually explicit material in the workplace. The real
+market for filters isn't Mom and Dad--it's Dilbert's boss.
+
+         
+      
+   

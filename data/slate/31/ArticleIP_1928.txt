@@ -1,0 +1,150 @@
+
+   
+   
+      
+         
+            The Legend of Arthur
+
+            "In a
+way, Bill Gates's current troubles with the Justice Department grew out of an
+economics seminar that took place thirteen years ago, at Harvard's John F.
+Kennedy School of Government." So begins an article by John Cassidy in the Jan.
+12 issue of The New Yorker , titled "The Force of an Idea." The idea that
+Cassidy refers to is that of "increasing returns"--which says that goods become
+cheaper the more of them you produce (and the closely related idea of "network
+externalities," which says that some products, like fax machines, become more
+useful the more people use them). Cassidy's article tells the story of how
+Stanford Professor Brian Arthur came up with the idea of increasing returns,
+held fast to that idea despite the obstinate opposition of mainstream
+economists and, after many years as an academic pariah, finally managed to
+change the way people think about the economy. That story has been told before,
+most notably in M. Mitchell Waldrop's popular 1992 book Complexity: The
+Emerging Science at the Edge of Order and Chaos , and a good story it
+certainly is.
+
+            It is also pure fiction. Increasing returns wasn't a new
+idea, it wasn't obstinately opposed--and if increasing returns play a larger
+role in mainstream economic theory now than they did 20 years ago, Arthur
+didn't have much to do with that change. Indeed, the spread of the Arthurian
+legend is a better story than the legend itself: an object lesson in
+journalistic gullibility.
+
+            So what,
+you may ask. What could be less interesting than squabbling among professors
+over who deserves the credit for some theory? Well, I could say that this bogus
+version of intellectual history has metastasized to the point where it may
+begin to do real harm--to discredit good economics and to promote dubious
+policies. But the real truth is that I'm just pissed off.
+
+            
+Let's start with the legend. Here's how it all
+began, according to Waldrop. On Nov. 5, 1979, Brian Arthur wrote in his
+notebook a manifesto describing his project to develop a New Economics based on
+increasing returns. In a park in Vienna, he tried to explain it to a
+"distinguished international trade theorist" from Norway, who was baffled. So
+were other establishment economists. Thus began Arthur's years in the
+wilderness. In 1983, he completed his seminal paper, but not until 1989, after
+14 rewrites, was he able to publish it. "Gradually," writes Cassidy, "a number
+of economists"--such as Georgetown University's Steve Salop--"began to take
+Arthur's conclusions seriously."
+
+            Great
+story. Now let's do a reality check, starting with that walk in the park. It
+is, indeed, truly astonishing that the Norwegian, Victor Norman, did not
+understand what Arthur was driving at. After all, there is a long tradition of
+increasing returns in international trade theory. If nothing else, Norman
+should have been familiar with his own co-authored book, Theory of
+International Trade , which was in galleys at the time. It contained a whole
+chapter devoted to increasing returns, based largely on a paper Norman himself
+had written three years before. Is it possible that Arthur misinterpreted
+Norman's bafflement--that what Norman really couldn't understand was why Arthur
+thought he was saying anything new?
+
+            When I first saw Arthur's work, probably sometime in the
+mid-to-late 1980s, I thought it didn't tell me anything . His mathematical
+models were basically similar to those developed in the 1970s by the game
+theorist Thomas Schelling. Moreover, Arthur seemed unaware of the conceptual
+difficulties that had led economists not to ignore but to . His paper simply
+ignored them. During the course of the 1980s those conceptual difficulties were
+partly resolved, leading to a burst of theorizing about increasing returns. But
+Arthur's work played no role in that resolution.
+
+            I wasn't
+at that 1984 Harvard seminar that Cassidy describes. I was down the road at
+MIT, finishing with a co-author a book titled Market Structure and Foreign
+Trade: Increasing Returns, Imperfect Competition, and the International
+Economy . But it would surprise me if the Harvard audience were unwilling to
+accept the notion of increasing returns, as Cassidy says. After all, at the
+time the Harvard economics department included A. Michael Spence, who had won
+the Clark Medal (the highest award of the American Economic Association)
+largely for his work on--you guessed it--increasing returns.
+
+            
+EconLit, the database of professional
+literature since 1970, reveals that by 1987--the moment Waldrop's book claims
+that Arthur's theories about increasing returns began to be
+accepted--mainstream journals had published about 140 papers on the subject.
+Salop, the Georgetown professor Cassidy presents as an early convert to
+Arthur's ideas, was early indeed. He wrote one of his own best-known papers on
+increasing returns in 1978--a year before Arthur, by his own account, even
+began to think about the subject.
+
+            Brian
+Arthur is a nice guy, who I think sincerely believes that it happened the way
+he tells it. But how can an experienced journalist like Cassidy be so
+credulous? Perhaps a journalist cannot be expected to be an expert on the ins
+and outs of an academic discipline--although Cassidy is The New Yorker 's
+economics correspondent. But even if we accept that Cassidy doesn't know much
+about the discipline he currently covers, what happened to basic journalistic
+instincts?
+
+            Suppose that someone tells you that, years ago, he made a
+fundamental discovery that an entire profession, out of sheer
+narrow-mindedness, refused to listen to and prevented him from publishing.
+Wouldn't you have at least a slight suspicion that this version of events might
+be a bit, well, self-serving--a suspicion strong enough to send you to a
+college library to see whether the facts check out?
+
+            And what
+about what we might call the Rauch-Reich test (so named for Jonathan Rauch's
+
+                  Slate
+                article exposing fabricated quotes in the memoirs of
+former Labor Secretary Robert Reich)? Throughout the story of Brian Arthur's
+travails, people make the kind of dramatic, pithy remarks that almost never get
+uttered in real life. "To admit that increasing returns exist would destroy
+economic theory." "" "We know increasing returns can't exist. Besides, if they
+did, we'd have to outlaw them." "Your theory may be theoretically valid, but
+there's no evidence of it in the real world." These sound like the kind of
+thing that The New Yorker might put at the bottom of a page, under the
+headline "Pronouncements We Doubt Really Got Pronounced." And as Jonathan Rauch
+taught us, when someone tells us that his world is populated by remarkably
+eloquent people who always happen to say exactly what makes the storyteller
+look good, we are well advised to ask whether that world exists only in his,
+er, perceptions.
+
+            
+What could have caused Cassidy to suspend his
+critical faculties? Perhaps he has an ideological ax to grind--after all, a few
+months back he proclaimed Marx the "thinker of the future." He argues that the
+theory of increasing returns is crucial to the case against Microsoft--which is
+true, although even so it is unclear why he couldn't just present the theory
+without the dubious intellectual history. Anyway, increasing returns are
+equally crucial to the case for Microsoft--as a reason why trying to
+break it up would be a bad thing. Perhaps more to the point, Cassidy has made
+it clear in earlier writing that he does not like mainstream economists, and he
+may have been overly eager to accept a story that puts them in a bad light.
+
+            But this may be looking too
+hard for a motive. When Waldrop's book came out, I wrote him as politely as I
+could, asking exactly how he had managed to come up with his version of events.
+He did, to his credit, write back. He explained that while he had become aware
+of some other people working on increasing returns, trying to put them in would
+have pulled his story line out of shape. My guess is that Cassidy reached the
+same conclusion. So what we really learn from the legend of Arthur is that some
+journalists like a good story too much to find out whether it is really
+true.
+
+         
+      
+   

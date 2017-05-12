@@ -1,0 +1,80 @@
+
+   
+   
+      
+         
+            Lucent Should Stick With What It Knows
+            
+
+            For a company whose roots are in Bell Labs, source of innumerable
+technological breakthroughs, Lucent is surprisingly unembarrassed about buying
+technology that it can't, or doesn't want, to build itself. Since it was spun
+off from AT&T three years ago, Lucent has made 29 acquisitions at a cost of
+$32 billion, including a major deal it closed today, when it agreed to acquire
+Excel Switching Corp. for $1.7 billion.
+
+            While it's now well known that at least half of all mergers fail--in the
+sense that they destroy rather than create shareholder value--it's also become
+well known that certain companies are exceptionally good at integrating
+acquisitions into their existing operations. Not coincidentally, perhaps, two
+of the best are competitors, namely Lucent and Cisco (which, reader beware, I
+own shares in). Cisco, in fact, closed a small deal today, spending $143
+million to acquire MaxComm Technologies, which specializes in high-speed Net
+access. And before the year is out, expect Lucent and Cisco to announce more
+deals. It's a kind of acquisition arms race.
+
+            For the most part, the logic behind that race is compelling. Lucent, with
+its roots in more traditional telephone equipment, is trying to move strongly
+into computer and data networks. Cisco, for its part, wants to build on its
+already commanding position in data networking, even as it shifts more and more
+of its business to take advantage of the explosion in the Internet. And with
+technology shifting and developing as rapidly as it is, it's difficult (let's
+say impossible) for any company to keep everything in-house. Instead, smaller
+companies create and develop technology, and Cisco and Lucent step in, buy up
+these companies with their pricey stock, and reap the benefits. Needless to
+say, this strategy works only if you're good at bringing companies on board
+without wrecking them or yourself. Both Lucent and Cisco are.
+
+            The danger in all this, though, is overreaching, stretching a company beyond
+what it's really good at. Take last week's $3.7 billion acquisition by Lucent
+of International Network Services, a telecom consulting firm that helps
+companies design, install, and maintain computer and data networks. The deal
+was hailed by analysts and the press as a powerful move by Lucent into
+"services," offering the possibility that companies will now be able to come to
+Lucent for one-stop shopping. Not only will we sell you the equipment, Lucent
+can now promise, but we'll help you install it and keep it running. Hell, we'll
+even tell you why you should buy it in the first place.
+
+            That last point signals one of the obvious problems with the deal, which is
+that INS's business depends on the fact that companies trust it to give them
+the best advice possible. If, every time a company asks an INS consultant what
+kind of system it should install, the consultant says, "Why, Lucent, of
+course," companies aren't going to be trusting INS much longer.
+
+            But even aside from that, this was a dubious acquisition, because in essence
+Lucent paid $3.7 billion to buy a business whose profit margins and earnings
+growth are significantly lower than Lucent's. This may seem counterintuitive,
+given that all you hear about lately is how important it is that IBM is moving
+into services--i.e., its e-business initiative--or that Hewlett-Packard is
+revitalizing itself as a services company. But the truth is that it's better to
+make hardware or software than to be in services. Consulting is a fine
+business, on its own terms. But next to making switches or routers--let alone
+Windows 98--it's mediocre at best.
+
+            The reason is obvious: Services require people, and always will. When you're
+making hardware or, even better, licensing software, all your costs are under
+your control, and once the product is actually developed, your profit margins
+are very high. And production lines can be automated. Consulting, though, is by
+definition a labor-intensive, time-intensive business. Profit margins are much
+lower. INS's net margins--profit divided by revenue--are around 8 percent,
+while Cisco's are at 20 percent. This is inherent in the nature of the
+business--Lucent won't be able to change it.
+
+            It's understandable, what with the new vogue for one-stop shopping, that
+Lucent would want to offer services in addition to equipment. But in acquiring
+INS, Lucent appears to be forgetting one of the most important lessons of the
+past two decades: Companies do best when they do only what they do best.
+
+         
+      
+   

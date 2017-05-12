@@ -1,0 +1,113 @@
+
+   
+   
+      
+         
+            Sheep Thrills
+
+            How Dolly
+Was Designed
+
+            Cloning,
+Nature, and Nurture
+
+            The Week/The
+Clones
+
+            
+               (Something slightly
+overlooked in the frenzy of speculation about Dolly, the sheep cloned by
+Scottish scientists last week, are the details of the experiment that resulted
+in her creation. We asked Andrew Berry, a geneticist, to explain how Dolly came
+into being, and why, from a biologist's point of view, she matters.)
+            
+
+            First, we have to look at
+what we mean by "cloning." We've been cloning genes for some 25 years now. In
+other words, we can propagate small strips of DNA outside their parent
+organisms. (We put a piece of, say, sheep DNA into a bacterial cell, which
+reproduces itself asexually--doubling its genetic material and splitting--and
+each time, it replicates our sheep gene.) We've been cloning cells for longer.
+Certain cells can be "cultured," reproducing themselves like bacteria in a
+petri dish. Both forms of cloning constitute major technological
+accomplishments, but neither comes close to reconstituting an organism. That is
+a much bigger problem.
+
+            Not an
+insurmountable one. As every gardener knows, you can regenerate entire plants
+from the smallest cutting. But animals are not so straightforward. The only
+kind of whole-organism cloning we've been able to perform up till now has
+involved DNA taken from early embryonic tissue. In the 1950s, biologists were
+able to generate entire frogs from DNA that came from embryos less than 80
+hours old. Any older, and no new frog developed. That is because cells in very
+early tissue are what is known as undifferentiated--not yet committed to a
+particular developmental path. What's revolutionary about Dolly is that the DNA
+that created her was taken from a grown-up, differentiated cell.
+
+            until now, the conventional wisdom in biology has had it
+that while early embryonic cells are "totipotent," capable of becoming any kind
+of tissue, once cells have differentiated into a particular tissue type they
+must remain that type. Pre-Dolly, differentiation in animal tissue was regarded
+as an irreversible process. If we cloned muscle cells, we got more muscle
+cells. Muscle cells were not going to generate liver cells.
+
+            How does
+differentiation work? We don't really know. We do know that every cell contains
+an identical and complete set of genetic instructions, the genome. As cells
+mature, however, they switch on some parts of those instructions, and switch
+off others. The cells in your muscle tissue switch on muscle genes. The cells
+in your liver switch on liver genes. But we can't explain this process--why
+some cells express some genes, and not others. The process of development (or
+differentiation) is one of the least understood in biology. At one end of the
+black box you put in a simple cell, the fertilized egg, and out of the other
+you get a sheep, an earthworm, a human--a mature animal of staggering
+structural complexity.
+
+            
+Dolly is living proof that the process can go
+backward. Dolly is derived from a single mammary cell. Conventional wisdom
+would have dictated that mammary cells, which are highly differentiated and
+specialized, could produce only more mammary cells. But the mammary DNA that
+gave rise to Dolly became dedifferentiated , capable of generating the
+full range of different cell types that make up a sheep.
+
+            Given the
+high-tech world of modern biology, the method by which the Scottish team
+managed to provoke this extraordinary dedifferentiation is almost old-fashioned
+in its simplicity. In Dolly's case, they took a mammary cell and grew it on a
+petri dish in cell culture so that it produced more copies of itself. They then
+essentially starved the cells so that they shut down normal metabolic function,
+entering a "quiescent" state, in which dedifferentiation apparently occurs. The
+DNA from one of these cells was then transferred into an unfertilized sheep egg
+cell from which they had carefully removed the DNA. (Unfertilized eggs contain
+only the mother's half of genes; by adding the genes from an adult mammary
+cell--which has both its mother's and father's genes--the egg cell then had the
+full amount of DNA found in adult sheep cells.) The egg cell was biochemically
+pre-programmed to commence development, and that, apparently, was enough to
+jerk the mammary-cell DNA out of its quiescent state. The egg was put into a
+surrogate sheep mother and, 21 weeks later, we got Dolly.
+
+            One question that inevitably comes up is whether there is
+something peculiar about the way sheep mammary tissues differentiate. A second
+result in the Scottish study that has been largely ignored by the media--but
+which is, in biological terms, equally important--suggests that the answer is
+no. Biologist Ian Wilmut's team also cloned lambs out of DNA derived from
+sheep-fetus fibroblasts, cells found in connective tissue. Even in a fetus, a
+fibroblast is as highly specialized and fully differentiated as a mammary cell.
+Dolly is more of a media magnet than her unnamed fibroblast-derived cousins
+because she came from adult tissue. Biologically, though, the two experiments
+are comparable: In both cases differentiated DNA became sufficiently
+dedifferentiated to generate a whole new sheep. The result is, therefore, not
+mammary-specific, but more general.
+
+            Dolly and her
+fibroblast-derived cousins have changed forever the way we think about animal
+development. Cells in mature animal tissues are not, as we had thought,
+irreversibly differentiated. Understanding differentiation is the key to
+understanding development, and Dolly embodies the extraordinary possibility of
+manipulating the process--of doing experiments to identify the basic
+construction rules used in putting animals together.
+
+         
+      
+   

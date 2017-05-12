@@ -1,0 +1,100 @@
+
+   
+   
+      
+         
+            The Microsoft Menace
+
+            Microsoft is aggressively
+seeking to shape the future of personal computing, Internet publishing, and
+electronic commerce. It has achieved a dominant position in the computer
+industry already and is poised to extend its reach. Is what is good for
+Microsoft good for consumers? Not always. Consider the following:
+
+            Microsoft has never been
+known for its innovations. (Click for more on Microsoft's history of
+borrowing.) Yet, Microsoft operating-system software is used to run between 80
+percent and 90 percent of the world's personal computers now, and that share is
+increasing.
+
+            When personal computers
+first entered the market, there was enormous innovation in new desktop-software
+applications. In recent years, as Microsoft has come to dominate one important
+desktop market after another, there have been fewer and fewer new entrants or
+new products in these markets--and, many would say, far less innovation.
+
+            Today the most important
+challenge in selecting a word processor, relational database, or other desktop
+application is finding a product that can perform adequately without crashing
+when the user is running the latest version of Microsoft's Windows operating
+system. More and more often the safest bet is--not surprisingly--Microsoft, the
+only company that really knows how its operating system works and the only
+company that can arbitrarily change how that operating system works. (For
+examples of how Microsoft uses its control of the operating system to undermine
+rivals, click .)
+
+            The Internet is the most
+successful new platform for publishing and sharing information. It developed in
+an environment that was profoundly anti-monopolistic, and which embraced open
+standards. Microsoft ignored the Internet initially, even creating a rival
+proprietary network architecture for its Microsoft Network.
+
+            Sun Microsystems has
+developed a computer programming language named Java, designed so that programs
+written in it would run on any computer, regardless of the operating system.
+The Java language is very important for the development of feature-rich Web
+publishing. Microsoft wants to create a special Java language for Windows. Its
+version won't run on non-Microsoft operating systems, damaging the promise that
+the same software will run on different computers. This will permit Microsoft
+to exercise the same type of proprietary control over MS Java applications that
+it does over other Windows applications.
+
+            Microsoft, a firm known for
+its aggressive anti-piracy campaigns, is spending tens (perhaps hundreds) of
+millions of dollars to develop and promote the Microsoft Internet Explorer,
+which it gives away. Why? By monopolizing the browser market, and by destroying
+Java's promise as a cross-platform language, Microsoft will be in a position to
+transform the Internet radically by moving toward a new set of Microsoft-owned
+or Microsoft-controlled standards for Internet publishing and electronic
+commerce. (For more on Microsoft's efforts to monopolize the Internet, click
+.)
+
+            Microsoft is trying to
+position itself to own the software used by consumers to operate a new
+generation of cable-TV systems, consumer electronics, and other devices that
+will be used to connect to the information superhighway. This would extend the
+monopoly Microsoft has on operating systems for personal computers.
+
+            Not
+content with its enormous market share in PC software, Microsoft wants to hold
+our hand as we navigate the information superhighway, and to push us--not so
+subtly--toward its own partners or subsidiaries by strategically placing
+desktop or browser links to its products and services. This will give Microsoft
+enormous advantages in positioning its own products in electronic commerce and
+let it play kingmaker for other businesses. (For other examples of Microsoft's
+predatory ways, click .)
+
+            
+For those who look into the future and are
+concerned, there are some fundamental questions: What can be done? What should
+be done? What will be done? Wherever Microsoft goes today or tomorrow, it must
+not be allowed too much control over something as important as the way we
+communicate with one another.
+
+            Bill Gates wrote in The
+Road Ahead about the need for a dialogue on the information highway. Next
+month a group of industry leaders, academic specialists, consumer activists,
+and government officials will gather in Washington, D.C., at a conference to debate
+the impact of Microsoft's business practices and to develop strategies to
+address the future of digital communications. How about joining us, Mr.
+Gates?
+
+            
+               James Love, director of
+the Consumer Project on
+Technology, prepared additional material for this article.
+            
+
+         
+      
+   

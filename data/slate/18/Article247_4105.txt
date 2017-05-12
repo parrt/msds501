@@ -1,0 +1,44 @@
+
+   
+   
+      
+         
+            Trust in Microsoft
+            
+
+            That new scrolling investment ticker at the top of Moneybox has not been a
+universal hit. Personally, I like it (although I can't figure out why it runs
+on my desktop but not my laptop--presumably that has something to do with the
+browsers I'm using on the two machines). But some of you find it intrusive, and
+others are bothered by the perpetual pop-up box asking whether you want to
+install Microsoft Investor Ticker.*
+
+            I can understand why you'd like that box to go away once and for all--our
+crack techies are working on a solution to the problem, but as they say, it's
+not trivial--but before you do, recognize that the copy in that pop-up box is
+absolutely remarkable. Here's how it read when I installed the ticker:
+
+            "Do you want to install and run Microsoft Investor Ticker signed on 11/4/99
+9:23 PM and distributed by Microsoft Corporation?
+
+            "Publisher authenticity verified by VeriSign Commercial Software Publishers
+CA."
+
+            "Caution: Microsoft Corporation asserts that this content is safe. You
+should install/view this content if you trust Microsoft Corporation to make
+that assertion."
+
+            Then comes the kicker at the bottom, with a little box you can check to
+assent to the following statement:
+
+            "Always trust content from Microsoft Corporation."
+
+            Always? God only knows what Judge Jackson will make of this.
+
+            * The Microsoft Investor Ticker is available only for users of Internet
+Explorer 4.0 or 5.0.
+            
+
+         
+      
+   

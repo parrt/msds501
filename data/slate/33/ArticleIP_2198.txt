@@ -1,0 +1,132 @@
+
+   
+   
+      
+         
+            
+
+            
+               Cybermag
+in Tabloid Love Nest
+            
+
+            One goal of Slate is to help
+you to stay efficiently abreast of developments you aren't wildly interested
+in. You may have skipped all those worthy newspaper articles about that coup in
+Burundi, but we hope you'll feel guilty enough to read a short "Gist" column on
+the subject. (Relax, that's only a theoretical example. There wasn't a coup in
+Burundi. As far as we know.) In that spirit, we introduce a new feature this
+week called "Keeping Tabs," which will track developments in the world of the
+tabloids. (It will be posted Wednesday evening, Aug. 6.) Slate readers, of
+course, are much too morally austere to have any genuine interest in the sex
+lives of Hollywood stars, the diets of talk show hosts, and suchlike paranormal
+phenomena. But we all have a duty to stay well informed of what engages other
+people. And Washington writer Emily Yoffe has heroically volunteered to wallow
+in the mud on our behalf and distill it into a palatable essence.
+
+            
+               Weld
+Done
+            
+
+            Last week was not the first
+time Bill Weld quit a high-profile job in a high-profile manner. At dinner in a
+leafy Washington neighborhood a decade ago, the talk turned to real estate: The
+Welds' house down the street is for sale. Is that William Weld, head of the
+Justice Department's Criminal Division? Is he leaving town? Yes, he's moving
+back to Massachusetts--his wife's up there now, checking out schools. Many
+weeks later, a front-page story in the Washington Post reported that
+Weld and another top Justice official "abruptly announced their resignations
+yesterday" as an act of "conscience" over revelations about ethically
+questionable behavior by Attorney General Ed Meese. Meese had no advance
+warning that Weld's "mounting frustration" had reached the breaking point. So
+we have long harbored the suspicion that Bill Weld, jolly and appealing
+character that he is, might be a bit, um, self-styled--an impression discussed
+in this week's "Assessment."
+
+            That said, it should be noted
+that Slate is forever in the debt of the Weld family. David Weld, the
+governor's nephew and then a Microsoft employee, came up with the name Slate
+last year, at a moment when we had almost despaired of finding any name for our
+magazine that was both euphonious and trademarkable.
+
+            
+               In Your
+Interface
+            
+
+            There are two new ways to
+enjoy Slate without soiling your fingers in the World Wide Web. Our popular new
+feature, "Today's Papers"--a summary and analysis of the front pages of the
+five major national newspapers--can be e-mailed to you every morning, Sunday
+through Friday, free as sunshine (for now). Today's Papers appears on our site
+overnight and soon (next week, we hope) will be in your e-mail box by breakfast
+time on the East Coast. At the moment it's a bit later than that. There's an
+easy e-mail sign-up form at the top of Today's Papers. Or you can sign up by
+sending e-mail to microsoft-request@microsoft.nwnet.com, with the message
+"subscribe papers" on a line by itself.
+
+            Then there's PointCast, a "push" service that
+puts news and information on your screensaver. A selection of articles from
+Slate is now among the features PointCast will automatically download for you.
+Getting your Slate this way is as easy as dismantling a medium-sized nuclear
+power plant. Simply go to www.pointcast.com, download the PointCast
+installation software, install the software, configure the software (using the
+easy-to-misunderstand instructions), then go looking for Slate, which can be
+found by simply right-clicking on the box labeled "connections," choosing the
+"personalize" option, clicking the "add" button, then clicking on "news and
+weather," then scrolling halfway to Ohio until you come to a listing for Slate,
+and then clicking on "subscribe." That's all there is to it!
+
+            And don't forget the other
+ways Slate can come to you, instead of your having to come to us. Slate on
+Paper, our weekly all-text edition, formatted for print-out on standard 8½ x 11
+paper, is also available by e-mail (free) or on actual paper by actual U.S.
+mail ($70 a year). To sign up for e-mail delivery click here or e-mail read@slate.com. To get the paper mail delivery, call
+800-555-4995.
+
+            If you sign up for Hotmail, a (free, natch) Web-based e-mail service, you can get
+Slate's table of contents delivered to you every week. And we also continue to
+support Slate delivery by FreeLoader, another "push" software product that,
+sadly, has gone to its reward.
+
+            The new version of
+Microsoft's Web browser, Internet Explorer 4.0, due out next month, will allow
+(but--Microphobes please note--not require ) automatic download of Slate.
+(You can download a trial version of IE4 now, if you want.) We have humbly petitioned
+the poo-bahs at Netscape Corp. to include Slate in the Inbox Direct feature of
+their own new browser, Netscape Alligator 4.0 (we think it's called). But so far
+they seem determined to deny their customers this valuable opportunity.
+
+            Down the road, we anticipate
+even more advanced "push" features. Our "Summary
+Judgment" department, which saves you the trouble of reading reviews, will
+be upgraded into a service that will implant the consensus opinion on all the
+new movies, books, television shows, etc., directly into your brain, saving you
+the trouble of reading and seeing the books and shows themselves. Also, while
+PointCast packages news and information as your screensaver,
+SlateCast TM will package acute witticisms about the news directly
+onto your voice-mail answering message--in your own voice--thereby completely
+eliminating the need to develop or even to express your own opinions.
+
+            Finally, for those who still
+enjoy having their own opinions, Slate will soon offer a new "personalization"
+feature. The inspiration is published accounts of Bill Gates' new house, which
+reportedly learns guests' preferences in music and art and adjusts itself
+accordingly as you stroll from room to room. Slate BiasServer TM
+applies this concept to the magazine world: You'll register your views just
+once, and Slate will thereafter recognize your browser and serve up opinion and
+analysis that reconfirm your prejudices. You'll be able to cruise from article
+to review to column to department with a growing feeling that you're absolutely
+right about everything. Just like the editors of Slate ourselves.
+
+            
+
+               --Michael Kinsley
+            
+
+             
+
+         
+      
+   

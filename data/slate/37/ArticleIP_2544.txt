@@ -1,0 +1,184 @@
+
+   
+   
+      
+         
+            Hack Attacks
+
+            Hardly a week goes by
+without a report of some new virus or other security risk on the Internet.
+Microsoft's Internet Explorer was a particularly fertile ground for
+bug-hunters, as is explained . Depending on whom you talk to, browsing the
+Internet is as safe as a walk in the park, or as dangerous as a walk alone at
+night in Central Park.
+
+            Is your
+data being read by prying eyes? Intercepted by third parties? Altered or
+obliterated by crooks or pranksters? How concerned should you be, and what
+exactly is at risk?
+
+            Data can be compromised while it resides on your computer
+or during transmission from one place to another. (To see why transmission is
+so risky, see this explanation of .)
+
+            The best way to secure your
+data from outsiders is via encryption . The goal here is to prevent
+others from accessing it or, as a last resort, preventing them from reading it
+or tampering with it if they do succeed in accessing it. Encryption
+works on the principle of a lock and key. The lock is the encrypted data; the
+key is a number. The number can't be derived from the encrypted data, so the
+lock can't be opened without the key.
+
+            The
+simplest and most effective kind of encryption is single-key encryption :
+The author puts his data in a box, locks it, and sends it to an audience that
+already has a copy of the key. Single-key encryption works fine for broadcast
+situations such as a military command sending orders to its units, but not so
+well for two-way interactions. Public/private-key encryption provides an
+elegant solution to the problem. Under public/private-key encryption, everyone
+gets an individual lock with two keys. One key locks it, the other key unlocks
+it, and you can't derive one from the other. If Bill wants to send Joe mail, he
+locks it with Joe's public key, which is available for all the world to see.
+Now it is locked, and only Joe can unlock it with his private key, so only he
+and Bill can know the contents. Unfortunately, there is currently no standard
+way for someone to get or publish a key, which is one reason encrypted e-mail
+is not common today. PGP (Pretty Good Privacy) is a free utility that lets you do
+public/private-key encryption.
+
+            
+Encryption comes in different strengths,
+denoted by the size of the numeric key. The bigger the key, the harder it is to
+break the encryption (pick the lock). Since encryption inhibits the ability of
+the government to spy on private dialogues, there are public-policy issues
+surrounding encryption. This is another reason encrypted e-mail is uncommon
+today, a topic which David Plotz covered in an earlier "The Gist" in Slate. SSL
+(Secure Sockets Layer), an Internet standard for encrypting data, is built into
+recent versions of Microsoft's Internet Explorer and Netscape's Navigator. But
+because encrypting and decrypting data is fairly slow, SSL tends to be used
+only where privacy really matters--typically, electronic commerce.
+
+            Sometimes
+it's desirable to have data that are publicly available, but untamperable. For
+instance, the government publishes a crop report that a commodity broker then
+passes on to a client. How can the client know that the broker hasn't altered
+the report? Digital signatures solve this problem. Mathematics can
+reduce any document to a few unique numbers--the signature. Changing the
+original data in any way results in a different signature. This signature is
+then encrypted with a private key. Using a public key, anyone can confirm that
+the signature matches the document. The document can't have changed because the
+signature is the same, and the signature can't be forged because only the
+creator has access to the private key that encrypted it.
+
+            What about protecting the data on your hard drive?
+Typically this is done at the operating-system level by restricting access to
+certain users. Ideally, users would carry around giant numeric keys to identify
+themselves, but computer marketers could never sell that solution. In the end,
+most systems identify users by passwords. Users enter their names and
+passwords. The name is public, but the password is private. The simplicity of
+the system is its power. While an encrypted document gives a code breaker
+something to analyze, an empty password prompt is simply empty.
+
+            
+Unfortunately, computer users betray themselves. Anecdotal evidence shows that
+most passwords are birth dates of family members, maiden names, favorite sports
+teams--things that are easy to guess. That's why the best passwords aren't real
+words, but combinations of letters, numbers, and punctuation. The best password
+contains enough nonsense so that no one can guess it, but not so much nonsense
+that you can't remember it. And therein lies the other problem with passwords:
+People forget them. This is so common that, for every network, there is someone
+(the system administrator) who has the power to retrieve or change your
+password. The world's best password is useless if the system administrator's
+password is easy to guess, or if someone can get her drunk or blackmail her.
+But the alternative is frightening, which is why we don't encrypt our hard
+drives with the password as our key. If we lost the key, that would be
+that.
+
+            
+The greatest perils to your precious data are
+the programs you've installed on your computer. Who hasn't accidentally told a
+computer to delete the wrong file or stood by helplessly while the operating
+system crashed and took all the files with it?
+
+            Then there are programs
+designed to do damage. The worst are Trojan horses , programs that
+claim to be one thing but are really another, such as a program that is
+supposed to be a calendar but secretly erases your hard drive or copies its
+contents somewhere else. Then there are the legitimate programs that have been
+infected with subprograms called viruses . Viruses are crafty things that
+are cleverly (if perversely) designed to replicate themselves whenever their
+host program is run. Once replicated, they might then do harm to your data,
+just like biological viruses can do harm to their hosts.
+
+            Further
+perils to your data are programs like operating systems and browsers, which are
+supposed to protect you from harm. Like a brick wall, they resist any frontal
+attack. But like a brick wall, some of these programs have holes. The most
+insidious kind of hole is a back door , put there with a benign purpose
+(like letting in the dog) that can be exploited for nefarious ends (like
+letting in a trained monkey to steal your wallet). The recent Internet Explorer
+was just that. Some people feel that , found in most browsers, are a security
+hole, but I strongly disagree.
+
+            How can you be sure your programs are safe? Either obtain
+your programs from trustworthy sources, or ensure that the programs behave.
+Both have their trade-offs. If you were a photographer and had to hire child
+models for an important shoot, you could hire from a reputable modeling agency
+that guaranteed its clients, or you could hire children off the street and also
+hire an authoritarian nanny to watch them every second. The agency can't really
+ensure their client's behavior, but you would know that it had done its very
+best to choose only well-behaved children. The nanny, by comparison, can be
+trusted to control the children, but her constant presence irritates the
+children and slows down the shoot. Either way, you're paying someone (the
+agency or the nanny). The best case of the agency is best (everyone behaves and
+is happy), but the worst case of the agency is worst overall (all the children
+go into hysterics at once). With the nanny, you know what to expect. Your shoot
+will never go as well as the best case of the agency, but then neither will it
+ever descend into chaos.
+
+            With
+software, the "agency" is an independent, trusted body verifying that software
+comes from where it claims. A digital signature ensures it came straight from
+the manufacturer, picking up no stray viruses along the way. Microsoft's
+Internet Explorer uses this method for its ActiveX controls, which it calls
+"Authenticode TM ." These controls are small programs with no
+artificial constraints on their behavior. They allow for the highest possible
+performance and functionality, but also the highest potential for damage. If
+you download a control that has not been signed by a trusted agency, you're
+putting your data in danger.
+
+            
+The "nanny" approach is the one taken by Java,
+a special programming language available in both Internet Explorer and
+Navigator that restricts the behavior of its programs. Because the abilities of
+these programs are restricted, they can't harm your data. But because they are
+restricted, they are slower and can do less. For example, Java programs cannot
+read the files created by your personal-finance program. That's good for
+safety, but rotten for functionality if you're trying to write a program to
+help people analyze their personal finances. Another Java advantage is that
+because its programs do less, they can run on almost any computer, no matter
+what the operating system (Windows 95, Mac OS, OS/2, Unix, etc.).
+
+            Both approaches have merit
+for different applications. A high-performance video game can't afford the
+performance penalty of Java, but if you trust the manufacturer, digital
+signatures that guarantee ActiveX give you the confidence to run it. On the
+other hand, a fill-in-the-blanks tax application doesn't require breakneck
+performance, so a Java version that can run on almost any computer might be
+desirable. In fact, a hybrid approach may yield the best results: for example,
+Java presentation software that uses machine-specific ActiveX controls for
+high-performance animation and sound.
+
+            The
+concern over Internet security is somewhat overblown. There isn't a mob of data
+villains waiting on the other side of the wire to steal your money, read your
+e-mail, and kidnap your dog. There is no documented case of a credit-card
+number being stolen over the Internet. Sure, viruses do spread and data are
+occasionally lost, but the main reason you hear so much about security is that
+it's a great marketing tactic. "Don't buy their browser; ours is safer." Or,
+"Viruses can kill! Buy our anti-virus software." Microsoft, Netscape, and
+others compete to make sure their products are as secure as possible. So maybe
+paranoia is sometimes a good thing.
+
+         
+      
+   

@@ -1,0 +1,211 @@
+
+   
+   
+      
+         
+            Vulgar Keynesians
+
+            Economics, like all
+intellectual enterprises, is subject to the law of diminishing disciples. A
+great innovator is entitled to some poetic license. If his ideas are at first
+somewhat rough, if he exaggerates the discontinuity between his vision and what
+came before, no matter: Polish and perspective can come in due course. But
+inevitably there are those who follow the letter of the innovator's ideas but
+misunderstand their spirit, who are more dogmatic in their radicalism than the
+orthodox were in their orthodoxy. And as ideas spread, they become increasingly
+simplistic--until what eventually becomes part of the public consciousness,
+part of what "everyone knows," is no more than a crude caricature of the
+original.
+
+            Such has been the fate of
+Keynesian economics. John Maynard Keynes himself was a magnificently subtle and
+innovative thinker. Yet one of his unfortunate if unintentional legacies was a
+style of thought--call it vulgar Keynesianism--that confuses and befogs
+economic debate to this day.
+
+            Before the 1936 publication
+of Keynes' The General Theory of Employment, Interest, and Money ,
+economists had developed a rich and insightful theory of microeconomics ,
+of the behavior of individual markets and the allocation of resources among
+them. But macroeconomics --the study of economy-wide events like
+inflation and deflation, booms and slumps--was in a state of arrested
+development that left it utterly incapable of making sense of the Great
+Depression.
+
+            So-called "classical"
+macroeconomics asserted that the economy had a long-run tendency to return to
+full employment, and focused only on that long run. Its two main tenets were
+the quantity theory of money--the assertion that the overall level of prices
+was proportional to the quantity of money in circulation--and the "loanable
+funds" theory of interest, which asserted that interest rates would rise or
+fall to equate total savings with total investment.
+
+            Keynes was willing to
+concede that in some sufficiently long run, these theories might indeed be
+valid; but, as he memorably pointed out, "In the long run we are all dead." In
+the short run, he asserted, interest rates were determined not by the balance
+between savings and investment at full employment but by "liquidity
+preference"--the public's desire to hold cash unless offered a sufficient
+incentive to invest in less safe and convenient assets. Savings and investment
+were still necessarily equal; but if desired savings at full employment turned
+out to exceed desired investment, what would fall would be not interest rates
+but the level of employment and output. In particular, if investment demand
+should fall for whatever reason--such as, say, a stock-market crash--the result
+would be an economy-wide slump.
+
+            It was a brilliant
+re-imagining of the way the economy worked, one that received quick acceptance
+from the brightest young economists of the time. True, some realized very early
+that Keynes' picture was oversimplified; in particular, that the level of
+employment and output would normally feed back to interest rates, and that this
+might make a lot of difference. Still, for a number of years after the
+publication of The General Theory , many economic theorists were
+fascinated by the implications of that picture, which seemed to take us into a
+looking-glass world in which virtue was punished and self-indulgence
+rewarded.
+
+            Consider, for example, the
+"paradox of thrift." Suppose that for some reason the savings rate--the
+fraction of income not spent--goes up. According to the early Keynesian models,
+this will actually lead to a decline in total savings and investment.
+Why? Because higher desired savings will lead to an economic slump, which will
+reduce income and also reduce investment demand; since in the end savings and
+investment are always equal, the total volume of savings must actually
+fall!
+
+            Or
+consider the "widow's cruse" theory of wages and employment (named after an old
+folk tale). You might think that raising wages would reduce the demand for
+labor; but some early Keynesians argued that redistributing income from profits
+to wages would raise consumption demand, because workers save less than
+capitalists (actually they don't, but that's another story), and therefore
+increase output and employment.
+
+            Such paradoxes are still fun to contemplate; they still
+appear in some freshman textbooks. Nonetheless, few economists take them
+seriously these days. There are a number of reasons, but the most important can
+be stated in two words: Alan Greenspan.
+
+            After all,
+the simple Keynesian story is one in which interest rates are independent of
+the level of employment and output. But in reality the Federal Reserve Board
+actively manages interest rates, pushing them down when it thinks employment is
+too low and raising them when it thinks the economy is overheating. You may
+quarrel with the Fed chairman's judgment--you may think that he should keep the
+economy on a looser rein--but you can hardly dispute his power. Indeed, if you
+want a simple model for predicting the unemployment rate in the United States
+over the next few years, here it is: It will be what Greenspan wants it to be,
+plus or minus a random error reflecting the fact that he is not quite God.
+
+            
+But putting Greenspan (or his successor) into
+the picture restores much of the classical vision of the macroeconomy. Instead
+of an invisible hand pushing the economy toward full employment in some
+unspecified long run, we have the visible hand of the Fed pushing us toward its
+estimate of the noninflationary unemployment rate over the course of two or
+three years. To accomplish this, the board must raise or lower interest rates
+to bring savings and investment at that target unemployment rate in line with
+each other. And so all the paradoxes of thrift, widow's cruses, and so on
+become irrelevant. In particular, an increase in the savings rate will
+translate into higher investment after all, because the Fed will make sure that
+it does.
+
+            To me, at
+least, the idea that changes in demand will normally be offset by Fed
+policy--so that they will, on average, have no effect on employment--seems both
+simple and entirely reasonable. Yet it is clear that very few people outside
+the world of academic economics think about things that way. For example, the
+debate over the North American Free Trade Agreement was conducted almost
+entirely in terms of supposed job creation or destruction. The obvious (to me)
+point that the average unemployment rate over the next 10 years will be what
+the Fed wants it to be, regardless of the U.S.-Mexico trade balance, never made
+it into the public consciousness. (In fact, when I made that argument at one
+panel discussion in 1993, a fellow panelist--a NAFTA advocate, as it
+happens--exploded in rage: "It's remarks like that that make people hate
+economists!")
+
+            What has made it into the public
+consciousness--including, alas, that of many policy intellectuals who imagine
+themselves well informed--is a sort of caricature Keynesianism, the hallmark of
+which is an uncritical acceptance of the idea that reduced consumer spending is
+always a bad thing. In the United States, where inflation and the budget
+deficit have receded for the time being, vulgar Keynesianism has recently
+staged an impressive comeback. The paradox of thrift and the widow's cruse are
+both major themes in William Greider's latest book, which I discussed last month.
+(Although it is doubtful whether Greider is aware of the source of his
+ideas--as Keynes wrote, "Practical men, who believe themselves quite exempt
+from any intellectual influence, are usually the slaves of some defunct
+economist.") It is perhaps not surprising that the same ideas are echoed by
+John B. Judis in the ; but when you see the idea that higher savings will
+actually reduce growth treated seriously in ("Looking for Growth in All the
+Wrong Places," Feb. 3), you realize that there is a real cultural phenomenon
+developing.
+
+            To justify
+the claim that savings are actually bad for growth (as opposed to the quite
+different, more reasonable position that they are not as crucial as some would
+claim), you must convincingly argue that the Fed is impotent--that it cannot,
+by lowering interest rates, ensure that an increase in desired savings gets
+translated into higher investment.
+
+            
+It is not enough to argue that interest
+rates are only one of several influences on investment. That is like saying
+that my pressure on the gas pedal is only one of many influences on the speed
+of my car. So what? I am able to adjust that pressure, and so my car's speed is
+normally determined by how fast I think I can safely drive. Similarly,
+Greenspan is able to change interest rates freely (the Fed can double the money
+supply in a day, if it wants to), and so the level of employment is normally
+determined by how high he thinks it can safely go--end of story.
+
+            No, to make sense of the
+claim that savings are bad you must argue either that interest rates have
+no effect on spending (try telling that to the National Association of
+Homebuilders) or that potential savings are so high compared with investment
+opportunities that the Fed cannot bring the two in line even at a near-zero
+interest rate. The latter was a reasonable position during the 1930s, when the
+rate on Treasury bills was less than one-tenth of 1 percent; it is an arguable
+claim right now for Japan, where interest rates are about 1 percent. (Actually,
+I think that the Bank of Japan could still pull that economy out of its funk,
+and that its passivity is a case of gross malfeasance. That, however, is a
+subject for another column.) But the bank that holds a mortgage on my house
+sends me a little notice each month assuring me that the interest rate in
+America is still quite positive, thank you.
+
+            Anyway,
+this is a moot point, because the people who insist that savings are bad do not
+think that the Fed is impotent. On the contrary, they are generally the same
+people who insist that the disappointing performance of the U.S. economy over
+the past generation is all the Fed's fault, and that we could grow our way out
+of our troubles if only Greenspan would let us.
+
+            Let's quote the Feb. 3 Business 
+               Week
+commentary:
+
+            
+               Some contrarian
+economists argue that forcing up savings is likely to slow the economy,
+depressing investment rather than sparking it. "You need to stimulate the
+investment decision," says University of Texas economist James K. Galbraith, a
+Keynesian. He would rather stimulate growth by cutting interest rates.
+            
+
+            So, increasing savings will
+slow the economy--presumably because the Fed cannot induce an increase in
+investment by cutting interest rates. Instead, the Fed should stimulate growth
+by cutting interest rates, which will work because lower interest rates will
+induce an increase in investment.
+
+            Am I
+missing something?
+
+            
+               To read the reply of
+"Vulgar Keynesian" James K. Galbraith, in which he explains green cheese and
+Keynes, click here.
+            
+
+         
+      
+   

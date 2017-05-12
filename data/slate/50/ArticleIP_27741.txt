@@ -1,0 +1,163 @@
+
+   
+   
+      
+         
+            I Have Read the Future
+
+            Since the launch of 
+                  Slate
+                nearly
+three years ago, we've joked about how you'd know when online magazines were
+ready for mass consumption. It would be when you could take them, like print
+magazines, to the bathroom. Well, I'm here to tell you: I've read
+
+                  Slate
+                on the john.
+
+            Among the other places I
+have been reading 
+                  Slate
+               , Salon, an electronic version of
+the Wall Street Journal , and the e-texts of various novels and short
+stories, in last couple of weeks:
+
+            
+
+               Aloud to my wife in a car at night
+
+               In a taxi, again at night
+
+               While brushing my teeth
+
+               On a plane without an overhead light
+
+               Standing on the subway
+
+               In bed
+
+               While eating Chinese food with chopsticks
+
+            
+
+            These are situations in which reading is ordinarily
+either awkward or impossible. They present no challenge, however, to my new
+favorite gizmo, the Rocket eBook. I'm not what you would call an early adopter
+when it comes to consumer electronics. I don't have a DVD player, an MP3
+player, or a Palm Pilot. But I'm ready to blow $499 on a Rocket as soon as I
+have to send my demo model back. This chunky little device, which weighs just
+under a pound and a half, actually deserves that overused epithet
+"revolutionary," because it has the power to change something as basic to human
+civilization as the way people read.
+
+            A lot has happened since
+I wrote about  last fall. You can now actually buy two different models.
+One is the Softbook, which at $299 appears less expensive than the Rocket but
+actually costs more because you must commit to spending $479 on books over two
+years as part of the package. The Softbook is a writing-tablet-size screen with
+a leather cover that gives off what someone must have imagined to be the musty
+scent of an old book (but is actually the smell of a new shoe). The Softbook's
+one big advantage is that you don't need a PC to use it. You buy books directly
+from Softbook and download them into the reader via a phone line. But the
+Softbook has two big disadvantages. The first is that it's poorly designed. The
+screen is hard to read, navigating text is clumsy, and the whole device has an
+unbalanced feel. The second drawback is it doesn't work. After reading a bit of
+preloaded text-- The Sea Wolf, by Jack London--I couldn't download
+anything else, and my Softbook soon purged its preloaded content as well. The
+only other person I know who has a Softbook reports a similar failure.
+
+            By contrast, the Rocket, which is made by a Silicon Valley
+start-up called NuvoMedia, is ergonomically sound, with the pleasing heft of a
+folded-over paperback. The screen is superb, and you get a choice of large or
+small print as well as a variety of lighting settings. You can orient the text
+horizontally or vertically and position the grip for left- or right-handed use.
+And because it doesn't need to be held open, you can read the Rocket
+one-handed. In fact, you can even prop it up and read no-handed if you're
+eating something greasy or shaving. All you need is one clean finger to click
+the "forward" and "back" buttons that move the text a page at a time. The
+battery lasts for some 30 hours before needing to be recharged.
+
+            And while the process of
+getting stuff to read on the Rocket is a bit involved, it actually works
+remarkably well. First, you load the Rocket software onto your PC. Second, you
+register your eBook and get an ID and a password. Third, you go to the Barnes
+& Noble Web site, which is (but won't be for long) the exclusive
+distributor of Rocket-formatted content, and make your e-purchase. Fourth,
+Barnes & Noble sends you an e-mail message with a Web link that allows you
+to download what you've purchased into the "Rocket Library" on your PC. Fifth,
+you transfer your book from your PC's Rocket Library to your Rocket, which has
+4 mb of memory (enough to hold 20 medium-length novels). The only hitch I
+encountered in this procedure was that Barnes & Noble took a few hours to
+e-mail the link I needed to download books I bought. (I understand that this is
+not an uncommon problem.) Instant gratification is an important part of the
+appeal of e-books, and I found this delay slightly maddening.
+
+            There are other drawbacks of the sort you would expect from
+any infant technology. Barnes & Noble stocks only 524 eBook titles at
+present, an unfortunately large number of them in the business and self-help
+categories. You can buy Endless Referrals: Network Your Everyday Contacts
+Into Sales and Life Without Stress: The Far Eastern Antidote to Tension
+and Anxiety (which would seem to cancel each other out) but not
+Uncovering Clinton or The Ground Beneath Her Feet . Recent
+publications are gratuitously overpriced. The discount price of Angela's
+Ashes is $10.40 in paperback, $17.50 in hardcover, and $20 for the eBook
+edition.
+
+            This makes no sense when
+you consider that the publisher has eliminated such expenses as paper,
+printing, binding, warehousing, distribution, and "returns." Another advantage
+for publishers is that because a book is encrypted for a single user, it can't
+be copied, forwarded, or resold. So, why are publishers setting e-book list
+prices so high? Because they fear e-books, even as bookstores, including a
+sizable group of independent shops, embrace them. When you think about it,
+though, their positions might well be reversed. If e-books become a real
+alternative to p-books, publishers stand to gain by eliminating most of their
+fixed costs and by being able to keep everything in print forever. They might
+even envision cutting out the middleman, namely the bookstore. If I retailed
+books, I'd be worried. This, however, is only one scenario. Martin Eberhard,
+the CEO of NuvoMedia, thinks booksellers will remain part of the process.
+"When's the last time you went shopping for a Simon & Schuster book?" he
+asks. And it might be established authors who would try to do an end run around
+publishers. "It's not clear who gets disintermediated," he says.
+
+            T he really good news is that readers can disintermediate
+both publishers and booksellers and get thousands of books and magazines free.
+Just last week, Rocket released a beta version of software that lets anyone
+upload texts to its site, creating a kind of open-source library. The site
+offers Hamlet , the Art of War, and Aesop's Fables, among
+other titles. But more significantly, the Rocket eBook lets you download any
+text-based content from the Web or your hard drive. With the Rocket software, I
+downloaded Daisy Miller , Our Mutual Friend, and some other
+fiction in the public domain from the Project Gutenberg Web site before a
+transcontinental flight. Another feature I love is that you can find remembered
+passages by word-searching these texts. You can also highlight words and look
+them up in the pre-installed Random House Dictionary, though it didn't have
+"arras," which James Wood used in last week's discussion of Vladimir Nabokov in
+
+                  Slate
+               's"Book Club" (it means "tapestry"). And I figured out how
+to download the full weekly text of 
+                  Slate
+                in one go by converting
+the 
+                  Slate on Paper
+                Microsoft Word file to the HTML
+format. (Late-model word processors allow you to use the "Save As" function to
+save documents in HTML.)
+
+            E-books are going to evolve. They will get lighter,
+their screens will get more legible, and their batteries will last longer.
+Soon, they may do what a related device called the Audible can do, and actually
+read to you, either via sound files or text-to-voice software. E-books may
+converge with other handheld devices. You can use the newest palm-sized
+organizers as talking books or readers--though you wouldn't want to read a
+novel on one, at least not yet. Most important, e-books will get cheaper. They
+may even be given away, or sold at a token price with content purchase
+agreements or subscriptions, on the model of cell phones. But I have no doubt
+that they're coming. And when they truly arrive, I predict that the Rocket will
+be remembered as a landmark: The first demonstration that reading a "book"
+didn't require paper, ink, or even an overhead light.
+
+         
+      
+   

@@ -1,0 +1,252 @@
+
+   
+   
+      
+         
+            
+
+            
+               Address your e-mail to
+the editors to letters@slate.com. Please include your address and daytime phone
+number (for confirmation only).
+            
+
+            
+               Java
+Jibe
+            
+
+            I was very disappointed to
+read Andrew Shuman's "Weak Java." The question of whether Java is a good platform is an
+interesting and complicated one, but Shuman's analysis was alarmingly
+one-sided.
+
+            For instance, Shuman
+discussed the fact that Java is an interpreted language without bringing up the
+fact that many companies (Microsoft included) have developed what are called
+just-in-time compilers, which largely fix the slowness problem he discussed. On
+the fly, a JIT compiler converts Java bytecodes, normally destined to be
+interpreted, into machine codes, which can be run very quickly. Indeed, recent
+estimates have suggested that, through the use of things like JIT compilers,
+Java will reach speeds of between 70 percent and 80 percent of the speed of a
+natively run C program. Not nearly as s-l-o-w as the article suggests.
+
+            Shuman neglected to mention
+the other big advantage of Java, which is security. Unlike ActiveX and some of
+the other competing technologies, Java applets can be run without fear of the
+applet trashing your hard drive. A group of German hackers demonstrated how a
+malicious ActiveX component can take over your copy of Quicken and make
+financial transactions on your behalf.
+
+            There is
+a lot more to say on this issue, and I'm not going to try and outline all of
+the important points. But Shuman should have. Or rather, Slate should have
+found someone more likely to give a more full and nuanced view of the
+issue.
+
+            -- Yaron M. Minsky
+Syracuse, N.Y.
+
+            
+
+               Refill
+            
+
+            Andrew
+Shuman's "Weak
+Java" and James Surowiecki's "Culture Wars"
+are frightfully irresponsible. Shuman's breezy article largely omits the
+implications of the reliability, flexibility, and security provided by Java in
+order to emphasize the cost of these benefits in execution speed. While a
+strong case can be made that the advantages are well worth the cost, this by
+itself does not reflect poorly on Slate. Nor does the failure of Surowiecki's
+column to note its own thinly veiled role in the culture war surrounding Java
+that it describes. However, that Slate chose to run these poorly constructed
+articles is a clear instance of Microsoft editorial influence. Readers offer
+attention that brings advertising revenue not for misleading propaganda like
+this, but for information presented with the kind of journalistic integrity
+that usually characterizes Slate. If such a conflict of interest cannot be
+handled gracefully, the subject is best avoided.
+
+            -- Jeff Gold New York
+City
+
+            
+
+               Bottomless Mug
+            
+
+            Evangelistic movements being
+what they are, I have no doubt you'll be swamped with letters responding to
+Andrew Shuman's criticism of the Java programming language ("Weak Java"). Here's
+another one, though I'm no Java evangelical (I'd much rather program in
+CommonLisp, thanks).
+
+            The assertion that Java is
+about as hard for a COBOL programmer to learn as C is sent the needle on my BS
+detector into the red zone. One of the nice things about Java is that the most
+difficult parts of C (indirection and "pointer arithmetic," among other things)
+have been left out of the language, while other convenience features
+unavailable in C (such as memory management) have been added to it. These
+things make it much easier to learn than C. Shuman's harping on "s-l-o-w"
+probably says more about the quality of Microsoft's virtual machine than it
+does about Java or the Java paradigm. (The virtual machine is the program that
+"interprets" or, in some cases, compiles and runs the compact Java bytecodes
+that make up a Java program.)
+
+            With the
+one-two punch of items critical of Java in Shuman's piece and James
+Surowiecki's column, "Culture Wars," I have to close my eyes and clap for
+Tinkerbell to believe that Slate remains independent and exercises untrammeled
+judgment on what points of view to present on issues directly affecting its
+parent corporation.
+
+            -- Steve Miklos East
+Norwalk, Conn.
+
+            
+               The editors reply: This
+sampling of e-mail is civilized compared to the vituperative name-calling cast
+down on Shuman by readers who used the link on the article to e-mail him
+directly. (But don't feel sorry for him, he asked for it.) At this moment,
+Shuman is l-o-a-d-i-n-g his Java word processor and composing a response to his
+critics, which will run next week.
+            
+
+            
+               Milliken
+It for All It's Worth
+            
+
+            In "Who's Buying Whom?,"
+Paul Krugman defends himself against critics who apparently accused him of
+selling out to foreign powers and multinational corporations in his July column
+supporting trade with China ("The East Is in the Red") by attacking me as a hireling of
+protectionist interests directed by textile magnate Roger Milliken. Since I
+neither read his article on China nor wrote him a letter, the logic that leads
+Krugman to a gratuitous strike at me is unclear.
+
+            What is clear, however, is
+that he has either badly missed the mark by neglecting to do his homework, or
+is engaged in a willful campaign of misrepresentation. While it is true, as
+Krugman says, that the Economic Strategy Institute received early financial
+support from Milliken, it is also the case, as Krugman should have known, that
+Milliken ceased making contributions over four years ago when ESI, over
+Milliken's objections, provided critical support to the passage of NAFTA and
+the ratification of the World Trade Organization and free-trade arrangements
+concluded in the Uruguay Round. Thus, our support of free trade amounts to more
+than pious, theoretical declamations from the groves of academe.
+
+            ESI does not claim
+infallibility or even the absence of silly mistakes, but we are not for sale.
+We make the best case we can based on the facts as we know them. Moreover, we
+do not attack people, only ideas. Krugman says "the currency of academic
+success is creativity." Perhaps, but the ad hominem approach is usually the
+mark of a weak argument.
+
+            As for
+Roger Milliken, I don't always agree with him, but he is an honest and
+honorable man from whom Paul Krugman could learn a lot.
+
+            -- Clyde V. Prestowitz
+Jr. Economic Strategy Institute
+
+            
+               Touché à
+la Tonelson
+            
+
+            In his response to my
+letter of Aug. 14,
+Paul Krugman is so determined to nail me as an economic illiterate that he
+loses sight of our original disagreements--and some of his own previous work.
+The book review of mine that Krugman initially criticized in "The East Is in the Red"
+cited "many reasons" for thinking that "consumer markets" in emerging countries
+like China, Mexico, and Brazil "are likely to stay small for decades, even if
+formal trade barriers come down." I singled out two such reasons: "First,
+largely because most of these nations have huge foreign debts to pay off, and
+therefore need to discourage consumption by their populations, they are
+pursuing export-led growth strategies. Second, if they don't keep wages and
+purchasing power low, they will have trouble attracting the foreign investment
+they require, both to service debt and to finance growth." I added that China
+"has made it abundantly clear that it has no intention of becoming a major
+importer; it aims eventually to satisfy most of its own needs."
+
+            Krugman responded in "The
+East Is in the Red" by observing that countries attracting enough foreign
+investment "both to service debt and to finance growth" must be running trade
+deficits. He added that China's record in particular belies my argument because
+its roughly balanced global trade indicates that it is not a net capital
+importer. Krugman is, of course, right about the relationship between trade
+balances and current-account balances, and about China's international
+balances. But as I originally stated, numerous forces are responsible for
+limiting the consumer imports of this disparate group of countries. Some, like
+Mexico (America's most important emerging-market trade partner), are struggling
+with huge debt overhangs and therefore must restrict domestic consumption and
+earn foreign exchange by focusing on exporting. Some believe that the Japanese
+or Taiwanese models of production and export-led development are superior to
+consumption-led approaches to economic growth. Some are driven by memories of
+domination by the West to seek substantial degrees of economic
+self-sufficiency. And some are motivated by combinations of these
+considerations.
+
+            China, with major plans to
+supply its own needs in industries such as motor vehicles, aerospace, and
+semiconductors, is clearly one country striving for self-sufficiency. The
+Chinese are also great admirers of key aspects of the Japanese development
+model. Indeed, the amassing of some $125 billion in foreign-exchange reserves
+has been central to China's success at pursuing export-led growth. The Chinese
+have accumulated these reserves by selling their own currency in order to
+depress its value--which, of course, keeps export prices low and import prices
+high. As a result, the already meager international purchasing power of China's
+rock-bottom wages is suppressed even further. As for Krugman's claim that most
+U.S. workers have seen real living standards rise over these last twenty-odd
+years, it is based on a poor choice of data--the U.S. government's real hourly
+compensation figures. This series suffers from two related problems. First, it
+includes all workers, from CEOs to janitors. Second, it is an average. As
+income inequality in the United States rises--a problem Krugman has written
+about eloquently--any economy-wide average will of course deviate increasingly
+from the median, which much more accurately describes the situation of the
+typical worker.
+
+            The
+typical worker's situation can be more accurately gauged by looking at indexes
+focusing on median figures for production, nonsupervisory workers--who make up
+80 percent of the workforce. Such series include the median weekly earnings
+statistics published by the Bureau of Labor Statistics and derived from the
+Earnings Files of the Current Population Survey. This series, and several
+others, amply support my claim that U.S. living standards have been declining
+in the last two decades, and refute Krugman's claim that First- and Third World
+wages are converging "through a process of leveling up, not leveling down." Nor
+do the results change significantly when nonwage benefits are factored in.
+
+            -- Alan Tonelson U.S.
+Business and Industrial Council Educational Foundation
+
+            
+
+               Unsolicited Testimony
+            
+
+            I'm not
+entirely certain that I have the correct e-mail spot simply to report how much
+I enjoy Slate. I humbly confess that when I first heard of a magazine that
+would be online only, I scoffed. Now, I am converted. I enjoy curling up with
+Slate just as I do my more material publications, and there is nothing to
+recycle or discard (guiltily) and no "newsprint fingertips." Thank you
+especially for "Today's Papers"--lots of time saved there and a nice pithy
+overview. Same for "In Other Magazines." And, lewd poetry from Robert Herrick, yet. All in all, the best
+of what's new in this cyberworld.
+
+            -- Suzanne
+Clarke Phoenix
+
+            
+               Address your e-mail to
+the editors to letters@slate.com. Please include your address and daytime phone
+number (for confirmation only).
+            
+
+         
+      
+   

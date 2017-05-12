@@ -1,0 +1,241 @@
+
+   
+   
+      
+         
+            <STRONG><EM>Slate</STRONG></EM>, Version<B><I> </B></I>2.0
+
+            As 
+                  Slate
+               's design
+director--yes, I'm wearing black--I could essay at length about the redesign
+that debuts in today's issue. I could speak volumes about our ambition to
+balance white space with type, and art with copy. About our quest to create
+more readable Web pages. About new navigation that makes dancing through
+
+                  Slate
+                to find interesting articles all but
+effortless.
+
+            But instead of boring
+you with self-serving "designspeak," I've prepared a concise roll call of
+what's new and different in the new and different
+
+                  Slate -- our first complete redesign since we launched
+in 1996.
+
+            
+               
+                  What's
+New?
+               
+            
+
+            
+
+               New Content Views
+            
+
+            We've
+created three new ways to view 
+                  Slate
+                contents.
+
+            
+
+                "New Today" lists everything posted since 7 p.m. ET the previous day.
+
+               "Complete" lists the entire current content of
+
+                     Slate
+                  .
+
+               The "Navigation Banner," that maroon stripe that says
+"
+                     Slate
+                  " at the top and bottom of every
+
+                     Slate
+                   page, uses color coding and drop-down menus to
+give you access to any page in 
+                     Slate
+                   from any other
+page in 
+                     Slate
+                  . The only catch is you have to have a
+modern browser such as Internet Explorer 4.0 or 5.0 or the forthcoming Netscape
+5.0 browser.
+
+            
+
+            I'll tell you more about
+how to use the Navigation Banner in just a minute.
+
+            New Today is the default
+home page of 
+                  Slate
+               , which means it's what you'll see
+when you go to www.slate.com. If you want
+to see a list of the entire current content, just click the Complete button on
+the Navigation Banner. If you really prefer this one, we encourage you
+to bookmark it (in Netscape Navigator) or put it in your browser's Favorites
+folder (in Internet Explorer).
+
+            
+
+               New Sections
+            
+
+            We've sorted our content
+into four sections: "Briefing," "Features," "24/Seven," and "Utilities."
+
+            
+
+               Briefing
+
+            
+
+            Think of the Briefing
+section as your quick hit on the day's and week's news. "Today's Papers,
+summarizes the five top U.S. dailies every morning by 7 ET. "International
+Papers" does the same for the world press three times a week. "In Other
+Magazines" sizes up the Time , Newsweek , and other major
+periodicals--usually before they hit your mailbox or local newsstand. We also
+chart the critical consensus about books, movies, art, and music in "Summary
+Judgment" and spare you from having to watch the Sunday talk shows by offering
+you the gist in "Pundit Central" (check in Sunday evening to prepare for Monday
+sessions at the water cooler). There's more good stuff in Briefing, including
+"Explainer," "The Week/The Spin," and "
+                  Slate
+               
+Favorites" (dozens of useful links to other reportage and commentary--and
+gossip--on the Web). We invite you to explore.
+
+            
+
+               Features
+
+            
+
+            Under the Features
+rubric, we've grouped our regular articles, news commentary, and arts and
+culture features. This is also where you'll find our regular columnists--such
+as Paul Krugman on economics, Jacob Weisberg on culture, David Plotz on
+politics, David Edelstein on movies, Anne Hollander on fashion, and more.
+
+            
+
+               24/Seven
+
+            
+
+            24/Seven pulls together
+the 
+                  Slate
+                features that are updated repeatedly
+throughout the week: Our daily "Diary"; the e-mail give-and-take of "The
+Breakfast Table" and "The Book Club" and "Dialogues" about the pressing issues
+of the day; e-mail dispatches from hither and yon; as well as our "Moneybox"
+meditations on business, "Chatterbox" commentaries on politics, and
+"Culturebox" on ... well, you guess. 
+
+            
+
+               Utilities
+
+            
+
+            Think of Utilities as
+your 
+                  Slate
+                toolbox, the place to get
+
+                  Slate
+                business done. Go to Utilities to send us an
+e-mail, to get e-mail from us, to sound off about an article, to search
+
+                  Slate
+               's archives, or to update your member profile
+info. (You say you're not a 
+                  Slate
+                member?! Click
+here
+to sign up for just $19.95 and enjoy a world of benefits, including e-mail
+delivery and access to our archives.) Click on Utilities if you want to print
+the entire issue using Microsoft Word, or if you're dying to inspect our
+masthead ("Boiler
+                  Slate
+               ").
+
+             
+
+            
+               Navigation,
+Navigation, Navigation
+            
+
+            I promised to teach you how to use the Navigation
+Banner, didn't I? So, here goes. (Remember you must have Internet Explorer 4.0
+or better or the forthcoming Netscape Navigator for this function to work.)
+
+            Move your cursor to the Navigation Banner at the top
+of this page, and click on the Briefing section head. A "drop down" menu will
+appear and reveal the contents of Briefing. Now, move your cursor to the other
+section heads. Additional menus listing the contents will drop down. To select
+an article in a drop down menu, click on it. Congratulations, you've mastered
+
+                  Slate
+                navigation.
+
+            The beauty of the
+Navigation Banner is that every page now contains a complete
+
+                  Slate
+                table of contents. You don't have to click back
+to the big table of contents every time you find more good stuff to read. Of
+course, if you fancy the big table of contents, just click New Today, Complete,
+or the 
+                  Slate
+                logo.
+
+             
+
+            
+               More Good
+Navigation News
+            
+
+            Another fabulous thing
+about the drop down menus is that they list the headlines of the most recent
+postings in multiple-entry departments such as The Breakfast Table, Dialogues,
+Diary, and Explainer.
+
+            
+               Even More Good
+Navigation News--"Today in Slate"
+            
+
+            Running down the left side of every article you'll
+find "Today in 
+                  Slate
+               ," which is our attempt to
+persuade you to check out other good stuff currently on our site. These would
+be on any topic. By contrast "Related in 
+                  Slate
+               " box
+contains links to relevant 
+                  Slate
+                pieces--new or
+old--that are related to the page you are currently reading. We'll also
+continue to list links to the best Internet sites and to pertinent articles in
+the "Related on the Web" box. Look for both boxes at the bottom of most
+stories.
+
+            Have I left anything
+out? I think not. But we're eager to hear what you think about our new look and
+feel. Please address your comments to letters@slate.com. We look forward to hearing
+from you.
+
+         
+      
+   

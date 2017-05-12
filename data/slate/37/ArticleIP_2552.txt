@@ -1,0 +1,181 @@
+
+   
+   
+      
+         
+            Getting Buggy Wit It 
+
+            There I was, late one night
+in the Microsoft software factory, furiously exterminating some of the skankier
+bugs from my areas of Outlook 97, our e-mail program. My skill at writing
+software, I believe, is God-given. My legendary success at squashing bugs, I
+believe, is the result of my tendency to write buggy code. So it was no
+surprise when one of the dozens of software testers employed by the Outlook 97
+team sent me urgent e-mail. He had discovered a giant bug in my area and was
+insistent I inspect it.
+
+            The first
+thing you do when a tester brings you a bug is reproduce it. In this case,
+reproduction would be easy. Step 1: Create an appointment in Outlook's
+calendar. Step 2: Add a conference room to the appointment. So far so good.
+Step 3: Change the date of the appointment to the year 4500. Step 4: Switch to
+the meeting planner page. Step 5 ...
+
+            Istopped reading the tester's e-mail and wrote back.
+Although it was a bad bug, I felt confident I could ignore it for, oh, 2,000
+years or so. But Shuman, the crowds chant, doesn't that mean you willingly
+shipped buggy software? That you deliberately added to the torment of millions
+of computer users who can't get their software to work? Why shouldn't
+Outlook 97 be able to handle appointments in specified conference rooms in
+future millenniums?
+
+            Well,
+folks, I've got news for you: Nothing is perfect, and software is no exception.
+Today's robust software products from Microsoft, Lotus, Borland, Corel, and all
+the rest are too damn complex to be perfect. How complex are they? Microsoft's
+Windows 95 operating system contains more than 10 million lines of code, or
+instructions. Compare that with the 6 million parts in a Boeing 747, 3 million
+of which are fasteners such as rivets. Fasteners are wonderful, but they don't
+interact much with one another. The difficult thing about writing software is
+that all 10 million parts of Windows 95 are tightly coupled. Pop a rivet on
+your 747, and you're still likely to make your destination. But bollix up one
+line of code in Windows 95, and users' computer screens will turn screaming
+blue and crash.
+
+            
+What are bugs, anyway? And what makes them more
+insidious than a few blown rivets? Bugs are errors, somewhat analogous to typos
+or factual errors in newspaper articles, but the difference is that a typo is
+almost never enough to spoil an entire edition of a newspaper, whereas a tiny
+error in a software program can scuttle it. Take the year 2000 bug for example.
+The Y2K bug arises because past programmers expressed years with two digits
+rather than four, so that the year 1915 is written as 15. Thus to the computer,
+the year 2015 looks the same as the year 1915. (Click to find out why
+programmers deliberately created the Y2K bug, and why that wasn't such a crazy
+thing to do.) The Y2K bug is a very bad bug; the one tiny decision about how to
+express dates can bring a whole program to a screeching halt.
+
+            Bugs fall
+into two major categories: crashing and functional. Crashing bugs are so
+naughty that they cause programs to stop functioning. Usually, this results in
+friendly warnings--such as "Illegal Operation" for Windows users or the lovely
+picture of a bomb for Macintosh users. The other type of bug is a functional
+bug--e.g., the Y2K bug--which is subtler in nature. Functional bugs cause
+programs to fail or to give erroneous results. The number of either kind of bug
+is proportional to the size of the program.
+
+            But, as Shuman can tell you, it's easy to write bugs into
+simple, short programs, like one designed to find a single word in a sentence.
+Actually, it's not that simple an operation. You must write perfectly logical
+statements in a language that the computer can understand. If you were to write
+this program in C, a popular programming language, it would take three lines of
+code to tell the program to look at the beginning of the word and the beginning
+of each sentence. Next, you'd instruct the computer to match each character in
+the word you are searching for to the corresponding characters in the sentence.
+If the letters are the same, you continue. This would take five lines of code.
+Then you would have to confirm you have gone through all the letters in the
+word successfully. Chalk up two more lines. Then you'd need to see if there are
+any letters in the sentence left to compare. Two lines of code. Lastly, you
+would have to inform the user of your program what happened. Another three
+lines--15 lines of code to find one word! Shuman is exhausted just thinking
+about it, and he hasn't even started creating bugs! Dropping one essential
+instruction or writing the lines of code in the wrong order could spell
+destruction for my little program. (For all the gory details on how I actually
+wrote this program in C, click .)
+
+            Civilians
+assume software companies spend most of their time writing software. Wrong!
+They spend most of their time testing software! After developers write a
+few lines of code, we test it for bugs and sit down with our testers to imagine
+all the ways the program will be used. Good testers make gnarly demands on the
+code, inventing disaster scenarios worthy of Hollywood. (My favorite tester
+routinely yanked the power cord out of the computer during Outlook operations
+to see how the program handled loss of power.) Testers run the software on
+different PCs--how will it work on a Hewlett Packard computer vs. a Packard
+Bell? They print with old printers. They enter thousands of lines of text into
+small fields. One tester placed most of the text of the King James Bible into
+an e-mail message, sent it to himself, and then replied to the e-mail. Outlook
+choked at this point, demanding a day of rest. God was watching. Here at
+
+                  Slate
+                we rarely tug on the power cord to test our code, but we do
+test the site on a variety of browsers.
+
+            
+At the beginning of a software project, code is
+buggy, because we're still getting different parts of the program to cooperate.
+A line of code that tells the program how to print may clash with the code that
+tells the program how to draw the screen. As testers hunt bugs, developers
+conspire with the marketing department to add features to the product, which
+breeds more potential bugs. Adding new features to a stable program can be
+dangerous. Developers can create bugs faster than testers can capture them, and
+testers can capture them faster than developers can kill them, so the only way
+to finish a product is to stop adding features and start paying attention to
+the bugs.
+
+            
+Preventing developers from adding features is not as easy as it sounds. They
+love to build things--not to fix things. One way to deter them is to break
+their arms with a baseball bat. Given infinite time, developers would prefer to
+add feature upon feature and never release their product. But marketing people
+are the worst offenders when it comes to wanting to add new features,
+generating loud choruses of "NO" even from otherwise enthusiastic
+developers.
+
+            Agood tester is like the Roach Motel, corralling bugs and
+ensnaring them. "Look what I caught!" the tester meows as he drops the vermin
+on the developer's doorstep. Testers are as vain about finding bugs as I am
+about squashing them, hence the excessive pride of my tester who uncovered the
+year 4500 bug.
+
+            Having
+found a bug, it's not easy to find what caused it. Where is the bad assumption
+that got us into trouble? Some bugs are hell to track down. One crashing bug in
+Outlook would reproduce only on a Gateway computer equipped with a Matrox video
+card. Eventually, we tracked the bug down to one single line of code that
+failed because it assumed all graphics cards are created equal. They are
+not.
+
+            
+Bug fixing is time consuming. Developers must
+review every line of code, one at a time. They often deploy programs called
+"debuggers," which allow them to peer into the innards of the software as it
+runs. As developers kill the bugs, they incorporate the solutions into a daily
+"build" of the program and test the build to make certain the solutions don't
+cause additional bugs. Outlook 97 went through several thousand builds before
+it was released, each build bringing us infinitesimally closer to
+perfection.
+
+            As we
+approach perfection, though, the law of diminishing returns kicks in. Are the
+existing bugs fatal defects, or can we live with them? We developers have a
+name for bugs we can live with: "known issues." By the time Outlook 97 was
+released in November 1997, I suspect I was intimate with every one of its known
+issues. I also suspect that 99 percent of all bugs reported by users to
+software companies have already been noted and prioritized for fixing by some
+late-night team of code warriors.
+
+            The worst bug is a "show stopper" bug, the bug that will
+croak the entire program. When a show stopper is discovered, we drop everything
+and find a fix. But we make the absolutely smallest necessary change to kill
+the bug so that the other parts of the system can continue to work, oblivious
+to the chaos around them.
+
+            Developers
+seek a balance between "it's done" and "it's perfect" when writing software.
+But it's difficult to know when to stop. You are always only a few late nights
+away from perfection. Where refining a 747 is, shall we say, somewhat involved,
+software writing is powered on caffeine and little more. In fact, one
+enterprising young developer strung out on Mountain Dew eventually fixed the
+year 4500 bug in Outlook 98, making it safe for everyone making appointments in
+the next several millenniums.
+
+            
+               If you
+missed our links in the article, click to read about why programmers created
+the Y2K bug and for a "simple" program in C.
+            
+
+         
+      
+   

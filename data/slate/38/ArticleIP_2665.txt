@@ -1,0 +1,135 @@
+
+   
+   
+      
+         
+            Cybertests
+
+            The paper-and-pencil
+standardized test, that mainstay of meritocracy, soon will join the manual
+typewriter, vinyl records, and communism on the scrap heap of the
+20 th century. Computerized exams are rapidly replacing it. This
+October, business school applicants become the latest to put down their No. 2
+pencils and take the Graduate Management Admissions Test on-screen.
+
+            The
+technology behind the new tests is remarkable. Using a simple form of
+artificial intelligence, the computer selects questions tailored to the
+test-taker, shortens the test, and displays results instantly. These changes
+make some people nervous, but they are nothing compared to the technology's
+uses in medical care. Researchers are employing the same advances in artificial
+intelligence to create a computer program that interviews patients. And,
+believe it or not, it could make your care better.
+
+            In 1994, nurses became the first to switch from paper to
+computer for their national licensing exams. Since then, architects,
+pharmacists, stockbrokers, and even electrologists (the hair-removal people)
+have made the leap. Aspiring graduate students can already opt to take the
+Graduate Record Examination on computer, and the paper GRE will be eliminated
+in 1999. Physician exams will likely go micro next year. The SAT, required for
+admission by most colleges, will convert in 2003, at least in urban areas.
+
+            Test
+makers are switching for several reasons--printing costs are lower for
+computerized tests, the technology is there--but especially because of
+complaints about the length of the old tests. The paper GRE and GMAT took five
+hours; nursing exams, two days. They had to be that long, though, because a
+paper test is dumb. It can't select which questions to ask. In order to
+identify your exact level of, say, math ability, it must ask dozens of
+questions that range from ridiculously easy to sort-of-easy to impossibly hard.
+Twenty math questions might suffice to rank you in the top or bottom half of
+your cohort, but admissions committees want to know whether you're in the
+43 rd , 50 th , or 89 th percentile.
+
+            
+The breakthrough came when test designers (or
+"psychometricians," as they like to call themselves) programmed computers to
+select questions based on your previous answers, just as in "." When you get a
+question right, the computer asks a harder one, and an easier one when you get
+one wrong. If you're at the 63 rd percentile, you'll get all the easy
+ones and miss all the hard ones, so the computer skips most of both groups and
+sticks to middle-level questions. That saves time (the new nursing exam takes
+less than two hours, on average) and also makes tests more accurate, since the
+computer can ask more questions around your level to ensure you really are in
+the 63 rd percentile.
+
+            Many
+people fear the new tests. Enrollment for the final paper GMAT, given this past
+June, jumped 25 percent. Others claim the tests are unfair. (For some typical
+complaints, click .) The change in standardized testing is just a mouse step,
+however, compared with what intelligent question-asking programs will soon do
+for medicine. Using the same technology, researchers are now developing
+programs to interview patients and measure, sometimes better than doctors can,
+how well treatments are working.
+
+            For some diseases, such as diabetes or high cholesterol,
+blood tests and other tools help doctors evaluate and fine-tune treatment.
+However, many other diseases--arthritis, urinary trouble, depression--have no
+such tests, so doctors had to rely on personal experience to evaluate
+treatments. Then a new school of "outcomes researchers" suggested an answer:
+Regardless of your disease, they argued, effective treatment should improve
+your quality of life. So why not devise a standardized test to measure the
+quality of patients' lives?
+
+            A few
+years ago, outcomes-research guru John Ware designed such a test, the SF-36.
+The test asks things like "Does your health limit you in walking a block?
+Several blocks? More than a mile?" (If you're curious about your own SF-36
+score, click here.) Questions cover pain, mood, physical function, and the
+like. Doctors can give patients the test before and after treatment for almost
+any disease. It's no substitute for a doctor's evaluation, but it can show how
+you're doing in relation to your own previous condition and to others similarly
+treated. Research shows, for example, that patients' SF-36 scores consistently
+improve after hip-replacement surgery (for severe arthritis) and prostate
+surgery (for trouble urinating) when they're done right.
+
+            
+Not all treatments are as dramatic as hip
+replacement, however. Medicine often produces subtler results that may be
+difficult for a five-minute test like the SF-36 to capture. A change in
+arthritis medication may enable a patient to button his shirt, or to play
+singles tennis as opposed to doubles. To pick up these changes, a paper test
+would have to ask more detailed questions, and soon would become impractically
+long. The GRE and GMAT designers showed, however, that computer-tailored tests
+might help. So, if a patient answers that he has trouble getting out of bed, a
+computer could skip questions about vigorous activity and focus on questions
+about ordinary daily activities.
+
+            With
+funding from Kaiser Permanente, the HMO giant, Ware is designing just such a
+test, a kind of standardized computer/patient interview. He expects that, in
+five years, 5 percent to 10 percent of all patients will take the test during
+doctor visits. He even envisions giving it at home via Internet TV and, if
+patients want, having the computer alert their doctors if the test finds their
+condition worsening.
+
+            Ware's group has developed the mental-health segment first.
+It asks questions like: "Have you wanted to harm yourself? How often do you
+feel downhearted and blue? Have you had a lot of energy?" These alone could
+have valuable uses. In preliminary studies, for example, the questions can show
+if Prozac is working or not. And the computer test may be better than doctors
+at recognizing problems in mentally healthy patients. For instance, the test
+can catch when drugs cause slight fatigue or make it harder to enjoy life
+fully, as some heart medications can. Doctors often miss these effects. The
+test may make them think twice about medicines that take the fun out of
+patients' lives.
+
+            In the
+future, computers might even make up test questions and conduct personalized
+interviews of job applicants, college applicants, and even patients. Will that
+be good? Well, any technology can be used for good or ill. If doctors start
+using computer interviews as an excuse to talk to patients less, medical care
+will deteriorate. Patients could certainly get annoyed by having to take even a
+five-minute computer test every time they see a doctor. But artificial
+intelligence has enormous potential to make care better. The question is, do we
+trust Kaiser to use it that way?
+
+            
+               Does
+computerization give ETS an unfair advantage? If you missed our link earlier,
+click .
+            
+
+         
+      
+   

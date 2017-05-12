@@ -1,0 +1,150 @@
+
+   
+   
+      
+         
+            Server Time Out
+
+            Last month, the Federal
+Communications Commission dialed in a $1.275 billion subsidy to help schools,
+libraries, and rural health care providers purchase Internet service. The
+program, which will help pay for Internet access and internal data wiring at
+the educational and health facilities, resurrects a two century old debate in
+the political economy: What services should the federal government
+subsidize?
+
+            Under
+the rubric of "universal service," the feds already require business and urban
+phone customers to subsidize rural customers to the tune of $1.7 billion. Some
+states mandate phone discounts for the poor and make up the difference by
+boosting other users' bills. In the name of universal service, the federal
+Rural Electrification Administration spends $33 million subsidizing electric
+power for upcountry customers. And since its inception, the government has
+subsidized postal service to rural addresses at the expense of urban
+customers.
+
+            
+Universal service's original proponents
+maintain these services are so essential to modern civilization that it would
+be unconscionable to allow the market to price them beyond the reach of the
+less affluent. In that spirit, the government currently believes the
+Internet--which just a few years ago was considered a luxury --is now a
+necessity .
+
+            The
+merits of universal telephone and postal service aside, there are several
+strong arguments against an Internet subsidy:
+
+            1) You can
+live and learn quite handsomely without access to the Internet.
+
+            2) Many of
+the poorer rural communities that have applied for the subsidy lack the high
+speed phone lines that make the Internet worthwhile, keeping them Internet
+have-nots.
+
+            3) Where
+fast rural lines are available, schools and libraries can scarcely afford
+textbooks and periodicals, let alone new computers and training for Web
+surfing.
+
+            4) However well-meaning
+the new subsidy, technology is moving so fast that the old regulatory
+apparatus--based on permanent scarcity and obstacles of distance--don't apply
+to the Internet.
+
+            If the
+federal government is serious about making Internet access affordable to
+schools and libraries, it should disconnect this program.
+
+            
+The Internet "e-rate" subsidies, as they're
+known, were authorized under the 1996 Telecommunications Act and are funded
+with new taxes on long-distance telephone companies, the size of each company's
+contribution depending on its market share. AT&T and MCI have protested the
+tax and pledged to pass the cost on to consumers: MCI charges 5 percent on all
+out of state long-distance calls, and AT&T charges a flat rate. The FCC has
+received 30,000 e-rate applications and expects to start handing out funds this
+summer.
+
+            In
+places like rural Alabama, Mississippi, Louisiana, New Mexico, and Arizona,
+where there are no high speed Internet lines, schools might be willing to
+settle for POT (plain old telephone) connections to the Internet at 56 kps. But
+few Internet service providers serve rural America, because the current number
+of consumers is too small for them to make money. For these communities, the
+FCC's e-rate department recommends dial-up services like AOL that offer 800
+access at a pricey 10 cents a minute premium. If you connect 12 hours a day and
+six days a week to the Internet via AOL's 800 line, you'll pay $22,727.40 a
+year (assuming an AOL service rate of $21.95 a month).
+
+            
+A library with the maximum allowable e-rate
+subsidy of 90 percent would still find itself paying a monthly Internet bill of
+$186. That might not sound like a lot of money, but it's $186 many strapped
+local libraries don't have. And if they did have it, they'd spend it on
+periodicals, new books, or capital improvements. As previously mentioned, the
+e-rate discount won't cover any portion of the hardware bill either, leaving
+the local community responsible for PCs, modems, and training for teachers and
+supervisors.
+
+            The
+e-rate plan also mistakenly imagines that high speed, affordable Internet
+service will never reach rural America without government help. Perhaps the
+e-raters think technology is still crawling along as it did when Theodore Vail
+cut his monopoly deal. Instead, the cost of computer gear is falling
+precipitously, and affordable bandwidth--the measure of data transmission--is
+growing at an exponential rate. (Click for a graph that illustrates the growth
+in bandwidth.)
+
+            
+The Greenlee County, Ariz., public library
+illustrates the money and technology woes of rural institutions. The three
+libraries in Greenlee (population 8,000) operate five PCs, one of which is
+dedicated to public access--word processing, CD-ROM access, and the like.
+Greenlee librarians are the only ones who can access the Internet, and they do
+it sparingly, over the libraries' one phone line to a free Arizona State
+Library connection. How much could Greenlee's libraries afford to pay to bring
+greater Internet access? "Anything that costs more than 5 cents is
+prohibitive," says Head Librarian Rebecca Oliver. Next year's library budget of
+less than $100,000 must cover four staffers' salaries and other expenses.
+
+            Today,
+nobody disputes the argument that Vail's telephone monopoly stifled
+technological innovation. The first round of telecommunications deregulation in
+the '70s that opened long-distance service to competition benefited consumers
+and spurred innovation. Likewise, since the 1982 court order that dismantled
+the AT&T monopoly, the market has produced new and affordable technologies
+that have revolutionized telephone service. Do we really want to ghettoize
+rural Internet service as a welfare operation when the best telecommunications
+policy seems to be to let the market work instead? Cable and satellite TV
+didn't require subsidies to serve rural customers. Why should the Internet?
+
+            
+Already, technologies are emerging that reduce
+Internet access costs and increase bandwidth for rural users. DirecPC and other
+companies now provide Internet access via satellites that boast download access
+speeds of up to seven times that of POT connections. The cost is $200 for the
+satellite dish hardware and $29.95 a month for service. Several companies, such
+as @Home and Time Warner, are marketing high speed Internet access over cable
+TV lines, with a national rollout of the service only a couple of years away.
+Currently, cable lines run past 97 percent of U.S. homes, and many small
+communities have a cable TV provider in their central districts where schools
+and libraries are. One company has even experimented with transmitting data
+signals over common electric power lines--and at speeds of up to 1 megabit a
+second, which is 150 percent faster than even DirecPC. If this technology
+proves successful, it would make much of the telephone-based part of the
+Internet obsolete almost overnight.
+
+            If the last two decades of
+deregulation have proved anything, it is that subsidies are easier to avoid
+than they are to repeal. Also, subsidies reallocate resources that would be
+better spent elsewhere. As bandwidth continues to grow exponentially and the
+price of hardware continues to fall, rural schools, institutions, businesses,
+and individuals will become a lucrative market. The e-rate might look like the
+answer to rural and poor America's technology problems, but it isn't. Good
+things come to those who wait.
+
+         
+      
+   

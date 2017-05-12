@@ -1,0 +1,147 @@
+
+   
+   
+      
+         
+            Will Windows Crash?
+
+            Friday
+evening, U.S. District Judge Thomas Penfield Jackson issued his findings of
+fact in the Microsoft antitrust case. He ruled that Microsoft is a monopoly,
+that it has abused its monopoly power, and that this abuse has harmed
+consumers. "For Microsoft's image, the damage is incalculable," said the
+Wall Street Journal . "It's hard to imagine how the findings … could have
+been worse news for Microsoft," added the Washington Post . The media,
+like the company itself, seem crippled by a failure of imagination. Things can
+get worse for Microsoft. Much worse.
+
+            From
+the outset, Microsoft (which owns 
+                  Slate
+               ) and the press corps have
+treated the case as a bipolar debate: Either Microsoft has engaged in illegal
+business practices, or it hasn't. Among other things, the Justice Department
+accused the company of stifling competition by requiring business partners to
+sign exclusionary contracts, colluding with Netscape to divide the browser
+market, and eventually bundling Internet Explorer with Windows to wrest control
+of that market. Microsoft could have conceded some of these issues--for
+example, that its contracts were unnecessarily exclusive--or it could have
+denied that any of its practices were illegal. The company chose the latter
+course.
+
+            In a
+bipolar world, that calculation made sense: At best, Microsoft would get to run
+its business as usual, and at worst, rather than surrender prematurely, the
+company would be ordered by the judge to change some of its practices. What the
+company failed to grasp is that the two-sided clash in the courtroom left open
+a third possibility in the financial press and the stock market. Microsoft says
+none of its practices are illegal. The Justice Department says
+some of Microsoft's practices are illegal. But a third camp, led by
+Microsoft's competitors, says all the company's practices are
+illegal--and if that perception prevails, true or not, investors may conclude
+that Microsoft can't thrive once it is stripped of those practices by the
+courts or by a settlement. The Justice Department can only hurt Microsoft. The
+stock market can kill it.
+
+            Until
+now, the notion that Microsoft owes all its success to ruthless marketing
+rather than technical ingenuity has been a fringe view. But that view gained
+momentum Friday with the judge's declaration that "it is Microsoft's corporate
+practice to pressure other firms to halt software development that either shows
+the potential to weaken the applications barrier to entry or competes directly
+with Microsoft's most cherished software products." Justice Department
+antitrust chief Joel Klein underscored that sentence in a press conference
+after the ruling. Nightline , the New York Times , and other media
+outlets followed suit. On Nightline , Klein called the case "a story of
+predation, of anti-competitive behavior, and monopolistic abuse. … It's a
+mighty powerful story about consumer harm and predatory practices."
+
+            
+Discussing the ruling on television over the weekend, Klein repeatedly
+distinguished Microsoft's "predatory" practices from its "innovations," which
+he praised. But Microsoft's corporate enemies aren't interested in this
+distinction. They want to convince the public, politicians, and the financial
+markets that the "corporate practice" cited in the judge's opinion isn't just
+Microsoft's bad habit, but Microsoft's soul. They want to equate the "story" of
+the trial--predation--with the story of the company.
+
+            
+Immediately after the opinion was released, Ed Black, a Microsoft antagonist
+who heads the Computer and Communications Industry Association, told reporters
+in front of the courthouse: "The behavior they [Microsoft] are accused of,
+which the judge seems to be finding in fact that they did, is not behavior off
+to the side of their business. It reflects a fundamental approach of the core
+business strategy of the company, which is to leverage and utilize their
+monopoly to expand into neighboring markets, and to use that monopoly as a
+critical tool of leverage with all of their business partners, customers, and
+competitors. Because it is so central to the way they do business … it will be
+very hard for this company to make slight adjustments to their behavior and in
+any way comply with the spirit of the antitrust law." Minutes later, Black told
+viewers of CNN's Crossfire that "Microsoft really was created" from "the
+old IBM monopoly" and that the company relied not on "innovation" but on
+illegal strong-arm tactics, like in The Godfather . Crossfire
+co-host David Corn joked that Microsoft even "stole the operating system from
+Apple."
+
+            By
+itself, this account of Microsoft's livelihood is a mere insult. Combined with
+the antitrust case, however, it threatens mortal injury. The combined message
+to investors is that Microsoft will now be forced to fight fairly--and that it
+can't. Microsoft "will have to compete on the merits of their products," Corel
+Vice President Kevin McNeil told the Wall Street Journal . Microsoft is
+"not an innovator but a fast follower," anti-Microsoft futurist Paul Saffo told
+the Los Angeles Times . In a press release, Sun Microsystems argued,
+"Microsoft should be prohibited from buying the distribution channels of the
+future (e.g., cable and wireless) and from buying rather than inventing
+technologies"--a constraint designed to handcuff Microsoft in a high-tech
+economy driven by timely acquisitions.
+
+            The
+image of Microsoft as a crippled and helpless giant is increasingly penetrating
+the mainstream media. "In Courtroom and Beyond, Software King Is at Risk,"
+warned the front page of Sunday's Washington Post . The Los Angeles
+Times published a virtual obituary of Microsoft: "Its strategy of buying up
+rivals to absorb their technology no longer works as well as it has in the
+past, in part because of the greater likelihood of firmer antitrust scrutiny of
+such deals. … Jackson's finding that Microsoft commanded a monopoly--and the
+implication that he will rule shortly that the company broke the law--may well
+hobble its efforts to meet [new] challenges. … [A]s much as [Bill] Gates is
+widely viewed as a business genius, his company is seen as technologically
+mediocre."
+
+            
+Microsoft has understood all along that its business image is as important as
+its political image. At every opportunity, its spokesmen have reiterated their
+commitment to quality and innovation. But they have failed to foresee a
+collision between this message and their defiance in the antitrust case. By
+insisting that everything Microsoft has done is fair competition, they risk the
+possibility that the public, if it accepts the judge's finding to the contrary,
+will conclude that Microsoft doesn't know the difference. The ultimate danger
+is that investors will conclude that Microsoft, stripped of its ability to
+exploit its monopoly power, doesn't know how to "compete."
+
+            
+Microsoft has stuck to this all-or-nothing strategy even in the wake of the
+judge's findings. "The American legal system ultimately will affirm that
+Microsoft's actions and innovations were fair and legal," Gates declared.
+Microsoft Senior Vice President Bill Neukom added, "We've always competed
+fairly, and we will continue to do that. … We think that Microsoft's actions
+have been entirely normal competitive behavior." At the end of a conference
+call with reporters, a Time correspondent asked, "Does Microsoft plan to
+change any of its practices based on this court's findings today?" Microsoft
+Chief Operating Officer Bob Herbold replied, "The answer to that question is
+no."
+
+            Microsoft may be right in
+claiming that it has done nothing wrong. Even if it isn't, it may succeed in
+selling that argument to the public. But if it fails, the stakes are enormous.
+In the courtroom, the worst that can happen is an array of sanctions--possibly
+even a corporate breakup--designed to force Microsoft to compete "on the
+merits." In the stock market, however, the damage can get much worse. Investors
+can decide not only that Microsoft owes its success to the abuse of monopoly
+power, and not only that the courts will strip the company of this ability, but
+that Microsoft doesn't know any other way to survive.
+
+         
+      
+   

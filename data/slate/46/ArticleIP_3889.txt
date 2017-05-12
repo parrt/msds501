@@ -1,0 +1,140 @@
+
+   
+   
+      
+         
+            
+
+            
+               Address your e-mail to
+the editors to letters@slate.com. Please include your address and daytime phone
+number (for confirmation only).
+            
+
+            
+               The Case
+Against the Case Against the Case Against Microsoft
+            
+
+            In "The Case Against the Case
+Against Microsoft," Rick Rule wrote: "[M]ore convenient, seamless access to
+the Internet from the desktop will help people to use the Internet. It is hard
+to see any anti-competitive danger that justifies denying people these
+benefits."
+
+            I
+completely disagree with the implication and reasoning here. It is the purpose
+of antitrust law to look to the future. Microsoft is giving away Internet
+Explorer 4.0 now, but who thinks they would have acted this way if Netscape had
+not existed? Would Microsoft have added such rich features if they were not
+emulating Netscape? I think that industry watchers know the answer is no. If
+Microsoft can eliminate their competitor's viability by flooding the market
+with a free product, the long-term result for the common person will be a loss.
+The whole point of this area of law is to examine such patterns. If Rule's idea
+were right, then companies from other countries, which, for example, flood the
+chip market with underpriced products, would simply be acting in the consumer's
+interest, even if they are seeking a stranglehold on the market. The challenge
+of antitrust law is to grapple with such questions.
+
+            -- Rhett
+Savage Portland, Ore.
+
+            
+               PC OS
+BS
+            
+
+            I found Rick Rule's "The Case Against the Case
+Against Microsoft" to be an insulting farce. There are numerous misleading
+statements that, to me, demonstrate a merely superficial understanding of the
+situation. Rule describes Microsoft's rise to prominence as being a result of
+an economic phenomenon known as "network externalities." I believe that
+although he understands the economic phenomenon, he completely ignores how
+Microsoft relates to it.
+
+            Microsoft dominates the PC
+operating system market. The next paradigm shift was supposed to be the
+emergence of the Internet. Microsoft is leveraging the power it has in the PC
+OS market in order to minimize the damage to its core business (the Windows
+software). How is this possible? Well, browsers are not full-fledged operating
+systems. They were never intended to be the software that gives fundamental
+directions to a PC, and I doubt that they ever will be. They still run as
+another layer on top of the PC OS, the most dominant of which is Windows 95.
+Rule mentions that browser software is already--or in the near future will
+be--competing with the OS market, and he interprets that to mean that the OS
+and the browser are the same in a functional sense.
+
+            That is false ! The
+browser software circumvents OS considerations by having a common interface no
+matter what OS you're using. That was the beauty of it (and the nightmare in
+Bill Gates' mind, because you don't have to be running Windows software to run
+it). You could be using a DEC, a Sparc Workstation, a Mac, or a PC, and
+Netscape is still Netscape. It works the same and is compatible with Netscape
+running on another system. What Microsoft is trying to do is latch a separate
+functionality (Internet functionality) onto its existing OS, and claim it is a
+modification of the OS. How intelligent people can buy that argument is beyond
+me. As far as I understood it, Windows didn't run on my Mac. Windows didn't run
+on a Sparc. Yet now MS IE will run on my non-PC computer? Do the two products
+sound even vaguely similar? Rick Rule, you are a fool for buying that argument.
+It is this very basic misunderstanding that allows you to delve into
+lawyer-speak arguments as to why MS is just a maligned giant.
+
+            Through a
+decade of good luck and leveraging its lead in the PC OS market, Microsoft has
+unfairly eliminated competition. The only real test that this company has faced
+in recent memory is due to the emergence of the Internet, and Microsoft is once
+again trying to eliminate this threat unfairly. Shame on you for defending this
+unfairness.
+
+            -- Venkatesh
+Abboy
+            
+
+            
+               Shrink
+Rap
+            
+
+            Larissa MacFarquhar's
+"Diagnosis: Totally
+Sane," on criticism of the DSM , does a nice job of answering
+frequently leveled charges. However, she did neglect to mention a more
+interesting controversy within the mental-health community regarding the nature
+of diagnosis. The DSM is a categorical model--either ya got it or ya
+don't. However, many mental-health professionals argue that a
+dimensional model makes more sense and would more closely mirror the
+real world. Of course, such a diagnostic system may prove to be more unwieldy
+in the end and to annoy insurance companies (who hold frightening sway over all
+health-care endeavors), and it is politically unlikely that such a dramatic
+shift will occur any time in the near future.
+
+            I must also take exception
+with MacFarquhar's use of the term "disease" in referring to mental disorders.
+By definition, a disease is an entity that has a known etiology, and as
+she noted early in her article, the DSM avoids such issues, choosing to
+focus almost exclusively on description. Mental disorders should not be
+considered "diseases," though many may have some biological underpinnings.
+
+            
+Laypersons should realize that the DSM and its diagnostic categories are
+a human construction, created in order to describe the variety of human
+emotional and mental disturbances. Such a system provides mental-health
+professionals--who, in addition to psychiatrists, include psychologists, social
+workers, and a number of other disciplines--with 1) a common language by which
+they may communicate with one another and 2) a logical starting point for
+therapeutic intervention. Without some guiding framework (even a framework
+troubled by more political maneuvering than MacFarquhar reported),
+mental-health work would be an intellectual wilderness.
+
+            -- Mike Tabacchi
+            
+
+            
+               Address your e-mail to
+the editors to letters@slate.com. Please include your address and daytime phone
+number (for confirmation only).
+            
+
+         
+      
+   

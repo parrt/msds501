@@ -1,0 +1,148 @@
+
+   
+   
+      
+         
+             The Torah Codes, Cracked
+
+            I'm a rationalist and a skeptic, someone who safely
+separates faith from reason. But when I read a scientific paper titled
+"Equidistant Letter Sequences in the Book of Genesis," I confess I felt a
+strong urge to grow side-locks and a long beard and start atoning for my years
+of doubt. The article, published in 1994 in a prestigious, peer-reviewed
+journal called Statistical Science , argued with unnerving force that the
+first book of the Bible contains embedded codes that predict events that long
+postdate its writing and that these codes are, statistically speaking, "not due
+to chance." As I wrote in 
+                  Slate
+                two years ago (see ""), the
+paper's hypothesis, if correct, would all but prove both the existence of God
+and the divinity of the Torah (the first five books of the Hebrew Bible).
+
+            The paper startled me and many others. People
+became Orthodox Jews because of the codes. I know of one man who held off
+circumcising his son until the paper was published. It spawned a runaway best
+seller, Michael Drosnin's The Bible Code . It became a recruiting tool
+for ultra-orthodox Jewish yeshivas. And it amused, then frustrated,
+mathematicians worldwide. What made the codes especially eerie was that, while
+scientists were almost universally skeptical of them, nobody could figure out
+what was wrong with them. No one had published a rebuttal in a peer-reviewed
+journal. As long as that remained the case, even rationalists like me had to
+consider the possibility that science could support the most radical religious
+conclusions.
+
+            But the Torah codes'
+time is finally up. In the current issue of Statistical Science ,
+Australian mathematician Brendan McKay and three Israeli colleagues have
+convincingly debunked them, and the former editor of Statistical Science
+who published the original paper has endorsed their rebuttal. For those of us
+who were freaked out by the codes, the new paper comes as a relief.
+
+            The codes' rebuttal has taken so long because the science
+behind the original paper is very sophisticated. (One of the authors, Hebrew
+University professor Eliyahu Rips, is a well-respected mathematician.) The
+original paper sought to test the anecdotal observation that pairs of
+conceptually related words tend to appear in close proximity to one another in
+the Torah, coded in what are called equidistant letter sequences. An ELS is a
+string of letters compiled by pulling letters out of a text at regular
+intervals. For example, if you start with the first letter of this paragraph
+and read only every fourth letter, you will find the word "TORT." Every text
+contains many such "codes," so the question was whether the observation of
+codes with apparent meaning in Genesis was a deliberate message from the
+almighty or mere coincidence.
+
+            To test whether the
+Genesis ELS were intentional, Doron Witztum and co-authors Yoav Rosenberg and
+Rips used a computer to search Genesis for ELS containing the names of famous
+rabbis and their dates of birth or death. These rabbis were all born long after
+Genesis was written, so their names could not have been encoded on purpose by
+any human author. Yet in the Genesis text--unlike in control texts such as a
+Hebrew translation of War and Peace --the rabbis appeared on average
+closer to their own dates than to the others'. This seemed to show that someone
+had actively encoded the text--someone who knew beforehand when rabbis would be
+born or die.
+
+            After years of onerous testing and retesting, McKay and his
+colleagues--Dror Bar-Natan, Maya Bar-Hillel, and Gil Kalai--have found the
+serious methodological flaws the peer reviewers missed. First, McKay et al.
+note, the codes are hypersensitive to small changes in the data. Excluding only
+four of the 32 rabbis essentially eliminates the effect, for example.
+
+            The core of their
+critique focuses on the manner in which the rabbis were named in the
+Witztum-Rips-Rosenberg paper. The names of medieval rabbis are not fixed in the
+way that modern names are; the great rabbi Moses Ben Maimon, for example, is
+often called Maimonides or the Rambam. Searching for the rabbis' ELS,
+therefore, required choices about what names to use for each particular rabbi.
+Witztum and Rips asked a consultant to compile appropriate appellations for
+each rabbi, but the rebuttal paper argues that the process used by this
+consultant was sufficiently subjective as to bias the results. (There is
+something indisputably bizarre in the spectacle of distinguished mathematicians
+squabbling about the correct names of 14 th -century rabbis.)
+
+            In order to demonstrate that "data tuning" alone could
+account for the effect, McKay and his co-authors made their own alternative
+list of appellations for the rabbis, a list they describe as "of quality
+commensurate" with Witztum and Rips'. This alternative list produced no
+effect in Genesis but a huge effect in War and Peace . Then, McKay and
+co. sought to produce the most accurate list they could, using their own
+consultant. With this list, they found no statistical evidence of codes in any
+text.
+
+            Further evidence of
+tuning was found in other decisions Witztum and Rips made about their data. The
+authors of the first paper erred, McKay and his colleagues claim, in how they
+chose which rabbis to include. The rabbis were supposed to be chosen by an
+objective criterion--the length of their entries in a particular
+encyclopedia--but because of the "careless manner" in which this was carried
+out, rabbis were included who should not have been, while others were wrongly
+excluded. Birth and death dates were also flawed. The authors collected dates
+from a wide variety of sources, but apparently did not establish firm rules to
+decide among disputed dates. McKay and his co-authors also claim that aspects
+of the experimental design (such as the way distances were measured between
+rabbis and dates) were tuned. When McKay and his colleagues varied the
+experimental method, the choices of dates, and the way dates were expressed,
+the results almost invariably deteriorated.
+
+            The rebuttal authors note still other problems in the
+original paper. The Torah's text has varied over the centuries, and when
+dealing with ELS, tiny variations can be ruinous. Yet when McKay et al.
+compared the text Witztum and Rips used to other Torah texts--some of which are
+probably more historically reliable--the Witztum and Rips text produced
+the strongest results. The authors also note that even using the flawed
+Witztum-Rips methodology, no book of the Torah besides Genesis shows any effect
+at all.
+
+            McKay and his colleagues
+do not accuse the original authors of fraud, speculate on how their data-tuning
+took place, or ask whether the tuning was consciously done. But they conclude
+that all the choices available to Witztum and Rips created "wiggle room," thus
+permitting the authors' biases to corrupt the results. "All of our many earnest
+experiments produced results in line with random chance," they conclude. "In
+light of these findings, we believe that [the] 'challenging puzzle' has been
+solved." For all but the true believers, the publication of the rebuttal paper
+seems likely to end the Torah codes debate.
+
+            But for the true believers, of course, the phenomenon was
+always more than a mere "puzzle," and they are not about to roll over. Rips was
+sufficiently enraged by Statistical Science 's acceptance of the rebuttal
+paper that he retained a lawyer, who advised the journal that "the accusations
+in the article about to be published ... are untrue and libelous of Dr. Rips."
+Rips sought a delay in publication and the chance to respond to the critique in
+the same issue. ( Statistical Science rejected his request but will
+consider publishing his formal comments in a later issue.) Rips contends that
+the rebuttal paper misrepresents the original experiment's methods and that it
+ignores subsequent tests that he regards as immune from data-tuning charges. He
+wrote me in an e-mail, "I believe that the evidence for the Torah Codes is now
+stronger than ever. I find the paper by the critics more than extremely
+unfair."
+
+            Those who want to believe in the Torah codes will
+always be able to find ELS that impress them. But there's a difference now. To
+believe today that the almighty wrote the Torah is once again, as it should be,
+a matter of faith. It's not a conclusion that can be forced on me--or anyone
+else--by statistical science.
+
+         
+      
+   

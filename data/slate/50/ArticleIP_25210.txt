@@ -1,0 +1,146 @@
+
+   
+   
+      
+         
+             Monomoney Mania 
+
+            A couple of days ago my CW
+alarm starting buzzing furiously. For something like the sixth time in a month,
+a businessman I was talking to had just declared, in the tones of someone
+stating a profound insight, that the modern world economy no longer has room
+for scores of different national currencies--that the inexorable logic of
+globalization will soon force most countries to adopt the dollar, the euro, or
+the yen as their means of exchange. This particular speaker was Latin American,
+and was clearly influenced by the recent discussion of "dollarization" as a
+solution to his region's woes, but I have heard pretty much the same line from
+Asians and Europeans. No doubt about it: A new conventional wisdom has emerged.
+And you know what that means: It's time to start debunking.
+
+            At first sight, it might
+seem obvious that the fewer currencies there are, the better. After all, a
+proliferation of national moneys means more hassle and expense, because you
+keep on having to change money and to pay the associated commissions. It also
+means more uncertainty, because you are never quite sure what foreign goods are
+going to cost or what foreign customers will be willing to pay. And as
+globalization proceeds--as the volume of international transactions rises, both
+absolutely and relative to world output--the cost of having many currencies
+also rises. So why not have fewer--maybe only one?
+
+            There's also the matter of speculation. The financial
+crises that have shaken much of the world all started, at least in the first
+instance, with investors betting that the currency of the afflicted nation
+would fall in value against harder currencies such as the dollar. Why not spoil
+the speculators' game by giving them nothing to speculate about--by replacing
+pesos and reis with portraits of George Washington (or, if you happen to be
+European, with generic pictures of bridges and gates--for more on European
+currency design, see 1997 
+                  Slate
+                piece)?
+
+            But not so fast. There
+are still some very good arguments for maintaining separate national
+currencies. Not only that, while globalization and technological change in some
+ways are pushing the world toward fewer currencies, in other ways they actually
+reinforce the advantages of monetary pluralism.
+
+            The classic argument in favor of separate national
+currencies, with fluctuating relative values, was made by none other than
+Milton Friedman. (One appealing aspect of this particular debate is that it
+cuts across the usual ideological lines. European socialists like unified
+currencies, so does the Cato Institute. American liberals like floating
+exchange rates, so do Thatcherites.) Friedman started from a more or less
+undeniable observation: Sometimes changing market conditions force broad
+changes in the ratios of national price levels. For example, right now the
+Irish economy is booming and the German economy's sputtering. Clearly, prices
+and wages in Ireland need to rise compared with those in Germany. Now, you
+could simply rely on supply and demand to do the job, producing inflation in
+Ireland and deflation in Germany. But even a free-marketeer such as Friedman
+realized that this is asking a lot of markets and that it would be much easier
+to keep German prices stable in German currency, Irish prices stable in Irish
+currency, and let the exchange rate between the two currencies do the
+adjusting.
+
+            Friedman offered a
+brilliant analogy. He likened exchange rate adjustment to the act of setting
+clocks forward in the spring. A truly devout free-market believer should--if he
+is consistent--decry this as unwarranted government interference. Why not leave
+people free to choose--to start the working day earlier if and only if they
+feel like it? But in reality there is a coordination problem. It is hard for
+any one business to shift its work schedule unless everyone else does the same.
+As a result, it turns out to be much easier to achieve the desired time shift
+by leaving the schedules unchanged but resetting the clocks. In the same way,
+Friedman argued, a country whose wages and prices are too high compared with
+those abroad will find it much easier to make the necessary adjustment via a
+change in the value of its currency than through thousands of changes in
+individual prices.
+
+            So there is a trade-off. You don't want too many
+currencies--you wouldn't want to have separate dollars for Brooklyn and Queens.
+But when two countries are subject to strong "asymmetric shocks"--which is
+econospeak for saying that if they shared a common currency one would sometimes
+be in a boom while the other was in a slump and vice versa--there is a good
+case for their having separate currencies whose relative values are allowed to
+fluctuate. The question, then, is whether changes in the nature of the world
+economy have altered the terms of trade-off--and if so, in which direction.
+
+            Now the increasing volume
+of international trade and investment does, other things being the same, make
+it more costly to maintain multiple currencies. But other things are not the
+same, and other forces arguably make the optimal number of currencies in the
+world larger rather than smaller.
+
+            Consider, in particular, the effects of modern information
+and communication technology--which may also be the driving force behind
+globalization. Surely that technology has made it easier, not harder, to deal
+with a world of many currencies. For example, European advocates of a single
+currency used to delight in pointing out that if you took a grand tour of the
+European Union, starting with 100 deutsche marks and changing your money into
+local currency at each stop, at the end you would have only something like 40
+marks. This was always a bit of a red herring, since the commissions that
+businesses pay on foreign exchange transactions are far smaller than the fees
+at foreign exchange kiosks. But anyway, who needs to change money nowadays?
+When I go to Europe, I pay for most things by credit card and get petty cash
+from local ATMs, which are happy to accept my BankBoston card.
+
+            Information technology
+also makes it easier for businesses to deal with the risks associated with
+fluctuating currencies. It has always been true that such risks could in
+principle be "hedged" away through ; the problem was that the necessary markets
+were sometimes thin or nonexistent. Thanks to computers, however, investment
+banks now offer a vast array of financial instruments, and hedging has become
+much easier.
+
+            I can't resist mentioning a related issue. When you talk to
+euro enthusiasts, they invariably claim that one of the great benefits of the
+new currency will be "price transparency." Once all European prices are quoted
+in euros, it will be obvious to consumers when a German company is charging
+more than its French competitor or vice versa--whereas it wouldn't be if the
+prices were quoted in francs and marks and had to be converted at the going
+exchange rate. This claim always puzzles me: Here we are in the information
+age, able to process gigabytes of data with a single mouse click--but we
+imagine that people can't multiply and divide?
+
+            The one remaining question is that of currency
+speculation--fear of speculators, not the desire for efficiency, is what has
+led Argentina to talk seriously about replacing pesos with dollars and made
+dollarization at least a topic of discussion elsewhere in Latin America. But
+while currency speculation may have had disastrous impacts in some countries,
+in others letting the currency drop seems to have been just what the doctor
+ordered. Australia's floating dollar has apparently allowed the island
+continent to sail almost unscathed through the Asian crisis. Even in Brazil it
+appears that fears that a drop in the currency would bring back hyperinflation
+were unwarranted. And to me, Argentina and Brazil both look a lot like
+Australia: resource-rich nations a long way from anywhere, with no dominant
+Northern Hemisphere trading partner. Economic logic suggests that in the long
+run such countries, if they can put their inflationary histories behind them,
+have no business adopting the currency of a faraway country which will not take
+their interests into account.
+
+            So let's recognize this current enthusiasm for
+currency unification as what it is: an intellectual fad, not a deep insight. I
+say let a hundred currencies bloom. Well, maybe 20 or 30.
+
+         
+      
+   

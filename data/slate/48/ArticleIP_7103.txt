@@ -1,0 +1,148 @@
+
+   
+   
+      
+         
+            Party Tricks
+
+            One of my favorite classroom
+tricks is to auction off a $20 bill. I explain in advance that the $20 goes to
+the top bidder, but the top two bidders have to pay whatever they bid.
+That way, if at least two students bid at least $10, I come out ahead.
+
+            In fact,
+it's far better than that. As soon as two students are rash enough to enter the
+bidding, I'm almost guaranteed an astronomical profit. Once Mickey bids a
+nickel and Minnie bids a dime, both are trapped: There's never a right time to
+drop out of the auction. If Mickey quits now, he loses his nickel, but by
+staying in he can quite reasonably bid a quarter for a $20 bill. Minnie, of
+course, raises her bid to half a dollar. After a few rounds, Mickey has bid $9
+and Minnie goes to $10. Mickey can't quit without throwing away $9; instead he
+takes the far more sensible route of bidding $11 to get $20. Now my profit is
+in the bag.
+
+            But that's only the beginning. After a few more rounds,
+Minnie bids $18 and Mickey bids $19. Now Minnie can either bid $20 to get $20
+or drop out and pay $18 for nothing; she bids $20. At this point, poor Mickey
+can either bid $21 to get $20 (accepting a $1 loss) or drop out and pay $19 for
+nothing; he opts for the lesser of two evils and bids $21. Similar reasoning
+leads Minnie to bid $22. The spiral stops escalating only when one or the other
+runs out of money or exhausts my willingness to extend credit. If my students
+were sufficiently wealthy (and sufficiently shortsighted to enter the auction
+in the first place), I could earn a lifetime's income in a 50 minute class
+period.
+
+            My auction
+game is a crude but instructive metaphor for political campaign spending. It
+might even be a reasonably accurate metaphor if we lived in a world where the
+biggest spender always wins. In any contested election, candidates would
+continue to spend until they had exhausted all their own and their supporters'
+resources. Foreseeing that outcome, no politician would ever contest an
+election. The first candidate to file would always win by default.
+
+            
+But in our world, outspending your opponent
+doesn't always make you a winner--it only increases your probability of
+winning. And beyond a certain point, it doesn't increase your probability by
+very much: The candidate who runs 10,001 commercials has little advantage over
+the candidate who runs 10,000. So, sooner or later, politicians reach a point
+where one more commercial just can't justify its cost. That puts a natural
+limit on what they're willing to spend. Mickey will always bid another dollar
+to get a $20 bill, but he won't always bid another dollar to get a slightly
+increased chance at a $20 bill.
+
+            All this is important
+because campaign finance reform is important, and you can't predict the effects
+of campaign finance reform unless you think about the incentives it creates for
+politicians. Let me offer a few potential scenarios.
+
+             
+
+            First, imagine the most simple-minded of all possible
+reforms: The government subsidizes each of the two major candidates to the tune
+of, oh, say, $1 million apiece. You might expect that plan to backfire by
+encouraging the candidates to spend more. But think again: The subsidies don't
+affect the cost of the 10,001 st commercial, and they don't affect
+its benefit--so if a candidate has already decided not to run that commercial,
+he still won't want to run it. Therefore, total expenditures don't change--they
+just get covered by the taxpayers instead of the fat cats. (The only exception
+is if the candidate is literally out of money and never had the option of
+running the commercial without the subsidy.)
+
+            Here's a different scenario:
+Suppose that instead of giving $1 million apiece to the top two candidates, the
+government agrees to give a million to any candidate who meets certain
+criteria--say, a 10 percent showing in major opinion polls. Now the main effect
+is to encourage new candidates to enter. With more candidates must there be
+more total expenditure? Not clearly. Suppose, for example, that Al Gore and
+George W. Bush are in the middle of a hotly contested race for the presidency
+when Colin Powell suddenly throws his hat in the ring--and suppose that Powell
+has a 20 percent chance of winning. Then Gore and Bush are no longer battling
+each other for the presidency; they're battling each other for an 80 percent
+chance at the presidency. With the value of the prize diminished,
+they'll be willing to spend less in its pursuit. So what Powell spends is at
+least partly offset by what Gore and Bush choose to save.
+
+            That
+example points to an important general principle: Total expenditure is
+determined by the value of the prize, whether we're talking about presidential
+campaigns or state lotteries. If the Powerball jackpot is worth $50 million and
+less than $50 million worth of tickets have been sold, then the odds are
+favorable--and rational betters will rush in to buy tickets, guaranteeing that
+at least $50 million in tickets will be sold. Likewise, if the
+presidency is worth $50 million and there are many potential candidates with
+essentially identical chances of winning, they'll keep entering the race until
+they've collectively spent at least $50 million.
+
+            
+In a state lottery, your odds of winning depend
+only on how many tickets you hold compared with everyone else. That's what
+guarantees that people will keep buying tickets as long as the odds are in
+their favor. That's a good analogy to an election with many equally plausible
+candidates whose odds of winning might depend only on how much they spend
+compared with everyone else. But if some candidates tower over others, the
+analogy breaks down. If you know that the state lottery is likely to be rigged,
+you'll buy fewer tickets. And if politicians believe that an election is
+"rigged," in the sense that the favorite will probably win regardless of
+expenditures, they'll buy fewer campaign commercials.
+
+            That
+means there are only two kinds of reform that have any chance of actually
+reducing total expenditure on presidential elections. The first is to reduce
+the value of the presidency itself, say by putting new limits on presidential
+power, or installing a permanent independent counsel, or requiring the
+president to sleep on a bed of nails. The second is to reduce the uncertainty
+about who's going to win.
+
+            How do you reduce uncertainty? The most drastic way is to
+allow only one candidate. This makes the outcome completely certain and drives
+campaign expenditures to zero. Short of that, you could try to deliver
+information about the candidates that might drive voters to make up their minds
+on some basis other than political advertising--for example, you could sponsor
+a series of debates.
+
+            But that cuts both ways.
+Suppose it's 2000, the candidates are Gore and Bush, and Gore has a slight but
+not insurmountable lead in the polls. Now Gore trounces Bush in a debate,
+substantially widening his lead, and making it all but certain that Gore will
+win. Rational creatures that they are, both candidates reduce their
+expenditures rather than try to change a foregone conclusion. But suppose, on
+the other hand, that Bush wins the debate, closing the gap, and putting the
+candidates into a virtual dead heat. Then expenditures will rise as each
+candidate fights to resolve the new uncertainty in his own favor.
+
+            If the debates essentially
+substitute for commercials, then they're equivalent to the scenario where the
+government gives a certain amount of money to each candidate, and expenditures
+don't change. If the debates are fundamentally different from commercials, then
+they're equally liable to cause the race to tighten or to widen, and
+expenditures can go either up or down. Of course, debates have civic virtues
+other than their effects on spending, so this is not an argument against them.
+But it is an argument for being realistic about what we can and cannot
+change. Whenever there's a big prize to be won--whether it's a lottery jackpot
+or the presidency of the United States--people will find a way to spend a lot
+of money trying to win it.
+
+         
+      
+   

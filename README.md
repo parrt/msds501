@@ -12,7 +12,7 @@ This 5-week computational analytics bootcamp is part of the [MS in Analytics pro
 
 **TEMPORAL COORDINATES.** Thursday/Friday Sec01 10am-12pm, Sec02 1-3pm; July 13 (Thu) - August 10 (Thu).
 
-**INSTRUCTION FORMAT**. Class runs for 4 hours on Monday and then 2 hours on Tuesday. Instructor-student interaction during lecture is encouraged and we'll mix in mini-exercises / labs during class. All programming will be done in the Python programming language, unless otherwise specified.
+**INSTRUCTION FORMAT**. Class runs for 2 hours, 2 days per week. Instructor-student interaction during lecture is encouraged and we'll mix in mini-exercises / labs during class. All programming will be done in the Python 2 programming language, unless otherwise specified.
 
 **TARDINESS.** Please be on time for class. It is a big distraction if you come in late.
 

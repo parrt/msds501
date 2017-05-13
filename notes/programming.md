@@ -18,19 +18,21 @@ Before trying to plan out an analytics program, we have to fully understand the 
 
 **Step one** in any problem-solving situation is to clearly identify the goal. In an analytics setting, the goal is usually a question you're trying to answer, such as "which sales regions show the fastest year-on-year growth", "which transactions are fraudulent" or "what will a stock price be at a future date". We should be able to precisely articulate the goal and expected output using English words. If we can't do that, then no amount of coding expertise in Python or R will solve the problem.
 
-**Step two** is to figure out what data or input we need to satisfy that goal. Without the right data, you can't solve the problem. For example, I once mentored a student practicum team where the goal was to identify which customers of a website would upgrade to a professional account. The students only had data on users that had upgraded and no data on users who declined to upgrade. Whoops! You can't build an apples versus oranges classifier if all you have is data on apples. If you don't have all the data you need, it's important to identify this requirement as part of the problem-solving process.  Data acquisition often requires programming and we'll revisit the topic below as part of our program outline.
+**Step two** is to figure out what data or input we need to satisfy that goal. Without the right data, you can't solve the problem. For example, I once mentored a student practicum team whose goal was to identify which customers of a website would upgrade to a professional account. The students only had data on users that had upgraded and no data on users who declined to upgrade. Whoops! You can't build an apples versus oranges classifier if you only have data on apples. If you don't have all the data you need, it's important to identify this requirement as part of the problem-solving process.  Data acquisition often requires programming and we'll revisit the topic below as part of our program outline.
 
-At this point, we've actually gone pretty far towards setting the stage necessary to solve a problem and we haven't needed to think about code at all. We started with the end result and then identified the data we need, our raw material. The input-output pairs neatly bracket the computation we need to perform. At the beginning, we have the known data and, at the end, we have the expected output or work product.
+At this point, we've actually set the stage necessary to solve problems and we haven't thought about code at all. We started with the end result and then identified the data we need, our raw material. The input-output pairs neatly bracket the computation we need to perform. At the beginning, we have the known data and, at the end, we have the expected output or work product.
 
-**Step three** of the problem-solving process is to write out some input-output pairs. Doing so helps us understand what the program actually does. We can't automate operations with code if we can't identify the operations. Moreover, listing a bunch of cases usually highlights special cases, such as "when the input is negative, the output should be empty". In other words, the program should not crash with a negative number as input.
+**Step three** of the problem-solving process is to write out some input-output pairs by hand. Doing so helps us understand what the program will need to do and how it might do it. We can't automate operations with code if we can't identify the operations manually. Moreover, listing a bunch of cases usually highlights special cases, such as "when the input is negative, the output should be empty". In other words, the program should not crash with a negative number as input. Programmers call this *test-driven design*.
 
-**Step four** is to identify the operations that will compute the right result. To do this, work backwards from the end product.
+**Step four** is to identify the operations that will compute the right result. To do this, work backwards from the end product. Make a plan
 
-All we had to do was asked to simple questions: What output do we want
+**Step five** translate to code.
 
-I like to start the problem-solving process by identifying precisely what I expect as output, whether it's a graph
+And, finally, **step six** is to check our results for correctness.  The most obvious check is to compare the operation of our program with the known input-output pairs from step three.
 
-The good news is that all of the problems you will likely run into during your masters program all follow the same generic overall script:
+## Analytics program script
+
+All of the problems you will likely run into during your masters program will follow the same generic overall script:
 
 1. Acquire then load data into memory
 2. Organize, normalize, or otherwise prepare data
@@ -39,26 +41,17 @@ The good news is that all of the problems you will likely run into during your m
 
 These course-grain steps form the broad outline of a program in any language.  Writing a program for a specific problem means figuring out what each of those steps are.  Not all programs will use every step, but we'll need to break each of those steps further down into subtasks for all but the simplest problems.
 
-I remember being given my first problem to solve (using BASIC in 1980!).
- 
 For example, let's see how computing the average of some numbers fits into this outline. 
 
 First, what are you given? what's unknown? Ok, now write down the comp u expect to perform. Now give some samples,
  
   Step one means getting a list of numbers, which we can assume is a given.
 
-
-
 is this similar to something I've solved before?
 
  by starting at the last step in working our way backwards
 
  this highlights that you should start from the result, the last step, and work your way backwards
- 
- how did we know what those steps were? start with
-
-
-is merely the minimum entry point for a programmer.
 
 lowest level computer capabilities: 
 

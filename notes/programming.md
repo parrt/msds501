@@ -38,7 +38,7 @@ I remember being confronted with my first programming task (BASIC in 1980!) and 
 
 Relying on mental or even physical templates is very common, not just in programming. Lawyers have generic templates for contracts and screenwriters have generic scripts for the various movie genres. For example, most action movies go like this: Meet the bad guy. Meet the hero/heroine. Chase scene. Hero/heroine overcomes great difficulties to defeat the bad guy and his minions.  Programming is most similar to writing legal documents because of the required precision. A missing word or punctuation can crash a program or bankrupt a contract signatory. (e.g., see [The Typo that Destroyed a NASA Rocket](https://priceonomics.com/the-typo-that-destroyed-a-space-shuttle)).
 
-Gaining experience as a programmer means recognizing patterns in your code and creating generic templates in your mind for future use.  While you're getting started, you can rely on the experience of other programmers by reusing existing libraries of code and by using relevant templates. This leads us to the following generic analytics program template that is suitable for most of the problems you're likely to run into.
+Gaining experience as a programmer means recognizing patterns in your code and creating generic templates in your mind for future use.  While you're getting started, you can rely on the experience of other programmers by reusing existing libraries of code and by using relevant templates. This leads us to the following generic analytics program template that is suitable for most of the problems you're likely to run into:
 
 1. Acquire data
 2. Load data into memory and organize into data structures
@@ -46,7 +46,7 @@ Gaining experience as a programmer means recognizing patterns in your code and c
 3. Process the data, which can mean training a machine learning model, computing summary statistics, or optimizing a cost function
 4. Emit results, which can be anything from simply printing an answer to saving data to the disk to generating a fancy visualization
 
-These course-grain steps form the broad outline of an analytics program written in any language.  Writing a program for a specific problem means figuring out what each of those steps are, though not all programs will use every step.  Let's take a look at this template in action on a trivial problem, computing the average of some numbers:
+These course-grain steps form the broad outline of an analytics program written in any language. Let's take a look at the template in action on a trivial problem, computing the average of some numbers:
 
 1. Locate a file with some numbers
 2. Load the data from the file into a list structure in memory
@@ -55,6 +55,8 @@ These course-grain steps form the broad outline of an analytics program written 
 5. Print the average
 
 This problem is easy enough that most of us could code a solution without explicitly breaking it down in this manner; i.e., without having to formally plan it out. The point is that this template provides a framework to solve more difficult problems and you should get used to applying the template. At the very least, it's a way to get started on a project.
+
+Writing a program for a specific problem means figuring out what each of those steps are, though not all programs will use every step. 
  
 but we'll need to break each of those steps further down into subtasks for all but the simplest problems.
 

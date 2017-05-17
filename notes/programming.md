@@ -56,7 +56,13 @@ Writing a program for a specific problem means figuring out what each of those s
 
 This problem is easy enough that most of us could outline a solution without explicitly and formally breaking it down in this manner. The point is that this template provides a framework to solve more difficult problems and you should get used to applying the template. At the very least, it's a way to get started on a project.
 
-The program template gives an overall outline for the coarsest-grained operations of the program but we'll need to break each of those operations down further and further into suboperations. We continue decomposing large operations into a sequence of smaller operations until we reach a level of granularity that can be directly expressed in our programming language. This leads us to a discussion of the kinds of operations a computer can perform.
+The program template gives an overall outline for the coarsest-grained operations of the program but we'll need to break each of those operations down further and further into suboperations. We continue decomposing large operations into a sequence of smaller operations until we reach a level of granularity that can be directly expressed in our programming language. 
+
+What does it mean to load data into memory?
+ 
+## Sample computations
+
+
 
 ## Model of computation
 

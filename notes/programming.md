@@ -46,7 +46,7 @@ Gaining experience as a programmer means recognizing patterns in your code and c
 3. Process the data, which can mean training a machine learning model, computing summary statistics, or optimizing a cost function
 4. Emit results, which can be anything from simply printing an answer to saving data to the disk to generating a fancy visualization
 
-These course-grain steps form the broad outline of an analytics program written in any language. Let's take a look at the template in action on a trivial problem, computing the average of some numbers:
+Writing a program for a specific problem means figuring out what each of those steps are, though not all programs will use every step. Let's take a look at the template in action on a trivial problem, computing the average of some numbers:
 
 1. Locate a file with some numbers
 2. Load the data from the file into a list structure in memory
@@ -54,14 +54,43 @@ These course-grain steps form the broad outline of an analytics program written 
 4. Compute the average of the numbers in the list
 5. Print the average
 
-This problem is easy enough that most of us could code a solution without explicitly breaking it down in this manner; i.e., without having to formally plan it out. The point is that this template provides a framework to solve more difficult problems and you should get used to applying the template. At the very least, it's a way to get started on a project.
+This problem is easy enough that most of us could outline a solution without explicitly and formally breaking it down in this manner. The point is that this template provides a framework to solve more difficult problems and you should get used to applying the template. At the very least, it's a way to get started on a project.
 
-Writing a program for a specific problem means figuring out what each of those steps are, though not all programs will use every step. 
- 
-but we'll need to break each of those steps further down into subtasks for all but the simplest problems.
+The program template gives an overall outline for the coarsest-grained operations of the program but we'll need to break each of those operations down further and further into suboperations. We continue decomposing large operations into a sequence of smaller operations until we reach a level of granularity that can be directly expressed in our programming language. This leads us to a discussion of the kinds of operations a computer can perform.
 
- This happens for fine-grained problems such as "*sum a list of numbers*" and coarse-grained problems
+## Model of computation
+
+A computer consists of three primary components: a disk to hold data, a memory (that is wiped upon power off), and a processor (CPU) to process that data. Here is a picture of an actual CPU and some memory chips:
+
+<img src=images/cpu-memory.png width=400>
+
+The memory is broken up into discrete chunks of a fixed size (8 *bits* called one *byte*) and each chunk is identified by an integer address, just like the house numbers on street addresses like 101 Howard Street. Processors can ask for the data at a particular address and can store a piece of data at a specific memory location as well as well. For example, here is an abstract representation of byte-addressable computer memory:
+
+<img src=images/addresses.png width=100> 
+
+In this case, the memory has value 100 at address 0. At address 1, the memory has value 0. Address 4 has the maximum value we can store in a single byte: 255. Everything from actual numbers to music to videos is stored using one or more of these atomic storage units called bytes.
+
+Computer memory is much faster but usually much smaller than the disk and all memory is lost when the computer powers off. Think of memory as your working or scratch space and the disk as your permanent storage. Memory chips are kind of like human short-term memory that is prone to disappearing versus a piece of paper which is slower to read and write but *persistent*.
+
+Memory just holds data; all of the action happens in the processor, which has five principal operations:
  
+* load chunks of data from memory into the processor
+* perform arithmetic computations
+* conditionally perform computations
+* repeat steps
+* store chunks of data back to memory
+
+Processors execute low-level *machine instructions* that perform one or more of those principal operations. Each instruction does a tiny amount of work but the processor can do them extremely fast, on the order of billions a second.  A program then is just a sequence of these low-level instructions. Writing a program in these low-level machine instructions would be extremely tedious, so we typically use programming languages such as Python to make our lives easier. Each high-level instruction such as the following actually force the processor to execute multiple low-level instructions.
+
+```
+total = cost + tax
+```
+
+The processor must load `cost` and `tax` from memory, add the two values, then store the result in memory at the address associated with `total`.
+
+Unless given instructions to the contrary, the processor keeps executing instructions one after the other.
+ 
+## operations
 
 First, what are you given? what's unknown? Ok, now write down the comp u expect to perform. Now give some samples,
  
@@ -72,13 +101,6 @@ is this similar to something I've solved before?
  by starting at the last step in working our way backwards
 
  this highlights that you should start from the result, the last step, and work your way backwards
-
-lowest level computer capabilities: 
-
-* hold named chunks of data
-* perform arithmetic computations
-* conditionally perform computations.
-* repeat steps
 
 analogy with a food truck that picks up raw materials at one spot drives down the road chooses a fork in the road, prepares food en route, then delivers prepared food at a different location. This might circle back to get more  raw materials.
  

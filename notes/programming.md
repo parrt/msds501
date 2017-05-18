@@ -169,17 +169,35 @@ The kinds of patterns we use depends partly on a programmer's style but is heavi
 
 ### Map
 
-<img src=images/map-mult.png width=490>
+One of the most common patterns maps one sequence to another, applying an operator or function to each element. For example, using a spreadsheet to create a new column containing the unit price discounted by 5% starts like this:
+
+<img src=images/map-discount.png width=120>
+
+And then we drag the formula down the column so that it is applied to each element of the unit price column.  The  best way to think about the map pattern is "*transform one sequence into another by applying an operator or function.*"
+
+What we're actually doing, though, is traversing the sequence of elements in one list, computing a new value, and injecting the new value into a new list:
+
+<img src=images/map-discount-op.png width=390>
+
+### Combine
+
+As a variation on map, we can combine values from multiple input sequences to form a new sequence. For example, to compute the cost of a sales transaction, we multiply the quantity times the unit price. In a spreadsheet, that looks like this:
 
 <img src=images/map-formula.png width=250>
 
+Programmatically, what we're doing is multiplying the *ith* element from two different sequences and placing the result in the *ith* position of an output sequence:
+
+<img src=images/map-mult.png width=490>
+
+variations for duplicate. just multiply by one or at zero. or f(x) = x function. identity function.
+ 
 ### Filter
 
 ### Remove duplicates
 
 ### Sort
 
-### Accumulator
+### Accumulate
 
 An accumulator traverses a sequence of elements and accumulates a value. For example, to sum the numbers in a sequence, we use the accumulator pattern with the `+` operator:
 

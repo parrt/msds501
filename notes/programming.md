@@ -121,11 +121,11 @@ One of the most common *data structures* is the **list**, which is just a sequen
 
 We can think of the rows of a spreadsheet as lists also. For example, the header row of a spreadsheet is really a list of strings:
 
-<img src=images/header-row.png width=750>
+<img src=images/header-row.png width=720>
 
-All of these lists have one thing in common: the type of element is the same. But, we can also have lists with heterogeneous elements, which is typically what we see in spreadsheet rows:
+All of these lists have one thing in common: the type of element is the same. But, we can also have lists with *heterogeneous* elements, which is typically what we see in spreadsheet rows:
 
-<img src=images/sample-row.png width=800>
+<img src=images/sample-row.png width=750>
 
 Spreadsheets arrange rows one after the other, which programmers interpret as a "list of lists." In the analytics or database world, we call this a **table**:
 
@@ -139,6 +139,39 @@ If we arrange two lists side-by-side and kind of glue them together, we get a **
 
 <img src=images/dict.png width=220>
 
+The spreadsheet model is a good one for understanding data structures but it's important to keep in mind that computers process one element (number or string) at a time.
+As humans, we can look at the spreadsheet or data structure from above in its entirety, but programs must **walk** or **traverse** the elements of a data structure one after the other. It's kind of like sliding a magnifying glass over the elements of a list:
+
+<img src=images/int-list-item.png width=230>
+
+This notion of traversal abstracts to any **sequence** of elements, not just lists. For example, we will eventually traverse the lines of a text file or a sequence of filenames obtained from the operating system. Sequences are extremely powerful because it allows us to process data that is much bigger than the memory of our computer. We can process the data piecemeal whereas a list requires all elements to be in memory at once.
+
+
+At this point, we have a rough idea how to plan out a program by working backwards from the result and we have an idea how to represent data in memory. To further clarify how to plan out a program, we need to consider the set of possible operations.
+
+## Programming patterns
+
+As we discussed above, programmers draw from a set of  templates when choosing an overall program plan. The same is true of the individual operations themselves.  Programmers have a catalog of common operations that we  rely on when choosing the steps of a plan.  We can call these common operations (and their mapping to code) *programming patterns*. 
+
+We've already seen a number of these patterns, such as:
+
+* *sum the numbers in a list*
+* *count the numbers in a list*.
+
+But we can abstract those further into:
+
+* *traverse a list and accumulate a value*
+* *count the number of elements in a list*. 
+
+The more abstract the pattern, the more widely applicable it is. For example, counting the number of elements is actually just a special case of (the more abstract) accumulating a value while traversing a list. Instead of adding the values at each position in a list, for example, we would always just add one. 
+
+The kinds of patterns we use depends partly on a programmer's style but is heavily influenced by the capabilities of the programming language and its libraries of pre-existing functionality. Let's identify some of the most useful patterns and then try to plan out some programs using them.
+
+### Accumulator
+
+**Accumulator**. Traverse a sequence and accumulate a value.
+
+ 
 ## Computation model
 
 Memory just holds data; all of the action happens in the processor, which has five principal operations:

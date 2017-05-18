@@ -160,18 +160,37 @@ We've already seen a number of these patterns, such as:
 
 But we can abstract those further into:
 
-* *traverse a list and accumulate a value*
-* *count the number of elements in a list*. 
+* *traverse a sequence and accumulate a value*
+* *count the number of elements in a sequence*. 
 
-The more abstract the pattern, the more widely applicable it is. For example, counting the number of elements is actually just a special case of (the more abstract) accumulating a value while traversing a list. Instead of adding the values at each position in a list, for example, we would always just add one. 
+The more abstract the pattern, the more widely applicable it is. For example, counting the number of elements is actually just a special case of (the more abstract) accumulating a value while traversing a sequence. Instead of adding the values at each position in a sequence, for example, we would always just add one. 
 
 The kinds of patterns we use depends partly on a programmer's style but is heavily influenced by the capabilities of the programming language and its libraries of pre-existing functionality. Let's identify some of the most useful patterns and then try to plan out some programs using them.
 
+### Map
+
+<img src=images/map-mult.png width=490>
+
+<img src=images/map-formula.png width=250>
+
+### Filter
+
+### Remove duplicates
+
+### Sort
+
 ### Accumulator
 
-**Accumulator**. Traverse a sequence and accumulate a value.
+An accumulator traverses a sequence of elements and accumulates a value. For example, to sum the numbers in a sequence, we use the accumulator pattern with the `+` operator:
 
- 
+<img src=images/accumulator.png width=290>
+
+We can use any other arithmetic operator we want, such as `*`. In fact, we can use any function that takes two "input" numbers and returns a new value. For summing, the two "input" numbers of the function are the previous accumulated value and the next value in the sequence. The result of that function is the new accumulated value. `+` and `*` are the most common operators. 
+
+You will also see this pattern called *reduce*, made famous by the *map*/*reduce* term from Hadoop.
+
+Counting the number of elements uses the `+` operator with the previous accumulated value and a fixed 1 value instead of the next element in the sequence.
+
 ## Computation model
 
 Memory just holds data; all of the action happens in the processor, which has five principal operations:

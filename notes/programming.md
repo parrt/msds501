@@ -101,7 +101,7 @@ Programming languages present us with a higher level view of the memory in two w
 
 <img src=images/named-memory.png width=110>
 
-When referring to the kind of thing of value represents, we use the word **type**. The type of the "units" cell is integer and the type of "price" is real number (or floating-point number).
+When referring to the kind of thing a value represents, we use the word **type**. The type of the "units" cell is integer and the type of "price" is real number (or floating-point number).
  
 Another very common value type is string, which is really a sequence of characters. We use strings to hold place names, book titles, and any other text-based value.  We can think of strings as being a single value because the programming language hides the details.  Strings can be arbitrarily long and the programming language stores the characters as a sequence of bytes in memory. In other words, we think of it as
 
@@ -111,21 +111,33 @@ but it is really more like this:
 
 <img src=images/strings2.png width=110>
 
-These basic data types are our building blocks. If we arrange many of these blocks together, we can create more complex structures. 
+These basic data types are our building blocks. If we arrange many of these blocks together, we can create more complex structures.
 
-One of the most common **data structures** is the *list*, which is just a sequence of memory cells.  Because we're all familiar with spreadsheets, let's visualize these data structures using a spreadsheet.  Columns in a spreadsheet are really lists, such as the following lists/columns of integers, floating-point numbers, and strings:
+## Data structures
+
+One of the most common *data structures* is the **list**, which is just a sequence of memory cells.  Because we're all familiar with spreadsheets, let's visualize these data structures using a spreadsheet.  Columns in a spreadsheet are really lists, such as the following lists/columns of integers, floating-point numbers, and strings:
 
 <img src=images/int-list.png width=60>&nbsp;&nbsp;<img src=images/float-list.png width=80>&nbsp;&nbsp;<img src=images/names-list.png width=139>
 
-If we arrange two lists side-by-side and kind of bind them together, we get a *dictionary*. Dictionaries map one value to another, just like a dictionary in the real world maps a word to a definition. 
+We can think of the rows of a spreadsheet as lists also. For example, the header row of a spreadsheet is really a list of strings:
+
+<img src=images/header-row.png width=750>
+
+All of these lists have one thing in common: the type of element is the same. But, we can also have lists with heterogeneous elements, which is typically what we see in spreadsheet rows:
+
+<img src=images/sample-row.png width=800>
+
+Spreadsheets arrange rows one after the other, which programmers interpret as a "list of lists." In the analytics or database world, we call this a **table**:
+
+<img src=images/rows.png width=680>
+
+If the table elements are all numbers, we call this a **matrix**. Here's a matrix with 5 rows and 2 columns:
+
+<img src=images/matrix.png width=110>
+
+If we arrange two lists side-by-side and kind of glue them together, we get a **dictionary**. Dictionaries map one value to another, just like a dictionary in the real world that maps a word to a definition.  Here is a sample dictionary that maps movie title to the year it won an Oscar:
 
 <img src=images/dict.png width=220>
-
-lists and dictionaries.  The so-called data structures are the raw materials that we process in a program. Here are some sample lists with different kinds of elements.
-
-The
-
-By combining these structures we can create more collocated data structures.
 
 ## Computation model
 

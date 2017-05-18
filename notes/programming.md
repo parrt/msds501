@@ -56,15 +56,34 @@ Writing a program for a specific problem means figuring out what each of those s
 
 This problem is easy enough that most of us could outline a solution without explicitly and formally breaking it down in this manner. The point is that this template provides a framework to solve more difficult problems and you should get used to applying the template. At the very least, it's a way to get started on a project.
 
+## Planning out a program
+
 The program template gives an overall outline for the coarsest-grained operations of the program but we'll need to break each of those operations down further and further into suboperations. We continue decomposing large operations into a sequence of smaller operations until we reach a level of granularity that can be directly expressed in our programming language. 
 
-What does it mean to load data into memory?
- 
-## Sample computations
+Here's the key to converting an English description (a "word problem") into a sequence of operations: *start at the end result and work backwards asking what the prerequisites are for each step*. For example, we cannot print the average of some numbers before we compute that value. We can't compute that value until we load those numbers into memory etc...
 
+This "working backwards" mechanism even helps us break down operations like "compute the average" into sequences of suboperations.  Computing the average requires that we compute the sum and count how many numbers there are (average is sum/length).  Computing the sum and counting the numbers can't happen until we load the numbers into memory from the disk. Depending on the libraries available to us in a particular programming language, we might need to break down "compute sum" and "count how many numbers" operations further.  For now, let's assume that those operations are either built-in or available as library functions. Altogether, then, the plan for our program looks like:
 
+1. Locate a file with some numbers
+2. Load the data from the file into a list structure in memory
+3. Compute the sum of the numbers in the list
+4. Count the numbers in the list (compute the list length)
+5. Compute average as sum divided by length
+6. Print the average
 
-## Model of computation
+This steps in this plan are fine-grained enough to be converted one-to-one to programming statements.  At that point, we have an executable program.  The hard part is coming up with a plan, not converting it to code.
+
+Sequences occur even in simple arithmetic expressions that we often think of as one operation. For example, in the following expression, we have to do the multiplication first and then add in the shipping cost.
+
+```
+shipping + unitprice * units
+```
+
+When writing out the plan for a program, always keep in mind that the computer is executing one operation after the other so the setting up the right sequence is critical.
+
+## Representing data in memory
+
+So far, we've glossed over the details of loading data into memory from disk but the way we represent data in memory is critical to building programs. This is particularly true with analytics programs because data is our focus.  Let's take a bit of a detour into computer architecture to get a handle on what it means to load something into memory.
 
 A computer consists of three primary components: a disk to hold data, a memory (that is wiped upon power off), and a processor (CPU) to process that data. Here is a picture of an actual CPU and some memory chips:
 
@@ -77,6 +96,38 @@ The memory is broken up into discrete chunks of a fixed size (8 *bits* called on
 In this case, the memory has value 100 at address 0. At address 1, the memory has value 0. Address 4 has the maximum value we can store in a single byte: 255. Everything from actual numbers to music to videos is stored using one or more of these atomic storage units called bytes.
 
 Computer memory is much faster but usually much smaller than the disk and all memory is lost when the computer powers off. Think of memory as your working or scratch space and the disk as your permanent storage. Memory chips are kind of like human short-term memory that is prone to disappearing versus a piece of paper which is slower to read and write but *persistent*.
+
+Programming languages present us with a higher level view of the memory in two ways: we can use names to refer to locations in memory and each memory cell can hold integer and real number values of arbitrary size (they do you have a limit, but let's keep things simple for now). For example, here are two named values stored in memory:
+
+<img src=images/named-memory.png width=110>
+
+When referring to the kind of thing of value represents, we use the word **type**. The type of the "units" cell is integer and the type of "price" is real number (or floating-point number).
+ 
+Another very common value type is string, which is really a sequence of characters. We use strings to hold place names, book titles, and any other text-based value.  We can think of strings as being a single value because the programming language hides the details.  Strings can be arbitrarily long and the programming language stores the characters as a sequence of bytes in memory. In other words, we think of it as
+
+<img src=images/strings.png width=110>
+
+but it is really more like this:
+
+<img src=images/strings2.png width=110>
+
+These basic data types are our building blocks. If we arrange many of these blocks together, we can create more complex structures. 
+
+One of the most common **data structures** is the *list*, which is just a sequence of memory cells.  Because we're all familiar with spreadsheets, let's visualize these data structures using a spreadsheet.  Columns in a spreadsheet are really lists, such as the following lists/columns of integers, floating-point numbers, and strings:
+
+<img src=images/int-list.png width=60>&nbsp;&nbsp;<img src=images/float-list.png width=80>&nbsp;&nbsp;<img src=images/names-list.png width=139>
+
+If we arrange two lists side-by-side and kind of bind them together, we get a *dictionary*. Dictionaries map one value to another, just like a dictionary in the real world maps a word to a definition. 
+
+<img src=images/dict.png width=220>
+
+lists and dictionaries.  The so-called data structures are the raw materials that we process in a program. Here are some sample lists with different kinds of elements.
+
+The
+
+By combining these structures we can create more collocated data structures.
+
+## Computation model
 
 Memory just holds data; all of the action happens in the processor, which has five principal operations:
  

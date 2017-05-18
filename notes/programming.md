@@ -179,9 +179,9 @@ What we're actually doing, though, is traversing the sequence of elements in one
 
 <img src=images/map-discount-op.png width=390>
 
-### Combine
+### Join
 
-As a variation on map, we can combine values from multiple input sequences to form a new sequence. For example, to compute the cost of a sales transaction, we multiply the quantity times the unit price. In a spreadsheet, that looks like this:
+As a variation on map, we can combine or join values from multiple input sequences to form a new sequence. For example, to compute the cost of a sales transaction, we multiply the quantity times the unit price. In a spreadsheet, that looks like this:
 
 <img src=images/map-formula.png width=250>
 

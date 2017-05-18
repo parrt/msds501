@@ -71,7 +71,7 @@ This "working backwards" mechanism even helps us break down operations like "com
 5. Compute average as sum divided by length
 6. Print the average
 
-This steps in this plan are fine-grained enough to be converted one-to-one to programming statements.  At that point, we have an executable program.  The hard part is coming up with a plan, not converting it to code.
+The steps in this plan are fine-grained enough to be converted one-to-one to programming statements.  At that point, we have an executable program.  The hard part is coming up with a suitable plan, not converting it to code.
 
 Sequences occur even in simple arithmetic expressions that we often think of as one operation. For example, in the following expression, we have to do the multiplication first and then add in the shipping cost.
 
@@ -83,7 +83,7 @@ When writing out the plan for a program, always keep in mind that the computer i
 
 ## Representing data in memory
 
-So far, we've glossed over the details of loading data into memory from disk but the way we represent data in memory is critical to building programs. This is particularly true with analytics programs because data is our focus.  Let's take a bit of a detour into computer architecture to get a handle on what it means to load something into memory.
+So far, we've glossed over the details of loading data into memory from disk (step 2 in our plan above) but the way we represent data in memory is critical to building programs. This is particularly true with analytics programs because processing data is our focus.  Let's take a bit of a detour into computer architecture to get a handle on what it means to load something into memory.
 
 A computer consists of three primary components: a disk to hold data, a memory (that is wiped upon power off), and a processor (CPU) to process that data. Here is a picture of an actual CPU and some memory chips:
 

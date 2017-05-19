@@ -131,9 +131,11 @@ Heterogeneous lists are typically used to group bits of information about a part
 
 Spreadsheets arrange rows one after the other, which programmers interpret as a *list of lists.* In the analytics or database world, we call this a **table**:
 
-<img src=images/rows.png width=680>
+<img src=images/rows.png width=700>
 
-The input to machine learning algorithms is often a table where each row aggregates the data associated with a specific instance or observation. In this example, each row represents a sales transaction.
+In this example, each row represents a sales transaction.
+
+The input to machine learning algorithms is often a table where each row aggregates the data associated with a specific instance or observation. 
 
 If the table elements are all numbers, we call this a **matrix**. Here's a matrix with 5 rows and 2 columns:
 

@@ -91,7 +91,7 @@ A computer consists of three primary components: a disk to hold data, a memory (
 
 The memory is broken up into discrete chunks of a fixed size (8 *bits* called one *byte*) and each chunk is identified by an integer address, just like the house numbers on street addresses like 101 Howard Street. Processors can ask for the data at a particular address and can store a piece of data at a specific memory location as well as well. For example, here is an abstract representation of byte-addressable computer memory:
 
-<img src=images/addresses.png width=100> 
+<img src=images/addresses.png width=80> 
 
 In this case, the memory has value 100 at address 0. At address 1, the memory has value 0. Address 4 has the maximum value we can store in a single byte: 255. Everything from actual numbers to music to videos is stored using one or more of these atomic storage units called bytes.
 
@@ -99,7 +99,7 @@ Computer memory is much faster but usually much smaller than the disk and all me
 
 Programming languages present us with a higher level view of the memory in two ways: we can use names to refer to locations in memory and each memory cell can hold integer and real number values of arbitrary size (they do you have a limit, but let's keep things simple for now). For example, here are two named values stored in memory:
 
-<img src=images/named-memory.png width=110>
+<img src=images/named-memory.png width=100>
 
 When referring to the kind of thing a value represents, we use the word **type**. The type of the "units" cell is integer and the type of "price" is real number (or floating-point number).
  
@@ -179,9 +179,11 @@ What we're actually doing, though, is traversing the sequence of elements in one
 
 <img src=images/map-discount-op.png width=390>
 
-### Join
+As a special case of map, we get the **duplicate** pattern that duplicates a stream by applies the identity function, *f(x)* = *x*, to the elements of a stream to get a new stream.
 
-As a variation on map, we can combine or join values from multiple input sequences to form a new sequence. For example, to compute the cost of a sales transaction, we multiply the quantity times the unit price. In a spreadsheet, that looks like this:
+### Merge
+
+As a variation on map, we can merge or combine values from multiple input sequences to form a new sequence. For example, to compute the cost of a sales transaction, we multiply the quantity times the unit price. In a spreadsheet, that looks like this:
 
 <img src=images/map-formula.png width=250>
 
@@ -189,11 +191,21 @@ Programmatically, what we're doing is multiplying the *ith* element from two dif
 
 <img src=images/map-mult.png width=490>
 
-variations for duplicate. just multiply by one or at zero. or f(x) = x function. identity function.
- 
-### Filter
+### Split
 
-### Remove duplicates
+The opposite of merging is splitting where a stream to split into two or more new streams. For example, I often have to split the full names in a list into their first and last names. In a spreadsheet, we make a blank column:
+
+<img src=images/split-names.png width=250>
+
+and then split on the space character (In Excel, you use `Data` > `Text to Columns`) to get two new columns, which I have renamed:
+
+<img src=images/split-names-after.png width=160>
+
+We could "undo" this split using a *merge* with the string concatenation operator, which would combine first and last names together into a new stream.
+
+### Uniquify
+
+### Filter
 
 ### Sort
 

@@ -215,7 +215,7 @@ Programmers sort lists of strings and numbers all the time. I use the term list 
 
 <img src=images/sort-names.png width=170>
 
-With data tables, we often sort entire rows by a specific column:
+With data tables, we often sort entire rows by a specific column. Here's an example that sorts a table by GPA in reverse order:
 
 <img src=images/sort-gpa.png width=260>
 
@@ -225,21 +225,21 @@ Sorting can also be used as part of a computation. For example, to compute the m
 
 ### Slice
 
-All of the patterns we've examined so far, yield lists or sequences of exactly the same size, but there are many patterns that yield subsets of the data. The first such pattern is *slice*, which extracts a subset of a list. (Again, here I explicitly use the term list to indicate slicing generally occurs on a data structure that fits in memory.)
+All of the patterns we've examined so far yield lists or sequences that have the same size as the input sequence, but there are many patterns that yield subsets of the data. The first such pattern is *slice*, which extracts a subset of a list. (Again, here I explicitly use the term list to indicate slicing generally occurs on a data structure that fits in memory.)
 
-Programmers often use sentinel values to indicate the  beginning or end of interesting list regions. For example, let's say that 999 indicates the end of interesting rainfall data. Here's a visualization that takes a slice (subset) of the rainfall data up to but not including the sentinel value:
+Programmers often use sentinel values to indicate the beginning or end of interesting list regions. For example, let's say that 999 indicates the end of interesting rainfall data coming from a rain sensor. Here's a visualization that takes a slice (subset) of the rainfall data up to but not including the sentinel value:
 
 <img src=images/slice.png width=170>
 
 ### Remove duplicates
 
-The slice pattern takes a continuous subset but we often want to take noncontiguous subsets.  The *remove duplicates* pattern yields a subset of a stream that does not contain duplicate values. For example, we might want a unique list of customers:
+The slice pattern takes a contiguous subset but we often want to extract noncontiguous subsets.  The *remove duplicates* pattern yields a subset of a stream that does not contain duplicate values. For example, we might want a unique list of customers:
 
 <img src=images/unique.png width=290>
 
 ### Filter
 
-The most general pattern used to obtain subsets is *filter*.
+The most general pattern used to obtain list or stream subsets is *filter*.
 
 ### Search
 

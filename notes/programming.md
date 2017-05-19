@@ -127,9 +127,13 @@ All of these lists have one thing in common: the type of element is the same. Bu
 
 <img src=images/sample-row.png width=750>
 
-Spreadsheets arrange rows one after the other, which programmers interpret as a "list of lists." In the analytics or database world, we call this a **table**:
+Heterogeneous lists are typically used to group bits of information about a particular entity. In machine learning, we call this a **feature vector**, an **instance**, or an **observation**.  For example, an apples versus oranges classifier might have feature vectors containing weight (number), volume (number), and color (string).  The important point here is that a list can also be used to as a way to aggregate features about a particular entity. The sequence of the elements is less important than the fact that they are contained (aggregated) within the same list. We will see this notion again when we talk about *tuples* and *objects*.
+
+Spreadsheets arrange rows one after the other, which programmers interpret as a *list of lists.* In the analytics or database world, we call this a **table**:
 
 <img src=images/rows.png width=680>
+
+The input to machine learning algorithms is often a table where each row aggregates the data associated with a specific instance or observation. In this example, each row represents a sales transaction.
 
 If the table elements are all numbers, we call this a **matrix**. Here's a matrix with 5 rows and 2 columns:
 
@@ -169,7 +173,7 @@ The kinds of patterns we use depends partly on a programmer's style but is heavi
 
 ### Map
 
-One of the most common patterns maps one sequence to another, applying an operator or function to each element. For example, using a spreadsheet to create a new column containing the unit price discounted by 5% starts like this:
+Perhaps the most common pattern *maps* one sequence to another, applying an operator or function to each element. For example, using a spreadsheet to create a new column containing the unit price discounted by 5% starts like this:
 
 <img src=images/map-discount.png width=120>
 
@@ -205,7 +209,15 @@ We could "undo" this split using a *merge* with the string concatenation operato
 
 ### Sort
 
-Programmers sort lists of strings and numbers all the time. I use the term list not sequence because typically we only sort data structures that are completely in memory, whereas a stream could be 3 terabytes on the disk.  One use case for sorting is to provide more organized output. For example, we might want to report student GPAs sorted by name or report sorted by GPA in reverse numeric order.
+Programmers sort lists of strings and numbers all the time. I use the term list not sequence because typically we only sort data structures that are completely in memory, whereas a stream could be 3 terabytes on the disk.  One use case for sorting is to provide more organized output. For example, we might want to sort a list of names:
+
+<img src=images/sort-names.png width=170>
+
+With data tables, we often sort entire rows by a specific column:
+
+<img src=images/sort-gpa.png width=260>
+
+(Recall that rows typically represent data about a specific entity that should be kept together.)
 
 Sorting can also be used as part of a computation. For example, to compute the median of some numbers we can sort the numbers and pick the middle value (if there is an odd number of elements).
 

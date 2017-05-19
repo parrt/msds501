@@ -149,9 +149,9 @@ This notion of traversal abstracts to any **sequence** of elements, not just lis
 
 At this point, we have a rough idea how to plan out a program by working backwards from the result and we have an idea how to represent data in memory. To further clarify how to plan out a program, we need to consider the set of possible operations.
 
-## Programming patterns
+## Common Programming Patterns
 
-As we discussed above, programmers draw from a set of  templates when choosing an overall program plan. The same is true of the individual operations themselves.  Programmers have a catalog of common operations that we  rely on when choosing the steps of a plan.  We can call these common operations (and their mapping to code) *programming patterns*. 
+As we discussed above, programmers draw from a set of  templates when choosing an overall program plan. The same is true of the individual operations themselves.  Programmers have a catalog of common operations that we  rely on when choosing the steps of a plan.  We can call these common operations (and their mapping to code) *programming patterns*.
 
 We've already seen a number of these patterns, such as:
 
@@ -175,7 +175,7 @@ One of the most common patterns maps one sequence to another, applying an operat
 
 And then we drag the formula down the column so that it is applied to each element of the unit price column.  The  best way to think about the map pattern is "*transform one sequence into another by applying an operator or function.*"
 
-What we're actually doing, though, is traversing the sequence of elements in one list, computing a new value, and injecting the new value into a new list:
+What we're actually doing, though, is traversing the sequence of elements in one sequence, computing a new value, and injecting the new value into a new sequence:
 
 <img src=images/map-discount-op.png width=390>
 
@@ -193,7 +193,7 @@ Programmatically, what we're doing is multiplying the *ith* element from two dif
 
 ### Split
 
-The opposite of merging is splitting where a stream to split into two or more new streams. For example, I often have to split the full names in a list into their first and last names. In a spreadsheet, we make a blank column:
+The opposite of merging is splitting where we split a stream into two or more new streams. For example, I often have to split the full names in a list into their first and last names. In a spreadsheet, we make a blank column:
 
 <img src=images/split-names.png width=250>
 
@@ -201,13 +201,33 @@ and then split on the space character (In Excel, you use `Data` > `Text to Colum
 
 <img src=images/split-names-after.png width=160>
 
-We could "undo" this split using a *merge* with the string concatenation operator, which would combine first and last names together into a new stream.
+We could "undo" this split using a *merge* with the string concatenation operator, which would combine first and last names together into a new stream container full name again.
 
-### Uniquify
+### Sort
+
+Programmers sort lists of strings and numbers all the time. I use the term list not sequence because typically we only sort data structures that are completely in memory, whereas a stream could be 3 terabytes on the disk.  One use case for sorting is to provide more organized output. For example, we might want to report student GPAs sorted by name or report sorted by GPA in reverse numeric order.
+
+Sorting can also be used as part of a computation. For example, to compute the median of some numbers we can sort the numbers and pick the middle value (if there is an odd number of elements).
+
+### Slice
+
+All of the patterns we've examined so far, yield lists or sequences of exactly the same size, but there are many patterns that yield subsets of the data. The first such pattern is *slice*, which extracts a subset of a list. (Again, here I explicitly use the term list to indicate slicing generally occurs on a data structure that fits in memory.)
+
+Programmers often use sentinel values to indicate the  beginning or end of interesting list regions. For example, let's say that 999 indicates the end of interesting rainfall data. Here's a visualization that takes a slice (subset) of the rainfall data up to but not including the sentinel value:
+
+<img src=images/slice.png width=170>
+
+### Remove duplicates
+
+The slice pattern takes a continuous subset but we often want to take noncontiguous subsets.  The *remove duplicates* pattern yields a subset of a stream that does not contain duplicate values. For example, we might want a unique list of customers:
+
+<img src=images/unique.png width=290>
 
 ### Filter
 
-### Sort
+The most general pattern used to obtain subsets is *filter*.
+
+### Search
 
 ### Accumulate
 

@@ -4,7 +4,7 @@
 
 ## What is programming?
 
-When we think about programming, we immediately think about programming languages because we express ourselves using specific language syntax. But, that is like asking a physicist what language they use. Programming is mostly about converting "word problems" (project descriptions) to an execution plan. The final act of entering code is required, of course, but learning to solve programming problems mentally is the most difficult process and is the most important.
+When we think about programming, we immediately think about programming languages because we express ourselves using specific language syntax. But, that is like asking a physicist in what language they talk about physics. Programming is mostly about converting "word problems" (project descriptions) to an execution plan. The final act of entering code is required, of course, but learning to solve programming problems mentally is the most difficult process and is the most important.
 
 The same is true for natural languages. Learning to prove mathematical theorems is harder than learning to write up proofs in some natural language. In fact, much of the mathematical syntax is the same across natural languages just as it is for programming languages.  Expressing your thoughts in Python or R, as you will do in the analytics program, is the simplest part of the programming process. That said, writing correct code is often the most frustrating and time-consuming part of the process even for experienced programmers.
 
@@ -152,7 +152,6 @@ As humans, we can look at the spreadsheet or data structure from above in its en
 
 This notion of traversal abstracts to any **sequence** of elements, not just lists. For example, we will eventually traverse the lines of a text file or a sequence of filenames obtained from the operating system. Sequences are extremely powerful because it allows us to process data that is much bigger than the memory of our computer. We can process the data piecemeal whereas a list requires all elements to be in memory at once.
 
-
 At this point, we have a rough idea how to plan out a program by working backwards from the result and we have an idea how to represent data in memory. To further clarify how to plan out a program, we need to consider the set of possible operations.
 
 ## Common Programming Patterns
@@ -186,6 +185,18 @@ What we're actually doing, though, is traversing the elements in one sequence, d
 <img src=images/map-discount-op.png width=390>
 
 As a special case of map, we get the **duplicate** pattern that duplicates a stream by applying the identity function, *f(x)* = *x*, to the elements of a stream to get a new stream.
+
+### Accumulate
+
+Another extremely common pattern is an accumulator that traverses a sequence of elements and accumulates a value. For example, to sum the numbers in a sequence, we use the accumulator pattern with the `+` operator:
+
+<img src=images/accumulator.png width=290>
+
+We can use any other arithmetic operator we want, such as `*`. In fact, we can use any function that takes two "input" numbers and returns a new value. For summing, the two "input" numbers of the function are the previous accumulated value and the next value in the sequence. The result of that function is the new accumulated value. `+` and `*` are the most common operators. 
+
+You will also see this pattern called *reduce*, made famous by the *map*/*reduce* term from Hadoop.
+
+Counting the number of elements uses the `+` operator with the previous accumulated value and a fixed 1 value instead of the next element in the sequence.
 
 ### Merge
 
@@ -227,11 +238,15 @@ Sorting can also be used as part of a computation. For example, to compute the m
 
 ### Slice
 
-All of the patterns we've examined so far yield lists or sequences that have the same size as the input sequence, but there are many patterns that yield subsets of the data. The first such pattern is *slice*, which extracts a subset of a list. (Again, here I explicitly use the term list to indicate slicing generally occurs on a data structure that fits in memory.)
+Most of the patterns we've examined so far yield lists or sequences that have the same size as the input sequence, but there are many patterns that yield subsets of the data. The first such pattern is *slice*, which extracts a subset of a list. (Again, here I explicitly use the term list to indicate slicing generally occurs on a data structure that fits in memory.)
 
 Programmers often use sentinel values to indicate the beginning or end of interesting list regions. For example, let's say that 999 indicates the end of interesting rainfall data coming from a rain sensor. Here's a visualization that takes a slice (subset) of the rainfall data up to but not including the sentinel value:
 
 <img src=images/slice.png width=170>
+
+The slice pattern is a function of two values, a start and end position within a list.  In this case, we slice from the first position to the 5th position, inclusively.  
+
+*Warning*: Most languages and libraries assume the ending slice position is exclusive, which would mean slicing from the first position to the 6th position, in this case. To make matters more complicated, Python but not R, starts counting at 0 not 1. It's hard to switch back and forth between Python and R in this respect, so it's good to highlight here so you keep it in mind.
 
 ### Remove duplicates
 
@@ -245,62 +260,26 @@ The most general pattern used to extract select data from a list or  sequence is
 
 <img src=images/filter-shipping.png width=170>
 
-The filter pattern is very similar to the map pattern. Map applies a function to each element of a sequence and creates a new sequence of the same size. Filter tests each element for a specific condition and, if true, as that element to the new sequence.
+The filter pattern is very similar to the map pattern. Map applies a function to each element of a sequence and creates a new sequence of the same size. Filter tests each element for a specific condition and, if true, adds that element to the new sequence.
 
 <img src=images/filter-apply.png width=590>
 
-We can also filter on one column move rows as a group. Here is an example that filters Oscar winners from the list of nominees:
+We can also filter on one column but keep the data within each row together. Here is an example, using Excel, that filters Oscar winners from the list of nominees (the condition is *winner equals 1*):
 
 <img src=images/filter-winners.png width=590>
 
 ### Search
 
-### Accumulate
+The filter pattern finds all elements in a sequence that satisfy a specific condition, but often we'd like to know which element satisfied the condition first (or last). This brings us to the *search* pattern. At its most general, search returns the first (or last) position in the sequence rather than the value at that position. If we have the position, often called the *index*, we can always ask the sequence for the value at that position.
 
-An accumulator traverses a sequence of elements and accumulates a value. For example, to sum the numbers in a sequence, we use the accumulator pattern with the `+` operator:
+For example, searching for `999` in the rainfall sensor data from the slice pattern, yields the 6th position.  Most programming languages (Python but not R) count from 0 not 1 so a search for `999` would yield index 5 not 6 in this case:
 
-<img src=images/accumulator.png width=290>
+<img src=images/search-rainfall.png width=180>
 
-We can use any other arithmetic operator we want, such as `*`. In fact, we can use any function that takes two "input" numbers and returns a new value. For summing, the two "input" numbers of the function are the previous accumulated value and the next value in the sequence. The result of that function is the new accumulated value. `+` and `*` are the most common operators. 
+The search pattern can even be used within a string to find a character of interest. For example, to slice up a full name into first and last names, we can combine a search for the space character with two slices. Given full name `Xue Li`, a search for the space character returns the fourth position or index 3. To extract the first name, we slice from index 0 to index 3, exclusively. To get the last name, we slice from index 4 to the 6, exclusively. 
 
-You will also see this pattern called *reduce*, made famous by the *map*/*reduce* term from Hadoop.
+<img src=images/split-string.png width=190>
 
-Counting the number of elements uses the `+` operator with the previous accumulated value and a fixed 1 value instead of the next element in the sequence.
+To compute the 6, the end of the string, programmers tend to use the length of the string as the index. The length works out to be an index whose value is one past the end of the string, which is what we want for a slice using an exclusive right index.
 
-## Computation model
-
-Memory just holds data; all of the action happens in the processor, which has five principal operations:
- 
-* load chunks of data from memory into the processor
-* perform arithmetic computations
-* conditionally perform computations
-* repeat steps
-* store chunks of data back to memory
-
-Processors execute low-level *machine instructions* that perform one or more of those principal operations. Each instruction does a tiny amount of work but the processor can do them extremely fast, on the order of billions a second.  A program then is just a sequence of these low-level instructions. Writing a program in these low-level machine instructions would be extremely tedious, so we typically use programming languages such as Python to make our lives easier. Each high-level instruction such as the following actually force the processor to execute multiple low-level instructions.
-
-```
-total = cost + tax
-```
-
-The processor must load `cost` and `tax` from memory, add the two values, then store the result in memory at the address associated with `total`.
-
-Unless given instructions to the contrary, the processor keeps executing instructions one after the other.
- 
-## operations
-
-First, what are you given? what's unknown? Ok, now write down the comp u expect to perform. Now give some samples,
- 
-Step one means getting a list of numbers, which we can assume is a given.
-
-is this similar to something I've solved before?
-
- by starting at the last step in working our way backwards
-
- this highlights that you should start from the result, the last step, and work your way backwards
-
-analogy with a food truck that picks up raw materials at one spot drives down the road chooses a fork in the road, prepares food en route, then delivers prepared food at a different location. This might circle back to get more  raw materials.
- 
- At the other extreme there can be preprogrammed high-level operations that can, for example, display a bar chart given a list of numbers.
- 
 **Acknowledgements**. Conversations with [Kathi Fisler](http://cs.brown.edu/~kfisler/) provided a lot of inspiration for the disciplined, planned approach to programming summarized here. For more on design recipes, see [Transferring Skills at Solving Word Problems from Computing to Algebra Through Bootstrap](https://cs.brown.edu/~sk/Publications/Papers/Published/sfkf-trans-word-prob-comp-alg-bs/paper.pdf).

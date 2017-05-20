@@ -188,7 +188,7 @@ As a special case of map, we get the **duplicate** pattern that duplicates a str
 
 ### Accumulate
 
-Another extremely common pattern is an accumulator that traverses a sequence of elements and accumulates a value. For example, to sum the numbers in a sequence, we use the accumulator pattern with the `+` operator. As we traverse the sequence, we update a running sum that starts at zero:
+Another extremely common pattern is an accumulator that traverses a sequence of elements and accumulates a value. For example, to sum the numbers in a sequence, we use the accumulator pattern with the `+` operator. As we traverse the sequence, we update a running sum that initialized to zero:
 
 <img src=images/accumulator.png width=290>
 
@@ -198,12 +198,11 @@ You will also see this pattern called *reduce*, as in *map*/*reduce* in the dist
 
 Counting the number of elements uses the `+` operator with the previous accumulated value and a fixed 1 value instead of the next element in the sequence.
 
-We can update multiple running accumulated values, not just one. For example, let's say we wanted to count the number of even and odd values in a sequence. We need two accumulator values, both starting at zero but the pattern is the same:
+We can update multiple running accumulated values, not just one. For example, let's say we wanted to count the number of even and odd values in a sequence. We need two accumulator values, both starting at zero, but the pattern is the same:
 
 <img src=images/accumulator-even-odd.png width=320>
 
 The `+1` indicates an "add one to accumulated value" operation applied at each step.
-
 
 ### Merge
 
@@ -283,10 +282,10 @@ For example, searching for `999` in the rainfall sensor data from the slice patt
 
 <img src=images/search-rainfall.png width=180>
 
-The search pattern can even be used within a string to find a character of interest. For example, to slice up a full name into first and last names, we can combine a search for the space character with two slices. Given full name `Xue Li`, a search for the space character returns the fourth position or index 3. To extract the first name, we slice from index 0 to index 3, exclusively. To get the last name, we slice from index 4 to the 6, exclusively. 
+The search pattern can even be used within a string (list of characters) to find the position of a character of interest. For example, to slice up a full name into first and last names, we can combine a search for the space character with two slice operations. Given full name `Xue Li`, a search for the space character returns the fourth position or index 3. To extract the first name, we slice from index 0 to index 3, exclusively. To get the last name, we slice from index 4 to 6, exclusively. 
 
 <img src=images/split-string.png width=190>
 
-To compute the 6, the end of the string, programmers tend to use the length of the string as the index. The length works out to be an index whose value is one past the end of the string, which is what we want for a slice using an exclusive right index.
+To determine the index of the end of the string, programmers tend to use the length of the string. The length works out to be an index whose value is one past the end of the string, which is what we want for a slice using an exclusive right index.
 
 **Acknowledgements**. Conversations with [Kathi Fisler](http://cs.brown.edu/~kfisler/) provided a lot of inspiration for the disciplined, planned approach to programming summarized here. For more on design recipes, see [Transferring Skills at Solving Word Problems from Computing to Algebra Through Bootstrap](https://cs.brown.edu/~sk/Publications/Papers/Published/sfkf-trans-word-prob-comp-alg-bs/paper.pdf).

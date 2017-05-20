@@ -188,15 +188,22 @@ As a special case of map, we get the **duplicate** pattern that duplicates a str
 
 ### Accumulate
 
-Another extremely common pattern is an accumulator that traverses a sequence of elements and accumulates a value. For example, to sum the numbers in a sequence, we use the accumulator pattern with the `+` operator:
+Another extremely common pattern is an accumulator that traverses a sequence of elements and accumulates a value. For example, to sum the numbers in a sequence, we use the accumulator pattern with the `+` operator. As we traverse the sequence, we update a running sum that starts at zero:
 
 <img src=images/accumulator.png width=290>
 
 We can use any other arithmetic operator we want, such as `*`. In fact, we can use any function that takes two "input" numbers and returns a new value. For summing, the two "input" numbers of the function are the previous accumulated value and the next value in the sequence. The result of that function is the new accumulated value. `+` and `*` are the most common operators. 
 
-You will also see this pattern called *reduce*, made famous by the *map*/*reduce* term from Hadoop.
+You will also see this pattern called *reduce*, as in *map*/*reduce* in the distributed computing world of Hadoop and Spark.
 
 Counting the number of elements uses the `+` operator with the previous accumulated value and a fixed 1 value instead of the next element in the sequence.
+
+We can update multiple running accumulated values, not just one. For example, let's say we wanted to count the number of even and odd values in a sequence. We need two accumulator values, both starting at zero but the pattern is the same:
+
+<img src=images/accumulator-even-odd.png width=320>
+
+The `+1` indicates an "add one to accumulated value" operation applied at each step.
+
 
 ### Merge
 

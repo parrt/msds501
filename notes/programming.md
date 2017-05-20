@@ -4,13 +4,13 @@
 
 ## What is programming?
 
-When we think about programming, we immediately think about programming languages because we express ourselves using specific language syntax. But programming is mostly about converting "word problems" (project descriptions) to an execution plan. The final act of entering code is required, of course, but learning to solve programming problems mentally is the most difficult process and is the most important.
+When we think about programming, we immediately think about programming languages because we express ourselves using specific language syntax. But, that is like asking a physicist what language they use. Programming is mostly about converting "word problems" (project descriptions) to an execution plan. The final act of entering code is required, of course, but learning to solve programming problems mentally is the most difficult process and is the most important.
 
-The same is true for natural languages. Learning to prove mathematical theorems is harder than learning to write up proofs in a new natural language. In fact, much of the mathematical syntax is the same across natural languages just as it is for programming languages.  Expressing your thoughts in Python or R, as you will do in the analytics program, is the simplest part of the programming process. That said, writing correct code is often the most frustrating and time-consuming part of the process even for experienced programmers.
+The same is true for natural languages. Learning to prove mathematical theorems is harder than learning to write up proofs in some natural language. In fact, much of the mathematical syntax is the same across natural languages just as it is for programming languages.  Expressing your thoughts in Python or R, as you will do in the analytics program, is the simplest part of the programming process. That said, writing correct code is often the most frustrating and time-consuming part of the process even for experienced programmers.
 
 Programming is more about *what* to say rather than *how* to say it. Solving a problem with a computer means identifying a sequence of operations, each of which solves a piece of the overall problem. Each operation might itself be a sequence of suboperations.  Expressing those operations in Python or R is not the hard part. Identifying which operations are necessary and their order is the hard part.
 
-The good news is that all of the analytics and machine learning problems you'll likely run into can be solved using the same generic program outline, which we'll discuss shortly. Before that, we should come up with an overall strategy for attacking problems.
+The good news is that all of the analytics and machine learning problems you'll likely run into can be solved using the same generic program outline, which we'll discuss shortly. Before that, we should come up with an overall strategy for attacking programming problems.
 
 ## Problem-solving strategy
 
@@ -103,7 +103,7 @@ Programming languages present us with a higher level view of the memory in two w
 
 When referring to the kind of thing a value represents, we use the word **type**. The type of the "units" cell is integer and the type of "price" is real number (or floating-point number).
  
-Another very common value type is string, which is really a sequence of characters. We use strings to hold place names, book titles, and any other text-based value.  We can think of strings as being a single value because the programming language hides the details.  Strings can be arbitrarily long and the programming language stores the characters as a sequence of bytes in memory. In other words, we think of it as
+Another very common value type is string, which is really a list of characters. We use strings to hold place names, book titles, and any other text-based values.  We can think of strings as being a single value because the programming language hides the details.  Strings can be arbitrarily long and the programming language stores the characters as a sequence of bytes in memory. In other words, we think of it as
 
 <img src=images/strings.png width=110>
 
@@ -111,7 +111,7 @@ but it is really more like this:
 
 <img src=images/strings2.png width=110>
 
-These basic data types are our building blocks. If we arrange many of these blocks together, we can create more complex structures.
+These basic data types are our building blocks. If we arrange some of these blocks together, we can create more complex structures.
 
 ## Data structures
 
@@ -157,7 +157,7 @@ At this point, we have a rough idea how to plan out a program by working backwar
 
 ## Common Programming Patterns
 
-As we discussed above, programmers draw from a set of  templates when choosing an overall program plan. The same is true of the individual operations themselves.  Programmers have a catalog of common operations that we  rely on when choosing the steps of a plan.  We can call these common operations (and their mapping to code) *programming patterns*.
+As we discussed above, programmers draw from a set of  templates when choosing an overall program plan. The same is true of the individual operations themselves.  Programmers have a catalog of common operations that they rely on when choosing the steps of a plan.  We can call these common operations (and their mapping to code) *programming patterns*.
 
 We've already seen a number of these patterns, such as:
 
@@ -181,11 +181,11 @@ Perhaps the most common pattern *maps* one sequence to another, applying an oper
 
 And then we drag the formula down the column so that it is applied to each element of the unit price column.  The  best way to think about the map pattern is "*transform one sequence into another by applying an operator or function.*"
 
-What we're actually doing, though, is traversing the sequence of elements in one sequence, computing a new value, and injecting the new value into a new sequence:
+What we're actually doing, though, is traversing the elements in one sequence, deriving new values, and injecting the new value into a new sequence:
 
 <img src=images/map-discount-op.png width=390>
 
-As a special case of map, we get the **duplicate** pattern that duplicates a stream by applies the identity function, *f(x)* = *x*, to the elements of a stream to get a new stream.
+As a special case of map, we get the **duplicate** pattern that duplicates a stream by applying the identity function, *f(x)* = *x*, to the elements of a stream to get a new stream.
 
 ### Merge
 
@@ -193,7 +193,9 @@ As a variation on map, we can merge or combine values from multiple input sequen
 
 <img src=images/map-formula.png width=250>
 
-Programmatically, what we're doing is multiplying the *ith* element from two different sequences and placing the result in the *ith* position of an output sequence:
+Dragging that formula down the Cost column, applies the formula to the following rows, thus, create the new column.
+ 
+Programmatically, what we're doing is multiplying the *ith* element from two different sequences and placing the result in the *ith* position of the output sequence:
 
 <img src=images/map-mult.png width=490>
 
@@ -203,7 +205,7 @@ The opposite of merging is splitting where we split a stream into two or more ne
 
 <img src=images/split-names.png width=250>
 
-and then split on the space character (In Excel, you use `Data` > `Text to Columns`) to get two new columns, which I have renamed:
+and then split on the space character (In Excel, you use `Data` > `Text to Columns`) to get two new columns:
 
 <img src=images/split-names-after.png width=160>
 
@@ -211,13 +213,13 @@ We could "undo" this split using a *merge* with the string concatenation operato
 
 ### Sort
 
-Programmers sort lists of strings and numbers all the time. I use the term list not sequence because typically we only sort data structures that are completely in memory, whereas a stream could be 3 terabytes on the disk.  One use case for sorting is to provide more organized output. For example, we might want to sort a list of names:
+Programmers sort lists of strings and numbers all the time. I use the term list not sequence because typically we only sort data structures that are completely in memory, whereas a stream could be 3 terabytes on the disk.  One use case for sorting is to provide more organized output for human consumption. For example, we might want to sort a list of names:
 
-<img src=images/sort-names.png width=170>
+<img src=images/sort-names.png width=210>
 
-With data tables, we often sort entire rows by a specific column. Here's an example that sorts a table by GPA in reverse order:
+With data tables, we often sort entire rows by a specific column, keeping all data within a specific row together as a unit. Here's an example that sorts a table by GPA in reverse order:
 
-<img src=images/sort-gpa.png width=260>
+<img src=images/sort-gpa.png width=280>
 
 (Recall that rows typically represent data about a specific entity that should be kept together.)
 
@@ -233,13 +235,23 @@ Programmers often use sentinel values to indicate the beginning or end of intere
 
 ### Remove duplicates
 
-The slice pattern takes a contiguous subset but we often want to extract noncontiguous subsets.  The *remove duplicates* pattern yields a subset of a stream that does not contain duplicate values. For example, we might want a unique list of customers:
+The slice pattern takes a contiguous subset but we often want to extract noncontiguous subsets.  The *remove duplicates* pattern yields a subset of a list that does not contain duplicate values. In other words, we are deriving a **set** from a list. For example, we might want a unique set of customers derived from a list of sales transactions:
 
 <img src=images/unique.png width=290>
 
 ### Filter
 
-The most general pattern used to obtain list or stream subsets is *filter*.
+The most general pattern used to extract select data from a list or  sequence is called *filter*. For example, using Excel's filter mechanism, we can filter a Shipping column for those values less than $10:
+
+<img src=images/filter-shipping.png width=170>
+
+The filter pattern is very similar to the map pattern. Map applies a function to each element of a sequence and creates a new sequence of the same size. Filter tests each element for a specific condition and, if true, as that element to the new sequence.
+
+<img src=images/filter-apply.png width=590>
+
+We can also filter on one column move rows as a group. Here is an example that filters Oscar winners from the list of nominees:
+
+<img src=images/filter-winners.png width=590>
 
 ### Search
 

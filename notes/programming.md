@@ -296,6 +296,6 @@ To determine the index of the end of the string, programmers tend to use the len
 
 Armed with these patterns and the overall program template, we are ready to start programming by planning out programs using pseudocode.
 
-[Next: Programs are work plans](planning.md) 
+[Next: Program planning](planning.md) 
 
 **Acknowledgements**. Conversations with [Kathi Fisler](http://cs.brown.edu/~kfisler/) provided a lot of inspiration for the disciplined, planned approach to programming summarized here. For more on design recipes, see [Transferring Skills at Solving Word Problems from Computing to Algebra Through Bootstrap](https://cs.brown.edu/~sk/Publications/Papers/Published/sfkf-trans-word-prob-comp-alg-bs/paper.pdf).

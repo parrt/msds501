@@ -4,7 +4,7 @@
 
 ## What is programming?
 
-When we think about programming, we immediately think about programming languages because we express ourselves using specific language syntax. But, that is like asking a physicist in what language they discuss physics. Programming is mostly about converting "word problems" (project descriptions) to an execution plan. The final act of entering code is required, of course, but learning to solve programming problems mentally is the most difficult process and is the most important.
+When we think about programming, we immediately think about programming languages because we express ourselves using specific language syntax. But, that is like asking a physicist in which language they discuss physics. Programming is mostly about converting "word problems" (project descriptions) to an execution plan. The final act of entering code is required, of course, but learning to solve programming problems mentally is the most difficult process and is the most important.
 
 The same is true for natural languages. Learning to prove mathematical theorems is harder than learning to write up proofs in some natural language. In fact, much of the mathematical syntax is the same across natural languages just as it is for programming languages.  Expressing your thoughts in Python or R, as you will do in the analytics program, is the simplest part of the programming process. That said, writing correct code is often the most frustrating and time-consuming part of the process even for experienced programmers.
 
@@ -125,11 +125,11 @@ One of the most common *data structures* is the **list**, which is just a sequen
 
 We can think of the rows of a spreadsheet as lists also. For example, the header row of a spreadsheet is really a list of strings:
 
-<img src=images/header-row.png width=720>
+<img src=images/header-row.png width=750>
 
 All of these lists have one thing in common: the type of element is the same. But, we can also have lists with *heterogeneous* elements, which is typically what we see in spreadsheet rows:
 
-<img src=images/sample-row.png width=750>
+<img src=images/sample-row.png width=800>
 
 Heterogeneous lists are typically used to group bits of information about a particular entity. In machine learning, we call this a **feature vector**, an **instance**, or an **observation**.  For example, an apples versus oranges classifier might have feature vectors containing weight (number), volume (number), and color (string).  The important point here is that a list can also be used to as a way to aggregate features about a particular entity. The sequence of the elements is less important than the fact that they are contained (aggregated) within the same list. We will see this notion again when we talk about *tuples* and *objects*.
 
@@ -141,11 +141,11 @@ In this example, each row represents a sales transaction.
 
 The input to machine learning algorithms is often a table where each row aggregates the data associated with a specific instance or observation. 
 
-If the table elements are all numbers, we call this a **matrix**. Here's a matrix with 5 rows and 2 columns:
+If the table elements are all numbers, we call it a **matrix**. Here's a matrix with 5 rows and 2 columns:
 
 <img src=images/matrix.png width=110>
 
-If we arrange two lists side-by-side and kind of glue them together, we get a **dictionary**. Dictionaries map one value to another, just like a dictionary in the real world that maps a word to a definition.  Here is a sample dictionary that maps movie title to the year it won an Oscar:
+If we arrange two lists side-by-side and kind of glue them together, we get a **dictionary**. Dictionaries map one value to another, just like a dictionary in the real world that maps a word to a definition.  Here is a sample dictionary that maps movie title to the year it was nominated for an Oscar award:
 
 <img src=images/dict.png width=220>
 
@@ -154,7 +154,7 @@ As humans, we can look at the spreadsheet or data structure from above in its en
 
 <img src=images/int-list-item.png width=230>
 
-This notion of traversal abstracts to any **sequence** of elements, not just lists. For example, we will eventually traverse the lines of a text file or a sequence of filenames obtained from the operating system. Sequences are extremely powerful because it allows us to process data that is much bigger than the memory of our computer. We can process the data piecemeal whereas a list requires all elements to be in memory at once.
+This notion of traversal abstracts to any **sequence** (or **stream**) of elements, not just lists. For example, we will eventually traverse the lines of a text file or a sequence of filenames obtained from the operating system. Sequences are extremely powerful because it allows us to process data that is much bigger than the memory of our computer. We can process the data piecemeal whereas a list requires all elements to be in memory at once.
 
 At this point, we have a rough idea how to plan out a program by working backwards from the result and we have an idea how to represent data in memory. To further clarify how to plan out a program, we need to consider the set of possible operations.
 
@@ -172,7 +172,7 @@ But we can abstract those further into:
 * *traverse a sequence and accumulate a value*
 * *count the number of elements in a sequence*. 
 
-The more abstract the pattern, the more widely applicable it is. For example, counting the number of elements is actually just a special case of (the more abstract) accumulating a value while traversing a sequence. Instead of adding the values at each position in a sequence, for example, we would always just add one. 
+The more abstract the pattern, the more widely applicable it is. For example, counting the number of elements is actually just a special case of (the more abstract) accumulating a value while traversing a sequence. Instead of adding the values at each position in a sequence, we would always just add one. 
 
 The kinds of patterns we use depends partly on a programmer's style but is heavily influenced by the capabilities of the programming language and its libraries of pre-existing functionality. Let's identify some of the most useful patterns and then try to plan out some programs using them.
 
@@ -184,7 +184,7 @@ Perhaps the most common pattern *maps* one sequence to another, applying an oper
 
 And then we drag the formula down the column so that it is applied to each element of the unit price column.  The  best way to think about the map pattern is "*transform one sequence into another by applying an operator or function.*"
 
-What we're actually doing, though, is traversing the elements in one sequence, deriving new values, and injecting the new value into a new sequence:
+What we're actually doing, though, is traversing the elements in one sequence, deriving new values, and injecting the computed value into a new sequence:
 
 <img src=images/map-discount-op.png width=390>
 
@@ -192,7 +192,7 @@ As a special case of map, we get the **duplicate** pattern that duplicates a str
 
 ### Accumulate
 
-Another extremely common pattern is an accumulator that traverses a sequence of elements and accumulates a value. For example, to sum the numbers in a sequence, we use the accumulator pattern with the `+` operator. As we traverse the sequence, we update a running sum that initialized to zero:
+Another extremely common pattern is an accumulator that traverses a sequence of elements and accumulates a value. For example, to sum the numbers in a sequence, we use the accumulator pattern with the `+` operator. As we traverse the sequence, we update a running sum that's initialized to 0:
 
 <img src=images/accumulator.png width=290>
 
@@ -200,7 +200,7 @@ We can use any other arithmetic operator we want, such as `*`. In fact, we can u
 
 You will also see this pattern called *reduce*, as in *map*/*reduce* in the distributed computing world of Hadoop and Spark.
 
-Counting the number of elements uses the `+` operator with the previous accumulated value and a fixed 1 value instead of the next element in the sequence.
+A **counter** is a special case of an accumulator that counts the number of elements in a sequence. It also uses the `+` operator but the two "input" numbers are the previous accumulated value and a fixed 1 value, not the next element in the sequence.
 
 We can update multiple running accumulated values, not just one. For example, let's say we wanted to count the number of even and odd values in a sequence. We need two accumulator values, both starting at zero, but the pattern is the same:
 
@@ -214,7 +214,7 @@ As a variation on map, we can combine or merge values from multiple input sequen
 
 <img src=images/map-formula.png width=250>
 
-Dragging that formula down the Cost column, applies the formula to the following rows, thus, create the new column.
+Dragging that formula down the Cost column, applies the formula to the following rows, thus, filling the new column.
  
 Programmatically, what we're doing is multiplying the *ith* element from two different sequences and placing the result in the *ith* position of the output sequence:
 
@@ -230,7 +230,7 @@ and then split on the space character (In Excel, you use `Data` > `Text to Colum
 
 <img src=images/split-names-after.png width=160>
 
-We could "undo" this split using a *combine* operation with the string concatenation operator, which would combine first and last names together into a new stream container full name again.
+We could "undo" this split using a *combine* operation with the string concatenation operator, which would combine first and last names together into a new stream containing full names again.
 
 ### Sort
 
@@ -246,9 +246,11 @@ With data tables, we often sort entire rows by a specific column, keeping all da
 
 Sorting can also be used as part of a computation. For example, to compute the median of some numbers we can sort the numbers and pick the middle value (if there is an odd number of elements).
 
+A weaker version of sorting is **group by**, which also makes sure that all elements with the same value are grouped together. The difference is that the order of the groups is not necessarily sorted.
+
 ### Slice
 
-Most of the patterns we've examined so far yield lists or sequences that have the same size as the input sequence, but there are many patterns that yield subsets of the data. The first such pattern is *slice*, which extracts a subset of a list. (Again, here I explicitly use the term list to indicate slicing generally occurs on a data structure that fits in memory.)
+Most of the patterns we've examined so far yield lists or sequences that have the same size as the input sequence, but there are many patterns that yield subsets of the data. The first such pattern is *slice*, which extracts a subset of a list. (Again, here I explicitly use the term list to indicate that slicing generally occurs on a data structure that fits in memory.)
 
 Programmers often use sentinel values to indicate the beginning or end of interesting list regions. For example, let's say that 999 indicates the end of interesting rainfall data coming from a rain sensor. Here's a visualization that takes a slice (subset) of the rainfall data up to but not including the sentinel value:
 
@@ -266,7 +268,7 @@ The slice pattern takes a contiguous subset but we often want to extract noncont
 
 ### Filter
 
-The most general pattern used to extract select data from a list or  sequence is called *filter*. For example, using Excel's filter mechanism, we can filter a Shipping column for those values less than $10:
+The most general pattern used to extract data from a list or  sequence is called *filter*. For example, using Excel's filter mechanism, we can filter a Shipping column for those values less than $10:
 
 <img src=images/filter-shipping.png width=170>
 
@@ -280,9 +282,9 @@ We can also filter on one column but keep the data within each row together. Her
 
 ### Search
 
-The filter pattern finds all elements in a sequence that satisfy a specific condition, but often we'd like to know which element satisfied the condition first (or last). This brings us to the *search* pattern. At its most general, search returns the first (or last) position in the sequence rather than the value at that position. If we have the position, often called the *index*, we can always ask the sequence for the value at that position.
+The filter pattern finds all elements in a sequence that satisfy a specific condition, but often we'd like to know which element satisfies the condition first (or last). This brings us to the *search* pattern. At its most general, search returns the first (or last) position in the sequence rather than the value at that position. If we have the position, often called the *index*, we can always ask the sequence for the value at that position.
 
-For example, searching for `999` in the rainfall sensor data from the slice pattern, yields the 6th position.  Most programming languages (Python but not R) count from 0 not 1 so a search for `999` would yield index 5 not 6 in this case:
+For example, searching for `999` in the rainfall sensor data from the slice pattern above, yields the 6th position.  Most programming languages (Python but not R) count from 0 not 1 so a search for `999` would yield index 5 not 6 in this case:
 
 <img src=images/search-rainfall.png width=180>
 
@@ -291,5 +293,9 @@ The search pattern can even be used within a string (list of characters) to find
 <img src=images/split-string.png width=190>
 
 To determine the index of the end of the string, programmers tend to use the length of the string. The length works out to be an index whose value is one past the end of the string, which is what we want for a slice using an exclusive right index.
+
+Armed with these patterns and the overall program template, we are ready to start programming by planning out programs using pseudocode.
+
+[Next: Programs are work plans](planning.md) 
 
 **Acknowledgements**. Conversations with [Kathi Fisler](http://cs.brown.edu/~kfisler/) provided a lot of inspiration for the disciplined, planned approach to programming summarized here. For more on design recipes, see [Transferring Skills at Solving Word Problems from Computing to Algebra Through Bootstrap](https://cs.brown.edu/~sk/Publications/Papers/Published/sfkf-trans-word-prob-comp-alg-bs/paper.pdf).

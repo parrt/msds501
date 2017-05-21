@@ -4,11 +4,11 @@
 
 ## What is programming?
 
-When we think about programming, we immediately think about programming languages because we express ourselves using specific language syntax. But, that is like asking a physicist in what language they talk about physics. Programming is mostly about converting "word problems" (project descriptions) to an execution plan. The final act of entering code is required, of course, but learning to solve programming problems mentally is the most difficult process and is the most important.
+When we think about programming, we immediately think about programming languages because we express ourselves using specific language syntax. But, that is like asking a physicist in what language they discuss physics. Programming is mostly about converting "word problems" (project descriptions) to an execution plan. The final act of entering code is required, of course, but learning to solve programming problems mentally is the most difficult process and is the most important.
 
 The same is true for natural languages. Learning to prove mathematical theorems is harder than learning to write up proofs in some natural language. In fact, much of the mathematical syntax is the same across natural languages just as it is for programming languages.  Expressing your thoughts in Python or R, as you will do in the analytics program, is the simplest part of the programming process. That said, writing correct code is often the most frustrating and time-consuming part of the process even for experienced programmers.
 
-Programming is more about *what* to say rather than *how* to say it. Solving a problem with a computer means identifying a sequence of operations, each of which solves a piece of the overall problem. Each operation might itself be a sequence of suboperations.  Expressing those operations in Python or R is not the hard part. Identifying which operations are necessary and their order is the hard part.
+Programming is more about *what* to say rather than *how* to say it. Solving a problem with a computer means identifying a sequence of operations, each of which solves a piece of the overall problem. Each operation might itself be a sequence of suboperations.  Expressing those operations in Python or R is not the hard part. Identifying which operations are necessary and their relative order is the hard part.
 
 The good news is that all of the analytics and machine learning problems you'll likely run into can be solved using the same generic program outline, which we'll discuss shortly. Before that, we should come up with an overall strategy for attacking programming problems.
 
@@ -20,17 +20,19 @@ Before trying to plan out an analytics program, we have to fully understand the 
 
 **Step two** is to figure out what data or input, our raw materials, that we need to achieve the goal. Without the right data, you can't solve the problem. For example, I once mentored a student practicum team whose goal was to identify which customers of a website would upgrade to a professional account. The students only had data on users that had upgraded and no data on users who declined to upgrade. Whoops! You can't build an apples versus oranges classifier if you only have data on apples. If you don't have all the data you need, it's important to identify this requirement as part of the problem-solving process.  Data acquisition often requires programming and we'll revisit the topic below as part of our generic program outline.
 
-At this point, we've actually set the stage necessary to solve problems and we haven't thought about code at all. We started with the end result and then identified the data we need. The input-output pairs neatly bracket the computation we need to perform. At the beginning, we have the known data and, at the end, we have the expected output or work product.
-
 **Step three** of the problem-solving process is to write out some input-output pairs by hand. Doing so helps us understand what the program will need to do and how it might do it. As we will see, this technique works not only for the overall input and output, but also works great for designing functions (reusable bits of code). We can't automate operations with code if we can't identify the operations manually. Moreover, listing a bunch of cases usually highlights special cases, such as "when the input is negative, the output should be empty". In other words, the program should not crash with a negative number as input. Programmers call this *test-driven design*.
 
-**Step four** is to identify the sequence operations that will compute the expected result.  Unlike the output-focused goal from step one, this step involves planning out the specific operations and suboperations that chew on the input data, gradually transforming it into the expected output. We'll learn how to make such plans below.
+At this point, we've actually set the stage necessary to solve problems and we haven't thought about code at all. We started with the end result and then identified the data we need. The input-output pairs neatly bracket the computation we need to perform. At the beginning, we have the known data and, at the end, we have the expected output or work product. Ok, onto the programming steps.
+
+**Step four** is to identify the sequence of operations that will compute the expected result.  Unlike the output-focused goal from step one, this step involves planning out the specific operations and suboperations that chew on the input data, gradually transforming it into the expected output. We'll learn how to make such plans below.
 
 In **Step five**, we translate the operations in our plan to actual executable code. This step deserves an entire book but here's a summary of my advice. Start with the simplest  suboperations and make sure they work first. Then code the larger operations that use those suboperations. If there's a problem, you know that it is likely in the new code not the suboperations. In this phase, we'll normally find problems in our design from step four so we'll typically repeat four and five.  Testing functionality and fixing errors is called *debugging*.
 
 Finally, **step six** is to check our overall results for correctness.  The most obvious check is to compare the output of our program with the known input-output pairs from step three. Then, most importantly, test the program with input that was not considered in steps three through five. This is an important test of the programs generality. If the program gives incorrect output, it's back to step four to see what's wrong.
 
 And now for a dose of reality. The world is a big messy place and, since we know the least about a problem at the start, we typically need to repeat or bounce around through some or all of these steps. For example, let's say we're building an apples vs oranges classifier and the above process leads to a program that doesn't distinguish between the two fruit very well. Perhaps we only have data on size and shape. We might decide that the classifier needs data on color so it's back to step two (and possibly step three) then step six to check the results again.
+
+So now we have an overall strategy for problem solving. It's time to think about actually programming a solution. Let's start by looking at a program outline that'll help us get started with the majority of analytics programs.
 
 ## Analytics program template
 
@@ -40,9 +42,9 @@ Relying on mental or even physical templates is very common, not just in program
 
 Gaining experience as a programmer means recognizing patterns in your code and creating generic templates in your mind for future use.  While you're getting started, you can rely on the experience of other programmers by reusing existing libraries of code and by using relevant templates. This leads us to the following generic analytics program template that is suitable for most of the problems you're likely to run into:
 
-1. Acquire data
-2. Load data into memory and organize into data structures
-2. Normalize or otherwise prepare data
+1. Acquire data, which means finding a suitable file or collecting data from the web and storing in a file
+2. Load data from disk and place into memory organized into data structures
+2. Normalize, clean, or otherwise prepare data
 3. Process the data, which can mean training a machine learning model, computing summary statistics, or optimizing a cost function
 4. Emit results, which can be anything from simply printing an answer to saving data to the disk to generating a fancy visualization
 
@@ -58,7 +60,7 @@ This problem is easy enough that most of us could outline a solution without exp
 
 ## Planning out a program
 
-The program template gives an overall outline for the coarsest-grained operations of the program but we'll need to break each of those operations down further and further into suboperations. We continue decomposing large operations into a sequence of smaller operations until we reach a level of granularity that can be directly expressed in our programming language. 
+The program template gives an overall outline for the coarsest-grained operations of the program but we'll need to break each of those operations down further and further into suboperations. We continue decomposing large operations into a sequence of smaller operations until we reach a level of granularity that can be directly expressed in our programming language.
 
 Here's the key to converting an English description (a "word problem") into a sequence of operations: *start at the end result and work backwards asking what the prerequisites are for each step*. For example, we cannot print the average of some numbers before we compute that value. We can't compute that value until we load those numbers into memory etc...
 
@@ -71,13 +73,15 @@ This "working backwards" mechanism even helps us break down operations like "com
 5. Compute average as sum divided by length
 6. Print the average
 
-The steps in this plan are fine-grained enough to be converted one-to-one to programming statements.  At that point, we have an executable program.  The hard part is coming up with a suitable plan, not converting it to code.
+(Note that the step numbers no longer correspond directly to the standard program template since we have decomposed the steps into suboperations.)
 
-Sequences occur even in simple arithmetic expressions that we often think of as one operation. For example, in the following expression, we have to do the multiplication first and then add in the shipping cost.
+The steps in this plan are fine-grained enough to be converted one-to-one to programming statements.  At that point, we have an executable program.  The hard part is coming up with a suitable plan, not converting it to code. 
 
-```
-shipping + unitprice * units
-```
+This semi-precise English is what programmers call **pseudocode** and will be the way we plan out programs, whether out loud, on paper, or in a text file. 
+
+Operation sequences occur even in simple arithmetic expressions that we often think of as one operation. For example, in the following algebraic expression, we have to do the multiplication first and then add in the shipping cost (according to the rules of arithmetic).
+
+<i>shipping + unitprice * units</i>
 
 When writing out the plan for a program, always keep in mind that the computer is executing one operation after the other so the setting up the right sequence is critical.
 
@@ -89,7 +93,7 @@ A computer consists of three primary components: a disk to hold data, a memory (
 
 <img src=images/cpu-memory.png width=400>
 
-The memory is broken up into discrete chunks of a fixed size (8 *bits* called one *byte*) and each chunk is identified by an integer address, just like the house numbers on street addresses like 101 Howard Street. Processors can ask for the data at a particular address and can store a piece of data at a specific memory location as well as well. For example, here is an abstract representation of byte-addressable computer memory:
+The memory is broken up into discrete cells of a fixed size. The size of a cell is one *byte*, which consists of 8 *bits*, binary on/off digits. It is sufficient to hold a number between 0 and 255. Each cell is identified by an integer address, just like the building numbers on street addresses like 101 Howard Street. Processors can ask for the data at a particular address and can store a piece of data at a specific memory location as well. For example, here is an abstract representation of byte-addressable computer memory:
 
 <img src=images/addresses.png width=80> 
 
@@ -97,13 +101,13 @@ In this case, the memory has value 100 at address 0. At address 1, the memory ha
 
 Computer memory is much faster but usually much smaller than the disk and all memory is lost when the computer powers off. Think of memory as your working or scratch space and the disk as your permanent storage. Memory chips are kind of like human short-term memory that is prone to disappearing versus a piece of paper which is slower to read and write but *persistent*.
 
-Programming languages present us with a higher level view of the memory in two ways: we can use names to refer to locations in memory and each memory cell can hold integer and real number values of arbitrary size (they do you have a limit, but let's keep things simple for now). For example, here are two named values stored in memory:
+Programming languages present us with a higher level view of the memory in two ways: we can use names to refer to locations in memory and each memory cell can hold integer and real number values of arbitrary size (they do have a limit, but let's keep things simple for now). For example, here are two named values stored in memory:
 
 <img src=images/named-memory.png width=100>
 
 When referring to the kind of thing a value represents, we use the word **type**. The type of the "units" cell is integer and the type of "price" is real number (or floating-point number).
- 
-Another very common value type is string, which is really a list of characters. We use strings to hold place names, book titles, and any other text-based values.  We can think of strings as being a single value because the programming language hides the details.  Strings can be arbitrarily long and the programming language stores the characters as a sequence of bytes in memory. In other words, we think of it as
+
+Another very common value type is *string*, which is really a list of characters. We use strings to hold place names, book titles, and any other text-based values.  We can think of strings as being a single value because the programming language hides the details.  Strings can be arbitrarily long and the programming language stores the characters as a sequence of bytes in memory. In other words, we think of it as
 
 <img src=images/strings.png width=110>
 
@@ -204,9 +208,9 @@ We can update multiple running accumulated values, not just one. For example, le
 
 The `+1` indicates an "add one to accumulated value" operation applied at each step.
 
-### Merge
+### Combine
 
-As a variation on map, we can merge or combine values from multiple input sequences to form a new sequence. For example, to compute the cost of a sales transaction, we multiply the quantity times the unit price. In a spreadsheet, that looks like this:
+As a variation on map, we can combine or merge values from multiple input sequences to form a new sequence. For example, to compute the cost of a sales transaction, we multiply the quantity times the unit price. In a spreadsheet, that looks like this:
 
 <img src=images/map-formula.png width=250>
 
@@ -218,7 +222,7 @@ Programmatically, what we're doing is multiplying the *ith* element from two dif
 
 ### Split
 
-The opposite of merging is splitting where we split a stream into two or more new streams. For example, I often have to split the full names in a list into their first and last names. In a spreadsheet, we make a blank column:
+The opposite of combining is splitting where we split a stream into two or more new streams. For example, I often have to split the full names in a list into their first and last names. In a spreadsheet, we make a blank column:
 
 <img src=images/split-names.png width=250>
 
@@ -226,7 +230,7 @@ and then split on the space character (In Excel, you use `Data` > `Text to Colum
 
 <img src=images/split-names-after.png width=160>
 
-We could "undo" this split using a *merge* with the string concatenation operator, which would combine first and last names together into a new stream container full name again.
+We could "undo" this split using a *combine* operation with the string concatenation operator, which would combine first and last names together into a new stream container full name again.
 
 ### Sort
 

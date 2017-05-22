@@ -44,17 +44,30 @@ That computation implies that we need yet more previous operations, to compute t
 
 <img src=images/average-plan.png width=500>
 
-Now, let's make the problem a little more complicated
+Now, let's see what happens to the plan if we make the problem a little more complicated.
 
-rainfall with Sentinel value
+## Plan reuse
 
-then Reduce a problem to one we already know how to solve.
+When discussing the slice programming pattern, we used 999 as a sentinel value to indicate the end of some rainfall data of interest. Let's solve the problem of computing the average rainfall coming from a sensor up to but not including value 999. To solve this, we're going to use the second most important strategy for identifying program operations: *reduce a new problem to a variation of an existing problem with a known solution.* 
+
+This approach is well-known and used by just about every technical discipline (mathematics, physics, engineering, architecture, etc...).  For example, engineers building a new suspension bridge do not proceed as if such a thing has never been built before.  It's likely they will take an existing design and tweak it to suit the new situation.
+
+We can do the exact same thing in the programming world. The only difference between this new problem and the previous generic "average some numbers" problem is that we want to ignore some of the data. It stands to reason that if we tweak our averaging program plan, we can solve this new problem quickly. If take a subset of the original list using the slice pattern:
+
+<img src=images/slice.png width=210>
+
+then we get just a list of numbers and we're right back to the simple averaging problem from the last section.
+
+In order to take the slice, however, we need to know where the 999 is in the list, which implies we need a previous "search for 999" step.  We can't assume the computer will magically know where the 999 is and that it is significant. Like teaching a child, we must plan out all necessary steps.  We are making use of the "working backwards" approach to breakup a single complex operation into two suboperations: search for 999, slice out everything up to that position. This operation smacks of data cleanup, so let's make use of that position in the program outline:
+
+<img src=images/rainfall-average-plan.png width=600>
+
+### foo
 
 add noise to rainfall problem.
 
 combining patterns such as filter and sum and counting. talk about efficiency and the number of steps or clock ticks.
-
-
+ with
 ## sample problems:
 
 rainfall

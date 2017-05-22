@@ -255,7 +255,7 @@ Most of the patterns we've examined so far yield lists or sequences that have th
 
 Programmers often use sentinel values to indicate the beginning or end of interesting list regions. For example, let's say that 999 indicates the end of interesting rainfall data coming from a rain sensor. Here's a visualization that takes a slice (subset) of the rainfall data up to but not including the sentinel value:
 
-<img src=images/slice.png width=170>
+<img src=images/slice.png width=210>
 
 The slice pattern is a function of two values, a start and end position within a list.  In this case, we slice from the first position to the 5th position, inclusively.  
 

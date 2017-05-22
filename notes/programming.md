@@ -1,7 +1,5 @@
 # How to Program
 
-*in progress*
-
 ## What is programming?
 
 When we think about programming, we immediately think about programming languages because we express ourselves using specific language syntax. But, that is like asking a physicist in which language they discuss physics. Programming is mostly about converting "word problems" (project descriptions) to an execution plan. The final act of entering code is required, of course, but learning to solve programming problems mentally is the most difficult process and is the most important.
@@ -160,6 +158,7 @@ For lists and other structures that fit completely in memory, we often find a **
 
 At this point, we have a rough idea how to plan out a program by working backwards from the result and we have an idea how to represent data in memory. To further clarify how to plan out a program, we need to consider the set of possible operations.
 
+<a name=patterns></a>
 ## Common Programming Patterns
 
 As we discussed above, programmers draw from a set of  templates when choosing an overall program plan. The same is true of the individual operations themselves.  Programmers have a catalog of common operations that they rely on when choosing the steps of a plan.  We can call these common operations (and their mapping to code) *programming patterns*.
@@ -295,6 +294,8 @@ The search pattern can even be used within a string (list of characters) to find
 <img src=images/split-string.png width=190>
 
 To determine the index of the end of the string, programmers tend to use the length of the string. The length works out to be an index whose value is one past the end of the string, which is what we want for a slice using an exclusive right index.
+
+In addition to these powerful patterns, we can of course also use arithmetic and perform conditional operations such as "*if x<0 then print negative*".
 
 Armed with these patterns and the overall program template, we are ready to start programming by planning out programs using pseudocode.
 

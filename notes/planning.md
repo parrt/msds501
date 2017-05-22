@@ -52,19 +52,32 @@ When discussing the slice programming pattern, we used 999 as a sentinel value t
 
 This approach is well-known and used by just about every technical discipline (mathematics, physics, engineering, architecture, etc...).  For example, engineers building a new suspension bridge do not proceed as if such a thing has never been built before.  It's likely they will take an existing design and tweak it to suit the new situation.
 
-We can do the exact same thing in the programming world. The only difference between this new problem and the previous generic "average some numbers" problem is that we want to ignore some of the data. It stands to reason that if we tweak our averaging program plan, we can solve this new problem quickly. If take a subset of the original list using the slice pattern:
+As an aside, the strategy is often used to poke fun at other disciplines. For example, from [a collection of physicist jokes](https://www.astro.umd.edu/~avondale/extra/Humor/ScienceHumor/PhysicistJokes.html), here is a one variation:
+> A Physicist and a mathematician are sitting in a faculty lounge. Suddenly, the coffee machine catches on fire. The physicist grabs a bucket and leap towards the sink, fills the bucket with water and puts out the fire. Second day, the same two sit in the same lounge. Again, the coffee machine catches on fire. This time, the mathematician stands up, gets a bucket, hands the bucket to the physicist, thus *reducing the problem to a previousely solved one*.
+
+We also use this problem-reduction approach in the programming world. The only difference between this new data problem and the previous generic "average some numbers" problem is that we want to ignore some of the data. It stands to reason that if we tweak our averaging program plan, we can solve this new problem quickly. If take a subset of the original list using the slice pattern:
 
 <img src=images/slice.png width=210>
 
 then we get just a list of numbers and we're right back to the simple averaging problem from the last section.
 
-In order to take the slice, however, we need to know where the 999 is in the list, which implies we need a previous "search for 999" step.  We can't assume the computer will magically know where the 999 is and that it is significant. Like teaching a child, we must plan out all necessary steps.  We are making use of the "working backwards" approach to breakup a single complex operation into two suboperations: search for 999, slice out everything up to that position. This operation smacks of data cleanup, so let's make use of that position in the program outline:
+In order to take the slice, however, we need to know where the 999 is in the list, which implies we need a previous "search for 999" step.  We can't assume the computer will magically know where the 999 is and that it is significant. Like teaching a child, we must plan out all necessary steps.  We are making use of the "working backwards" approach to breakup a single complex operation into two suboperations: search for 999, slice out everything up to that position. This operation smacks of data cleanup, so let's make use of that position in the program outline. The rest of the plan is identical to the previous average plan:
 
 <img src=images/rainfall-average-plan.png width=600>
 
+**Exercise**: How can we handle the situation where the rainfall sensor is noisy and can spuriously generate some negative numbers? What should we change in our program work plan? Hint: it helps to write out the sample input-output pairs.
+
+The goal is to reuse as much possible, so we should ask ourselves: "*How can we reduce this new problem to one that we have already solved?*"  The answer is to filter out any negative numbers before giving it to the rainfall average plan. So, all we have to do is add a single operation to the "clean data" step in the overall program outline. It helps to think about such data manipulation visually:
+
+<img src=images/filter-slice.png width=360>
+
+The complete plan now has negative numbers in the sample input-output pairs and a new (filter) operation in the data cleaning step:
+
+<img src=images/noisy-rainfall-average-plan.png width=600>
+
+
 ### foo
 
-add noise to rainfall problem.
 
 combining patterns such as filter and sum and counting. talk about efficiency and the number of steps or clock ticks.
  with

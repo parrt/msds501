@@ -20,3 +20,26 @@ and our overall analytics program outline:
 3. Process the data
 4. Emit results
 
+average
+
+sample problems:
+
+rainfall
+
+min / max
+
+balanced parens
+
+identity matrix
+
+add matrices
+
+what percent of data has x in field y
+
+average cost per product category.
+
+histogram
+
+all possible combinations of first/last names.
+
+power to weight ratio

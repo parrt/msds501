@@ -156,6 +156,8 @@ As humans, we can look at the spreadsheet or data structure from above in its en
 
 This notion of traversal abstracts to any **sequence** (or **stream**) of elements, not just lists. For example, we will eventually traverse the lines of a text file or a sequence of filenames obtained from the operating system. Sequences are extremely powerful because it allows us to process data that is much bigger than the memory of our computer. We can process the data piecemeal whereas a list requires all elements to be in memory at once.
 
+For lists and other structures that fit completely in memory, we often find a **reverse traversal** useful, that examines elements from last to first.
+
 At this point, we have a rough idea how to plan out a program by working backwards from the result and we have an idea how to represent data in memory. To further clarify how to plan out a program, we need to consider the set of possible operations.
 
 ## Common Programming Patterns
@@ -238,7 +240,7 @@ Programmers sort lists of strings and numbers all the time. I use the term list 
 
 <img src=images/sort-names.png width=210>
 
-With data tables, we often sort entire rows by a specific column, keeping all data within a specific row together as a unit. Here's an example that sorts a table by GPA in reverse order:
+With data tables, we often sort entire rows by a specific column, keeping all data within a specific row together as a unit. Here's an example that sorts a table by GPA in *reverse order*:
 
 <img src=images/sort-gpa.png width=280>
 

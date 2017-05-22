@@ -32,17 +32,19 @@ To see how the overall strategy and program outline come together, let's work th
 
 ## Getting started
 
-As a first problem, let's plan out a program that computes the average of some numbers. To help us remember problem-solving steps and program outline, let's use a [template for our program work plan](plans/program-planning.pdf).
+As a first problem, let's plan out a program that computes the average of some numbers. To help us remember the problem-solving steps and program outline, let's use a [template for our program work plan](plans/program-planning.pdf).
 
 Our first problem-solving step is to clearly identify the goal, although it's almost a simple restatement of the problem. Let's start with "*Compute and print the average of the numbers in a file*."  For step two, we can assume we have the necessary data by definition. The next step is to manually write out some sample input-output pairs. A single value, say, 1 should get us 1 as output. Two values like 1, 2 should give 1.5 etc.  Oh, what happens if there are no numbers? We should emit 0.  Let's revisit step one and change it to be more general: "*Compute and print the average of the numbers in a file. Print 0 if there are no numbers.*"
 
 The meat of the task is to identify the sequence of operations needed to compute the result. The first two steps, acquiring data and loading it into a data structure, are so straightforward for our sample problems that we can identify those operations straightaway; i.e., without working backwards from the end result. In this case, acquiring and loading just means "*Load the numbers into a list in memory*."
 
-We don't need to normalize or clean the data so we can proceed to the "process the data" step. For the final "emit results" operation, we can simply say "*Print the average.*" For the average to exist, the previous step must divide the sum of the input numbers by the number of values in the list.  That implies that we need yet more previous operations, to compute the sum and count the elements in the list. 
+We don't need to normalize or clean the data so we can proceed to the "process the data" operation. For the final "emit results" operation, we can simply say "*Print the average.*" For the average to exist, the previous step must divide the sum of the input numbers by the number of values in the list.  We also need to avoid dividing by zero, when there are no numbers in the list. For that, we can use a simple conditional pseudocode statement like: "*If the count is 0, the average is 0 else compute the average as the sum divided by the count*."
 
-Fortunately, we can use an accumulator pattern for both of those operations. Because summing and accounting only needs the list of numbers as input, there is no prior step we need to identify. (We've already decided that we need to load the numbers into a list as part of the program outline.)  Completely filled out, the program work plan looks like this:
+That computation implies that we need yet more previous operations, to compute the sum and count the elements in the list. Fortunately, we can use an accumulator pattern for both of those operations. Because summing and accounting only needs the list of numbers as input, there is no prior step we need to identify. (We already decided that the program needs to load the numbers into a list at the beginning.) Completely filled out, the program work plan looks like this:
 
 <img src=images/average-plan.png width=500>
+
+Now, let's make the problem a little more complicated
 
 rainfall with Sentinel value
 

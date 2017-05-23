@@ -20,9 +20,23 @@ and, for step #4, we have an overall analytics program outline:
 3. Process the data
 4. Emit results
 
-Because we're just learning to program, we're going to use this program outline and our set of [common patterns](programming.md) as a crutch. The outline gets us thinking about the kinds of operations we'll need and the set of patterns acts like a vocabulary of known words, helping to reduce the scope of the undertaking.
+Because we're just learning to program, we're going to use this program outline and our set of [common patterns](programming.md) as a crutch. The outline gets us thinking about the kinds of operations we'll need and the set of patterns acts like a vocabulary of known words, helping to reduce the scope of the undertaking. Here's a summary of our programming patterns:
 
-To design a program, we're going to break the problem down into operations and suboperations while following the general outline. But, how do we know which operations we need to plan out a program? The easiest way is to *start with the end result and work your way backwards*. The step or steps preceding step *i* compute the data or values needed by step *i*.
+* *Map*.  Apply an operator or function to every element of a sequence.
+* *Accumulate*.  Accumulate a value or values while traversing a sequence.
+* *Combine*.  Create a new sequence by combining values from multiple sequences.
+* *Split*. Split one sequence into multiple.
+* *Sort*. Sort a list or sort a table by a column.
+* *Slice*.  Extract a continuous subset of a list.
+* *Remove duplicates*.  Convert a list to a set, with unique elements.
+* *Filter*. Extract a subset of a sequence whose values satisfy a specific condition.
+* *Search*. Find the first or last index (position) of a specific value in a list.
+
+To design a program, we're going to break the problem down into operations and suboperations while following the general outline. But, how do we know which operations we need to plan out a program? The easiest way is to follow this guideline:
+
+*Start with the end result and work your way backwards, fulfilling prerequisites*.
+
+In other words, the step or steps preceding step *i* compute the data or values needed by step *i*.
 
 This approach is a well-known architectural and engineering trick. For example, imagine you want to erect a heavy statue 10 feet off the ground. A structural engineer might decide that the heavy statute needs a flat metal base directly underneath it. Then, to support all of that weight, four 10 foot steel beams should support the metal base. The beams should have deep concrete footings, and so on.
 
@@ -40,7 +54,7 @@ The meat of the task is to identify the sequence of operations needed to compute
 
 We don't need to normalize or clean the data so we can proceed to the "process the data" operation. For the final "emit results" operation, we can simply say "*Print the average.*" For the average to exist, the previous step must divide the sum of the input numbers by the number of values in the list.  We also need to avoid dividing by zero, when there are no numbers in the list. For that, we can use a simple conditional pseudocode statement like: "*If the count is 0, the average is 0 else compute the average as the sum divided by the count*."
 
-That computation implies that we need yet more previous operations, to compute the sum and count the elements in the list. Fortunately, we can use an accumulator pattern for both of those operations. Because summing and accounting only needs the list of numbers as input, there is no prior step we need to identify. (We already decided that the program needs to load the numbers into a list at the beginning.) Completely filled out, the program work plan looks like this:
+That computation implies that we need yet more previous operations, to compute the sum and count the elements in the list. Fortunately, we can use an accumulator pattern for both of those operations. Because summing and counting only need the list of numbers as input, there is no prior step we need to identify. (We already decided that the program needs to load the numbers into a list at the beginning.) Completely filled out, the program work plan looks like this:
 
 <img src=images/average-plan.png width=500>
 
@@ -48,20 +62,22 @@ Now, let's see what happens to the plan if we make the problem a little more com
 
 ## Plan reuse
 
-When discussing the slice programming pattern, we used 999 as a sentinel value to indicate the end of some rainfall data of interest. Let's solve the problem of computing the average rainfall coming from a sensor up to but not including value 999. To solve this, we're going to use the second most important strategy for identifying program operations: *reduce a new problem to a variation of an existing problem with a known solution.* 
+When discussing the slice programming pattern, we used 999 as a sentinel value to indicate the end of some rainfall data of interest. Let's solve the problem of computing the average rainfall coming from a sensor up to but not including value 999. To solve this, we're going to use the second most important strategy for identifying program operations: 
+
+*Reduce a new problem to a variation of an existing problem with a known solution.* 
 
 This approach is well-known and used by just about every technical discipline (mathematics, physics, engineering, architecture, etc...).  For example, engineers building a new suspension bridge do not proceed as if such a thing has never been built before.  It's likely they will take an existing design and tweak it to suit the new situation.
 
 As an aside, the strategy is often used to poke fun at other disciplines. For example, from [a collection of physicist jokes](https://www.astro.umd.edu/~avondale/extra/Humor/ScienceHumor/PhysicistJokes.html), here is a one variation:
 > A Physicist and a mathematician are sitting in a faculty lounge. Suddenly, the coffee machine catches on fire. The physicist grabs a bucket and leap towards the sink, fills the bucket with water and puts out the fire. Second day, the same two sit in the same lounge. Again, the coffee machine catches on fire. This time, the mathematician stands up, gets a bucket, hands the bucket to the physicist, thus *reducing the problem to a previousely solved one*.
 
-We also use this problem-reduction approach in the programming world. The only difference between this new data problem and the previous generic "average some numbers" problem is that we want to ignore some of the data. It stands to reason that if we tweak our averaging program plan, we can solve this new problem quickly. If we take a subset of the original list using the slice pattern:
+We also use this problem-reduction approach in the programming world.  For example, the only difference between this new data problem and the previous generic "average some numbers" problem is that we want to ignore some of the data. It stands to reason that if we tweak our averaging program plan, we can solve this new problem quickly. If we take a subset of the original list using the slice pattern:
 
 <img src=images/slice.png width=210>
 
 then we get just a list of numbers and we're right back to the simple averaging problem from the last section.
 
-In order to take the slice, however, we need to know where the 999 is in the list, which implies we need a previous "search for 999" step.  We can't assume the computer will magically know where the 999 is and that it is significant. Like teaching a child, we must plan out all necessary steps.  We are making use of the "working backwards" approach to breakup a single complex operation into two suboperations: search for 999, slice out everything up to that position. This operation smacks of data cleanup, so let's make use of that position in the program outline. The rest of the plan is identical to the previous average plan:
+In order to take the slice, however, we need to know where the 999 is in the list, which implies we need a "search for 999" operation preceding the slice.  We can't assume the computer will magically know where the 999 is and that it is significant. Like teaching a child, we must plan out all necessary steps.  We are making use of the "working backwards" approach to breakup a single complex operation into two suboperations: search for 999, slice out everything up to that position. This operation smacks of data cleanup, so let's make use of that position in the program outline. The rest of the plan is identical to the previous average plan:
 
 <img src=images/rainfall-average-plan.png width=600>
 
@@ -75,9 +91,21 @@ The complete plan now has negative numbers in the sample input-output pairs and 
 
 <img src=images/noisy-rainfall-average-plan.png width=600>
 
-### Efficiency
+## Efficiency
 
-combining patterns such as filter and sum and counting. talk about efficiency and the number of steps or clock ticks.
+How fast will the programs derived from these work plans execute?  We can't really answer that question because it depends on the speed of the processor (computer) running the code and how we translated the plan to code. On the other hand, we can say quite a bit about how efficient or complex a work plan is. Program efficiency is so important that is worth spending a bit of time introducing the concept right from the beginning.
+
+Consider manually accumulating a running sum from the values in a list. Clearly this will take us more time the longer the list. The same is true for computers. We can generally make the assumption that the same program processing larger data structures takes more time than smaller data structures.  Take another look at the image from our discussion of the accumulator pattern, but this time notice the time steps:
+
+<img src=images/accumulator.png width=290>
+
+It costs the computer a CPU "clock tick" every time it moves the "magnifying glass" to examine the next value.  Programmers say that the cost of traversing a list is *on the order of the length of the list*.
+
+The order or *complexity* of the problem doesn't change if we compute more values at each time step, as long as it's a fixed number of operations. For example, the combine operation we discussed to compute sales cost has the same complexity as the accumulated:
+
+<img src=images/map-mult.png width=490>
+
+We can look at multiple values at each time step, but the cost of traversing two lists instead of one is still dominated by the length of the lists.
 
 ## sample problems:
 

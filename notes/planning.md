@@ -91,9 +91,25 @@ The complete plan now has negative numbers in the sample input-output pairs and 
 
 <img src=images/noisy-rainfall-average-plan.png width=600>
 
+## Computing average sales
+
+Let's look at a different problem, computing the average unit price for items less than $10 in some [sample sales data](../data/sales-small.xls):
+
+<img src=images/prices.png width=70>
+
+First, let's clarify our goal: "*Print the average of the unit prices less than 10. Print 0 if there are no unit prices*."  Manually writing out some sample input-output pairs makes our goal even more clear: 5, 10 gives 7.5 and 3, 11 gives 3 and an empty list gives 0.
+
+**Exercise**: Using the program outline as a guide, fill in the operations to complete a work plan for this task.
+
+Even though the application is completely different, unit price average versus rainfall average, the work plan is literally cut-and-paste from our previous plan. The only difference is that we are filtering out unit prices greater than or equal to 10 instead of filtering out negative rainfall data noise. The plan therefore looks like this:
+
+<img src=images/unit-price-average-plan.png width=500>
+
+This is another example of reducing a new problem to one that you have already solved. The more experience you have, the more you will recognize similar programming problems. The key is not to memorize that you learn to filter out noisy rainfall data. You want to abstract these similar plans as "*filter then average elements in a list*."
+
 ## Efficiency
 
-How fast will the programs derived from these work plans execute?  We can't really answer that question because it depends on the speed of the processor (computer) running the code and how we translated the plan to code. On the other hand, we can say quite a bit about how efficient or complex a work plan is. Program efficiency is so important that is worth spending a bit of time introducing the concept right from the beginning.
+How fast will the programs derived from these work plans execute?  We can't really answer that question because it depends on the speed of the processor (computer) running the code and how we translated the plan to code. On the other hand, we can say quite a bit about how efficient or complex a work plan is. Program *complexity* is so important that is worth spending a bit of time introducing the concept right from the beginning.
 
 Consider manually accumulating a running sum from the values in a list. Clearly this will take us more time the longer the list. The same is true for computers. We can generally make the assumption that the same program processing larger data structures takes more time than smaller data structures.  Take another look at the image from our discussion of the accumulator pattern, but this time notice the time steps:
 
@@ -101,15 +117,15 @@ Consider manually accumulating a running sum from the values in a list. Clearly 
 
 It costs the computer a CPU "clock tick" every time it moves the "magnifying glass" to examine the next value.  Programmers say that the cost of traversing a list is *on the order of the length of the list*.
 
-The order or *complexity* of the problem doesn't change if we compute more values at each time step, as long as it's a fixed number of operations. For example, the combine operation we discussed to compute sales cost has the same complexity as the accumulated:
+The order or *complexity* of the problem doesn't change if we compute more values at each time step, as long as it's a fixed number of operations. For example, the combine operation we discussed to compute sales cost has the same complexity as the accumulator:
 
 <img src=images/map-mult.png width=490>
 
-We can look at multiple values at each time step, but the cost of traversing two lists instead of one is still dominated by the length of the lists.
+We can look at multiple values at each time step, but the cost of traversing two lists simultaneously instead of one is still dominated by the length of the lists.
 
-## sample problems:
+## Exercises
 
-rainfall
+[Power to weight ratio](average-power-to-weight-ratio.md)
 
 min / max
 
@@ -127,6 +143,4 @@ histogram
 
 all possible combinations of first/last names.
 
-power to weight ratio
-
-**Acknowledgments**.  Some of the examples in this document and the notion of a program work plan were derived from [CS2102 at WPI](http://web.cs.wpi.edu/~cs2102/b16/Lectures/planning.html) and [Transferring Skills at Solving Word Problems from Computing to Algebra Through Bootstrap](https://cs.brown.edu/~sk/Publications/Papers/Published/sfkf-trans-word-prob-comp-alg-bs/paper.pdf).
+**Acknowledgments**.  Some of the examples in this document and the notion of a program work plan were derived from [CS2102 at WPI](http://web.cs.wpi.edu/~cs2102/b16/Lectures/planning.html).  For more on the rainfall problem and its various solutions, see [The Recurring Rainfall Problem](https://pdfs.semanticscholar.org/f772/087a1ef8f524cc2414c3b64636dd0b9985eb.pdf).

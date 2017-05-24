@@ -13,8 +13,9 @@ With some experience, we've learned to repeat that sequence every time we need t
 * Load the numbers into a list in memory
 * Search for 999 in the list
 * Slice out all numbers up to but not including 999’s position
-* ~~dfsfd~~
-* <s>dfjk</s>
+* <s>Use accumulator to sum the values<br>
+* Use accumulator to count the values<br>
+* If the count is 0, the average is 0 else compute the average as the sum divided by the count</s>
 * **Invoke the *average* computation on the rainfall subset**
 * Print the average
 

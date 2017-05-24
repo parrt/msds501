@@ -44,3 +44,13 @@ All projects are graded in binary fashion: They either work or they do not. Each
 This class is pass/fail and we expect most people to pass, but those getting below 80% raw average score are in the danger zone.
 
 # Syllabus
+
+Learning to design programs
+
+* [How to Program](notes/programming.md)
+* [Program planning](notes/planning.md)
+* [Functions](notes/functions.md)
+* [Program Efficiency](notes/complexity.md)
+* [How to Code](notes/coding.md)
+
+Learning to implement program work plans

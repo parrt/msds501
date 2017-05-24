@@ -1,4 +1,4 @@
-# Coding
+# How to Code
 
 *in progress*
 

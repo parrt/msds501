@@ -26,9 +26,9 @@ Reusing someone else's proven sequence of operations is  something we do all the
 **name**: snow<br>
 **ingredients**: multiple ice cubes<br>
 **result**: snow<br>
-**steps**:
-* put ice in blender
-* turn on blender for 10 seconds.
+**steps**:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;put ice in blender<br>
+&nbsp;&nbsp;&nbsp;&nbsp;turn on blender for 10 seconds.
 
  Functions are just like that except that the sequence of operations has to be more precise, since we will ultimately need to have an intolerant computer execute the sequence.
 

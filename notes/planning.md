@@ -105,28 +105,8 @@ Even though the application is completely different, unit price average versus r
 
 <img src=images/unit-price-average-plan.png width=500>
 
-This is another example of reducing a new problem to one that you have already solved. The more experience you have, the more you will recognize similar programming problems. The key is not to memorize that you learned to filter out noisy rainfall data. You want to abstract these similar plans as "*filter then average elements in a list*."
+This is another example of reducing a new problem to one that you have already solved. The more experience you have, the more you will recognize similar programming problems. The key is not to memorize that you learned to filter out noisy rainfall data. You want to abstract these similar plans as "*filter then average elements in a list*." In fact, we can formalize the concept of reuse by introducing the notion of a subprogram called a function.
 
 Next: [Functions (subprograms)](functions.md)
-
-## Exercises
-
-[Power to weight ratio](average-power-to-weight-ratio.md)
-
-min / max
-
-balanced parens
-
-identity matrix
-
-add matrices
-
-what percent of data has x in field y
-
-average cost per product category.
-
-histogram
-
-all possible combinations of first/last names.
 
 **Acknowledgments**.  Some of the examples in this document and the notion of a program work plan were derived from [CS2102 at WPI](http://web.cs.wpi.edu/~cs2102/b16/Lectures/planning.html).  For more on the rainfall problem and its various solutions, see [The Recurring Rainfall Problem](https://pdfs.semanticscholar.org/f772/087a1ef8f524cc2414c3b64636dd0b9985eb.pdf).

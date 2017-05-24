@@ -6,9 +6,7 @@ At this point, you should be getting pretty tired of repeating the sequence of o
 * Use accumulator to count the values<br>
 * If the count is 0, the average is 0 else compute the average as the sum divided by the count
 
-The sequence is identical in all of the examples we've done so far; the only change is the list of numbers to which we apply the sequence.  
-
-With some experience, we've learned to repeat that sequence every time we need to compute the average.  
+The sequence is identical in all of the examples we've done so far; the only change is the list of numbers to which we apply the sequence.  With some experience, we've learned to repeat that sequence every time we need to compute the average.  
 
 Now, let's bake that experience into a single entity, called a **function** or **procedure** or **method**, that formalizes the notion of reusing a sequence of operations.  For convenience, we're going to refer to this sequence by name, such as "*average*." Then, we can say things like invoke "*average of unit prices*" or "*average of rainfall*" to apply the sequence of operations to a specific list.  For example, the processing steps for [rainfall average](images/rainfall-average-plan.png) could be rewritten more simply as:
 
@@ -23,40 +21,47 @@ Now, let's bake that experience into a single entity, called a **function** or *
 
 Reusing someone else's proven sequence of operations is  something we do all the time in the real world.  For example, we reuse recipes from a cookbook when making dinner.  Each recipe has a name, a list of ingredients, a sequence of operations, and (returns) a final product.  Here's how I could describe my awesome recipe for making snow: 
 
-**name**: snow<br>
+**name**: `snow`<br>
 **ingredients**: multiple ice cubes<br>
-**result**: snow<br>
+**result**: some snow<br>
 **steps**:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;put ice in blender<br>
-&nbsp;&nbsp;&nbsp;&nbsp;turn on blender for 10 seconds.
+&nbsp;&nbsp;&nbsp;&nbsp;turn on blender for 10 seconds<br>
+&nbsp;&nbsp;&nbsp;&nbsp;dump out the snow into a bowl
 
- Functions are just like that except that the sequence of operations has to be more precise, since we will ultimately need to have an intolerant computer execute the sequence.
+Functions are just like recipes except that the sequence of operations has to be more precise, since we will ultimately need to have an intolerant computer execute the sequence.
 
-Let's come up with a few
+As a more realistic example, consider the [formula for a line](https://www.mathsisfun.com/equation_of_line.html) from algebra: *y* = *mx* + *b* where *m* is the slope and *b* is the y-intercept. Here's a line at 45 degrees (slope 1) going crossing the y-axis at 2: *y* = *x* + *2*. Another way to write that is *line(x)* = *x* + *2*, which we can describe as:
 
-sin(x)
-double(x)
+**name**: *line*<br>
+**ingredients**: *x* coordinate<br>
+**result**: *y* coordinate associated with *x*<br>
+**steps**:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;compute *x* + *2*<br>
+&nbsp;&nbsp;&nbsp;&nbsp;return that value
 
-cow(grass) = milk
-
-recipes
-
-That reminds me of the old joke: *Never try to teach a pig to sing. It doesn't work and it annoys the pig.*
-
+Now that we have the basic idea, let's take a more formal look at designing functions.
+ 
 ## Functions are subprograms
 
-A sequence of operations grouped into a single, named entity is called a **function**. Functions are like mini programs or subprograms that we can plan out just like full programs. Instead of loading data from the disk, functions operate on data passed to it from the invoking program. This incoming data is in the form of one or more named *parameters* (also called *arguments*). Instead of printing a result or displaying a graph, functions *return* values.
+A sequence of operations grouped into a single, named entity is called a **function**. Functions are like mini programs or subprograms that we can plan out just like full programs. 
 
-When planning a function, the first thing we have to determine is:
+Instead of loading data from the disk, functions operate on data given to them from the invoking program. This incoming data is analogous to a recipe's list of ingredients and is specified in the form of one or more named *parameters* (also called *arguments*). Instead of printing a result or displaying a graph, as a program would, functions *return* values.  
 
+We begin planning a function by identifying:
+ 
 1. a descriptive function name
 2. the kind of value(s) it operates on (parameter types)
 3. the kind of value it returns (return type)
 4. what the function does
 
-These function planning steps are essentially the first two steps from our program problem-solving strategy where we decide what kind of input we have and what the expected result is.
- 
-See the full [Function work plan](plans/function-planning.pdf).
+These function planning steps are essentially the first two steps from our program problem-solving strategy where we  identify what kind of input we have and what the expected result is. 
+
+Then we manually write out some sample function invocations to show what data goes in and what data comes out. 
+
+Next, we plan out the sequence of operations needed by the function to compute the desired result.  As when designing a program, we start with the return value and work our way backwards, identifying operations in reverse order. Note: The operations should be purely a function of the data passed to them as parameters---functions should be completely ignorant of any other data. (More on this when we actually translate function pseudocode to Python.) 
+
+Let's fill out a [Function work plan](plans/function-planning.pdf) for the line function.
 
 To describe our "compute the average" functionality, we could say: function `average` takes a list of numbers as a parameter and returns a number that is the average of the numbers in the list.
 

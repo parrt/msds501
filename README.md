@@ -48,9 +48,12 @@ This class is pass/fail and we expect most people to pass, but those getting bel
 Learning to design programs
 
 * [How to Program](notes/programming.md)
+  * [Representing data in memory](notes/data-in-memory.md)
+  * [Common programming patterns](notes/patterns.md)
 * [Program planning](notes/planning.md)
 * [Functions](notes/functions.md)
 * [Program Efficiency](notes/complexity.md)
-* [How to Code](notes/coding.md)
 
-Learning to implement program work plans
+Implementing program work plans
+
+* [How to Code](notes/coding.md)

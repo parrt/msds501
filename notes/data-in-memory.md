@@ -46,6 +46,8 @@ All of these lists have one thing in common: the type of element is the same. Bu
 
 Heterogeneous lists are typically used to group bits of information about a particular entity. In machine learning, we call this a **feature vector**, an **instance**, or an **observation**.  For example, an apples versus oranges classifier might have feature vectors containing weight (number), volume (number), and color (string).  The important point here is that a list can also be used to as a way to aggregate features about a particular entity. The sequence of the elements is less important than the fact that they are contained (aggregated) within the same list. We will see this notion again when we talk about *tuples* and *objects*.
 
+If enforce a rule that all elements within a list are unique, then we get a **set**. In that case, we also tend not to care about the order.
+
 Spreadsheets arrange rows one after the other, which programmers interpret as a *list of lists.* In the analytics or database world, we call this a **table**:
 
 <img src=images/rows.png width=700>
@@ -73,3 +75,15 @@ For lists and other structures that fit completely in memory, we often find a **
 
 At this point, we have a rough idea how to plan out a program by working backwards from the result and we have an idea how to represent data in memory. To further clarify how to plan out a program, we need to consider the set of possible operations.
 
+**Summarizing**, here are the commonly-used data types:
+
+* integer numbers like -2, 0, 99
+* real numbers (floating-point numbers) like -2.3, 99.1932
+* strings like "Mary", "President Obama"
+
+And here are the commonly-used data structures:
+
+* ordered list
+* set (just an unordered, unique list)
+* list of lists such as tables or matrices with rows and columns 
+* dictionary such as mapping a student name to their student ID; we can think of this as a table where each row in the table associates the key with a value.

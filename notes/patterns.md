@@ -16,7 +16,8 @@ The more abstract the pattern, the more widely applicable it is. For example, co
 
 The kinds of patterns we use depends partly on a programmer's style but is heavily influenced by the capabilities of the programming language and its libraries of pre-existing functionality. Let's identify some of the most useful patterns and then try to plan out some programs using them.
 
-### Map
+<a name="map"></a>
+## Map
 
 Perhaps the most common pattern *maps* one sequence to another, applying an operator or function to each element. For example, using a spreadsheet to create a new column containing the unit price discounted by 5% starts like this:
 
@@ -30,7 +31,8 @@ What we're actually doing, though, is traversing the elements in one sequence, d
 
 As a special case of map, we get the **duplicate** pattern that duplicates a stream by applying the identity function, *f(x)* = *x*, to the elements of a stream to get a new stream.
 
-### Accumulate
+<a name="accumulate"></a>
+## Accumulate
 
 Another extremely common pattern is an accumulator that traverses a sequence of elements and accumulates a value. For example, to sum the numbers in a sequence, we use the accumulator pattern with the `+` operator. As we traverse the sequence, we update a running sum that's initialized to 0:
 
@@ -48,7 +50,8 @@ We can update multiple running accumulated values, not just one. For example, le
 
 The `+1` indicates an "add one to accumulated value" operation applied at each step.
 
-### Combine
+<a name="combine"></a>
+## Combine
 
 As a variation on map, we can combine or merge values from multiple input sequences to form a new sequence. For example, to compute the cost of a sales transaction, we multiply the quantity times the unit price. In a spreadsheet, that looks like this:
 
@@ -60,7 +63,8 @@ Programmatically, what we're doing is multiplying the *ith* element from two dif
 
 <img src=images/map-mult.png width=490>
 
-### Split
+<a name="split"></a>
+## Split
 
 The opposite of combining is splitting where we split a stream into two or more new streams. For example, I often have to split the full names in a list into their first and last names. In a spreadsheet, we make a blank column:
 
@@ -72,7 +76,8 @@ and then split on the space character (In Excel, you use `Data` > `Text to Colum
 
 We could "undo" this split using a *combine* operation with the string concatenation operator, which would combine first and last names together into a new stream containing full names again.
 
-### Sort
+<a name="sort"></a>
+## Sort
 
 Programmers sort lists of strings and numbers all the time. I use the term list not sequence because typically we only sort data structures that are completely in memory, whereas a stream could be 3 terabytes on the disk.  One use case for sorting is to provide more organized output for human consumption. For example, we might want to sort a list of names:
 
@@ -88,7 +93,8 @@ Sorting can also be used as part of a computation. For example, to compute the m
 
 A weaker version of sorting is **group by**, which also makes sure that all elements with the same value are grouped together. The difference is that the order of the groups is not necessarily sorted.
 
-### Slice
+<a name="slice"></a>
+## Slice
 
 Most of the patterns we've examined so far yield lists or sequences that have the same size as the input sequence, but there are many patterns that yield subsets of the data. The first such pattern is *slice*, which extracts a subset of a list. (Again, here I explicitly use the term list to indicate that slicing generally occurs on a data structure that fits in memory.)
 
@@ -100,13 +106,15 @@ The slice pattern is a function of two values, a start and end position within a
 
 *Warning*: Most languages and libraries assume the ending slice position is exclusive, which would mean slicing from the first position to the 6th position, in this case. To make matters more complicated, Python but not R, starts counting at 0 not 1. It's hard to switch back and forth between Python and R in this respect, so it's good to highlight here so you keep it in mind.
 
-### Remove duplicates
+<a name="uniqify"></a>
+## Remove duplicates
 
 The slice pattern takes a contiguous subset but we often want to extract noncontiguous subsets.  The *remove duplicates* pattern yields a subset of a list that does not contain duplicate values. In other words, we are deriving a **set** from a list. For example, we might want a unique set of customers derived from a list of sales transactions:
 
 <img src=images/unique.png width=290>
 
-### Filter
+<a name="filter"></a>
+## Filter
 
 The most general pattern used to extract data from a list or  sequence is called *filter*. For example, using Excel's filter mechanism, we can filter a Shipping column for those values less than $10:
 
@@ -120,7 +128,8 @@ We can also filter on one column but keep the data within each row together. Her
 
 <img src=images/filter-winners.png width=590>
 
-### Search
+<a name="search"></a>
+## Search
 
 The filter pattern finds all elements in a sequence that satisfy a specific condition, but often we'd like to know which element satisfies the condition first (or last). This brings us to the *search* pattern. At its most general, search returns the first (or last) position in the sequence rather than the value at that position. If we have the position, often called the *index*, we can always ask the sequence for the value at that position.
 

@@ -57,19 +57,71 @@ We begin planning a function by identifying:
 3. the kind of value it returns (return type)
 4. what the function does
 
-These function planning steps are essentially the first two steps from our program problem-solving strategy where we  identify what kind of input we have and what the expected result is. 
+These function planning steps are essentially the first two steps from our program problem-solving strategy where we  identify what kind of input we have and what the expected result is.  If we can't specifying exactly what goes in and out of the function, there's no hope of processing steps, let alone Python code, to implement that function.
 
 Then we manually write out some sample function invocations to show what data goes in and what data comes out. 
 
 Next, we plan out the sequence of operations needed by the function to compute the desired result.  As when designing a whole program, we start with the return value and work our way backwards, identifying operations in reverse order. Note: The operations should be purely a function of the data passed to them as parameters---functions should be completely ignorant of any other data. (More on this when we actually translate function pseudocode to Python.) 
 
-## Examples
+**Exercise**. Fill out a [Function work plan](plans/function-planning.pdf) for a function that computes *y = x + 2*. Try to do this without looking at the [solution](images/line-function-plan.pdf).
 
-**Exercise**. Fill out a [Function work plan](plans/function-planning.pdf) for a function that computes *y = x + 2*.
+### Invoking functions
 
-**Exercise**. Fill out a [Function work plan](plans/function-planning.pdf) for a function that computes the average of some numbers.
+Let's plan out an entire program that *invokes* or *calls* the `line` function a few times, which we might want to do when plotting a line. In other words, we want to give a bunch of X coordinates to the `line` function, one at a time, and get back a bunch of Y coordinates.  Starting out simply, let's plan out a program that "*computes two points on a line for X coordinates -3 and 3*" (our description of objective). The expected input-output is "*-3 and 3 give -1 and 5*".
 
-This last one has a bit of a wrinkle when describing the input parameter for the sample parameter-result pairs. When writing these out, we're going to get get a little closer to actual Python function invocation syntax because it is quite readable. Instead of saying, "*average of 3 returns 3*" in pure English, let's use something like this:
+The processing steps are pretty simple, but let's put them in the right positions:
+
+1. **Acquire data**
+1. **Load data into a data structure**
+1. **Normalize, clean, or otherwise prepare data**
+1. **Process the data**<br>
+Invoke `line` with -3<br>
+Invoke `line` with 3<br>
+1. **Emit results**<br>
+print first y value returned from `line`<br>
+print second y value returned from `line`
+
+For the data processing steps, we can also use the notation from the sample function parameter and result section of the `line` function:
+
+1. **Process the data**<br>
+`line(-3)`<br>
+`line(3)`
+
+But that only gives us two X/Y points on a line. We might want to compute the Y-coordinate for a whole list of X coordinates.
+
+**Exercise**: See if you can figure out the program work plan for a variation that accepts a list of numbers, rather than a predefined set of just 2 X values.
+
+In this case, our sample input-output pairs for the program look like:
+
+-3, 0, 2, 10 → -1, 2, 4, 12
+ → 
+
+where the second line means that an empty list gets no output.
+
+The processing steps now need to load the numbers into memory as we did with the program that computed averages.  The programming pattern we need to solve this problem is the *map*, which will apply the `line` function to each X coordinate in the list. It helps to look at the operation visually:
+
+<img src=images/XY.png width=300>
+
+The only difference between this map operation and what we've seen previously is that we are applying a function that *we* implemented, instead of a built-in operator like multiply.
+
+To finish off the processing steps in the program work plan, we can print out the Y list computed during the map. The whole thing looks like this:
+
+1. **Acquire data**
+1. **Load data into a data structure**<br>
+Load the X coordinates into a list in memory
+1. **Normalize, clean, or otherwise prepare data**
+1. **Process the data**<br>
+Use map pattern to apply `line` function to each element of the list, yielding a new list of Y coordinates
+1. **Emit results**<br>
+print out the Y coordinates
+
+### List parameters
+
+Now let's work on a function that takes a list instead of a number as a parameter.
+ 
+**Exercise**. Fill out a [Function work plan](plans/function-planning.pdf) for a function that computes the average of some numbers. Try to do this without looking at the [solution](images/average-function-plan.pdf).
+
+This exercise has a bit of a wrinkle when describing the input parameter for the sample parameter-result pairs. When writing these out, we're going to get get a little closer to actual Python function invocation syntax because it is quite readable. Instead of saying, "*average of 3 returns 3*" in pure English, let's use something like this:
 
 `average( 3 )` returns 3
 
@@ -87,7 +139,25 @@ That definitely looks more like average takes a single, albeit complex, paramete
 
 If we instead used `average( )`, it would look like the function doesn't take any arguments, which is incorrect.
 
-print vs return. output of the overall program versus result of a function
+**Exercise**: Create a program work plan that takes in a list of numbers and prints out the average using the `average` function we defined above.
+
+The usual "accumulate sum of values" type processing steps get collapsed into just a single function invocation:
+
+1. **Acquire data**
+1. **Load data into a data structure**<br>
+Load the numbers into a list in memory
+1. **Normalize, clean, or otherwise prepare data**
+1. **Process the data**<br>
+Invoke `average` on the list of numbers
+1. **Emit results**<br>
+print the value returned from the `average` function
+
+### Return values versus printing
+
+One of the big confusion points for students is the difference between return values and printing results. We'll look at this again when we translate plans to Python code, but it's important to understand this difference right away. Functions compute and return (give values back) to their caller. They don't print anything to the user unless explicitly asked to do so (with a `print` statement).
+
+There is nothing in that function's plan that says to emit output
+
 
 left = right + right + right [Myth Busters' Turn Left Myth](https://www.youtube.com/watch?v=ppCz4f1L9iU)
 

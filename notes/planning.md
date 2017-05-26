@@ -105,7 +105,23 @@ Even though the application is completely different, unit price average versus r
 
 <img src=images/unit-price-average-plan.png width=500>
 
-**Summarizing**, we have two key guidelines to identify the sequence of operations when planning out a program:
+## Power-to-weight ratio
+
+**Exercise**: Compute the average horsepower of 8-cylinder engines from a [sample car data set](../data/cars.xls). The first few rows look like:
+
+<img src=images/cars.png width=240>
+
+Follow the process in our [program work plan](plans/program-planning.pdf). Hints: For the sample input-output pairs step of the design process, I actually manually do some interactive work in a spreadsheet. Here is one experiment in process:
+
+<img src=images/power-to-weight-op.png width=300>
+
+For the loading data section, you can say something like "*load car table into memory*". Assuming we can access a column within a table by name, such as ENG and WGT.
+
+Try to do this without looking at the [solution](images/power-to-weight-plan.pdf).
+
+## Summary
+
+We have two key guidelines to identify the sequence of operations when planning out a program:
 
 1. Start with the end result and work your way backwards, fulfilling prerequisites.
 1. Reduce or simplify a new problem to a variation of an existing problem with a known solution.

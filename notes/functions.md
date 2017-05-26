@@ -65,7 +65,7 @@ Next, we plan out the sequence of operations needed by the function to compute t
 
 **Exercise**. Fill out a [Function work plan](plans/function-planning.pdf) for a function that computes *y = x + 2*. Try to do this without looking at the [solution](images/line-function-plan.pdf).
 
-### Invoking functions
+## Invoking functions
 
 Let's plan out an entire program that *invokes* or *calls* the `line` function a few times, which we might want to do when plotting a line. In other words, we want to give a bunch of X coordinates to the `line` function, one at a time, and get back a bunch of Y coordinates.  Starting out simply, let's plan out a program that "*computes two points on a line for X coordinates -3 and 3*" (our description of objective). The expected input-output is "*-3 and 3 give -1 and 5*".
 
@@ -93,7 +93,7 @@ But that only gives us two X/Y points on a line. We might want to compute the Y-
 
 In this case, our sample input-output pairs for the program look like:
 
--3, 0, 2, 10 → -1, 2, 4, 12
+-3, 0, 2, 10 → -1, 2, 4, 12<br>
  → 
 
 where the second line means that an empty list gets no output.
@@ -115,7 +115,7 @@ Use map pattern to apply `line` function to each element of the list, yielding a
 1. **Emit results**<br>
 print out the Y coordinates
 
-### List parameters
+## List parameters
 
 Now let's work on a function that takes a list instead of a number as a parameter.
  
@@ -152,7 +152,15 @@ Invoke `average` on the list of numbers
 1. **Emit results**<br>
 print the value returned from the `average` function
 
-### Return values versus printing
+## Examples
+
+Reconsider the previous example that computed the average power to weight ratio from a [sample car data set](../data/cars.xls). If we want to write a program that identifies the maximum power to weight ratio for 8-cylinder cars, let's start by creating a function to help us out.
+
+**Exercise**: Write a function work plan for function `max` that takes a list of numbers and returns the maximum value. Try to come up with two different process plans
+
+**Exercise**: Write a program work plan to identify the max power-to-weight ratio (of the most powerful car) using the `max` function.
+
+## Return values versus printing
 
 One of the big confusion points for students is the difference between return values and printing results. We'll look at this again when we translate plans to Python code, but it's important to understand this difference right away. Functions compute and return (give values back) to their caller. They don't print anything to the user unless explicitly asked to do so (with a `print` statement).
 

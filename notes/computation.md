@@ -70,7 +70,7 @@ That is equivalent to this more awkward version:
 *if item is a book then remove book from inventory list*<br>
 *if item is a book then let total be cost + tax*
 
-The key elements of a conditional statement are: the conditional expression and the operation(s) to perform if true. For the else-clause variant, we have the conditional expression, the operation to perform if true, and the operation to perform if the condition is false. A template for conditional execution looks like:
+The key elements of a conditional statement are: the conditional expression and the operation(s) to perform if true. For the else-clause variant, we have the conditional expression, the operation to perform if true, and the operation to perform if the condition is false. When mapping a real-world problem to a conditional statement, your goal is to identify the conditional expression and the operations. A template for conditional execution looks like:
 
 if *condition*:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;*operation 1*<br>
@@ -108,8 +108,23 @@ while *condition*:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;*operation 2*<br>
 &nbsp;&nbsp;&nbsp;&nbsp;...
 
+There is an important implicit understanding about the operations in a loop: The operations in the loop alter the condition. Otherwise, the loop would never terminate. For example, here is an *infinite loop* that prints "hi" forever.
 
-We can also repeat repeated instructions, which we call a *nested loop*. For example, the recipe goes on to say:
+*while true*:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;*print "hi"*<br>
+
+Because the print statement does not alter the condition, *true*, the loop does not terminate.  As an example of a more proper loop, we might want to print "hi" 5 times. 
+
+*init a counter to 1*<br>
+*while counter <= 5*:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;*print "hi"*<br>
+&nbsp;&nbsp;&nbsp;&nbsp;*add 1 to counter*<br>
+
+In this case, the condition is altered by the "*add 1 to counter*" operation in the loop. When the counter gets to 6, the conditional expression will be false in the loop will terminate.
+
+### Nested loops
+
+We can also repeat repeated instructions, which we call a *nested loop*. For example, the risotto recipe goes on to say:
 
 > Continue adding broth 1/2 cup at a time, stirring continuously, until the liquid is absorbed and the rice is *al dente*, about 15 to 20 minutes.
 
@@ -118,4 +133,42 @@ We are supposed to add broth until we run out of it, 1/2 cup at a time.  For eac
 *while there is more broth:*<br>
 &nbsp;&nbsp;&nbsp;&nbsp;*add 1/2 cup broth to pot*<br>
 &nbsp;&nbsp;&nbsp;&nbsp;*repeat until broth is absorbed:*<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*stir rice in pot*<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*stir rice in pot*
+
+This pops out from our loop template by identifying the two conditional expressions and the loop operations.
+
+### For-each loops
+
+We also see a different kind of loop that *iterates* through a sequence of elements, such as a list. For example, a recipe might say "*chop each ingredient into small pieces*." In pseudocode, we would write:
+
+*for each ingredient in ingredient list:*<br>
+&nbsp;&nbsp;&nbsp;&nbsp;*chop ingredient into small pieces*
+
+(Remember that our goal is to identify the conditional and the operation(s) to repeat.)
+
+Or, even closer to actual code, we might give a name to the iterated ingredient:
+
+*for each ingredient x in ingredient list:*<br>
+&nbsp;&nbsp;&nbsp;&nbsp;*chop x into small pieces*
+
+The value of *x* takes on each ingredient value, one after the other.  Referring back to our discussion of traversing data structures, we iterated through a list of quantities:
+
+<img src=images/int-list-item.png width=230>
+
+A pseudocode loop implements the implied movement in the visualization:
+
+*for each quantity in Quantity list*:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;*do something*
+
+For example, to print out each quantity in the list, we could write:
+
+*for each quantity in Quantity list*:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;*print quanity*
+
+## Rephrasing programming patterns
+
+The common programming patterns we saw from before, map down to these simpler operations.
+
+## Summary
+
+In the end, any program will consist of these canonical operations. 

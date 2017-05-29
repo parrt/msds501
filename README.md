@@ -50,9 +50,10 @@ Learning to design programs
 * [How to Program](notes/programming.md)
   * [Representing data in memory](notes/data-in-memory.md)
   * [Common programming patterns](notes/patterns.md)
+  * [Program Efficiency](notes/complexity.md)
 * [Program planning](notes/planning.md)
 * [Functions](notes/functions.md)
-* [Program Efficiency](notes/complexity.md)
+* [Model of Computation](notes/computation.md)
 
 Implementing program work plans
 

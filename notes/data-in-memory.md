@@ -32,6 +32,8 @@ These basic data types are our building blocks. If we arrange some of these bloc
 
 ## Data structures
 
+### List
+
 One of the most common *data structures* is the **list**, which is just a sequence of memory cells.  Because we're all familiar with spreadsheets, let's visualize these data structures using a spreadsheet.  Columns in a spreadsheet are really lists, such as the following lists/columns of integers, floating-point numbers, and strings:
 
 <img src=images/int-list.png width=60>&nbsp;&nbsp;<img src=images/float-list.png width=80>&nbsp;&nbsp;<img src=images/names-list.png width=139>
@@ -46,7 +48,11 @@ All of these lists have one thing in common: the type of element is the same. Bu
 
 Heterogeneous lists are typically used to group bits of information about a particular entity. In machine learning, we call this a **feature vector**, an **instance**, or an **observation**.  For example, an apples versus oranges classifier might have feature vectors containing weight (number), volume (number), and color (string).  The important point here is that a list can also be used to as a way to aggregate features about a particular entity. The sequence of the elements is less important than the fact that they are contained (aggregated) within the same list. We will see this notion again when we talk about *tuples* and *objects*.
 
+### Set
+
 If enforce a rule that all elements within a list are unique, then we get a **set**. In that case, we also tend not to care about the order.
+
+### Tables (list of lists)
 
 Spreadsheets arrange rows one after the other, which programmers interpret as a *list of lists.* In the analytics or database world, we call this a **table**:
 
@@ -56,13 +62,19 @@ In this example, each row represents a sales transaction.
 
 The input to machine learning algorithms is often a table where each row aggregates the data associated with a specific instance or observation. 
 
+### Matrix
+
 If the table elements are all numbers, we call it a **matrix**. Here's a matrix with 5 rows and 2 columns:
 
 <img src=images/matrix.png width=110>
 
+### Dictionary
+
 If we arrange two lists side-by-side and kind of glue them together, we get a **dictionary**. Dictionaries map one value to another, just like a dictionary in the real world that maps a word to a definition.  Here is a sample dictionary that maps movie title to the year it was nominated for an Oscar award:
 
 <img src=images/dict.png width=220>
+
+## Traversing data structures
 
 The spreadsheet model is a good one for understanding data structures but it's important to keep in mind that computers process one element (number or string) at a time.
 As humans, we can look at the spreadsheet or data structure from above in its entirety, but programs must **walk** or **traverse** the elements of a data structure one after the other. It's kind of like sliding a magnifying glass over the elements of a list:
@@ -75,7 +87,9 @@ For lists and other structures that fit completely in memory, we often find a **
 
 At this point, we have a rough idea how to plan out a program by working backwards from the result and we have an idea how to represent data in memory. To further clarify how to plan out a program, we need to consider the set of possible operations.
 
-**Summarizing**, here are the commonly-used data types:
+## Summary
+
+Here are the commonly-used data types:
 
 * integer numbers like -2, 0, 99
 * real numbers (floating-point numbers) like -2.3, 99.1932
@@ -86,4 +100,4 @@ And here are the commonly-used data structures:
 * ordered list
 * set (just an unordered, unique list)
 * list of lists such as tables or matrices with rows and columns 
-* dictionary such as mapping a student name to their student ID; we can think of this as a table where each row in the table associates the key with a value.
+* dictionary such as mapping a student name to their student ID; we can think of this as a table where each row in the table associates the key with a value.Is

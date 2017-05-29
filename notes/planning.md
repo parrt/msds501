@@ -91,7 +91,9 @@ The complete plan now has negative numbers in the sample input-output pairs and 
 
 <img src=images/noisy-rainfall-average-plan.png width=600>
 
-## Computing average sales
+## Exercises
+
+### Computing average sales
 
 Let's look at a different problem, computing the average unit price for items less than $10 in some [sample sales data](../data/sales-small.xls):
 
@@ -105,7 +107,7 @@ Even though the application is completely different, unit price average versus r
 
 <img src=images/unit-price-average-plan.png width=500>
 
-## Power-to-weight ratio
+### Power-to-weight ratio
 
 **Exercise**: Compute the average horsepower of 8-cylinder engines from a [sample car data set](../data/cars.xls). The first few rows look like:
 

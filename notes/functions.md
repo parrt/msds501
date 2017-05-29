@@ -152,23 +152,22 @@ Invoke `average` on the list of numbers
 1. **Emit results**<br>
 print the value returned from the `average` function
 
-## Examples
+## Exercises
 
-Reconsider the previous example that computed the average power to weight ratio from a [sample car data set](../data/cars.xls). If we want to write a program that identifies the maximum power to weight ratio for 8-cylinder cars, let's start by creating a function to help us out.
+Reconsider the previous exercise that computed the average power to weight ratio from a [sample car data set](../data/cars.xls). If we want to write a program that identifies the maximum power to weight ratio for 8-cylinder cars, let's start by creating a function to help us out.
 
-**Exercise**: Write a function work plan for function `max` that takes a list of numbers and returns the maximum value. Try to come up with two different process plans
+**Exercise**: Write a function work plan for function `max` that takes a list of numbers and returns the maximum value. Try to come up with two different plans for the processing steps.
 
-**Exercise**: Write a program work plan to identify the max power-to-weight ratio (of the most powerful car) using the `max` function.
+**Exercise**: Write a program work plan to identify the max power-to-weight ratio (i.e., the most powerful car) among 8-cylinder cars using the `max` function you just defined.
 
 ## Return values versus printing
 
-One of the big confusion points for students is the difference between return values and printing results. We'll look at this again when we translate plans to Python code, but it's important to understand this difference right away. Functions compute and return (give values back) to their caller. They don't print anything to the user unless explicitly asked to do so (with a `print` statement).
+One of the big confusion points for students is the difference between return values and printing results. We'll look at this again when we translate plans to Python code, but it's important to understand this difference right away. 
 
-There is nothing in that function's plan that says to emit output
+Programs in the analytics world typically read data from a file and emit output or write data to another file. In other words, programs interact with the world outside of the program.  The world outside of the program is usually the network, the disk, or the screen.
 
+In contrast, most functions that we write won't interact with the outside world.  Functions compute and return (give values back) to their caller. They don't print anything to the user unless explicitly asked to do so with a `print` statement.  (Later on, we will build functions that process data files or emit complicated output.)
 
 left = right + right + right [Myth Busters' Turn Left Myth](https://www.youtube.com/watch?v=ppCz4f1L9iU)
-
-[Power to weight ratio](average-power-to-weight-ratio.md)
 
 **Acknowledgments**. Again I'm deriving the function work plan here from [The Recurring Rainfall Problem](https://pdfs.semanticscholar.org/f772/087a1ef8f524cc2414c3b64636dd0b9985eb.pdf).

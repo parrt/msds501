@@ -101,6 +101,12 @@ Bending this more towards pseudocode, we might say:
 *repeat until broth is absorbed:*<br>
 &nbsp;&nbsp;&nbsp;&nbsp;*stir rice in pot*<br>
 
+or, equivalently,
+
+*add 1/2 cup broth to rice in pot*<br>
+*while broth not absorbed:*<br>
+&nbsp;&nbsp;&nbsp;&nbsp;*stir rice in pot*<br>
+
 In the programming world, we call this a *loop*. The key elements of a loop are the condition expression and the operation(s) to perform while the condition is true. When trying to map a real-world problem to a loop, your goal is to identify the condition and the repeated steps. A template for a loop looks like:
 
 while *condition*:<br>
@@ -132,7 +138,7 @@ We are supposed to add broth until we run out of it, 1/2 cup at a time.  For eac
 
 *while there is more broth:*<br>
 &nbsp;&nbsp;&nbsp;&nbsp;*add 1/2 cup broth to pot*<br>
-&nbsp;&nbsp;&nbsp;&nbsp;*repeat until broth is absorbed:*<br>
+&nbsp;&nbsp;&nbsp;&nbsp;*while broth not absorbed:*<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*stir rice in pot*
 
 This pops out from our loop template by identifying the two conditional expressions and the loop operations.
@@ -164,6 +170,24 @@ For example, to print out each quantity in the list, we could write:
 
 *for each quantity in Quantity list*:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;*print quanity*
+
+### Indexed loops
+
+Using the for-each kind of loop, we can rephrase the counter loop from above more simply:
+
+*for each value i in set 1..5*:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;*print "hi"*
+
+There are 5 elements in the set 1..5 and so the for-each loop goes around 5 times. In this case, the loop operation doesn't use the iterated value, *i*, but *i*'s value would be available to any operation(s) that needed it.
+
+We tend to use such loops that iterate through a range of integers when traversing multiple lists at the same time. (To traverse a single list, we'd use the for-each loop.) For example, recall the visualization from the [combine programming pattern](patterns.md#combine):
+
+<img src=images/map-mult.png width=490>
+
+We can implement that pattern using a loop. At each time step, the loop operation needs to examine the same position in two lists. Because Python starts list indexing and 0, let's stick with that convention and iterate from index 0 to *n*-1 for *n* elements in the lists.
+
+*for each value i in set 0..n-1*:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;*let ith Cost be ith Quantity times ith Unit Price*
 
 ## Rephrasing programming patterns
 

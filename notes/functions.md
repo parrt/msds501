@@ -63,7 +63,7 @@ Then we manually write out some sample function invocations to show what data go
 
 Next, we plan out the sequence of operations needed by the function to compute the desired result.  As when designing a whole program, we start with the return value and work our way backwards, identifying operations in reverse order. Note: The operations should be purely a function of the data passed to them as parameters---functions should be completely ignorant of any other data. (More on this when we actually translate function pseudocode to Python.) 
 
-**Exercise**. Fill out a [Function work plan](plans/function-planning.pdf) for a function that computes *y = x + 2*. Try to do this without looking at the [solution](images/line-function-plan.pdf).
+**Exercise**. Fill out a [Function work plan](plans/function-planning.pdf) for a function that computes *y = x + 2*. ([solution](images/line-function-plan.pdf))
 
 ## Invoking functions
 
@@ -119,7 +119,7 @@ print out the Y coordinates
 
 Now let's work on a function that takes a list instead of a number as a parameter.
  
-**Exercise**. Fill out a [Function work plan](plans/function-planning.pdf) for a function that computes the average of some numbers. Try to do this without looking at the [solution](images/average-function-plan.pdf).
+**Exercise**. Fill out a [Function work plan](plans/function-planning.pdf) for a function that computes the average of some numbers. ([solution](images/average-function-plan.pdf))
 
 This exercise has a bit of a wrinkle when describing the input parameter for the sample parameter-result pairs. When writing these out, we're going to get get a little closer to actual Python function invocation syntax because it is quite readable. Instead of saying, "*average of 3 returns 3*" in pure English, let's use something like this:
 
@@ -156,7 +156,7 @@ print the value returned from the `average` function
 
 Reconsider the previous exercise that computed the average power to weight ratio from a [sample car data set](../data/cars.xls). If we want to write a program that identifies the maximum power to weight ratio for 8-cylinder cars, let's start by creating a function to help us out.
 
-**Exercise**: Write a function work plan for function `max` that takes a list of numbers and returns the maximum value. Try to come up with two different plans for the processing steps.
+**Exercise**: Write a function work plan for function `max` that takes a list of numbers and returns the maximum value. Try to come up with two different plans for the processing steps. Hint: One of the plans uses an accumulator and the other does not.
 
 **Exercise**: Write a program work plan to identify the max power-to-weight ratio (i.e., the most powerful car) among 8-cylinder cars using the `max` function you just defined.
 
@@ -166,8 +166,6 @@ One of the big confusion points for students is the difference between return va
 
 Programs in the analytics world typically read data from a file and emit output or write data to another file. In other words, programs interact with the world outside of the program.  The world outside of the program is usually the network, the disk, or the screen.
 
-In contrast, most functions that we write won't interact with the outside world.  Functions compute and return (give values back) to their caller. They don't print anything to the user unless explicitly asked to do so with a `print` statement.  (Later on, we will build functions that process data files or emit complicated output.)
-
-left = right + right + right [Myth Busters' Turn Left Myth](https://www.youtube.com/watch?v=ppCz4f1L9iU)
+In contrast, most functions that we write won't interact with the outside world.  Functions compute and return (give values back) to their caller. They don't print anything to the user unless explicitly asked to do so with a `print` statement.  (Later on, we will in fact build functions that process data files or emit complicated output.)
 
 **Acknowledgments**. Again I'm deriving the function work plan here from [The Recurring Rainfall Problem](https://pdfs.semanticscholar.org/f772/087a1ef8f524cc2414c3b64636dd0b9985eb.pdf).

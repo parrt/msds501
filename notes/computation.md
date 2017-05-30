@@ -230,7 +230,7 @@ We can implement that pattern using an indexed loop. At each time step, the loop
 
 ## Combining operations
 
-As with natural language, we can combine any of the basic sentence structures to form more complex sentences. Inter-programming world, that means **nesting** one operation in another. In this section, we'll explore a few of the interesting combinations.
+As with natural language, we can combine any of the basic sentence structures to form more complex sentences. In the programming world, that means **nesting** one operation in another. In this section, we'll explore a few of the interesting combinations.
 
 ### Nested loops
 
@@ -245,7 +245,54 @@ We are supposed to add broth until we run out of it, 1/2 cup at a time.  For eac
 &nbsp;&nbsp;&nbsp;&nbsp;*while broth not absorbed:*<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*stir rice in pot*
 
-We are wrapping our previous loop in an outer loop. This code pops out from our loop template by identifying the two conditional expressions and the loop operations. When a loop operation is itself a loop, we call it a nested.
+We are wrapping our previous loop in an outer loop. This code pops out from our loop template by identifying the two conditional expressions and the loop operations.
+
+In the analytics world, nested loops are hugely important because we use them to process matrices, images, and tables of data.
+
+Let's get started by summing the numbers in a 3x3 matrix:
+
+<img src=images/matrixA.png width=100>
+
+Recall that, while we can look at the entire matrix at once, a computer examines each element one-by-one. Because this is not a one-dimensional data structure, we can't use a simple "for each element in the matrix" loop. The most common template for iterating through all elements of an *n* x *m* matrix looks like this:
+
+*for i in 0..n-1:*<br>
+&nbsp;&nbsp;&nbsp;&nbsp;*for j in 0..m-1:*<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*do something with matrix<sub>i,j</sub>*
+
+where *matrix<sub>i,j</sub>* accesses the element at row *i* and column *j*.  Such a nested loop gives all possible combinations of *i* and *j*, which is what we want when we operate on a matrix. Consider the following use of that template to print out all of the two-dimensional indices:
+
+*for i in 0..n-1:*<br>
+&nbsp;&nbsp;&nbsp;&nbsp;*for j in 0..m-1:*<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*print j without newline*<br>
+&nbsp;&nbsp;&nbsp;&nbsp;print a newline
+
+The output would be *n* rows of `0 1 2 ... m-1`:
+
+```
+0 1 2 ... m-1
+0 1 2 ... m-1
+...
+```
+
+To sum all of the elements of a 3x3 matrix, we let *n*=3 and *m*=3 and use an addition operation:
+
+*init sum to 0*<br>
+*for i in 0..2:*<br>
+&nbsp;&nbsp;&nbsp;&nbsp;*for j in 0..2:*<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*add matrix<sub>i,j</sub> to sum*
+
+You might recognize this as a 2D form of an accumulator pattern.
+
+As a more realistic example, let's add two matrices A and B together to form C. The key operation is to add A<sub>i,j</sub> to B<sub>i,j</sub> to get C<sub>i,j</sub>. Visually, it looks like this:
+
+<img src=images/ABC.png width=360>
+
+**Exercise**: Write out the pseudocode nested indexed-loop to add matrices together.
+
+<img src=images/obama-zoom.png width=400>
+
+<img src=images/rows.png width=700>
+
 
 ### Conditional in a loop
 

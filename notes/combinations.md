@@ -104,14 +104,22 @@ Instead of using indexes *i* and *j*, we typically use *row* and *col* to index 
 &nbsp;&nbsp;&nbsp;&nbsp;*for col in 0..m-1:*<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*do something with table<sub>row,col</sub>*
 
-## Conditional in a loop
+To sum a specific column requires just one loop because the column index is fixed. For example, to sum the second column (index 1), we could do this:
+
+*init sum to 0*<br>
+*for row in 0..n-1:*<br>
+&nbsp;&nbsp;&nbsp;&nbsp;*add table<sub>row,1</sub> to sum*<br>
+
+where *table<sub>row,1</sub>* gets to value add index 1 for a particular row of the table.
+
+## Filtering sequences
 
 One of the most common nested operations is a conditional inside of a loop. We use it to implement the [filter](patterns.md#filter) pattern, for example. The filter template looks like:
 
 for each *x* in *a sequence*:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;if *condition*: add *x* to new list<br>
 
-To convert a real-world filtering problem to pseudocode, your goal is to identify the sequence and the condition in that template. To filter out negative values (filter in nonnegative values) as we did in the rainfall problem, the *sequence* is the rainfall list and the *condition* is "*x >= 0*":
+To convert a real-world filtering problem to pseudocode, your goal is to identify the *sequence* and the *condition* in that template. To filter out negative values (filter in nonnegative values) as we did in the rainfall problem, the *sequence* is the rainfall list and the *condition* is "*x >= 0*":
 
 *for each x in rainfall*:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;*if x>=0: add x to new list*<br>

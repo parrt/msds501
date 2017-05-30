@@ -54,6 +54,7 @@ Learning to design programs
 * [Program planning](notes/planning.md)
 * [Functions](notes/functions.md)
 * [Model of Computation](notes/computation.md)
+* [Common lower-level programming patterns](notes/combinations.md)
 
 Implementing program work plans
 

@@ -40,7 +40,7 @@ The notion of doing a sequence of operations in order is familiar to us from coo
 
 We naturally assume the steps are given in execution order.
 
-### Conditional execution
+## Conditional execution
 
 Some recipes give conditional instructions, such as
 
@@ -99,7 +99,7 @@ That is equivalent to this more awkward version:
 
 Conditional execution is kind of like executing an operation zero or one times, depending on the conditional expression.  We also want to execute operations multiple times.
 
-### Repeated execution
+## Repeated execution
 
 In recipes, such as a [recipe for risotto](http://allrecipes.com/recipe/85389/gourmet-mushroom-risotto/), we'll typically find a repeated operation like:
 
@@ -142,6 +142,10 @@ Because the print statement does not alter the condition, *true*, the loop does 
 
 In this case, the condition is altered by the "*add 1 to counter*" operation in the loop. When the counter gets to 6, the conditional expression will be false and the loop will terminate.
 
+That counter loop is an example of an [accumulator](patterns.md#accumulator).
+
+**Exercise**: Write a pseudocode loop to sum the integers from 1 to 8, inclusively.
+
 ### For-each loops
 
 We also see a different kind of loop that *iterates* through a sequence of elements, such as a list. For example, a recipe might say "*chop each ingredient into small pieces*." In pseudocode, we could write:
@@ -170,12 +174,23 @@ For example, to print out each quantity in the list, we could write:
 *for each quantity in Quantity list*:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;*print quanity*
 
-The template for a for each loop looks like:
+The template for a for-each loop looks like:
 
 for each *x* in *sequence*:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;*operate on x*
 
 where *sequence* is typically a list or set.
+
+The [map](patterns.md#map) pattern used the following image to visualize the operations:
+
+<img src=images/map-discount-op.png width=390>
+
+We could implement that pattern using:
+
+*for each price in UnitPrice list*:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<i>add price * 0.95 to Discounted list</i>
+
+**Exercise**: Write a pseudocode loop for an [accumulator](patterns.md#accumulator) that sums the numbers in a Quantity list.
 
 ### Indexed loops
 
@@ -200,7 +215,7 @@ is equivalent to:
 
 where *Quantity<sub>i</sub>* is the *i<sup>th</sup>* value of Quantity.
 
-Because Python starts list indexing and 0, let's stick with that convention and that loop iterates from index 0 to *n*-1 for *n* elements in the lists. The length of Quantity is expressed as *len(Quantity)*.
+Because Python starts list indexing at 0, let's stick with that convention and that loop iterates from index 0 to *n*-1 for *n* elements in the lists. The length of Quantity is expressed as *len(Quantity)*.
 
 We tend to use indexed loops, that iterate through a range of integers, when traversing multiple lists at the same time. (To traverse a single list, we'd normally use a for-each loop.) For example, recall the visualization from the [combine programming pattern](patterns.md#combine):
 
@@ -209,11 +224,17 @@ We tend to use indexed loops, that iterate through a range of integers, when tra
 We can implement that pattern using an indexed loop. At each time step, the loop operation needs to examine the same position in two lists. 
 
 *for each value i in set 0..n-1*:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;*let Cost<sub>i</sub> be Quantity<sub>i</sub> times UnitPrice<sub>i</sub>*
+&nbsp;&nbsp;&nbsp;&nbsp;<i>let Cost<sub>i</sub> be Quantity<sub>i</sub> * UnitPrice<sub>i</sub></i>
+
+**Exercise**: Using an indexed-loop, write pseudocode to [slice](patterns.md#slice) elements in range [0 to 5), indexes (0,1,2,3,4), from a rainfall list into a new list somerainfall.
+
+## Combining operations
+
+As with natural language, we can combine any of the basic sentence structures to form more complex sentences. Inter-programming world, that means **nesting** one operation in another. In this section, we'll explore a few of the interesting combinations.
 
 ### Nested loops
 
-We can also repeat repeated instructions, which we call a *nested loop*. For example, the risotto recipe goes on to say:
+We sometimes need to repeat repeated instructions, which we call a *nested loop*. For example, the risotto recipe goes on to say:
 
 > Continue adding broth 1/2 cup at a time, stirring continuously, until the liquid is absorbed and the rice is *al dente*, about 15 to 20 minutes.
 
@@ -224,11 +245,19 @@ We are supposed to add broth until we run out of it, 1/2 cup at a time.  For eac
 &nbsp;&nbsp;&nbsp;&nbsp;*while broth not absorbed:*<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*stir rice in pot*
 
-This pops out from our loop template by identifying the two conditional expressions and the loop operations.
+We are wrapping our previous loop in an outer loop. This code pops out from our loop template by identifying the two conditional expressions and the loop operations. When a loop operation is itself a loop, we call it a nested.
 
-## Rephrasing programming patterns
+### Conditional in a loop
 
-The common programming patterns we saw from before, map down to these simpler operations.
+One of the most common nested operations is a conditional inside of a loop. We use it to implement the [filter](patterns.md#filter) pattern, for example. The filter template looks like:
+
+for each *x* in *a sequence*:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;if *condition*: add *x* to new list<br>
+
+To convert a real-world filtering problem to pseudocode, your goal is to identify the sequence and the condition in that template. To filter out negative values (filter in nonnegative values) as we did in the rainfall problem, the *sequence* is the rainfall list and the *condition* is "*x >= 0*":
+
+*for each x in rainfall*:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;*if x>=0: add x to new list*<br>
 
 ## Summary
 

@@ -6,22 +6,22 @@ As with natural language, we can combine basic sentence structures to form more 
 
 ## Nested loops
 
-We sometimes need to repeat repeated instructions, which we call a *nested loop*. For example, the [recipe for risotto](http://allrecipes.com/recipe/85389/gourmet-mushroom-risotto/) goes on to say:
+We sometimes need to repeat repeated instructions, which we call a *nested loop*. For example, the [recipe for risotto](http://allrecipes.com/recipe/85389/gourmet-mushroom-risotto/) we discussed earlier goes on to say:
 
 > Continue adding broth 1/2 cup at a time, stirring continuously, until the liquid is absorbed and the rice is *al dente*, about 15 to 20 minutes.
 
-We are supposed to add broth until we run out of it, 1/2 cup at a time.  For each 1/2 cup we add, we are to stir until it is absorbed. Making the recipe more precise, we might express it like this as a nested loop:
+We are supposed to add broth until we run out of it, 1/2 cup at a time.  For each 1/2 cup we add, we are to stir until it is absorbed, which we expressed as a single loop previously. Making the recipe more precise, we might express the recipe operation like this using a nested loop:
 
 *while there is more broth:*<br>
 &nbsp;&nbsp;&nbsp;&nbsp;*add 1/2 cup broth to pot*<br>
 &nbsp;&nbsp;&nbsp;&nbsp;*while broth not absorbed:*<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*stir rice in pot*
 
-We are wrapping our previous loop in an outer loop. This code pops out from our loop template by identifying the two conditional expressions and the loop operations.
+We are wrapping our previous loop in an outer loop ("*while there is more broth*"). This code pops out from our loop template by identifying the two conditional expressions and the loop operations.
 
 In the analytics world, nested loops are hugely important because we use them to process matrices, images, and tables of data.
 
-## Processing matrices
+### Processing matrices
 
 Let's get started by summing the numbers in a 3x3 matrix:
 
@@ -74,43 +74,58 @@ As a more realistic example, let's add two matrices A and B together to form C. 
 
 <img src=images/ABC.png width=360>
 
-**Exercise**: Write out the pseudocode nested indexed-loop to add matrices together.
+**Exercise**: Write out the pseudocode nested indexed loops to add two matrices together.
 
-## Processing images
+### Processing images
 
-In the images project for this class, we will be doing lots of fun things to images. An image is nothing more than a two-dimensional matrix whose entries are pixel grayscale values from 0 to 255. For example, if we zoom in on an image, we see the individual elements (called pixels) of a two-dimensional matrix:
+In the images project for this class, we will be doing lots of fun things to images. An image is nothing more than a two-dimensional matrix whose entries are pixel grayscale values from 0 to 255. A pixel value of 0 is black and 255 is white. For example, if we zoom in on an image, we see the individual elements (called pixels) of a two-dimensional matrix:
 
 <img src=images/obama-zoom.png width=400>
 
-A pixel value of 0 is black and 255 is white.
-
-The only difference between an image in a matrix is that we typically access the elements of an image using x and y coordinates, rather than row and column. The template for a nested loop that accesses each element of an image looks like this:
+The only difference between an image and a matrix is that we typically access the elements of an image using x and y coordinates, rather than row and column. The template for a nested loop that accesses each element of an image looks like this:
 
 *for x in 0..width-1:*<br>
 &nbsp;&nbsp;&nbsp;&nbsp;*for y in 0..height-1:*<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*process pixel<sub>x,y</sub>*<br>
 
-Because the y coordinate is very and faster than the x coordinate, processing traverses the image vertically first.
+Because the *y* coordinate varies faster than the *x* coordinate, the inner loop traverses one vertical stripe. The outer loop shifts *x* to the next vertical stripe to the right.
 
-## Processing tables
+**Exercise**: Write out the pseudocode to compute the average pixel value in an image.  Hint: This accumulator needs a running sum.
 
-Processing a table is exactly like processing matrix, except that the elements are heterogeneous. For example, in the following table we can see dates, numbers, and strings of text.
+### Processing tables
+
+Operating on a table is exactly like operating on a matrix, except that the elements are typically heterogeneous. For example, in the following table we can see dates, numbers, and strings of text.
 
 <img src=images/rows.png width=700>
 
-Instead of using indexes *i* and *j*, we typically use *row* and *col* to index into tables. The template for accessing each element of a table with n rows and m columns, therefore, looks like this:
+Instead of using indexes *i* and *j*, we typically use *row* and *col* to index into tables. The template for accessing each element of a table with n rows and m columns looks like this:
 
 *for row in 0..n-1:*<br>
 &nbsp;&nbsp;&nbsp;&nbsp;*for col in 0..m-1:*<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*do something with table<sub>row,col</sub>*
 
+Because it's customary to use *i* and *j* as loop indices, we might also process a table like this:
+
+*for i in 0..n-1:*<br>
+&nbsp;&nbsp;&nbsp;&nbsp;*for j in 0..m-1:*<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*do something with table<sub>i,j</sub>*
+
+Some think *i* and *j* make the loop more readable.
+
 To sum a specific column requires just one loop because the column index is fixed. For example, to sum the second column (index 1), we could do this:
 
 *init sum to 0*<br>
-*for row in 0..n-1:*<br>
-&nbsp;&nbsp;&nbsp;&nbsp;*add table<sub>row,1</sub> to sum*<br>
+*for i in 0..n-1:*<br>
+&nbsp;&nbsp;&nbsp;&nbsp;*add table<sub>i,1</sub> to sum*<br>
 
-where *table<sub>row,1</sub>* gets to value add index 1 for a particular row of the table.
+where *table<sub>i,1</sub>* gets the value at index 1 for a particular row of the table.
+
+Another pattern uses nested for-each loops instead of indexed loops, which makes for very readable pseudocode:
+
+*for each row in table:*<br>
+&nbsp;&nbsp;&nbsp;&nbsp;*for each col in row:*<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*do something with col value*
+
 
 ## Filtering sequences
 

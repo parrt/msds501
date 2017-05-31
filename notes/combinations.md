@@ -152,6 +152,7 @@ Instead of filtering a sequence, such as a list, we often just need to know if a
 
 The template for searching a sequence of length *n* for element *e* looks like the filter template except we don't collect the magic elements. Instead, we track the index that matches *e*:
 
+*let index be -1*<br>
 *for i in 0..n-1:*<br>
 &nbsp;&nbsp;&nbsp;&nbsp;if *sequence<sub>i</sub>* = *e*: *index* = *i*
 
@@ -161,11 +162,13 @@ For example, recall the searching for 999 visualization from the [search pattern
 
 We could implement that with the following pseudocode.
  
+*let index be -1*<br>
 *for i in 0..n-1:*<br>
 &nbsp;&nbsp;&nbsp;&nbsp;*if sequence<sub>i</sub> = 999: index = i*
 
 There is a subtlety here. This loop finds the **last index** because it keeps searching even after he finds *e*. In other words, if there are multiple *e* in the list, it sets *index* multiple times. Its final value is the index of the last *e*. What we want, however, is typically defined the **first index** so we need a way to bust out of that loop when we find the first match. In pseudocode (and real code) we say that a loop *breaks* out:
 
+*let index be -1*<br>
 *for i in 0..n-1:*<br>
 &nbsp;&nbsp;&nbsp;&nbsp;*if sequence<sub>i</sub> = 999*:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*index = i*<br>
@@ -183,3 +186,5 @@ The only problem with this simpler loop is that the index is not -1 in the case 
 *while sequence<sub>i</sub> is not e and index<n*:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;let index be index + 1<br>
 *if index==n: index = -1* (*we fell off the end of sequence*)
+
+**Exercise**: Alter one of the pseudocode loops so that it finds the last element not the first. Hint: you just have to change the loop conditions.

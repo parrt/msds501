@@ -1,7 +1,5 @@
 # Model of Computation
 
-*in progress*
-
 In order to make it easier to learn the overall process of program and function planning, we've limited the set of possible operations to a set of common [programming patterns](patterns.md). As with natural language, however, the set of possible program operations is effectively infinite. We can mix and match simple operations to create more complex behavior or tweak common patterns to suit a specific problem.
 
 Before dropping all the way down to the level of programming language syntax, let's explore the simplest, fine-grained operations that a computer can perform. Ultimately, it is these operations we will draw from to design programs. We're going to stick with pseudocode for now because the precise syntax isn't necessary to learn the computation model. The concepts apply across most programming leverages.
@@ -204,6 +202,12 @@ We could implement that pattern using:
 
 **Exercise**: Write a pseudocode loop for an [accumulator](patterns.md#accumulator) that sums the numbers in a Quantity list.
 
+**Exercise**: Write a pseudocode loop for the even-odd accumulator:
+
+<img src=images/accumulator-even-odd.png width=320>
+
+You can use "is even" and "is odd" to test values.
+
 ### Indexed loops
 
 Using the for-each kind of loop, we can rephrase the 1 to 5 counter loop from above more simply as:
@@ -213,7 +217,14 @@ Using the for-each kind of loop, we can rephrase the 1 to 5 counter loop from ab
 
 There are 5 elements in the set 1..5 and so the for-each loop goes around 5 times. In this case, the loop operation doesn't use the iterated value, *i*, but *i*'s value would be available to any operation(s) that needed it.
 
-**Exercise**: Write a pseudocode indexed-loop to print the numbers from 5 to 10, inclusively.
+The template for an indexed loop looks like:
+
+for each value *i* in *integer_set or range*:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;*operation 1*<br>
+&nbsp;&nbsp;&nbsp;&nbsp;*operation 2*<br>
+&nbsp;&nbsp;&nbsp;&nbsp;...
+
+**Exercise**: Write a pseudocode indexed loop to print the numbers from 5 to 10, inclusively.
 
 Indexed loops are more general than the for-each loops. For example, this loop:
 
@@ -225,7 +236,7 @@ is equivalent to:
 *for each value i in set 0..n-1*:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;*print Quantity<sub>i</sub>*
 
-where *Quantity<sub>i</sub>* is the *i<sup>th</sup>* value of Quantity.
+where *Quantity<sub>i</sub>* is the *i<sup>th</sup>* value of Quantity.  The differences that the indexed loop has access to the loop iterator variable *i* and the for-each loop does not.
 
 Because Python starts list indexing at 0, let's stick with that convention and that loop iterates from index 0 to *n*-1 for *n* elements in the lists. The length of Quantity is expressed as *len(Quantity)*.
 
@@ -238,8 +249,51 @@ We can implement that pattern using an indexed loop. At each time step, the loop
 *for each value i in set 0..n-1*:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;<i>let Cost<sub>i</sub> be Quantity<sub>i</sub> * UnitPrice<sub>i</sub></i>
 
-**Exercise**: Using an indexed-loop, write pseudocode to [slice](patterns.md#slice) elements in range [0 to 5), indexes (0,1,2,3,4), from a rainfall list into a new list somerainfall.
+**Exercise**: Using an indexed-loop, write pseudocode to [slice](patterns.md#slice) elements in range [0 to 5), indexes (0,1,2,3,4), from a rainfall list into a new list somerainfall. Hint: You'll need: "*add ... to somerainfall*".
 
 ## Summary
 
-In the end, any program will consist of these canonical operations. ...
+Other than transferring data to and from memory, processors primarily perform arithmetic operations, such as "cost + tax".  Processes can also conditionally or repeatedly execute operations.
+
+When mapping real-world problems to pseudocode, you'll follow the program or function work plan and eventually work backwards from the desired result to identify sequence of operations. These operations will either map to our high level [programming patterns](patterns.md) or to the lower level patterns described here.
+
+If you can't identify a higher level pattern for a piece of the problem, try to map it to a conditional operation or a loop around one or more operations.
+
+For conditionals, you have to identify the conditional Boolean expression and the operation or operations that should be executed conditionally:
+
+if *condition*:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;*operation 1*<br>
+&nbsp;&nbsp;&nbsp;&nbsp;*operation 2*<br>
+&nbsp;&nbsp;&nbsp;&nbsp;...
+
+If you need to execute code in case that condition fails, use this template:
+
+if *condition*:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;*operation 1*<br>
+&nbsp;&nbsp;&nbsp;&nbsp;*operation 2*<br>
+&nbsp;&nbsp;&nbsp;&nbsp;...<br>
+else:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;*operation 1*<br>
+&nbsp;&nbsp;&nbsp;&nbsp;*operation 2*<br>
+&nbsp;&nbsp;&nbsp;&nbsp;...
+
+For repeated execution, we have a generic loop that executes one or more operations while a condition is met:
+
+while *condition*:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;*operation 1*<br>
+&nbsp;&nbsp;&nbsp;&nbsp;*operation 2*<br>
+&nbsp;&nbsp;&nbsp;&nbsp;...
+
+A very common version of a loop traverses a sequence, such as a list, with a low variable that takes on each value of the sequence one at a time:
+
+for each *x* in *sequence*:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;*operate on x*
+
+When iterating through multiple lists at the same time, we use an index to list of the form:
+
+for each value *i* in *some integer_set or range*:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;*operation 1*<br>
+&nbsp;&nbsp;&nbsp;&nbsp;*operation 2*<br>
+&nbsp;&nbsp;&nbsp;&nbsp;...
+
+As will see next in [Common lower-level programming patterns](combinations.md), we often have to embed one of these patterns within another pattern to get the desired result.

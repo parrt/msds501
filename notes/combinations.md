@@ -166,7 +166,7 @@ We could implement that with the following pseudocode.
 *for i in 0..n-1:*<br>
 &nbsp;&nbsp;&nbsp;&nbsp;*if sequence<sub>i</sub> = 999: index = i*
 
-There is a subtlety here. This loop finds the **last index** because it keeps searching even after he finds *e*. In other words, if there are multiple *e* in the list, it sets *index* multiple times. Its final value is the index of the last *e*. What we want, however, is typically defined the **first index** so we need a way to bust out of that loop when we find the first match. In pseudocode (and real code) we say that a loop *breaks* out:
+There is a subtlety here. This loop finds the **last index** because it keeps searching even after it finds *e*. In other words, if there are multiple *e* in the list, it sets *index* multiple times. Its final value is the index of the last *e*. What we want, however, is typically to find the **first index** so we need a way to bust out of that loop when we find the first match. In pseudocode, we say that a loop *breaks* out:
 
 *let index be -1*<br>
 *for i in 0..n-1:*<br>
@@ -176,15 +176,15 @@ There is a subtlety here. This loop finds the **last index** because it keeps se
 
 Now, the loop will terminate early; just as soon as it finds the first *e*. We could also use a more generic loop to accomplish the same thing but without the explicit breakout.
 
-*index = 0*<br>
+*let index be 0*<br>
 *while sequence<sub>i</sub> is not e and index<n*:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;let index be index + 1
+&nbsp;&nbsp;&nbsp;&nbsp;*let index be index + 1*
 
 The only problem with this simpler loop is that the index is not -1 in the case that *e* is not found. Consequently, we need to deal with that case, which is when *index* = *n*, after the loop:
 
-*index = 0*<br>
+*let index be 0*<br>
 *while sequence<sub>i</sub> is not e and index<n*:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;let index be index + 1<br>
-*if index==n: index = -1* (*we fell off the end of sequence*)
+&nbsp;&nbsp;&nbsp;&nbsp;*let index be index + 1*<br>
+*if index==n: let index be -1* (*we fell off the end of sequence*)
 
 **Exercise**: Alter one of the pseudocode loops so that it finds the last element not the first. Hint: you just have to change the loop conditions.

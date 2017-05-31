@@ -146,6 +146,18 @@ That counter loop is an example of an [accumulator](patterns.md#accumulator).
 
 **Exercise**: Write a pseudocode loop to sum the integers from 1 to 8, inclusively.
 
+Another common analytics problem is to iterate through a computation until we reach a desired result. For example, to compute the integer component of, say, *log<sub>2</sub>(n)* we can repeatedly divide *n* by 2 until we reach 1. The number of times we can divide a number by 2 is the log<sub>2</sub> by definition, though we are ignoring fractional part of the true result. The loop is an accumulator variation with a conditional that tests the accumulated value. Here is the pseudocode:
+
+*init a counter to 0*<br>
+*while n>1*:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;*let n be n / 2*<br>
+&nbsp;&nbsp;&nbsp;&nbsp;*add 1 to counter*<br>
+*print "log is " counter*
+
+Notice how if n is 1, the loop is never entered and we print a counter of zero, which is the right answer for *log<sub>2</sub>(1)*.
+
+**Exercise**: Fill in the [Function work plan](plans/function-planning.pdf) to create a function that uses that pseudocode as the processing steps to compute the result. Hint: what needs to change to convert this from a program to a function?
+
 ### For-each loops
 
 We also see a different kind of loop that *iterates* through a sequence of elements, such as a list. For example, a recipe might say "*chop each ingredient into small pieces*." In pseudocode, we could write:

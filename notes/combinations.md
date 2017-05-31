@@ -139,12 +139,14 @@ To convert a real-world filtering problem to pseudocode, your goal is to identif
 *for each x in rainfall*:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;*if x>=0: add x to new list*<br>
 
-Let's write pseudocode for and more complicated filtering problem, filtering for the list of Oscar winners:
+Let's write pseudocode for a more complicated filtering problem, filtering for the list of Oscar winners:
 
 <img src=images/filter-winners.png width=590>
 
 *for each row in table:*<br>
 &nbsp;&nbsp;&nbsp;&nbsp;*if row<sub>2</sub> is 1 add row to new table*
+
+Notice how we test one column value from the row but add the entire row to the new table. If we just added the "winner" column value to the new list, we would end up with a list of ones: 1, 1, 1, ..., 1.
 
 ## Searching sequences
 

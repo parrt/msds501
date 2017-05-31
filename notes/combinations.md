@@ -131,10 +131,55 @@ Another pattern uses nested for-each loops instead of indexed loops, which makes
 
 One of the most common nested operations is a conditional inside of a loop. We use it to implement the [filter](patterns.md#filter) pattern, for example. The filter template looks like:
 
-for each *x* in *a sequence*:<br>
+for each *x* in *sequence*:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;if *condition*: add *x* to new list<br>
 
 To convert a real-world filtering problem to pseudocode, your goal is to identify the *sequence* and the *condition* in that template. To filter out negative values (filter in nonnegative values) as we did in the rainfall problem, the *sequence* is the rainfall list and the *condition* is "*x >= 0*":
 
 *for each x in rainfall*:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;*if x>=0: add x to new list*<br>
+
+Let's write pseudocode for and more complicated filtering problem, filtering for the list of Oscar winners:
+
+<img src=images/filter-winners.png width=590>
+
+*for each row in table:*<br>
+&nbsp;&nbsp;&nbsp;&nbsp;*if row<sub>2</sub> is 1 add row to new table*
+
+## Searching sequences
+
+Instead of filtering a sequence, such as a list, we often just need to know if a particular element is present. We call this **searching** and a search typically returns the index of the found element. If the element is not found, the search returns invalid index -1.
+
+The template for searching a sequence of length *n* for element *e* looks like the filter template except we don't collect the magic elements. Instead, we track the index that matches *e*:
+
+*for i in 0..n-1:*<br>
+&nbsp;&nbsp;&nbsp;&nbsp;if *sequence<sub>i</sub>* = *e*: *index* = *i*
+
+For example, recall the searching for 999 visualization from the [search pattern](patterns.md#search):
+
+<img src=images/search-rainfall.png width=180>
+
+We could implement that with the following pseudocode.
+ 
+*for i in 0..n-1:*<br>
+&nbsp;&nbsp;&nbsp;&nbsp;*if sequence<sub>i</sub> = 999: index = i*
+
+There is a subtlety here. This loop finds the **last index** because it keeps searching even after he finds *e*. In other words, if there are multiple *e* in the list, it sets *index* multiple times. Its final value is the index of the last *e*. What we want, however, is typically defined the **first index** so we need a way to bust out of that loop when we find the first match. In pseudocode (and real code) we say that a loop *breaks* out:
+
+*for i in 0..n-1:*<br>
+&nbsp;&nbsp;&nbsp;&nbsp;*if sequence<sub>i</sub> = 999*:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*index = i*<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*break out of loop*
+
+Now, the loop will terminate early; just as soon as it finds the first *e*. We could also use a more generic loop to accomplish the same thing but without the explicit breakout.
+
+*index = 0*<br>
+*while sequence<sub>i</sub> is not e and index<n*:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;let index be index + 1
+
+The only problem with this simpler loop is that the index is not -1 in the case that *e* is not found. Consequently, we need to deal with that case, which is when *index* = *n*, after the loop:
+
+*index = 0*<br>
+*while sequence<sub>i</sub> is not e and index<n*:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;let index be index + 1<br>
+*if index==n: index = -1* (*we fell off the end of sequence*)

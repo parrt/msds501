@@ -2,7 +2,7 @@
 
 In order to make it easier to learn the overall process of program and function planning, we've limited the set of possible operations to a set of common [programming patterns](patterns.md). As with natural language, however, the set of possible program operations is effectively infinite. We can mix and match simple operations to create more complex behavior or tweak common patterns to suit a specific problem.
 
-Before dropping all the way down to the level of programming language syntax, let's explore the simplest, fine-grained operations that a computer can perform. Ultimately, it is these operations we will draw from to design programs. We're going to stick with pseudocode for now because the precise syntax isn't necessary to learn the computation model. The concepts apply across most programming leverages.
+Before dropping all the way down to the level of programming language syntax, let's explore the simplest, fine-grained operations that a computer can perform. Ultimately, it is these operations we will draw from to design programs. We're going to stick with pseudocode for now because the precise syntax isn't necessary to learn the computation model. The concepts apply across most programming languages.
 
 ## Canonical processor operations
 
@@ -121,6 +121,7 @@ In the programming world, we call this a **loop**.
 
 Just as with the conditional execution, mapping a real-world problem to a loop means identifying two key elements: a conditional (boolean) expression and the operation(s) to repeat.  A template for a loop looks like:
 
+*loop setup, usually init counter or value to update in loop*<br>
 while *condition*:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;*operation 1*<br>
 &nbsp;&nbsp;&nbsp;&nbsp;*operation 2*<br>
@@ -253,9 +254,9 @@ We can implement that pattern using an indexed loop. At each time step, the loop
 
 ## Summary
 
-Other than transferring data to and from memory, processors primarily perform arithmetic operations, such as "cost + tax".  Processes can also conditionally or repeatedly execute operations.
+Other than transferring data to and from memory, processors primarily perform arithmetic operations, such as "cost + tax".  Processors can also conditionally or repeatedly execute operations.
 
-When mapping real-world problems to pseudocode, you'll follow the program or function work plan and eventually work backwards from the desired result to identify sequence of operations. These operations will either map to our high level [programming patterns](patterns.md) or to the lower level patterns described here.
+When mapping real-world problems to pseudocode, you'll follow the program or function work plan and eventually work backwards from the desired result to identify a suitable sequence of operations. These operations will either map to our high level [programming patterns](patterns.md) or to the lower level patterns described here.
 
 If you can't identify a higher level pattern for a piece of the problem, try to map it to a conditional operation or a loop around one or more operations.
 
@@ -279,6 +280,7 @@ else:<br>
 
 For repeated execution, we have a generic loop that executes one or more operations while a condition is met:
 
+*loop setup, usually init counter or value to update in loop*<br>
 while *condition*:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;*operation 1*<br>
 &nbsp;&nbsp;&nbsp;&nbsp;*operation 2*<br>
@@ -296,4 +298,4 @@ for each value *i* in *some integer_set or range*:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;*operation 2*<br>
 &nbsp;&nbsp;&nbsp;&nbsp;...
 
-As will see next in [Common lower-level programming patterns](combinations.md), we often have to embed one of these patterns within another pattern to get the desired result.
+As we'll see next in [Common lower-level programming patterns](combinations.md), we often have to embed one of these patterns within another pattern to get the desired result.

@@ -1,7 +1,5 @@
 # Program planning
 
-*in progress*
-
 A program is a sequence of operations that transforms data or performs computations that ultimately lead to the expected output. *Programming* is the act of designing programs: identifying the operations and their appropriate sequence.  In other words, programming is about coming up with a work plan intended for a computer, which we'll describe in semi-precise English called *pseudocode*. *Coding* is the act of mapping such high-level pseudocode to programming language syntax. We'll worry about the actual [coding](coding.md) part later, after we learn how to design programs.
  At this point, we have an excellent foundation to start building programs because we have an [overall problem-solving strategy](programming.md):
 

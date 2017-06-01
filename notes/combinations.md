@@ -1,7 +1,5 @@
 # Common lower-level programming patterns
 
-*in progress*
-
 As with natural language, we can combine basic sentence structures to form more complex sentences. In the programming world, that means **nesting** one operation in another. In this section, we'll explore a few of the interesting combinations.
 
 ## Nested loops
@@ -60,6 +58,8 @@ Notice how the column *j* value varies more quickly than the row *i* value.  We 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*print i,j*<br>
 
 With the *j* loop on the outside, it will vary less quickly than the inner *i* loop.
+
+**Exercise**: Given a list of first names in a list of last names, of length *n* and *m*, write a nested loop pseudocode to print every combination of first and last name.
 
 To sum all of the elements of a 3x3 matrix, we let *n*=3 and *m*=3 and use an addition operation:
 
@@ -190,3 +190,36 @@ The only problem with this simpler loop is that the index is not -1 in the case 
 *if index==n: let index be -1* (*we fell off the end of sequence*)
 
 **Exercise**: Alter one of the pseudocode loops so that it finds the last element not the first. Hint: you just have to change the loop conditions.
+
+## Summary
+
+By nesting one loop in another or nesting a conditional operation within the loop, we arrive at some extremely useful programming patterns.
+
+When your real-world problem talks about "all combinations", you often need a loop that looks like:
+
+
+*for i in 0..n-1:*<br>
+&nbsp;&nbsp;&nbsp;&nbsp;*for j in 0..m-1:*<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*process i,j*<br>
+
+This technique easily extends to 3-dimensional data:
+
+*for i in 0..n-1:*<br>
+&nbsp;&nbsp;&nbsp;&nbsp;*for j in 0..m-1:*<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*for k in 0..p-1*<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*process i,j,k*<br>
+
+Nested loops are also what you need to walk the elements of a 2-dimensional data structure, such as a table, matrix, or image.
+
+If you need to filter data, consider using a conditional inside of a loop:
+
+for each *x* in *sequence*:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;if *condition*: add *x* to new list<br>
+
+The same construct can be used to search for the index of an element, *e*, by breaking out of the loop upon match (instead of adding to a new filtered list):
+
+*let index be -1*<br>
+*for i in 0..n-1:*<br>
+&nbsp;&nbsp;&nbsp;&nbsp;if *sequence<sub>i</sub>* = *e*:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*index* = *i*<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*break out*

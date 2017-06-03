@@ -252,7 +252,7 @@ We can implement that pattern using an indexed loop. At each time step, the loop
 
 **Exercise**: Using an indexed-loop, write pseudocode to [slice](patterns.md#slice) elements in range [0 to 5), indexes (0,1,2,3,4), from a rainfall list into a new list somerainfall. Hint: You'll need: "*add ... to somerainfall*".
 
-###Translating formulas
+### Translating formulas
 
 Sigma notation from mathematics translates in a straightforward fashion to indexed loops. For example:
 

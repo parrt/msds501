@@ -16,13 +16,17 @@ The processor is where all of the action occurs because it is the entity that ex
 
 In [Model of Computation](computation.md), we studied pseudocode that maps to one or more of these fundamental instructions. We saw how some of the [higher-level programming patterns](patterns.md) map down to pseudocode chosen from these fundamental instructions. We finished up by looking at some of the [low-level programming patterns](combinations.md) that combine fundamental instructions to do useful things like filtering and image processing.
 
+The act of translating a pseudocode operation into Python code involves choosing the right Python construct, just like programming involves choosing the right pattern to solve a piece of a real-world problem.  Then, it's a matter of shoehorning our free-form pseudocode into the straitjacket of programming language syntax. Before we get to those details, however, let's look at the big picture and a general strategy for writing programs.
+
 ## Getting started
 
-In order to write code in Python professionally, we have a lot of details to learn, just like we would when learning a new natural language. The act of translating a pseudocode operation into Python involves choosing the right Python construct, just like programming involves choosing the right pattern to solve a piece of a real-world problem. The detail comes in when we shoehorn our free-form pseudocode into the straitjacket of programming language syntax.
+Both writing and executing a program are remarkably similar to writing and reading a paper or report. Just as with our program work plan, writing a paper begins when we clearly identify a thesis or problem statement. Analogous to identifying input-output pairs, we might identify the target audience and what we hope readers will come away with after reading the paper. With this in mind, we should write an outline of the paper, which corresponds to identifying the processing steps in the program work plan. Sections and chapters in a paper might correspond to functions and packages in the programming world.
 
-## Python program template
+When reading a paper, we read the sections and paragraphs in order, just like how a processor executes a program. The paper text can ask the reader to jump temporarily to a figure or different section and return. This is analogous to a program calling a function and returning, possibly with some information.  When reading a paper, we might also encounter conditional sections, such as "*If you've studied quantum physics, you can skip this section*."  There can even be loops in a paper, such as '*Now's a good time to reread the background section on linear algebra*."
 
-To simplify the process of learning to code in Python, we're going to restrict ourselves to a subset of the language and also follow a template suitable for all programs:
+The point is that, if you've been taught how to properly write a paper, the process of writing code should feel very familiar. To simplify the process of learning to code in Python, we're going to restrict ourselves to a subset of the language and also follow a template suitable for all of our programs.
+
+### Python program template
 
 *import any libraries*<br>
 *define any constants, simple data values*<br>

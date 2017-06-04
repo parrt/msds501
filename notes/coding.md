@@ -38,3 +38,19 @@ When we are building a library not a program, then we omit the main program:
 *import any libraries*<br>
 *define any constants, simple data values*<br>
 *define any functions*<br>
+
+limit to subset of python
+
+a = expr
+numbers
+strings with "..."
+conditions
+[...] and [[], []]
+for i
+for each
+if
+if-else
+
+start with x = 1 and show in python tutor.
+
+use ipython notebooks

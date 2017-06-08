@@ -60,5 +60,5 @@ Implementing program work plans
 
 * [Introduction to Python coding](notes/coding.ipynb)
 * [Programming Patterns in Python](notes/python-patterns.ipynb)
-* [How to read code](reading-code.ipynb)
-* [Organizing your code with functions](coding-functions.ipynb)
+* [How to read code](notes/reading-code.ipynb)
+* [Organizing your code with functions](notes/coding-functions.ipynb)

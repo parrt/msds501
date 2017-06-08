@@ -56,7 +56,7 @@ Learning to design programs
 * [Model of Computation](notes/computation.md)
 * [Common lower-level programming patterns](notes/combinations.md)
 
-Implementing program work plans
+Implementing program work plans (actual coding)
 
 * [Introduction to Python coding](notes/coding.ipynb)
 * [Programming Patterns in Python](notes/python-patterns.ipynb)

@@ -58,5 +58,6 @@ Learning to design programs
 
 Implementing program work plans
 
-* [Introduction to Python coding](notes/coding.md)
-* [Programming Patterns in Python](notes/python-patterns.md)
+* [Introduction to Python coding](notes/coding.ipynb)
+* [Programming Patterns in Python](notes/python-patterns.ipynb)
+* [How to read code](reading-code.md)

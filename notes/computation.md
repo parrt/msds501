@@ -247,7 +247,6 @@ We tend to use indexed loops, that iterate through a range of integers, when tra
 
 We can implement that pattern using an indexed loop. At each time step, the loop operation needs to examine the same position in two lists. 
 
-*init Cost to empty list*<br>
 *for each value i in set 0..n-1*:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;<i>let Cost<sub>i</sub> be Quantity<sub>i</sub> * UnitPrice<sub>i</sub></i>
 

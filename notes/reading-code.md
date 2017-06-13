@@ -6,7 +6,7 @@ So far we have focused on designing programs and writing Python code. This is th
 
 We read code in order to:
 
-* **Gain new experience**. Just as in natural language where we learn to speak by listening to others, we learn programming techniques by recognizing cool patterns in the code of others.
+* **Gain new experience**. Just as in natural language where we learn to speak by listening to others, we learn programming techniques by recognizing cool patterns in the code of others. Code is how programmers communicate and you will need to quickly understand the code I build in class.
 * **Find and adapt code snippets**. We can often find hints or solutions to a coding problem through code snippets found via Google search or at [StackOverlow](https://stackoverflow.com/).  Be careful here you do not violate copyright laws or, in the case of student projects, academic honesty rules.
 * **Discover the behavior of library functions or other shared code**.   The complete behavior of a library function is not always clear from the name or parameter list.  Looking at the source code for that function is the best way to understand what it does. The code **is** the documentation. While we're discussing library functions, let me highlight a golden rule: *You should never ever ask your fellow programmers about the details of parameters and return values from library functions.* You can easily discover this yourself using "jump to definition" in PyCharm or by searching on the web.
 * **Uncover bugs, in our code or others' code**. All code has bugs, particularly code we just wrote that has not been tested exhaustively. As part of the coding process, we are constantly bouncing around, reading our existing code base to make sure everything fits together.
@@ -58,7 +58,7 @@ def average(data):
 
 At this point, we know that `data` is almost certainly a list of numbers and the function returns a single number. That means we can fill in the first part of the work plan for the function.
 
-## Reading function code
+## What to look for in function code
 
 Because we have prior knowledge of what the average is, we can fill in the work plan description of the function objective. In general, though, we have to scan the statements of the function to figure that out. (We might get lucky and find a reasonable function comment as well.) Let's look at the full function now:
 
@@ -85,8 +85,122 @@ How do we know where to start and what to look at? Well, let's think back to the
 
 The gist of that process is to load data into a handy data structure and process it. What do loading data, creating a data structure, and processing a data structure have in common? They all repeatedly execute a set of operations, which means that the gist of a program that processes data is looping. (There is even a famous book is entitled [Algorithms + Data Structures = Programs](https://www.amazon.com/Algorithms-Structures-Prentice-Hall-Automatic-Computation/dp/0130224189).)  A program that does not loop would likely be very boring as it could not traverse a data structure or process a data file.
 
-From this, we can conclude that all of the action occurs in loops so we should look for loops in the code first. We saw lots of pseudocode loop templates in [Common lower-level programming patterns](combinations.md) and Python loop templates in [Programming Patterns in Python](python-patterns.ipynb). Reading code is a member of finding those templates in the code of a function, which immediately tells us the kind of operation or pattern the author intended.
+From this, we can conclude that all of the action occurs in loops so we should look for loops in the code first. We saw lots of pseudocode loop templates in [Common lower-level programming patterns](combinations.md) and Python loop templates in [Programming Patterns in Python](python-patterns.ipynb). Reading code is a matter of finding such templates in the code of a function, which immediately tells us the kind of operation or pattern the author intended.
 
-Let's dig through some examples, trying to identify the patterns.
+## Identifying programming patterns in code
 
-look for the loops
+Let's dig through some loop examples, trying to identify the high-level patterns or operations. The key elements to look for are the holes in the templates we studied. This usually means identifying the loop variable, the loop bounds, which data structure we're traversing, and the operation performed on the data elements.  The goal is to reverse engineer the intentions of the code author.
+
+**Exercise**: To get started, what pattern does the `sum` function above follow?
+
+```python
+sum = 0.0
+for x in data:
+    sum = sum + x
+```
+
+That's an accumulator.
+
+**Exercise**: Let's look at a loop where I have deliberately used crappy variable names.
+
+```python
+foo = []
+for blah in blort:
+    foo.append(blah * 2)
+```
+
+That's a map operation, which we can see from the initialization of an empty target list and the `foo.append(...)` call. The `blah * 2` is not relevant to finding the pattern other than the fact that the target list is a function of `blah`, which comes from the source list `blort`.
+
+**Exercise**:  What kind of loop (for-each, indexed, nested, etc...) do you see in the following code? What kind of high level pattern is the code performing?
+
+```python
+blort = []
+for boo in range(len(foo)):
+    blort.append(foo[boo] * 2)
+```
+
+That's an indexed-loop that again does map operation. The clue that it is an indexed loop is that the bounds are `range(len(foo))` which is giving a range of indices. Because of the `blort.append` and reference to `foo[boo]`, we know it is a map operation. We know that `foo` is a list of some kind because of the `[boo]` index operator.
+
+**Exercise**:  What is the high-level pattern followed by this code:
+
+```python
+foo = []
+for i in range(len(X)):
+    foo.append(X[i]+Y[i])
+```
+
+It is combining two columns (lists) into a target column. We know that X and Y are lists because of the `[i]` array indexing.
+
+**Exercise**: What high-level math operation is this code performing?
+
+```python
+for i in range(n):
+    for j in range(n):
+        C[i][j] = A[i][j] + B[i][j]
+```
+
+Matrix addition. It's important here to recognize that a nested indexed-loop gives all combinations of the loop variables, `i` and `j`, in the range [0..n). One of the most common reasons to do this is to iterate through the elements of a matrix or an image. The answer here could also be image addition.
+
+**Exercise**:  How many `'hi'`s get printed by this loop?
+
+```python
+for i in range(n):
+    for j in range(n):
+        print 'hi'
+```
+
+n * n. The inner loop goes around n times. The outer loop means we perform the entire inner loop n times.
+
+**Exercise**:  What is this code doing? I.e., what is the value of `blort` in the abstract after the loop completes?
+
+```python
+blort = -99999
+for x in X:
+    if x > blort:
+        blort = x
+print blort
+```
+
+Max value in `X`. Anytime you see an `if` statement inside of a loop, think *filter* or *search*. It will usually be a variation on one of those. This assumes that the conditional expression is a function of the loop variable directly or indirectly.
+
+**Exercise**: What does this variation print?
+
+```python
+blort = -99999
+for i in range(len(X)):
+    if X[i] > blort:
+        blort = x
+print blort
+```
+
+Exactly the same thing; `blort` is the max of `X`.  You see a conditional expression, that is a function of the loop variable, inside of a loop. This is just a reformulation of the previous.
+
+**Exercise**: What is the goal of this code? I.e., what value it print for `foo` after the loop?
+
+```python
+foo = -1
+bar = -99999
+for i in range(len(X)):
+    if X[i] > bar:
+        bar = x
+        foo = i
+print foo
+```
+
+argmax of `X`.  We know the code associated with the conditional is figuring out the max from our previous examples, but it is also tracking the `i`, the index. 
+
+Think of this as a standard pattern you've already figured out, but variation that does some extra stuff. Then ask what the difference between the two is. Here's an excellent case for trying to understand what the input-output pairs are (though we're talking about the guts of but not a full function here). With the max computation, the output is a value taken from `X`. In this case, the value printed out is an index in 0..len(X)-1.
+
+**Exercise**: Describe what value `bar` has after this code completes.
+
+```python
+foo = []
+bar = []
+for blah in blort:
+    foo.append(blah * 2)
+for zoo in foo:
+    if zoo>10:
+        bar.append(zoo)
+```
+
+There's a lot going on here, but it is really nothing more than two patterns in a sequence. The first pattern is a map operation that doubles the values in `blort` to create the `foo` list, which is consumed by the second loop. The second loop is just a filter that extracts all values > 10 from `foo` into `bar.

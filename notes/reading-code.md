@@ -204,3 +204,30 @@ for zoo in foo:
 ```
 
 There's a lot going on here, but it is really nothing more than two patterns in a sequence. The first pattern is a map operation that doubles the values in `blort` to create the `foo` list, which is consumed by the second loop. The second loop is just a filter that extracts all values > 10 from `foo` into `bar.
+
+**Exercise**: What values are in `a` and `b` after this code executes?
+
+```python
+a = 0
+b = 0
+for x in X:
+    if x < 10:
+        a = a + 1
+    else:
+        b = b + 1
+```
+
+This is a combined filter and double accumulator. It is a filter because it is a conditional inside a loop where the conditional expression tests the loop iterator value. It is an accumulator because it updates at least one variable as it proceeds through the loop.  `a` as the number of values in `X` less than 10 and `b` has the count of values greater than or equal to 10.
+
+**Exercise**: What value does `Y` have after the loop?
+
+```python
+a = 2
+b = 5
+Y = []
+for i in range(len(X)):
+    if i>=a and i<=b:
+        Y.append(X[i])
+```
+
+This loop implements the slice pattern that extracts a subset of elements from a list. In this case, it is choosing elements in range a..b of `X`, inclusively, and adding them to `Y`.

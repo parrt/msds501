@@ -21,13 +21,13 @@ That's why you should emphasize clarity when writing code, so that reading the c
 
 > Always code as if the person who ends up maintaining your code will be a violent psychopath who knows where you live.
 
-## Reading programs
+## Getting the gist of a program
 
 When looking at a textbook for the first time, it makes sense to scan through the table of contents to get an overall view of the book content. The same is true when looking at a program for the first time. Look through all of the files and the names of the functions contained in those files. Also figure out where the main program is. Depending on your goal in reading the program, you might start stepping through the main program or immediately jump to a function of interest.
 
 It's also useful to look at the input-output pairs of the program, because it helps you understand the program's functionality. In some sense, we are reverse-engineering the program work plan by examining and testing the program. Previously, we used the program work plan in the forward direction to design programs.
 
-## Reading functions
+## Getting the gist of a function
 
 Once we identify a main program or function to examine, it's time to reverse-engineer the function work plan. The function's name is perhaps the biggest clue as to what the function does, assuming the code author was a decent programmer. For example, there is no doubt what the following function's goal is:
 
@@ -58,6 +58,8 @@ def average(data):
 
 At this point, we know that `data` is almost certainly a list of numbers and the function returns a single number. That means we can fill in the first part of the work plan for the function.
 
+## Reading function code
+
 Because we have prior knowledge of what the average is, we can fill in the work plan description of the function objective. In general, though, we have to scan the statements of the function to figure that out. (We might get lucky and find a reasonable function comment as well.) Let's look at the full function now:
 
 ```python
@@ -69,7 +71,21 @@ def average(data):
     return sum / n
 ```
 
-An inexperienced programmer must examine the statements of the function individually and literally, sort of emulating a computer to figure out the emergent behavior. An experienced programmer looks for patterns in the code that represent implementations of high-level patterns like map, search, filter, etc... By analogy, consider memorizing the state of a chessboard in the middle of play. A beginner has to memorize where all of the pieces are individually whereas a chessmaster recognizes that the board is merely a variation on the Budapest Gambit.
+An inexperienced programmer must examine the statements of the function individually and literally, sort of emulating a computer to figure out the emergent behavior. In contrast, *an experienced programmer looks for patterns in the code that represent implementations* of high-level patterns like map, search, filter, etc... 
+
+By analogy, consider memorizing the state of a chessboard in the middle of play. A beginner has to memorize where all of the pieces are individually whereas a chessmaster recognizes that the board is, say, merely a variation on the Budapest Gambit.
+
+How do we know where to start and what to look at? Well, let's think back to the [generic analytics program template](programming.md):
+
+1. Acquire data, which means finding a suitable file or collecting data from the web and storing in a file
+2. Load data from disk and place into memory organized into data structures
+2. Normalize, clean, or otherwise prepare data
+3. Process the data, which can mean training a machine learning model, computing summary statistics, or optimizing a cost function
+4. Emit results, which can be anything from simply printing an answer to saving data to the disk to generating a fancy visualization
+
+The gist of that process is to load data into a handy data structure and process it. What do loading data, creating a data structure, and processing a data structure have in common? They all repeatedly execute a set of operations, which means that the gist of a program that processes data is looping. (There is even a famous book is entitled [Algorithms + Data Structures = Programs](https://www.amazon.com/Algorithms-Structures-Prentice-Hall-Automatic-Computation/dp/0130224189).)  A program that does not loop would likely be very boring as it could not traverse a data structure or process a data file.
+
+From this, we can conclude that all of the action occurs in loops so we should look for loops in the code first. We saw lots of pseudocode loop templates in [Common lower-level programming patterns](combinations.md) and Python loop templates in [Programming Patterns in Python](python-patterns.ipynb). Reading code is a member of finding those templates in the code of a function, which immediately tells us the kind of operation or pattern the author intended.
 
 Let's dig through some examples, trying to identify the patterns.
 

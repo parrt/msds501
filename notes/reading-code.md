@@ -231,3 +231,11 @@ for i in range(len(X)):
 ```
 
 This loop implements the slice pattern that extracts a subset of elements from a list. In this case, it is choosing elements in range a..b of `X`, inclusively, and adding them to `Y`.
+
+## Summary
+
+Written code is an important part of being a programmer. Code is how programmers communicate. It's how we are able to use extra libraries effectively, how we debug, and how we gain experience.
+
+The trick to reading code is to reverse the program design process that goes from function workplan to pseudocode to height on code. The biggest clues come from variable and function names, and possibly code comments. Then we look for code templates expressed in the code to reverse-engineer the original intent of the author based upon that template choice.  For example, ask whether the code represents a map or search operation. Don't try to mimic a computer and guess the emergent behavior using a chart of how expression values change over time. Sometimes you have to do that for debugging purposes, but in general, your goal is to guess the intent of the code author.
+
+Because reading code is an important part of your process, be kind to other developers and your future self by writing good code. That includes choosing excellent variable and function names and writing code that clearly illustrates your intent.

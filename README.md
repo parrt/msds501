@@ -1,7 +1,6 @@
 MSAN501 Computational Analytics Bootcamp
 =======
 
-
 This 5-week computational analytics bootcamp is part of the [MS in Analytics program at the University of San Francisco](http://analytics.usfca.edu) and is specifically designed as an introduction to analytics programming for those who are not yet skilled programmers.
 
 # Administrivia
@@ -10,7 +9,7 @@ This 5-week computational analytics bootcamp is part of the [MS in Analytics pro
 
 **SPATIAL COORDINATES.** 101 Howard 5th floor Room 529.
 
-**TEMPORAL COORDINATES.** Thursday/Friday Sec01 10am-12pm, Sec02 1-3pm; July 13 (Thu) - August 10 (Thu).
+**TEMPORAL COORDINATES.** Thursday/Friday Sec01 10am-12pm, Sec02 1-3pm; July 13 (Thu) - August 11 (Fri).
 
 **INSTRUCTION FORMAT**. Class runs for 2 hours, 2 days per week. Instructor-student interaction during lecture is encouraged and we'll mix in mini-exercises / labs during class. All programming will be done in the Python 2 programming language, unless otherwise specified.
 
@@ -30,14 +29,14 @@ If you ever have questions about what constitutes plagiarism, cheating, or acade
 
 | Artifact | Grade Weight | Due date |
 |--------|--------|--------|
-|[Image processing](https://github.com/parrt/msan501/raw/master/projects/images.pdf)| 12%| ? |
-| [Predicting Murder Rates With Gradient Descent](https://github.com/parrt/msan501/raw/master/projects/regression-gradient-descent.pdf)| 12%| ? |
-| [Search Engine Implementation](https://github.com/parrt/msan501/blob/master/projects/hashtable.md)| 12%| ? |
-|Quiz 1| 6%| Tuesday, July 12 |
-|Quiz 2| 11%| Monday, July 18 |
-|Quiz 3| 11%| Monday, July 25 |
-|Quiz 4| 11%| Monday, August 1 |
-|Quiz 5| 11%| Tuesday, August 9 |
+|[Image processing](https://github.com/parrt/msan501/raw/master/projects/images.pdf)| 10%| ? |
+| [Predicting Murder Rates With Gradient Descent](https://github.com/parrt/msan501/raw/master/projects/regression-gradient-descent.pdf)| 8%| ? |
+| [Search Engine Implementation](https://github.com/parrt/msan501/blob/master/projects/hashtable.md)| 10%| ? |
+|Quiz 1| 0% | Thursday, July 13 |
+|Quiz 2| 11%| Thursday, July 20 |
+|Quiz 3| 11%| Thursday, July 27 |
+|Quiz 4| 11%| Thursday, August 3 |
+|Quiz 5| 11%| Thursday, August 10 |
 
 All projects are graded in binary fashion: They either work or they do not. Each project has a hard deadline and only those projects working correctly before the deadline get credit (100%).  My grading script pulls from github at the deadline.
 

@@ -32,11 +32,11 @@ If you ever have questions about what constitutes plagiarism, cheating, or acade
 |[Image processing](https://github.com/parrt/msan501/raw/master/projects/images.pdf)| 10%| ? |
 | [Predicting Murder Rates With Gradient Descent](https://github.com/parrt/msan501/raw/master/projects/regression-gradient-descent.pdf)| 8%| ? |
 | [Search Engine Implementation](https://github.com/parrt/msan501/blob/master/projects/hashtable.md)| 10%| ? |
-|Quiz 1| 0% | Thursday, July 13 |
-|Quiz 2| 11%| Thursday, July 20 |
-|Quiz 3| 11%| Thursday, July 27 |
-|Quiz 4| 11%| Thursday, August 3 |
-|Quiz 5| 11%| Thursday, August 10 |
+|Quiz 1| 0% | Thur, July 13 |
+|Quiz 2| 18%| Fri, July 21 |
+|Quiz 3| 18%| Fri, July 28 |
+|Quiz 4| 18%| Fri, August 4 |
+|Quiz 5| 18%| Fri, August 11 |
 
 All projects are graded in binary fashion: They either work or they do not. Each project has a hard deadline and only those projects working correctly before the deadline get credit (100%).  My grading script pulls from github at the deadline.
 

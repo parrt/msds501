@@ -1,34 +1,40 @@
-# Say Hello
+# A first taste of Python tools
 
 ##  Interactive Python
 
-Launch `Terminal.app` (Mac) or whatever the `bash` *terminal* or *commandline prompt* program is on your flavor of UNIX. From the prompt, type `python` followed by return/newline:
+Launch `Terminal.app` (Mac) or whatever the `bash` *terminal* or *commandline prompt* program is on your flavor of UNIX. From the prompt, type `ipython` (or `python`) followed by return/newline:
 
 ```bash
-$ python
+$ ipython
 Python 2.7.12 |Anaconda 4.2.0 (x86_64)| (default, Jul  2 2016, 17:43:17) 
-[GCC 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2336.11.00)] on darwin
-Type "help", "copyright", "credits" or "license" for more information.
-Anaconda is brought to you by Continuum Analytics.
-Please check out: http://continuum.io/thanks and https://anaconda.org
+Type "copyright", "credits" or "license" for more information.
+
+IPython 5.1.0 -- An enhanced Interactive Python.
+?         -> Introduction and overview of IPython's features.
+%quickref -> Quick reference.
+help      -> Python's own help system.
+object?   -> Details about 'object', use 'object??' for extra details.
 ```
 
-You should see that it is using the Anaconda version. If not, that means you are using the default Python on your system. You need to look at the documentation for Anaconda and figure out why you are not running the appropriate Python. (Most likely something is wrong with your `PATH` environment variable.) That's okay for now.
+You should see that it is using the **Anaconda** version. If not, that means you are using the default Python on your system. You need to look at the documentation for Anaconda and figure out why you are not running the appropriate Python. (Most likely something is wrong with your `PATH` environment variable.) That's okay for now.
 
-Now, from the Python prompt `>>>` (we are no longer in `bash`), type `500+1` followed by newline. You should see something like this:
+Now, from the Python prompt `In [...]` (we are no longer in `bash`), type `500+1` followed by newline. You should see something like this:
 
 ```python
->>> 500+1
-501
->>> 
+
+In [1]: 500+1
+Out[1]: 501
+
+In [2]: 
 ```
 
 Python has evaluated the expression and printed the result back to the screen. It is as if we had used a `print` statement, which gives us the same result:
 
 ```python
->>> print 500+1
+In [2]: print 500+1
 501
->>> 
+
+In [3]: 
 ```
 
 The Python interactive shell prints expression values immediately, but that is not the case when running a program as a script (i.e., not interactively).
@@ -59,7 +65,7 @@ hello.py
 Now, we're going to run that program/script:
 
 ```bash
-$ python hello.py
+$ ipython hello.py
 $ 
 ```
 
@@ -74,7 +80,7 @@ print 500+1
 Save the file and rerun it. Now you should see:
 
 ```bash
-$ python hello.py 
+$ ipython hello.py 
 501
 $ 
 ```

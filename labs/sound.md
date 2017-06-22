@@ -1,5 +1,5 @@
 # Playing sounds
- The goal of this lab is to amaze yourself by doing some audio file processing with Python. You won't get all the details, but you can cut-and-paste to start conversing in Python.  As a secondary goal, you'll get used to installing Python packages and commandline tools.
+ The goal of this lab is to amaze yourself that you can do some audio file processing with Python. You won't get all the details, but you can cut-and-paste for this lab to start conversing in Python.  As a secondary goal, you'll get used to installing Python packages and commandline tools.
 
 First, download the following two audio files so we have some raw materials to work with.
 
@@ -56,14 +56,14 @@ Comment:  00000000 00000210 000009F5 000000000004FF7B 00000000 0002AB44 00000000
 [0:07] Decoding of ahhh.mp3 finished.
 ```
 
-There's a lot of gibberish there we don't care about but make sure that it says "finished" and it doesn't look like there are any errors. Take a look at the files in the current directory and see if ahhh.mp3 appears:
+There's a lot of gibberish in that output that we don't care about but make sure that it says "finished" and it doesn't look like there are any errors. Take a look at the files in the current directory and see if ahhh.wav appears:
 
 ```bash
 $ ls
 Kiss.aiff  ahhh.mp3   ahhh.wav 
 ```
 
-Alright. At this point, we've learned to jump around to different locations in the file system using `cd` and used `ls` to list the files in a directory. We'll use `brew` as our install command for non-Python packages.
+At this point, we've learned to jump around to different locations in the file system using `cd` and used `ls` to list the files in a directory. We use `brew` as our install command for non-Python packages.
 
 ## Installing Python packages
 
@@ -72,24 +72,20 @@ In order to read and play sound files from Python, we need to leverage some exis
 * For reading sound files, we need [pysoundfile](http://pysoundfile.readthedocs.io/en/0.9.0/)
 * For playing sounds, we need [sounddevice](http://python-sounddevice.readthedocs.io/en/0.3.7/)
 
-If we try to use packages before installing them, we see errors like this:
+If we try to use packages before installing them, the Python executor shows us errors like the following.
  
 ```python
 ---------------------------------------------------------------------------
 ImportError                               Traceback (most recent call last)
 <ipython-input-61-b5992dda2a80> in <module>()
 ----> 1 import soundfile as sf
-      2 
-      3 kiss, samplerate = sf.read('../data/sound/Kiss.aiff')
-      4 print kiss # returns a numpy ndarray that you will become intimately familiar with
-      5 
 
 ImportError: No module named soundfile
 ```
 
-The key is that at the `import` statement, we get the error `No module named soundfile`.  That should not wreck your day--just means we have to install that package.
+The key is that at the `import` statement, we get the error `No module named soundfile`.  That should not wreck your day--it just means we have to install that package.
 
-To install Python packages, we use the `pip` program. Normally this program does what we want quickly and easily, but a number of things can go wrong. The most common is that your `pip` program does not match up with the `python` program. First verify that they appear to be coming from the same `bin` directory using `which`:
+To install Python packages, we use the `pip` program. Normally this program does what we want quickly and easily, but a number of things can go wrong. The most common is that your `pip` program does not match up with the `ipython` or `python` program. First verify that they appear to be coming from the same `bin` directory using `which`:
 
 ```bash
 $ which pip

@@ -44,6 +44,12 @@ This class is pass/fail and we expect most people to pass, but those getting bel
 
 # Syllabus
 
+Start your engines!
+
+* [A bit of motivation (Audio processing)](notes/sound.ipynb)
+  * [A first taste of Python tools](../labs/hello.md)
+  * [Playing sounds](../labs/sound.md)
+
 Learning to design programs
 
 * [How to Program](notes/programming.md)

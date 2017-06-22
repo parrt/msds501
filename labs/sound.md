@@ -243,6 +243,8 @@ See if you can see the relationship between this code and the previous code. We 
 
 ## Sound processing
 
+### Reducing the volume
+
 To convince you that soundwaves are just numbers, let's make the numbers loaded from an audiophile smaller. What should happen to the resulting sound when we play it? Yep, it should get quieter. Here is a version of the `play.py` program called `softer.py` that has an extra line to decimate the amplitude:
 
 ```python
@@ -263,6 +265,8 @@ kiss = kiss * .1                         # Reduce amplitude to make quieter
 
 It turns out that our ears hear things half as loudly when we drop the signal strength by 10. (The term *decibel* should ring a bell. Haha; pun intended. Decimate means divide by 10.)
 
+### Slowing the audio down (and changing the pitch)
+
 Let's say that we'd like to deepen the voice of Prince. All we have to do is slow the music down. To do that, all we have to do is monkey with the sample rate. Make a copy of the `play.py` file into `slower.py` and change the `play` line to be:
 
 ```python
@@ -270,3 +274,15 @@ sd.play(kiss, samplerate*.8)             # play the music at 80% speed
 ```
 
 Now run `slower.py` and Prince's voice will sound freaky and deep near at the end. The whole thing sounds slow down.  Intuitively, reducing the sample rate on playback slows things down because the player consumes fewer samples per second. This stretches the sound to be longer, just like slowing down a phonograph record with your finger.
+
+<table border=1>
+<tr><td>
+It is possible to slow music down and *not* change the pitch, which is really useful when trying to transcribe music from audio to sheet music.  The guy who builds the [Transcribe! software I use](https://www.seventhstring.com/xscribe/overview.html) has a good description of the kung fu involved to [Slow Down Music Without Changing the Pitch](https://www.seventhstring.com/resources/slowdown.html).
+</td></tr>
+</table>
+
+## Summary
+
+Sound processing is a really fun fascinating topic, and you've just gotten a taste here. My hope is that this lab motivates you to dive into the details of programming so that you can learn to build these kinds of programs for yourself.
+
+You've also seen how to use the commandline to install other commandline programs and Python packages. This is something you will use again and again as you write more and more sophisticated programs.

@@ -16,7 +16,16 @@ help      -> Python's own help system.
 object?   -> Details about 'object', use 'object??' for extra details.
 ```
 
-You should see that it is using the **Anaconda** version. If not, that means you are using the default Python on your system. You need to look at the documentation for Anaconda and figure out why you are not running the appropriate Python. (Most likely something is wrong with your `PATH` environment variable.) That's okay for now.
+You should see that it is using the **Anaconda** version. If not, that means you are using the default Python on your system. To figure out where the Python program executable is using the command line, try this:
+
+```bash
+$ which python
+/Users/parrt/anaconda2/bin/python
+$ which ipython
+/Users/parrt/anaconda2/bin/ipython
+```
+
+Both of the programs are in the Anaconda `bin` (binary) directory, that holds all of the binary executables. If you don't see anaconda somewhere in the output from the `which` command, you need to look at the documentation for Anaconda and figure out why you are not running the appropriate Python. (Most likely something is wrong with your `PATH` environment variable.) That's okay for now as we need any 2.X version of Python running.
 
 Now, from the Python prompt `In [...]` (we are no longer in `bash`), type `500+1` followed by newline. You should see something like this:
 
@@ -41,7 +50,7 @@ The Python interactive shell prints expression values immediately, but that is n
  
 ## Scripting Python
 
-Go to a suitable directory on your disk, or create one, such as `/Users/YOURID/msan501/inclass`. **Do not use space it is in any of your directory or filenames...ever!** Now create a **text file** called `hello.py` that contains exactly one line:
+Go to a suitable directory on your disk, or create one, such as `/Users/YOURID/msan501/inclass`. **Do not use spaces in any of your directory or file names...ever!** Now create a **text file** called `hello.py` that contains exactly one line:
 
 ```python
 500+1
@@ -52,12 +61,17 @@ This is exactly what you typed in first in the interactive Python shell. Save th
 Here are solutions to  the most common errors:
 
 1. Do not put `.txt` at the end of the file name
-2. Do NOT use M$ Word or any other word processor; You think it's text but it's not. There are lots of text editors out there including Mac's `TextEdit.app`. Just make sure save as plain text not "rich text". There are also plenty of text editor such as [Sublime](https://www.sublimetext.com/) and [TextMate](https://macromates.com/).  (If you are really hard-core, you will learn `vi` or `emacs`, which you will see me use in class.) You can also use `nano` from the command line for editing.
+2. Do NOT use M$ Word or any other word processor; You think it's text but it's not. There are lots of text editors out there including Mac's `TextEdit.app`. Just make sure save as plain text not "rich text". There are also plenty of text editor such as [Sublime](https://www.sublimetext.com/) and [TextMate](https://macromates.com/).  (If you are really hard-core, you will learn `vi` or `emacs`, which you will see me use in class.) You can also use `nano` from the command line for editing directly in the command line window.
 
-Once you get the file written to the disk, you should be able to jump to that directory using the commandline shell. Use `ls` to get a directory listing:
+Once you get the Python file written to the disk, you should be able to jump to that directory using the commandline shell:
 
 ```bash
 $ cd /Users/YOURID/msan501/inclass
+```
+
+Use `ls` to get a directory listing:
+
+```bash
 $ ls
 hello.py
 ```
@@ -69,7 +83,7 @@ $ ipython hello.py
 $ 
 ```
 
-We do not get any output. This is a critical difference. The interactive Python shell immediately prints expression values because it is interactive. When you run a file from the commandline, it assumes you wanted to execute the code like a script in batch mode. That is why we do not get any output.
+We do not get any output. This is a critical difference. The interactive Python shell immediately prints expression values because it is interactive. When you run a file from the commandline, it assumes you wanted to execute the code like a script in batch mode. That is why we do not get any output without a print statement.
 
 Now edit that file and change it to
 
@@ -87,7 +101,7 @@ $
 
 ## PyCharm
 
-Now, we're going to do the exact same thing except using the development environment PyCharm.
+Now, we're going to do the exact same thing except using the development environment PyCharm, which you all should've downloaded and installed.
 
 1. Launch PyCharm and then under `File` menu, tell it to open a directory with `Open...` menu item. 
 2. Navigate to your `/Users/YOURID/msan501/inclass` directory and click okay. You should see your `hello.py` in the `Project` pane of the development environment. 

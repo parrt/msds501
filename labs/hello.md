@@ -2,7 +2,7 @@
 
 ##  Interactive Python
 
-Launch `Terminal.app` (Mac) or whatever the `bash` *terminal* or *commandline prompt* program is on your flavor of UNIX. From the prompt, type `ipython` (or `python`) followed by return/newline:
+Launch `Terminal.app` (Mac) or whatever the `bash` *terminal* or *commandline prompt* program is on your flavor of UNIX. From the `$` prompt, type `ipython` (or `python`) followed by return/newline:
 
 ```bash
 $ ipython
@@ -14,7 +14,10 @@ IPython 5.1.0 -- An enhanced Interactive Python.
 %quickref -> Quick reference.
 help      -> Python's own help system.
 object?   -> Details about 'object', use 'object??' for extra details.
+$ 
 ```
+
+The `$` sign above is just the prompt that indicates the terminal is waiting for you to type something. After command executes, you will see the `$` prompt again.
 
 You should see that it is using the **Anaconda** version. If not, that means you are using the default Python on your system. To figure out where the Python program executable is using the command line, try this:
 
@@ -47,6 +50,13 @@ In [3]:
 ```
 
 The Python interactive shell prints expression values immediately, but that is not the case when running a program as a script (i.e., not interactively).
+
+To exit the interactive shell and go back to the command line (the terminal program), say `quit` and hit return:
+
+```bash
+In [3]: quit
+$ 
+```
  
 ## Scripting Python
 

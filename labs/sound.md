@@ -78,3 +78,9 @@ Comment:  00000000 00000210 000009F5 000000000004FF7B 00000000 0002AB44 00000000
 
 [0:07] Decoding of ahhh.mp3 finished.
 ```
+
+import soundfile as sf
+import sounddevice as sd
+
+kiss, samplerate = sf.read('../data/sound/Kiss.aiff')
+sd.play(kiss, samplerate)

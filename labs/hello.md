@@ -1,8 +1,28 @@
 # A first taste of Python tools
 
+## Launch a commandline app
+
+Launch `Terminal.app` (Mac) or whatever the `bash` *terminal*, *shell*, or *commandline prompt* program is on your flavor of UNIX. You should see a blinking cursor and a `$` prompt:
+
+```bash
+$ 
+```
+
+The commandline is a very low-level interface for communicating with the operating system of your computer. You can think of the terminal as the diagnostics computer that mechanics plug into your car to really take control. The dashboard is analogous to the windowing graphical interface we use most of the time.  Becoming a programmer is like becoming a mechanic; sometimes you need more powerful but more complicated tools to operate machinery.
+
+The command line is actually a full programming language with loops and everything but most of the time we simply execute commands. Commands have arguments just like function calls in a programming language have arguments. Here's how to say hello from the command line:
+
+```bash
+$ echo "hello"
+hello
+$ 
+```
+
+The `echo` command is analogous to the `print` command in Python code. Commands are terminated by hitting the return key.  After executing the command, the prompt returns indicating you can type another command. 
+
 ##  Interactive Python
 
-Launch `Terminal.app` (Mac) or whatever the `bash` *terminal* or *commandline prompt* program is on your flavor of UNIX. From the `$` prompt, type `ipython` (or `python`) followed by return/newline:
+From the `$` prompt, type `ipython` (or `python`) followed by return/newline:
 
 ```bash
 $ ipython

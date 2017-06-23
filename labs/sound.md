@@ -273,9 +273,13 @@ Now run `slower.py` and Prince's voice will sound freaky and deep near at the en
 
 <table border=1>
 <tr><td>
-It is possible to slow music down and *not* change the pitch, which is really useful when trying to transcribe music from audio to sheet music.  The guy who builds the [Transcribe! software I use](https://www.seventhstring.com/xscribe/overview.html) has a good description of the kung fu involved to [Slow Down Music Without Changing the Pitch](https://www.seventhstring.com/resources/slowdown.html).
+It is possible to slow music down and <b>not</b> change the pitch, which is really useful when trying to transcribe music from audio to sheet music.  The guy who builds the <a href="https://www.seventhstring.com/xscribe/overview.html">Transcribe! software I use</a> has a good description of the kung fu involved to <a href="https://www.seventhstring.com/resources/slowdown.html">Slow Down Music Without Changing the Pitch</a>.
 </td></tr>
 </table>
+
+## Solution
+
+You can find all of the code for this lab in the [msan501 class repository]().
 
 ## Summary
 

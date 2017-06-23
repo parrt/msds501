@@ -74,7 +74,7 @@ In order to read and play sound files from Python, we need to leverage some exis
 
 If we try to use packages before installing them, the Python executor shows us errors like the following.
  
-```python
+```bash
 ---------------------------------------------------------------------------
 ImportError                               Traceback (most recent call last)
 <ipython-input-61-b5992dda2a80> in <module>()

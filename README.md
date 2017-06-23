@@ -31,7 +31,7 @@ If you ever have questions about what constitutes plagiarism, cheating, or acade
 |--------|--------|--------|
 |[Image processing](https://github.com/parrt/msan501/raw/master/projects/images.pdf)| 10%| ? |
 | [Predicting Murder Rates With Gradient Descent](https://github.com/parrt/msan501/raw/master/projects/regression-gradient-descent.pdf)| 8%| ? |
-| [Search Engine Implementation](https://github.com/parrt/msan501/blob/master/projects/hashtable.md)| 10%| ? |
+| ??? | 10%| ? |
 |Quiz 1| 0% | Thur, July 13 |
 |Quiz 2| 18%| Fri, July 21 |
 |Quiz 3| 18%| Fri, July 28 |

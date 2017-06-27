@@ -49,25 +49,26 @@ A good place to start is the main program as it identifies the key sequence of o
 To provide a little commandline interpreter where users can type in words or partial analogies, you will use this main program:
  
 ```python
-glove_filename = sys.argv[1]
-gloves = load_glove(glove_filename)
-
-print("Enter a word or 'x:y as z:'")
-cmd = raw_input("> ")
-while cmd!=None:
-    match = re.search(r'(\w+):(\w+) as (\w+):', cmd)
-    if match is not None and len(match.groups())==3:
-        x = match.group(1).lower()
-        y = match.group(2).lower()
-        z = match.group(3).lower()
-        words = analogies(...)
-        print "%s is to %s as %s is to {%s}" % (x,y,z,' '.join(words))
-    elif re.match(r'\w+', cmd) is not None:
-        words = closest_words(...)
-        print "%s is similar to {%s}" % (cmd,' '.join(words))
-    else:
-        print("Enter a word or 'x:y as z:'")
-    cmd = raw_input("> ")
+if __name__ == '__main__':
+	glove_filename = sys.argv[1]
+	gloves = load_glove(glove_filename)
+	
+	print("Enter a word or 'x:y as z:'")
+	cmd = raw_input("> ")
+	while cmd!=None:
+	    match = re.search(r'(\w+):(\w+) as (\w+):', cmd)
+	    if match is not None and len(match.groups())==3:
+	        x = match.group(1).lower()
+	        y = match.group(2).lower()
+	        z = match.group(3).lower()
+	        words = analogies(...)
+	        print "%s is to %s as %s is to {%s}" % (x,y,z,' '.join(words))
+	    elif re.match(r'\w+', cmd) is not None:
+	        words = closest_words(...)
+	        print "%s is similar to {%s}" % (cmd,' '.join(words))
+	    else:
+	        print("Enter a word or 'x:y as z:'")
+	    cmd = raw_input("> ")
 ```
 
 where you just have to fill in the arguments to `analogies(...)` and `closest_words(...)` and write those functions, as described below.
@@ -126,7 +127,7 @@ def closest_words(gloves, word, n):
 	Compute the Euclidean distance between the vector for word and
 	every other word's vector. Track the distances with a list of tuples
 	of the form: (distance, word).  Sort the list by distance. Return a list
-	of the first n words from the sorted list. Do not return the tuples, just the words.
+	of the first n words from the sorted list. Do not return the tuples, just the words. Return a python list of strings not numpy array.
 	"""
 	...
 ```
@@ -145,18 +146,40 @@ Your final goal is to finish partial analogies given to you by the user. In othe
 building is to architect as software is to {programmer architect designer computer microsoft}
 ```
 
+The key is to looking at the relationship between words, which means vector difference in practice. Take a look at the following 2D projection of some word vectors and the vector differences, such as France-Paris and Spain-Madrid.
 
 <img src="https://deeplearning4j.org/img/countries_capitals.png" width=450>
 
+In 2D, the vector differences all are semi-flat vectors meaning they are pretty similar. 
+
+Here's how to use vector differences for word analogies `x:y as z:`. Compute the vector difference between the first two words and then look for similar vector differences. The simplest mechanism is to exhaustively compare the x-y vector difference to the vector difference from z to all other words in the table. If we sort by distance, the first n words will be the most appropriate words to finish the analogy. Here is your code template for the function.
+
+```python
+def analogies(gloves, x, y, z, n):
+    """
+    Given a gloves dictionary of word:vector and 3 words from
+    "x is to y as z is to _____", return the n best words that fill in
+    the blank to complete the analogy.
+
+    Compute the vector difference between x and y then compute the vector
+    difference between z and all vectors, v, in gloves database. Track
+    the distances with a list of tuples of the form: (distance, word).  Sort
+    the list by distance. Return a list of the first n words from the sorted
+    list. Do not return the tuples, just the words.
+    Return a python list of strings not numpy array.
+    """
+    ...
+```
+
 ### Where to go from here
 
-If you are feeling particularly frisky near the end of the boot camp, you can do a nice visualization of work vectors. The idea is to take the very large 300-dimensional vectors and project them onto just 2-dimensional space so that we can plot them. The key to such a compression is to perform *principal components analysis* (PCA) on a set of word vectors. This is how I drew the graph above for the words king, queen, and cat (and 3 nearest neighbors)
+If you are feeling particularly frisky near the end of the boot camp, you can do a nice visualization of work vectors. The idea is to take the very large 300-dimensional vectors and project them onto just 2-dimensional space so that we can plot them. The key to such a compression is to perform *principal components analysis* (PCA) on a set of word vectors, which you might hear about in the linear algebra boot camp. This is how I drew the graph above for the words king, queen, and cat (and 3 nearest neighbors). Here is some skeleton code for you to get started:
 
 ```python
 from sklearn.decomposition import PCA
 import matplotlib.pyplot as plt
 
-def plot_words(words, n):
+def plot_words(gloves, words, n):
     """
     Get a list of vectors for n similar words for each w in words.
     Flatten that into a single list of vectors, including the original
@@ -179,4 +202,75 @@ For words `petal`, `software`, and `car` you should get:
 
 ## Deliverables
 
+In your repository, you should submit file `wordsim.py` in the root directory containing all of the code described above, except for the extra plotting code (that you can do in a separate file). We will only be testing the nearest neighbor and word analogy functionality.
+
+You can use numpy but please do not refer to a bunch of random packages that I probably don't have installed on my test box. Your test will fail.
+
 ## Evaluation
+
+Please be aware that, depending on the hardware you run this on, the program could be fairly slow. On my iMac, the test described here takes 45 seconds, which includes time to load and process the 1G file containing 400,000 words.
+
+We will run your program from the command line as follows using the 300-dimensional vectors:
+
+```bash
+$ python test_wordsim.py ~/data/glove/glove.6B.300d.txt 
+All tests pass
+$ 
+```
+
+If there is an error, you will see something like this:
+
+```bash
+$ python test_wordsim.py ~/data/glove/glove.6B.300d.txt 
+similar words for dog should be ['dogs', 'cat', 'pet', 'puppy', 'hound'] but was ['poodle', 'cat', 'pet', 'puppy', 'hound']
+$
+```
+
+Here is the test rig:
+
+```python
+from wordsim import *
+
+word_input = [
+    'dog', 'cow', 'spain', 'king'
+]
+word_output = [
+    ['dogs', 'cat', 'pet', 'puppy', 'hound'],
+    ['cows', 'mad', 'bovine', 'sheep', 'goat'],
+    ['portugal', 'spanish', 'morocco', 'madrid', 'spaniards'],
+    ['queen', 'monarch', 'prince', 'kingdom', 'reign'],
+]
+
+analogy_input = [
+    ['building', 'architect', 'software'],
+    ['king', 'queen', 'man'],
+    ['german', 'english', 'french'],
+    ['spanish', 'spain', 'french']
+]
+analogy_output = [
+    ['programmer', 'architect', 'designer', 'computer', 'microsoft'],
+    ['woman', 'girl', 'person', 'teenager', 'she'],
+    ['english', 'welsh', 'spanish', 'language', 'prohertrib'],
+    ['france', 'belgium', 'paris', 'spain', 'prohertrib']
+]
+
+glove_filename = sys.argv[1] # must pass in the 300-Dimensional vectors
+gloves = load_glove(glove_filename)
+
+errors = []
+
+for i,w in enumerate(word_input):
+    closest = closest_words(gloves, w.lower(), 5)
+    if closest != word_output[i]:
+        errors.append("similar words for %s should be %s but was %s" % (w,word_output[i],closest))
+
+for i,w in enumerate(analogy_input):
+    analogs = analogies(gloves, w[0].lower(), w[1].lower(), w[2].lower(), 5)
+    if analogs != analogy_output[i]:
+        errors.append("analogy for %s should be %s but was %s" % (w,analogy_output[i],analogs))
+
+if len(errors)>0:
+    print '\n'.join(errors)
+else:
+    print "All tests pass"
+```

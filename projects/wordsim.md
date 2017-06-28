@@ -226,7 +226,7 @@ similar words for dog should be ['dogs', 'cat', 'pet', 'puppy', 'hound'] but was
 $
 ```
 
-Here is the test rig:
+Here is the test rig file `test_wordsim.py`:
 
 ```python
 from wordsim import *

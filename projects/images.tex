@@ -175,103 +175,26 @@ colorlinks=true
 \label{sharpbonkers}
 \end{marginfigure}
 
-\section{Installing Pillow}
+\section{Git from the command line}
 
-For image processing, we'll use Pillow, so please follow the instructions carefully to install \href{http://pillow.readthedocs.org/en/latest/installation.html}{\textcolor{blue}{Pillow, a fork of PIL}}.
+Let's prepare our programming environment so that submitting this project is easy.  
 
-\subsection{Install stuff on a mac}
+I will post to slack or via the students email list a URL for each project that represents an invitation to create a repository associated with a specific project for this class. Each student will have their own private repository per project. Once you have created the repository, you can proceed with this section to clone that empty repository onto your laptop disk.
 
-First make sure {\tt brew} is installed; try this from Terminal app:
+Launch Terminal.app or whatever your bash shell is called on your system. Now, using a browser, go to the URL associated with your images project at github, which should be something like: 
 
-\begin{lstlisting}[style=BashInputStyle]
-$ brew
-\end{lstlisting}
-
-\noindent If not there, go here: {\tt http://brew.sh} and it'll say to install do this:
-
-\begin{lstlisting}[style=BashInputStyle]
-$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-\end{lstlisting}
-
-\noindent then
-
-\begin{lstlisting}[style=BashInputStyle]
-$ brew install python
-\end{lstlisting}
-
-\noindent That should give you pip as well.  Ignore warning about having 2 pythons installed.  Make sure python is using the brew version of python. All brew stuff is in {\tt /usr/local/Cellar/*} so you should see:
-
-\begin{lstlisting}[style=BashInputStyle]
-$ which python
-/usr/local/bin/python
-$ ls -l `which python`
-lrwxr-xr-x  1 parrt  admin  34 Jun  7 10:15 /usr/local/bin/python@ -> ../Cellar/python/2.7.11/bin/python
-$ python
-Python 2.7.11 (default, Jun  7 2016, 10:09:37) 
-[GCC 4.2.1 Compatible Apple LLVM 7.3.0 (clang-703.0.31)] on darwin
-Type "help", "copyright", "credits" or "license" for more information.
->>> 
-\end{lstlisting}
-
-\noindent Now, install all of the software you need before installing Pillow:
-
-\begin{lstlisting}[style=BashInputStyle]
-$ brew install libtiff libjpeg webp little-cms2
-\end{lstlisting}
-
-\noindent then
-
-\begin{lstlisting}[style=BashInputStyle]
-$ pip install Pillow
-\end{lstlisting}
-
-\noindent If you get an error that ends with:
-
-\begin{alltt}
-    ...
-    ImportError: cannot import name HTTPSHandler
-\end{alltt}
-
-\noindent then try reinstalling python:
-
-\begin{lstlisting}[style=BashInputStyle]
-$ brew reinstall python
-\end{lstlisting}
-\noindent Test it:
-
-\begin{lstlisting}[style=BashInputStyle]
-$ python
-Python 2.7.11 (default, Jun  7 2016, 10:09:37) 
-[GCC 4.2.1 Compatible Apple LLVM 7.3.0 (clang-703.0.31)] on darwin
-Type "help", "copyright", "credits" or "license" for more information.
->>> import PIL
->>>
-\end{lstlisting}
-
-\noindent there should be no error when you type {\tt import PIL}
-
-That {\tt reinstall} command is also what you should if {\tt pip} or {\tt easy\_install} ever get hosed. Try to do everything with {\tt brew}.
-
-\section{Git repo}
-
-Let's prepare the environment so that submitting this project is easy.  
-
-\subsection{Cryptic but simple}
-
-First, let's do it the easy but cryptic way from the commandline. Go to the URL associated with your images project at github: 
-
-{\tt https://github.com/USF-MSAN-2016/YOURID-images}
+{\tt https://github.com/YOURID/images-YOURID}
 
 \noindent and copy the {\tt HTTPS not SSH} URL from here:
 
 \scalebox{.5}{\includegraphics{figures/github-url.png}}
 
-\noindent Then, use the {\tt git clone }{\em URL} command as you see below, replacing {\tt parrt-images} with {\em yourid}-{\tt images}. You will have to type in your github user ID and password.
+\noindent (That graphic is a bit out of date and the URL will look different in that little text field.) Then, use the {\tt git clone }{\em URL} command as you see below, replacing {\tt images-parrt} with {\tt images}-{\em yourid}. You will have to type in your github user ID and password.
 
 \begin{lstlisting}[style=BashInputStyle]
 $ cd ~/msan501 #  assuming this is where you want the root of all of 501 projects
-$ git clone https://github.com/USF-MSAN-2016/parrt-images.git
-Cloning into 'parrt-images'...
+$ git clone https://github.com/USF-MSAN-2016/images-parrt.git
+Cloning into 'images-parrt'...
 Username for 'https://github.com': parrt
 Password for 'https://parrt@github.com': 
 remote: Counting objects: 19, done.
@@ -279,25 +202,14 @@ remote: Compressing objects: 100% (6/6), done.
 remote: Total 19 (delta 0), reused 0 (delta 0), pack-reused 13
 Unpacking objects: 100% (19/19), done.
 Checking connectivity... done.
-$ cd images # after this command you are now in your repository
+$ cd images-parrt # after this command you are now in your repository
 \end{lstlisting}
-
-\subsection{Git with SourceTree}
-
-The second way to do this is with a graphical tool. Download \href{https://www.sourcetreeapp.com/download/}{\textcolor{blue}{SourceTree}}. In SourceTree, choose {\tt File:New/Clone} and then {\tt Clone from URL}:
-
-\scalebox{.3}{\includegraphics{figures/source-tree-choices.png}}
-
-\noindent Then, paste the {\tt https}-prefix URL into SourceTree, and set {\tt Destination Path} to and appropriate location, such as {\tt /Users/userid/msan501/userid-images}:
-
-\scalebox{.7}{\includegraphics{figures/source-tree-clone.png}}
-
 
 \noindent There is nothing in the repo yet, but we'll get to it!
 
 \section{Getting started}
 
-To get started, review how to access the \href{http://stackoverflow.com/questions/4117530/sys-argv1-meaning-in-script}{\textcolor{blue}{command-line arguments}} that every program running on a computer can accept. Here is a small program, {\tt view.py}, that accepts a filename as a command-line argument.
+To get started, review how to access the \href{http://stackoverflow.com/questions/4117530/sys-argv1-meaning-in-script}{\textcolor{blue}{command-line arguments}} that every program running on a computer can accept. Here is a small program, {\tt view.py}, that accepts a filename as a command-line argument. The goal is really just to ensure that the PIL library is available for use, which you should be because you're using the Anaconda icon installation.
 
 \begin{pyverbatim}
 import sys
@@ -311,10 +223,12 @@ img = img.convert("L") # grayscale
 img.show()
 \end{pyverbatim}
 
-To run this program, launch a terminal on Mac or Linux. Then, move to the directory that contains {\tt view.py} that you saved/typed-in using terminal command {\tt cd} (change directory).  For example, if you are using directory {\tt msan501/images} under your home directory for this project, then type this for Mac:
+\noindent (I provide this file and another in the \href{https://github.com/parrt/msan501-starterkit/tree/master/images}{\textcolor{blue}{starter kit}}.)
+
+To run this program, launch a terminal on Mac or Linux. Then, move to the directory that contains {\tt view.py} that you saved/typed-in using terminal command {\tt cd} (change directory).  For example, if you are using directory {\tt msan501/images-yourid} under your home directory for this project, then type this:
 
 \begin{lstlisting}[style=BashInputStyle]
-cd ~/msan501/images; # ~ character is shorthand for /Users/YOURID
+cd ~/msan501/images-yourid; # ~ character is shorthand for /Users/yourid
 \end{lstlisting}
 
 You can get a \href{https://github.com/parrt/msan501/tree/master/projects/figures}{\textcolor{blue}{bunch of sample images}} that I use for these notes from github, but of course you can play around with whatever images you want.\sidenote{Remember, however, that all images used in this class and those stored on University equipment must be ``safe for work.'' Keep it G-rated please, with no offensive images popping up on your laptops or machines during lab etc.}
@@ -332,19 +246,17 @@ If you are using PyCharm, you need to right-click in the code editor and say ``r
 $ python view.py imagefilename
 \end{alltt}
 
-\noindent Now, use the ``{\tt\small Edit configuration}'' dialog under the {\tt Run} menu.  All file names that we specify in the script parameters area, or from the command line, are relative to the {\em current working directory}. That is why we used {\tt cd} to change our working directory in the example above. For convenience, let's keep all of images and scripts in the same directory. For our purposes, let's assume that the directory is always {\tt\small /Users/YOURID/msan501/images} (Mac) or {\tt\small /home/YOURID/msan501/images} (Linux).
+\noindent Now, use the ``{\tt\small Edit configuration}'' dialog under the {\tt Run} menu.  All file names that we specify in the script parameters area, or from the command line, are relative to the {\em current working directory}. That is why we used {\tt cd} to change our working directory in the example above. For convenience, keep all of images and scripts in the same directory. For our purposes, let's assume that the directory is always {\tt\small /Users/YOURID/msan501/images-YOURID} (Mac) or {\tt\small /home/YOURID/msan501/images-YOURID} (Linux).   Here is the dialogbox for editing the run configuration, where my {\tt view.py} file is in my {\tt ~/github/msan501-starterkit/images} directory:
 
 \scalebox{1}{\includegraphics{figures/edit-config.png}}
 
-The ``Script parameters'' text field is where you provide the ``command-line arguments,'' despite the fact we are not actually using a command-line. That is why PyCharm calls it script parameters instead of command-line parameters.
+The ``Script parameters'' text field is where you provide the ``command-line arguments,'' despite the fact we are not actually using a command-line. That is why PyCharm calls it script parameters instead of command-line parameters. Also note that it is running with anaconda's Python, which has the imaging library preinstalled!
 
-Now, if you click the "run" button, you will see Obama's image appear on your screen.
-
-\pagebreak
+Now, if you click the "run" button, you will see Obama's image appear on your screen or the "eyes" if you use {\tt eye.png}.
 
 \section{Task 1. Flipping an image horizontally}
 
-As a first task, you must create a script called {\tt flip.py} that shows the image provided as a program (command-line) argument in its original form and then flipped horizontally.  For example, \figref{flipped} shows the result of running script {\tt flip.py} on image {\tt eye.png}.
+As a first task,  create a script called {\tt flip.py} that shows the image provided as a program (command-line) argument in its original form and then flipped horizontally.  For example, \figref{flipped} shows the result of running script {\tt flip.py} on image {\tt eye.png}.
 
 \begin{marginfigure}
 \begin{center}
@@ -381,11 +293,12 @@ img.show()
 img.show()
 \end{pyverbatim}
 
+An explanation of how to fill in those holes appears shortly.
+
 \subsection{Adding files to your repo}
 
-If you are using PyCharm, when you open the dir in PyCharm, it will notice that the dir is a git repo, but check anyway in the version control preferences:
+After creating the {\tt flip.py} file and copying over an image or two, your PyCharm project file list area should look like the list in \figref{fliplist}.  So that git will manage our project, we need to announce that git should track {\tt flip.py}:
 
-\scalebox{.9}{\includegraphics{figures/pycharm-git.png}}
 
 \begin{marginfigure}
 \begin{center}
@@ -395,51 +308,27 @@ If you are using PyCharm, when you open the dir in PyCharm, it will notice that 
 \label{fliplist}
 \end{marginfigure}
 
-\begin{marginfigure}
-\begin{center}
-\scalebox{.8}{\includegraphics{figures/flip-proj-browser2.png}}
-\end{center}
-\caption{Project file list after adding files to repo}
-\label{fliplist2}
-\end{marginfigure}
+\begin{lstlisting}[style=BashInputStyle]
+$ cd ~/msan501/images-yourid
+... copy image files, create flip.py ...
+$ git add flip.py
+\end{lstlisting}
 
+Note that, if you are using PyCharm, when you open the dir in PyCharm, it will notice that the dir is a git repo. You can use PyCharm to manage the git repository later when you get more experience, but let's do things explicitly now from the command line.
 
-After creating the {\tt flip.py} file and copying over an image or two, your project file list area should look like the list in \figref{fliplist}. Next, select those 3 files and right-click on them to get the popup menu, and add those files to git:
-
-\scalebox{.8}{\includegraphics{figures/pycharm-git-add.png}}
-
-\noindent \figref{fliplist2} shows how the files turn green. Use menu {\tt VCS:Commit changes} and then fill in a commit message and {\tt commit and push}:
-
-\scalebox{.8}{\includegraphics{figures/commit-changes.png}}
-
-PyCharm will bring up another dialog and you should click {\tt Push} to send files back to github.
-
-Now, go check out that github has the files:
-
-\scalebox{.9}{\includegraphics{figures/github-initial-add.png}}
-
-\begin{callout}{\bctakecare}
-By the way, PyCharm will ask you questions about adding files under {\tt .idea} directory. Don't add those to the repo! Say NO here:
-
-\begin{center}
-\scalebox{.6}{\includegraphics{figures/pycharm-auto-add.png}}
-\end{center}
-\end{callout}
-
-Or, alternatively, the cool kids avoid all that clicking with following:
+Even though we haven't done any work on {\tt flip.py} yet, let's commit the file to the repository and then push the repository back to github:
 
 \begin{lstlisting}[style=BashInputStyle]
-$ cd ~/msan501/images
-... copy image files, create flip.py ...
-$ git add obama.png
-$ git add eye.png
-$ git add flip.py
-$ git commit -a -m 'add eye flip boilerplate code and image'
-[master adcf1df] add eye flip boilerplate code and image
+$ git commit -a -m 'add eye flip boilerplate code'
+[master adcf1df] add eye flip boilerplate code
 ...
 $ git push origin master
 ...
 \end{lstlisting}
+
+Now, go check out that github has the files. The web page for your repository should look something like the following, but without the images:
+
+\scalebox{.9}{\includegraphics{figures/github-initial-add.png}}
 
 \subsection{Three new Pillow pieces}
 
@@ -455,7 +344,8 @@ You'll need the width and height to iterate over the pixels of the image.
 \item {\tt img.copy()} duplicates image {\tt img}.  For our {\tt flip} function, it would be hard to modify the image in place because we would be overwriting pixels we would need to flip later. It's easier to create a copy of the image in flipped position. You can write code like this:\\
 {\tt imgdup = img.copy()}
 
-\item {\tt img.load()} is yet another weird name from PIL that actually returns an object that looks like a two-dimensional matrix. We have previously seen two-dimensional lists, which are really like lists of lists such as {\tt m = [[1,2], [3, 4]]} or reformatted to look like the matrix:
+\item {\tt img.load()} is yet another weird name from PIL that actually returns an object that looks like a two-dimensional matrix, which is really just a lists of lists such as {\tt m = [[1,2], [3, 4]]}. When printed, the output looks like a matrix:
+
 \begin{pyverbatim}
 m = [[1, 2],
      [3, 4]]
@@ -464,7 +354,7 @@ To get element {\tt 3}, we would use list index expression {\tt m[1][0]} because
 \begin{pyverbatim}
 m = img.load()
 \end{pyverbatim}
-then we would use notation {\tt m[x,y]} to get the pixel at position ({\tt x}, {\tt y}).
+then we  use notation {\tt m[x,y]} to get the pixel at position ({\tt x}, {\tt y}).
 \end{itemize}
 
 You will use these functions for the remaining tasks so keep them in mind.
@@ -486,16 +376,18 @@ The only remaining issue is determining which pixel from the original image to c
 
 \subsection{Running your flip script}
 
-{\bf To run the script from the command line}, make sure you are in the {\tt msan501/images} directory containing your scripts and images then do:
+{\bf To run the script from the command line}, make sure you are in the {\tt msan501/images-userid} directory containing your scripts and images then do:
 
 \begin{lstlisting}[style=BashInputStyle]
-$ cd msan501/images
+$ cd msan501/images-userid
 $ python flip.py eye.png
 \end{lstlisting}
 
-{\bf From PyCharm}, I right-click and then select ``Run.'' It will do nothing but print ``{\tt missing image filename}'' because we have not given it a parameter yet, but we need to do this so that PyCharm creates a run configuration. Now, use the edit configuration dialog to specify {\tt eye.png} as a parameter or any other image. ({\em Remember that the filename must refer to a file in the current working directory or must be fully qualified.}) Click ``Run'' now and it should bring out the two images.
+{\bf From PyCharm}, I right-click and then select ``Run.'' It will do nothing but print ``{\tt missing image filename}'' because we have not given it a parameter yet, but we need to do this so that PyCharm creates a run configuration. Now, use the edit configuration dialog to specify {\tt eye.png} as a parameter or any other image. ({\em Remember that the filename must refer to a file in the current working directory or must be fully qualified.}) Click ``Run'' now and it should bring out the two images. The dialog box will look something like this:
 
 \scalebox{.9}{\includegraphics{figures/flip-config.png}}
+
+Again, please make sure that you are using the Anaconda Python so that it has the appropriate image processing libraries.
 
 \subsection{What to do when the program doesn't work}
 
@@ -506,13 +398,13 @@ If you have problems, follow these steps:
 \item  Determine precisely what is going on. Did you get an error message from Python?  Is it a syntax error? If so, review the syntax of all your statements and expressions. PyCharm is your friend here and should highlight erroneous things with a red squiggly underline. If you got an error message that has what we call a stack trace, a number of things could be wrong. For example, if I misspell {\tt show()} as {\tt shower()}, I get the following message:
 \begin{alltt}\small
 Traceback (most recent call last):
-  File "/Users/parrt/msan501/images/flip.py", line 26, in <module>
+  File "/Users/parrt/msan501/images-parrt/flip.py", line 26, in <module>
     img.shower()
   File "/usr/local/lib/python2.7/site-packages/PIL/Image.py", line 605, in __getattr__
     raise AttributeError(name)
 AttributeError: shower
 \end{alltt}
-In PyCharm, the ``{\tt /Users/parrt/msan501/images/flip.py}'' part of the trace will be a blue link that you can click on. It will take you to the exact location in your script where there is a problem. Look for anything that refers to that file.
+In PyCharm, the ``{\tt /Users/parrt/msan501/images-parrt/flip.py}'' part of the trace will be a blue link that you can click on. It will take you to the exact location in your script where there is a problem. Look for anything that refers to that file.
 \item If it does not look like it some simple misspelling, you might get lucky and find something in Google if you cut-and-paste that error message.
 \item If your script shows the original image but not the flipped image, then you likely have a problem with your {\tt flip} function.
 \item If your program is at least running and doing something, then insert print statements to figure out what the variables are and how far into the program you get before a craps out. That often tells you what the problem is.
@@ -521,7 +413,7 @@ In PyCharm, the ``{\tt /Users/parrt/msan501/images/flip.py}'' part of the trace 
 \end{enumerate}
 
 \begin{callout}{\bcplume}
-{\bf Deliverables}. Make sure that {\em userid}{\tt -images/flip.py} is correctly committed to your repository and pushed to github. 
+{\bf Deliverables}. Make sure that {\tt images-}{\em userid}{\tt /flip.py} is correctly committed to your repository and pushed to github. 
 \end{callout}
 
 \section{Task 2. Blurring}
@@ -537,7 +429,7 @@ In this task, we want to blur an image by removing detail as shown in \figref{bl
 \label{blur}
 \end{marginfigure}
 
-To implement this, start with the boilerplate from the previous section, which you should put into script {\tt blur.py}. The only difference is that you must call soon-to-be-created function {\tt blur} not {\tt flip} as you had before. Now, let's start at the courses level of functionality and realize that we have to walk over every pixel in the image. (This is called {\em top-down design}.) 
+To implement this, start with the boilerplate from the previous section, which you should put into script {\tt blur.py}. The only difference is that you must call soon-to-be-created function {\tt blur} not {\tt flip} as you had before. Now, let's start at the coarsest-level of functionality and realize that we have to walk over every pixel in the image. (This is called {\em top-down design}.) 
 
 \subsection{Blurring function}
 
@@ -664,18 +556,14 @@ $ python blur.py pcb.png
 \noindent That should pop up the original circuit board and the blurred version. It might take 10 seconds or more to compute and display the blurred image, depending on how fast your computer is.
 
 \begin{callout}{\bctakecare}
-Make sure to remove all of your debugging code before submitting your scripts. Submitting a project with a bunch of random debugging output is considered sloppy, like submitting an English paper with a bunch of handwritten edits.
+Make sure to remove all of your debugging code before submitting your scripts. Submitting a project that prints out a bunch of random debugging output is considered sloppy, like submitting an English paper with a bunch of handwritten edits.
 \end{callout}
 
 \begin{callout}{\bcplume}
-{\bf Deliverables}. Make sure that {\em userid}{\tt -images/blur.py} is correctly committed to your repository and pushed to github.
+{\bf Deliverables}. Make sure that {\tt images-}{\em userid}{\tt /blur.py} is correctly committed to your repository and pushed to github.
 \end{callout}
 
 \section{Task 3. Removing noise}
-
-For our next task, we are going to de-noise (remove noise) from an image as shown in \figref{obama}. It does a shockingly good job considering the simplicity of our approach. To blur, we used the average of all pixels in the region. To denoise, we will use the \href{http://en.wikipedia.org/wiki/Median}{\textcolor{blue}{median}}, which is just the middle value in a list of ordered numbers.
-
-Believe it or not, we can implement the noise by copying {\tt blur.py} into a new script called {\tt denoise.py} and then changing a few lines.  We also have to remove the  no-longer-used {\tt avg} function and replace it with a {\tt denoise} function.  Of course, instead of calling {\tt blur}, we'll call function {\tt denoise} with the usual {\tt img} argument. The only difference between {\tt denoise} and {\tt blur} is that you will set the pixel to the {\tt median} not {\tt avg}.  Hint: you need to tweak one statement in the inner loop that moves over all pixel values.
 
 \begin{marginfigure}
 \begin{center}
@@ -688,8 +576,11 @@ Believe it or not, we can implement the noise by copying {\tt blur.py} into a ne
 \label{obama}
 \end{marginfigure}
 
+For our next task, we are going to de-noise (remove noise) from an image as shown in \figref{obama}. It does a shockingly good job considering the simplicity of our approach. To blur, we used the average of all pixels in the region. To denoise, we will use the \href{http://en.wikipedia.org/wiki/Median}{\textcolor{blue}{median}}, which is just the middle value in a list of ordered numbers.
 
-{\bf Now define function} {\tt median} that, like {\tt avg}, takes a list of 9 numbers called {\tt data}. Sort the list using Python's {\tt sorted} function that takes a list and returns a sorted version of that list. Then compute the index of the middle list element, which is just the length of the list divided by two. If the length is even, dividing by 2 (not 2.0) will round it down to the nearest index. Once you have this index, return the element at that index.
+Believe it or not, we can implement de-noise by copying {\tt blur.py} into a new script called {\tt denoise.py} and then changing a few lines.  We also have to remove the no-longer-used {\tt avg} function and replace it with a {\tt median} function.  Of course, instead of calling {\tt blur}, we'll call function {\tt denoise} with the usual {\tt img} argument. The only difference between {\tt denoise} and {\tt blur} is that you will set the pixel to the {\tt median} not {\tt avg}.  Hint: you need to tweak one statement in the inner loop that moves over all pixel values.
+
+{\bf Now define function} {\tt median} that, like {\tt avg}, takes a list of 9 numbers called {\tt data}. Sort the list using Python's {\tt sorted} function, which takes a list and returns a sorted version of that list. Then compute the index of the middle list element, which is just the length of the list divided by two. If the length is even, dividing by 2 (not 2.0) will round it down to the nearest index. Once you have this index, return the element at that index.
 
 
 Let's give it a test:
@@ -701,7 +592,7 @@ $ python denoise.py guesswho.png
 \noindent That should pop up the noisy Obama and the cleaned up version. You can save the cleaned up version and run {\tt denoise.py} on that one to really improve it.\sidenote[][.5in]{Hint: {\bf To save an image with PIL}, use {\tt img.save("filename.png")}.} Running {\tt denoise.py} twice, gives the cleaned up image (c) from \figref{obama}.  
 
 \begin{callout}{\bcplume}
-{\bf Deliverables}. Make sure that {\em userid}{\tt -images/denoise.py} is correctly committed to your repository and pushed to github. 
+{\bf Deliverables}. Make sure that {\tt images-}{\em userid}{\tt /denoise.py} is correctly committed to your repository and pushed to github. 
 \end{callout}
 
 \vspace{10mm}
@@ -767,7 +658,7 @@ blurred  = filter(img, avg)
 denoised = filter(img, median)
 \end{pyverbatim}
 
-In the end, your {\tt filter.py} script file should have 4 functions: {\tt getpixel}, {\tt region3x3}, {\tt filter}, and {open}.
+In the end, your {\tt filter.py} script file should have 4 functions: {\tt getpixel}, {\tt region3x3}, {\tt filter}, and {\tt open}.
 
 Armed with this awesome new common file, our entire {\tt blur2.py} file shrinks to a tiny script:\sidenote{You might be wondering why we don't have to include the usual {\tt sys} and {\tt PIL} imports at the start of our new files. That is because we import our {\tt filter.py} file, which in turn imports those files.}
 
@@ -802,10 +693,10 @@ $ python denoise2.py guesswho.png
 They {\em should} work, but unfortunately that is never good enough in the programming world.  Lot of little things can go wrong. {\em Certainty} is always better than {\em likelihood}.
 \end{callout}
 
-We will import file {\tt filter.py} into all of our future scripts. You have created your first useful library. {\bf Good job!} \scalebox{.55}{\bcsmbh}
+We will import file {\tt filter.py} into the future scripts in this project. You have created your first useful library. {\bf Good job!} \scalebox{.55}{\bcsmbh}
 
 \begin{callout}{\bcplume}
-{\bf Deliverables}. Make sure that {\em userid}{\tt -images/blur2.py}, {\em userid}{\tt -images/denoise2.py}, and {\em userid}{\tt -images/filter.py} are correctly committed to your repository and pushed to github. 
+{\bf Deliverables}. Make sure that {\tt images-}{\em userid}{\tt /blur2.py}, {\tt images-}{\em userid}{\tt /denoise2.py}, and {\tt images-}{\em userid}{\tt /filter.py} are correctly committed to your repository and pushed to github. 
 \end{callout}
 
 \vspace{10mm}
@@ -889,12 +780,12 @@ It actually does a really good job capturing Obama's outline:\\
 \end{minipage}
 
 \begin{callout}{\bcplume}
-{\bf Deliverables}. Make sure that {\em userid}{\tt -images/edges.py} is correctly committed to your repository and pushed to github. 
+{\bf Deliverables}. Make sure that {\tt images-}{\em userid}{\tt /edges.py} is correctly committed to your repository and pushed to github. 
 \end{callout}
 
 \section{Task 6. Sharpening}
 
-Sharpening an image is a matter of highlighting the edges, which we know how to compute from the previous tasks. Script {\tt edges.py} computes just the edges so, to highlight the original image, we {\em subtract} that white-on-black edges image from the original.  You might imagine that {\em adding} the edges back in would be more appropriate and it sort of works, but the edges are slightly off. We get a better image by subtracting the high-valued light pixels because that darkens the edges in the original image, such as between the uniform and the windshield. Let's start with the easy stuff:
+Sharpening an image is a matter of highlighting the edges, which we know how to compute from the previous task. Script {\tt edges.py} computes just the edges so, to highlight the original image, we {\em subtract} that white-on-black edges image from the original.  You might imagine that {\em adding} the edges back in would be more appropriate and it sort of works, but the edges are slightly off. We get a better image by subtracting the high-valued light pixels because that darkens the edges in the original image, such as between the uniform and the windshield. Let's start with the easy stuff:
 
 \begin{marginfigure}
 \begin{center}
@@ -930,7 +821,7 @@ $ python sharpen.py bonkers-bw.png
 \noindent \figref{bonkers3}, \figref{phobos3}, and \figref{jeep3} show some sample transformation sequences with original, {\em Laplacian}, and sharpened images.
 
 \begin{callout}{\bcplume}
-{\bf Deliverables}. Make sure that {\em userid}{\tt -images/sharpen.py} is correctly committed to your repository and pushed to github. 
+{\bf Deliverables}. Make sure that {\tt images-}{\em userid}{\tt /sharpen.py} is correctly committed to your repository and pushed to github. 
 \end{callout}
 
 \begin{minipage}{0.8 \linewidth}

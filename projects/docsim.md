@@ -1,4 +1,4 @@
-# Word and document similarity
+# Word similarity and relationships
 
 ## Goal
 

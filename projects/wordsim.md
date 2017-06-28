@@ -32,9 +32,9 @@ Your goal is to implement a simple "shell" that repeatedly accepts either a word
 
 ## Description
 
-Imagine trying to compare two documents for similarity. One document might be about "Installing Windows software" and another one might be about "Deinstalling Microsoft programs."  Because there are no words in common, at least for these titles, it's hard for a computer to tell these titles are related. And human, on the other hand, can easily equate Windows with Microsoft and software with programs etc. and find the titles similar.
+Imagine trying to compare two documents for similarity. One document might be about "Installing Windows software" and another one might be about "Deinstalling Microsoft programs."  Because there are no words in common, at least for these titles, it's hard for a computer to tell these titles are related. A human, on the other hand, can easily equate Windows with Microsoft and software with programs etc., thus, finding the titles similar.
 
-Until 2013, software could really only compare two words for exact match or a so-called *edit distance* (how many character edits to go from one word to the other). With word2vec, we have a model for the "meaning" of a word in the form of a 300-vector of floats. These vectors are derived from a neural network that learns to map a word to an output vector such that neighboring words in some large corpus are close in 300-space. ("*The main intuition underlying the model is the simple observation that ratios of word-word co-occurrence probabilities have the potential for encoding some form of meaning.*" see [GloVe project](https://nlp.stanford.edu/projects/glove/)) For example, given the words `king`, `queen`, and `cat` here is a two-dimensional projection of the vectors for those words and the 4 nearest to those words (there is some overlap):
+Until 2013, software could really only compare two words for exact match or a so-called *edit distance* (how many character edits to go from one word to the other). With word2vec, we have a model for the "meaning" of a word in the form of a big vector of floats (usually 50 to 300 dimensional). These vectors are derived from a neural network that learns to map a word to an output vector such that neighboring words in some large corpus are close in 300-space. ("*The main intuition underlying the model is the simple observation that ratios of word-word co-occurrence probabilities have the potential for encoding some form of meaning.*" see [GloVe project](https://nlp.stanford.edu/projects/glove/)) For example, given the words `king`, `queen`, and `cat` here is a two-dimensional projection of the vectors for those words and the 4 nearest to those words (there is some overlap):
 
 <img src="figures/wordvec1.png" width=400>
 
@@ -42,7 +42,7 @@ The amazing thing about these vectors is that somehow they really encode the rel
 
 <img src="https://nlp.stanford.edu/projects/glove/images/man_woman.jpg" width=400>
 
-A good place to start is the main program as it identifies the key sequence of operations.
+A good place to start this project is the main program as it identifies the key sequence of operations.
 
 ### Main program
 
@@ -77,14 +77,14 @@ Users can kill the running program when they are done using control-C or can it 
 
 ### Getting word2vec data
 
-The first thing your program needs to do is load the word2vec "database" or table. Download the [6B tokens, 400K vocab, uncased, 50d, 100d, 200d, & 300d vectors, 822 MB download](http://nlp.stanford.edu/data/glove.6B.zip) file from the [GloVe project](https://nlp.stanford.edu/projects/glove) and unzip it. Save the resulting files some more useful like a `data/glove` directory in your home directory because it will be useful for other projects. There are files for different vector sizes (50, 100, 200, 300):
+The first thing your program needs to do is load the word2vec "database" or table. Download the [6B tokens, 400K vocab, uncased, 50d, 100d, 200d, & 300d vectors, 822 MB download](http://nlp.stanford.edu/data/glove.6B.zip) file from the [GloVe project](https://nlp.stanford.edu/projects/glove) and unzip it. Save the resulting files somewhere useful like a `~/data/glove` directory in your home directory because it will be useful for other projects. There are files for different vector sizes (50, 100, 200, 300):
 
 ```bash
 $ ls ~/data/glove/
 glove.6B.100d.txt  glove.6B.200d.txt  glove.6B.300d.txt  glove.6B.50d.txt
 ```
 
-You will be passing one of these filenames is an argument to the Python program. All of the examples in this document have used the 300-dimensional vectors. 
+You will be passing one of these filenames as an argument to the Python program. All of the examples in this document have used the 300-dimensional vectors. 
 
 The format of the file is extremely simple: it's just the word followed by the components of the word vector. For example:
 
@@ -115,7 +115,7 @@ def load_glove(filename):
 
 ### Computing similar words
 
-Given a word, *w*, the easy way to find the *n* nearest words is to exhaustively compute the distance from *w*'s vector to every other vector in the database. Sort by the distance and take the first *n* words. Here is the signature of the function you must implement in a comment describing its implementation:
+Given a word, *w*, the easy way to find the *n* nearest words is to exhaustively compute the distance from *w*'s vector to every other vector in the database. Sort by the distance and take the first *n* words. Here is the signature of the function you must implement and a comment describing its implementation:
 
 ```python
 def closest_words(gloves, word, n):
@@ -146,7 +146,7 @@ Your final goal is to finish partial analogies given to you by the user. In othe
 building is to architect as software is to {programmer architect designer computer microsoft}
 ```
 
-The key is to looking at the relationship between words, which means vector difference in practice. Take a look at the following 2D projection of some word vectors and the vector differences, such as France-Paris and Spain-Madrid.
+The key is to look at the relationship between words, which means vector difference. Take a look at the following 2D projection of some word vectors and the vector differences, such as France-Paris and Spain-Madrid.
 
 <img src="https://deeplearning4j.org/img/countries_capitals.png" width=450>
 
@@ -173,7 +173,7 @@ def analogies(gloves, x, y, z, n):
 
 ### Where to go from here
 
-If you are feeling particularly frisky near the end of the boot camp, you can do a nice visualization of work vectors. The idea is to take the very large 300-dimensional vectors and project them onto just 2-dimensional space so that we can plot them. The key to such a compression is to perform *principal components analysis* (PCA) on a set of word vectors, which you might hear about in the linear algebra boot camp. This is how I drew the graph above for the words king, queen, and cat (and 3 nearest neighbors). Here is some skeleton code for you to get started:
+If you are feeling particularly frisky near the end of the boot camp, you can do a nice visualization of word vectors. The idea is to take the very large 300-dimensional vectors and project them onto just 2-dimensional space so that we can plot them. The key to such a compression is to perform *principal components analysis* (PCA) on a set of word vectors, which you might hear about in the linear algebra boot camp. This is how I drew the graph above for the words king, queen, and cat (and 3 nearest neighbors). Here is some skeleton code for you to get started:
 
 ```python
 from sklearn.decomposition import PCA

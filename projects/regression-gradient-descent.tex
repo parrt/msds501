@@ -165,7 +165,7 @@ colorlinks=true
 
 \begin{fullwidth}
 
-The goal of this project is to extend the techniques we learned in class, for one-dimensional gradient descent, to a two-dimensional domain space, solving a {\em linear regression problem}.  This problem is also known as {\em curve fitting}.  As part of this lab, you will learn how to compute with vectors instead of scalars. Please use file {\em userid}-{\tt regression/minimize.py} for function {\em userid}-{\tt regression/plot\_regression.py} for the code that draws the trace of the minimization in action (i.e., this is the file that has all the matplotlib junk).  You'll see starter (and test) files in the \href{https://github.com/parrt/msan501-starterkit/tree/master/regression}{\textcolor{blue}{regression starterkit}}. You will be doing your work in directory {\em userid}-{\tt regression}.
+The goal of this project is to extend the techniques we learned in class, for one-dimensional gradient descent, to a two-dimensional domain space, solving a {\em linear regression problem}.  This problem is also known as {\em curve fitting}.  As part of this lab, you will learn how to compute with vectors instead of scalars. Please use file {\tt regression-}{\em userid}{\tt /minimize.py} for function {\tt minimize} and {\tt regression-}{\em userid}{\tt /plot\_regression.py} for the code that draws the trace of the minimization in action (i.e., this is the file that has all the matplotlib junk).  You'll see starter (and test) files in the \href{https://github.com/parrt/msan501-starterkit/tree/master/regression}{\textcolor{blue}{regression starterkit}}. You will be doing your work in repository and directory {\tt regression-}{\em userid}{\tt }.
 
 \section{Discussion}
 
@@ -240,7 +240,7 @@ The good news is that we know the cost function is a quadratic (by construction)
 
 \noindent For our purposes, though, we'll use gradient descent to minimize the cost function. There are lots and lots of cost functions that are not simple little quadratics with symbolic solutions from calculus. In those cases, we have to use computer simulation.
 
-To show our prediction model in action, we can ask how many murders  there would be in Detroit if the average wage were \$4.7? (Obviously, these wages are from 30 years ago.) To make a prediction, all we have to do is plug $x=4.7$ into $\hat{y} = 14.484 x - 36.001$, which gives us 32.074 murders.
+To show our prediction model in action, we can ask how many murders  there would be in Detroit if the average wage were \$4.7. (Obviously, these wages are from 30 years ago.) To make a prediction, all we have to do is plug $x=4.7$ into $\hat{y} = 14.484 x - 36.001$, which gives us 32.074 murders.
 
 \subsection{Gradient descent in 3D}
 
@@ -307,7 +307,7 @@ For extremely large data sets or very high dimension data sets, you can use {\em
 
 \section{Your task}
 
-You will use gradient descent to solve the linear regression problem above, using the same data. As part of your final submission, you must provide heat maps with traces that indicate the steps taken by your gradient descent as I have shown above.  Have your program choose two random starting $B_0$ vectors (you can use {\tt random.randrange()}) to produce your heat maps.   In {\em userid}-{\tt regression/minimize.py}, define a function called {\tt minimize} that takes the indicated parameters and returns the minimum $B$ parameters of your linear model, the number of steps, and the trace array of intermediate $B_i$ values ($B$ is a list of 2-vectors).
+You will use gradient descent to solve the linear regression problem above, using the same data. As part of your final submission, you must provide heat maps with traces that indicate the steps taken by your gradient descent as I have shown above.  Have your program choose two random starting $B_0$ vectors (you can use {\tt random.randrange()}) to produce your heat maps.   In {\tt regression-}{\em userid}{\tt /minimize.py}, define a function called {\tt minimize} that takes the indicated parameters and returns the minimum $B$ parameters of your linear model, the number of steps, and the trace array of intermediate $B_i$ values ($B$ is a list of 2-vectors).
 
 \begin{pyverbatim}
 def minimize(f, B0, eta, h, precision):
@@ -323,13 +323,13 @@ def minimize(f, B0, eta, h, precision):
     return (B, steps, trace)
 \end{pyverbatim}
 
-\noindent As an example, in my {\em userid}-{\tt regression/plot\_regression.py} script, I call that function like this:
+\noindent As an example, in my {\tt regression-}{\em userid}{\tt /plot\_regression.py} script, I call that function like this:
 
 \begin{pyverbatim}
 (m,steps,trace) = minimize(Cost, B0, LEARNING_RATE, h, PRECISION)
 \end{pyverbatim}
 
-Use {\tt pylab.imshow()} to draw the heat map whose $b_1$ are the $y$ intercepts, $b_2$ coordinates are the slopes, and heat value is the cost of $row,col$. The $row$ is the $b_2$ slope values and the $col$ is the $b_1$ $y$-intercept values. Hide all of your heat map construction in function in {\em userid}-{\tt regression/plot\_regression.py}:
+Use {\tt pylab.imshow()} to draw the heat map whose $b_1$ are the $y$ intercepts, $b_2$ coordinates are the slopes, and heat value is the cost of $row,col$. The $row$ is the $b_2$ slope values and the $col$ is the $b_1$ $y$-intercept values. Hide all of your heat map construction in function in {\tt regression-}{\em userid}{\tt /plot\_regression.py}:
 
 \begin{pyverbatim}
 def heatmap(f, trace=None): # trace is a list of [b1, b2] pairs
@@ -365,7 +365,7 @@ You will have to pick an appropriately small step value $h$ to get a decent appr
 
 \section{Testing}
 
-You can run {\em userid}-{\tt regression/test\_regression.py} to check your {\tt miminize} function.  Here's my sample run:
+You can run {\tt regression-}{\em userid}{\tt /test\_regression.py} to check your {\tt miminize} function.  Here's my sample run:
 
 \begin{lstlisting}[style=BashInputStyle]
 $ python test_regression.py
@@ -406,10 +406,9 @@ There is a lot of material out there on the web that can be helpful.
 
 \begin{callout}{\bcplume}
 \begin{itemize}
-\item Your script {\em userid}-{\tt regression/minimize.py} with the {\tt minimize()} function.
-\item Your script {\em userid}-{\tt regression/plot\_regression.py}, which must have your {\tt heatmap} function.  This file imports the previous.
-\item A PDF or PDFs of your graph with two visible traces on two heat maps or the same heat map if the traces are clear. The graph(s) should include the start, stop location and the number of steps as I have done on mine. As part of your PDF(s), please indicate the $B$ parameters you compute with your minimize function. Please name the file {\tt plot.pdf}, or if two, {\tt plot1.pdf} and {\tt plot2.pdf}.
-\end{itemize}
+\item Your script {\tt regression-}{\em userid}{\tt /minimize.py} with the {\tt minimize()} function.
+\item Your script {\tt regression-}{\em userid}{\tt /plot\_regression.py}, which must have your {\tt heatmap} function.  This file imports the previous.
+\item A {\tt plot1.png} image file showing a visible trace on the heat map and {\tt plot2.png} showing the same thing but with a different starting location. The graph(s) should include the start, stop location and the number of steps as I have done on mine.\end{itemize}
 \end{callout}
 
 \end{fullwidth}

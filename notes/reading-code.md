@@ -11,7 +11,7 @@ We read code in order to:
 * **Discover the behavior of library functions or other shared code**.   The complete behavior of a library function is not always clear from the name or parameter list.  Looking at the source code for that function is the best way to understand what it does. The code **is** the documentation. 
 * **Uncover bugs, in our code or others' code**. All code has bugs, particularly code we just wrote that has not been tested exhaustively. As part of the coding process, we are constantly bouncing around, reading our existing code base to make sure everything fits together.
 
-<img src="images/redbang.png" style="width:30px" align="left">While we're discussing library functions, let me highlight a golden rule: *You should never ever ask your fellow programmers about the details of parameters and return values from library functions.* You can easily discover this yourself using "jump to definition" in PyCharm or by searching on the web.
+<img src="images/redbang.png" width=30 align="left">While we're discussing library functions, let me highlight a golden rule: *You should never ever ask your fellow programmers about the details of parameters and return values from library functions.* You can easily discover this yourself using "jump to definition" in PyCharm or by searching on the web.
 
 The purpose of this document is to explain how exactly a programmer reads code. Our first clue comes from the fact that we are not computers, hence, we should not read code like a computer, examining one symbol after the other. Instead, we're going to look for key elements and code patterns.
 
@@ -165,7 +165,7 @@ print blort
 
 Max value in `X`. 
 
-<img src="images/redbang.png" style="width:30px" align="left">Anytime you see an `if` statement inside of a loop, think *filter* or *search*. It will usually be a variation on one of those. This assumes that the conditional expression is a function of the loop variable directly or indirectly.
+<img src="images/redbang.png" width=30 align="left">Anytime you see an `if` statement inside of a loop, think *filter* or *search*. It will usually be a variation on one of those. This assumes that the conditional expression is a function of the loop variable directly or indirectly.
 
 **Exercise**: What does this variation print?
 

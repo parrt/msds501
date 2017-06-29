@@ -29,16 +29,16 @@ If you ever have questions about what constitutes plagiarism, cheating, or acade
 
 | Artifact | Grade Weight | Due date |
 |--------|--------|--------|
-|[Image processing](https://github.com/parrt/msan501/raw/master/projects/images.pdf)| 10%| ? |
-| [Word similarity and relationships](https://github.com/parrt/msan501/blob/master/projects/wordsim.md) | 10%| ? |
-| [Predicting Murder Rates With Gradient Descent](https://github.com/parrt/msan501/raw/master/projects/regression-gradient-descent.pdf)| 8%| ? |
+|[Image processing](https://github.com/parrt/msan501/raw/master/projects/images.pdf)| 10%| Thur, July 27 |
+| [Word similarity and relationships](https://github.com/parrt/msan501/blob/master/projects/wordsim.md) | 10%| Thur, August 3 |
+| [Predicting Murder Rates With Gradient Descent](https://github.com/parrt/msan501/raw/master/projects/regression-gradient-descent.pdf)| 8%| Thur, August 10 |
 |Quiz 1| 0% | Thur, July 13 |
 |Quiz 2| 18%| Fri, July 21 |
 |Quiz 3| 18%| Fri, July 28 |
 |Quiz 4| 18%| Fri, August 4 |
 |Quiz 5| 18%| Fri, August 11 |
 
-All projects are graded in binary fashion: They either work or they do not. Each project has a hard deadline and only those projects working correctly before the deadline get credit (100%).  My grading script pulls from github at the deadline.
+All projects are graded in binary fashion: They either work or they do not. Each project has a hard deadline and only those projects working correctly before the deadline get credit (100%).  My grading script pulls from github at the deadline.  On the due date, projects are do with the **start** of your section's class period for that day.
 
 This class is pass/fail and we expect most people to pass, but those getting below 80% raw average score are in the danger zone.
 

@@ -7,7 +7,7 @@ This 5-week computational analytics bootcamp is part of the [MS in Analytics pro
 
 **INSTRUCTOR.** [Terence Parr](http://parrt.cs.usfca.edu). I’m a professor in the computer science department and was founding director of the MS in Analytics program at USF.  Please call me Terence or Professor (the use of “Terry” is a capital offense).
 
-**SPATIAL COORDINATES.** 101 Howard 5th floor Room 529.
+**SPATIAL COORDINATES.** 101 Howard 5th floor classroom 529. My office is room 608.
 
 **TEMPORAL COORDINATES.** Thursday/Friday Sec01 10am-12pm, Sec02 1-3pm; July 13 (Thu) - August 11 (Fri).
 
@@ -67,3 +67,7 @@ Implementing program work plans (actual coding)
 * [Programming Patterns in Python](notes/python-patterns.ipynb)
 * [Organizing your code with functions](notes/coding-functions.ipynb)
 * [How to read code](notes/reading-code.md)
+
+Iterative computations and optimization
+
+* [Iterative Optimization Via Gradient Descent](notes/gradient-descent.pdf) (pdf)

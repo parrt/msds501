@@ -1,152 +1,231 @@
 # Using git revision control
 
-Every single commercial developer I know uses revision control at work. Every company you will encounter uses it. For that reason alone, you need to learn revision control to be functional in a commercial setting.  In this class, you also use revision control system called `git` to submit your work.
+**Motivation**. Every single commercial developer uses revision control at work. Every company you will encounter uses it. For that reason alone, you need to learn revision control to be functional in a commercial setting.  In this class, you will also use revision control, a system called `git`, to submit your work.
 
-For our purposes in MSAN, we're going to ignore most of the nontrivial capabilities that programmers use routinely, such as branching and merging. Git is extremely  complicated and would not be my first choice if it weren't for the excellent `github.com`.
+For our purposes in MSAN, we're going to ignore most of the nontrivial capabilities that programmers use routinely, such as branching and merging. Git is extremely complicated and would not be my first choice if it weren't for the excellent `github.com`.
+
+In this lecture-lab, the goal is to get a basic understanding of how revision control and git/github work. We will take the opportunity to learning the primary git commands by getting you started on the images project repository.
 
 ## Introduction to revision control
 
-*Revision control* is a mechanism to track all changes to a set of files, which we typically associate with a single project. The file set is called a *repository* and at any given time, my computer has lots and lots of these repositories. 
+Let me start out with a small detour to drive home that you should be making backups of your laptop. Imagine losing your laptop. Where will all your work be? Gone. I recommend Carbonite or Mozy. Personally, I have a local Timemachine OS X backup hard drive sitting next to my computer that takes a snapshot every hour. It tracks the differences from the previous snapshot, rather than copying the entire hard drive again (slow/wasteful). Then, I have an off-site cloud-based backup with Carbonite that gets backed up when I go to sleep at night.  
 
-A `git` repository instance is just a directory on your disk that also happens to have a `.git` (hidden) directory, which is effectively a complete database of everything that's happened to the repository since it was created with `git init` (or you `clone`'d it from somewhere). 
+Using this multi-tiered backup strategy is a good way to think about how programmers use revision control. git is kind of like Time Machine, a local backup, and github.com is kind of like the off-site Carbonite cloud-based backup. The difference between a revision control system and a backup system is that we instruct the revision control system **when** to take a snapshot. Each snapshot should be a logical chunk of work done to the files. A backup system automatically takes snapshots.
 
-A repository is more than just a set of files. When asked to do so with a "commit" command, the repository takes a complete snapshot of the state of the repository files. This is very similar to OS X's Time Machine backup system that wakes up every hour and takes a snapshot. The difference between the repository and a backup system is that we instruct the repository when to take a snapshot. Each snapshot should be a logical chunk of work done to the files.
+Not only do we tell a revision control system when to take a snapshot, we also tell it **what** to snapshot.  Each project you work on is in a directory and all of the files associated with that project sit somewhere in that subtree. The file set is called a *repository* and at any given time, my computer has lots and lots of these repositories. 
 
-Having a complete list of changes is extremely useful. For example, here is a chunk taken out of the middle of my commits on the ANTLR repository as shown by SourceTree:
+A `git` repository instance is just a directory on your disk but it also has a `.git` (hidden) directory. This directory holds a complete database of everything that's happened to the repository since it was created with `git init` (or you `clone`'d it from github). If you want to throw out the repository, just remove the entire subtree from your disk. There is no central server to notify. Every repository instance is a complete copy so you could have, for example, 10 versions of the repository cloned from an original sitting on the same disk in different directories.
+
+**Tracking changes**
+
+As with the Time Machine backup, git tracks snapshots as the difference from the last time you requested a snapshot.  Each snapshot is called a *commit* (and programmers think of these commits as *transactions*.) You should request a commit to lock in a logical chunk of work, such as the addition of a feature or fixing of a bug. Having a complete list of changes is extremely useful. For example, here is a chunk taken out of the middle of my commits on the ANTLR repository as shown by the [SourceTree](https://www.sourcetreeapp.com) git GUI:
 
 ![commits](images/commits.png)
 
-You can go back and look at changes made to the repository for any commit.
+<img src="images/redbang.png" width=30 align="left">You can go back and look at changes made to the repository for any commit. Whether using PyCharm or git, I find it very important to look back at recent commits to see what changes have introduced a bug.  Sometimes I decide to abandon a small piece of what's going on and flip a file back to an old version. If you go down a wrong path and would like to revert all those changes, git can easily do that. It can even reset the repository to the state of some earlier commit.
 
- You will also notice that I have tagged a particular commit as ``4.4`` with the ``tag`` command. This makes it easy for me to flip the repository back to a specific commit with a name rather than one of those funky commit checksums. Here is what that particular commit consisted of per [SourceTree](https://www.sourcetreeapp.com):
+**Mirroring repositories at github.com**
 
-![tag diff](images/tagdiff.png)
+Continuing with the analogy now, github.com is like the off-site cloud-based backup I use. We will typically keep a complete copy of our local repositories at github.com. As with committing changes, we also have to specifically *push* the local repository to github. Every push ensures that the complete file set and git change database (in .git subdirectory) is mirrored at github.  As a side effect of this, of course, you now have a backup of your work. The loss of your laptop is not catastrophic, at least as far as your coursework is concerned.
 
-If you want to throw out the repository, just remove the entire subtree from your disk. There is no central server to notify. Every repository instance is a complete copy so you could have, for example, 10 versions of the repository cloned from an original sitting on the same disk in different directories.
+The reason to use github is that I can also access your repositories then, whereas I have no access to your laptop hard drive. To grade your projects, I will *clone* your repository onto my hard disk. If you make changes, I can *pull* those in. I might also edit your code to make comments and then *push* my copy of the repository back to github and then you can *pull* those changes back to your hard drive. Everything will be in sync and it will not overwrite changes by mistake. This is how multiple programmers communicate and is a bit beyond this introductory lecture, but you should be aware of this in the abstract at least.
 
-### Files managed by git
+It's also the case that you can use github.com to work on the same software on two different computers, such as a laptop and a desktop.  Having two computers with the same software means they have copies. That introduces the possibility that you will overwrite the correct/latest version of your software. Or, you will forget that you had made changes on your laptop but have now made a bunch of changes on your desktop.  You have changes on two different computers. Resolving things can be tricky and error-prone so we use push/pull to github to keep things in sync.
 
-After you create a repository, you can create all sorts of files under the directory managed by git, but git ignores them until you `add` them. The `add` command is basically notifying the repository that it should care about that file. When you add files or modify files already known to git, they are in the so-called **staging area** (this used to be called the index). You can have whatever other files you want laying around, such as PyCharm preference files. Git will simply ignore them unless you `add` them. 
+## Getting started on images projects
 
-### Committing changes
+You will receive a link to github that is an invitation to create a repository for the images project. After you accept, it will give you a link to the private repository (only you and I can see the contents of the repository). My github id is `parrt` and so my URL is:
 
-Once git knows the set of files it should manage, it watches all the changes we make to those files. If we go down a wrong path and would like to revert all those changes, git can easily do that. It can revert any changes since the last commit and can even reset the repository to the state of some earlier commit.
+```
+https://github.com/USF-MSAN501/images-parrt
+```
 
-### Does a solo programmer need revision control?
+Each class will have be its own organization at github: `https://github.com/USF-MSAN501`. Each person will have a repository under that directory at github, one per project.
 
-If you are working solo, from a single machine, and you have a regular backup mechanism in your development environment or from the operating system like Time Machine (OS X), you can get away without a formal revision system.
+Our first step is to *clone* that empty repository from github onto our local disk. From your repository page and github, copy the HTTPS URL, as shown here:
 
-There are lots of important operations that can be faked without a revision system.  For example, it's a good idea to keep track of versions of the software that work or other milestones. In the old days, people would make a copy of their project directory corresponding to important milestones like "Added feature X and it seems to work." You can do comparisons using a diff tool in between directories.
+<img src=images/github-setup.png width=420>
 
-Whether your IDE does it or a revision control system does it, I find it very important to look back at recent changes to see what changes have introduced a bug.  Sometimes I decide to abandon a small piece of what's going on and flip a file back to an old version.
+If you choose the SSH version, it will require that we set up SSH keys for authentication. That is what you will ultimately want to do, but for now
 
-A good example of use of a repository is the repository for this course, which is stored at `github.com` as well as my desktop computer (and laptop, and home machine, ...):
+**Cloning onto your laptop**
 
-\href{https://github.com/parrt/msan501}{\textcolor{blue}{https://github.com/parrt/msan501}}
-
-It contains all the changes that I've made since I started teaching this course.
-
-These days, revision control systems are meant to be used among multiple computers and multiple developers, but they are still useful even on a single machine.
-
-### Solo programmer, sharing across machines
-
-In order to work on that software from your home machine and a laptop for example, you have to make copies. That introduces the possibility that you will overwrite the good version of your software. Or, you will forget that you had made changes on your laptop but have now made a bunch of changes on your desktop.  You have changes on two different computers. Resolving things can be tricky and error-prone.
-
-Enter a remote server such as `github.com`. It acts like a big disk that holds lots of different repositories per user. I normally create a repository at the website, then grab the repository URL, and `clone` it onto my local disk of any machine that needs to share the code. The process of sharing changes looks like this:
-
-
-* Laptop: pull any changes from the github repository
-* Laptop: Make changes
-* Laptop: Push changes to github server
-* Desktop: pull changes from the github repository (stuff you just changed)
-* Desktop: Make changes
-* Desktop: Push changes to github server
-
-The github repository acts as a central repository, which is a change of perspective. Normally we think of our computer is having the primary copy.
-
-As a side benefit, pushing your repository to a remote server gives you a backup automatically.
-
-### Multiple programmers
-
-When you add another person to a project, people end up mailing code around but it's difficult to perform a merge. My experience watching students do this reveals that two versions of the software always appear. Both students shout that their version is better and that the other version should be abandoned.
-
-In my experience, no matter how you try to fake multiple states of the source code and share, merging changes to work on the same code base is a nightmare.
-
-Once in a while I go back and I look at the history of changes. Sometimes I want to know who screwed this up or I want to see the sequence of changes that I made or that were made by somebody else.
-
-Every single commercial developer I know uses revision control at work. Every company you will encounter uses it. For that reason alone, you need to learn revision control to be functional in a commercial setting.
-
-## Common repository operations
-
-**Cloning a repo**. To make a copy of a repository that exists on github, we need a URL for that repo. For illustrative purposes, let's say we want to clone the [antlr4 repo](https://github.com/antlr/antlr4). If we choose the SSH version, it will require that we set up SSH keys for authentication:
-
-<img src=images/antlr-git-url.png width=320>
-
-So, instead, click on the "Use HTTPS" link, which will give you a URL like `https://github.com/antlr/antlr4.git`.
-
-Once you have that URL in your paste buffer, go to the command line and `cd` into the directory where you want to perform the clone then give a clone operation:
+Now, open the terminal or other bash shell program and create a directory that will house all of your MSAN projects in an orderly fashion. I strongly recommend you create an overall directory under which you create a directory for each class. From the command line it looks like this:
 
 ```bash
-$ cd ~/projects
-$ git clone https://github.com/antlr/antlr4
+$ pwd             # print working directory
+/Users/parrt     
+$ mkdir classes   # make directory called classes
+$ cd classes      # change current working directory to classes
+$ mkdir msan501   # create directory msan501 under classes
+$ cd msan501      # jump into msan501
+```
+
+<img src="images/redbang.png" width=30 align="left">Do not use spaces in any filename or directory you ever create. Many open source projects are developed under UNIX and UNIX hates spaces in filenames. Things will mysteriously fail to work if you use spaces.
+
+Depending on how you have your shell set up, you might see the current working directory to the left of the `$` prompt. Here is what my prompt looks like:
+
+```bash
+beast:~/classes/msan501 $ 
+```
+
+The name of the machine is beast and `~` is shorthand for `/Users/parrt` or whatever your user ID is.
+ 
+Now we have an appropriate structure and it's time to clone your repository under `/Users/parrt/classes/msan501`:
+
+```bash
+$ git clone https://github.com/USF-MSAN501/images-parrt.git
+Cloning into 'images-parrt'...
+warning: You appear to have cloned an empty repository.
+$ cd images-parrt/
+$ ls
+```
+
+After cloning, you have an empty directory under `msan501` called `images-YOURID`. It is under this directory that you will do all of your work. **This directory is called the repository**. Technically it's not empty, if you ask for all files in the current directory with `-a` option on `ls` command, you will see the subdirectory used by git to store snapshots:
+
+```bash
+$ ls -a
+./                 ../                .git/
+```
+
+**Files managed by git**
+
+After you create a repository at github and clone it locally, you can create all sorts of files under the directory managed by git, but git ignores them until you `add` them. The `add` command is basically notifying the repository that it should care about that file.  You can have whatever other files you want laying around, such as PyCharm preference files. Git will simply ignore them unless you `add` them.
+
+Download [view.py](https://github.com/parrt/msan501-starterkit/blob/master/images/view.py) from the starter kit to your images-YOURID directory. The cool kids do it without the browser:
+
+```bash
+$ wget https://raw.githubusercontent.com/parrt/msan501-starterkit/master/images/view.py
+-bash: wget: command not found
+```
+
+Uh oh. We have to install wget:
+
+```bash
+$ brew install wget
+...
+==> Installing wget
+==> Downloading https://homebrew.bintray.com/bottles/wget-1.19.1_1.sierra.bottle.tar.gz
+######################################################################## 100.0%
+==> Pouring wget-1.19.1_1.sierra.bottle.tar.gz
+🍺  /usr/local/Cellar/wget/1.19.1_1: 11 files, 1.6MB
+```
+
+Now we can download the file with a single command:
+
+```bash
+$ wget https://raw.githubusercontent.com/parrt/msan501-starterkit/master/images/view.py
+--2017-06-30 12:43:36--  https://raw.githubusercontent.com/parrt/msan501-starterkit/master/images/view.py
+...
+2017-06-30 12:43:36 (6.63 MB/s) - ‘view.py’ saved [299/299]
+$ ls
+view.py
+```
+
+**Taking a snapshot (committing)**
+
+We have a file in the directory but git has no idea it should track it. We have to explicitly add it to revision control:
+
+```bash
+$ git add view.py
+$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   view.py
 ...
 ```
 
-This will make a copy of all of the files in the `antlr4` repository in subdirectory `antlr4` of `~/projects`. Furthermore, it will also bring in a copy of the transaction database, which is a record of every change made to that repository (ever).
-
-**Adding to repo**. To make git pay attention to files, we add them. Just create a file:
+At this point, we would be free to add more files or change that file. When we want to make a snapshot, we commit our changes:
 
 ```bash
-$ cd ~/myrepo
-$ mkdir junk
-$ cd junk
-... create t.py ...
-$ git add t.py
-```
-
-The file is not really part of the repository until we commit the transaction. Until the commit, it is in a staging area. It's kind of like putting everything in a box (add) and then mailing the box (committing). Here's how to do the commit:
-
-```bash
-$ git commit -a -m 'adding a cool file'
-...
+$ git commit -a -m 'initial add'
+[master (root-commit) b40aca4] initial add
+ 1 file changed, 9 insertions(+)
+ create mode 100644 view.py
 ```
 
 The `-m` is the option that indicates a commit message follows on the command line.  You can safely ignore what `-a` means, but make sure you always have it on your commit commands.
 
-You can also create files in subdirectories:
+Until the commit, the file changes are in a so-called staging area. It's kind of like putting everything in a box (add) and then mailing the box (committing).
+
+**Pushing back to github**
+
+Every time you do a commit, you're making a snapshot of the current state of your files. Git tracks the set of changes per commit and a commit message, which we can retrieve easily:
 
 ```bash
-$ cd ~/myrepo
-$ mkdir junk
-$ cd junk
-... create t2.py ...
-$ git add t2.py
-$ git commit -a -m 'add 2nd file'
+$ git log
+commit b40aca41ed4b94731a2ec87e9c11a60a1a4ef234
+Author: parrt <parrt@cs.usfca.edu>
+Date:   Fri Jun 30 12:50:42 2017 -0700
+
+    initial add
 ```
 
-**Make changes**. You can make changes and do another commit. Make sure use the `-a` option on the `git commit`.
+<img src="images/redbang.png" width=30 align="left">Until you explicitly push back to github, github has no idea that you made changes on your local disk to a repository. Git knows where the original repository came from but it does not automatically pushed to github upon commit. Commit is for the local repository, push is for syncing with a remote repository.  The remote repository is called the *origin*. Use the following command to ask git what it thinks the origin is:
 
-```bash
-...change existing file(s)...
-$ git commit -a -m 'what I due to file(s)'
+```
+$ git remote -v
+origin	https://github.com/USF-MSAN501/images-parrt.git (fetch)
+origin	https://github.com/USF-MSAN501/images-parrt.git (push)
 ```
 
-**Deleting files**. Deleting a file is also considered a change but you can also use `git rm` *filename*.
+Ok, let's push our changes (adding a file) back to github:
 
 ```bash
-$ git rm t2.py
-$ git commit -a -m 'I do not need t2 anymore'
+$ git push origin master
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 408 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To github.com:USF-MSAN501/images-parrt.git
+ * [new branch]      master -> master
 ```
 
-**Checking differences with repo**. If you make a change and want to know how it's different from the current repository version, just use diff:
+There is a lot going on in that message, but if there are no errors, you're good to go. The *master* is what we call a branch and you will always be working in the master branch.
+
+Until you get very comfortable with git and github, you should always verify that your pushes succeed by examining the remote repository at github. Refresh your version of the `https://github.com/USF-MSAN501/images-parrt` URL and it should show something like:
+
+<img src=images/initial-add-view.png width=600>
+
+Make sure that all of the files that you want to submit for your projects get properly committed locally and then pushed back to github!
+ 
+**Making changes**
+
+You can make changes and lock them in with another commit. (Make sure use the `-a` option on the `git commit`.)
 
 ```bash
-$ ... tweak t.py ...
-$ git diff t.py
+...change existing file view.py...
+$ git commit -a -m 'what I did to view.py'
+```
+
+**Deleting files**
+
+Deleting a file tracked by git is also considered a change but you can also explicitly use `git rm` *filename*, which is what I do.
+
+```bash
+$ git rm foo.py
+$ git commit -a -m 'I do not need foo anymore'
+```
+
+**Checking differences with repo**
+
+If you make a change and want to know how it's different from the current repository version, just use diff:
+
+```bash
+$ ... tweak view.py ...
+$ git diff view.py
 ...
 ```
 
-**Reverting**. If you screw up and want to toss out **everything** from the last commit, do a hard reset (make sure you use the `--hard` option):
+**Reverting**
+
+If you screw up and want to toss out **everything** since the last commit, do a hard reset (make sure you use the `--hard` option):
 
 ```bash
 $ ... tweak whatever you want ...
@@ -159,54 +238,5 @@ This throws out all changes since the last commit. If all you want to do is reve
 $ git checkout -- filename
 ```
 
-I think they call that funny dash-dash option ``sparse mode.'' (Git is the machine code of revision systems. blech.)
-
-**Correcting commit message**. One of the other things I often have to do is to fix the commit message that I just wrote in a commit command.
-
-```bash
-$ git commit --amend -m "I really wanted to say this instead"
-```
-
-**Checking working dir and staging area vs repo.** Finally, if you want to figure out what changes you have made such as adding, deleting, or editing files, you can run a `status`:
-
-```bash
-$ git status
-On branch master
-Your branch is up-to-date with 'origin/master'.
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-
-    t3.py
-
-nothing added to commit but untracked files present (use "git add" to track)
-```
-
-This report is basically saying you have not changed any files tracked by the repository and that there is a file laying around called t3.py that is not tracked.
-
-## With a remote server like github
-
-When you're working by yourself (and without branches), a remote server acts like a central server that you can push and pull from. For example, I push from my work machine and pull to my home machine or my laptop. And then reverse the process with changes I make at home over the weekend.
-
-For example, once I have committed all of my changes that work and I'm ready to go home, I push to the origin:
-
-```bash
-$ git push origin master
-```
-
-From home, I do:
-
-```bash
-$ git pull origin master
-```
-
-The origin is the alias for the original server we cloned from and master is our master branch, which we can ignore until we look at branches.
-
-To look at the remote system alias(es), we use:
-
-```bash
-$ git remote -v
-origin  git@github.com:parrt/myrepo.git (fetch)
-origin  git@github.com:parrt/myrepo.git (push)
-```
+I think they call that funny dash-dash option "sparse mode." (whatever. yuck.)
 

@@ -32,7 +32,7 @@ The reason to use github is that I can also access your repositories then, where
 
 It's also the case that you can use github.com to work on the same software on two different computers, such as a laptop and a desktop.  Having two computers with the same software means they have copies. That introduces the possibility that you will overwrite the correct/latest version of your software. Or, you will forget that you had made changes on your laptop but have now made a bunch of changes on your desktop.  You have changes on two different computers. Resolving things can be tricky and error-prone so we use push/pull to github to keep things in sync.
 
-## Getting started on images projects
+## Getting started on the images project
 
 You will receive a link to github that is an invitation to create a repository for the images project. After you accept, it will give you a link to the private repository (only you and I can see the contents of the repository). My github id is `parrt` and so my URL is:
 

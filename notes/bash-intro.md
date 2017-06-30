@@ -46,7 +46,9 @@ $
 
 After you execute a command by typing a command possibly with arguments and hitting return, you get the prompt back. It is ready for another command.
 
-Any *path* starting with `/` means it is an absolute path starting at the root of the disk directory hierarchy. (You can learn more about [paths at wikipedia](https://en.wikipedia.org/wiki/Path_(computing)#Unix_style)). So anything else is considered relative to the current working directory. For example, if your current working directory is `/Users/parrt/github/msan501` then `ls notes` will give you a directory listing of the `notes` directory underneath `/Users/parrt/github/msan501`.
+Any *path* starting with `/` means it is an absolute path starting at the root of the disk directory hierarchy. (You can learn more about [paths at wikipedia](https://en.wikipedia.org/wiki/Path_(computing)#Unix_style)). So anything else is considered relative to the current working directory. For example, if your current working directory is `/Users/parrt/github/msan501` then `ls notes` will give you a directory listing of the `notes` directory underneath `/Users/parrt/github/msan501`. Here's a useful diagram showing the components of a fully qualified pathname to a file called `view.py`:
+
+<img src=images/path-names.png width=750>
 
 One of the most common things to do is to change the current working directory with `cd`:
 

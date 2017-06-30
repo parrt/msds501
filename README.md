@@ -68,7 +68,10 @@ Implementing program work plans (actual coding)
 * [Organizing your code with functions](notes/coding-functions.ipynb)
 * [How to read code](notes/reading-code.md)
 
-[Introduction to git and revision control](notes/git.md)
+Common programming tools
+
+* [Bash your way to victory](notes/bash-intro.md)
+* [Introduction to git and revision control](notes/git.md)
 
 Iterative computations and optimization
 

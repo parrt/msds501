@@ -83,193 +83,245 @@ $ ls ../..
 msan501/
 ```
 
+Oh, you will often see me use `/tmp`, which is a temporary directory or dumping ground.  All files in that directory are usually erased when you reboot.
+
 ## Loading text files
 
-As we discussed early in the semester, files are just bits. It's how we interpret it that is meaningful. The bits could represent an image, a movie, some text, Python program text, whatever.
+As we discussed early in the semester, files are just bits. It's how we interpret the bits that is meaningful. The bits could represent an image, a movie, an article, data, Python program text, whatever. Let's call any file containing characters a *text file* and anything else a *binary file*.
 
-Text files are usually 1 byte (8 bits) per character and have the notion of a line. A line is just a sequence of characters terminated with either `\r\n` (Windows) or `\n` (UNIX, Mac). A text file is usually then a sequence of lines.
+Text files are usually 1 byte per character (8 bits) and have the notion of a line. A line is just a sequence of characters terminated with either `\r\n` (Windows) or `\n` (UNIX, Mac). A text file is usually then a sequence of lines. Download this sample text file, [IntroIstanbul.txt](https://raw.githubusercontent.com/parrt/msan501/master/data/berlitz1/IntroIstanbul.txt) so we have something to work with. You can save it in `/tmp` or whatever directory you are using for in class work. For the purposes of this discussion, I will put it in the temporary directory.
 
-A binary file is, well, anything else. It still could represent an image or a song but we know at least it's not text.
+Now, let's examine the contents of the file in a raw fashion rather than with a text editor. The `od` command (octal dump) is useful for looking at the bytes of the file. Use option `-c` to see the contents as 1-byte characters:
 
-https://raw.githubusercontent.com/parrt/msan501/master/data/berlitz1/IntroIstanbul.txt
-
-You cannot do anything after the file is closed
-
-```
-f = open('/tmp/foo.txt', 'w')
-f.close()
-f.read()
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-ValueError: I/O operation on closed file
+```bash
+$ od -c /tmp/IntroIstanbul.txt
+0000000   \n          \n          \n                  \n                
+0000020           \n                                   T   h   e       C
+0000040    i   t   y       a   n   d       I   T   S       P   e   o   p
+0000060    l   e  \n                                   I   s   t   a   n
+0000100    b   u   l       i   s       o   n   e       o   f       t   h
+...
 ```
 
-## Loading data files
+Wow. That's a lot of output so let's extend the command to pipe the output to the `more` program that paginate's long input.
 
-data file
-
-One value per row, no header:
-
-https://raw.githubusercontent.com/parrt/msan501/master/data/prices.txt
-
-
-https://raw.githubusercontent.com/parrt/msan501/master/data/player-heights.csv
-
-### Opening/closing files
-
-Here is how to open and immediately close a file:
-
-```
-f = open('/tmp/foo.txt', 'w')
-f.close()
+```bash
+$ od -c /tmp/IntroIstanbul.txt | more
+...
 ```
 
-The second argument indicates whether we are going to read `"r"`, write `"w"`, or append `"a"`.
+The `\n` character you see represents the single character we know as the carriage return. The numbers on the left are the character offsets into the file (it looks like they are octal not decimal, btw; use `-A d` to get decimal addresses).
 
-The file `/tmp/foo.txt` is created if it doesn't already exist because of the `"w"`.
+Let's look at some common programming patterns dealing with text files.
 
+**Pattern**: Load all file contents into a string.
 
-### Reading from a text file
-
-Now lets use the `"r"` file open mode.
-
-Assume `/tmp/names.txt` has:
-
-```
-3 parrt
-2 jcoker
-8 tombu
-```
-
-**PATTERN**: load all file contents into string
-
-```
-f = open('/tmp/names.txt', 'r')
+```python
+f = open('/tmp/IntroIstanbul.txt')
 contents = f.read() # read all content of the file
 f.close()
 print contents
 ```
 
-Reading the entire contents is often not as useful as reading the input line by line. Because it is a text file, we know there are \n characters there:
+**Exercise**: *Without cutting and pasting*, type in that sequence and make sure you can print the contents of the file from Python. Instead of `/tmp`, use whatever directory you saved that IntroIstanbul.txt in.
 
-```
-$ od -c /tmp/names.txt
-0000000 3 p a r r t \n 2 j c o k e r
-0000020 \n 8 t o m b u \n
-0000031
-```
+**Pattern**: Load all words of file into a list.
 
-**Q.** `open("/tmp/names.txt")` is the same as `open("/tmp/names.txt", "r")`. How does that work?
+This pattern is just an extension of the previous where we `split()` on the space character to get a list:
 
-Here is how we could read in the three lines of the file:
-
-```
-f = open('/tmp/names.txt')
-first = f.readline()
-second = f.readline()
-third = f.readline()
-f.close()
-print first, second, third
-```
-
-That prints the same thing as we had before except now we have access to the individual lines. Also note that `readline()` strips off the newline but we get it back because of the normal newline given by print.
-
-Here's how to split the entire contents into lines with a single read:
-
-```
-f = open('/tmp/names.txt')
+```python
+f = open('/tmp/IntroIstanbul.txt')
 contents = f.read() # read all content of the file
 f.close()
-lines = contents.strip().split("\n")
+words = contents.split(' ')
+print words[0:100] # print first 100 words
 ```
 
-The `strip()` is important because it drops the last newline, which would otherwise give us an empty string as the last element. It's easier to do this:
-
-**PATTERN**: get all lines in a file into memory
+We get output that looks like this:
 
 ```
-f = open('/tmp/names.txt')
+['\n', '', '\n', '', '\n', '', '', '', '\n', '', '', '', '', '',
+ '\n', '', '', '', '', '', '', '', 'The', 'City', 'and', 'ITS',
+  'People\n', '', '', '', '', '', '', '', 'Istanbul', 'is', 'one', ...]
+```
+
+Because we are splitting on the space character, newlines and multiple space characters in a row yield "words" that are useful. We need to transform that list into a new list before it is useful.
+
+**Exercise**: Using the *filter* programming pattern filters `words` for only those words greater than 1 character; place into another list called `words2`. Hint `len(s)` gets the length of string `s`.
+
+## Loading all lines of a file
+
+Reading the contents of a file into a string is not always that useful. We typically want to deal with the words, as we just saw, or the lines of a text file.  Natural language processing (NLP) would focus on using the words, but let's look at some data files, which typically structure files as lines of data.  Each line represents an observation, data point, or record. 
+
+We could split the text contents by `\n` to get the lines, but it is so common that Python provides functions to do that for us. To give us some data to play with, download [prices.txt](https://raw.githubusercontent.com/parrt/msan501/master/data/prices.txt) that has a list of prices, one price per line. Here's another very common programming pattern:
+
+**Pattern**: Read all of the lines of the file into a list.
+
+```python
+f = open('/tmp/prices.txt')
+prices = f.readlines() # get lines of file into a list
+f.close()
+print prices[0:10]
+```
+
+The output you should get looks like:
+
+```
+['0.605\n', '0.600\n', '0.594\n', '0.592\n', '0.600\n', '0.616\n', '0.623\n', '0.628\n', '0.630\n', '0.629\n']
+```
+
+**Exercise**: *Without cutting and pasting*, type in that code and make sure you can read the lines of the file into a list. 
+
+The numbers have the `\n` character on the end but that's not a problem because we can easily convert that using [NumPy](http://www.numpy.org/):
+
+```python
+import numpy as np
+prices = np.array(prices, dtype='float') # convert to array of numbers
+print prices[0:10]
+```
+
+**Exercise**: Add this conversion to the previous exercise and make sure you get an `array` as output:
+
+```
+array([ 0.605,  0.6  ,  0.594,  0.592,  0.6  ,  0.616,  0.623,  0.628,
+        0.63 ,  0.629])
+```
+
+**Pattern**:  We can call these combined code snippets "load list of numbers into a numpy array."
+
+## Loading CSV files
+
+Let's look at a more complicated data file. Download [heights.csv](https://raw.githubusercontent.com/parrt/msan501/master/data/player-heights.csv), which looks like:
+
+```
+Football height, Basketball height
+6.329999924, 6.079999924
+6.5, 6.579999924
+...
+```
+
+It is still a text file, but now we start to get the idea that text files can follow a particular format. In this case, we recognize it as a *comma-separated value* (CSV) file. It also has a header line that names the columns, which means we need to treat the first line differently than the remainder of the file.
+
+**Pattern**: Load a CSV file into a 2D numpy array.
+
+We already know how to open a file and get the lines, so let's do that and also separate the lines into the header and the data components:
+
+```python
+import numpy as np
+
+f = open('/tmp/player-heights.csv')
 lines = f.readlines()
 f.close()
-print lines # note that this keeps the \n on the end of lines
+
+header = lines[0]
+data = lines[1:]
+print header
+print data[0:5]
 ```
 
-That works well except that it requires we load everything into memory, which is pretty inefficient and limits the size of the data we can process.
-
-**PATTERN**: To read data in line by line easily, we can use the `for` loop:
+**Exercise**:  Type in this code and make sure you get the header and the first five lines of data printed out:
 
 ```
-f = open('/tmp/names.txt')
+Football height, Basketball height
+['6.329999924, 6.079999924\n', '6.5, 6.579999924\n', '6.5, 6.25\n', '6.25, 6.579999924\n', '6.5, 6.25\n']
+```
+
+Each row of the data is a string with two numbers in it. We need to convert that string into a list with two floating-point numbers using `split(',')`.  Combining all of those two-element lists into an overall list gives us the two-dimensional table we need.
+
+**Exercise**: What pattern should we used to convert the `data` list? Convert the list of strings `data` to a list of number lists called `data2`.
+
+```python
+data2 = []
+for line in data:
+    row = line.split(',')
+    data2.append(row)
+print data2[0:3]
+```
+
+That gives output:
+
+```
+[['6.329999924', ' 6.079999924\n'], ['6.5', ' 6.579999924\n'], ['6.5', ' 6.25\n']]
+```
+
+Now we are ready to convert it to a two-dimensional array. The numpy `array()` helps us do the conversion from individual strings to numbers and also understands that a list of lists is a two dimensional array:
+
+```python
+data2 = np.array(data2, dtype='float')
+print data2[0:5]
+```
+
+That gives output:
+
+```
+[[ 6.32999992  6.07999992]
+ [ 6.5         6.57999992]
+ [ 6.5         6.25      ]
+ [ 6.25        6.57999992]
+ [ 6.5         6.25      ]]
+```
+
+## Using NumPy to load CSV files
+
+Of course, loading CSV is something that data scientists need to do all of the time and so there is a simple function you can use in the future:
+
+```python
+prices = np.genfromtxt('/tmp/prices.txt')
+```
+
+This even works for CSV files with header rows:
+
+```python
+data = np.genfromtxt('/tmp/player-heights.csv', delimiter=',', names=True)
+```
+
+The `delimiter` indicates that commas separate the data elements on a line and `names=True` indicates that there are column names in the first line of the file. If we print `data` we get:
+
+```
+array([(6.329999924, 6.079999924), (6.5, 6.579999924), (6.5, 6.25),
+       (6.25, 6.579999924), (6.5, 6.25), (6.329999924, 5.920000076),
+       (6.25, 7.0), (6.170000076, 6.409999847), (6.420000076, 6.75),
+       ...
+       (6.170000076, 6.579999924), (6.579999924, 6.829999924), (6.5, 6.5),
+       (6.25, 6.579999924)], 
+      dtype=[('Football_height', '<f8'), ('Basketball_height', '<f8')])
+```
+
+## Processing files line by line
+
+The previous mechanism for getting lines of text into memory works well except that it requires we load everything into memory all at once. That is pretty inefficient and limits the size of the data we can process to the amount of memory we have.
+
+**PATTERN**: Read data line by line not all at once.
+
+We can use a for-each loop where the sequence of data is the file descriptor:
+
+```
+f = open('/tmp/prices.txt')
 for line in f: # for each line in the file
- print line,
+    print float(line) # process the line in some way
 f.close()
 ```
 
-Once we have a line of text, we can treat them like we did when we had raw input from the user.
+The output we get looks like:
+```
+0.605
+0.6
+0.594
+0.592
+0.6
+...
+```
+
+**Exercise**: Try this new version of processing the lines of the file. No cutting and pasting!
+
+Keep in mind that once you close the file, you can read anymore data from it:
+
 
 ```
-f = open('/tmp/names.txt')
-for line in f: # for each line in the file
-    print line.strip().split(" ")
+f = open('/tmp/prices.txt', 'w')
 f.close()
-```
-
-### Writing to a text file
-
-To write a text file, we open with `"w"` mode, do some `write()`s, and make sure to close. If you use `"r"` instead of `"w"` and then `write()`, you will get this error:
-
-```
-IOError: File not open for writing
-```
-
-Sample code:
-
-```
-f = open('/tmp/foo.txt', 'w')
-f.write("This is easy\n") # we need \n in there
-f.write("Ok, not too bad\n")
-f.close()
-```
-
-When you execute that code you get what you would expect into `/tmp/foo.txt`:
-
-```
-$ cat /tmp/foo.txt
-This is easy
-Ok, not too bad
-```
-
-**PATTERN**: Write a floating-point number to a file in text representation (not binary):
-
-```
-f = open('/tmp/foo.txt', 'w')
-f.write("32.921323\n")
-f.close()
-```
-
-```
-$ cat /tmp/foo.txt
-32.921323
-```
-
-**PATTERN**: Write a list of words to a file, one per line:
-
-```
-words = "Dogs have masters Cats have staff".split(" ")
-f = open('/tmp/foo.txt', 'w')
-for w in words:
-    f.write(w)
-    f.write("\n")
-f.close()
-```
-
-```
-$ cat /tmp/foo.txt
-Dogs
-have
-masters
-Cats
-have
-staff
-$
+f.read()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: I/O operation on closed file
 ```

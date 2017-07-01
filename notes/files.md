@@ -1,4 +1,4 @@
-# Reading and writing files
+# Loading files
 
 The goal of this lecture-lab is to learn how to extract data from files on your laptop's disk. We'll load words from a text file and numbers from data files.  Along the way, will learn more about filenames and paths to files. To make loading data meaningful, we'll also learn how to generate histograms from data files using [matplotlib](https://matplotlib.org/).
 

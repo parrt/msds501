@@ -325,3 +325,15 @@ Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 ValueError: I/O operation on closed file
 ```
+
+## Summary
+
+The key programming patterns to take away from this lecture are:
+
+* **Pattern**: Load all file contents into a string.
+* **Pattern**: Load all words of file into a list.
+* **Pattern**: Read all of the lines of the file into a list.
+* **Pattern**: Load list of numbers into a numpy array.
+* **Pattern**: Load a CSV file into a 2D numpy array.
+
+You should be able to code those patterns quickly and easily, and without cutting and pasting from stackoverflow.

@@ -79,4 +79,5 @@ Key programming patterns
 
 Iterative computation and optimization
 
+* [Approximating square root](notes/sqrt.md)
 * [Iterative Optimization Via Gradient Descent](notes/gradient-descent.pdf) (pdf)

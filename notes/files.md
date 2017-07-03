@@ -266,31 +266,35 @@ That gives output:
  [ 6.5         6.25      ]]
 ```
 
-## Using NumPy to load CSV files
+## Using Pandas to load CSV files
 
-Of course, loading CSV is something that data scientists need to do all of the time and so there is a simple function you can use in the future:
+Of course, loading CSV is something that data scientists need to do all of the time and so there is a simple function you can use in the future from [Pandas](http://pandas.pydata.org),  another library you will probably become very familiar with:
 
 ```python
-prices = np.genfromtxt('/tmp/prices.txt')
+import pandas
+prices = pandas.read_csv('/tmp/prices.txt')
 ```
 
 This even works for CSV files with header rows:
 
 ```python
-data = np.genfromtxt('/tmp/player-heights.csv', delimiter=',', names=True)
+data = pandas.read_csv('/tmp/player-heights.csv')
 ```
 
 The `delimiter` indicates that commas separate the data elements on a line and `names=True` indicates that there are column names in the first line of the file. If we print `data` we get:
 
 ```
-array([(6.329999924, 6.079999924), (6.5, 6.579999924), (6.5, 6.25),
-       (6.25, 6.579999924), (6.5, 6.25), (6.329999924, 5.920000076),
-       (6.25, 7.0), (6.170000076, 6.409999847), (6.420000076, 6.75),
-       ...
-       (6.170000076, 6.579999924), (6.579999924, 6.829999924), (6.5, 6.5),
-       (6.25, 6.579999924)], 
-      dtype=[('Football_height', '<f8'), ('Basketball_height', '<f8')])
+    Football height   Basketball height
+0              6.33                6.08
+1              6.50                6.58
+2              6.50                6.25
+3              6.25                6.58
+4              6.50                6.25
+5              6.33                5.92
+...
 ```
+
+We'll see this stuff again in [Massaging and Visualizing Data](data.md).
 
 ## Processing files line by line
 

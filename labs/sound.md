@@ -3,8 +3,8 @@
 
 First, download the following two audio files so we have some raw materials to work with.
 
-* [initial sequence from Kiss by Prince, Kiss.aiff](../data/sound/Kiss.aiff)
-* [ahhh sound, ahhh.mp3](../data/sound/ahhh.mp3)
+* [initial sequence from Kiss by Prince, Kiss.aiff](sound/Kiss.aiff)
+* [ahhh sound, ahhh.mp3](sound/ahhh.mp3)
 
 I suggests that you store them in a directory such as `/Users/YOURID/msan501/labs/sound` where `YOURID` is your computer login name. For example, my login name is `parrt`.
 

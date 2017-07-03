@@ -2,7 +2,7 @@
 
 ## Goal
 
-In this project, you will leverage a semi-recent advance in natural language processing called [word2vec](http://arxiv.org/pdf/1301.3781.pdf) to study the similarity between words. In particular, we're going to use a "database" from [Stanford's GloVe project](https://nlp.stanford.edu/projects/glove/).  For example, given a single word, we can find the *n* closest words:
+In this project, you will leverage a semi-recent advance in natural language processing called [word2vec](http://arxiv.org/pdf/1301.3781.pdf) (or just *word vectors*) to study the similarity between words. In particular, we're going to use a "database" from [Stanford's GloVe project](https://nlp.stanford.edu/projects/glove/).  For example, given a single word, we can find the *n* closest words:
 
 ```
 Enter a word or 'x:y as z:'
@@ -14,7 +14,7 @@ cow is similar to {cows mad bovine sheep goat}
 spain is similar to {portugal spanish morocco madrid spaniards}
 ```
 
-Given 3 words, we can also use word2vec to fill in the blank of partial analogies of the form "*x is to y as z is to _____*":
+Given 3 words, we can also use word vector to fill in the blank of partial analogies of the form "*x is to y as z is to _____*":
 
 ```
 Enter a word or 'x:y as z:'
@@ -34,7 +34,7 @@ Your goal is to implement a simple "shell" that repeatedly accepts either a word
 
 Imagine trying to compare two documents for similarity. One document might be about "Installing Windows software" and another one might be about "Deinstalling Microsoft programs."  Because there are no words in common, at least for these titles, it's hard for a computer to tell these titles are related. A human, on the other hand, can easily equate Windows with Microsoft and software with programs etc., thus, finding the titles similar.
 
-Until 2013, software could really only compare two words for exact match or a so-called *edit distance* (how many character edits to go from one word to the other). With word2vec, we have a model for the "meaning" of a word in the form of a big vector of floats (usually 50 to 300 dimensional). These vectors are derived from a neural network that learns to map a word to an output vector such that neighboring words in some large corpus are close in 300-space. ("*The main intuition underlying the model is the simple observation that ratios of word-word co-occurrence probabilities have the potential for encoding some form of meaning.*" see [GloVe project](https://nlp.stanford.edu/projects/glove/)) For example, given the words `king`, `queen`, and `cat` here is a two-dimensional projection of the vectors for those words and the 4 nearest to those words (there is some overlap):
+Until 2013, software could really only compare two words for exact match or a so-called *edit distance* (how many character edits to go from one word to the other). With word vector, we have a model for the "meaning" of a word in the form of a big vector of floats (usually 50 to 300 dimensional). These vectors are derived from a neural network that learns to map a word to an output vector such that neighboring words in some large corpus are close in 300-space. ("*The main intuition underlying the model is the simple observation that ratios of word-word co-occurrence probabilities have the potential for encoding some form of meaning.*" see [GloVe project](https://nlp.stanford.edu/projects/glove/)) For example, given the words `king`, `queen`, and `cat` here is a two-dimensional projection of the vectors for those words and the 4 nearest to those words (there is some overlap):
 
 <img src="figures/wordvec1.png" width=400>
 
@@ -75,9 +75,9 @@ where you just have to fill in the arguments to `analogies(...)` and `closest_wo
 
 Users can kill the running program when they are done using control-C or can it control-D (on unix) to mean "end of file", thus, forcing the `raw_input()` to return `None`. That makes the loop terminate and therefore the program.
 
-### Getting word2vec data
+### Getting word vector data
 
-The first thing your program needs to do is load the word2vec "database" or table. Download the [6B tokens, 400K vocab, uncased, 50d, 100d, 200d, & 300d vectors, 822 MB download](http://nlp.stanford.edu/data/glove.6B.zip) file from the [GloVe project](https://nlp.stanford.edu/projects/glove) and unzip it. Save the resulting files somewhere useful like a `~/data/glove` directory in your home directory because it will be useful for other projects. There are files for different vector sizes (50, 100, 200, 300):
+The first thing your program needs to do is load the word vector "database" or table. Download the [6B tokens, 400K vocab, uncased, 50d, 100d, 200d, & 300d vectors, 822 MB download](http://nlp.stanford.edu/data/glove.6B.zip) file from the [GloVe project](https://nlp.stanford.edu/projects/glove) and unzip it. Save the resulting files somewhere useful like a `~/data/glove` directory in your home directory because it will be useful for other projects. There are files for different vector sizes (50, 100, 200, 300):
 
 ```bash
 $ ls ~/data/glove/

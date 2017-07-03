@@ -1,6 +1,11 @@
 # Loading files
 
-The goal of this lecture-lab is to learn how to extract data from files on your laptop's disk. We'll load words from a text file and numbers from data files.  Along the way, will learn more about filenames and paths to files. To make loading data meaningful, we'll also learn how to generate histograms from data files using [matplotlib](https://matplotlib.org/).
+The goal of this lecture-lab is to learn how to extract data from files on your laptop's disk. We'll load words from a text file and numbers from data files.  Along the way, will learn more about filenames and paths to files. The first two elements of our generic analytics program template says to acquire data and then load it into a data structure:
+
+1. Acquire data, which means finding a suitable file or collecting data from the web and storing in a file
+2. Load data from disk and place into memory organized into data structures
+
+For now, we'll satisfy the first step by just downloading ready-made data files from the web by hand. In [MSAN692 -- Data Acquisition](https://github.com/parrt/msan692), we'll learn all about how to pull data from the web programmatically. This lecture focuses on the second step in the analytics program template.
 
 ## What are files?
 

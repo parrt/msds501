@@ -76,6 +76,8 @@ and then split on the space character (In Excel, you use `Data` > `Text to Colum
 
 We could "undo" this split using a *combine* operation with the string concatenation operator, which would combine first and last names together into a new stream containing full names again.
 
+Another common use of splitting is to take a string containing numbers and split it into a list with those numbers. We'll see this again when we look at loading comma-separated value (CSV) files.
+
 <a name="sort"></a>
 ## Sort
 

@@ -238,6 +238,16 @@ for i in range(len(X)):
 
 This loop implements the slice pattern that extracts a subset of elements from a list. In this case, it is choosing elements in range a..b of `X`, inclusively, and adding them to `Y`.
 
+That implementation is very inefficient because it wants the entire list to get the elements in a range. It's much faster and easier to understand if we change the bounds of the loop to the range of interest:
+
+```python
+a = 2
+b = 5
+Y = []
+for i in range(a, b+1):  # range is [a,b]
+    Y.append(X[i])
+```
+
 ## Summary
 
 Written code is an important part of being a programmer. Code is how programmers communicate. It's how we are able to use extra libraries effectively, how we debug, and how we gain experience.

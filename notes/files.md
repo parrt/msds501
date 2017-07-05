@@ -294,7 +294,7 @@ The `delimiter` indicates that commas separate the data elements on a line and `
 ...
 ```
 
-We'll see this stuff again in [Massaging and Visualizing Data](data.md).
+We'll see this stuff again in [Manipulating and Visualizing Data](data.md).
 
 ## Processing files line by line
 

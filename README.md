@@ -76,7 +76,8 @@ Common programming tools
 Key programming patterns
 
 * [Loading files](notes/files.md)
-* [Visualizing Data](notes/data.ipynb)
+* [Manipulating and Visualizing Data](notes/data.ipynb)
+* [Text Information Retrieval](notes/text.ipynb)
 
 Iterative computation and optimization
 

@@ -77,7 +77,7 @@ Key programming patterns
 
 * [Loading files](notes/files.md)
 * [Manipulating and Visualizing Data](notes/data.ipynb)
-* [Text Information Retrieval](notes/text.ipynb)
+* [Extracting information from text](notes/text.ipynb)
 
 Iterative computation and optimization
 

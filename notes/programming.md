@@ -1,5 +1,8 @@
 # How to Program
 
+*Computer Science is no more about computers than astronomy is about telescopes.*<br>
+&nbsp;&nbsp;&nbsp;&nbsp;— Edsger Dijkstra
+
 ## What is programming?
 
 When we think about programming, we immediately think about programming languages because we express ourselves using specific language syntax. But, that is like asking a physicist in which language they discuss physics. Programming is mostly about converting "word problems" (project descriptions) to an execution plan. The final act of entering code is required, of course, but learning to solve programming problems mentally is the most difficult process and is the most important.

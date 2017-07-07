@@ -9,7 +9,7 @@ This 5-week computational analytics bootcamp is part of the [MS in Analytics pro
 
 **SPATIAL COORDINATES.** 101 Howard 5th floor classroom 529. My office is room 608.
 
-**TEMPORAL COORDINATES.** Thursday/Friday Sec01 10am-12pm, Sec02 1-3pm; July 13 (Thu) - August 11 (Fri).
+**TEMPORAL COORDINATES.** Thursday/Friday Sec01 10am-12pm, Sec02 1-3pm; July 13 (Thu) - August 11 (Fri). *One exception: Thur 20th class moved to Tue 18th.*
 
 **INSTRUCTION FORMAT**. Class runs for 2 hours, 2 days per week. Instructor-student interaction during lecture is encouraged and we'll mix in mini-exercises / labs during class. All programming will be done in the Python 2 programming language, unless otherwise specified.
 
@@ -61,17 +61,17 @@ Learning to design programs
 * [Model of Computation](notes/computation.md)
 * [Common lower-level programming patterns](notes/combinations.md)
 
+Common programming tools
+
+* [Bash your way to victory](notes/bash-intro.md)
+* [Introduction to git and revision control](notes/git.md)
+
 Implementing program work plans (actual coding)
 
 * [Introduction to Python coding](notes/coding.ipynb)
 * [Programming Patterns in Python](notes/python-patterns.ipynb)
 * [Organizing your code with functions](notes/coding-functions.ipynb)
 * [How to read code](notes/reading-code.md)
-
-Common programming tools
-
-* [Bash your way to victory](notes/bash-intro.md)
-* [Introduction to git and revision control](notes/git.md)
 
 Key programming patterns
 

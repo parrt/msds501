@@ -279,7 +279,7 @@ It is possible to slow music down and <b>not</b> change the pitch, which is real
 
 ## Solution
 
-You can find all of the code for this lab in the [msan501 class repository](https://github.com/parrt/msan501/tree/master/labs/code/sound). Here are the [sound files](https://github.com/parrt/msan501/tree/master/data/sound).
+You can find all of the code for this lab in the [msan501 class repository](https://github.com/parrt/msan501/tree/master/labs/code/sound). Here are the [sound files](https://github.com/parrt/msan501/tree/master/notes/sound).
 
 ## Summary
 

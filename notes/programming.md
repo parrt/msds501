@@ -1,6 +1,6 @@
 # How to Program
 
-*Computer Science is no more about computers than astronomy is about telescopes.*<br>
+<p align="right">*Computer Science is no more about computers<br>than astronomy is about telescopes.*<br>
 &nbsp;&nbsp;&nbsp;&nbsp;— Edsger Dijkstra
 
 ## What is programming?

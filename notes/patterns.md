@@ -1,6 +1,6 @@
 # Common Programming Patterns
 
-As we discussed above, programmers draw from a set of  templates when choosing an overall program plan. The same is true of the individual operations themselves.  Programmers have a catalog of common operations that they rely on when choosing the steps of a plan.  We can call these common operations (and their mapping to code) *programming patterns*.
+As we've discussed, programmers draw from a set of templates when choosing an overall program plan. The same is true of the individual operations themselves.  Programmers have a catalog of common operations that they rely on when choosing the steps of a plan.  We can call these common operations (and their mapping to code) *programming patterns*.
 
 We've already seen a number of these patterns, such as:
 
@@ -14,7 +14,7 @@ But we can abstract those further into:
 
 The more abstract the pattern, the more widely applicable it is. For example, counting the number of elements is actually just a special case of (the more abstract) accumulating a value while traversing a sequence. Instead of adding the values at each position in a sequence, we would always just add one. 
 
-The kinds of patterns we use depends partly on a programmer's style but is heavily influenced by the capabilities of the programming language and its libraries of pre-existing functionality. Let's identify some of the most useful patterns and then try to plan out some programs using them.
+The kinds of patterns we use depends partly on a programmer's style but is heavily influenced by the capabilities of the programming language and its libraries of pre-existing functionality. Let's identify some of the most useful patterns. Later we'll plan out programs using them.
 
 <a name="map"></a>
 ## Map
@@ -76,7 +76,7 @@ and then split on the space character (In Excel, you use `Data` > `Text to Colum
 
 We could "undo" this split using a *combine* operation with the string concatenation operator, which would combine first and last names together into a new stream containing full names again.
 
-Another common use of splitting is to take a string containing numbers and split it into a list with those numbers. We'll see this again when we look at loading comma-separated value (CSV) files.
+Another common use of splitting is to take a string representing a string of numbers and split it into a list with those numbers. We'll see this again when we look at loading comma-separated value (CSV) files in [Loading files](https://github.com/parrt/msan501/blob/master/notes/files.md).
 
 <a name="sort"></a>
 ## Sort
@@ -145,6 +145,18 @@ The search pattern can even be used within a string (list of characters) to find
 
 To determine the index of the end of the string, programmers tend to use the length of the string. The length works out to be an index whose value is one past the end of the string, which is what we want for a slice using an exclusive right index.
 
-In addition to these powerful patterns, we can of course also use arithmetic and perform conditional operations such as "*if x<0 then print negative*".
+## Summary
+
+The two most commonly-used patterns are probably map and filter but here's a handy list:
+
+* Map.  Apply an operator or function to every element of a sequence.
+* Accumulate.  Accumulate a value or values while traversing a sequence.
+* Combine.  Create a new sequence by combining values from multiple sequences.
+* Split. Split one sequence into multiple.
+* Sort. Sort a list or sort a table by a column.
+* Slice.  Extract a continuous subset of a list.
+* Remove duplicates.  Convert a list to a set, with unique elements.
+* Filter. Extract a subset of a sequence whose values satisfy a specific condition.
+* Search. Find the first or last index (position) of a specific value in a list.
 
 Armed with these patterns and the overall program template, we are ready to start programming by planning out programs using pseudocode.

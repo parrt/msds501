@@ -46,7 +46,7 @@ All of these lists have one thing in common: the type of element is the same. Th
 
 <img src=images/sample-row.png width=800>
 
-Heterogeneous lists are typically used to group bits of information about a particular entity. In machine learning, we call this a **feature vector**, an **instance**, or an **observation**.  For example, an apples versus oranges classifier might have feature vectors containing weight (number), volume (number), and color (string).  The important point here is that a list can also be used to as a way to aggregate features about a particular entity. The sequence of the elements is less important than the fact that they are contained (aggregated) within the same list. We will see this notion again when we talk about *tuples* in [Extracting information from text](<img src="images/redbang.png" width=30 align="left">).
+Heterogeneous lists are typically used to group bits of information about a particular entity. In machine learning, we call this a **feature vector**, an **instance**, or an **observation**.  For example, an apples versus oranges classifier might have feature vectors containing weight (number), volume (number), and color (string).  The important point here is that a list can also be used to as a way to aggregate features about a particular entity. The sequence of the elements is less important than the fact that they are contained (aggregated) within the same list. We will see this notion again when we talk about *tuples* in [Extracting information from text](text.ipynb).
 
 ### Set
 

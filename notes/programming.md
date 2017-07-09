@@ -3,17 +3,29 @@
 <p align="right"><i>Computer Science is no more about computers<br>than astronomy is about telescopes.</i><br>
 &nbsp;&nbsp;&nbsp;&nbsp;— Edsger Dijkstra
 
+I remember being confronted with my first programming task (BASIC in 1980!) and drawing a complete blank. I didn't even know how to start solving the problem. I was stumped, despite the fact that coding would quickly become very natural for me. The reason for my difficulies is now obvious to me: The instructor provided absolutely no technique or strategy for converting a problem into a running program.  I had to figure that out on my own.
+
+The approach of focusing on the syntax of a programming language in introductory courses is understandable.  Problem-solving is not a precise, well-defined skill.  It's more of an overall ability that gets honed with practice. Teaching and grading it is therefore challenging. It's much easier to jump immediately into the syntax of some simple programming language statements. Such an approach is concrete, and in principle, easy to understand but totally skips the part about why and when we need those statements. Professors that could survive in that environment as students usually go on to perpetuate the sink-or-swim approach when teaching other programmers.
+ 
+In this course, I'd like to rectify that by focusing on how to solve problems before learning to write Python code.  To do that, we're going to follow an overall problem-solving strategy that involves completing a "work plan." The work plan helps us think about the problem long before we get to the coding phase. Part of the plan is to identify a suitable sequence of operation that solves our problem.  This is the tricky bit so we'll reduce the scope of the solution space by: (1) restricting ourselves to a common set of operations and data structures, (2) applying well-established methods we can call "working backwards" and "reducing to a known solution", and finally, (3) taking advantage of the topic-specific nature of this introductory course to adopt a program outline that'll work for most analytics problems. When we do finally get to Python programming, we'll restrict ourselves to a useful subset of the language. The goal is to teach you to program, not teach you the complete Python language.
+
+To begin, I'd like to make a distinction between <b>programming</b> (problem solving) and <b>coding</b> (expressing our solution in a particular programming language).
+
 ## What is programming?
 
 When we think about programming, we immediately think about programming languages because we express ourselves using specific language syntax. But, that is like asking a physicist in which language they discuss physics. Programming is mostly about converting "word problems" (project descriptions) to an execution plan. The final act of entering code is required, of course, but learning to solve programming problems mentally is the most difficult process and is the most important.
 
 The same is true for natural languages. Learning to prove mathematical theorems is harder than learning to write up proofs in some natural language. In fact, much of the mathematical syntax is the same across natural languages just as it is for programming languages.  Expressing your thoughts in Python or R, as you will do in the analytics program, is the simplest part of the programming process. That said, writing correct code is often the most frustrating and time-consuming part of the process even for experienced programmers.
 
-Programming is more about *what* to say rather than *how* to say it. Solving a problem with a computer means identifying a sequence of operations, each of which solves a piece of the overall problem. Each operation might itself be a sequence of suboperations.  Expressing those operations in Python or R is not the hard part. Identifying which operations are necessary and their relative order is the hard part.
+Programming is more about *what* to say rather than *how* to say it.  Solving a problem with a computer means identifying a sequence of operations, each of which solves a piece of the overall problem. Each operation might itself be a sequence of suboperations.  Expressing those operations in Python or R is not the hard part. Identifying which operations are necessary and their relative order is the hard part. At the start of this course, we'll focus on the programming part but gradually fold in the coding part to learn Python syntax and semantics.
+
+## Getting started
+
 
 The good news is that all of the analytics and machine learning problems you'll likely run into can be solved using the same generic program outline, which we'll discuss shortly. Before that, we should come up with an overall strategy for attacking programming problems.
 
 ## Problem-solving strategy
+
 
 The following steps represent an overall problem-solving strategy for designing analytics programs.
 

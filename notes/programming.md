@@ -1,9 +1,9 @@
-# How to Program
+# Introduction to programming
 
 <p align="right"><i>Computer Science is no more about computers<br>than astronomy is about telescopes.</i><br>
 &nbsp;&nbsp;&nbsp;&nbsp;— Edsger Dijkstra
 
-I remember being confronted with my first programming task (BASIC in 1980!) and drawing a complete blank. I didn't even know how to start solving the problem. I was stumped, despite the fact that coding would quickly become very natural for me. The reason for my difficulies is now obvious to me: The instructor provided absolutely no technique or strategy for converting a problem into a running program.  I had to figure that out on my own.
+I remember being confronted with my first programming task (BASIC in 1980!) and drawing a complete blank. I didn't even know how to start solving the problem. I was stumped, despite the fact that coding would quickly become very natural for me. The reason for my initial difficulty is now obvious: The instructor provided absolutely no technique or strategy for converting a problem into a running program.  I had to figure that out on my own.
 
 The approach of focusing on the syntax of a programming language in introductory courses is understandable.  Problem-solving is not a precise, well-defined skill.  It's more of an overall ability that gets honed with practice. Teaching and grading it is therefore challenging. It's much easier to jump immediately into the syntax of some simple programming language statements. Such an approach is concrete, and in principle, easy to understand but totally skips the part about why and when we need those statements. Professors that could survive in that environment as students usually go on to perpetuate the sink-or-swim approach when teaching other programmers.
  
@@ -29,11 +29,11 @@ Regardless of the software we're trying to write, there is an overall problem-so
 
 **Step two** is to figure out what data or input, our raw materials, that we need to achieve the goal. Without the right data, we can't solve the problem. For example, I once mentored a student practicum team whose goal was to identify which customers of a website would upgrade to a professional account. The students only had data on users that had upgraded and no data on users who declined to upgrade. Whoops! You can't build an apples versus oranges classifier if you only have data on apples. If you don't have all the data you need, it's important to identify this requirement as part of the problem-solving process.  Data acquisition often requires programming and we'll revisit the topic below as part of our generic program outline.
 
-**Step three** of the problem-solving process is to write out some input-output pairs by hand. Doing so helps us understand what the program will need to do and how it might do it. As we will see, this technique works not only for the overall input and output, but also works great for designing functions (reusable bits of code). We can't automate operations with code if we can't identify the operations manually. Moreover, listing a bunch of cases usually highlights special cases, such as "when the input is negative, the output should be empty". In other words, the program should not crash with a negative number as input. Programmers call this *test-driven design*.
+**Step three** of the problem-solving process is to write out some input-output pairs by hand. Doing so helps us understand what the program will need to do and how it might do it. As we will see, this technique works not only for the overall input and output, but also works great for designing [functions](functions.md) (reusable bits of code). We can't automate operations with code if we can't identify the operations manually. Moreover, listing a bunch of cases usually highlights special cases, such as "when the input is negative, the output should be empty". In other words, the program should not crash with a negative number as input. Programmers call this *test-driven design*.
 
 At this point, we've actually set the stage necessary to solve problems and we haven't thought about code at all. We started with the end result and then identified the data we need. The input-output pairs neatly bracket the computation we need to perform. At the beginning, we have the known data and, at the end, we have the expected output or work product. Ok, onto the programming steps.
 
-**Step four** is to identify the sequence of operations that will compute the expected result.  Sometimes this is called an *algorithm*.  Unlike the output-focused goal from step one, this step involves planning out the specific operations and suboperations that chew on the input data, gradually transforming it into the expected output. We'll learn how to make such plans below.
+**Step four** is to identify the sequence of operations that will compute the expected result.  Sometimes this is called an *algorithm* and involves planning out the specific operations and suboperations that chew on the input data, gradually transforming it into the expected output. 
 
 In **Step five**, we translate the operations in our plan to actual executable code. This step deserves an entire book but here's a summary of my advice. Start with the simplest  suboperations and make sure they work first. Then code the larger operations that use those suboperations. If there's a problem, you know that it is likely in the new code not the already-tested suboperations. In this phase, we'll normally find problems in our design from step four so we'll typically repeat four and five.  Testing functionality and fixing errors is called *debugging*.
 
@@ -41,11 +41,11 @@ Finally, **step six** is to check our overall results for correctness.  The most
 
 And now for a dose of reality. The world is a big messy place and, since we know the least about a problem at the start, we typically need to repeat or bounce around through some or all of these steps. For example, let's say we're building an apples vs oranges classifier and the above process leads to a program that doesn't distinguish between the two fruit very well. Perhaps we only have data on size and shape. We might decide that the classifier needs data on color so it's back to step two (and possibly step three) then step six to check the results again.
 
-So now we have an overall strategy for problem solving. It's time to think about actually programming a solution. Let's start by looking at a program outline that'll help us get started with the majority of analytics programs.
+Now that we have an overall strategy for problem solving, let's look at a program outline that'll help us get started with the programming in step four.
 
 ## Analytics program template
 
-I remember being confronted with my first programming task (BASIC in 1980!) and drawing a complete blank. I didn't even know how to start solving the problem.  It turns out that experienced programmers draw from a collection of generic mental templates as starting points. There are templates for desktop GUI apps, machine learning classifiers, web servers, etc....  A template provides an overall structure for the program and the programmer just has to tailor it to a specific problem.
+Experienced programmers draw from a collection of generic mental templates as starting points. There are templates for desktop GUI apps, machine learning classifiers, web servers, etc....  A template provides an overall structure for the program and the programmer just has to tailor it to a specific problem.
 
 Relying on mental or even physical templates is very common, not just in programming. Lawyers have generic templates for contracts and screenwriters have generic scripts for the various movie genres. For example, most action movies go like this: Meet the bad guy. Meet the hero/heroine. Chase scene. Hero/heroine overcomes great difficulties to defeat the bad guy and his minions.  Programming is most similar to writing legal documents because of the required precision. A missing word or punctuation can crash a program or bankrupt a contract signatory. (e.g., see [The Typo that Destroyed a NASA Rocket](https://priceonomics.com/the-typo-that-destroyed-a-space-shuttle)).
 
@@ -65,7 +65,7 @@ Writing a program for a specific problem means figuring out what each of those s
 4. Compute the average of the numbers in the list
 5. Print the average
 
-This problem is easy enough that most of us could outline a solution without explicitly and formally breaking it down in this manner. The point is that this template provides a framework to solve more difficult problems and you should get used to applying the template. At the very least, it's a way to get started on a project.
+This problem is easy enough that most of us could outline a solution without explicitly and formally breaking it down in this manner. The point is that this template provides a framework to solve more difficult problems and you should get used to applying the template.
 
 ## Intro to planning out a program
 

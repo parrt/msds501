@@ -14,7 +14,7 @@ But we can abstract those further into:
 
 The more abstract the pattern, the more widely applicable it is. For example, counting the number of elements is actually just a special case of (the more abstract) accumulating a value while traversing a sequence. Instead of adding the values at each position in a sequence, we would always just add one. 
 
-The kinds of patterns we use depends partly on a programmer's style but is heavily influenced by the capabilities of the programming language and its libraries of pre-existing functionality. Let's identify some of the most useful patterns. Later we'll plan out programs using them.
+The kinds of patterns we use depends partly on a programmer's style but is heavily influenced by the capabilities of the programming language and its libraries of pre-existing functionality. Let's examine some of the most useful patterns and relate them to operations we are familiar with from spreadsheets. Later we'll plan out programs using them.
 
 <a name="map"></a>
 ## Map
@@ -159,4 +159,4 @@ The two most commonly-used patterns are probably map and filter but here's a han
 * Filter. Extract a subset of a sequence whose values satisfy a specific condition.
 * Search. Find the first or last index (position) of a specific value in a list.
 
-Armed with these patterns and the overall program template, we are ready to start programming by planning out programs using pseudocode.
+Armed with these patterns and the overall program template, we are ready to start programming by [planning out programs](planning.md).

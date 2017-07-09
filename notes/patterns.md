@@ -145,6 +145,18 @@ The search pattern can even be used within a string (list of characters) to find
 
 To determine the index of the end of the string, programmers tend to use the length of the string. The length works out to be an index whose value is one past the end of the string, which is what we want for a slice using an exclusive right index.
 
+## Combinations of patterns
+
+We can combine the programming patterns described here to form even more complex patterns. The simplest and most common is a sequence of two or more patterns.  For example, we might *filter* a list to remove negative values then *sort* before printing.
+
+Sequences occur even in simple arithmetic expressions that we often think of as one operation. For example, in the following algebraic expression, we have to do the multiplication first and then add in the shipping cost (according to the rules of arithmetic).
+
+<i>shipping + unitprice * units</i>
+
+When writing out the plan for a program, always keep in mind that the computer is executing one operation after the other so the setting up the right sequence is critical.
+
+After we learn more about program planning (up next), we'll see in [Model of Computation](computation.md) that programs can execute statements conditionally or even repeat a pattern until a condition is met.
+
 ## Summary
 
 The two most commonly-used patterns are probably map and filter but here's a handy list:

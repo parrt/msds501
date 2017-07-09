@@ -25,16 +25,18 @@ Because we're just learning to program, we're going to use this program outline 
 * [Combine](patterns.md#combine).  Create a new sequence by combining values from multiple sequences.
 * [Split](patterns.md#split). Split one sequence into multiple.
 * [Sort](patterns.md#sort). Sort a list or sort a table by a column.
-* [Slice](patterns.md#slice).  Extract a continuous subset of a list.
+* [Slice](patterns.md#slice). Extract a continuous subset of a list.
 * [Remove duplicates](patterns.md#uniquify).  Convert a list to a set, with unique elements.
 * [Filter](patterns.md#filter). Extract a subset of a sequence whose values satisfy a specific condition.
 * [Search](patterns.md#search). Find the first or last index (position) of a specific value in a list.
 
-To design a program, we're going to break the problem down into operations and suboperations while following the general outline. But, how do we know which operations we need to plan out a program? The easiest way is to follow this guideline:
+To design a program, we break the problem down into operations and suboperations following the general outline. We continue decomposing large operations into a sequence of smaller operations until we reach a level of granularity that can be directly expressed in our programming language. 
 
-*Start with the end result and work your way backwards, fulfilling prerequisites*.
+But, how do we know which operations we need to plan out a program? Here's the key to converting an English description (a "word problem") into a sequence of operations:
 
-In other words, the step or steps preceding step *i* compute the data or values needed by step *i*.
+<img src="images/redbang.png" width=30 align="left">*Start with the end result and work your way backwards, asking what the prerequisites are for each step*.
+
+In other words, the step or steps preceding step *i* compute the data or values needed by step *i*. For example, we cannot print the average of some numbers before we compute that average. We can't compute that value until we load those numbers into memory etc...
 
 This approach is a well-known architectural and engineering trick. For example, imagine you want to erect a heavy statue 10 feet off the ground. A structural engineer might decide that the heavy statute needs a flat metal base directly underneath it. Then, to support all of that weight, four 10 foot steel beams should support the metal base. The beams should have deep concrete footings, and so on.
 

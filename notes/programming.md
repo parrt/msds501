@@ -9,7 +9,7 @@ The approach of focusing on the syntax of a programming language in introductory
  
 In this course, I'd like to rectify that by focusing on how to solve problems before learning to write Python code.  To do that, we're going to follow an overall problem-solving strategy that involves completing a "work plan." The work plan helps us think about the problem long before we get to the coding phase. Part of the plan is to identify a suitable sequence of operation that solves our problem.  This is the tricky bit so we'll reduce the scope of the solution space by: (1) restricting ourselves to a common set of operations and data structures, (2) applying well-established methods we can call "working backwards" and "reducing to a known solution", and finally, (3) taking advantage of the topic-specific nature of this introductory course to adopt a program outline that'll work for most analytics problems. When we do finally get to Python programming, we'll restrict ourselves to a useful subset of the language. The goal is to teach you to program, not teach you the complete Python language.
 
-To begin, I'd like to make a distinction between <b>programming</b> (problem solving) and <b>coding</b> (expressing our solution in a particular programming language).
+Allow me to begin by making a distinction between <b>programming</b> (problem solving) and <b>coding</b> (expressing our solution in a particular programming language).
 
 ## What is programming?
 

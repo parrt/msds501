@@ -1,6 +1,6 @@
 # Representing data in memory
 
-So far, we've glossed over the details of loading data into memory from disk (step 2 in our plan above) but the way we represent data in memory is critical to building programs. This is particularly true with analytics programs because processing data is our focus.  Let's take a bit of a detour into computer architecture to get a handle on what it means to load something into memory.
+Step 2 from our program outline calls for us to "Load data from disk and place into memory organized into data structures". The way we represent data in memory is critical to building programs. This is particularly true with analytics programs because processing data is our focus.  Let's take a small detour into computer architecture to get a handle on what it means to load something into memory.
 
 A computer consists of three primary components: a disk to hold data, a memory (that is wiped upon power off), and a processor (CPU) to process that data. Here is a picture of an actual CPU and some memory chips:
 
@@ -34,7 +34,7 @@ These basic data types (integers, floating-point numbers, and strings) are our b
 
 ### List
 
-One of the most common *data structures* is the **list**, which is just a sequence of memory cells.  Because we're all familiar with spreadsheets, let's visualize these data structures using a spreadsheet.  Columns in a spreadsheet are really lists, such as the following lists/columns of integers, floating-point numbers, and strings:
+The most common *data structures* is the **list**, which is just a sequence of memory cells.  Because we're all familiar with spreadsheets, let's visualize these data structures using a spreadsheet.  Columns in a spreadsheet are really lists, such as the following lists/columns of integers, floating-point numbers, and strings:
 
 <img src=images/int-list.png width=60>&nbsp;&nbsp;<img src=images/float-list.png width=80>&nbsp;&nbsp;<img src=images/names-list.png width=139>
 
@@ -85,8 +85,6 @@ This notion of traversal abstracts to any **sequence** (or **stream**) of elemen
 
 For lists and other structures that fit completely in memory, we often find a **reverse traversal** useful, that examines elements from last to first.
 
-At this point, we have a rough idea how to plan out a program by working backwards from the result and we have an idea how to represent data in memory. To further clarify how to plan out a program, we need to consider the set of possible operations.
-
 ## Summary
 
 Here are the commonly-used data types:
@@ -100,4 +98,6 @@ And here are the commonly-used data structures:
 * ordered list
 * set (just an unordered, unique list)
 * list of lists such as tables or matrices with rows and columns 
-* dictionary such as mapping a student name to their student ID; we can think of this as a table where each row in the table associates the key with a value.Is
+* dictionary such as mapping a student name to their student ID; we can think of this as a table where each row in the table associates the key with a value.
+
+Now that we know what data looks like in memory, let's consider a small but powerful set of possible operations we can do on that data in [Common Programming Patterns](patterns.md).

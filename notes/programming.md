@@ -67,38 +67,6 @@ Writing a program for a specific problem means figuring out what each of those s
 
 This problem is easy enough that most of us could outline a solution without explicitly and formally breaking it down in this manner. The point is that this template provides a framework to solve more difficult problems and you should get used to applying the template.
 
-## Intro to planning out a program
-
-The program template gives an overall outline for the coarsest-grained operations of the program but we'll need to break each of those operations down further and further into suboperations. We continue decomposing large operations into a sequence of smaller operations until we reach a level of granularity that can be directly expressed in our programming language.
-
-<img src="images/redbang.png" width=30 align="left">Here's the key to converting an English description (a "word problem") into a sequence of operations: *start at the end result and work backwards asking what the prerequisites are for each step*. 
-
-For example, we cannot print the average of some numbers before we compute that value. We can't compute that value until we load those numbers into memory etc...
-
-This "working backwards" mechanism even helps us break down operations like "compute the average" into sequences of suboperations.  Computing the average requires that we compute the sum and count how many numbers there are (average is sum/length).  Computing the sum and counting the numbers can't happen until we load the numbers into memory from the disk. Depending on the libraries available to us in a particular programming language, we might need to break down "compute sum" and "count how many numbers" operations further.  For now, let's assume that those operations are either built-in or available as library functions. Altogether, then, the plan for our program looks like:
-
-1. Locate a file with some numbers
-2. Load the data from the file into a list structure in memory
-3. Compute the sum of the numbers in the list
-4. Count the numbers in the list (compute the list length)
-5. Compute average as sum divided by length
-6. Print the average
-
-(Note that the step numbers no longer correspond directly to the standard program template since we have decomposed the steps into suboperations.)
-
-The steps in this plan are fine-grained enough to be converted one-to-one to programming statements.  At that point, we have an executable program.  The hard part is coming up with a suitable plan, not converting it to code. 
-
-This semi-precise English is what programmers call **pseudocode** and will be the way we plan out programs, whether out loud, on paper, or in a text file. 
-
-Operation sequences occur even in simple arithmetic expressions that we often think of as one operation. For example, in the following algebraic expression, we have to do the multiplication first and then add in the shipping cost (according to the rules of arithmetic).
-
-<i>shipping + unitprice * units</i>
-
-When writing out the plan for a program, always keep in mind that the computer is executing one operation after the other so the setting up the right sequence is critical.
-
-Next up:
-
-* [Representing data in memory](data-in-memory.md)
-* [Common programming patterns](patterns.md)
+**Roadmap**. To fill in the operations for the various steps in the outline, we need to know what kind of operations are possible, which we'll explore in [Common programming patterns](patterns.md). Before we can operate on data, however, that data needs to be loaded into memory and so we need to learn about [Representing data in memory](data-in-memory.md).  At that point, we'll have an overall strategy, an overall program outline, and a set of common operations to choose from. We can then start planning out some programs.
 
 **Acknowledgements**. Conversations with [Kathi Fisler](http://cs.brown.edu/~kfisler/) provided a lot of inspiration for the disciplined, planned approach to programming summarized here. For more on design recipes, see [Transferring Skills at Solving Word Problems from Computing to Algebra Through Bootstrap](https://cs.brown.edu/~sk/Publications/Papers/Published/sfkf-trans-word-prob-comp-alg-bs/paper.pdf).

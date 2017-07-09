@@ -13,21 +13,17 @@ To begin, I'd like to make a distinction between <b>programming</b> (problem sol
 
 ## What is programming?
 
-When we think about programming, we immediately think about programming languages because we express ourselves using specific language syntax. But, that is like asking a physicist in which language they discuss physics. Programming is mostly about converting "word problems" (project descriptions) to an execution plan. The final act of entering code is required, of course, but learning to solve programming problems mentally is the most difficult process and is the most important.
+When we think about programming, we immediately think about programming languages because we express ourselves using specific language syntax. But, that is like asking a physicist in which language they discuss physics. **Programming** is mostly about converting "word problems" (project descriptions) to an execution plan. The final act of **coding** (entering code) is required, of course, but learning to solve programming problems mentally is the most difficult process and is the most important.
 
 The same is true for natural languages. Learning to prove mathematical theorems is harder than learning to write up proofs in some natural language. In fact, much of the mathematical syntax is the same across natural languages just as it is for programming languages.  Expressing your thoughts in Python or R, as you will do in the analytics program, is the simplest part of the programming process. That said, writing correct code is often the most frustrating and time-consuming part of the process even for experienced programmers.
 
-Programming is more about *what* to say rather than *how* to say it.  Solving a problem with a computer means identifying a sequence of operations, each of which solves a piece of the overall problem. Each operation might itself be a sequence of suboperations.  Expressing those operations in Python or R is not the hard part. Identifying which operations are necessary and their relative order is the hard part. At the start of this course, we'll focus on the programming part but gradually fold in the coding part to learn Python syntax and semantics.
-
-## Getting started
-
+Programming is more about *what* to say rather than *how* to say it.  Solving a problem with a computer means identifying a sequence of operations, each of which solves a piece of the overall problem. Each operation might itself be a sequence of suboperations.  Expressing those operations in Python or R is not the hard part. Identifying which operations are necessary and their relative order is the hard part.
 
 The good news is that all of the analytics and machine learning problems you'll likely run into can be solved using the same generic program outline, which we'll discuss shortly. Before that, we should come up with an overall strategy for attacking programming problems.
 
 ## Problem-solving strategy
 
-
-The following steps represent an overall problem-solving strategy for designing analytics programs.
+Regardless of the software we're trying to write, there is an overall problem-solving strategy that we can follow.  The first four steps will become our work plan when we get into actual [program planning](planning.md).
 
 **Step one** in any problem-solving situation is to fully understand the problem and clearly identify the goal. It might sound obvious, but any fuzziness in our understanding of the problem could send us off in the wrong direction. In an analytics setting, the goal is usually a question we're trying to answer, such as "*which sales regions show the fastest year-on-year growth?*" (summary statistics), "*which transactions are fraudulent?*" (classifier) or "*what will a stock price be at a future date?*" (predictor). We should be able to precisely articulate the goal and the expected output using English words. If we can't do that, then no amount of coding expertise in Python or R will solve the problem. We'll see some examples shortly.
 

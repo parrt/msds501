@@ -129,7 +129,7 @@ Another pattern uses nested for-each loops instead of indexed loops, which makes
 
 ## Filtering sequences
 
-One of the most common nested operations is a conditional inside of a loop. We use it to implement the [filter](patterns.md#filter) pattern, for example. The filter template looks like:
+One of the most common nested operations is a conditional inside of a loop. We use it to implement the [filter](operations.md#filter) pattern, for example. The filter template looks like:
 
 for each *x* in *sequence*:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;if *condition*: add *x* to new list<br>
@@ -158,7 +158,7 @@ The template for searching a sequence of length *n* for element *e* looks like t
 *for i in 0..n-1:*<br>
 &nbsp;&nbsp;&nbsp;&nbsp;if *sequence<sub>i</sub>* = *e*: *index* = *i*
 
-For example, recall the searching for 999 visualization from the [search pattern](patterns.md#search):
+For example, recall the searching for 999 visualization from the [search operation](operations.md#search):
 
 <img src=images/search-rainfall.png width=180>
 

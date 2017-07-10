@@ -20,15 +20,15 @@ and, for step #4, we have an overall analytics program outline:
 
 Because we're just learning to program, we're going to use this program outline and our set of [common patterns](programming.md) as a crutch. The outline gets us thinking about the kinds of operations we'll need and the set of patterns acts like a vocabulary of known words, helping to reduce the scope of the undertaking. Here's a summary of our programming patterns:
 
-* [Map](patterns.md#map).  Apply an operator or function to every element of a sequence.
-* [Accumulate](patterns.md#accumulate).  Accumulate a value or values while traversing a sequence.
-* [Combine](patterns.md#combine).  Create a new sequence by combining values from multiple sequences.
-* [Split](patterns.md#split). Split one sequence into multiple.
-* [Sort](patterns.md#sort). Sort a list or sort a table by a column.
-* [Slice](patterns.md#slice). Extract a continuous subset of a list.
-* [Remove duplicates](patterns.md#uniquify).  Convert a list to a set, with unique elements.
-* [Filter](patterns.md#filter). Extract a subset of a sequence whose values satisfy a specific condition.
-* [Search](patterns.md#search). Find the first or last index (position) of a specific value in a list.
+* [Map](operations.md#map).  Apply an operator or function to every element of a sequence.
+* [Accumulate](operations.md#accumulate).  Accumulate a value or values while traversing a sequence.
+* [Combine](operations.md#combine).  Create a new sequence by combining values from multiple sequences.
+* [Split](operations.md#split). Split one sequence into multiple.
+* [Sort](operations.md#sort). Sort a list or sort a table by a column.
+* [Slice](operations.md#slice). Extract a continuous subset of a list.
+* [Remove duplicates](operations.md#uniquify).  Convert a list to a set, with unique elements.
+* [Filter](operations.md#filter). Extract a subset of a sequence whose values satisfy a specific condition.
+* [Search](operations.md#search). Find the first or last index (position) of a specific value in a list.
 
 To design a program, we break the problem down into operations and suboperations following the general outline. We continue decomposing large operations into a sequence of smaller operations until we reach a level of granularity that can be directly expressed in our programming language. 
 

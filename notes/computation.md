@@ -1,6 +1,6 @@
 # Model of Computation
 
-In order to make it easier to learn the overall process of program and function planning, we've limited the set of possible operations to a set of common [programming patterns](patterns.md). As with natural language, however, the set of possible program operations is effectively infinite. We can mix and match simple operations to create more complex behavior or tweak common patterns to suit a specific problem.
+In order to make it easier to learn the overall process of program and function planning, we've limited the set of possible operations to a set of common [programming operations](operations.md). As with natural language, however, the set of possible program operations is effectively infinite. We can mix and match simple operations to create more complex behavior or tweak common patterns to suit a specific problem.
 
 Before dropping all the way down to the level of programming language syntax, let's explore the simplest, fine-grained operations that a computer can perform. Ultimately, it is these operations we will draw from to design programs. We're going to stick with pseudocode for now because the precise syntax isn't necessary to learn the computation model. The concepts apply across most programming languages.
 
@@ -141,7 +141,7 @@ Because the print statement does not alter the condition, *true*, the loop does 
 
 In this case, the condition is altered by the "*add 1 to counter*" operation in the loop. When the counter gets to 6, the conditional expression will be false and the loop will terminate.
 
-That counter loop is an example of an [accumulator](patterns.md#accumulator).
+That counter loop is an example of an [accumulator](operations.md#accumulator).
 
 **Exercise**: Write a pseudocode loop to sum the integers from 1 to 8, inclusively.
 
@@ -192,7 +192,7 @@ for each *x* in *sequence*:<br>
 
 where *sequence* is typically a list or set.
 
-The [map](patterns.md#map) pattern used the following image to visualize the operations:
+The [map](operations.md#map) pattern used the following image to visualize the operations:
 
 <img src=images/map-discount-op.png width=390>
 
@@ -201,7 +201,7 @@ We could implement that pattern using:
 *for each price in UnitPrice list*:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;<i>add price * 0.95 to Discounted list</i>
 
-**Exercise**: Write a pseudocode loop for an [accumulator](patterns.md#accumulator) that sums the numbers in a Quantity list.
+**Exercise**: Write a pseudocode loop for an [accumulator](operations.md#accumulator) that sums the numbers in a Quantity list.
 
 **Exercise**: Write a pseudocode loop for the even-odd accumulator:
 
@@ -241,7 +241,7 @@ where *Quantity<sub>i</sub>* is the *i<sup>th</sup>* value of Quantity.  The dif
 
 Because Python starts list indexing at 0, let's stick with that convention and that loop iterates from index 0 to *n*-1 for *n* elements in the lists. The length of Quantity is expressed as *len(Quantity)*.
 
-We tend to use indexed loops, that iterate through a range of integers, when traversing multiple lists at the same time. (To traverse a single list, we'd normally use a for-each loop.) For example, recall the visualization from the [combine programming pattern](patterns.md#combine):
+We tend to use indexed loops, that iterate through a range of integers, when traversing multiple lists at the same time. (To traverse a single list, we'd normally use a for-each loop.) For example, recall the visualization from the [combine programming operation](operations.md#combine):
 
 <img src=images/map-mult.png width=490>
 
@@ -250,7 +250,7 @@ We can implement that pattern using an indexed loop. At each time step, the loop
 *for each value i in set 0..n-1*:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;<i>let Cost<sub>i</sub> be Quantity<sub>i</sub> * UnitPrice<sub>i</sub></i>
 
-**Exercise**: Using an indexed-loop, write pseudocode to [slice](patterns.md#slice) elements in range [0 to 5), indexes (0,1,2,3,4), from a rainfall list into a new list somerainfall. Hint: You'll need: "*add ... to somerainfall*".
+**Exercise**: Using an indexed-loop, write pseudocode to [slice](operations.md#slice) elements in range [0 to 5), indexes (0,1,2,3,4), from a rainfall list into a new list somerainfall. Hint: You'll need: "*add ... to somerainfall*".
 
 ### Translating formulas
 
@@ -264,7 +264,7 @@ We pick elements from the summations and insert them into the template for an in
 
 Other than transferring data to and from memory, processors primarily perform arithmetic operations, such as "cost + tax".  Processors can also conditionally or repeatedly execute operations.
 
-When mapping real-world problems to pseudocode, you'll follow the program or function work plan and eventually work backwards from the desired result to identify a suitable sequence of operations. These operations will either map to our high level [programming patterns](patterns.md) or to the lower level patterns described here.
+When mapping real-world problems to pseudocode, you'll follow the program or function work plan and eventually work backwards from the desired result to identify a suitable sequence of operations. These operations will either map to our high level [programming patterns](operations.md) or to the lower level patterns described here.
 
 If you can't identify a higher level pattern for a piece of the problem, try to map it to a conditional operation or a loop around one or more operations.
 

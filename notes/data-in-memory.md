@@ -100,4 +100,4 @@ And here are the commonly-used data structures:
 * list of lists such as tables or matrices with rows and columns 
 * dictionary such as mapping a student name to their student ID; we can think of this as a table where each row in the table associates the key with a value.
 
-Now that we know what data looks like in memory, let's consider a small but powerful set of possible operations we can do on that data in [Common Programming Patterns](operations.md).
+Now that we know what data looks like in memory, let's consider a small but powerful set of possible operations we can do on that data in [Common Programming Operations](operations.md).

@@ -54,7 +54,7 @@ Learning to design programs
 
 * [Introduction to programming](notes/programming.md)
 * [Representing data in memory](notes/data-in-memory.md)
-* [Common programming patterns](notes/operations.md)<!--* [Program Efficiency](notes/complexity.md) (Optional)-->
+* [Common programming operations](notes/operations.md)<!--* [Program Efficiency](notes/complexity.md) (Optional)-->
 * [Program planning](notes/planning.md)
 * [Functions](notes/functions.md)
 * [Model of Computation](notes/computation.md)

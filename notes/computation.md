@@ -2,7 +2,9 @@
 
 In order to make it easier to learn the overall process of program and function planning, we've limited the set of possible operations to a set of common [programming operations](operations.md). As with natural language, however, the set of possible program operations is effectively infinite. We can mix and match simple operations to create more complex behavior or tweak common operations to suit a specific problem.
 
-Before dropping all the way down to the level of programming language syntax, let's explore the simplest, fine-grained operations that a computer can perform. Ultimately, we will draw from those operations to design programs. We're going to stick with pseudocode for now because the precise syntax isn't necessary to learn the computation model. The concepts apply across most programming languages.
+Before dropping all the way down to the level of programming language syntax, let's explore the simplest, fine-grained operations that a computer can perform. Ultimately, we will draw from those operations to design programs.  Programmers think in terms of high-level operations, such as *map* or *filter*, but our fingers type fine-grained code patterns associated with those high-level operations.
+
+We're going to stick with pseudocode for now because the precise syntax isn't necessary to learn the computation model. The concepts apply across most programming languages.
 
 ## Canonical processor operations
 

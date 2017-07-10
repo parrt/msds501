@@ -56,7 +56,7 @@ Those data processing operations need only the list of numbers as prerequisites.
 
 Completely filled out, the program work plan looks like this:
 
-<img src=images/average-plan.png width=500>
+<img src=plans/average-plan.png width=500>
 
 Now, let's see what happens to the plan if we make the problem a little more complicated.
 
@@ -83,7 +83,7 @@ Next up in the work plan, we design the program. The method of reuse tells us th
 
 Working backwards also tells us that we must search for the 999 sentinel in the list before the slice so the slice operation knows the bounds (range of desired elements).  We can't assume the computer will magically know where the 999 is and that 999 is significant. Like teaching a child, we must plan out all necessary steps.  The search and slice operations smack of data cleanup, so let's put them in that position in the program outline. The rest of the plan is identical to the previous average work plan:
 
-<img src=images/rainfall-average-plan.png width=600>
+<img src=plans/rainfall-average-plan.png width=600>
 
 ## Exercises
 
@@ -97,7 +97,7 @@ The goal is to reuse as much possible, so we should ask ourselves: "*How can we 
 
 The complete plan now has negative numbers in the sample input-output pairs and a new (filter) operation in the data cleaning step. 
 
-Try to do this without looking at the [solution](images/noisy-rainfall-average-plan.png)
+Try to do this without looking at the [solution](plans/noisy-rainfall-average-plan.png)
 
 ### Computing average sales
 
@@ -111,8 +111,9 @@ First, clarify the goal: "*Print the average of the unit prices less than 10. Pr
 
 Even though the application is completely different, unit price average versus rainfall average, the work plan is literally cut-and-paste from our previous plan. The only difference is that we are filtering out unit prices greater than or equal to 10 instead of filtering out negative rainfall data noise. The plan therefore looks like this:
 
-Try to do this without looking at the [solution](images/unit-price-average-plan.png)
+Try to do this without looking at the [solution](plans/unit-price-average-plan.png)
 
+<a name="power"></a>
 ### Power-to-weight ratio
 
 **Exercise**: Compute the average horsepower of 8-cylinder engines from a [sample car data set](../data/cars.xls). The first few rows look like:
@@ -125,7 +126,7 @@ Follow the process in our [program work plan](plans/program-planning.pdf). Hints
 
 For the loading data section, you can say something like "*load car table into memory*". Assuming we can access a column within a table by name, such as ENG and WGT.
 
-Try to do this without looking at the [solution](images/power-to-weight-plan.pdf).
+Try to do this without looking at the [solution](plans/power-to-weight-plan.pdf).
 
 ## Summary
 

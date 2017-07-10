@@ -48,7 +48,7 @@ We can update multiple running accumulated values, not just one. For example, le
 
 <img src=images/accumulator-even-odd.png width=320>
 
-The `+1` indicates an "add one to accumulated value" operation applied at each step if the value is even or odd.
+The `+1` indicates an "add one to accumulated value" operation applied at each step but only if the current value is even or odd. In other words, accumulated values can be updated conditionally. For example, to compute the maximum value found in a sequence, our accumulator operation could be something like "*if current value greater than max value, set accumulator to current value.*"
 
 <a name="combine"></a>
 ## Combine

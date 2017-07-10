@@ -62,7 +62,7 @@ Now, let's see what happens to the plan if we make the problem a little more com
 
 ## Plan reuse
 
-When discussing the slice programming operation, we used 999 as a sentinel value to indicate the end of some rainfall data of interest. Let's solve the problem of computing the average rainfall coming from a sensor up to but not including value 999. To solve this, we're going to use the second  guideline for identifying program operations: 
+When discussing the slice programming operation, we used 999 as a sentinel value to indicate the end of some rainfall data of interest. Let's solve the problem of computing the average rainfall coming from a sensor up to but not including value 999. To solve this, we're going to use the second  method for identifying program operations: 
 
 <img src="images/redbang.png" width=30 align="left">*Reduce or simplify a new problem to a variation of an existing problem with a known solution.* 
 
@@ -77,9 +77,17 @@ We also use this problem-reduction approach in the programming world.  For examp
 
 then we get just a list of numbers and we're right back to the simple averaging problem from the last section.
 
-In order to take the slice, however, we need to know where the 999 is in the list, which implies we need a "search for 999" operation preceding the slice.  We can't assume the computer will magically know where the 999 is and that it is significant. Like teaching a child, we must plan out all necessary steps.  We are making use of the "working backwards" approach to breakup a single complex operation into two suboperations: search for 999, slice out everything up to that position. This operation smacks of data cleanup, so let's make use of that position in the program outline. The rest of the plan is identical to the previous average plan:
+As before, we start designing a program by clearly describing our objective.  In this case, we just have to tweak the objective so that it indicates we'd like to average the numbers in a file up to but not including the 999 sentinel. Next, we augment the sample input-output pairs to have 999, such as "1, 2, 999, 5, 4 → 1.5."
+
+Next up in the work plan, we design the program. The method of reuse tells us that somewhere in the program sequence we'll see a slice operation and the average computing operations we had from before. Using the method of "working backwards", we know that the slice must precede the averaging operations. The averaging operation consumes the result of slicing.
+
+Working backwards also tells us that we must search for the 999 sentinel in the list before the slice so the slice operation knows the bounds (range of desired elements).  We can't assume the computer will magically know where the 999 is and that 999 is significant. Like teaching a child, we must plan out all necessary steps.  The search and slice operations smack of data cleanup, so let's put them in that position in the program outline. The rest of the plan is identical to the previous average work plan:
 
 <img src=images/rainfall-average-plan.png width=600>
+
+## Exercises
+
+### Noisy rainfall sensor data
 
 **Exercise**: How can we handle the situation where the rainfall sensor is noisy and can spuriously generate some negative numbers? What should we change in our program work plan? Hint: it helps to write out the sample input-output pairs.
 
@@ -87,11 +95,9 @@ The goal is to reuse as much possible, so we should ask ourselves: "*How can we 
 
 <img src=images/filter-slice.png width=320>
 
-The complete plan now has negative numbers in the sample input-output pairs and a new (filter) operation in the data cleaning step:
+The complete plan now has negative numbers in the sample input-output pairs and a new (filter) operation in the data cleaning step. 
 
-<img src=images/noisy-rainfall-average-plan.png width=600>
-
-## Exercises
+Try to do this without looking at the [solution](images/noisy-rainfall-average-plan.png)
 
 ### Computing average sales
 
@@ -101,11 +107,11 @@ Let's look at a different problem, computing the average unit price for items le
 
 **Exercise**: Using the program outline as a guide, complete a work plan for this task.
 
-First, let's clarify our goal: "*Print the average of the unit prices less than 10. Print 0 if there are no unit prices*."  Manually writing out some sample input-output pairs makes our goal even more clear: 5, 10 gives 7.5 and 3, 11 gives 3 and an empty list gives 0.
+First, clarify the goal: "*Print the average of the unit prices less than 10. Print 0 if there are no unit prices*."  Manually writing out some sample input-output pairs makes our goal even more clear: 5, 10 gives 7.5 and 3, 11 gives 3 and an empty list gives 0.
 
 Even though the application is completely different, unit price average versus rainfall average, the work plan is literally cut-and-paste from our previous plan. The only difference is that we are filtering out unit prices greater than or equal to 10 instead of filtering out negative rainfall data noise. The plan therefore looks like this:
 
-<img src=images/unit-price-average-plan.png width=500>
+Try to do this without looking at the [solution](images/unit-price-average-plan.png)
 
 ### Power-to-weight ratio
 
@@ -123,7 +129,7 @@ Try to do this without looking at the [solution](images/power-to-weight-plan.pdf
 
 ## Summary
 
-We have two key guidelines to identify the sequence of operations when planning out a program:
+We have two key methods for identifying the sequence of operations when planning out a program:
 
 1. Start with the end result and work your way backwards, fulfilling prerequisites.
 1. Reduce or simplify a new problem to a variation of an existing problem with a known solution.

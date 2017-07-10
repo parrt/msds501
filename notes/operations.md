@@ -12,24 +12,24 @@ But we can abstract those further into:
 * *traverse a sequence and accumulate a value*
 * *count the number of elements in a sequence*. 
 
-The more abstract the operation, the more widely applicable it is. For example, counting the number of elements is actually just a special case of (the more abstract) accumulating a value while traversing a sequence. Instead of adding the values at each position in a sequence, we would always just add one. 
+The more abstract the operation, the more widely applicable it is. For example, as we'll see below, counting the number of elements is actually just a special case of (the more abstract) accumulating a value while traversing a sequence. Instead of adding the values at each position in a sequence, the accumulator would always just add one. 
 
-The kinds of operations we use depends partly on a programmer's style but is heavily influenced by the capabilities of the programming language and its libraries of pre-existing functionality. Let's examine some of the most useful operations and relate them to processes we're familiar with from spreadsheets. Later we'll plan out programs using them.
+The kinds of operations we use depends partly on a programmer's style but is heavily influenced by the capabilities of the programming language and its libraries of pre-existing functionality. Let's examine some of the most useful operations and relate them to processes we're familiar with from spreadsheets. Later we'll plan out programs using these operations.
 
 <a name="map"></a>
 ## Map
 
-Perhaps the most common operation *maps* one sequence to another, applying an operator or function to each element. For example, using a spreadsheet to create a new column containing the unit price discounted by 5% starts like this:
+Perhaps the most common operation *maps* one sequence to another, applying an operator or function to each element. For example, using a spreadsheet to create a new column containing the unit price discounted by 5% starts like this in a spreadsheet:
 
 <img src=images/map-discount.png width=120>
 
 And then we drag the formula down the column so that it is applied to each element of the unit price column.  The  best way to think about the map operation is "*transform one sequence into another by applying an operator or function.*"
 
-What we're actually doing, though, is traversing the elements in one sequence, deriving new values, and injecting the computed value into a new sequence:
+What we're actually doing, though, is traversing the elements in one sequence, deriving new values, and injecting the computed values into a new sequence:
 
 <img src=images/map-discount-op.png width=390>
 
-As a special case of map, we get the **duplicate** operation that duplicates a stream by applying the identity function, *f(x)* = *x*, to the elements of a stream to get a new stream.
+As a special case of map, we have the **duplicate** operation that duplicates a stream by applying the identity function, *f(x)* = *x*, to the elements of one stream to get another stream.
 
 <a name="accumulate"></a>
 ## Accumulate
@@ -48,7 +48,7 @@ We can update multiple running accumulated values, not just one. For example, le
 
 <img src=images/accumulator-even-odd.png width=320>
 
-The `+1` indicates an "add one to accumulated value" operation applied at each step.
+The `+1` indicates an "add one to accumulated value" operation applied at each step if the value is even or odd.
 
 <a name="combine"></a>
 ## Combine
@@ -122,7 +122,7 @@ The most general operation used to extract data from a list or  sequence is call
 
 <img src=images/filter-shipping.png width=170>
 
-The filter operation is very similar to the map operation. Map applies a function to each element of a sequence and creates a new sequence of the same size. Filter tests each element for a specific condition and, if true, adds that element to the new sequence.
+The filter operation is similar to the map operation in that a computation is applied to each element of the input stream. Map applies a function to each element of a sequence and creates a new sequence of the same size. Filter tests each element for a specific condition and, if true, adds that element to the new sequence.
 
 <img src=images/filter-apply.png width=590>
 
@@ -139,7 +139,7 @@ For example, searching for `999` in the rainfall sensor data from the slice oper
 
 <img src=images/search-rainfall.png width=180>
 
-The search operation can even be used within a string (list of characters) to find the position of a character of interest. For example, to slice up a full name into first and last names, we can combine a search for the space character with two slice operations. Given full name `Xue Li`, a search for the space character returns the fourth position or index 3. To extract the first name, we slice from index 0 to index 3, exclusively. To get the last name, we slice from index 4 to 6, exclusively. 
+The search operation can even be used within a string (list of characters) to find the position of a character of interest. For example, to slice up a full name into first and last names, we can combine a search for the space character with two slice operations. Given full name `Xue Li`, a search for the space character returns the fourth position or index 3. To extract the first name, we slice from index 0 to index 3, exclusively on the right. To get the last name, we slice from index 4 to 6, exclusively on the right. 
 
 <img src=images/split-string.png width=190>
 
@@ -155,7 +155,7 @@ Sequences occur even in simple arithmetic expressions that we often think of as 
 
 When writing out the plan for a program, always keep in mind that the computer is executing one operation after the other so the setting up the right sequence is critical.
 
-After we learn more about program planning (up next), we'll see in [Model of Computation](computation.md) that programs can execute statements conditionally or even repeat an operation until a condition is met.
+After we learn more about program planning (up next), we'll see in [Model of Computation](computation.md) that programs can perform operations conditionally or even repeat an operation until a condition is met.
 
 ## Summary
 

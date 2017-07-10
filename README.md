@@ -7,7 +7,7 @@ This 5-week computational analytics bootcamp is part of the [MS in Analytics pro
 
 **INSTRUCTOR.** [Terence Parr](http://parrt.cs.usfca.edu). I’m a professor in the computer science department and was founding director of the MS in Analytics program at USF.  Please call me Terence or Professor (the use of “Terry” is a capital offense).
 
-**SPATIAL COORDINATES.** 101 Howard 5th floor classroom 529. My office is room 608.
+**SPATIAL COORDINATES.** 101 Howard 5th floor classroom 529. My office is room 608 (which I share with Prof. John Veitch).
 
 **TEMPORAL COORDINATES.** Thursday/Friday Sec01 10am-12pm, Sec02 1-3pm; July 13 (Thu) - August 11 (Fri). *One exception: Thur 20th class moved to Tue 18th.*
 

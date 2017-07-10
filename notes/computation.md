@@ -2,7 +2,7 @@
 
 In order to make it easier to learn the overall process of program and function planning, we've limited the set of possible operations to a set of common [programming operations](operations.md). As with natural language, however, the set of possible program operations is effectively infinite. We can mix and match simple operations to create more complex behavior or tweak common operations to suit a specific problem.
 
-Before dropping all the way down to the level of programming language syntax, let's explore the simplest, fine-grained operations that a computer can perform. Ultimately, it is these operations we will draw from to design programs. We're going to stick with pseudocode for now because the precise syntax isn't necessary to learn the computation model. The concepts apply across most programming languages.
+Before dropping all the way down to the level of programming language syntax, let's explore the simplest, fine-grained operations that a computer can perform. Ultimately, we will draw from those operations to design programs. We're going to stick with pseudocode for now because the precise syntax isn't necessary to learn the computation model. The concepts apply across most programming languages.
 
 ## Canonical processor operations
 
@@ -20,7 +20,7 @@ To give you an idea of just how low-level these machine operations are, consider
  
 *let total be cost + tax*
 
-Even something this simple requires the processor to execute multiple low-level instructions.  The processor must load *cost* and *tax* from memory, add the two values, then store the result back into memory at the address associated with *total*.
+Even something this simple requires the processor to execute multiple low-level instructions.  The processor must look at the values of *cost* and *tax* in memory, add the two values, then store the result back into memory at the address associated with *total*.
 
 ### Order of operations
 
@@ -64,7 +64,7 @@ if *condition*:<br>
 
 The condition must be actionable by a computer. For example, the condition "*the cat is hungry*" is not actionable by computer because there's nothing in its memory a computer can test that is equivalent to the cat being hungry. Conditions almost always consist of equality or relational operators for arithmetic, such as "cost > 10", "cost + tax &lt; 100", or "quantity = 4".
 
-It's time to introduce a new data type: **boolean**, which holds either a true or false value. The result (value) of any equality or relational operator is boolean. For example, "3>2" evaluates to true but "3>4" evaluates to false.
+It's time to introduce a new data type: **boolean**, which holds either a true or false value. The result (value) of any equality or relational operator is boolean. For example, "3>2" evaluates to true and "3>4" evaluates to false.
 
 **Exercise**:  Design a conditional in pseudocode for the following situation. "Print a name if the length of the name is greater than zero." You can compute the length of some *x* with *len(x)*.
 
@@ -95,7 +95,7 @@ That is equivalent to this more awkward version:
 *if item is a book: remove book from inventory list*<br>
 *if item is a book: let total be cost + tax*
 
-Conditional execution is kind of like executing an operation zero or one times, depending on the conditional expression.  We also want to execute operations multiple times.
+Conditional execution is kind of like executing an operation zero or one times, depending on the conditional expression.  We also need to execute operations multiple times in some cases.
 
 ## Repeated execution
 
@@ -145,7 +145,7 @@ That counter loop is an example of an [accumulator](operations.md#accumulator).
 
 **Exercise**: Write a pseudocode loop to sum the integers from 1 to 8, inclusively.
 
-Another common analytics problem is to iterate through a computation until we reach a desired result. For example, to compute the integer component of, say, *log<sub>2</sub>(n)* we can repeatedly divide *n* by 2 until we reach 1. The number of times we can divide a number by 2 is the log<sub>2</sub> by definition, though we are ignoring fractional part of the true result. The loop is an accumulator variation with a conditional that tests the accumulated value. Here is the pseudocode:
+Another common analytics problem is to iterate through a computation until we reach a desired result. For example, to compute the integer component of, say, *log<sub>2</sub>(n)* we can repeatedly divide *n* by 2 until we reach 1. The number of times we can divide a number by 2 is the log<sub>2</sub> by definition, though we are ignoring fractional part of the true result. The loop is an accumulator variation with a conditional that tests the value as we cut it in half repeatedly. Here is the pseudocode:
 
 *init a counter to 0*<br>
 *while n>1*:<br>
@@ -164,7 +164,7 @@ We also see a different kind of loop that *iterates* through a sequence of eleme
 *for each ingredient in ingredient list:*<br>
 &nbsp;&nbsp;&nbsp;&nbsp;*chop ingredient into small pieces*
 
-(Remember that our goal is to identify the conditional and the operation(s) to repeat.)
+Remember that our goal is to identify the conditional and the operation(s) to repeat.
 
 Or, even closer to actual code, we might give a name to the iterated ingredient:
 
@@ -178,7 +178,7 @@ The value of *x* takes on each ingredient value, one after the other.  Referring
 A pseudocode loop implementing the implied movement in the visualization looks like:
 
 *for each quantity in Quantity list*:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;*do something*
+&nbsp;&nbsp;&nbsp;&nbsp;*do something with quantity*
 
 For example, to print out each quantity in the list, we could write:
 
@@ -190,7 +190,7 @@ The template for a for-each loop looks like:
 for each *x* in *sequence*:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;*operate on x*
 
-where *sequence* is typically a list or set.
+where *sequence* is typically a list or set. To use this pseudocode pattern, we have to identify a decent iterated variable name, the sequence, and the operations to repeat.
 
 The [map](operations.md#map) operation used the following image to visualize the operations:
 
@@ -198,6 +198,7 @@ The [map](operations.md#map) operation used the following image to visualize the
 
 We could implement that operation using:
 
+*let Discounted be an empty list*<br>
 *for each price in UnitPrice list*:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;<i>add price * 0.95 to Discounted list</i>
 
@@ -237,9 +238,7 @@ is equivalent to:
 *for each value i in set 0..n-1*:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;*print Quantity<sub>i</sub>*
 
-where *Quantity<sub>i</sub>* is the *i<sup>th</sup>* value of Quantity.  The differences that the indexed loop has access to the loop iterator variable *i* and the for-each loop does not.
-
-Because Python starts list indexing at 0, let's stick with that convention and that loop iterates from index 0 to *n*-1 for *n* elements in the lists. The length of Quantity is expressed as *len(Quantity)*.
+where *Quantity<sub>i</sub>* is the *i<sup>th</sup>* value of Quantity and *n* is the length of the Quantity list.  The difference is that the indexed loop has access to the loop iterator variable *i* and the for-each loop does not.
 
 We tend to use indexed loops, that iterate through a range of integers, when traversing multiple lists at the same time. (To traverse a single list, we'd normally use a for-each loop.) For example, recall the visualization from the [combine programming operation](operations.md#combine):
 
@@ -250,7 +249,7 @@ We can implement that operation using an indexed loop. At each time step, the lo
 *for each value i in set 0..n-1*:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;<i>let Cost<sub>i</sub> be Quantity<sub>i</sub> * UnitPrice<sub>i</sub></i>
 
-**Exercise**: Using an indexed-loop, write pseudocode to [slice](operations.md#slice) elements in range [0 to 5), indexes (0,1,2,3,4), from a rainfall list into a new list somerainfall. Hint: You'll need: "*add ... to somerainfall*".
+**Exercise**: Using an indexed-loop, write pseudocode to [slice](operations.md#slice) elements in range [0 to 5), indexes (0,1,2,3,4), from a rainfall list into a new list r. Hint: You'll need: "*add ... to r*".
 
 ### Translating formulas
 
@@ -294,12 +293,12 @@ while *condition*:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;*operation 2*<br>
 &nbsp;&nbsp;&nbsp;&nbsp;...
 
-A very common version of a loop traverses a sequence, such as a list, with a low variable that takes on each value of the sequence one at a time:
+A very common version of a loop traverses a sequence, such as a list, with a variable that takes on each value of the sequence one at a time:
 
 for each *x* in *sequence*:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;*operate on x*
 
-When iterating through multiple lists at the same time, we use an index to list of the form:
+When iterating through multiple lists at the same time, we use an indexed list of the form:
 
 for each value *i* in *some integer_set or range*:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;*operation 1*<br>

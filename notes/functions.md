@@ -98,7 +98,7 @@ In this case, our sample input-output pairs for the program look like:
 
 where the second line means that an empty list gets no output.
 
-The processing steps now need to load the numbers into memory as we did with the program that computed averages.  The programming pattern we need to solve this problem is the *map*, which will apply the `line` function to each X coordinate in the list. It helps to look at the operation visually:
+The processing steps now need to load the numbers into memory as we did with the program that computed averages.  The programming operation we need to solve this problem is the *map*, which will apply the `line` function to each X coordinate in the list. It helps to look at the operation visually:
 
 <img src=images/XY.png width=300>
 
@@ -111,7 +111,7 @@ To finish off the processing steps in the program work plan, we can print out th
 Load the X coordinates into a list in memory
 1. **Normalize, clean, or otherwise prepare data**
 1. **Process the data**<br>
-Use map pattern to apply `line` function to each element of the list, yielding a new list of Y coordinates
+Use map operation to apply `line` function to each element of the list, yielding a new list of Y coordinates
 1. **Emit results**<br>
 print out the Y coordinates
 

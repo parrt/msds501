@@ -18,7 +18,7 @@ and, for step #4, we have an overall analytics program outline:
 3. Process the data
 4. Emit results
 
-Because we're just learning to program, we're going to use this program outline and our set of [common patterns](programming.md) as a crutch. The outline gets us thinking about the kinds of operations we'll need and the set of patterns acts like a vocabulary of known words, helping to reduce the scope of the undertaking. Here's a summary of our programming patterns:
+Because we're just learning to program, we're going to use this program outline and our set of [common operations](programming.md) as a crutch. The outline gets us thinking about the kinds of operations we'll need and the set of operations acts like a vocabulary of known words, helping to reduce the scope of the undertaking. Here's a summary of our programming operations:
 
 * [Map](operations.md#map).  Apply an operator or function to every element of a sequence.
 * [Accumulate](operations.md#accumulate).  Accumulate a value or values while traversing a sequence.
@@ -54,7 +54,7 @@ The meat of the task is to identify the sequence of operations needed to compute
 
 We don't need to normalize or clean the data so we can proceed to the "process the data" operation. For the final "emit results" operation, we can simply say "*Print the average.*" For the average to exist, the previous step must divide the sum of the input numbers by the number of values in the list.  We also need to avoid dividing by zero when there are no numbers in the list. For that, we can use a simple conditional pseudocode statement like: "*If the count is 0, the average is 0 else compute the average as the sum divided by the count*," which will map very easily to Python code.
 
-That computation implies that we need yet more previous operations, to compute the sum and count the elements in the list. Fortunately, we can use an accumulator pattern for both of those operations. Because summing and counting only need the list of numbers as input, there is no prior step we need to identify. (We already decided that the program needs to load the numbers into a list at the beginning.) Completely filled out, the program work plan looks like this:
+That computation implies that we need yet more previous operations, to compute the sum and count the elements in the list. Fortunately, we can use an accumulator operation for both of those operations. Because summing and counting only need the list of numbers as input, there is no prior step we need to identify. (We already decided that the program needs to load the numbers into a list at the beginning.) Completely filled out, the program work plan looks like this:
 
 <img src=images/average-plan.png width=500>
 
@@ -62,7 +62,7 @@ Now, let's see what happens to the plan if we make the problem a little more com
 
 ## Plan reuse
 
-When discussing the slice programming pattern, we used 999 as a sentinel value to indicate the end of some rainfall data of interest. Let's solve the problem of computing the average rainfall coming from a sensor up to but not including value 999. To solve this, we're going to use the second  guideline for identifying program operations: 
+When discussing the slice programming operation, we used 999 as a sentinel value to indicate the end of some rainfall data of interest. Let's solve the problem of computing the average rainfall coming from a sensor up to but not including value 999. To solve this, we're going to use the second  guideline for identifying program operations: 
 
 <img src="images/redbang.png" width=30 align="left">*Reduce or simplify a new problem to a variation of an existing problem with a known solution.* 
 
@@ -71,7 +71,7 @@ This approach is well-known and used by just about every technical discipline (m
 As an aside, this guideline is often used to poke fun at other disciplines. For example, from [a collection of physicist jokes](https://www.astro.umd.edu/~avondale/extra/Humor/ScienceHumor/PhysicistJokes.html), here is a one variation:
 > A Physicist and a mathematician are sitting in a faculty lounge. Suddenly, the coffee machine catches on fire. The physicist grabs a bucket and leap towards the sink, fills the bucket with water and puts out the fire. Second day, the same two sit in the same lounge. Again, the coffee machine catches on fire. This time, the mathematician stands up, gets a bucket, hands the bucket to the physicist, thus *reducing the problem to a previously solved one*.
 
-We also use this problem-reduction approach in the programming world.  For example, the only difference between this new data problem and the previous generic "average some numbers" problem is that we want to ignore data beyond a certain point in the list. It stands to reason that if we tweak our averaging program plan, we can solve this new problem quickly. If we take a subset of the original list using the slice pattern:
+We also use this problem-reduction approach in the programming world.  For example, the only difference between this new data problem and the previous generic "average some numbers" problem is that we want to ignore data beyond a certain point in the list. It stands to reason that if we tweak our averaging program plan, we can solve this new problem quickly. If we take a subset of the original list using the slice operation:
 
 <img src=images/slice.png width=210>
 

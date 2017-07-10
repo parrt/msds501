@@ -73,7 +73,7 @@ def average(data):
     return sum / n
 ```
 
-An inexperienced programmer must examine the statements of the function individually and literally, emulating a computer to figure out the emergent behavior. In contrast, *an experienced programmer looks for patterns in the code that represent implementations* of high-level patterns like map, search, filter, etc... 
+An inexperienced programmer must examine the statements of the function individually and literally, emulating a computer to figure out the emergent behavior. In contrast, *an experienced programmer looks for patterns in the code that represent implementations* of high-level operations like map, search, filter, etc... 
 
 By analogy, consider memorizing the state of a chessboard in the middle of play. A beginner has to memorize where all of the pieces are individually whereas a chessmaster recognizes that the board is, say, merely a variation on the Budapest Gambit.
 
@@ -91,9 +91,9 @@ From this, we can conclude that all of the action occurs in loops so we should *
 
 ## Identifying programming patterns in code
 
-Let's dig through some loop examples, trying to identify the high-level patterns or operations. The key elements to look for are the holes in the templates we studied. This usually means identifying the loop variable, the loop bounds, which data structure we're traversing, and the operation performed on the data elements.  **The goal is to reverse engineer the intentions of the code author.**
+Let's dig through some loop examples, trying to identify the high-level patterns and corresponding operations. The key elements to look for are the holes in the templates we studied. This usually means identifying the loop variable, the loop bounds, which data structure we're traversing, and the operation performed on the data elements.  **The goal is to reverse engineer the intentions of the code author.**
 
-**Exercise**: To get started, what pattern does the `sum` function above follow?
+**Exercise**: To get started, what is the operation corresponding to the code pattern in the `sum` function above?
 
 ```python
 sum = 0.0
@@ -113,7 +113,7 @@ for blah in blort:
 
 That's a map operation, which we can see from the initialization of an empty target list and the `foo.append(...)` call. The `blah * 2` is not relevant to finding the pattern other than the fact that the target list is a function of `blah`, which comes from the source list `blort`.
 
-**Exercise**:  What kind of loop (for-each, indexed, nested, etc...) do you see in the following code? What kind of high level pattern is the code performing?
+**Exercise**:  What kind of loop (for-each, indexed, nested, etc...) do you see in the following code? What kind of high level operation is the code performing?
 
 ```python
 blort = []
@@ -123,7 +123,7 @@ for boo in range(len(foo)):
 
 That's an indexed-loop that again does a map operation. The clue that it is an indexed loop is that the bounds are `range(len(foo))` which is giving a range of indices. Because of the `blort.append` and reference to `foo[boo]`, we know it is a map operation. We know that `foo` is a list of some kind because of the `[boo]` index operator.
 
-**Exercise**:  What is the high-level pattern followed by this code:
+**Exercise**:  What is the high-level operation corresponding to the pattern in this code:
 
 ```python
 foo = []
@@ -236,7 +236,7 @@ for i in range(len(X)):
         Y.append(X[i])
 ```
 
-This loop implements the slice pattern that extracts a subset of elements from a list. In this case, it is choosing elements in range a..b of `X`, inclusively, and adding them to `Y`.
+This loop implements the slice operation that extracts a subset of elements from a list. In this case, it is choosing elements in range a..b of `X`, inclusively, and adding them to `Y`.
 
 That implementation is very inefficient because it wants the entire list to get the elements in a range. It's much faster and easier to understand if we change the bounds of the loop to the range of interest:
 

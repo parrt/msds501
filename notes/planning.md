@@ -64,7 +64,7 @@ Now, let's see what happens to the plan if we make the problem a little more com
 
 When discussing the slice programming pattern, we used 999 as a sentinel value to indicate the end of some rainfall data of interest. Let's solve the problem of computing the average rainfall coming from a sensor up to but not including value 999. To solve this, we're going to use the second  guideline for identifying program operations: 
 
-*Reduce or simplify a new problem to a variation of an existing problem with a known solution.* 
+<img src="images/redbang.png" width=30 align="left">*Reduce or simplify a new problem to a variation of an existing problem with a known solution.* 
 
 This approach is well-known and used by just about every technical discipline (mathematics, physics, engineering, architecture, etc...).  For example, engineers building a new suspension bridge do not proceed as if such a thing has never been built before.  It's likely they will take an existing design and tweak it to suit the new situation.
 
@@ -128,8 +128,6 @@ We have two key guidelines to identify the sequence of operations when planning 
 1. Start with the end result and work your way backwards, fulfilling prerequisites.
 1. Reduce or simplify a new problem to a variation of an existing problem with a known solution.
 
-The more experience you have, the more you will recognize similar programming problems. The key is not to memorize that you learned to filter out noisy rainfall data. You want to abstract these similar plans as "*filter then average elements in a list*." In fact, we can formalize the concept of reuse by introducing the notion of a subprogram called a function. 
-
-Next: [Functions (subprograms)](functions.md)
+The more experience you have, the more you will recognize similar programming problems. The key is not to memorize that you learned to filter out noisy rainfall data. You want to abstract these similar plans as "*filter then average elements in a list*." In fact, we can formalize the concept of reuse by introducing the notion of a subprogram called a [function](functions.md), which is what we'll do next.
 
 **Acknowledgments**.  Some of the examples in this document and the notion of a program work plan were derived from [CS2102 at WPI](http://web.cs.wpi.edu/~cs2102/b16/Lectures/planning.html).  For more on the rainfall problem and its various solutions, see [The Recurring Rainfall Problem](https://pdfs.semanticscholar.org/f772/087a1ef8f524cc2414c3b64636dd0b9985eb.pdf).

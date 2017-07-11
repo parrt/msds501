@@ -3,16 +3,22 @@
 
 First, download the following two audio files so we have some raw materials to work with.
 
-* [initial sequence from Kiss by Prince, Kiss.aiff](sound/Kiss.aiff)
-* [ahhh sound, ahhh.mp3](sound/ahhh.mp3)
+* [initial sequence from Kiss by Prince, Kiss.aiff](../notes/sound/Kiss.aiff)
+* [ahhh sound, ahhh.mp3](../notes/sound/ahhh.mp3)
 
-I suggests that you store them in a directory such as `/Users/YOURID/msan501/labs/sound` where `YOURID` is your computer login name. For example, my login name is `parrt`.
+I suggests that you store them in a directory such as:
+
+`/Users/YOURID/msan501/labs/sound`
+
+where `YOURID` is your computer login name. For example, my login name is `parrt`. On Linux it would something like:
+
+`/home/YOURID/msan501/labs/sound`
 
 ## Installing commandline tools
 
 It turns out that the sound libraries we're going to use in Python don't know how to process mp3 files. We need to convert the ahhh.mp3 file to ahhh.wav, which the libraries do know how to process. To do that, were going to use a tool called [mpg123](https://www.mpg123.de/).
 
-To install most free software on the Mac, were going to use a program called [homebrew](https://brew.sh/). It might be preinstalled on your computer, but if not, read the instructions and install it. It's a matter of cutting and pasting a single line that starts with `/usr/bin/ruby ...`
+To install most free software on the Mac, we use use a program called [homebrew](https://brew.sh/) (just `brew` from the command line). It might be preinstalled on your computer, but if not, read the instructions and install it. It's a matter of cutting and pasting a single line that starts with `/usr/bin/ruby...`
 
 Once that's installed, we can use it to install `mpg123`. From the terminal, run the following `brew` command, which should give the indicated output:
 
@@ -62,6 +68,8 @@ There's a lot of gibberish in that output that we don't care about but make sure
 $ ls
 Kiss.aiff  ahhh.mp3   ahhh.wav 
 ```
+
+If you can't figure out how to convert to `ahhh.wav`, don't worry about it. You can just [download it from my notes](../notes/sound/ahhh.wav).
 
 At this point, we've learned to jump around to different locations in the file system using `cd` and used `ls` to list the files in a directory. We use `brew` as our install command for non-Python packages.
 
@@ -170,8 +178,8 @@ Execute the program again and you should hear the other sound file play.
 
 ## Generating our own sounds
 
-In the lecture, we saw how to generate sine waves and that a sine wave gives a pure tone when we shove it out the speaker. Create a `puretone.py` file and put the following code in there.
- 
+In the [sound lecture](../notes/sound.ipynb), we saw how to generate sine waves and that a sine wave gives a pure tone when we squirt it out to the speaker. Create a `puretone.py` file and put the following code in there.
+
 ```python
 import numpy
 import sounddevice as sd
@@ -241,7 +249,7 @@ See if you can see the relationship between this code and the previous code. We 
 
 ### Reducing the volume
 
-To convince you that soundwaves are just numbers, let's make the numbers loaded from an audiophile smaller. What should happen to the resulting sound when we play it? Yep, it should get quieter. Here is a version of the `play.py` program called `softer.py` that has an extra line to decimate the amplitude:
+To convince you that soundwaves are just numbers, let's make the numbers loaded from an audio file smaller. What should happen to the resulting sound when we play it? Yep, it should get quieter. Here is a version of the `play.py` program called `softer.py` that has an extra line to decimate the amplitude:
 
 ```python
 import soundfile as sf    # Use this package
@@ -269,7 +277,7 @@ Let's say that we'd like to deepen the voice of Prince. All we have to do is slo
 sd.play(kiss, samplerate*.8)             # play the music at 80% speed
 ```
 
-Now run `slower.py` and Prince's voice will sound freaky and deep near at the end. The whole thing sounds slow down.  Intuitively, reducing the sample rate on playback slows things down because the player consumes fewer samples per second. This stretches the sound to be longer, just like slowing down a phonograph record with your finger.
+Now run `slower.py` and Prince's voice will sound freaky and deep near at the end. The whole thing sounds slow down.  Intuitively, reducing the sample rate on playback slows things down because the player consumes fewer samples per second. This stretches the sound to be longer, just like slowing down a record turntable with your finger.
 
 <table border=1>
 <tr><td>

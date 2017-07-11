@@ -14,7 +14,7 @@ But we can abstract those further into:
 
 The more abstract the operation, the more widely applicable it is. For example, as we'll see below, counting the number of elements is actually just a special case of (the more abstract) accumulating a value while traversing a sequence. Instead of adding the values at each position in a sequence, the accumulator would always just add one. 
 
-The kinds of operations we use depends partly on a programmer's style but is heavily influenced by the capabilities of the programming language and its libraries of pre-existing functionality. Let's examine some of the most useful operations and relate them to processes we're familiar with from spreadsheets. Later we'll plan out programs using these operations.
+The kinds of operations we use depends partly on a programmer's style but is heavily influenced by the capabilities of the programming language and its libraries of pre-existing functionality. Let's examine some of the most useful operations and relate them to processes we're familiar with from spreadsheets (see [sample spreadsheet](operations-examples.xlsx)). Later we'll plan out programs using these operations.
 
 <a name="map"></a>
 ## Map
@@ -31,12 +31,16 @@ What we're actually doing, though, is traversing the elements in one sequence, d
 
 As a special case of map, we have the **duplicate** operation that duplicates a stream by applying the identity function, *f(x)* = *x*, to the elements of one stream to get another stream.
 
+**Exercise**: Give some examples of other map operations.
+
 <a name="accumulate"></a>
 ## Accumulate
 
 Another extremely common operation is an accumulator that traverses a sequence of elements and accumulates a value. For example, to sum the numbers in a sequence, we use the accumulator operation with the `+` operator. As we traverse the sequence, we update a running sum that's initialized to 0:
 
 <img src=images/accumulator.png width=290>
+
+In Excel, this is like using `sum(...)` in a cell.
 
 We can use any other arithmetic operator we want, such as `*`. In fact, we can use any function that takes two "input" numbers and returns a new value. For summing, the two "input" numbers of the function are the previous accumulated value and the next value in the sequence. The result of that function is the new accumulated value. `+` and `*` are the most common operators. 
 
@@ -63,6 +67,8 @@ Programmatically, what we're doing is multiplying the *ith* element from two dif
 
 <img src=images/map-mult.png width=490>
 
+**Exercise**: Give some examples of other combine operations.
+
 <a name="split"></a>
 ## Split
 
@@ -76,7 +82,19 @@ and then split on the space character (In Excel, you use `Data` > `Text to Colum
 
 We could "undo" this split using a *combine* operation with the string concatenation operator, which would combine first and last names together into a new stream containing full names again.
 
-Another common use of splitting is to take a string representing a string of numbers and split it into a list with those numbers. We'll see this again when we look at loading comma-separated value (CSV) files in [Loading files](https://github.com/parrt/msan501/blob/master/notes/files.md).
+Another common use of splitting is to take a string representing a string of numbers like:
+
+```python
+"3.5 10.0 9.78"
+```
+
+and split it into a list with those numbers:
+
+```python
+[3.5, 10.0, 9.78]
+```
+
+We'll see this again when we look at loading comma-separated value (CSV) files in [Loading files](https://github.com/parrt/msan501/blob/master/notes/files.md).
 
 <a name="sort"></a>
 ## Sort
@@ -115,7 +133,7 @@ The slice operation takes a contiguous subset but we often want to extract nonco
 
 <img src=images/unique.png width=290>
 
-<a name="filter"></a>
+<a name="filter"></a> and
 ## Filter
 
 The most general operation used to extract data from a list or  sequence is called *filter*. For example, using Excel's filter mechanism, we can filter a Shipping column for those values less than $10:
@@ -154,6 +172,10 @@ Sequences occur even in simple arithmetic expressions that we often think of as 
 <i>shipping + unitprice * units</i>
 
 When writing out the plan for a program, always keep in mind that the computer is executing one operation after the other so the setting up the right sequence is critical.
+
+**Exercise**: Looking at the [small sales spreadsheet](../data/sales-small.xls), what sequence of operations gives us a total of prices for furniture?
+
+**Exercise**: What sequence of operations gives us a total cost for items purchased by Carlos Soltero in the month of August?
 
 After we learn more about program planning (up next), we'll see in [Model of Computation](computation.md) that programs can perform operations conditionally or even repeat an operation until a condition is met.
 

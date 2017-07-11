@@ -38,7 +38,9 @@ If you ever have questions about what constitutes plagiarism, cheating, or acade
 |Quiz 3| 18%| 9:15am Fri, August 4 |
 |Quiz 4| 18%| 9:15am Fri, August 11 |
 
-All projects are graded in binary fashion: They either work or they do not. Each project has a hard deadline and only those projects working correctly before the deadline get credit (100%).  My grading script pulls from github at the deadline.  On the due date, projects are do with the **start** of your section's class period for that day.
+All projects will be graded with the specific input or tests given in the project description, so you understand precisely what is expected of your program. Consequently, projects will be graded in binary fashion: They either work or they do not.  The only exception is when your program does not run on the grader's or my machine because of some cross-platform issue. This is typically because a student has hardcoded some filename into their program. In that case, we will take off just 20% instead of giving you a 0.
+
+Each project has a hard deadline and only those projects working correctly before the deadline get credit (100%).  My grading script pulls from github at the deadline.  On the due date, projects are due at the **start** of your section's class period for that day.
 
 This class is pass/fail and we expect most people to pass, but those getting below 80% raw average score are in the danger zone.
 

@@ -176,6 +176,10 @@ kiss, samplerate = sf.read('ahhh.wav')
 
 Execute the program again and you should hear the other sound file play.
 
+The most common thing that is wrong if you're using PyCharm, is that PyCharm is not using the Anaconda Python installation for this file. Go to preferences (Settings) and then Project then Project Interpreter. Make sure you have selected the Anaconda Python.
+
+Either from the command line or from PyCharm, the most common error is not having the sound files in the same directory as the code.
+
 ## Generating our own sounds
 
 In the [sound lecture](../notes/sound.ipynb), we saw how to generate sine waves and that a sine wave gives a pure tone when we squirt it out to the speaker. Create a `puretone.py` file and put the following code in there.

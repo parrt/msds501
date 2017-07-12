@@ -24,6 +24,13 @@ $
 
 The `echo` command is analogous to the `print` command in Python code. 
 
+There are lots of things we can do; here's another one:
+
+```bash
+$ date
+Wed Jul 12 14:18:51 PDT 2017
+```
+
 Commands are terminated by hitting the return key.  
 
 After executing the command, the prompt returns indicating you can type another command. 

@@ -10,7 +10,7 @@ This 5-week computational analytics bootcamp is part of the [MS in Analytics pro
 **SPATIAL COORDINATES:**<br>
 
 * Class is held at 101 Howard in 5th floor classroom 529.
-* Quizzes are held on first floor, 152/154; Last four fridays 9:15-10am. Both sections meet together Friday mornings. After taking the quiz, wander upstairs to 529 if your section meets Friday mornings at 10.
+* Quizzes are held on first floor, 152/154; Last four fridays 9:15-10am (no quiz July 14th). Both sections meet together Friday mornings. After taking the quiz, wander upstairs to 529 if your section meets Friday mornings at 10.
 * My office is room 608 (which I share with Prof. John Veitch).
 
 **TEMPORAL COORDINATES.** Thursday/Friday Sec01 10am-12pm, Sec02 1-3pm; July 13 (Thu) - August 11 (Fri). *One exception: Thur 20th class moved to Tue 18th.*

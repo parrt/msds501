@@ -12,6 +12,8 @@ The `$` sign above is just the prompt that indicates the terminal is waiting for
 
 The commandline is a very low-level interface for communicating with the operating system of your computer. You can think of the terminal as the diagnostics computer that mechanics plug into your car to really take control. The dashboard is analogous to the windowing graphical interface we use most of the time.  Becoming a programmer is like becoming a mechanic; sometimes you need more powerful but more complicated tools to operate machinery.
 
+You should more or less always have a command shell running in case you need to do something low-level. The first thing a mechanic does when he or she starts to work is to connect the diagnostic computer. So should you.
+
 The command line is actually a full programming language with loops and everything but most of the time we simply execute commands. Commands have arguments just like function calls in a programming language have arguments. Here's how to say hello from the command line:
 
 ```bash
@@ -20,11 +22,17 @@ hello
 $ 
 ```
 
-The `echo` command is analogous to the `print` command in Python code. Commands are terminated by hitting the return key.  After executing the command, the prompt returns indicating you can type another command. 
+The `echo` command is analogous to the `print` command in Python code. 
+
+Commands are terminated by hitting the return key.  
+
+After executing the command, the prompt returns indicating you can type another command. 
 
 ##  Interactive Python
 
-From the `$` prompt, type `ipython` (or `python`) followed by return/newline:
+Now let's jump into an interactive Python shell. In the abstract, it's the same as the bash command shell that controls your computer.  Both are programming languages; they just have different specialties. When we jump from the bash shell into Python's shell, it's like jumping across the border from France into Germany. We have to stop speaking French and start speaking German. (Or, keep speaking English if you're American because we're lazy and don't know any foreign languages. haha)
+
+To enter the Python world, from the `$` prompt type `ipython` (or `python` if you prefer) followed by return/newline:
 
 ```bash
 $ ipython
@@ -82,20 +90,17 @@ The `$` prompt indicates that you are back at the bash command line.
 
 ## Scripting Python
 
-Go to a suitable directory (folder) on your disk, or create one, such as `/Users/YOURID/msan501/inclass`. (**Do not use spaces in any of your directory or file names...ever!**) Now create a **text file** called `hello.py` that contains exactly one line:
+Go to a suitable directory (folder) on your disk, or create one, such as `/Users/YOURID/msan501/inclass`. (**Do not use spaces in any of your directory or file names...ever!**) Now create a **text file** called `hello.py` in that directory that contains exactly one line:
 
 ```python
 500+1
 ```
 
-This is exactly what you typed in first in the interactive Python shell. Save the file in the `inclass` directory.
+Use the editor of your choice, though `nano` is a good one because you will be able to use it on remote servers when we do cloud computing. Sublime and TextEdit.app also work.
 
-Here are solutions to  the most common errors:
+That "code" is exactly what you typed in first in the interactive Python shell. Save the file in your `inclass` directory or whatever your calling.
 
-1. Do not put `.txt` at the end of the file name; it must be `.py`
-2. Do NOT use M$ Word or any other word processor; You think it's text but it's not. There are lots of text editors out there including Mac's `TextEdit.app`. Just make sure save as plain text not "rich text". There are also plenty of text editor such as [Sublime](https://www.sublimetext.com/) and [TextMate](https://macromates.com/).  (If you are really hard-core, you will learn `vi` or `emacs`, which you will see me use in class.) You can also use `nano` from the command line for editing directly in the command line window.
-
-Once you get the Python file written to the disk, you should be able to jump to that directory using `cd` (change directory) from the commandline:
+Once you get the Python file written to the disk using your editor, you should be able to jump to that directory using `cd` (change directory) from the commandline:
 
 ```bash
 $ cd /Users/YOURID/msan501/inclass
@@ -107,6 +112,19 @@ Use `ls` to get a directory listing:
 $ ls
 hello.py
 ```
+
+You verify that you have created the Python script properly by typing the following at the command line:
+
+```bash
+$ cat hello.py
+500+1
+$ 
+```
+
+Here are solutions to the most common errors:
+
+1. Do not put `.txt` at the end of the file name; it must be `.py`
+2. Do NOT use M$ Word or any other word processor; You think it's text but it's not. There are lots of text editors out there including Mac's `TextEdit.app`. Just make sure save as plain text not "rich text". There are also plenty of text editor such as [Sublime](https://www.sublimetext.com/) and [TextMate](https://macromates.com/).  (If you are really hard-core, you will learn `vi` or `emacs`, which you will see me use in class.) You can also use `nano` from the command line for editing directly in the command line window.
 
 Now, we're going to run that program/script:
 

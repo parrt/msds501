@@ -68,7 +68,7 @@ To sum all of the elements of a 3x3 matrix, we let *n*=3 and *m*=3 and use an ad
 &nbsp;&nbsp;&nbsp;&nbsp;*for j in 0..2:*<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*add matrix<sub>i,j</sub> to sum*
 
-You might recognize this as a 2D form of an accumulator pattern.
+You might recognize this as a 2D form of an accumulator operation.
 
 As a more realistic example, let's add two matrices A and B together to form C. The key operation is to add A<sub>i,j</sub> to B<sub>i,j</sub> to get C<sub>i,j</sub>. Visually, it looks like this:
 
@@ -129,7 +129,7 @@ Another pattern uses nested for-each loops instead of indexed loops, which makes
 
 ## Filtering sequences
 
-One of the most common nested operations is a conditional inside of a loop. We use it to implement the [filter](patterns.md#filter) pattern, for example. The filter template looks like:
+One of the most common nested operations is a conditional inside of a loop. We use it to implement the [filter](operations.md#filter) operation, for example. The filter template looks like:
 
 for each *x* in *sequence*:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;if *condition*: add *x* to new list<br>
@@ -158,7 +158,7 @@ The template for searching a sequence of length *n* for element *e* looks like t
 *for i in 0..n-1:*<br>
 &nbsp;&nbsp;&nbsp;&nbsp;if *sequence<sub>i</sub>* = *e*: *index* = *i*
 
-For example, recall the searching for 999 visualization from the [search pattern](patterns.md#search):
+For example, recall the searching for 999 visualization from the [search operation](operations.md#search):
 
 <img src=images/search-rainfall.png width=180>
 

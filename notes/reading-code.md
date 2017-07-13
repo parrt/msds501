@@ -8,8 +8,10 @@ We read code in order to:
 
 * **Gain new experience**. Just as in natural language where we learn to speak by listening to others, we learn programming techniques by recognizing cool patterns in the code of others. Code is how programmers communicate and you will need to quickly understand the code I build in class.
 * **Find and adapt code snippets**. We can often find hints or solutions to a coding problem through code snippets found via Google search or at [StackOverlow](https://stackoverflow.com/).  Be careful here you do not violate copyright laws or, in the case of student projects, academic honesty rules.
-* **Discover the behavior of library functions or other shared code**.   The complete behavior of a library function is not always clear from the name or parameter list.  Looking at the source code for that function is the best way to understand what it does. The code **is** the documentation. While we're discussing library functions, let me highlight a golden rule: *You should never ever ask your fellow programmers about the details of parameters and return values from library functions.* You can easily discover this yourself using "jump to definition" in PyCharm or by searching on the web.
+* **Discover the behavior of library functions or other shared code**.   The complete behavior of a library function is not always clear from the name or parameter list.  Looking at the source code for that function is the best way to understand what it does. The code **is** the documentation. 
 * **Uncover bugs, in our code or others' code**. All code has bugs, particularly code we just wrote that has not been tested exhaustively. As part of the coding process, we are constantly bouncing around, reading our existing code base to make sure everything fits together.
+
+<img src="images/redbang.png" width=30 align="left">While we're discussing library functions, let me highlight a golden rule: *You should never ever ask your fellow programmers about the details of parameters and return values from library functions.* You can easily discover this yourself using "jump to definition" in PyCharm or by searching on the web.
 
 The purpose of this document is to explain how exactly a programmer reads code. Our first clue comes from the fact that we are not computers, hence, we should not read code like a computer, examining one symbol after the other. Instead, we're going to look for key elements and code patterns.
 
@@ -48,7 +50,7 @@ def average(...):
 
 If we're lucky, that comment corresponds to the function objective description in the work plan.
 
-The next step is to identify the parameters and return value. Again, the names of the parameters often tell us a lot but, unfortunately, Python does support explicit parameter types so we have to figure that out ourselves. Knowing the types of value and variable is critical to understanding a program.  In a simple function like this, we can usually figure out the types of the parameters in the return values quickly. In other cases, we will have to dig through the statements of the function to figure this out (more on this later).  Let's zoom in to see more detail about our function:
+The next step is to identify the parameters and return value. Again, the names of the parameters often tell us a lot but, unfortunately, Python does not support explicit parameter types so we have to figure that out ourselves. Knowing the types of values and variablesI is critical to understanding a program.  In a simple function like this, we can usually figure out the types of the parameters and the return values quickly. In other cases, we will have to dig through the statements of the function to figure this out (more on this later).  Let's zoom in to see more detail about our function:
  
 ```python
 def average(data):
@@ -71,7 +73,7 @@ def average(data):
     return sum / n
 ```
 
-An inexperienced programmer must examine the statements of the function individually and literally, sort of emulating a computer to figure out the emergent behavior. In contrast, *an experienced programmer looks for patterns in the code that represent implementations* of high-level patterns like map, search, filter, etc... 
+An inexperienced programmer must examine the statements of the function individually and literally, emulating a computer to figure out the emergent behavior. In contrast, *an experienced programmer looks for patterns in the code that represent implementations* of high-level operations like map, search, filter, etc... 
 
 By analogy, consider memorizing the state of a chessboard in the middle of play. A beginner has to memorize where all of the pieces are individually whereas a chessmaster recognizes that the board is, say, merely a variation on the Budapest Gambit.
 
@@ -83,15 +85,15 @@ How do we know where to start and what to look at? Well, let's think back to the
 3. Process the data, which can mean training a machine learning model, computing summary statistics, or optimizing a cost function
 4. Emit results, which can be anything from simply printing an answer to saving data to the disk to generating a fancy visualization
 
-The gist of that process is to load data into a handy data structure and process it. What do loading data, creating a data structure, and processing a data structure have in common? They all repeatedly execute a set of operations, which means that the gist of a program that processes data is looping. (There is even a famous book is entitled [Algorithms + Data Structures = Programs](https://www.amazon.com/Algorithms-Structures-Prentice-Hall-Automatic-Computation/dp/0130224189).)  A program that does not loop would likely be very boring as it could not traverse a data structure or process a data file.
+The gist of that process is to load data into a handy data structure and process it. What do loading data, creating a data structure, and processing a data structure have in common? They all repeatedly execute a set of operations, which means that the gist of a program that processes data is looping. (There is even a famous book is entitled [Algorithms + Data Structures = Programs](https://www.amazon.com/Algorithms-Structures-Prentice-Hall-Automatic-Computation/dp/0130224189) where *algorithm* means a process described by pseudocode or code.)  A program that does not loop would likely be very boring as it could not traverse a data structure or process a data file.
 
-From this, we can conclude that all of the action occurs in loops so we should look for loops in the code first. We saw lots of pseudocode loop templates in [Common lower-level programming patterns](combinations.md) and Python loop templates in [Programming Patterns in Python](python-patterns.ipynb). Reading code is a matter of finding such templates in the code of a function, which immediately tells us the kind of operation or pattern the author intended.
+From this, we can conclude that all of the action occurs in loops so we should **look for loops in the code first**. We saw lots of pseudocode loop templates in [Common lower-level programming patterns](combinations.md) and Python loop templates in [Programming Patterns in Python](python-patterns.ipynb). Reading code is a matter of finding such templates in the code of a function, which immediately tells us the kind of operation or pattern the author intended.
 
 ## Identifying programming patterns in code
 
-Let's dig through some loop examples, trying to identify the high-level patterns or operations. The key elements to look for are the holes in the templates we studied. This usually means identifying the loop variable, the loop bounds, which data structure we're traversing, and the operation performed on the data elements.  The goal is to reverse engineer the intentions of the code author.
+Let's dig through some loop examples, trying to identify the high-level patterns and corresponding operations. The key elements to look for are the holes in the templates we studied. This usually means identifying the loop variable, the loop bounds, which data structure we're traversing, and the operation performed on the data elements.  **The goal is to reverse engineer the intentions of the code author.**
 
-**Exercise**: To get started, what pattern does the `sum` function above follow?
+**Exercise**: To get started, what is the operation corresponding to the code pattern in the `sum` function above?
 
 ```python
 sum = 0.0
@@ -101,7 +103,7 @@ for x in data:
 
 That's an accumulator.
 
-**Exercise**: Let's look at a loop where I have deliberately used crappy variable names.
+**Exercise**: Let's look at a loop where I have deliberately used crappy variable names so you have to focus at the functionality.
 
 ```python
 foo = []
@@ -111,7 +113,7 @@ for blah in blort:
 
 That's a map operation, which we can see from the initialization of an empty target list and the `foo.append(...)` call. The `blah * 2` is not relevant to finding the pattern other than the fact that the target list is a function of `blah`, which comes from the source list `blort`.
 
-**Exercise**:  What kind of loop (for-each, indexed, nested, etc...) do you see in the following code? What kind of high level pattern is the code performing?
+**Exercise**:  What kind of loop (for-each, indexed, nested, etc...) do you see in the following code? What kind of high level operation is the code performing?
 
 ```python
 blort = []
@@ -119,9 +121,9 @@ for boo in range(len(foo)):
     blort.append(foo[boo] * 2)
 ```
 
-That's an indexed-loop that again does map operation. The clue that it is an indexed loop is that the bounds are `range(len(foo))` which is giving a range of indices. Because of the `blort.append` and reference to `foo[boo]`, we know it is a map operation. We know that `foo` is a list of some kind because of the `[boo]` index operator.
+That's an indexed-loop that again does a map operation. The clue that it is an indexed loop is that the bounds are `range(len(foo))` which is giving a range of indices. Because of the `blort.append` and reference to `foo[boo]`, we know it is a map operation. We know that `foo` is a list of some kind because of the `[boo]` index operator.
 
-**Exercise**:  What is the high-level pattern followed by this code:
+**Exercise**:  What is the high-level operation corresponding to the pattern in this code:
 
 ```python
 foo = []
@@ -129,7 +131,7 @@ for i in range(len(X)):
     foo.append(X[i]+Y[i])
 ```
 
-It is combining two columns (lists) into a target column. We know that X and Y are lists because of the `[i]` array indexing.
+It is combining two columns (lists) into a target column/list `foo`. We know that `X` and `Y` are lists because of the `[i]` array indexing.
 
 **Exercise**: What high-level math operation is this code performing?
 
@@ -141,7 +143,7 @@ for i in range(n):
 
 Matrix addition. It's important here to recognize that a nested indexed-loop gives all combinations of the loop variables, `i` and `j`, in the range [0..n). One of the most common reasons to do this is to iterate through the elements of a matrix or an image. The answer here could also be image addition.
 
-**Exercise**:  How many `'hi'`s get printed by this loop?
+**Exercise**:  How many `hi`'s get printed by this loop?
 
 ```python
 for i in range(n):
@@ -161,7 +163,9 @@ for x in X:
 print blort
 ```
 
-Max value in `X`. Anytime you see an `if` statement inside of a loop, think *filter* or *search*. It will usually be a variation on one of those. This assumes that the conditional expression is a function of the loop variable directly or indirectly.
+Max value in `X`. 
+
+<img src="images/redbang.png" width=30 align="left">Anytime you see an `if` statement inside of a loop, think *filter* or *search*. It will usually be a variation on one of those. This assumes that the conditional expression is a function of the loop variable directly or indirectly.
 
 **Exercise**: What does this variation print?
 
@@ -173,7 +177,7 @@ for i in range(len(X)):
 print blort
 ```
 
-Exactly the same thing; `blort` is the max of `X`.  You see a conditional expression, that is a function of the loop variable, inside of a loop. This is just a reformulation of the previous.
+Exactly the same thing; `blort` is the max of `X`.  You see a conditional expression that is a function of the loop variable inside of a loop. This is just a reformulation of the previous.
 
 **Exercise**: What is the goal of this code? I.e., what value it print for `foo` after the loop?
 
@@ -189,7 +193,9 @@ print foo
 
 argmax of `X`.  We know the code associated with the conditional is figuring out the max from our previous examples, but it is also tracking the `i`, the index. 
 
-Think of this as a standard pattern you've already figured out, but variation that does some extra stuff. Then ask what the difference between the two is. Here's an excellent case for trying to understand what the input-output pairs are (though we're talking about the guts of but not a full function here). With the max computation, the output is a value taken from `X`. In this case, the value printed out is an index in 0..len(X)-1.
+Think of this as a standard pattern you've already figured out, but a variation that does some extra stuff. Then ask what the difference between the two is. 
+
+This makes an excellent case for trying to understand what the input-output pairs are (though we're talking about the guts of but not a full function here). With the max computation, the output is a value taken from `X`. In this case, the value printed out is an index in 0..len(X)-1.
 
 **Exercise**: Describe what value `bar` has after this code completes.
 
@@ -230,12 +236,22 @@ for i in range(len(X)):
         Y.append(X[i])
 ```
 
-This loop implements the slice pattern that extracts a subset of elements from a list. In this case, it is choosing elements in range a..b of `X`, inclusively, and adding them to `Y`.
+This loop implements the slice operation that extracts a subset of elements from a list. In this case, it is choosing elements in range a..b of `X`, inclusively, and adding them to `Y`.
+
+That implementation is very inefficient because it wants the entire list to get the elements in a range. It's much faster and easier to understand if we change the bounds of the loop to the range of interest:
+
+```python
+a = 2
+b = 5
+Y = []
+for i in range(a, b+1):  # range is [a,b]
+    Y.append(X[i])
+```
 
 ## Summary
 
 Written code is an important part of being a programmer. Code is how programmers communicate. It's how we are able to use extra libraries effectively, how we debug, and how we gain experience.
 
-The trick to reading code is to reverse the program design process that goes from function workplan to pseudocode to height on code. The biggest clues come from variable and function names, and possibly code comments. Then we look for code templates expressed in the code to reverse-engineer the original intent of the author based upon that template choice.  For example, ask whether the code represents a map or search operation. Don't try to mimic a computer and guess the emergent behavior using a chart of how expression values change over time. Sometimes you have to do that for debugging purposes, but in general, your goal is to guess the intent of the code author.
+The trick to reading code is to reverse the program design process that goes from function workplan to pseudocode to Python code. The biggest clues come from variable and function names, and possibly code comments. Then we look for code templates expressed in the code to reverse-engineer the original intent of the author based upon that template choice.  For example, ask whether the code represents a map or search operation. Don't try to mimic a computer and guess the emergent behavior using a chart of how expression values change over time. Sometimes you have to do that for debugging purposes, but in general, your goal is to guess the intent of the code author.
 
-Because reading code is an important part of your process, be kind to other developers and your future self by writing good code. That includes choosing excellent variable and function names and writing code that clearly illustrates your intent.
+Because reading code is an important part of your process, be kind to other developers and your future self by writing high-quality code. That includes choosing excellent variable and function names and writing code that clearly illustrates your intent.

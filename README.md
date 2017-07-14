@@ -54,24 +54,24 @@ This class is pass/fail and we expect most people to pass, but those getting bel
 
 Start your engines!
 
-* [A bit of motivation (Audio processing)](notes/sound.ipynb)
-  * [A first taste of Python tools](labs/hello.md)
-  * [Playing sounds](labs/sound.md)
+* [A bit of motivation (Audio processing)](notes/sound.ipynb) (Day 1)
+  * [A first taste of Python tools](labs/hello.md) (Day 1)
+  * [Playing sounds](labs/sound.md) (Day 1)
 
 Learning to design programs
 
-* [Introduction to programming](notes/programming.md)
-* [Representing data in memory](notes/data-in-memory.md)
-* [Common programming operations](notes/operations.md)<!--* [Program Efficiency](notes/complexity.md) (Optional)-->
-* [Program planning](notes/planning.md)
-* [Functions](notes/functions.md)
+* [Introduction to programming](notes/programming.md) (Day 2)
+* [Representing data in memory](notes/data-in-memory.md) (Day 2)
+* [Common programming operations](notes/operations.md) (Day 2)
+* [Program planning](notes/planning.md) (Day 3)
+* [Functions](notes/functions.md) (Day 3)
 * [Model of Computation](notes/computation.md)
 * [Common lower-level programming patterns](notes/combinations.md)
 
 Common programming tools
 
 * [Bash your way to victory](notes/bash-intro.md)
-* [Introduction to git and revision control](notes/git.md)
+* [Introduction to git and revision control](notes/git.md) (Day 2)
 
 Implementing program work plans (actual coding)
 

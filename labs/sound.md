@@ -115,6 +115,8 @@ Installing collected packages: pysoundfile
 Successfully installed pysoundfile-0.9.0.post1
 ```
 
+**LINUX USERS:** You need to so `conda install libgcc` as well to make this sound stuff work.
+
 Install the other package as well:
 
 ```bash

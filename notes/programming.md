@@ -19,7 +19,7 @@ The same is true for natural languages. Learning to prove mathematical theorems 
 
 Programming is more about *what* to say rather than *how* to say it.  Solving a problem with a computer means identifying a sequence of operations, each of which solves a piece of the overall problem. Each operation might itself be a sequence of suboperations.  Expressing those operations in Python or R is not the hard part. Identifying which operations are necessary and their relative order is the hard part.
 
-The good news is that all of the analytics and machine learning problems you'll likely run into can be solved using the same generic program outline, which we'll discuss shortly. Before that, we should come up with an overall strategy for attacking programming problems.
+Let's start with an overall strategy for attacking programming problems.
 
 ## Problem-solving strategy
 

@@ -30,9 +30,17 @@ Because we're just learning to program, we're going to use this program outline 
 * [Filter](operations.md#filter). Extract a subset of a sequence whose values satisfy a specific condition.
 * [Search](operations.md#search). Find the first or last index (position) of a specific value in a list.
 
+## Sample problem: Rainfall data
+
+Let's think about solving a problem that has a lot of moving parts:
+
+> Design a program called *rainfall* that processes a list of numbers representing daily rainfall amounts. The list contains the number 999 indicating the end of the data of interest. The program must produce the average of the non-negative values in the list up to but not including the 999. You cannot use built-in functions like `mean()`, `len()`, `sum()`.
+
+This problem stumps a shockingly-high percentage of computer science students completing first semester programming classes. We're going to solve this easily in this lecture by breaking the problem down into manageable chunks.
+ 
 ## The program design process
 
-To see how the overall strategy and program outline come together, let's plan out a program that computes the average of some numbers. To help us remember the problem-solving steps and program outline, we'll use a [template for our program work plan](plans/program-planning.pdf).
+To see how the overall strategy and program outline come together, let's plan do the easy, well-understood part of the rainfall problem: computing the average of some numbers. To help us remember the problem-solving steps and program outline, we'll use a [template for our program work plan](plans/program-planning.pdf).
 
 Our first problem-solving/work-plan step is to clearly identify the goal, although it's almost a simple restatement of the problem. Let's start with "*Compute and print the average of the numbers in a file*."  The next step is to manually write out some sample input-output pairs. A single value, say, 1 should get us 1 as output. Two values like 1, 2 should give 1.5 etc.  Oh, what happens if there are no numbers? (Notice how laying out the possibilities helps us think about the definition of the problem.) We should emit 0.  Let's revisit step one and change it to be more general: "*Compute and print the average of the numbers in a file. Print 0 if there are no numbers.*"
 
@@ -62,7 +70,7 @@ Now, let's see what happens to the plan if we make the problem a little more com
 
 ## Plan reuse
 
-When discussing the slice programming operation, we used 999 as a sentinel value to indicate the end of some rainfall data of interest. Let's solve the problem of computing the average rainfall coming from a sensor up to but not including value 999. To solve this, we're going to use the second  method for identifying program operations: 
+Now, let's add back the complexity of stopping at 999 to the problem we're trying to solve. We want to compute the average rainfall coming from a sensor up to but not including value 999. To solve this, we're going to use the second method for identifying program operations: 
 
 <img src="images/redbang.png" width=30 align="left">*Reduce or simplify a new problem to a variation of an existing problem with a known solution.* 
 
@@ -71,13 +79,15 @@ This approach is well-known and used by just about every technical discipline (m
 As an aside, this guideline is often used to poke fun at other disciplines. For example, from [a collection of physicist jokes](https://www.astro.umd.edu/~avondale/extra/Humor/ScienceHumor/PhysicistJokes.html), here is a one variation:
 > A Physicist and a mathematician are sitting in a faculty lounge. Suddenly, the coffee machine catches on fire. The physicist grabs a bucket and leap towards the sink, fills the bucket with water and puts out the fire. Second day, the same two sit in the same lounge. Again, the coffee machine catches on fire. This time, the mathematician stands up, gets a bucket, hands the bucket to the physicist, thus *reducing the problem to a previously solved one*.
 
-We also use this problem-reduction approach in the programming world.  For example, the only difference between this new data problem and the previous generic "average some numbers" problem is that we want to ignore data beyond a certain point in the list. It stands to reason that if we tweak our averaging program plan, we can solve this new problem quickly. If we take a subset of the original list using the slice operation:
+We also use this problem-reduction approach in the programming world.  For example, the only difference between this new data problem and the previous generic "average some numbers" problem is that we want to ignore data beyond a certain point in the list. It stands to reason that if we tweak our averaging program plan, we can solve this new problem quickly. 
+
+As before, we start designing a program by clearly describing our objective.  In this case, we just have to tweak the objective so that it indicates we'd like to average the numbers in a file up to but not including the 999 sentinel. Next, we augment the sample input-output pairs to have 999, such as "1, 2, 999, 5, 4 → 1.5."
+
+Ok, now we can focus on reuse to solve this new problem. If we take a subset of the original list using the slice operation:
 
 <img src=images/slice.png width=210>
 
 then we get just a list of numbers and we're right back to the simple averaging problem from the last section.
-
-As before, we start designing a program by clearly describing our objective.  In this case, we just have to tweak the objective so that it indicates we'd like to average the numbers in a file up to but not including the 999 sentinel. Next, we augment the sample input-output pairs to have 999, such as "1, 2, 999, 5, 4 → 1.5."
 
 Next up in the work plan, we design the program. The method of reuse tells us that somewhere in the program sequence we'll see a slice operation and the average computing operations we had from before. Using the method of "working backwards", we know that the slice must precede the averaging operations. The averaging operation consumes the result of slicing.
 
@@ -85,11 +95,9 @@ Working backwards also tells us that we must search for the 999 sentinel in the 
 
 <img src=plans/rainfall-average-plan.png width=600>
 
-## Exercises
+## Noisy rainfall sensor data
 
-### Noisy rainfall sensor data
-
-**Exercise**: How can we handle the situation where the rainfall sensor is noisy and can spuriously generate some negative numbers? What should we change in our program work plan? Hint: it helps to write out the sample input-output pairs.
+We can add the final complexity to the rainfall problem: The rainfall sensor is noisy and can spuriously generate some negative numbers. What should we change in our program work plan? Well, it helps to write out the sample input-output pairs.
 
 The goal is to reuse as much possible, so we should ask ourselves: "*How can we reduce this new problem to one that we have already solved?*"  The answer is to filter out any negative numbers before giving it to the rainfall average plan. So, all we have to do is add a single operation to the "clean data" step in the overall program outline. It helps to think about such data manipulation visually:
 
@@ -99,7 +107,7 @@ The complete plan now has negative numbers in the sample input-output pairs and 
 
 Try to do this without looking at the [solution](plans/noisy-rainfall-average-plan.png)
 
-### Computing average sales
+## Computing average sales
 
 Let's look at a different problem, computing the average unit price for items less than $10 in some [sample sales data](../data/sales-small.xls):
 
@@ -116,9 +124,11 @@ Try to do this without looking at the [solution](plans/unit-price-average-plan.p
 <a name="power"></a>
 ### Power-to-weight ratio
 
-**Exercise**: Compute the average horsepower of 8-cylinder engines from a [sample car data set](../data/cars.xls). The first few rows look like:
+**Exercise**: Compute the average power-to-weight ratio of just the 8-cylinder engines from a [sample car data set](../data/cars.xls). The first few rows look like:
 
 <img src=images/cars.png width=240>
+
+ENG is the power column.
 
 Follow the process in our [program work plan](plans/program-planning.pdf). Hints: For the sample input-output pairs step of the design process, I actually manually do some interactive work in a spreadsheet. Here is one experiment in process:
 

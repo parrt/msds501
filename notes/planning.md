@@ -79,7 +79,11 @@ This approach is well-known and used by just about every technical discipline (m
 As an aside, this guideline is often used to poke fun at other disciplines. For example, from [a collection of physicist jokes](https://www.astro.umd.edu/~avondale/extra/Humor/ScienceHumor/PhysicistJokes.html), here is a one variation:
 > A Physicist and a mathematician are sitting in a faculty lounge. Suddenly, the coffee machine catches on fire. The physicist grabs a bucket and leap towards the sink, fills the bucket with water and puts out the fire. Second day, the same two sit in the same lounge. Again, the coffee machine catches on fire. This time, the mathematician stands up, gets a bucket, hands the bucket to the physicist, thus *reducing the problem to a previously solved one*.
 
-We also use this problem-reduction approach in the programming world.  For example, the only difference between this new data problem and the previous generic "average some numbers" problem is that we want to ignore data beyond a certain point in the list. It stands to reason that if we tweak our averaging program plan, we can solve this new problem quickly. 
+We also use this problem-reduction approach in the programming world.
+
+<img src="images/redbang.png" width=30 align="left">To apply this new approach, ask what the difference is between the problem you're trying to solve and other problems for which you have a solution. 
+
+For example, the only difference between this new data problem and the previous generic "average some numbers" problem is that we want to ignore data beyond a certain point in the list. It stands to reason that if we tweak our averaging program plan, we can solve this new problem quickly. 
 
 As before, we start designing a program by clearly describing our objective.  In this case, we just have to tweak the objective so that it indicates we'd like to average the numbers in a file up to but not including the 999 sentinel. Next, we augment the sample input-output pairs to have 999, such as "1, 2, 999, 5, 4 → 1.5."
 

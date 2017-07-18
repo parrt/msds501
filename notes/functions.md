@@ -29,6 +29,9 @@ Reusing someone else's proven sequence of operations is  something we do all the
 &nbsp;&nbsp;&nbsp;&nbsp;turn on blender for 10 seconds<br>
 &nbsp;&nbsp;&nbsp;&nbsp;dump out the snow into a bowl
 
+<iframe width="260" height="315" src="https://www.youtube.com/embed/EfnnkgJ0r6A" frameborder="0" allowfullscreen></iframe>
+
+<br>
 Functions are just like recipes except that the sequence of operations has to be more precise, since we will ultimately need to have an intolerant computer execute the sequence.
 
 As a more realistic example, consider the [formula for a line](https://www.mathsisfun.com/equation_of_line.html) from algebra: *y* = *mx* + *b* where *m* is the slope and *b* is the y-intercept. Here's a line at 45 degrees (slope 1) crossing the y-axis at 2: *y* = *x* + *2*. Another way to write that is *line(x)* = *x* + *2*, which we can describe as:
@@ -81,7 +84,7 @@ Invoke `line` with 3<br>
 print first y value returned from `line`<br>
 print second y value returned from `line`
 
-For the data processing steps, we can also use the notation from the sample function parameter and result section of the `line` function:
+For the data processing steps, we can also just use mathematics notation:
 
 1. **Process the data**<br>
 `line(-3)`<br>
@@ -139,9 +142,9 @@ print the value returned from the `average` function
 
 ## Exercises
 
-Reconsider the [previous exercise](planning.md#power) that computed the average power to weight ratio from a [sample car data set](../data/cars.xls). Let's say we want to write a program that identifies the maximum power-to-weight ratio for 8-cylinder cars. First, let's create a useful `max` function to make the program easier to write.
+Reconsider the [previous exercise](planning.md#power) that computed the average power to weight ratio from a [sample car data set](../data/cars.xls). Let's say we want to write a program that identifies the maximum not average power-to-weight ratio for 8-cylinder cars. First, let's create a useful `max` function to make the program easier to write.
 
-**Exercise**: Write a function work plan for function `max` that takes a list of numbers and returns the maximum value. Try to come up with two different plans for the processing steps. Hint: One of the plans uses a [max value accumulator](operations.md#accumulate) and the other does not.
+**Exercise**: Write a function work plan for function `max` that takes a list of numbers and returns the maximum value. Try to come up with two different plans for the processing steps. Hint: One of the plans uses a [max value accumulator](operations.md#accumulate) and the other does not. Also recall accumulators can use conditionals not just simple operations like addition.
 
 **Exercise**: Write a program work plan to identify the max power-to-weight ratio (i.e., the most powerful car) among 8-cylinder cars using the `max` function you just defined. Hint: reduce the problem to a variation on the previous solution for power-to-weight.
 

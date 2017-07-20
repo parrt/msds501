@@ -97,6 +97,8 @@ That is equivalent to this more awkward version:
 *if item is a book: remove book from inventory list*<br>
 *if item is a book: let total be cost + tax*
 
+**Exercise**: Chain multiple IF statements together to print A if a `grade` is 90-100, B if `grade` is 80-89, or C if `grade` is 70-79.
+
 Conditional execution is kind of like executing an operation zero or one times, depending on the conditional expression.  We also need to execute operations multiple times in some cases.
 
 ## Repeated execution
@@ -147,7 +149,9 @@ That counter loop is an example of an [accumulator](operations.md#accumulator).
 
 **Exercise**: Write a pseudocode loop to sum the integers from 1 to 8, inclusively.
 
-Another common analytics problem is to iterate through a computation until we reach a desired result. For example, to compute the integer component of, say, *log<sub>2</sub>(n)* we can repeatedly divide *n* by 2 until we reach 1. The number of times we can divide a number by 2 is the log<sub>2</sub> by definition, though we are ignoring fractional part of the true result. The loop is an accumulator variation with a conditional that tests the value as we cut it in half repeatedly. Here is the pseudocode:
+Another common analytics operation to add to our list (like map, search, etc...) is perhaps called "iterative computation". Basically we use a loop to iterate through a computation until we reach a desired result. The operation as an implied iterated value, just like the accumulator has an accumulated value. In fact, iterative computations often have both an iterative value and an accumulator, such as a counter.
+
+For example, to compute the integer component of, say, *log<sub>2</sub>(n)* we can repeatedly divide *n* by 2 until we reach 1. The number of times we can divide a number by 2 is the log<sub>2</sub> by definition, though we are ignoring fractional part of the correct result. Here is the pseudocode:
 
 *init a counter to 0*<br>
 *while n>1*:<br>
@@ -157,23 +161,40 @@ Another common analytics problem is to iterate through a computation until we re
 
 Notice how if n is 1, the loop is never entered and we print a counter of zero, which is the right answer for *log<sub>2</sub>(1)*.
 
-**Exercise**: Fill in the [Function work plan](plans/function-planning.pdf) to create a function that uses that pseudocode as the processing steps to compute the result. Hint: what needs to change to convert this from a program to a function?
+**Exercise**: Fill in a [Function work plan](plans/function-planning.pdf) to create a function that uses that pseudocode as the processing steps to compute the result. Hint: what needs to change to convert this from a program to a function?
+
+**Exercise**: Fill in a [Function work plan](plans/function-planning.pdf) for with a functioning that performs integer division of 2 parameters, x and y, by counting how many times we can divide y into x while the iterated value is greater or equal to the divisor y. You will need a counter and an interated value.
+
+<!--
+```
+def div(x,y):
+	counter = 0
+	n = x
+	while n>=y:
+		n = n / y
+		counter += 1
+	return counter
+```
+-->
 
 ### For-each loops
 
-We also see a different kind of loop that *iterates* through a sequence of elements, such as a list. For example, a recipe might say "*chop each ingredient into small pieces*." In pseudocode, we could write:
+We also see a different kind of loop that *iterates* through a sequence of elements, such as a list. It is the implementation of choice for the map operation. For example, a recipe might say "*chop each of the ingredients*." In pseudocode, we could write:
 
-*for each ingredient in ingredient list:*<br>
-&nbsp;&nbsp;&nbsp;&nbsp;*chop ingredient into small pieces*
-
-Remember that our goal is to identify the conditional and the operation(s) to repeat.
+*for each ingredient in ingredients list:*<br>
+&nbsp;&nbsp;&nbsp;&nbsp;*chop ingredient*
 
 Or, even closer to actual code, we might give a name to the iterated ingredient:
 
-*for each ingredient x in ingredient list:*<br>
+*for each ingredient x in ingredients list:*<br>
 &nbsp;&nbsp;&nbsp;&nbsp;*chop x into small pieces*
 
-The value of *x* takes on each ingredient value, one after the other.  Referring back to our discussion of traversing data structures, we iterated through a list of quantities:
+With this code pattern, our goal is to find a good iterated variable named, identify the conditional, and then identify the operation(s) to repeat. The template for a for-each loop looks like:
+
+for each *x* in *sequence*:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;*operate on x*
+
+The value of *x* takes on each sequence/list value, one after the other.  Referring back to our discussion of traversing data structures, we iterated through a list of quantities:
 
 <img src=images/int-list-item.png width=230>
 
@@ -187,10 +208,7 @@ For example, to print out each quantity in the list, we could write:
 *for each quantity in Quantity list*:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;*print quanity*
 
-The template for a for-each loop looks like:
 
-for each *x* in *sequence*:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;*operate on x*
 
 where *sequence* is typically a list or set. To use this pseudocode pattern, we have to identify a decent iterated variable name, the sequence, and the operations to repeat.
 
@@ -214,7 +232,7 @@ You can use "is even" and "is odd" to test values.
 
 ### Indexed loops
 
-Using the for-each kind of loop, we can rephrase the 1 to 5 counter loop from above more simply as:
+Using the for-each kind of loop, we can rephrase the 1 to 5 counter while-loop from above more simply as:
 
 *for each value i in set 1..5*:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;*print "hi"*
@@ -228,8 +246,6 @@ for each value *i* in *integer_set or range*:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;*operation 2*<br>
 &nbsp;&nbsp;&nbsp;&nbsp;...
 
-**Exercise**: Write a pseudocode indexed loop to print the numbers from 5 to 10, inclusively.
-
 Indexed loops are more general than the for-each loops. For example, this loop:
 
 *for each quantity in Quantity list*:<br>
@@ -242,16 +258,27 @@ is equivalent to:
 
 where *Quantity<sub>i</sub>* is the *i<sup>th</sup>* value of Quantity and *n* is the length of the Quantity list.  The difference is that the indexed loop has access to the loop iterator variable *i* and the for-each loop does not.
 
+**Exercise**: Given a `names` list, write a pseudocode indexed loop to print the elements of the list prefixed by their index starting at 0. Assume `len(names)` gives the length. For example:
+
+```
+0. bob
+1. mary
+2. xue
+```
+
 We tend to use indexed loops, that iterate through a range of integers, when traversing multiple lists at the same time. (To traverse a single list, we'd normally use a for-each loop.) For example, recall the visualization from the [combine programming operation](operations.md#combine):
 
 <img src=images/map-mult.png width=490>
 
 We can implement that operation using an indexed loop. At each time step, the loop operation needs to examine the same position in two lists. 
 
+*let Cost be a list*<br>
 *for each value i in set 0..n-1*:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;<i>let Cost<sub>i</sub> be Quantity<sub>i</sub> * UnitPrice<sub>i</sub></i>
 
-**Exercise**: Using an indexed-loop, write pseudocode to [slice](operations.md#slice) elements in range [0 to 5), indexes (0,1,2,3,4), from a rainfall list into a new list r. Hint: You'll need: "*add ... to r*".
+Keep in mind that, when we get to Python code, ranges are inclusive on the left and exclusive on the right; `range(0,5)` is 0..4 inclusively.
+
+**Exercise**: Using an indexed-loop, write pseudocode to [slice](operations.md#slice) elements in range [0 to 5), indexes (0,1,2,3,4), from a list `x` into a new list `y`. Hint: You'll need: "*add ... to y*".
 
 ### Translating formulas
 

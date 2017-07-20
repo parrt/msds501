@@ -30,6 +30,8 @@ Because we're just learning to program, we're going to use this program outline 
 * [Filter](operations.md#filter). Extract a subset of a sequence whose values satisfy a specific condition.
 * [Search](operations.md#search). Find the first or last index (position) of a specific value in a list.
 
+*TODO*:  Students ask about "isn't that just a loop?". Emphasize that anything interesting in a computer is a loop. The key is to think about programming design as a sequence of high-level operations, knowing that ultimately these operations are implemented as loops.  If we look at everything is a loop, how do you know which loop you need? The code patterns associated with the high-level operations is an important relationship. It also helps us to read code because we look for those patterns to reverse engineer the mind of the original author.
+
 ## Sample problem: Rainfall data
 
 Let's think about solving a problem that has a lot of moving parts:

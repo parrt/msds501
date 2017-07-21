@@ -147,7 +147,7 @@ In this case, the condition is altered by the "*add 1 to counter*" operation in 
 
 That counter loop is an example of an [accumulator](operations.md#accumulator).
 
-**Exercise**: Write a pseudocode loop to sum the integers from 1 to 8, inclusively.
+**Exercise**: Write a pseudocode WHILE loop to sum the integers from 1 to 8, inclusively.
 
 Another common analytics operation to add to our list (like map, search, etc...) is perhaps called "iterative computation". Basically we use a loop to iterate through a computation until we reach a desired result. The operation as an implied iterated value, just like the accumulator has an accumulated value. In fact, iterative computations often have both an iterative value and an accumulator, such as a counter.
 
@@ -163,7 +163,7 @@ Notice how if n is 1, the loop is never entered and we print a counter of zero, 
 
 **Exercise**: Fill in a [Function work plan](plans/function-planning.pdf) to create a function that uses that pseudocode as the processing steps to compute the result. Hint: what needs to change to convert this from a program to a function?
 
-**Exercise**: Fill in a [Function work plan](plans/function-planning.pdf) for with a functioning that performs integer division of 2 parameters, x and y, by counting how many times we can divide y into x while the iterated value is greater or equal to the divisor y. You will need a counter and an interated value.
+**Exercise**: Fill in a [Function work plan](plans/function-planning.pdf) for with a functioning that performs integer division of 2 parameters, x and y, by counting how many times we can subtract y from x while the iterated value is greater or equal to the divisor y. You will need a counter and an interated value. The point to this exercise is for you to see a pattern after solving a similar problem to the log2 function.
 
 <!--
 ```
@@ -171,7 +171,7 @@ def div(x,y):
 	counter = 0
 	n = x
 	while n>=y:
-		n = n / y
+		n = n - y
 		counter += 1
 	return counter
 ```

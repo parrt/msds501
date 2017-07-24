@@ -66,7 +66,7 @@ Learning to design programs
 * [Program planning](notes/planning.md) (Day 3)
 * [Functions](notes/functions.md) (Day 3)
 * [Model of Computation](notes/computation.md) (Day 4)
-* [Common lower-level programming patterns](notes/combinations.md)  (Day 5)
+* [Common lower-level programming patterns](notes/combinations.md)  (Day 5) to
 
 Common programming tools
 

@@ -66,7 +66,7 @@ Learning to design programs
 * [Program planning](notes/planning.md) (Day 3)
 * [Functions](notes/functions.md) (Day 3)
 * [Model of Computation](notes/computation.md) (Day 4)
-* [Common lower-level programming patterns](notes/combinations.md)  (Day 4)
+* [Common lower-level programming patterns](notes/combinations.md)  (Day 5)
 
 Common programming tools
 
@@ -75,7 +75,7 @@ Common programming tools
 
 Implementing program work plans (actual coding)
 
-* [Introduction to Python coding](notes/coding.ipynb)
+* [Introduction to Python coding](notes/coding.ipynb) (Day 5)
 * [Programming Patterns in Python](notes/python-patterns.ipynb)
 * [Organizing your code with functions](notes/coding-functions.ipynb)
 * [How to read code](notes/reading-code.md)

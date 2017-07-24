@@ -75,7 +75,7 @@ Common programming tools
 
 Implementing program work plans (actual coding)
 
-* [Introduction to Python coding](notes/coding.ipynb) (Day 5)
+* [Introduction to Python coding](notes/coding.ipynb) (Students should review if needed)
 * [Programming Patterns in Python](notes/python-patterns.ipynb)
 * [Organizing your code with functions](notes/coding-functions.ipynb)
 * [How to read code](notes/reading-code.md)

@@ -6,6 +6,8 @@ Before dropping all the way down to the level of programming language syntax, le
 
 We're going to stick with pseudocode for now because the precise syntax isn't necessary to learn the computation model. The concepts apply across most programming languages.
 
+*TODO*: Convert this to a Jupyter notebook and mix in actual Python syntax, particularly the list comprehensions where appropriate for the operations. Probably have to introduce assignment semantics briefly.
+
 ## Canonical processor operations
 
 As we saw in [Representing data in memory](data-in-memory.md), a computer's memory holds data temporarily while the processor works on that data. We typically load data into memory from the disk and organize it into a structure that is suitable for the computation we'd like to perform. In the end, though, memory just holds data. All of the action happens in the computer processor (CPU), which performs five principal operations:

@@ -66,7 +66,6 @@ Learning to design programs
 * [Program planning](notes/planning.md) (Day 3)
 * [Functions](notes/functions.md) (Day 3)
 * [Model of Computation](notes/computation.md) (Day 4)
-* [Common lower-level programming patterns](notes/combinations.md)  (Day 5) to
 
 Common programming tools
 
@@ -76,9 +75,8 @@ Common programming tools
 Implementing program work plans (actual coding)
 
 * [Introduction to Python coding](notes/coding.ipynb) (Students should review if needed)
-* [Programming Patterns in Python](notes/python-patterns.ipynb)
-* [Organizing your code with functions](notes/coding-functions.ipynb)
-* [How to read code](notes/reading-code.md)
+* [Programming Patterns in Python](notes/python-patterns.ipynb) (Day 5)
+* [Organizing your code with functions](notes/coding-functions.ipynb) (Day 5)
 
 Key programming patterns
 
@@ -90,3 +88,7 @@ Iterative computation and optimization
 
 * [Approximating square root](notes/sqrt.md)
 * [Iterative Optimization Via Gradient Descent](notes/gradient-descent.pdf) (pdf)
+
+Misc
+
+* [How to read code](notes/reading-code.md)

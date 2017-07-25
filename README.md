@@ -80,7 +80,7 @@ Implementing program work plans (actual coding)
 
 Key programming patterns
 
-* [Loading files](notes/files.md) (Day 6)
+* [Loading files](notes/files.ipynb) (Day 6)
 * [Manipulating and Visualizing Data](notes/data.ipynb)
 * [Extracting information from text](notes/text.ipynb)
 

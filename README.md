@@ -65,6 +65,7 @@ Learning to design programs
 * [Common programming operations](notes/operations.md) (Day 2)
 * [Program planning](notes/planning.md) (Day 3)
 * [Functions](notes/functions.md) (Day 3)
+* [Introduction to Python coding](notes/coding.ipynb) (Students should review if needed)
 * [Model of Computation](notes/computation.md) (Day 4)
 
 Common programming tools
@@ -74,13 +75,12 @@ Common programming tools
 
 Implementing program work plans (actual coding)
 
-* [Introduction to Python coding](notes/coding.ipynb) (Students should review if needed)
 * [Programming Patterns in Python](notes/python-patterns.ipynb) (Day 5)
 * [Organizing your code with functions](notes/coding-functions.ipynb) (Day 5)
 
 Key programming patterns
 
-* [Loading files](notes/files.md)
+* [Loading files](notes/files.md) (Day 6)
 * [Manipulating and Visualizing Data](notes/data.ipynb)
 * [Extracting information from text](notes/text.ipynb)
 

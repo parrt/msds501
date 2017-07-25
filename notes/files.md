@@ -1,6 +1,6 @@
 # Loading files
 
-The goal of this lecture-lab is to learn how to extract data from files on your laptop's disk. We'll load words from a text file and numbers from data files.  Along the way, will learn more about filenames and paths to files. The first two elements of our generic analytics program template says to acquire data and then load it into a data structure:
+The goal of this lecture-lab is to learn how to extract data from files on your laptop's disk. We'll load words from a text file and numbers from data files.  Along the way, we'll learn more about filenames and paths to files. The first two elements of our generic analytics program template says to acquire data and then load it into a data structure:
 
 1. Acquire data, which means finding a suitable file or collecting data from the web and storing in a file
 2. Load data from disk and place into memory organized into data structures

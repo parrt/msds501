@@ -6,7 +6,7 @@ Before dropping all the way down to the level of programming language syntax, le
 
 We're going to stick with pseudocode for now because the precise syntax isn't necessary to learn the computation model. The concepts apply across most programming languages.
 
-*TODO*: Convert this to a Jupyter notebook and mix in actual Python syntax, particularly the list comprehensions where appropriate for the operations. Probably have to introduce assignment semantics briefly. Emphasize that I know they know these primitive operations like that I'm trying to give them the big picture and retrain them to look at these operations merely as pieces of the way we express operations to a computer. It took about an hour previously; can probably go bit faster.
+*TODO*: Convert this to a Jupyter notebook and mix in actual Python syntax, particularly the list comprehensions where appropriate for the operations. Probably have to introduce assignment semantics briefly. Emphasize that I know they know these primitive operations like that I'm trying to give them the big picture and retrain them to look at these operations merely as pieces of the way we express operations to a computer. It took about an hour previously; can probably go bit faster. Maybe even combine with python-patterns lecture?  A lot of repetition in terms of implementing operations.
 
 ## Canonical processor operations
 

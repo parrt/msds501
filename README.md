@@ -76,11 +76,11 @@ Common programming tools
 Implementing program work plans (actual coding)
 
 * [Programming Patterns in Python](notes/python-patterns.ipynb) (Day 5)
-* [Organizing your code with functions](notes/coding-functions.ipynb) (Day 5)
+* [Organizing your code with functions](notes/coding-functions.ipynb) (Day 6)
 
 Key programming patterns
 
-* [Loading files](notes/files.ipynb) (Day 6)
+* [Loading files](notes/files.ipynb) (Day 6, 7)
 * [Manipulating and Visualizing Data](notes/data.ipynb)
 * [Extracting information from text](notes/text.ipynb)
 

@@ -77,19 +77,16 @@ Implementing program work plans (actual coding)
 
 * [Programming Patterns in Python](notes/python-patterns.ipynb) (Day 5)
 * [Organizing your code with functions](notes/coding-functions.ipynb) (Day 6)
+* [How to read code](notes/reading-code.md)
 
 Key programming patterns
 
 * [Loading files](notes/files.ipynb) (Day 6, 7)
-* [Manipulating and Visualizing Data](notes/data.ipynb) (Day 7)
+* [Manipulating and Visualizing Data](notes/data.ipynb) (Day 8,9)
+* [Extracting information from text](notes/text.ipynb) (Day 9)
 
 Iterative computation and optimization
 
-* [Generating Uniform Random Numbers](notes/random-uniform.ipynb) (Day 8)
-* [Approximating square root](notes/sqrt.md) (Day 8)
-* [Iterative Optimization Via Gradient Descent](notes/gradient-descent.pdf) (pdf) (Day 8)
-
-Misc
-
-* [How to read code](notes/reading-code.md)
-* [Extracting information from text](notes/text.ipynb)
+* [Generating Uniform Random Numbers](notes/random-uniform.ipynb) (Day 7)
+* [Approximating square root](notes/sqrt.md) (Day 7)
+* [Iterative Optimization Via Gradient Descent](notes/gradient-descent.pdf) (pdf) (Day 7,8)

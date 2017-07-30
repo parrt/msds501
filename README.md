@@ -86,6 +86,7 @@ Key programming patterns
 
 Iterative computation and optimization
 
+* [Generating Uniform Random Numbers](notes/random-uniform.ipynb)
 * [Approximating square root](notes/sqrt.md)
 * [Iterative Optimization Via Gradient Descent](notes/gradient-descent.pdf) (pdf)
 

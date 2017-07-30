@@ -81,7 +81,7 @@ Implementing program work plans (actual coding)
 Key programming patterns
 
 * [Loading files](notes/files.ipynb) (Day 6, 7)
-* [Manipulating and Visualizing Data](notes/data.ipynb)
+* [Manipulating and Visualizing Data](notes/data.ipynb) (Day 7)
 * [Extracting information from text](notes/text.ipynb)
 
 Iterative computation and optimization

@@ -82,14 +82,14 @@ Key programming patterns
 
 * [Loading files](notes/files.ipynb) (Day 6, 7)
 * [Manipulating and Visualizing Data](notes/data.ipynb) (Day 7)
-* [Extracting information from text](notes/text.ipynb)
 
 Iterative computation and optimization
 
-* [Generating Uniform Random Numbers](notes/random-uniform.ipynb)
-* [Approximating square root](notes/sqrt.md)
-* [Iterative Optimization Via Gradient Descent](notes/gradient-descent.pdf) (pdf)
+* [Generating Uniform Random Numbers](notes/random-uniform.ipynb) (Day 8)
+* [Approximating square root](notes/sqrt.md) (Day 8)
+* [Iterative Optimization Via Gradient Descent](notes/gradient-descent.pdf) (pdf) (Day 8)
 
 Misc
 
 * [How to read code](notes/reading-code.md)
+* [Extracting information from text](notes/text.ipynb)

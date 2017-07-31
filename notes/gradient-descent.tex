@@ -162,11 +162,9 @@ colorlinks=true
 
 \chapter{Iterative Optimization Via Gradient Descent}
 
-\section{Goal}
-
 \begin{fullwidth}
 
-The goal of this lab is to increase your programming skill by showing you how to solve an iterative computation problem with nontrivial iteration and termination conditions: {\em gradient descent function minimization}. 
+The goal of this lecture/lab is to solve an iterative computation problem with nontrivial iteration and termination conditions: {\em gradient descent function minimization}. 
 
 \section{Discussion}
 
@@ -182,7 +180,7 @@ f'(x) = 0
 \scalebox{.25}{\includegraphics{images/quadratic.pdf}}
 \end{center}
 
-We prefer to find the {\em global minimum} but generally have to be satisfied with a {\em local minimum}, which we hope is close to the global minimum. A decent approach to finding the global minimum is to find a number of local minima via random starting $x_0$ and just choose the minimum local minimum discovered. For example, the function $f(x) = cos(3\pi x) / x$ has two minima in $[0,1.1]$, with one obvious global minimum:
+We prefer to find the {\em global minimum} but generally have to be satisfied with a {\em local minimum}, which we hope is close to the global minimum. A decent approach to finding the global minimum is to find a number of local minima via random starting $x_0$ locations and just choose the minimum local of the minima discovered. For example, the function $f(x) = cos(3\pi x) / x$ has two minima in $[0,1.1]$, with one obvious global minimum:
 
 \begin{center}
 \scalebox{.29}{\includegraphics{images/cos-2minima.pdf}}

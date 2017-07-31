@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import random
 import time
-
+import math
 
 def minimize(f, x0, eta, h, precision):
     tracex = []
@@ -23,38 +23,38 @@ def minimize(f, x0, eta, h, precision):
 
 
 if __name__ == '__main__':
-    LEARNING_RATE = 10
+    LEARNING_RATE = 50
     h = 0.0001
     PRECISION = 0.0000001  # can't be too small as f(x)-f(xprev) prec is low
 
-    def f(x): return np.cos(3 * np.pi * x) / x
+    def f(x): return np.exp(-x) * np.cos(2 * np.pi * x)
 
-    graphx = np.arange(.1, 1.3, 0.01)
+    a = 0
+    b = 5
+    graphx = np.arange(a, b, 0.01)
     graphy = f(graphx)
     plt.plot(graphx, graphy)
 
-    random.seed(int(round(time.time() * 1000)))
+    random.seed( int(round(time.time() * 1000)) )
 
-    x0s = [random.uniform(.1, 1.2), random.uniform(.1, 1.2)]  # random starting positions
+    x0s = [.1, 2]
 
     print "TRIAL 1"
     tracex = minimize(f, x0s[0], LEARNING_RATE, h, PRECISION)
     tracey = [f(x) for x in tracex]
-    plt.rcParams.update({'font.size': 14})
     plt.plot(tracex, tracey, 'ro')
-    plt.text(0.3, 4.5, "f(%1.5f) = %1.9f steps = %d" %
+    plt.text(1.5, .85, "f(%1.5f) = %1.9f steps = %d" %
              (tracex[-1], f(tracex[-1]), len(tracex)), fontsize=14,
              color="red")
 
     print "TRIAL 2"
     tracex = minimize(f, x0s[1], LEARNING_RATE, h, PRECISION)
     tracey = [f(x) for x in tracex]
-    plt.rcParams.update({'font.size': 14})
     plt.plot(tracex, tracey, 'go')
-    plt.text(0.3, 3.9, "f(%1.5f) = %1.9f steps = %d" %
+    plt.text(1.5, .75, "f(%1.5f) = %1.9f steps = %d" %
              (tracex[-1], f(tracex[-1]), len(tracex)), fontsize=14,
              color="green")
 
-    #plt.savefig('cos-trace-2minima.pdf', format="pdf")
+    plt.savefig('damped-sine-2minima.pdf', format="pdf")
 
     plt.show()

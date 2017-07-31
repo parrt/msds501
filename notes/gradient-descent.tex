@@ -236,12 +236,20 @@ x _{i+1} = x_i - \eta (f(x_{i}+h) - f(x_{i}))
 
 \section{An implementation}
 
-Our goal is to use gradient descent to minimize $f(x) = cos(3\pi x) / x$. To increase chances of finding the global minimum, we'll pick {\bf two} random locations in the range $[0.1,1.2]$ using standard python {\tt random.random()} and perform gradient descent with both of them. To  observe our minimizer in action, we'll plot of $f(x)$ with traces that indicate the steps taken by gradient descent. Here are two sample descents where the $x$ and $f(x)$ values are displayed as well as the minimum of those two:
+Our goal is to use gradient descent to minimize $f(x) = cos(3\pi x) / x$. To increase chances of finding the global minimum, we can pick a few random locations in the range $[0.1,1.3]$ using standard python {\tt random.uniform()} and perform gradient descent on all of them. To  observe our minimizer in action, we'll eventually plot the trace of $x$'s that indicate the steps taken by gradient descent. Here are two sample descents where the $x$ and $f(x)$ values are displayed as well as the minimum of those two:
 
 \noindent \scalebox{.32}{\includegraphics{images/cos-trace-2minima.pdf}}
 \scalebox{.32}{\includegraphics{images/cos-trace-2minima-left.pdf}}
 
-\noindent Let's define a function called {\tt minimize} that takes the indicated parameters:
+\noindent Recall from our simple square root lecture, we had a basic outline for an iterative method:
+
+$x_0 = $ initial value\\
+{\bf while} True:\\
+\hspace{4mm}$x_{i+1} = $ function-giving-next-value$(x_i)$\\
+\hspace{4mm}{\bf if} $abs(x_{i+1} - x_i) < precision$:\\
+{\bf return}  $x_{i+1}$\\
+
+\noindent Let's define a function called {\tt minimize} that takes the indicated parameters and uses $x_i - \eta (f(x_{i}+h) - f(x_{i}))$ for function-giving-next-value:
 
 \begin{pyverbatim}
 def minimize(f, x0, eta, h, precision):
@@ -250,9 +258,7 @@ def minimize(f, x0, eta, h, precision):
         prev = x
         finite_diff = f(x + h) - f(x)	 # division by h rolls into learning rate
         x = x - eta * finite_diff 		# decelerates x step as it flattens out
-        delta = f(x) - f(prev)
-        # stop when small change in vertical but not heading down
-        if delta >= 0 and abs(delta) < precision:
+        if abs(x - prev) < precision:
             return x   # x is coordinate where f(x) is a minimum
 \end{pyverbatim}
 
@@ -288,37 +294,58 @@ print "f(%1.12f) = %1.12f delta = %1.20f" % (x, f(x), delta)
 
 \section{Displaying the minimization trace}
 
-To visualize the cosine function, we can use the following.
+Instead of just printing the values out, it's much easier to understand the path taken by the minimization function by visualizing it. First thing we need is a version of the function that keeps a trace of all $x$ values:
+
+\begin{pyverbatim}
+def minimize_trace(f, x0, eta, h, precision):
+    tracex = [x0]
+    x = x0
+    while True:
+        prev = x
+        finite_diff = f(x + h) - f(x)  # /h rolls into learning rate
+        x = x - eta * finite_diff  # decelerates x step as it flattens out
+        tracex.append(x)
+        if abs(x - prev) < precision:
+            return tracex
+\end{pyverbatim}
+
+Next, we import the matplotlib library for plotting and then define the following function.
 
 \begin{pyverbatim}
 import matplotlib.pyplot as plt
 
-graphx = np.arange(.1, 1.3, 0.01)
-graphy = f(graphx)
-plt.plot(graphx,graphy)
+def viz_trace(x0):
+    # Plot the damped sine curve
+    graphx = np.arange(.1, 1.3, 0.01)
+    graphy = [f(x) for x in graphx] # or just f(graphx)!
+    plt.plot(graphx, graphy)
+
+    # Minimize and get trace of x locations
+    tracex = minimize_trace(f, x0, ETA, h, PRECISION)
+
+    # Plot the trace
+    tracey = [f(x) for x in tracex]
+    plt.scatter(tracex, tracey, color="green", marker='o')
+    
+    # Add some text describing trace
+    plt.text(0.3, 4.5, "f(x=%1.5f) = %1.9f, steps = %d" %
+             (tracex[-1], f(tracex[-1]), len(tracex)), fontsize=14,
+             color="green")
+    plt.show()
 \end{pyverbatim}
 
-To create the ``trace'' dots we can just add the $x$ values to an array as we search for the minimum in {\tt minimize()} and return it to the caller:
+\noindent To test that routine, we pass in some random starting point and let it display the trace:
 
 \begin{pyverbatim}
-def minimize(f, x0, eta, h, precision):
-    tracex = []
-    tracex.append(x0)
-    ...
-    while True:
-        ...
-        tracex.append(x)
-        ...
-\end{pyverbatim}
-
-Then, we plot the trace ($x$, $f(x)$) pairs with red or green dots:
-
-\begin{pyverbatim}
-tracex = minimize(f, x0, ETA, h, PRECISION)
-tracey = [f(x) for x in tracex]
-plt.plot(tracex, tracey, 'ro') # plot red dots
+random.seed(int(round(time.time() * 1000))) # get new pseudo-random sequence each time
+x0 = random.uniform(.1, 1.2)
+viz_trace(x0)
 \end{pyverbatim}
  
+\section{Summary}
+
+Lots of mathematical computing problems require an iterative solution. One of the most important is minimizing error functions to train machine learning models. The good news is that the gradient descent method described here follows the simple iterative method outline we saw when approximating square root. The next step is to extend gradient descent to two variables, which you will do as a project to solve a regression (line fitting) problem.
+
 \end{fullwidth}
 \end{document}
 

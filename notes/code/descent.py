@@ -10,12 +10,9 @@ def minimize(f, x0, eta, h, precision):
         prev = x
         finite_diff = f(x + h) - f(x)  # /h rolls into learning rate
         x = x - eta * finite_diff  # decelerates x step as it flattens out
-        delta = f(x) - f(prev)
-        print "f(%1.12f) = %1.12f delta = %1.20f" % (x, f(x), delta)
-        # stop when small change in vertical but not heading down
-        if delta >= 0 and abs(delta) < precision:
+        # print "f(%1.12f) = %1.12f delta = %1.20f" % (x, f(x), f(x) - f(prev))
+        if abs(x - prev) < precision:
             return x
-    return tracex
 
 def minimize_trace(f, x0, eta, h, precision):
     tracex = [x0]
@@ -25,48 +22,36 @@ def minimize_trace(f, x0, eta, h, precision):
         finite_diff = f(x + h) - f(x)  # /h rolls into learning rate
         x = x - eta * finite_diff  # decelerates x step as it flattens out
         tracex.append(x)
-        delta = f(x) - f(prev)
-        if delta >= 0 and abs(delta) < precision:
+        if abs(x - prev) < precision:
             return tracex
 
+def viz_trace(x0):
+    # Plot the damped sine curve
+    graphx = np.arange(.1, 1.3, 0.01)
+    graphy = [f(x) for x in graphx] # or just f(graphx)!
+    plt.plot(graphx, graphy)
+
+    random.seed(int(round(time.time() * 1000)))
+
+    tracex = minimize_trace(f, x0, ETA, h, PRECISION)
+    tracey = [f(x) for x in tracex]
+    plt.scatter(tracex, tracey, color="green", marker='o')
+    plt.text(0.3, 4.5, "f(x=%1.5f) = %1.9f, steps = %d" %
+             (tracex[-1], f(tracex[-1]), len(tracex)), fontsize=14,
+             color="green")
+    plt.show()
+
 if __name__ == '__main__':
-    LEARNING_RATE = 10
+    ETA = 10
     h = 0.0001
     PRECISION = 0.0000001  # can't be too small as f(x)-f(xprev) prec is low
 
     def f(x): return np.cos(3 * np.pi * x) / x
 
-    graphx = np.arange(.1, 1.3, 0.01)
-    graphy = f(graphx)
-    plt.plot(graphx, graphy)
+    x0 = random.uniform(.1, 1.2)
+    viz_trace(x0)
 
-    random.seed(int(round(time.time() * 1000)))
-
-    x0s = [random.uniform(.1, 1.2), random.uniform(.1, 1.2)]  # random starting positions
-
-    print "TRIAL 1"
-    tracex = minimize_trace(f, x0s[0], LEARNING_RATE, h, PRECISION)
-    tracey = [f(x) for x in tracex]
-    plt.rcParams.update({'font.size': 14})
-    plt.plot(tracex, tracey, 'ro')
-    plt.text(0.3, 4.5, "f(%1.5f) = %1.9f steps = %d" %
-             (tracex[-1], f(tracex[-1]), len(tracex)), fontsize=14,
-             color="red")
-
-    print "TRIAL 2"
-    tracex = minimize_trace(f, x0s[1], LEARNING_RATE, h, PRECISION)
-    tracey = [f(x) for x in tracex]
-    plt.rcParams.update({'font.size': 14})
-    plt.plot(tracex, tracey, 'go')
-    plt.text(0.3, 3.9, "f(%1.5f) = %1.9f steps = %d" %
-             (tracex[-1], f(tracex[-1]), len(tracex)), fontsize=14,
-             color="green")
-
-    #plt.savefig('cos-trace-2minima.pdf', format="pdf")
-
-    ETA = 10
-    h = 0.0001
-    PRECISION = 0.0000001
+    # Or can just call to get x
     x0 = random.uniform(.1, 1.2)
     minx = minimize(f, x0, ETA, h, PRECISION)
     print "f(%f) = %f" % (minx, f(minx))

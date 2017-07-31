@@ -162,7 +162,7 @@ def analogies(gloves, x, y, z, n):
     the blank to complete the analogy.
 
     Compute the vector difference between x and y then compute the vector
-    difference between z and all vectors, v, in gloves database. Track
+    difference between z and all vectors, v, in gloves database (ignore v=z). Track
     the distances with a list of tuples of the form: (distance, word).  Sort
     the list by distance. Return a list of the first n words from the sorted
     list. Do not return the tuples, just the words.

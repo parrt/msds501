@@ -164,7 +164,7 @@ colorlinks=true
 
 \begin{fullwidth}
 
-The goal of this lecture/lab is to solve an iterative computation problem with nontrivial iteration and termination conditions: {\em gradient descent function minimization}. 
+The goal of this lecture/lab is to solve an iterative computation problem with nontrivial iteration and termination conditions: {\em gradient descent function minimization}. The full \href{https://github.com/parrt/msan501/blob/master/notes/code/descent.py}{\textcolor{blue}source code} of this lesson is available.
 
 \section{Discussion}
 
@@ -252,35 +252,50 @@ def minimize(f, x0, eta, h, precision):
         x = x - eta * finite_diff 		# decelerates x step as it flattens out
         delta = f(x) - f(prev)
         # stop when small change in vertical but not heading down
-        if delta >= 0 and abs(delta) < precision: break
+        if delta >= 0 and abs(delta) < precision:
+            return x   # x is coordinate where f(x) is a minimum
 \end{pyverbatim}
 
-\noindent Here's how we would call the minimize function:
+Choosing an appropriate step value $h$ is important to get a decent approximation of the derivative through finite differences but that is large enough to avoid faulty results from lack of precision (subtracting two floating-point numbers in the computer results in a number with much less precision than the original numbers). You want that number to be small enough so that your algorithm does not oscillate around the minimum. If the number is too big it will compute a finite difference that makes $x_{i+1}$ leap across the minimum to the other wall of the function.  We must also pick a learning rate $\eta$ that allows you to go as fast as we can but not so fast that it overruns the minimum back and forth. When I crank up my learning rate too far, I see the algorithm oscillate:
+
+\begin{pyverbatim}
+...
+f(2.470932790352) = -0.109488272790 , delta = -0.39601471581233022023
+f(2.099265953523) = 0.282655040497 , delta = 0.39214331328753893047
+f(2.474216657712) = -0.097250083113 , delta = -0.37990512360965078553
+f(2.100529851383) = 0.277900324077 , delta = 0.37515040718930170449
+f(2.478172114663) = -0.082429682649 , delta = -0.36033000672594917013
+...
+\end{pyverbatim}
+
+\noindent Here's are some decent parameters and how we can call the minimize function:
 
 \begin{pyverbatim}
 ETA = 10
 h = 0.0001
 PRECISION = 0.0000001 # can't be too small as f(x)-f(xprev) prec is low
 def f(x): return np.cos(3*np.pi*x) / x
-x0 = runif(.1,1.2)  # using our uniform random number generator
-minimize(f, x0, ETA, h, PRECISION)
+x0 = random.uniform(.1, 1.2)
+minx = minimize(f, x0, ETA, h, PRECISION)
+print "f(%f) = %f" % (minx, f(minx))
 \end{pyverbatim}
 
-\noindent Notice how I snuck in that {\tt f()} definition for the above cosine function. I could have used a {\tt lambda} too:
+To help you understand what the program is doing, you can print out $x$, $f(x)$, and any other value you think is helpful to see how your program explores the curve. This goes inside the loop:
 
 \begin{pyverbatim}
-minimize(lambda x : np.cos(3*np.pi*x) / x, x0, ETA, h, PRECISION)
+print "f(%1.12f) = %1.12f delta = %1.20f" % (x, f(x), delta)
 \end{pyverbatim}
+
+\section{Displaying the minimization trace}
 
 To visualize the cosine function, we can use the following.
 
 \begin{pyverbatim}
 import matplotlib.pyplot as plt
 
-graphx = np.arange(.1,1.1,0.01)
+graphx = np.arange(.1, 1.3, 0.01)
 graphy = f(graphx)
 plt.plot(graphx,graphy)
-plt.axis([0,1.1,-4,6])
 \end{pyverbatim}
 
 To create the ``trace'' dots we can just add the $x$ values to an array as we search for the minimum in {\tt minimize()} and return it to the caller:
@@ -303,38 +318,6 @@ tracex = minimize(f, x0, ETA, h, PRECISION)
 tracey = [f(x) for x in tracex]
 plt.plot(tracex, tracey, 'ro') # plot red dots
 \end{pyverbatim}
-
-Choosing an appropriate step value $h$ is important to get a decent approximation of the derivative through finite differences but that is large enough to avoid faulty results from lack of precision (subtracting two floating-point numbers in the computer results in a number with much less precision than the original numbers). You want that number to be small enough so that your algorithm does not oscillate around the minimum. If the number is too big it will compute a finite difference that makes $x_{i+1}$ leap across the minimum to the other wall of the function.  We must also pick a learning rate $\eta$ that allows you to go as fast as we can but not so fast that it overruns the minimum back and forth. When I crank up my learning rate too far, I also see the algorithm oscillate:
-
-\begin{pyverbatim}
-...
-f(0.491296576641) = -0.166774773584 , delta = 2.05763033375622805821
-f(0.296744439739) = -3.171512867583 , delta = -3.00473809399913660556
-f(0.297092626880) = -3.171512816769 , delta = 0.00000005081414267138
-...
-\end{pyverbatim}
-
-To help you understand what your program is doing, print out $x$, $f(x)$, and any other value you think is helpful to see how your program explores the curve.umber
-
-Your minimization function should converge in less than about 70 steps.
-
-If you get really stuck piecing it together from the above, you can look at the [solution](https://github.com/parrt/msan501/blob/master/notes/code/descent.py).
-
-\section{Testing}
-
-There is some \href{https://github.com/parrt/msan501/blob/master/notes/code/test\_descent.py}{\textcolor{blue}{testing code}} available, which you run with {\tt pytest} module (that you might have to install):
-
-\begin{verbatim}
-$ python -m pytest test_descent.py 
-======================================= test session starts =======================================
-platform darwin -- Python 2.7.11 -- py-1.4.30 -- pytest-2.7.2
-rootdir: /Users/parrt/github/msan501/notes/code, inifile: 
-collected 12 items 
-
-test_descent.py ............
-
-==================================== 12 passed in 1.25 seconds ====================================
-\end{verbatim}
  
 \end{fullwidth}
 \end{document}

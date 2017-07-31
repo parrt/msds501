@@ -165,7 +165,7 @@ colorlinks=true
 
 \begin{fullwidth}
 
-The goal of this project is to extend the techniques we learned in class, for one-dimensional gradient descent, to a two-dimensional domain space, solving a {\em linear regression problem}.  This problem is also known as {\em curve fitting}.  As part of this lab, you will learn how to compute with vectors instead of scalars. Please use file {\tt regression-}{\em userid}{\tt /minimize.py} for function {\tt minimize} and {\tt regression-}{\em userid}{\tt /plot\_regression.py} for the code that draws the trace of the minimization in action (i.e., this is the file that has all the matplotlib junk).  You'll see starter (and test) files in the \href{https://github.com/parrt/msan501-starterkit/tree/master/regression}{\textcolor{blue}{regression starterkit}}. You will be doing your work in repository and directory {\tt regression-}{\em userid}{\tt }.
+The goal of this project is to extend the techniques we learned in class, for one-dimensional gradient descent, to a two-dimensional domain space, solving a {\em linear regression problem}.  This problem is also known as {\em curve fitting}.  As part of this lab, you will learn how to compute with vectors instead of scalars. Please use file {\tt minimize.py} for function {\tt minimize} and {\tt plot\_regression.py} for the code that draws the trace of the minimization in action (i.e., this is the file that has all of the matplotlib junk).  You'll see starter (and test) files in the \href{https://github.com/parrt/msan501-starterkit/tree/master/regression}{\textcolor{blue}{regression starterkit}}. You will be doing your work in your repository and directory {\tt regression-}{\em userid}{\tt } cloned from github.
 
 \section{Discussion}
 
@@ -285,17 +285,17 @@ The minimization algorithm looks like:
 \item Let $B = B_0$
 \item $C' = \left[ Cost(\left[ b_1+h \above 0pt{b_2} \right]) - Cost(B_i) \above 0pt Cost(\left[ b_1 \above 0pt{b_2+h} \right]) - Cost(B_i) \right]$, the finite difference in each direction computed separately
 \item Let $B_{i+1} = B_i - \eta C'$
-\item Goto step 3 until $abs(Cost(B_{i+1})-Cost(B_i)) < precision$ {\bf and} when the $Cost$ starts going back up
+\item Goto step 3 until $||(B_{i+1}-B_i)||_2 < precision$
 \end{enumerate}
 
-Using a small learning rate, my solution takes 78604 steps starting from coordinate (-45,10) using a very small step size, which gives me a fairly decent approximation of the minimum: [-36.00063291  15.48437211] compared to the analytic solution [ -36.000625 15.484375 ]. Starting from about the same distance away in the shallow valley at (-45,25), my solution takes 81551 steps. Cutting my step size by 5x, takes 431803 steps from (-45,25). Surprisingly, when I start very close to the minimum at (-36,15), my solution takes 71963 steps and does not exactly give a more accurate result. ``{\em Your mileage may vary.}''
+Using a small learning rate, my solution takes 20476 steps starting from coordinate (-45,10) using a very small step size, which gives me a fairly decent approximation of the minimum: [-36.000624999, 15.484374999] compared to the analytic solution [ -36.000625 15.484375 ]. Starting from about the same distance away in the shallow valley at (-45,25), my solution takes 21224 steps. Cutting my step size by 5x, takes 90527 steps from (-45,25). Surprisingly, when I start very close to the minimum at (-36,15), my solution takes 46227 steps and does not exactly give a more accurate result. ``{\em Your mileage may vary.}''
 
 \noindent \scalebox{.45}{\includegraphics{figures/wage-murders-heatmap-trace1.pdf}}
 \scalebox{.45}{\includegraphics{figures/wage-murders-heatmap-trace2.pdf}}
 
 \noindent \scalebox{.45}{\includegraphics{figures/wage-murders-heatmap-trace3.pdf}}
 
-When I crank up the learning rate and use a very small step size, my solution converges must faster and with the same accuracy. For example, with 10 times the learning rate as before, (-45,25) converges in 8174 steps instead of 81551 steps.
+When I crank up the learning rate and use a very small step size, my solution converges must faster and with the same accuracy. For example, with 10 times the learning rate as before, (-45,25) converges in 2564 steps instead of 21224 steps. Same accuracy but that high, the loop doesn't always terminate. Play around with it to see what values work well for you.
 
 \section{Getting fancy}
 
@@ -303,7 +303,7 @@ For the most part, the algorithm described above converges on the analytic solut
 
 To increase convergence rate, it's a good idea to have different $\eta$ learning rates per dimension, particularly in this case because we want to speed along the valley of $b_1$, but not jump too far on $b_2$ as it is already steep; the finite difference will cause it to move along quickly. {\em Note:} Because numpy will overload the {\tt *} multiple operator to work with vectors as well as scalars, $\eta$ can be a 2-vector and $\eta C'$ will ``just work.''
 
-For extremely large data sets or very high dimension data sets, you can use {\em stochastic gradient descent} which takes a single random or a small random subset of the samples when computing the cost function. Surprisingly, this still converges and takes much less time to compute. I believe that the math says that the algorithm will converge no matter how many samples (don't quote me on that). Further, picking a random subset adds noise to the process, which has been shown to pull gradient descent out of local minima and get it moving again towards a lower minimum. In our case, there is an exact solution and therefore a single minimum so we would only get a speed benefit from stochastic gradient descent.
+For extremely large data sets or very high dimension data sets, you can use {\em stochastic gradient descent} which takes a single random or a small random subset of the samples when computing the cost function. Surprisingly, this still converges and takes much less time to compute. I believe that the math says that the algorithm will converge no matter how many observations in your sample subsets (don't quote me on that). Further, picking a random subset adds noise to the process, which has been shown to pull gradient descent out of local minima and get it moving again towards a lower minimum. In our case, there is an exact solution and therefore a single minimum so we would only get a speed benefit from stochastic gradient descent.
 
 \section{Your task}
 
@@ -343,7 +343,7 @@ heatmap(Cost, trace)
 plt.show() # finally show the heatmap
 \end{pyverbatim}
 
-Your {\tt heatmap} function will create two ranges for the $b_1$ and $b_2$ coordinates and then simply compute the cost, storing it in a matrix such as {\tt C[i][j] = Cost([b1,b2])} where {\tt i} is the index of $b_2$ range values, ....  The trace is plotted on top of the map once you create it. The coordinate ranges of the heat map are not related to the trace at all; just show the ranges in the heatmaps displayed in this document. It took me a while to figure out all of the crazy methods to draw the heat maps so I'll toss you a bone and just provide it for you (it goes in your {\tt heatmap()} function):
+Your {\tt heatmap} function will create two ranges for the $b_1$ and $b_2$ coordinates and then simply compute the cost, storing it in a matrix such as {\tt C[i][j] = Cost([b1,b2])} where {\tt i} is the index of $b_2$ range values, etc....  The trace is plotted on top of the map once you create it. The coordinate ranges of the heat map are not related to the trace at all; just show the ranges in the heatmaps displayed in this document. It took me a while to figure out all of the crazy methods to draw the heat maps so I'll toss you a bone and just provide it for you (it goes in your {\tt heatmap()} function):
 
 \begin{pyverbatim}
 	imshow(C,  # this is C[row][col]
@@ -365,29 +365,43 @@ You will have to pick an appropriately small step value $h$ to get a decent appr
 
 \section{Testing}
 
-You can run {\tt regression-}{\em userid}{\tt /test\_regression.py} to check your {\tt miminize} function.  Here's my sample run:
+Please make sure that you add your learning rate etc... to {\tt regression-}{\em userid}{\tt /test\_regression.py} and check your {\tt miminize} function.  Here's my sample run:
 
 \begin{lstlisting}[style=BashInputStyle]
 $ python test_regression.py
 starting at [-23, 12]
-gradient descent gives  [-36.00034331  15.48430239] Cost 533.815093809
-exact is                [-36.000625000000007, 15.484375]
+gradient descent gives  [-36.00032523  15.48429803] Cost 533.815093817
+exact is                [-36.000625000000014, 15.484375]
 starting at [-50, 10]
-gradient descent gives  [-36.00062579  15.48437039] Cost 533.815093755
-exact is                [-36.000625000000007, 15.484375]
+gradient descent gives  [-36.0003626   15.48430703] Cost 533.815093802
+exact is                [-36.000625000000014, 15.484375]
 starting at [-36, 17]
-gradient descent gives  [-36.00062582  15.4843704 ] Cost 533.815093755
-exact is                [-36.000625000000007, 15.484375]
+gradient descent gives  [-36.00036264  15.48430704] Cost 533.815093802
+exact is                [-36.000625000000014, 15.484375]
 starting at [-36, 15]
-gradient descent gives  [-36.00034331  15.48430239] Cost 533.815093809
-exact is                [-36.000625000000007, 15.484375]
+gradient descent gives  [-36.00032519  15.48429802] Cost 533.815093817
+exact is                [-36.000625000000014, 15.484375]
 starting at [100, 17]
-gradient descent gives  [-36.00034316  15.48430235] Cost 533.815093809
-exact is                [-36.000625000000007, 15.484375]
+gradient descent gives  [-36.00032518  15.48429802] Cost 533.815093817
+exact is                [-36.000625000000014, 15.484375]
 starting at [-15, 0]
-gradient descent gives  [-36.00034325  15.48430237] Cost 533.815093809
-exact is                [-36.000625000000007, 15.484375]
+gradient descent gives  [-36.0003252   15.48429803] Cost 533.815093817
+exact is                [-36.000625000000014, 15.484375]
 \end{lstlisting}
+
+This is the primary means by which we will test your software!  We will also likely run your {\tt plot\_regression.py} file to see if it produces a heatmap properly. As part of the deliverables, you must provide two sample heatmap images (see below).
+
+{\bf You must tweak the step size and other parameters so that your results agree at least with the first {\bf three} decimal points of the analytic solution [-36.000625000000007, 15.484375].} (My solution is much closer than 3 decimals, except for a couple of weird starting positions where it only gets three decimal places.)
+
+\subsection{Deliverables}
+
+\begin{callout}{\bcplume}
+\begin{itemize}
+\item Your script {\tt regression-}{\em userid}{\tt /minimize.py} with the {\tt minimize()} function.
+\item Your script {\tt regression-}{\em userid}{\tt /plot\_regression.py}, which must have your {\tt heatmap} function.  This file imports the previous.
+\item A {\tt plot1.png} image file showing a visible trace on the heat map and {\tt plot2.png} showing the same thing but with a different starting location. The graph(s) should include the start, stop location and the number of steps as I have done on mine.\end{itemize}
+\end{callout}
+
 
 \section{Resources}
 
@@ -401,15 +415,6 @@ There is a lot of material out there on the web that can be helpful.
 \item \href{http://cs229.stanford.edu/notes/cs229-notes1.pdf}{Andrew Ng's CS229 Lecture notes}
 \item \href{http://people.duke.edu/~ccc14/pcfb/analysis.html}{Data analysis with Python}
 \end{itemize}
-
-{\bf You must tweak the step size and other parameters so that your results agree with the first {\bf three} decimal points of the analytic solution [-36.000625000000007, 15.484375].} (My solution is much better than that, except for a couple of weird starting positions where it only gets three decimal places.)
-
-\begin{callout}{\bcplume}
-\begin{itemize}
-\item Your script {\tt regression-}{\em userid}{\tt /minimize.py} with the {\tt minimize()} function.
-\item Your script {\tt regression-}{\em userid}{\tt /plot\_regression.py}, which must have your {\tt heatmap} function.  This file imports the previous.
-\item A {\tt plot1.png} image file showing a visible trace on the heat map and {\tt plot2.png} showing the same thing but with a different starting location. The graph(s) should include the start, stop location and the number of steps as I have done on mine.\end{itemize}
-\end{callout}
 
 \end{fullwidth}
 

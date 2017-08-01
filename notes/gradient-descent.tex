@@ -306,7 +306,7 @@ print "f(%1.12f) = %1.12f delta = %1.20f" % (x, f(x), delta)
 
 \section{Displaying the minimization trace}
 
-Instead of just printing the values out, it's much easier to understand the path taken by the minimization function by visualizing it. First thing we need is a version of the function that keeps a trace of all $x$ values:
+Instead of just printing the values out, it's much easier to understand the path taken by the minimization function if we visualize it. First thing we need is a version of the function that keeps a trace of all $x$ values:
 
 \begin{pyverbatim}
 def minimize_trace(f, x0, eta, h, precision):
@@ -321,7 +321,7 @@ def minimize_trace(f, x0, eta, h, precision):
             return tracex
 \end{pyverbatim}
 
-Next, we import the matplotlib library for plotting and then define the following function.
+\noindent Next, we import the matplotlib library for plotting and then define the following display function.
 
 \begin{pyverbatim}
 import matplotlib.pyplot as plt
@@ -350,7 +350,7 @@ def viz_trace(x0):
 
 \begin{pyverbatim}
 random.seed(int(round(time.time() * 1000))) # get new pseudo-random sequence each time
-x0 = random.uniform(.1, 1.2)
+x0 = random.uniform(.1, 1.3)
 viz_trace(x0)
 \end{pyverbatim}
  

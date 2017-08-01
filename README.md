@@ -85,7 +85,7 @@ Key programming patterns
 * [Manipulating and Visualizing Data](notes/data.ipynb) (Day 8,9)
 * [Extracting information from text](notes/text.ipynb) (Day 9)
 
-Iterative computation and optimization
+Iterative methods for computation and optimization
 
 * [Generating Uniform Random Numbers](notes/random-uniform.ipynb) (Day 7)
 * [Approximating square root](notes/sqrt.md) (Day 7)

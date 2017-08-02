@@ -12,6 +12,7 @@ def minimize(f, x0, eta, h, precision):
         x = x - eta * finite_diff  # decelerates x step as it flattens out
         # print "f(%1.12f) = %1.12f delta = %1.20f" % (x, f(x), f(x) - f(prev))
         if abs(x - prev) < precision:
+        # OR, if abs(finite_diff)<precision:
             return x
 
 def minimize_trace(f, x0, eta, h, precision):

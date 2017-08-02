@@ -165,7 +165,7 @@ colorlinks=true
 
 \begin{fullwidth}
 
-The goal of this project is to extend the techniques we learned in class, for one-dimensional gradient descent, to a two-dimensional domain space, solving a {\em linear regression problem}.  This problem is also known as {\em curve fitting}.  As part of this lab, you will learn how to compute with vectors instead of scalars. Please use file {\tt minimize.py} for function {\tt minimize} and {\tt plot\_regression.py} for the code that draws the trace of the minimization in action (i.e., this is the file that has all of the matplotlib junk).  You'll see starter (and test) files in the \href{https://github.com/parrt/msan501-starterkit/tree/master/regression}{\textcolor{blue}{regression starterkit}}. You will be doing your work in your repository and directory {\tt regression-}{\em userid}{\tt } cloned from github.
+The goal of this project is to extend the techniques we learned in class, for one-dimensional gradient descent, to a two-dimensional domain space, training a machine learning model called {\em linear regression}.  This problem is also known as {\em curve fitting}.  As part of this project, you will learn how to compute with vectors instead of scalars. Please use file {\tt minimize.py} for function {\tt minimize} and {\tt plot\_regression.py} for the code that draws the trace of the minimization in action (i.e., this is the file that has all of the matplotlib junk).  You'll see starter (and test) files in the \href{https://github.com/parrt/msan501-starterkit/tree/master/regression}{\textcolor{blue}{regression starterkit}}. You will be doing your work in your repository and directory {\tt regression-}{\em userid}{\tt } cloned from github.
 
 \section{Discussion}
 
@@ -238,7 +238,7 @@ The good news is that we know the cost function is a quadratic (by construction)
 \nabla Cost(B) = 0
 \]
 
-\noindent For our purposes, though, we'll use gradient descent to minimize the cost function. There are lots and lots of cost functions that are not simple little quadratics with symbolic solutions from calculus. In those cases, we have to use computer simulation.
+\noindent For our purposes, though, we'll use gradient descent to minimize the cost function. There are lots and lots of cost functions that are not simple little quadratics with symbolic solutions.  For example, if we change this problem from a predictor to a classifier ({\em logistic regression}), then training requires an iterative method.
 
 To show our prediction model in action, we can ask how many murders  there would be in Detroit if the average wage were \$4.7. (Obviously, these wages are from 30 years ago.) To make a prediction, all we have to do is plug $x=4.7$ into $\hat{y} = 14.484 x - 36.001$, which gives us 32.074 murders.
 
@@ -249,7 +249,7 @@ Before trying to minimize the cost function, it's helpful to study what the surf
 \noindent \scalebox{.45}{\includegraphics{figures/wage-murders-cost-3d.pdf}}
 \scalebox{.45}{\includegraphics{figures/wage-murders-heatmap.pdf}}
 
-What surprised me is that changes to the slope of the linear model's coefficient $b_2$, away from the optimal $b_2=15.484$, cost much more than tweaks to the y intercept, $b_1$. Regardless, the surface is convex. Unfortunately, based upon the deep trough that grows slowly along the diagonal of $(b_1,b_2)$, gradient descent takes a while to converge to the minimum. We will examine the path of gradient descent for a few initial starting point. Wikipedia says that the Rosenbrock function is a pathological case for traditional gradient descent and it looks pretty similar to our surface with its shallow valley in this topographic view from above:
+What surprised me is that changes to the slope of the linear model's slope coefficient $b_2$, away from the optimal $b_2=15.484$, cost much more than tweaks to the y intercept, $b_1$. Regardless, the surface is convex. Unfortunately, based upon the deep trough that grows slowly along the diagonal of $(b_1,b_2)$, gradient descent takes a while to converge to the minimum. We will examine the path of gradient descent for a few initial starting points. Wikipedia says that the Rosenbrock function is a pathological case for traditional gradient descent and it looks pretty similar to our surface with its shallow valley in this topographic view from above:
 
 \scalebox{.4}{\includegraphics{figures/Banana-SteepDesc}}
 
@@ -262,19 +262,19 @@ The recurrence relation for updating our estimate of $\vec{B}=[b_1, b_2]$ that m
 \noindent where we will approximate vectors of partial derivatives with partial finite differences:
 
 \[
-\nabla F(\vec{X}) =
+\nabla F(\vec{B}) =
 \begin{bmatrix}
-\frac{\partial}{x_1}{F(\vec{X})}\\
-\frac{\partial}{x_2}{F(\vec{X})} \\
+\frac{\partial}{b_1}{F(\vec{B})}\\
+\frac{\partial}{b_2}{F(\vec{B})} \\
 \end{bmatrix}
 \approx
 \begin{bmatrix}
-\frac{F(\left[ x_1+h \above 0pt{x_2} \right]) - F(\vec{X})}{h} \\
-\frac{F(\left[ x_1 \above 0pt{x_2+h} \right]) - F(\vec{X})}{h} \\
+\frac{F(\left[ b_1+h \above 0pt{b_2} \right]) - F(\vec{B})}{h} \\
+\frac{F(\left[ b_1 \above 0pt{b_2+h} \right]) - F(\vec{B})}{h} \\
 \end{bmatrix}
 \]
 
-\noindent The $h$ variable is a very small delta step away from a specific coordinate in each dimension in turn. In our case, we will compute the components of a finite difference vector $C'$ ignoring the division by the step $h$ because it will get folded into our learning rate $\eta$.
+\noindent The $h$ variable is a very small delta step away from a specific coordinate in each dimension in turn. In our case, we will compute the components of a finite difference vector ignoring the division by the step $h$ because it will get folded into our learning rate $\eta$.
 
 \subsection{Gradient-descent algorithm}
 
@@ -283,9 +283,9 @@ The minimization algorithm looks like:
 \begin{enumerate}
 \item Pick an initial $B_0$
 \item Let $B = B_0$
-\item $C' = \left[ Cost(\left[ b_1+h \above 0pt{b_2} \right]) - Cost(B_i) \above 0pt Cost(\left[ b_1 \above 0pt{b_2+h} \right]) - Cost(B_i) \right]$, the finite difference in each direction computed separately
-\item Let $B_{i+1} = B_i - \eta C'$
-\item Goto step 3 until $||(B_{i+1}-B_i)||_2 < precision$
+\item $Cost' = \left[ Cost(\left[ b_1+h \above 0pt{b_2} \right]) - Cost(B_i) \above 0pt Cost(\left[ b_1 \above 0pt{b_2+h} \right]) - Cost(B_i) \right]$, the finite difference in each direction computed separately
+\item Let $B_{i+1} = B_i - \eta Cost'$
+\item Goto step 3 until $||(B_{i+1}-B_i)|| < precision$
 \end{enumerate}
 
 Using a small learning rate, my solution takes 20476 steps starting from coordinate (-45,10) using a very small step size, which gives me a fairly decent approximation of the minimum: [-36.000624999, 15.484374999] compared to the analytic solution [ -36.000625 15.484375 ]. Starting from about the same distance away in the shallow valley at (-45,25), my solution takes 21224 steps. Cutting my step size by 5x, takes 90527 steps from (-45,25). Surprisingly, when I start very close to the minimum at (-36,15), my solution takes 46227 steps and does not exactly give a more accurate result. ``{\em Your mileage may vary.}''
@@ -299,11 +299,11 @@ When I crank up the learning rate and use a very small step size, my solution co
 
 \section{Getting fancy}
 
-For the most part, the algorithm described above converges on the analytic solution with a high degree of precision, assuming that your $h$ is small enough. In some cases however it only gets 3 digits of precision versus about six, depending on where the starting point is. To improve that accuracy, we can improve our termination condition from simply comparing previous and new value of the cost function to use the Euclidean distance between $B_{i+1}$ and $B_i$ or the magnitude of the finite difference. 
+For the most part, the algorithm described above converges on the analytic solution with a high degree of precision, assuming that your $h$ is small enough. In some cases however it only gets 3 digits of precision versus about six, depending on where the starting point is. To improve that accuracy, we can try other convergence tests, such as the magnitude of the finite difference.
 
 To increase convergence rate, it's a good idea to have different $\eta$ learning rates per dimension, particularly in this case because we want to speed along the valley of $b_1$, but not jump too far on $b_2$ as it is already steep; the finite difference will cause it to move along quickly. {\em Note:} Because numpy will overload the {\tt *} multiple operator to work with vectors as well as scalars, $\eta$ can be a 2-vector and $\eta C'$ will ``just work.''
 
-For extremely large data sets or very high dimension data sets, you can use {\em stochastic gradient descent} which takes a single random or a small random subset of the samples when computing the cost function. Surprisingly, this still converges and takes much less time to compute. I believe that the math says that the algorithm will converge no matter how many observations in your sample subsets (don't quote me on that). Further, picking a random subset adds noise to the process, which has been shown to pull gradient descent out of local minima and get it moving again towards a lower minimum. In our case, there is an exact solution and therefore a single minimum so we would only get a speed benefit from stochastic gradient descent.
+For extremely large data sets or very high dimension data sets, you can use {\em stochastic gradient descent} which considers either a single random dimension or a small random subset of the samples when computing the cost function. Surprisingly, this still converges and takes much less time to compute. I believe that the math says that the algorithm will converge no matter how many observations in your sample subsets (don't quote me on that). Further, picking a random subset adds noise to the process, which has been shown to pull gradient descent out of local minima and get it moving again towards a lower minimum. In our case, there is an exact solution and therefore a single minimum so we would only get a speed benefit from stochastic gradient descent.
 
 \section{Your task}
 
@@ -343,7 +343,7 @@ heatmap(Cost, trace)
 plt.show() # finally show the heatmap
 \end{pyverbatim}
 
-Your {\tt heatmap} function will create two ranges for the $b_1$ and $b_2$ coordinates and then simply compute the cost, storing it in a matrix such as {\tt C[i][j] = Cost([b1,b2])} where {\tt i} is the index of $b_2$ range values, etc....  The trace is plotted on top of the map once you create it. The coordinate ranges of the heat map are not related to the trace at all; just show the ranges in the heatmaps displayed in this document. It took me a while to figure out all of the crazy methods to draw the heat maps so I'll toss you a bone and just provide it for you (it goes in your {\tt heatmap()} function):
+Your {\tt heatmap} function will create two ranges for the $b_1$ and $b_2$ coordinates and then simply compute the cost, storing it in a matrix such as {\tt C[i][j] = Cost([b1,b2])} where {\tt i} is the index of $b_2$ values, etc....  The trace is plotted on top of the map once you create it. The coordinate ranges of the heat map are not a function of the trace data; just show the ranges in the heatmaps displayed in this document. It took me a while to figure out all of the crazy methods to draw the heat maps so I'll toss you a bone and just provide it for you (it goes in your {\tt heatmap()} function):
 
 \begin{pyverbatim}
 	imshow(C,  # this is C[row][col]
@@ -361,11 +361,11 @@ plt.plot(p[0], p[1], "ko", markersize=1)
 
 Please show the information as I have shown in the graphs to make it easier to compare results and for me to grade. 
 
-You will have to pick an appropriately small step value $h$ to get a decent approximation of the derivative through finite differences. You want that number to be small enough that your algorithm does not oscillate around the minimum. If the number is too big it will compute a finite difference that leads to $B_{i+1}$ leaping across the minimum to the other wall of the function. You must pick a learning rate $\eta$ that allows you to go as fast as you can but not so fast that it overruns the minimum back and forth. When I crank up my learning rate too far, I also see the algorithm go off into the weeds and stops with a minimum of [ -4.86000929e+10  -2.85744570e+12].
+You will have to pick an appropriately small step value $h$ to get a decent approximation of the derivative through finite differences. You want that number to be small enough that your algorithm does not oscillate around the minimum. If the number is too big it will compute a finite difference that leads to $B_{i+1}$ leaping across the minimum to the other wall of the function. You must pick a learning rate $\eta$ that allows you to go as fast as you can but not so fast that it overruns the minimum back and forth. When I crank up my learning rate too far, I also see the algorithm go off into the weeds and stop with a  $B$ of [ -4.86000929e+10  -2.85744570e+12].
 
 \section{Testing}
 
-Please make sure that you add your learning rate etc... to {\tt regression-}{\em userid}{\tt /test\_regression.py} and check your {\tt miminize} function.  Here's my sample run:
+Please make sure that you add your cost function, h, learning rate etc... to {\tt regression-}{\em userid}{\tt /test\_regression.py} and run it to check your {\tt miminize} function.  Here's my sample run:
 
 \begin{lstlisting}[style=BashInputStyle]
 $ python test_regression.py
@@ -398,8 +398,8 @@ This is the primary means by which we will test your software!  We will also lik
 \begin{callout}{\bcplume}
 \begin{itemize}
 \item Your script {\tt regression-}{\em userid}{\tt /minimize.py} with the {\tt minimize()} function.
-\item Your script {\tt regression-}{\em userid}{\tt /plot\_regression.py}, which must have your {\tt heatmap} function.  This file imports the previous.
-\item Your modified {\tt regression-}{\em userid}{\tt /test\_regression.py}, which must have your learning rate, Cost function etc... filled in.
+\item Your script {\tt regression-}{\em userid}{\tt /plot\_regression.py}, which must have your {\tt heatmap} function.  This file imports {\tt minimize.py}.
+\item Your modified {\tt regression-}{\em userid}{\tt /test\_regression.py}, which must have your learning rate, Cost function etc... filled in. This file imports {\tt minimize.py}.
 \item A {\tt plot1.png} image file showing a visible trace on the heat map and {\tt plot2.png} showing the same thing but with a different starting location. The graph(s) should include the start, stop location and the number of steps as I have done on mine.\end{itemize}
 \end{callout}
 

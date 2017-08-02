@@ -210,7 +210,7 @@ You can use numpy but please do not refer to a bunch of random packages that I p
 
 ## Evaluation
 
-Please be aware that, depending on the hardware you run this on, the program could be fairly slow. On my iMac, the test described here takes 45 seconds, which includes time to load and process the 1G file containing 400,000 words.
+Please be aware that, depending on the hardware you run this on, the program could be fairly slow. On my iMac, the test described here takes 45 seconds, which includes time to load and process the 1G file containing 400,000 words. *If it takes many minutes to process, we will assume there’s a problem with your code.*
 
 We will run your program from the command line as follows using the 300-dimensional vectors:
 

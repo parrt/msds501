@@ -84,7 +84,7 @@ Key programming patterns
 
 * [Loading files](notes/files.ipynb) (Day 6, 7)
 * [Manipulating and Visualizing Data](notes/data.ipynb) (Day 8)
-* [Linked lists](notes/linked-lists.ipynb) (Day 9 or 10)
+* [Linked lists](notes/linked-list.ipynb) (Day 9 or 10)
 
 Iterative methods for computation and optimization
 

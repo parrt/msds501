@@ -72,18 +72,19 @@ Common programming tools
 
 * [Bash your way to victory](notes/bash-intro.md)
 * [Introduction to git and revision control](notes/git.md) (Day 2)
+* [Launching a Virtual Machine at Amazon Web Services](notes/aws.md) (Day 10)
 
 Implementing program work plans (actual coding)
 
 * [Programming Patterns in Python](notes/python-patterns.ipynb) (Day 5)
 * [Organizing your code with functions](notes/coding-functions.ipynb) (Day 6)
-* [How to read code](notes/reading-code.md)
+* [How to read code](notes/reading-code.md) (Day 9)
 
 Key programming patterns
 
 * [Loading files](notes/files.ipynb) (Day 6, 7)
 * [Manipulating and Visualizing Data](notes/data.ipynb) (Day 8)
-* [Extracting information from text](notes/text.ipynb) (Day 9)
+* [Linked lists](notes/linked-lists.ipynb) (Day 9 or 10)
 
 Iterative methods for computation and optimization
 

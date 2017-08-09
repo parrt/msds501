@@ -4,15 +4,15 @@ The goal of this lecture-lab is to teach you to create a Linux machine at *Amazo
 
 ##  Discussion
 
-Login to AWS and go to your <a href=http://aws.amazon.com/console">AWS console</a> and click on the "EC2 Virtual servers in the cloud" link.
+Login to AWS and go to your [AWS console](http://aws.amazon.com/console) and click on the "EC2" link.
 
-<img src=images/console_snippet.png width=400>
+<img src=images/console_snippet.png width=200>
 
 Click "Launch Instance", which will start the process to create a virtual machine in the cloud. An instance is just a virtual machine.
 
 <img src=images/launch.png width=400>
 
-Select the "Amazon Linux AMI" server, which should be the first one.  This is a commonly-used "image" that results in a Linux machine that contains lots of useful goodies as you can see from that list, such as Python and MySQL. An image is just a snapshot of the disk after someone carefully installs software properly on a Linux machine. This means we don't have to install software every time we create a new machine.
+Select the "Amazon Linux AMI" entry, which should be the first one.  This is a commonly-used "image" that results in a Linux machine that contains lots of useful goodies as you can see from that list, such as Python and MySQL. An image is just a snapshot of the disk after someone carefully installs software properly on a Linux machine. This means we don't have to install software every time we create a new machine.
 
 <img src=images/ami.png width=600>
 
@@ -22,7 +22,7 @@ Select instance type "t2.micro," which should be the first machine type listed. 
 
 This will bring up a screen describing the details about the instance we are launching. ignore all of it for now and just click "Launch" at the bottom right.
 
-This will bring a dialog box up to select a key pair. A key pair is what allows you to securely access the server and prevent unauthorized access. The **first time*, you will need to create a new key pair. Name it as your user ID then click on "Download key pair."  It will download a *userid*.pem file, which are your security credentials for getting into the machine. Save that file in a safe spot. If you lose it you will not be able to get into the machine that you create. From now on, you can reuse this existing key.
+This will bring a dialog box up to select a key pair. A key pair is what allows you to securely access the server and prevent unauthorized access. The *first time*, you will need to create a new key pair. Name it as your user ID then click on "Download key pair."  It will download a *userid*.pem file, which are your security credentials for getting into the machine. Save that file in a safe spot. If you lose it you will not be able to get into the machine that you create. From now on, you can reuse this existing key.
 
 <img src=images/keypair.png width=600>
 
@@ -32,7 +32,7 @@ Click on the "I acknowledge that I have ..." checkbox then "Launch instance." Yo
 
 Click on the `i-...` link to go to the EC2 console showing your instance.
 
-<img src=images/ec2-instance.png>
+<img src=images/ec2-instance.png width=600>
 
 Click on your instance and you should see a description box at the bottom. Look for the "Public IP" address, which is 54.196.174.210 in this case:
 

@@ -184,7 +184,7 @@ Max value in `X`.
 blort = -99999
 for i in range(len(X)):
     if X[i] > blort:
-        blort = x
+        blort = X[i]
 print blort
 ```
 

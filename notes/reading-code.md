@@ -1,13 +1,13 @@
 # How to read code
 
-So far we have focused on designing programs and writing Python code. This is the key creative process but, in order to write code, programmers must be able to read code written by others. (Or even code written by us years later.) 
+Fundamentally programmers communicate with code. We not only express our thoughts to the computer but also to other developers. So far we have focused on designing programs and writing Python code. This is the key creative process but, in order to write code, programmers must be able to read code written by others.
 
 ## Why read code?
 
 We read code in order to:
 
-* **Gain new experience**. Just as in natural language where we learn to speak by listening to others, we learn programming techniques by recognizing cool patterns in the code of others. Code is how programmers communicate and you will need to quickly understand the code I build in class.
-* **Find and adapt code snippets**. We can often find hints or solutions to a coding problem through code snippets found via Google search or at [StackOverlow](https://stackoverflow.com/).  Be careful here you do not violate copyright laws or, in the case of student projects, academic honesty rules.
+* **Gain new experience**. Just as in natural language where we learn to speak by listening to others, we learn programming techniques by recognizing cool patterns in the code of others. Being able to quickly read code allows you to gain experience watching a programming lecture or video.
+* **Find and adapt code snippets**. We can often find hints or solutions to a coding problem through code snippets found via Google search or at [StackOverlow](https://stackoverflow.com/).  Be careful here that you do not violate copyright laws or, in the case of student projects, academic honesty rules.
 * **Discover the behavior of library functions or other shared code**.   The complete behavior of a library function is not always clear from the name or parameter list.  Looking at the source code for that function is the best way to understand what it does. The code **is** the documentation. 
 * **Uncover bugs, in our code or others' code**. All code has bugs, particularly code we just wrote that has not been tested exhaustively. As part of the coding process, we are constantly bouncing around, reading our existing code base to make sure everything fits together.
 
@@ -17,7 +17,7 @@ The purpose of this document is to explain how exactly a programmer reads code. 
 
 This is what we do when reading sentences in a foreign language. For example, my French is pretty bad so, when reading a French sentence, I have to consciously ask *who is doing what to whom*. In practice, that means identifying the subject, the verb, and the object. From these key elements, I try to imagine the thought patterns in the mind of the author.  I am essentially trying to reverse the process followed by the author.
 
-In the programming world, the process goes like this: The code author might have thought "*convert prices to a new list by dividing by 2*", which they converted to "map" pseudocode and finally to a Python `for` loop.  When reading that loop code, our job is to reverse the process and imagine the original goal of the author.  
+In the programming world, the process goes like this: The code author might have thought "*convert prices to a new list by dividing by 2*", which they converted to "map" pseudocode and finally to a Python `for` loop.  When reading that loop code, our job is to reverse the process and imagine the original goal of the author.  We are not trying to figure out the emergent behavior of the code by simulating it in our heads or on paper; rather we are looking for patterns that tell us what high-level operations are being performed.
 
 That's why you should emphasize clarity when writing code, so that reading the code more easily leads the reader to your intentions.  There is an excellent quote (by [John F. Woods](https://groups.google.com/forum/#!msg/comp.lang.c++/rYCO5yn4lXw/oITtSkZOtoUJ) I think) that summarizes things well:
 
@@ -27,11 +27,11 @@ That's why you should emphasize clarity when writing code, so that reading the c
 
 When looking at a textbook for the first time, it makes sense to scan through the table of contents to get an overall view of the book content. The same is true when looking at a program for the first time. Look through all of the files and the names of the functions contained in those files. Also figure out where the main program is. Depending on your goal in reading the program, you might start stepping through the main program or immediately jump to a function of interest.
 
-It's also useful to look at the input-output pairs of the program, because it helps you understand the program's functionality. In some sense, we are reverse-engineering the program work plan by examining and testing the program. Previously, we used the program work plan in the forward direction to design programs.
+It's also useful to look at the input-output pairs of the program from sample runs or unit tests, because it helps you understand the program's functionality. In some sense, we are reverse-engineering the program work plan by examining and testing the program. Previously, we used the program work plan in the forward direction to design programs.
 
 ## Getting the gist of a function
 
-Once we identify a main program or function to examine, it's time to reverse-engineer the function work plan. The function's name is perhaps the biggest clue as to what the function does, assuming the code author was a decent programmer. For example, there is no doubt what the following function's goal is:
+Once we identify a main program or function to examine, it's time to reverse-engineer the function work plan. The function's name is perhaps the biggest clue as to what the function does, assuming the code author was a decent programmer. (Using a generic function name like `f` is how faculty write code-reading questions without giving away the answer.) For example, there is no doubt what the following function's goal is:
 
 ```python
 def average(...):
@@ -50,7 +50,7 @@ def average(...):
 
 If we're lucky, that comment corresponds to the function objective description in the work plan.
 
-The next step is to identify the parameters and return value. Again, the names of the parameters often tell us a lot but, unfortunately, Python does not support explicit parameter types so we have to figure that out ourselves. Knowing the types of values and variablesI is critical to understanding a program.  In a simple function like this, we can usually figure out the types of the parameters and the return values quickly. In other cases, we will have to dig through the statements of the function to figure this out (more on this later).  Let's zoom in to see more detail about our function:
+The next step is to identify the parameters and return value. Again, the names of the parameters often tell us a lot but, unfortunately, Python does not support explicit parameter types so we have to figure that out ourselves. Knowing the types of values and variables is critical to understanding a program.  In a simple function like this, we can usually figure out the types of the parameters and the return values quickly. In other cases, we will have to dig through the statements of the function to figure this out (more on this later).  Let's zoom in to see more detail about our function:
  
 ```python
 def average(data):
@@ -153,6 +153,17 @@ for i in range(n):
 
 n * n. The inner loop goes around n times. The outer loop means we perform the entire inner loop n times.
 
+**Exercise**: 
+
+```python
+blort = []
+for foo in A:
+    for bar in B:
+        blort.append(foo + bar)
+```
+
+That's finding all conditions from all possible combinations from `A` and `B`.
+
 **Exercise**:  What is this code doing? I.e., what is the value of `blort` in the abstract after the loop completes?
 
 ```python
@@ -165,7 +176,7 @@ print blort
 
 Max value in `X`. 
 
-<img src="images/redbang.png" width=30 align="left">Anytime you see an `if` statement inside of a loop, think *filter* or *search*. It will usually be a variation on one of those. This assumes that the conditional expression is a function of the loop variable directly or indirectly.
+<img src="images/redbang.png" width=30 align="left">Anytime you see an `if` statement inside of a loop, think *filter* or *search* or *accumulator with condition*. It will usually be a variation on one of those. This assumes that the conditional expression is a function of the loop variable directly or indirectly.
 
 **Exercise**: What does this variation print?
 
@@ -179,7 +190,7 @@ print blort
 
 Exactly the same thing; `blort` is the max of `X`.  You see a conditional expression that is a function of the loop variable inside of a loop. This is just a reformulation of the previous.
 
-**Exercise**: What is the goal of this code? I.e., what value it print for `foo` after the loop?
+**Exercise**: What is the goal of this code? I.e., what value does it print for `foo` after the loop?
 
 ```python
 foo = -1
@@ -195,7 +206,7 @@ argmax of `X`.  We know the code associated with the conditional is figuring out
 
 Think of this as a standard pattern you've already figured out, but a variation that does some extra stuff. Then ask what the difference between the two is. 
 
-This makes an excellent case for trying to understand what the input-output pairs are (though we're talking about the guts of but not a full function here). With the max computation, the output is a value taken from `X`. In this case, the value printed out is an index in 0..len(X)-1.
+This makes an excellent case for trying to understand what the input-output pairs are (though we're talking about the guts of but not a full function here). With the max computation, the output is a value taken from `X`. In this case, the value printed out is an index in `0..len(X)-1`.
 
 **Exercise**: Describe what value `bar` has after this code completes.
 
@@ -223,7 +234,7 @@ for x in X:
         b = b + 1
 ```
 
-This is a combined filter and double accumulator. It is a filter because it is a conditional inside a loop where the conditional expression tests the loop iterator value. It is an accumulator because it updates at least one variable as it proceeds through the loop.  `a` as the number of values in `X` less than 10 and `b` has the count of values greater than or equal to 10.
+This is a double accumulator with a condition. It is an accumulator because it updates at least one variable as it proceeds through the loop. It has an accumulator condition because it is a conditional inside an accumulator loop where the conditional expression tests the loop iterator value.  `a` as the number of values in `X` less than 10 and `b` has the count of values greater than or equal to 10.
 
 **Exercise**: What value does `Y` have after the loop?
 

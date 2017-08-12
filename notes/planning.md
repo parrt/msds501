@@ -1,5 +1,7 @@
 # Program planning
 
+*TODO*: This seemed to be sort of vague and wishy-washy. Some more-complicated examples to motivate the use of the work plan is probably in order. even without code it's useful to show a complicated problem and how it fits the program outline. Consider merging program and functional work plan discussions. perhaps some actual code here? hmm...maybe not.
+
 A program is a sequence of operations that transforms data or performs computations that ultimately lead to the expected output. *Programming* is the act of designing programs: identifying the operations and their appropriate sequence.  In other words, programming is about coming up with a work plan intended for a computer, which we'll describe in semi-precise English called *pseudocode*. *Coding* is the act of translating such high-level pseudocode to programming language syntax. We'll worry about the actual [coding](coding.md) part later, after we learn how to design programs.
  At this point, we have an excellent foundation to start building programs because we have an [overall problem-solving strategy](programming.md):
 

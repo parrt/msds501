@@ -2,6 +2,8 @@
 
 The goal of this lecture-lab is to teach you to create a Linux machine at *Amazon Web Services*, login and copy some data to that machine.
 
+*TODO*: Add warning not to try scp from remote machine. Do it from the laptop. many people made this mistake.  Show two tabs, one local and one remote for terminal. Also show the use of fully qualified pathnames to get to the key files or data files.  maybe add some exploratory commandline commands on the remote machine to demonstrate that it's physically a different machine.  
+
 ##  Discussion
 
 Login to AWS and go to your [AWS console](http://aws.amazon.com/console) and click on the "EC2" link.
@@ -73,7 +75,7 @@ which changes the permissions like this:
 
 ```bash
 $ ls -l parrt.pem
--rw-------@ 1 parrt  501  1696 Aug  1 12:12 /Users/parrt/Dropbox/licenses/parrt.pem
+-r--------@ 1 parrt  501  1696 Aug  1 12:12 /Users/parrt/Dropbox/licenses/parrt.pem
 ```
 
 Don't worry if you don't understand exactly what's going on there. It's basically saying that the file is only read-write for me, the current user, with no permissions to anybody else.

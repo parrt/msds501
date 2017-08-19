@@ -4,6 +4,8 @@ The goal of this lecture-lab is to teach you to create a Linux machine at *Amazo
 
 *TODO*: Add warning not to try scp from remote machine. Do it from the laptop. many people made this mistake.  Show two tabs, one local and one remote for terminal. Also show the use of fully qualified pathnames to get to the key files or data files.  maybe add some exploratory commandline commands on the remote machine to demonstrate that it's physically a different machine.  
 
+Here is a video I made for MSAN692 showing [how to launch an AWS instance and start a Python-based web server](https://www.youtube.com/watch?v=qQncEJL6NHs&t=2s).
+
 ##  Discussion
 
 Login to AWS and go to your [AWS console](http://aws.amazon.com/console) and click on the "EC2" link.

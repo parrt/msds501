@@ -8,6 +8,8 @@
 * Launch Python from the shell
 * Print command-line arguments to a Python program
 
+Here is a fun [terminal game from MIT](http://web.mit.edu/mprat/Public/web/Terminus/Web/main.html).
+
 ## Description
 
 UNIX shell (`bash` in our case) is an interactive domain specific language used to control and monitor the UNIX operating system, which includes processes, devices, ram, cpus, disks etc. It is also a programming language, though we’ll use it mostly to move files around, execute commands, etc. If you have to use a Windows machine, either install a UNIX shell, install Linux with VMWare, or launch a UNIX box and Amazon Web services.

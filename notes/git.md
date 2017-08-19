@@ -6,6 +6,8 @@ For our purposes in MSAN, we're going to ignore most of the nontrivial capabilit
 
 In this lecture-lab, the goal is to get a basic understanding of how revision control and git/github work. We will take the opportunity to learning the primary git commands by getting you started on the images project repository.
 
+Here is an interactive [git "game"](https://try.github.io/levels/1/challenges/1) to help you learn.
+
 ## Introduction to revision control
 
 Let me start out with a small detour to drive home that you should be making backups of your laptop. Imagine losing your laptop. Where will all your work be? Gone. I recommend Carbonite or Mozy. Personally, I have a local Timemachine OS X backup hard drive sitting next to my computer that takes a snapshot every hour. It tracks the differences from the previous snapshot, rather than copying the entire hard drive again (slow/wasteful). Then, I have an off-site cloud-based backup with Carbonite that gets backed up when I go to sleep at night.  

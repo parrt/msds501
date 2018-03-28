@@ -48,7 +48,7 @@ All projects will be graded with the specific input or tests given in the projec
 
 Each project has a hard deadline and only those projects working correctly before the deadline get credit (100%).  My grading script pulls from github at the deadline.  On the due date, projects are due at the **start** of your section's class period for that day.
 
-This class is pass/fail and we expect most people to pass, but those getting below 80% raw average score are in the danger zone.
+This class is a standard, graded course with letter grades A - F.
 
 # Syllabus
 

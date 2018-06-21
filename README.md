@@ -10,12 +10,14 @@ This 6-week computational analytics bootcamp is part of the [MS in Data Science 
 **SPATIAL COORDINATES:**<br>
 
 * Class is held at 101 Howard on main floor classroom 155/156.
-* Quizzes are held on first floor, 152/154; Last four fridays 9:15-10am (no quiz July 14th). Both sections meet together Friday mornings. After taking the quiz, wander upstairs to 529 if your section meets Friday mornings at 10.
+* Quizzes are held on Tuesdays on first floor, 8:55 - 9:45. Both sections meet together Tuesday mornings for this. After taking the quiz, sec02 wanders off but sec1 stays in 155/156 for class.
 * My office is room 608 (which I share with Prof. John Veitch).
 
 **TEMPORAL COORDINATES.** Monday/Tuesday Sec01 10am-11:50pm, Sec02 1:10-3pm; July 9 (Mon) - August 7 (Tue).
 
 **INSTRUCTION FORMAT**. Class runs for 1:50 hours, 2 days per week. Instructor-student interaction during lecture is encouraged and we'll mix in mini-exercises / labs during class. All programming will be done in the Python 3 programming language, unless otherwise specified.
+
+*Please attend your assigned section to keep the classes balanced!*
 
 **TARDINESS.** Please be on time for class. It is a big distraction if you come in late.
 

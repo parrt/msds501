@@ -37,14 +37,14 @@ If you ever have questions about what constitutes plagiarism, cheating, or acade
 
 | Artifact | Grade Weight | Due date |
 |--------|--------|--------|
-|[Image processing](https://github.com/parrt/msan501/raw/master/projects/images.pdf)| 10%| Thur, July 27 |
-| [Word similarity and relationships](https://github.com/parrt/msan501/blob/master/projects/wordsim.md) | 10%| Thur, August 3 |
-| [Predicting Murder Rates With Gradient Descent](https://github.com/parrt/msan501/raw/master/projects/regression-gradient-descent.pdf)| 8%| Tue, August 7 |
+|[Image processing](https://github.com/parrt/msan501/raw/master/projects/images.pdf)| 15%| Thur, July 27 |
+| [Word similarity and relationships](https://github.com/parrt/msan501/blob/master/projects/wordsim.md) | 15%| Thur, August 3 |
+| [Predicting Murder Rates With Gradient Descent](https://github.com/parrt/msan501/raw/master/projects/regression-gradient-descent.pdf)| 10%| Tue, August 7 |
 |Quiz 0| 0% | 9:15am Thur, July 10 |
-|Quiz 1| 18%| 9:15am Fri, July 17 |
-|Quiz 2| 18%| 9:15am Fri, July 24 |
-|Quiz 3| 18%| 9:15am Fri, August 31 |
-|Quiz 4| 18%| 9:15am Fri, August 7 |
+|Quiz 1| 15%| 9:15am Fri, July 17 |
+|Quiz 2| 15%| 9:15am Fri, July 24 |
+|Quiz 3| 15%| 9:15am Fri, August 31 |
+|Quiz 4| 15%| 9:15am Fri, August 7 |
 
 All projects will be graded with the specific input or tests given in the project description, so you understand precisely what is expected of your program. Consequently, projects will be graded in binary fashion: They either work or they do not.  The only exception is when your program does not run on the grader's or my machine because of some cross-platform issue. This is typically because a student has hardcoded some filename into their program. In that case, we will take off just 20% instead of giving you a 0.
 

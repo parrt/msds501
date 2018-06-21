@@ -1,7 +1,7 @@
 MSAN501 Computational Analytics Bootcamp
 =======
 
-This 5-week computational analytics bootcamp is part of the [MS in Analytics program at the University of San Francisco](http://analytics.usfca.edu) and is specifically designed as an introduction to analytics programming for those who are not yet skilled programmers.
+This 6-week computational analytics bootcamp is part of the [MS in Data Science (formerly MS Analytics) program at the University of San Francisco](https://www.usfca.edu/arts-sciences/graduate-programs/data-science) and is specifically designed as an introduction to analytics programming for those who are not yet skilled programmers.
 
 # Administrivia
 
@@ -9,13 +9,13 @@ This 5-week computational analytics bootcamp is part of the [MS in Analytics pro
 
 **SPATIAL COORDINATES:**<br>
 
-* Class is held at 101 Howard in 5th floor classroom 529.
+* Class is held at 101 Howard on main floor classroom 155/156.
 * Quizzes are held on first floor, 152/154; Last four fridays 9:15-10am (no quiz July 14th). Both sections meet together Friday mornings. After taking the quiz, wander upstairs to 529 if your section meets Friday mornings at 10.
 * My office is room 608 (which I share with Prof. John Veitch).
 
-**TEMPORAL COORDINATES.** Thursday/Friday Sec01 10am-12pm, Sec02 1-3pm; July 13 (Thu) - August 11 (Fri). *One exception: Thur 20th class moved to Tue 18th.*
+**TEMPORAL COORDINATES.** Monday/Tuesday Sec01 10am-11:50pm, Sec02 1:10-3pm; July 9 (Mon) - August 7 (Tue).
 
-**INSTRUCTION FORMAT**. Class runs for 2 hours, 2 days per week. Instructor-student interaction during lecture is encouraged and we'll mix in mini-exercises / labs during class. All programming will be done in the Python 2 programming language, unless otherwise specified.
+**INSTRUCTION FORMAT**. Class runs for 1:50 hours, 2 days per week. Instructor-student interaction during lecture is encouraged and we'll mix in mini-exercises / labs during class. All programming will be done in the Python 3 programming language, unless otherwise specified.
 
 **TARDINESS.** Please be on time for class. It is a big distraction if you come in late.
 

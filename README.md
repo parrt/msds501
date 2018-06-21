@@ -11,7 +11,7 @@ This 6-week computational analytics bootcamp is part of the [MS in Data Science 
 
 * Class is held at 101 Howard on main floor classroom 155/156.
 * Quizzes are held on Tuesdays on first floor, 8:55 - 9:45. Both sections meet together Tuesday mornings for this. After taking the quiz, sec02 wanders off but sec1 stays in 155/156 for class.
-* My office is room 608 (which I share with Prof. John Veitch).
+* My office is *likely* room 607 up on mezzanine above agora open area.
 
 **TEMPORAL COORDINATES.** Monday/Tuesday Sec01 10am-11:50pm, Sec02 1:10-3pm; July 9 (Mon) - August 7 (Tue).
 

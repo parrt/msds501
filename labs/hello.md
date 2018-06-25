@@ -204,7 +204,7 @@ I 11:27:00.606 LabApp] [jupyter_nbextensions_configurator] enabled 0.2.8
 
 That will start up a program that launches a tab in your browser as well:
 
-<img src="../notes/images/lab1.png" width="80%">
+<img src="../notes/images/lab1.png" width="60%">
 
 Clicking on the "Python 3" icon under the "Notebook" category creates a new notebook window for you:
 

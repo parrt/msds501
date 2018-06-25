@@ -97,9 +97,11 @@ To install Python packages, we use the `pip` program. Normally this program does
 
 ```bash
 $ which pip
-/Users/parrt/anaconda2/bin/pip
-$ which ipython
-/Users/parrt/anaconda2/bin/ipython
+/Users/parrt/anaconda3/bin/pip
+$ which python
+/Users/parrt/anaconda3/bin/python
+beast:master:~/github/msan501/notes/sound $ which python3
+/Users/parrt/anaconda3/bin/python3
 ```
 
 Now, let's install the `pysoundfile` package:
@@ -115,7 +117,7 @@ Installing collected packages: pysoundfile
 Successfully installed pysoundfile-0.9.0.post1
 ```
 
-**LINUX USERS:** You need to so `conda install libgcc` as well to make this sound stuff work.
+**LINUX USERS:** You need to do `conda install libgcc` as well to make this sound stuff work.
 
 Install the other package as well:
 
@@ -128,21 +130,12 @@ Collecting sounddevice
 To make sure that we have installed the packages properly, we can try importing them with the interactive Python shell `python` or `ipython`:
 
 ```bash
-$ ipython
-Python 2.7.12 |Anaconda 4.2.0 (x86_64)| (default, Jul  2 2016, 17:43:17) 
-Type "copyright", "credits" or "license" for more information.
-
-IPython 5.1.0 -- An enhanced Interactive Python.
-?         -> Introduction and overview of IPython's features.
-%quickref -> Quick reference.
-help      -> Python's own help system.
-object?   -> Details about 'object', use 'object??' for extra details.
-
-In [1]: import soundfile as sf
-
-In [2]: import sounddevice as sd
-
-In [3]: 
+$ python
+Python 3.6.5 | packaged by conda-forge | (default, Mar 30 2018, 00:00:55) 
+[GCC 4.2.1 Compatible Apple LLVM 6.1.0 (clang-602.0.53)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import soundfile as sf
+>>> import sounddevice as sd
 ```
 
 This time, we do not get an error at the `import` statement.
@@ -165,7 +158,7 @@ sd.wait()                                # wait until music finishes before exit
 Run this program either in PyCharm or from the command line using:
 
 ```bash
-$ ipython play.py
+$ python play.py
 ```
 
 Edit the program now and change the `'Kiss.aiff'` string to `'ahhh.wav'`:
@@ -249,7 +242,9 @@ plt.scatter(t[0:1000],(y+y2)[0:1000],s=1)
 plt.show()
 ```
 
-See if you can see the relationship between this code and the previous code. We have another import statement that pulls in some plotting code and we use that to produce a scatterplot by replacing the `play`/`wait` sequence with with the last two lines. Other than that the code is the same. Run that code and you should see a nice wiggly sinewave, which is the addition of two pure sine waves at different frequencies.
+See if you can see the relationship between this code and the previous code. We have another import statement that pulls in some plotting code and we use that to produce a scatterplot by replacing the `play`/`wait` sequence with with the last two lines. Other than that the code is the same. Run that code and you should see a nice wiggly sinewave, which is the addition of two pure sine waves at different frequencies:
+
+<img src="images/twotone.png" width="100%">
 
 ## Sound processing
 

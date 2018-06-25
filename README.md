@@ -63,7 +63,7 @@ Start your engines!
 Learning to design programs
 
 * [Introduction to programming](notes/programming.md) (Day 2)
-* [Representing data in memory](notes/data-in-memory.md) (Day 2)
+* [Representing data in memory](notes/data-in-memory.ipynb) (Day 2)
 * [Common programming operations](notes/operations.md) (Day 2)
 * [Program planning](notes/planning.md) (Day 3)
 * [Functions](notes/functions.md) (Day 3)

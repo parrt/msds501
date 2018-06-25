@@ -73,28 +73,14 @@ See also [Computer environment sanity check](https://mlbook.explained.ai/intro.h
 
 Now let's jump into an interactive Python shell. In the abstract, it's the same as the bash command shell that controls your computer.  Both are programming languages; they just have different specialties. When we jump from the bash shell into Python's shell, it's like jumping across the border from France into Germany. We have to stop speaking French and start speaking German. (Or, keep speaking English if you're American because we're lazy and don't know any foreign languages. haha)  When you exit the Python interpreter, you will be back in the bash world, just as if you had returned from Germany to France.
 
-To enter the Python world, from the bash `$` prompt type `ipython3` (or `python3` if you prefer, as I do) followed by return/newline:
+To enter the Python world, from the bash `$` prompt type `python3` as we did in the last section. You should see that it is using the **Anaconda** version. If not, that means you are using the default Python on your system. To figure out where the Python program executable is using the command line, type `which python3` like this:
 
 ```bash
-$ ipython3
-$ ipython3
-Python 3.6.5 | packaged by conda-forge | (default, Mar 30 2018, 00:00:55) 
-Type 'copyright', 'credits' or 'license' for more information
-IPython 6.2.1 -- An enhanced Interactive Python. Type '?' for help.
-
-In [1]: 
-```
-
-You should see that it is using the **Anaconda** version. If not, that means you are using the default Python on your system. To figure out where the Python program executable is using the command line, type `which ipython` like this:
-
-```bash
-$ which python
+$ which python3
 /Users/parrt/anaconda3/bin/python3
-$ which ipython
-/Users/parrt/anaconda3/bin/ipython3
 ```
 
-Both of the programs are in the Anaconda `bin` (binary) directory, that holds all of the binary executables. If you don't see anaconda somewhere in the output from the `which` command, you need to look at the documentation for Anaconda and figure out why you are not running the appropriate Python. (Most likely something is wrong with your `PATH` environment variable.) That's okay for now as we can use any 2.X version of Python running.
+The Python program should be in the Anaconda `bin` (binary) directory, that holds all of the binary executables. If you don't see anaconda somewhere in the output from the `which` command, you need to look at the documentation for Anaconda and figure out why you are not running the appropriate Python. (Most likely something is wrong with your `PATH` environment variable.) That's okay for now as we can use any 3.X version of Python running.
 
 Now, from the Python prompt "`In [n]`" (we are no longer in `bash`), type `500+1` followed by newline. You should see something like this:
 

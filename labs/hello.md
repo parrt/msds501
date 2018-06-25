@@ -35,22 +35,53 @@ Commands are terminated by hitting the return key.
 
 After executing the command, the prompt returns indicating you can type another command. 
 
-##  Interactive Python
+## Environment Sanity check
 
-Now let's jump into an interactive Python shell. In the abstract, it's the same as the bash command shell that controls your computer.  Both are programming languages; they just have different specialties. When we jump from the bash shell into Python's shell, it's like jumping across the border from France into Germany. We have to stop speaking French and start speaking German. (Or, keep speaking English if you're American because we're lazy and don't know any foreign languages. haha)
+From the command line, type in the following command to verify that you have access to `python3`:
+ 
+```bash
+$ which python3
+/Users/parrt/anaconda3/bin/python3
+```
 
-To enter the Python world, from the `$` prompt type `ipython` (or `python` if you prefer) followed by return/newline:
+Next, run the program and make sure you have a recent version like 3.6.5:
 
 ```bash
-$ ipython
-Python 2.7.12 |Anaconda 4.2.0 (x86_64)| (default, Jul  2 2016, 17:43:17) 
-Type "copyright", "credits" or "license" for more information.
+$ python3
+Python 3.6.5 | packaged by conda-forge | (default, Mar 30 2018, 00:00:55) 
+[GCC 4.2.1 Compatible Apple LLVM 6.1.0 (clang-602.0.53)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 
+```
 
-IPython 5.1.0 -- An enhanced Interactive Python.
-?         -> Introduction and overview of IPython's features.
-%quickref -> Quick reference.
-help      -> Python's own help system.
-object?   -> Details about 'object', use 'object??' for extra details.
+Next try importing a library:
+
+```bash
+$ python3
+Python 3.6.5 | packaged by conda-forge | (default, Mar 30 2018, 00:00:55) 
+[GCC 4.2.1 Compatible Apple LLVM 6.1.0 (clang-602.0.53)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import pandas as pd
+>>> 
+```
+
+You should not get an error.
+
+See also [Computer environment sanity check](https://mlbook.explained.ai/intro.html#sec:2.2.1) from my book [The mechanics of machine learning](https://mlbook.explained.ai).
+
+##  Interactive Python
+
+Now let's jump into an interactive Python shell. In the abstract, it's the same as the bash command shell that controls your computer.  Both are programming languages; they just have different specialties. When we jump from the bash shell into Python's shell, it's like jumping across the border from France into Germany. We have to stop speaking French and start speaking German. (Or, keep speaking English if you're American because we're lazy and don't know any foreign languages. haha)  When you exit the Python interpreter, you will be back in the bash world, just as if you had returned from Germany to France.
+
+To enter the Python world, from the bash `$` prompt type `ipython3` (or `python3` if you prefer, as I do) followed by return/newline:
+
+```bash
+$ ipython3
+$ ipython3
+Python 3.6.5 | packaged by conda-forge | (default, Mar 30 2018, 00:00:55) 
+Type 'copyright', 'credits' or 'license' for more information
+IPython 6.2.1 -- An enhanced Interactive Python. Type '?' for help.
+
 In [1]: 
 ```
 
@@ -58,9 +89,9 @@ You should see that it is using the **Anaconda** version. If not, that means you
 
 ```bash
 $ which python
-/Users/parrt/anaconda2/bin/python
+/Users/parrt/anaconda3/bin/python3
 $ which ipython
-/Users/parrt/anaconda2/bin/ipython
+/Users/parrt/anaconda3/bin/ipython3
 ```
 
 Both of the programs are in the Anaconda `bin` (binary) directory, that holds all of the binary executables. If you don't see anaconda somewhere in the output from the `which` command, you need to look at the documentation for Anaconda and figure out why you are not running the appropriate Python. (Most likely something is wrong with your `PATH` environment variable.) That's okay for now as we can use any 2.X version of Python running.
@@ -136,7 +167,7 @@ Here are solutions to the most common errors:
 Now, we're going to run that program/script:
 
 ```bash
-$ ipython hello.py
+$ ipython3 hello.py
 $ 
 ```
 
@@ -145,28 +176,42 @@ We do not get any output. This is a critical difference. The interactive Python 
 Now edit that file and change it to
 
 ```python
-print 500+1
+print(500+1)
 ```
 
 Save the file and rerun it. Now you should see:
 
 ```bash
-$ ipython hello.py 
+$ ipython3 hello.py 
 501
 $ 
 ```
 
-## PyCharm
+## Jupyter notebooks (via Jupyter Lab)
 
-Now, we're going to do the exact same thing except using the development environment PyCharm, which you all should've downloaded and installed.
+Now, we're going to do the exact same thing except using the Jupyter Lab browser-based environment.  (See [Your machine learning development environment](https://mlbook.explained.ai/prep.html#sec:3.1) from the [in-progress ML book](https://mlbook.explained.ai) for more.)
 
-1. Launch PyCharm and then under `File` menu, tell it to open a directory with `Open...` menu item. 
-2. Navigate to your `/Users/YOURID/msan501/inclass` directory and click okay. You should see your `hello.py` in the `Project` pane of the development environment. 
-3. Double-click on it to open it in the editor pane.
-4. Right click in the editor window and select `Run hello` item. Another pane will open on the bottom of the IDE that looks something like:
+Launch Jupyter from the command line:
 
-<img src=images/pycharm.png width=400>
+```bash
+$ jupyter lab
+I 11:27:00.606 LabApp] [jupyter_nbextensions_configurator] enabled 0.2.8
+[I 11:27:00.613 LabApp] JupyterLab beta preview extension loaded from /Users/parrt/anaconda3/lib/python3.6/site-packages/jupyterlab
+[I 11:27:00.613 LabApp] JupyterLab application directory is /Users/parrt/anaconda3/share/jupyter/lab
+[W 11:27:00.616 LabApp] JupyterLab server extension not enabled, manually loading...
+...
+```
 
-Notice the `501` output in the console below the program text.
+That will start up a program that launches a tab in your browser as well:
+
+<img src="../notes/images/lab1.png" width="80%">
+
+Clicking on the "Python 3" icon under the "Notebook" category creates a new notebook window for you:
+
+<img src="../notes/images/lab2.png" width="80%">
+
+Type `500+1` into the first cell next to the `In [ ]`. You should see the output 501 generated in the `Out` section below it. Hit control-enter to execute that cell or the right-facing triangle in the toolbar to execute the cell.
+
+This is an interactive environment and so you can go back and edit the `500+1` to be, say, `print(500+1)`. Do that and then hit control-enter again to run. You should get the same output.
 
 **You should be able to test out small programs or Python snippets very very quickly. Rehearse these procedures until they are second nature.**

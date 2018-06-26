@@ -61,15 +61,7 @@ Gaining experience as a programmer means recognizing patterns in your code and c
 3. Process the data, which can mean training a machine learning model, computing summary statistics, or optimizing a cost function
 4. Emit results, which can be anything from simply printing an answer to saving data to the disk to generating a fancy visualization
 
-Writing a program for a specific problem means figuring out what each of those steps are, though not all programs will use every step. Let's take a look at the template in action on a trivial problem, computing the average of some numbers:
-
-1. Locate a file with some numbers
-2. Load the data from the file into a list structure in memory
-3. *no data prep needed*
-4. Compute the average of the numbers in the list
-5. Print the average
-
-This problem is easy enough that most of us could outline a solution without explicitly and formally breaking it down in this manner. The point is that this template provides a framework to solve more difficult problems and you should get used to applying the template.
+Writing a program for a specific problem means figuring out what each of those steps are, though not all programs will use every step. 
 
 **Roadmap**. To fill in the operations for the various steps in the outline, we need to know what kind of operations are possible, which we'll explore in [Common programming operations](operations.md). Before we can operate on data, however, that data needs to be loaded into memory and so we need to learn about [Representing data in memory](data-in-memory.md).  At that point, we'll have an overall strategy, an overall program outline, and a set of common operations to choose from. We can then start planning out some programs.
 

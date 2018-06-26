@@ -1,11 +1,11 @@
-MSAN501 Computational Analytics Bootcamp
+MSAN501 Computational Data Science Bootcamp
 =======
 
-This 6-week computational analytics bootcamp is part of the [MS in Data Science (formerly MS Analytics) program at the University of San Francisco](https://www.usfca.edu/arts-sciences/graduate-programs/data-science) and is specifically designed as an introduction to analytics programming for those who are not yet skilled programmers.
+This 6-week computational bootcamp is part of the [MS in Data Science (formerly MS Analytics) program at the University of San Francisco](https://www.usfca.edu/arts-sciences/graduate-programs/data-science) and is specifically designed as an introduction to data science programming for those who are not yet skilled programmers.
 
 # Administrivia
 
-**INSTRUCTOR.** [Terence Parr](http://parrt.cs.usfca.edu). I’m a professor in the computer science department and was founding director of the MS in Analytics program at USF.  Please call me Terence or Professor (the use of “Terry” is a capital offense).
+**INSTRUCTOR.** [Terence Parr](http://parrt.cs.usfca.edu). I’m a professor in the computer science department and was founding director of the MS in Data Science program at USF.  Please call me Terence or Professor (the use of “Terry” is a capital offense).
 
 **SPATIAL COORDINATES:**<br>
 

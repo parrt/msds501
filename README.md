@@ -64,11 +64,13 @@ Learning to design programs
 
 * [Introduction to programming](notes/programming.md) (Day 2)
 * [Representing data in memory](notes/data-in-memory.ipynb) (Day 2)
+* [Model of Computation](notes/computation.ipynb) (Day 2)
 * [Common programming operations](notes/operations.md) (Day 2)
+
+
 * [Program planning](notes/planning.md) (Day 3)
 * [Functions](notes/functions.md) (Day 3)
 * [Introduction to Python coding](notes/coding.ipynb) (Students should review if needed)
-* [Model of Computation](notes/computation.md) (Day 4)
 
 Common programming tools
 

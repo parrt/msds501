@@ -70,8 +70,6 @@ Learning to design programs
 
 Remove?
 
-* [Common programming operations](notes/operations.md) (Day 2)
-* [Program planning](notes/planning.md) (Day 3)
 * [Functions](notes/functions.md) (Day 3)
 * [Introduction to Python coding](notes/coding.ipynb) (Students should review if needed)
 

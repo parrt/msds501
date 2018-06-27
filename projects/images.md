@@ -1,0 +1,41 @@
+# Image Processing
+
+The goal of this project is to exercise your understanding of all of the major components in Python: assignments, expressions, if and loop statements, functions, lists, and libraries. To make things interesting, we will perform some cool image processing tasks:
+
+* flipping horizontally
+* blurring
+* removing salt-and-pepper image noise
+* finding edges within images
+* image sharpening
+
+For example, here is a sharpened image before/after:
+
+![](figures/bonkers-bw-zoom.png) ![](figures/bonkers-sharp-zoom.png)
+
+## Git from the command line
+
+Let's prepare our programming environment so that submitting this project is easy.  This process is abbreviated here, but you can see it fleshed out in more detail in the section "Getting Started On The Images Project" of the [git lecture](https://github.com/parrt/msan501/blob/master/notes/git.md).
+
+I will post to slack or via the students email list a URL for each project that represents an invitation to create a repository associated with a specific project for this class. Each student will have their own private repository per project. Once you have created the repository, you can proceed with this section to clone that empty repository onto your laptop disk.
+
+Launch Terminal.app or whatever your bash shell is called on your system. Now, using a browser, go to the URL associated with your images project at github, which should be something like (*YOURID* is your github user name not your laptop username or your USF username): 
+
+`https://github.com/`*YOURID*`/images-`*YOURID*
+
+and copy the **HTTPS not SSH** URL from here:
+
+<img src="../notes/images/github-setup.png" width="400">
+
+Then, use the {\tt git clone }{\em URL} command as you see below, replacing {\tt images-parrt} with {\tt images}-{\em yourid}. You will have to type in your github user ID and password.
+
+```bash
+$ cd ~/msan501 #  assuming this is where you want the root of all of 501 projects
+ git clone https://github.com/USF-MSAN501/images-parrt.git
+Cloning into 'images-parrt'...
+Username for 'https://github.com': parrt
+Password for 'https://parrt@github.com': 
+warning: You appear to have cloned an empty repository.
+$ cd images-parrt # after this command you are now in your repository
+```
+
+There is nothing in the repo yet, but we'll get to it!

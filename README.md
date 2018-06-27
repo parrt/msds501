@@ -37,7 +37,7 @@ If you ever have questions about what constitutes plagiarism, cheating, or acade
 
 | Artifact | Grade Weight | Due date |
 |--------|--------|--------|
-|[Image processing](https://github.com/parrt/msan501/raw/master/projects/images.pdf)| 15%| Thur, July 27 |
+|[Image processing](https://github.com/parrt/msan501/blob/master/projects/images.md)| 15%| Thur, July 27 |
 | [Word similarity and relationships](https://github.com/parrt/msan501/blob/master/projects/wordsim.md) | 15%| Thur, August 3 |
 | [Predicting Murder Rates With Gradient Descent](https://github.com/parrt/msan501/raw/master/projects/regression-gradient-descent.pdf)| 10%| Tue, August 7 |
 |Quiz 0| 0% | 9:15am Thur, July 10 |

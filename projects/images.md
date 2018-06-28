@@ -69,7 +69,7 @@ $ git push origin master
 
 Go check out that github has the file. The web page for your repository should look something like the following, but without the images:
 
-<img src="figures/github-initial-add.png" width="400">
+<img src="figures/github-initial-add.png" width="500">
 
 Next, fire up Jupyter Lab *in the directory holding your images.ipynb file*:
 

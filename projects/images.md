@@ -10,7 +10,7 @@ The goal of this project is to exercise your understanding of all of the major c
 
 For example, here is a sharpened image before/after:
 
-![](figures/bonkers-bw-zoom.png) ![](figures/bonkers-sharp-zoom.png)
+![](figures/bonkers.png) ![](figures/bonkers-sharp-zoom.png)
 
 ## Starter kit and expected output
 
@@ -50,7 +50,26 @@ There is nothing in the repo yet, but we'll get to it!
 
 The first thing we have to do is get the starter kit into the directory associated with your repository. The repository only knows about files that live underneath the images-*yourid* directory. Save the [starter kit](https://github.com/parrt/msan501/blob/master/projects/images-starterkit.ipynb) as file **images.ipynb** to your equivalent of `~/msan501/images-parrt` directory. (In other words, rename the starter kit to be **images.ipynb**.)
 
-Next, fire up Jupyter Lab:
+Once you have saved that file, you need to add it to the repository. Remember that the repository does not track any file you don't tell it to track:
+
+```bash
+$ git add images.ipynb
+$ git commit -a -m 'Initial add of starter kit'
+...
+```
+
+That has commit your change (and addition of a file) to the local repository and now you need to push it back to github, the remote repository:
+
+```bash
+$ git push origin master
+...
+```
+
+Go check out that github has the file. The web page for your repository should look something like the following, but without the images:
+
+<img src="figures/github-initial-add.png" width="400">
+
+Next, fire up Jupyter Lab *in the directory holding your images.ipynb file*:
 
 ```bash
 $ cd ~/msan501/images-parrt
@@ -68,69 +87,18 @@ As a first task,  create a script called `flip.py` that shows the image provided
 
 <img src="figures/eye.png" width="150"> <img src="figures/eye-flip.png" width="150">
 
-### Boilerplate code
-
-Here's the boilerplate or ``skeleton'' code from:
-
-\href{https://github.com/parrt/msan501-starterkit/tree/master/images/flip.py}{\tt\small https://github.com/parrt/msan501-starterkit/tree/master/images/flip.py}
-
-that we already know how to do but with a hole where you need to define a function called `flip` and a hole where you need to call that function to perform the flipping:
+The first thing you need to learn is how to display an image, in this case inside of Jupiter notebooks. (If you do `img.show()`, than a separate window will pop up instead of showing it in line in the notebook.)
 
 ```python
-import sys
 from PIL import Image
 
-# define your flip function here
-...
-if len(sys.argv)<=1:
-	print "missing image filename"
-	sys.exit(1)
-filename = sys.argv[1]
-img = Image.open(filename)
-img = img.convert("L")
-img.show()
-
-# call your flip function here
-...
-img.show()
+img = Image.open('eye.png')
+img = img.convert("L") # grayscale
+img
 ```
 
-An explanation of how to fill in those holes appears shortly.
+That loads the `eye.png` file from the directory holding the `images.ipynb` file. 
 
-### Adding files to your repo
-
-After creating the `flip.py` file and copying over an image or two, your PyCharm project file list area should look like the list in \figref{fliplist}.  So that git will manage our project, we need to announce that git should track `flip.py`:
-
-
-\begin{marginfigure}
-\begin{center}
-\scalebox{.8}{\includegraphics{figures/flip-proj-browser.png}}
-\end{center}
-\caption{Project file list after creating the flip.py file}
-\label{fliplist}
-\end{marginfigure}
-
-```bash
-$ cd ~/msan501/images-yourid
-... copy image files, create flip.py ...
-$ git add flip.py
-```
-
-Note that, if you are using PyCharm, when you open the dir in PyCharm, it will notice that the dir is a git repo. You can use PyCharm to manage the git repository later when you get more experience, but let's do things explicitly now from the command line.
-
-Even though we haven't done any work on `flip.py` yet, let's commit the file to the repository and then push the repository back to github:
-
-```bash
-$ git commit -a -m 'add eye flip boilerplate code'
-[master adcf1df] add eye flip boilerplate code
-...
-$ git push origin master
-...
-```
-
-Now, go check out that github has the files. The web page for your repository should look something like the following, but without the images:
-
-\scalebox{.9}{\includegraphics{figures/github-initial-add.png}}
 
 ### Three new Pillow pieces}
 

@@ -58,6 +58,8 @@ $ git commit -a -m 'Initial add of starter kit'
 ...
 ```
 
+*Do not add the zip file to the repository*.
+
 That has commit your change (and addition of a file) to the local repository and now you need to push it back to github, the remote repository:
 
 ```bash

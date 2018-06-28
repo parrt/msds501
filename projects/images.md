@@ -26,7 +26,7 @@ I will post to slack or via the students email list a URL for each project that 
 
 Launch Terminal.app or whatever your bash shell is called on your system. Now, using a browser, go to the URL associated with your images project at github, which should be something like (*YOURID* is your github user name not your laptop username or your USF username): 
 
-https://github.com/*YOURID*/images-*YOURID*
+https://github.com/YOURID/images-YOURID
 
 and copy the **HTTPS not SSH** URL from here:
 
@@ -64,15 +64,9 @@ I have provided a number of [images](https://github.com/parrt/msan501/tree/maste
 
 ## Task 1. Flipping an image horizontally
 
-As a first task,  create a script called `flip.py` that shows the image provided as a program (command-line) argument in its original form and then flipped horizontally.  For example, \figref{flipped} shows the result of running script `flip.py` on image `eye.png`.
+As a first task,  create a script called `flip.py` that shows the image provided as a program (command-line) argument in its original form and then flipped horizontally.  For example, here are the before and after shots for flipping image `eye.png`:
 
-\begin{marginfigure}
-\begin{center}
-\scalebox{.49}{\includegraphics{figures/eye.png}} \scalebox{.49}{\includegraphics{figures/eye-flip.png}}
-\end{center}
-\caption{Flipping an image horizontally; the original is on the left.}
-\label{flipped}
-\end{marginfigure}
+<img src="figures/eye.png" width="150"> <img src="figures/eye-flip.png" width="150">
 
 ### Boilerplate code
 
@@ -103,7 +97,7 @@ img.show()
 
 An explanation of how to fill in those holes appears shortly.
 
-### Adding files to your repo}
+### Adding files to your repo
 
 After creating the `flip.py` file and copying over an image or two, your PyCharm project file list area should look like the list in \figref{fliplist}.  So that git will manage our project, we need to announce that git should track `flip.py`:
 

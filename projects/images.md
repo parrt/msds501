@@ -472,7 +472,7 @@ def minus(A, B):
 
 The mechanism is the same as before: iterating loop variables `x` and `y` across the entire image and processing the pixel at each location. The only difference between this function and `filter` is that we want to operate on individual pixels not 3x3 regions.  In the inner loop, set `pixels[x,y]` to the value of pixel `A[x,y]` minus pixel `B[x,y]`. Don't forget to return the image you filled in.
 
-Add a cell to load and display `bonkers.png` then show the sharpened image.
+Add a cell to load and display `bonkers.png` then show the sharpened image.  Do the same for image `phobos2.jpg`.
 
 This simple process of subtracting the Laplacian does an amazing job.  Here's the before and after photo of the asteroid:
 

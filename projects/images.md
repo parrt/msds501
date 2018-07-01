@@ -95,50 +95,60 @@ This will launch a new tab in your browser.  From the file pane on the left, sel
 
 I have provided a number of [images](https://github.com/parrt/msan501/tree/master/projects/figures) that you can use to play around with this project. Of course, you can use any others you want. (Remember, however, that all images used in this class and those stored on University equipment must be "safe for work." Keep it G-rated please, with no offensive images popping up on your laptops or machines during lab etc.)
 
-## Task 1. Flipping an image horizontally
+## Task 0. Viewing file in a notebook
 
-As a first task,  create a script called `flip.py` that shows the image provided as a program (command-line) argument in its original form and then flipped horizontally.  For example, here are the before and after shots for flipping image `eye.png`:
-
-<img src="figures/eye.png" width="150"> <img src="figures/eye-flip.png" width="150">
-
-The first thing you need to learn is how to display an image, in this case inside of Jupiter notebooks. (If you do `img.show()`, than a separate window will pop up instead of showing it in line in the notebook.)
+To get started, go to the **View** section of the starter kit and try to run the code in that section.
 
 ```python
 from PIL import Image
-
 img = Image.open('eye.png')
 img = img.convert("L") # grayscale
-img
+img   # same as display(img)
 ```
 
-That loads the `eye.png` file from the directory holding the `images.ipynb` file. 
+It should display the eyeballs like this:
 
+<img src="https://github.com/parrt/msan501/raw/master/projects/figures/eye.png" width="150">
 
-### Three new Pillow pieces}
+That code shows you how to open an image file, convert it to grayscale, and display the image by simply referencing the `img` variable.  That is shorthand for explicitly telling the notebook to display that object: `display(img)`.
+
+If you do `img.show()`, than a separate window will pop up instead of showing it in line in the notebook.
+
+## Task 1. Flipping an image horizontally
+
+As a first task, create a function, `flip`, and a code snippet that calls that function under the **Flip** section of the starter kit that shows eyeballs image, `eye.png`, flipped horizontally.  Here are the before and after shots for your reference:
+
+<img src="figures/eye.png" width="150"> <img src="figures/eye-flip.png" width="150">
+
+Let's look at the functionality we need to create the `flip` function, since you just learned how to open and display an image.
+
+### Three new image library pieces
 
 To write your `flip` function, you will need three basic pieces:
 
 <ul>
-<li> `img.size` returns a tuple containing the width and height of image `img` so you can write code like this:
+<li> <tt>img.size</tt> returns a tuple containing the width and height of image <tt>img</tt> so you can write code like this:
+
 ```python
 width, height = img.size
 ```
 You'll need the width and height to iterate over the pixels of the image.
 
-<li> `img.copy()` duplicates image `img`.  For our `flip` function, it would be hard to modify the image in place because we would be overwriting pixels we would need to flip later. It's easier to create a copy of the image in flipped position. You can write code like this:\\
-`imgdup = img.copy()`
+<li> <tt>img.copy()</tt> duplicates image <tt>img</tt>.  For our <tt>flip</tt> function, it would be hard to modify the image in place because we would be overwriting pixels we would need to flip later. It's easier to create a copy of the image in flipped position. You can write code like this:\\
+<tt>imgdup = img.copy()</tt>
 
-<li> `img.load()` is yet another weird name from PIL that actually returns an object that looks like a two-dimensional matrix, which is really just a lists of lists such as `m = [[1,2], [3, 4]]`. When printed, the output looks like a matrix:
+<li> <tt>img.load()</tt> is yet another weird name from PIL that actually returns an object that looks like a two-dimensional matrix, which is really just a lists of lists such as <tt>m = [[1,2], [3, 4]]</tt>. When printed, the output looks like a matrix:
 
 ```python
 m = [[1, 2],
      [3, 4]]
 ```
-To get element `3`, we would use list index expression `m[1][0]` because we want the list at index 1, `m[1]`, and then element 0 within that list. The two-dimensional object returned by `load()` uses similar notation. If we ask for the ``matrix'' with:
+To get element <tt>3</tt>, we would use list index expression <tt>m[1][0]</tt> because we want the list at index 1, <tt>m[1]</tt>, and then element 0 within that list. The two-dimensional object returned by <tt>load()</tt> uses similar notation. If we ask for the "matrix" with:
+
 ```python
 m = img.load()
 ```
-then we  use notation `m[x,y]` to get the pixel at position (`x`, `y`).
+then we  use notation <tt>m[x,y]</tt> to get the pixel at position (<tt>x</tt>, <tt>y</tt>).
 </ul>
 
 You will use these functions for the remaining tasks so keep them in mind.
@@ -148,10 +158,10 @@ You will use these functions for the remaining tasks so keep them in mind.
 {\bf Define function} `flip` using the familiar function definition syntax and have it take a parameter called `img`, which will be the image we want to flip. The goal is to create a copy of this image, flip it, and return a copy so that we do not alter the incoming original image. To create `flip`, write code that implements the following steps.
 
 <ol>
-<li> Use `size` to define local variables `width` and `height`
-<li> Use `copy()` to make a copy of the incoming image `img` and save it in a local variable
-<li> Use `load()` to get the two-dimensional pixel matrix out of the incoming image and the copy of the image. Store these results in two new local variables.
-<li> To walk over the two-dimensional image, we've learned we need every combination of `x` and `y`. That means we need a nested `for` loop. Create a nested for loop that iterates over all `x` and all `y` values within the `width` and `height` of the image.
+<li> Use <tt>size</tt> to define local variables <tt>width</tt> and <tt>height</tt>
+<li> Use <tt>copy()</tt> to make a copy of the incoming image <tt>img</tt> and save it in a local variable
+<li> Use <tt>load()</tt> to get the two-dimensional pixel matrix out of the incoming image and the copy of the image. Store these results in two new local variables.
+<li> To walk over the two-dimensional image, we've learned we need every combination of <tt>x</tt> and <tt>y</tt>. That means we need a nested <tt>for</tt> loop. Create a nested for loop that iterates over all <tt>x</tt> and all <tt>y</tt> values within the <tt>width</tt> and <tt>height</tt> of the image.
 <li> Within the inner loop, set pixels in the image copy to the appropriate pixel copied from the original image
 <li> At the end of the function, return the flipped image
 </ol>

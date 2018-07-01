@@ -197,7 +197,7 @@ AttributeError: module 'PIL.Image' has no attribute 'opem'
 
 **Deliverables**. Make sure that your `images.ipynb` file is correctly committed to your repository and pushed to github. Verify this by going to github website. Make sure that it is in the main directory and not a subdirectory of your repository!!!
 
-## Task 2. Blurring}
+## Task 2. Blurring
 
 In this task, we want to blur an image by removing detail as shown in the images after this paragraph. We will do this by creating a new image whose pixels are the average of the surrounding pixels for which we will use a 3x3 region as shown in the figure below zooming in on Obama's forehead. The pixel in the center of the region is the region to compute as we slide the region around an image. In other words, `pixel[x,y]` is the sum of `pixel[x,y]` and all surrounding pixels divided by 9, the total number of pixels.
 
@@ -305,10 +305,11 @@ It might take 10 seconds or more to compute and display the blurred image, depen
 <img src="../notes/images/redbang.png" width="20" align="left">
 Make sure to remove all of your debugging code before submitting your scripts. Submitting a project that prints out a bunch of random debugging output is considered sloppy, like submitting an English paper with a bunch of handwritten edits.
 
-**Deliverables**. Make sure that `images-userid/blur.py` is correctly committed to your repository and pushed to github.
+**Deliverables**. Make sure that `images-userid/images.ipynb` is correctly committed to your repository and pushed to github. Make sure that all of your changes are there.
 
+## Task 3. Removing noise
 
-## Task 3. Removing noise}
+For our next task, we are going to de-noise (remove noise) from an image as shown in the following four figures. It does a shockingly good job considering the simplicity of our approach. To blur, we used the average of all pixels in the region. To denoise, we will use the [median](http://en.wikipedia.org/wiki/Median), which is just the middle value in a list of ordered numbers (or average of two middle if there are an even number of values).
 
 <table border="0">
 <tr>
@@ -317,22 +318,13 @@ Make sure to remove all of your debugging code before submitting your scripts. S
 <td><img src="figures/guesswho-denoise-denoise.png" width="150"><td><img src="figures/obama.png" width="150">
 </table>
 
-For our next task, we are going to de-noise (remove noise) from an image as shown in \figref{obama}. It does a shockingly good job considering the simplicity of our approach. To blur, we used the average of all pixels in the region. To denoise, we will use the \href{http://en.wikipedia.org/wiki/Median}{\textcolor{blue}{median}}, which is just the middle value in a list of ordered numbers.
+Believe it or not, we can implement de-noise by copying our blur code into a new cell under section **Denoise** in the starter kit and then changing a few lines.  We also have to remove the no-longer-used `avg` function and replace it with a `median` function.  Of course, instead of calling `blur`, we'll call function `denoise` with the usual `img` argument. The only difference between `denoise` and `blur` is that you will set the pixel to the `median` not `avg`.  Hint: you need to tweak one statement in the inner loop that moves over all pixel values.
 
-Believe it or not, we can implement de-noise by copying `blur.py` into a new script called `denoise.py` and then changing a few lines.  We also have to remove the no-longer-used `avg` function and replace it with a `median` function.  Of course, instead of calling `blur`, we'll call function `denoise` with the usual `img` argument. The only difference between `denoise` and `blur` is that you will set the pixel to the `median` not `avg`.  Hint: you need to tweak one statement in the inner loop that moves over all pixel values.
+**Define function** `median` that, like `avg`, takes a list of 9 numbers called `data`. Sort the list using Python's `sorted` function, which takes a list and returns a sorted version of that list. Then compute the index of the middle list element, which is just the length of the list divided by two. If the length is even, dividing by 2 (not 2.0) will round it down to the nearest index. Once you have this index, return the element at that index. Make sure that this function returns an integer using `int(...)`.
 
-**Now define function** `median` that, like `avg`, takes a list of 9 numbers called `data`. Sort the list using Python's `sorted` function, which takes a list and returns a sorted version of that list. Then compute the index of the middle list element, which is just the length of the list divided by two. If the length is even, dividing by 2 (not 2.0) will round it down to the nearest index. Once you have this index, return the element at that index. Make sure that this function returns an integer using `int(...)`.
+In a code cell,  open file `guesswho.png`, display it, then pass it to `denoise`. That should show the noisy Obama and the cleaned up version.  You can call `denoise` multiple times to really clean it up. (For future reference **To save an image with PIL**, use `img.save("filename.png")`.) Running `denoise` twice, gives the cleaned up (third) image above.  
 
-
-Let's give it a test:
-
-```bash
-$ python denoise.py guesswho.png
-```
-
-That should pop up the noisy Obama and the cleaned up version. You can save the cleaned up version and run `denoise.py` on that one to really improve it. (Hint: **To save an image with PIL**, use `img.save("filename.png")`.) Running `denoise.py` twice, gives the cleaned up (third) image.  
-
-**Deliverables**. Make sure that `images-`{\em userid}`/denoise.py` is correctly committed to your repository and pushed to github. 
+**Deliverables**. Make sure that you have your code and appropriate images displayed in your `images.ipynb` notebook and that it is correctly committed to your repository and pushed to github.
 
 ## Task 4. Re-factoring to improve code quality
 
@@ -590,3 +582,14 @@ $ python sharpen.py bonkers-bw.png
 \captionof{figure}{Sharpening of an old photograph from World War II. Clockwise: (a) original, (b) edges as computed by `edges.py`, (c) the sharpened image as computed by `sharpen.py`.}
 \label{jeep3}
 \end{minipage}
+
+## Expected results
+
+For your reference, here is the expected sequence of images and sections with all of the code cells hidden:
+
+<table border="0">
+<tr>
+<td><img src="figures/expected1.png" width="140">
+<td><img src="figures/expected2.png" width="140">
+<td><img src="figures/expected3.png" width="140">
+</table>

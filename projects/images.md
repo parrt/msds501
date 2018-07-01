@@ -134,10 +134,9 @@ width, height = img.size
 ```
 You'll need the width and height to iterate over the pixels of the image.
 
-<li> <tt>img.copy()</tt> duplicates image <tt>img</tt>.  For our <tt>flip</tt> function, it would be hard to modify the image in place because we would be overwriting pixels we would need to flip later. It's easier to create a copy of the image in flipped position. You can write code like this:\\
-<tt>imgdup = img.copy()</tt>
+<li> <tt>img.copy()</tt> duplicates image <tt>img</tt>.  For our <tt>flip</tt> function, it would be hard to modify the image in place because we would be overwriting pixels we would need to flip later. It's easier to create a copy of the image in flipped position. You can write code like this: <tt>imgdup = img.copy()</tt>
 
-<li> <tt>img.load()</tt> is yet another weird name from PIL that actually returns an object that looks like a two-dimensional matrix, which is really just a lists of lists such as <tt>m = [[1,2], [3, 4]]</tt>. When printed, the output looks like a matrix:
+<li> <tt>img.load()</tt> is yet another weird name from PIL that actually returns an object that looks like a two-dimensional matrix, which is really just a list of lists such as <tt>m = [[1,2], [3, 4]]</tt>. When printed, the output looks like a matrix:
 
 ```python
 m = [[1, 2],
@@ -148,14 +147,14 @@ To get element <tt>3</tt>, we would use list index expression <tt>m[1][0]</tt> b
 ```python
 m = img.load()
 ```
-then we  use notation <tt>m[x,y]</tt> to get the pixel at position (<tt>x</tt>, <tt>y</tt>).
+then we  use notation <tt>m[x,y]</tt> to get the pixel at position (<tt>x</tt>, <tt>y</tt>). As is usual with Cartesian coordinates, the <tt>x</tt> index is the horizontal index.
 </ul>
 
 You will use these functions for the remaining tasks so keep them in mind.
 
-### Iterating over the image matrix}
+### Iterating over the image matrix
 
-{\bf Define function} `flip` using the familiar function definition syntax and have it take a parameter called `img`, which will be the image we want to flip. The goal is to create a copy of this image, flip it, and return a copy so that we do not alter the incoming original image. To create `flip`, write code that implements the following steps.
+**Define function** `flip` using the familiar function definition syntax and have it take a parameter called `img`, which will be the image we want to flip. The goal is to create a copy of this image, flip it, and return a copy so that we do not alter the incoming original image. To create `flip`, write code that implements the following steps.
 
 <ol>
 <li> Use <tt>size</tt> to define local variables <tt>width</tt> and <tt>height</tt>
@@ -175,21 +174,444 @@ If you have problems, follow these steps:
 <ol>
 <li> Don't Panic! Relax and realize that you will solve this problem, even if it takes a little bit of messing around. Banging your head against the computer is part of your job. Remember that the computer is doing precisely what you tell it to do. There is no mystery.
 
-<li>  Determine precisely what is going on. Did you get an error message from Python?  Is it a syntax error? If so, review the syntax of all your statements and expressions. PyCharm is your friend here and should highlight erroneous things with a red squiggly underline. If you got an error message that has what we call a stack trace, a number of things could be wrong. For example, if I misspell `show()` as `shower()`, I get the following message:
+<li>  Determine precisely what is going on. Did you get an error message from Python?  Is it a syntax error? If so, review the syntax of all your statements and expressions.  If you got an error message that has what we call a stack trace, a number of things could be wrong. For example, if I misspell `open()` as `opem()`, I get the following message:
 
 ```
-Traceback (most recent call last):
-  File "/Users/parrt/msan501/images-parrt/flip.py", line 26, in <module>
-    img.shower()
-  File "/usr/local/lib/python2.7/site-packages/PIL/Image.py", line 605, in __getattr__
-    raise AttributeError(name)
-AttributeError: shower
+---------------------------------------------------------------------------
+AttributeError                            Traceback (most recent call last)
+<ipython-input-39-86d19b3216b2> in <module>()
+      1 from PIL import Image
+      2 
+----> 3 img = Image.opem('eye.png')
+      4 img = img.convert("L") # grayscale
+      5 img
+
+AttributeError: module 'PIL.Image' has no attribute 'opem'
 ```
 
 <li> If it does not look like it some simple misspelling, you might get lucky and find something in Google if you cut-and-paste that error message.
 <li> If your script shows the original image but not the flipped image, then you likely have a problem with your `flip` function.
-<li> If your program is at least running and doing something, then insert print statements to figure out what the variables are and how far into the program you get before a craps out. That often tells you what the problem is.
+<li> If your code is at least running and doing something, then insert print statements to figure out what the variables are and how far into the program you get before a craps out. That often tells you what the problem is.
 <li>  Definitely try to solve the problem yourself, but don't waste too much time. I can typically help you out quickly so you can move forward.
 </ol>
 
 **Deliverables**. Make sure that your `images.ipynb` file is correctly committed to your repository and pushed to github. Verify this by going to github website. Make sure that it is in the main directory and not a subdirectory of your repository!!!
+
+## Task 2. Blurring}
+
+In this task, we want to blur an image by removing detail as shown in \figref{blur}. We will do this by creating a new image whose pixels are the average of the surrounding pixels for which we will use a 3x3 region as shown in \figref{region}. The pixel in the center of the region is the region to compute as we slide the region around an image. In other words, `pixel[x,y]` is the sum of `pixel[x,y]` and all surrounding pixels divided by 9, the total number of pixels.
+
+<img src="figures/pcb.png" width="200"> <img src="figures/pcb-blur.png" width="200">
+
+To implement this, start with the boilerplate from the previous section, which you should put into script `blur.py`. The only difference is that you must call soon-to-be-created function `blur` not `flip` as you had before. Now, let's start at the coarsest-level of functionality and realize that we have to walk over every pixel in the image. (This is called *top-down design*.) 
+
+### Blurring function
+
+**Define function** `blur`, in the cell under section **Blur** of the starter kit, to take an `img` parameter, just like the `flip` function in the previous task.  In a manner very similar to `flip`, write code in `blur` to accomplish these steps:
+
+* Define local variables `width` and `height`.
+* Make a copy of the incoming image `img` and save it in a local variable.
+* Get the two-dimensional pixel matrix out of the image copy. Store it in a new local variable called `pixels`.
+* Create a nested for loop that iterates over all `x` and all `y` values within the `width` and `height` of the image.
+* Within the inner loop:
+   * Call to-be-created function `region3x3` with arguments `img`, `x`, and `y` in store into local variable `r`.
+   * Set `pixels[x,y]` in the image copy to the result of calling to-be-created function `avg` with an argument of `r`.
+* At the end of the function, return the blurred image.
+
+Following the top-down design strategy, let's **define function** `avg` since it's the easiest. Define `avg` to take an argument called `data` or another of your choice. This will be the list of 9 pixels returned by function `region3x3`. The average of a set of numbers is their total divided by how many numbers there are. Python provides two useful functions here: `sum(data)` and `len(data)`.  (Naturally, `sum` simply walks the list and accumulates values using a pattern we are familiar with.)
+
+### Image regions}
+
+Now we need to **define function** `region3x3`.  Have it take three parameters as described above. This function creates and **return a list of nine pixels**. The list includes the center pixel at `x`, `y` and the 8 adjacent pixels at N, S, E, W, ... as shown in \figref{region}. Create a series of assignments that look like this:
+
+\begin{marginfigure}
+\begin{center}
+\scalebox{1}{\includegraphics{figures/region.png}}
+\end{center}
+\captionof{figure}{Hyper-zoom of Obama's forehead showing 3x3 region.}
+\label{region}
+\end{marginfigure}
+
+```python
+me = getpixel(img, x, y)
+N = getpixel(img, x, y - 1)
+...
+```
+
+where function `getpixel(img, x, y)` gets the pixel at `x`, `y` in image `img`.  We can't use the more readable expression `pixels[x,y]` in this case, as we'll see in a second. Collect all those pixel values into a list using `[a,b,c,...]` list literal notation and return it. Make sure that this list is a list of integers and exactly 9 elements long and that you keep in mind the order in which you add these pixels to the list. Any function that we create to operate on a region naturally needs to know the order so we can properly extract pixels from the list. For example, my implementation always puts the pixel at `x` and `y` first, then North, etc...
+
+### Safely examining region pixels}
+
+We need to {\tt define a function} `getpixel` instead of directly accessing pixels because some of the pixels in our 3x3 region will be outside of the image as we shift the region around. For example, when we start out at `x=0`, `y=0`, 5 of the pixels will be out of range, as shown in \figref{outofrange}.  Accessing `pixels[-1,-1]` will trigger:
+
+\begin{marginfigure}
+\begin{center}
+\scalebox{.85}{\includegraphics{figures/region-edge.png}}
+\end{center}
+\captionof{figure}{Our 3x3 region has pixels outside of the image boundaries as we slide it around the image along the edges.}
+\label{outofrange}
+\end{marginfigure}
+
+`IndexError: image index out of range`
+
+and stop the program. To avoid this error and provide a suitable definition for the ill-defined pixels on the edges, we will use a function that ensures all indices are within range.
+
+**Define function** `getpixel` with the appropriate parameters. Its functionality is as follows:
+
+* Get the width and height into local variables.
+* If the `x` value is less than 0, set it to 0.
+* If the `x` value is greater than or equal to the width, set it to the width minus 1 (the last  valid pixel on the far right).
+* If the `y` value is less than 0, set it to 0.
+* If the `y` value is greater than or equal to the height, set it to the  height minus 1 (the last felt pixel on the bottom).
+* Return the pixel at `x`, `y`. You will need to use the `img.load()` function again to get the 2D `pixels` matrix as you did in function `blur`. Make sure you returning pixel and not the coordinates of the pixel from `getpixel`.
+
+
+### Testing your blur code}
+
+That is a lot of code to enter and so more than likely it won't work the first time.\sidenote{It never does, dang it!} That means we should test the pieces. It's generally a good idea to do top-down design but *bottom-up testing*. In other words, let's test the simple low-level functions first and make sure that works before testing the functions that call those functions and so on until we reach the outermost script. 
+
+With that in mind, lets test `avg` by passing it a fixed list of numbers to see if we get the right number. Add this to your script before it does any of the file loading stuff:
+
+```python
+print avg([1,2,3,4,5])
+```
+
+Then run `blur.py` with any old image; the `apple.png` file is a good one because it's small (it's in the `projects/figures` dir of the `msan501` repo):
+
+```bash
+$ python blur.py apple.png
+3
+$ 
+```
+
+If it does not print $(1+2+3+4+5)/5 = 3$, then you know you have a problem in `avg`.
+
+Now test `getpixel`. You will have to insert some code after loading and converting the image to grayscale because `getpixel` takes an image parameter:
+
+```python
+img = Image.open(filename)
+img = img.convert("L")
+print getpixel(img, 0, 0)
+print getpixel(img, 0, 1)
+print getpixel(img, 10, 20)
+```
+
+ That should print: 96, 96, and 255. The upper left corner is gray and pixel 10, 20 is somewhere in the middle of the white Apple logo. If you don't get those numbers, then you have a problem with `getpixel`. Worse, if you don't get simple numbers, then you really have a problem with `getpixel`.
+
+Before getting to `blur`, we should also **test** `region3x3` to ensure it gets the proper region surrounding a pixel. Replace those `getpixel` calls in the `print` `getpixel` statements with calls to `region3x3`. Use the `x`, `y` of the upper left-hand corner and somewhere near the upper left of the white section of the logo such as:
+
+```python
+print region3x3(img, 0, 0)
+print region3x3(img, 7, 12)
+```
+
+That checks whether we get an out of range error at the margins and that we get the correct region from somewhere in the middle. Running the script should give you the following numbers:
+
+```bash
+$ python blur.py apple.png
+[96, 96, 96, 96, 96, 96, 96, 96, 96]
+[255, 176, 255, 255, 215, 96, 245, 255, 255]
+$ 
+```
+
+That assumes order: current pixel, N, S, E, W, NW, NE, SE, SW.
+
+When you have verified that all of these functions work, it's time to check function `blur` itself. Try the printed circuit board image:
+
+```bash
+$ python blur.py pcb.png 
+```
+
+That should pop up the original circuit board and the blurred version. It might take 10 seconds or more to compute and display the blurred image, depending on how fast your computer is.
+
+<img src="../notes/images/redbang.png" width="20">
+Make sure to remove all of your debugging code before submitting your scripts. Submitting a project that prints out a bunch of random debugging output is considered sloppy, like submitting an English paper with a bunch of handwritten edits.
+
+**Deliverables**. Make sure that `images-userid/blur.py` is correctly committed to your repository and pushed to github.
+
+
+## Task 3. Removing noise}
+
+<table border="0">
+<tr>
+<td><img src="figures/guesswho.png" width="150"><td><img src="figures/guesswho-denoise.png" width="150">
+<tr>
+<td><img src="figures/guesswho-denoise-denoise.png" width="150"><td><img src="figures/obama.png" width="150">
+</table>
+
+For our next task, we are going to de-noise (remove noise) from an image as shown in \figref{obama}. It does a shockingly good job considering the simplicity of our approach. To blur, we used the average of all pixels in the region. To denoise, we will use the \href{http://en.wikipedia.org/wiki/Median}{\textcolor{blue}{median}}, which is just the middle value in a list of ordered numbers.
+
+Believe it or not, we can implement de-noise by copying `blur.py` into a new script called `denoise.py` and then changing a few lines.  We also have to remove the no-longer-used `avg` function and replace it with a `median` function.  Of course, instead of calling `blur`, we'll call function `denoise` with the usual `img` argument. The only difference between `denoise` and `blur` is that you will set the pixel to the `median` not `avg`.  Hint: you need to tweak one statement in the inner loop that moves over all pixel values.
+
+**Now define function** `median` that, like `avg`, takes a list of 9 numbers called `data`. Sort the list using Python's `sorted` function, which takes a list and returns a sorted version of that list. Then compute the index of the middle list element, which is just the length of the list divided by two. If the length is even, dividing by 2 (not 2.0) will round it down to the nearest index. Once you have this index, return the element at that index.
+
+
+Let's give it a test:
+
+```bash
+$ python denoise.py guesswho.png
+```
+
+That should pop up the noisy Obama and the cleaned up version. You can save the cleaned up version and run `denoise.py` on that one to really improve it. (Hint: **To save an image with PIL**, use `img.save("filename.png")`.) Running `denoise.py` twice, gives the cleaned up (third) image.  
+
+**Deliverables**. Make sure that `images-`{\em userid}`/denoise.py` is correctly committed to your repository and pushed to github. 
+
+## Task 4. Re-factoring to improve code quality
+
+<img src="figures/blur-denoise-diff.png" width="200" align="right">
+As I mentioned in the last task, `blur.py` and `denoise.py` are virtually identical, meaning that we have a lot of code in common. The side figure demonstrates this visually. One of the most important principles of computer science is to reduce code duplication. We always want exactly one place to change a particular bit of functionality.   In this case, we have the following common code:
+
+
+* Functions `getpixel` and `region3x3`.
+* The ``main'' part of the script that loads the original image.
+* Functions `blur` and `denoise` are identical except for the function called to compute a new pixel in the image copy from a 3x3 region in the original (`avg` or `median`).
+
+The goal of this task is to make new versions, `blur2.py` and `denoise2.py`, that share as much code as possible.  The functionality will be the same, but they will be much smaller and we will get warm feeling that our code is well structured. To share code, we need to (a) put all common code in a file that these new scripts can import and (b) create a generic function called `filter` that will work for both blurring and de-noising in an image. Once we get the common code into a single file, which we will call `filter.py`, we can import it into `blur2.py` and `denoise2.py` like this: 
+ 
+```python
+from filter import *
+```
+
+(Do not confuse script names with function names; `filter.py` can contain anything we want and it so happens that we will also put a function in there with the same name, `filter`.)
+
+That statement asks Python to look in the current directory (among other places we don't care about for now) for file called `filter.py` and import all of the functions. You can think of it as a formalized cut-and-paste.
+
+Let's start by creating new ``library'' file `filter.py` and placing our usual imports at the top:
+
+```python
+import sys
+from PIL import Image
+```
+
+Now, copy functions `getpixel` and `region3x3` into it.
+
+We can also create a function called `open` to hide all of the messiness that checks for command-line arguments and opens the indicated image:
+
+```python
+def open(argv):
+	if len(argv)<=1:
+		print "missing image filename"
+		sys.exit(1)
+	img = Image.open(argv[1])
+	img = img.convert("L")  # make greyscale if not already (luminance)
+	return img
+```
+
+The only tricky bit\sidenote{Pun intended} is to create a single generic `filter` function that can reproduce the functionality we have in functions `blur` and `denoise`.
+
+
+* Define function `filter` to take `img` and `f` parameters.
+* Copy the body of function `blur` into your new `filter` function.
+* Replace the call to `avg(r)` with `f(r)`.
+
+
+As we discussed in class, functions are objects in Python just like any strings, lists, and so on. That means we can pass them around as function arguments. To use our new generic `filter` function, we pass it an image as usual but also the name of a function:
+
+```python
+blurred  = filter(img, avg)
+denoised = filter(img, median)
+```
+
+<table border=1>
+<tr><td>Don't confuse the name of a function with an expression that calls it.  Assignment `f = avg` makes variable `f` refer to function `avg`. `f = avg()` **calls** function `avg` and stores the return value in variable `f`. Using `f = avg`, we can call `avg` with expression `f()`. You can think of `f` as an alias for `avg`.
+</table>
+
+In the end, your `filter.py` script file should have 4 functions: `getpixel`, `region3x3`, `filter`, and `open`.
+
+Armed with this awesome new common file, our entire `blur2.py` file shrinks to a tiny script:
+
+```python
+from filter import *
+# Your avg function goes here (copy from blur.py)
+...
+img = open(sys.argv)
+img.show()
+img = filter(img, avg)		# blur me please
+img.show()
+```
+
+<table border=1>
+<tr><td>You might be wondering why we don't have to include the usual <tt>sys</tt> and <tt>PIL</tt> imports at the start of our new files. That is because we import our <tt>filter.py</tt> file, which in turn imports those files.
+</table>
+
+The `denoise2.py` script is also tiny:
+
+```python
+from filter import *
+# Your median function goes here (copy from denoise.py)
+...
+img = open(sys.argv)
+img.show()
+img = filter(img, median)	# denoise me please
+img.show()
+```
+
+<table border=1>
+<tr><td>Yep, these files are identical except for the fact that we call <tt>filter</tt> with different function names. If you wanted to get really fancy, you could replace both of these scripts with a single script that took a function name as a second argument (after the image filename).  With some magic incantations, you'd then ask Python to lookup the function with the indicated name and pass it to function <tt>filter</tt> instead of hard coding.
+</table>
+
+<img src="../notes/images/redbang.png" width="20">
+Before finishing this task, be a thorough programmer and test your new scripts to see that they work:
+
+```bash
+$ python blur2.py pcb.png
+$ python denoise2.py guesswho.png
+```
+
+They *should* work, but unfortunately that is never good enough in the programming world.  Lot of little things can go wrong. *Certainty* is always better than *likelihood*.
+
+We will import file `filter.py` into the future scripts in this project. You have created your first useful library. **Good job!** \scalebox{.55}{\bcsmbh}
+
+<img src="../notes/images/redbang.png" width="20">
+**Deliverables**. Make sure that `images-`*userid*`/blur2.py`, `images-`*userid*`/denoise2.py`, and `images-`*userid*`/filter.py` are correctly committed to your repository and pushed to github. 
+
+## Task 5. Highlighting image edges}
+
+Now that we have some basic machinery in `filter.py`, we can easily build new functionality. In this task, we want to highlight edges found within an image.  It is surprisingly easy to capture all of the important edges in an image, as shown in image (b) from \figref{jeepedges}. 
+
+\begin{marginfigure}
+\vspace{20mm}
+\begin{center}
+(a) \scalebox{.8}{\includegraphics{figures/jeep.png}}\\
+(b) \scalebox{.8}{\includegraphics{figures/jeep-edges.png}}
+\end{center}
+\caption{Edges of an old photograph from World War II.  (a) original, (b) edges as computed by `edges.py`.}
+\label{jeepedges}
+\end{marginfigure}
+
+The mechanism we're going to use is derived from some serious calculus kung fu called the *Laplacian*, but which, in the end, reduces to 4 additions and a subtraction!  The intuition behind the Laplacian is that abrupt changes in brightness indicate edges, such as the transition from the darkness of a uniform to the brightness of a windshield edge.  As we did for blurring and denoising, we are going to slide a 3x3 region around the image to create new pixels at each `x`, `y`. That  means we can reuse our `filter` function---we just need a `laplace` function to pass to `filter`.
+
+To get started, here is the boilerplate code copied from `denoise2.py` but with function name `laplace` (the object of this task) passed as an argument to function `filter`:
+
+```python
+from filter import *
+# define function laplace here
+...
+img = open(sys.argv)
+img.show()
+edges = filter(img, laplace)
+edges.show()
+```
+
+**Create function** `laplace` that takes region `data` as an argument as usual. Have the function body  return the sum of the North, South, East, and West pixels minus 4 times the middle pixel from our usual region:
+
+\begin{center}
+\scalebox{.15}{\includegraphics{figures/3x3-region.png}}
+\end{center}
+
+That computation effectively compares the strength of the current pixel with those around it.
+
+<img src="../notes/images/redbang.png" width="20">{\bcinfo}
+For those familiar with calculus, we are using the second partial derivative (i.e., acceleration) in x and y directions. The first derivative would detect edges even for gradual changes but the second derivative detects only really sharp changes. For a pixel fetching function $f$ operating on a 3x3 region around $(x,y)$, ``applying the *Laplacian*'' means computing a filtered image pixel at $x,y$ as:
+
+$f(x + 1,y) + f(x - 1,y) + f(x,y + 1) + f(x,y - 1) - 4f(x, y)$
+
+where $f(x,y)$ is equivalent to our `pixels[x,y]`.
+
+For example, imagine a region centered over a vertical white line. The region might look like:
+
+\begin{center}
+\scalebox{.15}{\includegraphics{figures/vertical-line-region.png}}
+\end{center}
+
+<table border=1>
+<tr><td>Be aware of something that Pillow is doing for us automatically when we store values into an image with `pixels[x,y] = v`.  If `v` is out of range 0..255, Pillow clips `v`. So, for example, `pixels[x,y] = -510` behaves like `pixels[x,y] = 0` and `pixels[x,y] = 510` behaves like `pixels[x,y] = 255`. It doesn't affect edge detection or any of our other operations in future tasks but I wanted to point out that in a more advanced class we would **scale** these pixel values instead of clipping them. Clipping has the effect of reducing contrast.
+</table>
+
+The `laplace` function would return $255+255+0+0 - 4 \times 255 = -510$. 
+
+Compare that to the opposite extreme where values are almost the same:
+
+\begin{center}
+\scalebox{.15}{\includegraphics{figures/flat-region.png}}
+\end{center}
+
+The `laplace` function would return $18+19+15+21 - 4 \times 10 = 33$.
+
+Once you have implemented your `laplace` function, give it a try with some of the sample images you have such as the jeep or Obama:
+
+```bash
+$ python edges.py obama.png
+```
+
+It actually does a really good job capturing Obama's outline:\\
+~\\
+
+\begin{minipage}{\linewidth}
+\makebox[\linewidth]{%
+\scalebox{.3}{\includegraphics{figures/obama.png}} \scalebox{.3}{\includegraphics{figures/obama-edges}}
+}
+\end{minipage}
+
+<img src="../notes/images/redbang.png" width="20">
+**Deliverables**. Make sure that `images-`*userid*`/edges.py` is correctly committed to your repository and pushed to github. 
+
+
+## Task 6. Sharpening}
+
+Sharpening an image is a matter of highlighting the edges, which we know how to compute from the previous task. Script `edges.py` computes just the edges so, to highlight the original image, we *subtract* that white-on-black edges image from the original.  You might imagine that *adding* the edges back in would be more appropriate and it sort of works, but the edges are slightly off. We get a better image by subtracting the high-valued light pixels because that darkens the edges in the original image, such as between the uniform and the windshield. Let's start with the easy stuff:
+
+\begin{marginfigure}
+\begin{center}
+(a) \scalebox{.6}{\includegraphics{figures/bonkers-bw-zoom.png}}\\
+(b) \scalebox{.6}{\includegraphics{figures/bonkers-sharp-zoom.png}}
+\end{center}
+\caption{Bonkers the cat portrait. (a) original and (b) sharpened as computed by `sharpen.py`.}
+\label{jeepedges}
+\end{marginfigure}
+
+
+* Copy your previous `edges.py` file to new script `sharpen.py`.
+* After `edges = filter(img, laplace)`, add a line that calls a function we'll create shortly called `minus`. `minus` takes two image parameters, `A` and `B` and returns `A-B`.  In our case, pass in the original image and the image you get back from calling `filter(img, laplace)`.
+* Show the result of the `minus` function.
+
+
+That only leaves the task of **creating function** `minus` to subtract the pixels of one image from the pixels of another image like a 2-D matrix subtraction.  As we did before, we will return a modified version of a copy of an incoming image parameter. (In my solution, I arbitrarily chose to create and return a copy of `A`.) Because you are getting really good at creating functions to manipulate images, the instructions for creating `minus` in this  task are less specific than in previous tasks.  You need to fill in the body of this function:
+ 
+```python
+# Return a new image whose pixels are A[x,y] - B[x,y]
+def minus(A, B):
+	...
+```
+
+The mechanism is the same as before: iterating loop variables `x` and `y` across the entire image and processing the pixel at each location. The only difference between this function and `filter` is that we want to operate on individual pixels not 3x3 regions.  In the inner loop, set `pixels[x,y]` to the value of pixel `A[x,y]` minus pixel `B[x,y]`. Don't forget to return the image you filled in.
+
+Here's how to run `sharpen.py` on Bonkers the cat:
+
+```bash
+$ python sharpen.py bonkers-bw.png
+```
+
+\figref{bonkers3}, \figref{phobos3}, and \figref{jeep3} show some sample transformation sequences with original, *Laplacian*, and sharpened images.
+
+<img src="../notes/images/redbang.png" width="20">
+**Deliverables**. Make sure that `images-`*userid*`/sharpen.py` is correctly committed to your repository and pushed to github. 
+
+
+\begin{minipage}{0.8 \linewidth}
+\makebox[\linewidth]{%
+\scalebox{.35}{\includegraphics{figures/bonkers-bw-zoom.png}} \scalebox{.35}{\includegraphics{figures/bonkers-edges-zoom.png}} \scalebox{.35}{\includegraphics{figures/bonkers-sharp-zoom.png}}
+}
+\captionof{figure}{Sharpening of a Bonkers the cat. Clockwise: (a) original, (b) edges as computed by `edges.py`, (c) the sharpened image as computed by `sharpen.py`.}
+\label{bonkers3}
+\end{minipage}
+
+\begin{minipage}{0.8 \linewidth}
+\makebox[\linewidth]{%
+\scalebox{.45}{\includegraphics{figures/phobos1.png}}
+\scalebox{.45}{\includegraphics{figures/phobos1-edges.png}}\\
+\scalebox{.45}{\includegraphics{figures/phobos1-sharp.png}}
+}
+\captionof{figure}{Sharpening of Phobos asteroid from NASA. Clockwise: (a) original, (b) edges as computed by `edges.py`, (c) the sharpened image as computed by `sharpen.py`.}
+\label{phobos3}
+\end{minipage}
+
+\begin{minipage}{0.8 \linewidth}
+\makebox[\linewidth]{%
+\scalebox{.45}{\includegraphics{figures/jeep.png}}
+\scalebox{.45}{\includegraphics{figures/jeep-edges.png}}\\
+\scalebox{.45}{\includegraphics{figures/jeep-sharp.png}}
+}
+\captionof{figure}{Sharpening of an old photograph from World War II. Clockwise: (a) original, (b) edges as computed by `edges.py`, (c) the sharpened image as computed by `sharpen.py`.}
+\label{jeep3}
+\end{minipage}

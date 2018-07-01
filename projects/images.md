@@ -305,7 +305,7 @@ It might take 10 seconds or more to compute and display the blurred image, depen
 <img src="../notes/images/redbang.png" width="20" align="left">
 Make sure to remove all of your debugging code before submitting your scripts. Submitting a project that prints out a bunch of random debugging output is considered sloppy, like submitting an English paper with a bunch of handwritten edits.
 
-**Deliverables**. Make sure that `images-userid/images.ipynb` is correctly committed to your repository and pushed to github. Make sure that all of your changes are there.
+**Deliverables**. Make sure that `images.ipynb` is correctly committed to your repository and pushed to github. Make sure that all of your changes are there.
 
 ## Task 3. Removing noise
 
@@ -426,20 +426,14 @@ edges
 
 <img src="figures/3x3-region.png" width="100">
 
-That computation effectively compares the strength of the current pixel with those around it.
-
-<img src="../notes/images/redbang.png" width="20" align="left">
-For those familiar with calculus, we are using the second partial derivative (i.e., acceleration) in x and y directions. The first derivative would detect edges even for gradual changes but the second derivative detects only really sharp changes. For a pixel fetching function $f$ operating on a 3x3 region around $(x,y)$, ``applying the *Laplacian*'' means computing a filtered image pixel at $x,y$ as:
-
-$f(x + 1,y) + f(x - 1,y) + f(x,y + 1) + f(x,y - 1) - 4f(x, y)$
-
-where $f(x,y)$ is equivalent to our `pixels[x,y]`.
-
-For example, imagine a region centered over a vertical white line. The region might look like:
+That computation effectively compares the strength of the current pixel with those around it. For example, imagine a region centered over a vertical white line. The region might look like:
 
 <img src="figures/vertical-line-region.png" width="100">
 
-The `laplace` function would return $255+255+0+0 - 4 \times 255 = -510$. 
+The `laplace` function would return 255+255+0+0 - 4 * 255 = -510. 
+
+<img src="../notes/images/redbang.png" width="20" align="left">
+For those familiar with calculus, we are using the second partial derivative (i.e., acceleration) in x and y directions. The first derivative would detect edges even for gradual changes but the second derivative detects only really sharp changes. For a pixel fetching function *f* operating on a 3x3 region around *(x,y)*, "applying the *Laplacian*" means computing a filtered image pixel at *x,y* as:<br>*f(x + 1,y) + f(x - 1,y) + f(x,y + 1) + f(x,y - 1) - 4f(x, y)*<br>where *f(x,y)* is equivalent to our `pixels[x,y]`.
 
 <table border=1>
 <tr><td>Be aware of something that Pillow is doing for us automatically when we store values into an image with <tt>pixels[x,y] = v</tt>.  If <tt>v</tt> is out of range 0..255, Pillow clips <tt>v</tt>. So, for example, <tt>pixels[x,y] = -510</tt> behaves like <tt>pixels[x,y] = 0</tt> and <tt>pixels[x,y] = 510</tt> behaves like <tt>pixels[x,y] = 255</tt>. It doesn't affect edge detection or any of our other operations in future tasks but I wanted to point out that in a more advanced class we would <b>scale</b> these pixel values instead of clipping them. Clipping has the effect of reducing contrast.
@@ -447,48 +441,26 @@ The `laplace` function would return $255+255+0+0 - 4 \times 255 = -510$.
 
 Compare that to the opposite extreme where values are almost the same:
 
-\begin{center}
-\scalebox{.15}{\includegraphics{figures/flat-region.png}}
-\end{center}
+<img src="figures/flat-region.png" width="100">
 
-The `laplace` function would return $18+19+15+21 - 4 \times 10 = 33$.
+The `laplace` function would return 18+19+15+21 - 4 * 10 = 33.
 
-Once you have implemented your `laplace` function, give it a try with some of the sample images you have such as the jeep or Obama:
+Once you have implemented your `laplace` function, give it a try on images `obama.png` and `phobos2.jpg`. It actually does a really good job capturing Obama's outline:
 
-```bash
-$ python edges.py obama.png
-```
+<img src="figures/obama-edges.png" width="250">
 
-It actually does a really good job capturing Obama's outline:\\
-~\\
-
-\begin{minipage}{\linewidth}
-\makebox[\linewidth]{%
-\scalebox{.3}{\includegraphics{figures/obama.png}} \scalebox{.3}{\includegraphics{figures/obama-edges}}
-}
-\end{minipage}
-
-**Deliverables**. Make sure that `images-`*userid*`/edges.py` is correctly committed to your repository and pushed to github. 
+**Deliverables**. Make sure that you show the edges for Obama and the asteroid and have a correct `laplace` function in the appropriate section of `images.ipynb`. Make sure that the file is correctly committed to your repository and pushed to github. 
 
 
-## Task 6. Sharpening}
+## Task 6. Sharpening
 
 Sharpening an image is a matter of highlighting the edges, which we know how to compute from the previous task. Script `edges.py` computes just the edges so, to highlight the original image, we *subtract* that white-on-black edges image from the original.  You might imagine that *adding* the edges back in would be more appropriate and it sort of works, but the edges are slightly off. We get a better image by subtracting the high-valued light pixels because that darkens the edges in the original image, such as between the uniform and the windshield. Let's start with the easy stuff:
 
-\begin{marginfigure}
-\begin{center}
-(a) \scalebox{.6}{\includegraphics{figures/bonkers-bw-zoom.png}}\\
-(b) \scalebox{.6}{\includegraphics{figures/bonkers-sharp-zoom.png}}
-\end{center}
-\caption{Bonkers the cat portrait. (a) original and (b) sharpened as computed by `sharpen.py`.}
-\label{jeepedges}
-\end{marginfigure}
+<img src="figures/bonkers.png"> <img src="figures/bonkers-sharp-zoom.png">
 
-
-* Copy your previous `edges.py` file to new script `sharpen.py`.
+* Reuse copy from your previous code self for detecting edges to load an image and apply the Laplace filter.
 * After `edges = filter(img, laplace)`, add a line that calls a function we'll create shortly called `minus`. `minus` takes two image parameters, `A` and `B` and returns `A-B`.  In our case, pass in the original image and the image you get back from calling `filter(img, laplace)`.
-* Show the result of the `minus` function.
-
+* Show the image return result of the `minus` function.
 
 That only leaves the task of **creating function** `minus` to subtract the pixels of one image from the pixels of another image like a 2-D matrix subtraction.  As we did before, we will return a modified version of a copy of an incoming image parameter. (In my solution, I arbitrarily chose to create and return a copy of `A`.) Because you are getting really good at creating functions to manipulate images, the instructions for creating `minus` in this  task are less specific than in previous tasks.  You need to fill in the body of this function:
  
@@ -500,44 +472,13 @@ def minus(A, B):
 
 The mechanism is the same as before: iterating loop variables `x` and `y` across the entire image and processing the pixel at each location. The only difference between this function and `filter` is that we want to operate on individual pixels not 3x3 regions.  In the inner loop, set `pixels[x,y]` to the value of pixel `A[x,y]` minus pixel `B[x,y]`. Don't forget to return the image you filled in.
 
-Here's how to run `sharpen.py` on Bonkers the cat:
+Add a cell to load and display `bonkers.png` then show the sharpened image.
 
-```bash
-$ python sharpen.py bonkers-bw.png
-```
+This simple process of subtracting the Laplacian does an amazing job.  Here's the before and after photo of the asteroid:
 
-\figref{bonkers3}, \figref{phobos3}, and \figref{jeep3} show some sample transformation sequences with original, *Laplacian*, and sharpened images.
+<img src="figures/phobos1.png"> <img src="figures/phobos1-sharp.png">
 
-**Deliverables**. Make sure that `images-`*userid*`/sharpen.py` is correctly committed to your repository and pushed to github. 
-
-
-\begin{minipage}{0.8 \linewidth}
-\makebox[\linewidth]{%
-\scalebox{.35}{\includegraphics{figures/bonkers-bw-zoom.png}} \scalebox{.35}{\includegraphics{figures/bonkers-edges-zoom.png}} \scalebox{.35}{\includegraphics{figures/bonkers-sharp-zoom.png}}
-}
-\captionof{figure}{Sharpening of a Bonkers the cat. Clockwise: (a) original, (b) edges as computed by `edges.py`, (c) the sharpened image as computed by `sharpen.py`.}
-\label{bonkers3}
-\end{minipage}
-
-\begin{minipage}{0.8 \linewidth}
-\makebox[\linewidth]{%
-\scalebox{.45}{\includegraphics{figures/phobos1.png}}
-\scalebox{.45}{\includegraphics{figures/phobos1-edges.png}}\\
-\scalebox{.45}{\includegraphics{figures/phobos1-sharp.png}}
-}
-\captionof{figure}{Sharpening of Phobos asteroid from NASA. Clockwise: (a) original, (b) edges as computed by `edges.py`, (c) the sharpened image as computed by `sharpen.py`.}
-\label{phobos3}
-\end{minipage}
-
-\begin{minipage}{0.8 \linewidth}
-\makebox[\linewidth]{%
-\scalebox{.45}{\includegraphics{figures/jeep.png}}
-\scalebox{.45}{\includegraphics{figures/jeep-edges.png}}\\
-\scalebox{.45}{\includegraphics{figures/jeep-sharp.png}}
-}
-\captionof{figure}{Sharpening of an old photograph from World War II. Clockwise: (a) original, (b) edges as computed by `edges.py`, (c) the sharpened image as computed by `sharpen.py`.}
-\label{jeep3}
-\end{minipage}
+**Deliverables**. Make sure that your `images.ipynb` is correctly committed to your repository and pushed to github. 
 
 ## Expected results
 

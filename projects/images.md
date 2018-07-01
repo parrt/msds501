@@ -199,7 +199,7 @@ AttributeError: module 'PIL.Image' has no attribute 'opem'
 
 ## Task 2. Blurring}
 
-In this task, we want to blur an image by removing detail as shown in \figref{blur}. We will do this by creating a new image whose pixels are the average of the surrounding pixels for which we will use a 3x3 region as shown in \figref{region}. The pixel in the center of the region is the region to compute as we slide the region around an image. In other words, `pixel[x,y]` is the sum of `pixel[x,y]` and all surrounding pixels divided by 9, the total number of pixels.
+In this task, we want to blur an image by removing detail as shown in the images after this paragraph. We will do this by creating a new image whose pixels are the average of the surrounding pixels for which we will use a 3x3 region as shown in the figure below zooming in on Obama's forehead. The pixel in the center of the region is the region to compute as we slide the region around an image. In other words, `pixel[x,y]` is the sum of `pixel[x,y]` and all surrounding pixels divided by 9, the total number of pixels.
 
 <img src="figures/pcb.png" width="200"> <img src="figures/pcb-blur.png" width="200">
 
@@ -218,20 +218,16 @@ To implement this, start with the boilerplate from the previous section, which y
    * Set `pixels[x,y]` in the image copy to the result of calling to-be-created function `avg` with an argument of `r`.
 * At the end of the function, return the blurred image.
 
-Following the top-down design strategy, let's **define function** `avg` since it's the easiest. Define `avg` to take an argument called `data` or another of your choice. This will be the list of 9 pixels returned by function `region3x3`. The average of a set of numbers is their total divided by how many numbers there are. Python provides two useful functions here: `sum(data)` and `len(data)`.  (Naturally, `sum` simply walks the list and accumulates values using a pattern we are familiar with.)
+**Define function** `avg` to take an argument called `data` or another of your choice. This will be the list of 9 pixels returned by function `region3x3`. The average of a set of numbers is their total divided by how many numbers there are. Python provides two useful functions here: `sum(data)` and `len(data)`.  (Naturally, `sum` simply walks the list and accumulates values using a pattern we are familiar with.)  Make sure that this function returns an integer using `int(...)`.
 
-### Image regions}
+### Image regions
 
-Now we need to **define function** `region3x3`.  Have it take three parameters as described above. This function creates and **return a list of nine pixels**. The list includes the center pixel at `x`, `y` and the 8 adjacent pixels at N, S, E, W, ... as shown in \figref{region}. Create a series of assignments that look like this:
+Now we need to **define function** `region3x3`.  Have it take three parameters as described above. This function creates and **return a list of nine pixels**. The list includes the center pixel at `x`, `y` and the 8 adjacent pixels at N, S, E, W, ... as shown in the following figure.
 
-\begin{marginfigure}
-\begin{center}
-\scalebox{1}{\includegraphics{figures/region.png}}
-\end{center}
-\captionof{figure}{Hyper-zoom of Obama's forehead showing 3x3 region.}
-\label{region}
-\end{marginfigure}
+<img src="figures/region.png" width="300">
 
+Create a series of assignments that look like this:
+ 
 ```python
 me = getpixel(img, x, y)
 N = getpixel(img, x, y - 1)
@@ -240,18 +236,14 @@ N = getpixel(img, x, y - 1)
 
 where function `getpixel(img, x, y)` gets the pixel at `x`, `y` in image `img`.  We can't use the more readable expression `pixels[x,y]` in this case, as we'll see in a second. Collect all those pixel values into a list using `[a,b,c,...]` list literal notation and return it. Make sure that this list is a list of integers and exactly 9 elements long and that you keep in mind the order in which you add these pixels to the list. Any function that we create to operate on a region naturally needs to know the order so we can properly extract pixels from the list. For example, my implementation always puts the pixel at `x` and `y` first, then North, etc...
 
-### Safely examining region pixels}
+### Safely examining region pixels
 
-We need to {\tt define a function} `getpixel` instead of directly accessing pixels because some of the pixels in our 3x3 region will be outside of the image as we shift the region around. For example, when we start out at `x=0`, `y=0`, 5 of the pixels will be out of range, as shown in \figref{outofrange}.  Accessing `pixels[-1,-1]` will trigger:
+We need to **define a function** `getpixel` instead of directly accessing pixels because some of the pixels in our 3x3 region will be outside of the image as we shift the region around. For example, when we start out at `x=0`, `y=0`, 5 of the pixels will be out of range, as shown in the following figure.
 
-\begin{marginfigure}
-\begin{center}
-\scalebox{.85}{\includegraphics{figures/region-edge.png}}
-\end{center}
-\captionof{figure}{Our 3x3 region has pixels outside of the image boundaries as we slide it around the image along the edges.}
-\label{outofrange}
-\end{marginfigure}
+<img src="figures/region-edge.png" width="250">
 
+Accessing `pixels[-1,-1]` will trigger:
+  
 `IndexError: image index out of range`
 
 and stop the program. To avoid this error and provide a suitable definition for the ill-defined pixels on the edges, we will use a function that ensures all indices are within range.
@@ -266,65 +258,51 @@ and stop the program. To avoid this error and provide a suitable definition for 
 * Return the pixel at `x`, `y`. You will need to use the `img.load()` function again to get the 2D `pixels` matrix as you did in function `blur`. Make sure you returning pixel and not the coordinates of the pixel from `getpixel`.
 
 
-### Testing your blur code}
+### Testing your blur code
 
-That is a lot of code to enter and so more than likely it won't work the first time.\sidenote{It never does, dang it!} That means we should test the pieces. It's generally a good idea to do top-down design but *bottom-up testing*. In other words, let's test the simple low-level functions first and make sure that works before testing the functions that call those functions and so on until we reach the outermost script. 
+That is a lot of code to enter and so more than likely it won't work the first time. (It never does, dang it!) That means we should test the pieces. It's generally a good idea to do top-down design but *bottom-up testing*. In other words, let's test the simple low-level functions first and make sure that works before testing the functions that call those functions and so on until we reach the outermost script. 
 
-With that in mind, lets test `avg` by passing it a fixed list of numbers to see if we get the right number. Add this to your script before it does any of the file loading stuff:
-
-```python
-print avg([1,2,3,4,5])
-```
-
-Then run `blur.py` with any old image; the `apple.png` file is a good one because it's small (it's in the `projects/figures` dir of the `msan501` repo):
-
-```bash
-$ python blur.py apple.png
-3
-$ 
-```
-
-If it does not print $(1+2+3+4+5)/5 = 3$, then you know you have a problem in `avg`.
-
-Now test `getpixel`. You will have to insert some code after loading and converting the image to grayscale because `getpixel` takes an image parameter:
+With that in mind, lets test `avg` by passing it a fixed list of numbers to see if we get the right number.  You can split up the functions you created so they all exist within their own cells. Then you can test out the `avg` function with something like this:
 
 ```python
-img = Image.open(filename)
+avg([1,2,3,4,5])
+```
+
+If it does not print `(1+2+3+4+5)/5` = `3`, then you know you have a problem in `avg`.
+
+Now test `getpixel`. You will have to insert some code after loading and converting the image to grayscale because `getpixel` takes an image parameter. Here's how to try it out on the circuit board image:
+
+```python
+img = Image.open("pcb.png")
 img = img.convert("L")
-print getpixel(img, 0, 0)
-print getpixel(img, 0, 1)
-print getpixel(img, 10, 20)
+print(getpixel(img, 0, 0))
+print(getpixel(img, 0, 1))
+print(getpixel(img, 10, 20))
 ```
 
- That should print: 96, 96, and 255. The upper left corner is gray and pixel 10, 20 is somewhere in the middle of the white Apple logo. If you don't get those numbers, then you have a problem with `getpixel`. Worse, if you don't get simple numbers, then you really have a problem with `getpixel`.
+That should print: 222, 181, and 44. The upper left corner is near white and pixel 10, 20 is close to black. If you don't get those numbers, then you have a problem with `getpixel`. Worse, if you don't get a number (e.g., you get a list), then you really have a problem with `getpixel`.
 
 Before getting to `blur`, we should also **test** `region3x3` to ensure it gets the proper region surrounding a pixel. Replace those `getpixel` calls in the `print` `getpixel` statements with calls to `region3x3`. Use the `x`, `y` of the upper left-hand corner and somewhere near the upper left of the white section of the logo such as:
 
 ```python
-print region3x3(img, 0, 0)
-print region3x3(img, 7, 12)
+print(region3x3(img, 0, 0))
+print(region3x3(img, 7, 12))
 ```
 
-That checks whether we get an out of range error at the margins and that we get the correct region from somewhere in the middle. Running the script should give you the following numbers:
+That checks whether we get an out of range error at the margins and that we get the correct region from somewhere in the middle. Running the cell with that code snippet should give you the following numbers:
 
-```bash
-$ python blur.py apple.png
-[96, 96, 96, 96, 96, 96, 96, 96, 96]
-[255, 176, 255, 255, 215, 96, 245, 255, 255]
-$ 
+```
+[222, 222, 181, 187, 222, 222, 187, 234, 181]
+[31, 31, 32, 167, 176, 166, 165, 164, 175]
 ```
 
 That assumes order: current pixel, N, S, E, W, NW, NE, SE, SW.
 
-When you have verified that all of these functions work, it's time to check function `blur` itself. Try the printed circuit board image:
+When you have verified that all of these functions work, it's time to check function `blur` itself. Try the printed circuit board image, which would look like the right image in the intro paragraph for this task.
 
-```bash
-$ python blur.py pcb.png 
-```
+It might take 10 seconds or more to compute and display the blurred image, depending on how fast your computer is.
 
-That should pop up the original circuit board and the blurred version. It might take 10 seconds or more to compute and display the blurred image, depending on how fast your computer is.
-
-<img src="../notes/images/redbang.png" width="20">
+<img src="../notes/images/redbang.png" width="20" align="left">
 Make sure to remove all of your debugging code before submitting your scripts. Submitting a project that prints out a bunch of random debugging output is considered sloppy, like submitting an English paper with a bunch of handwritten edits.
 
 **Deliverables**. Make sure that `images-userid/blur.py` is correctly committed to your repository and pushed to github.
@@ -343,7 +321,7 @@ For our next task, we are going to de-noise (remove noise) from an image as show
 
 Believe it or not, we can implement de-noise by copying `blur.py` into a new script called `denoise.py` and then changing a few lines.  We also have to remove the no-longer-used `avg` function and replace it with a `median` function.  Of course, instead of calling `blur`, we'll call function `denoise` with the usual `img` argument. The only difference between `denoise` and `blur` is that you will set the pixel to the `median` not `avg`.  Hint: you need to tweak one statement in the inner loop that moves over all pixel values.
 
-**Now define function** `median` that, like `avg`, takes a list of 9 numbers called `data`. Sort the list using Python's `sorted` function, which takes a list and returns a sorted version of that list. Then compute the index of the middle list element, which is just the length of the list divided by two. If the length is even, dividing by 2 (not 2.0) will round it down to the nearest index. Once you have this index, return the element at that index.
+**Now define function** `median` that, like `avg`, takes a list of 9 numbers called `data`. Sort the list using Python's `sorted` function, which takes a list and returns a sorted version of that list. Then compute the index of the middle list element, which is just the length of the list divided by two. If the length is even, dividing by 2 (not 2.0) will round it down to the nearest index. Once you have this index, return the element at that index. Make sure that this function returns an integer using `int(...)`.
 
 
 Let's give it a test:
@@ -450,7 +428,7 @@ img.show()
 <tr><td>Yep, these files are identical except for the fact that we call <tt>filter</tt> with different function names. If you wanted to get really fancy, you could replace both of these scripts with a single script that took a function name as a second argument (after the image filename).  With some magic incantations, you'd then ask Python to lookup the function with the indicated name and pass it to function <tt>filter</tt> instead of hard coding.
 </table>
 
-<img src="../notes/images/redbang.png" width="20">
+<img src="../notes/images/redbang.png" width="20" align="left">
 Before finishing this task, be a thorough programmer and test your new scripts to see that they work:
 
 ```bash
@@ -462,7 +440,6 @@ They *should* work, but unfortunately that is never good enough in the programmi
 
 We will import file `filter.py` into the future scripts in this project. You have created your first useful library. **Good job!** \scalebox{.55}{\bcsmbh}
 
-<img src="../notes/images/redbang.png" width="20">
 **Deliverables**. Make sure that `images-`*userid*`/blur2.py`, `images-`*userid*`/denoise2.py`, and `images-`*userid*`/filter.py` are correctly committed to your repository and pushed to github. 
 
 ## Task 5. Highlighting image edges}
@@ -501,7 +478,7 @@ edges.show()
 
 That computation effectively compares the strength of the current pixel with those around it.
 
-<img src="../notes/images/redbang.png" width="20">{\bcinfo}
+<img src="../notes/images/redbang.png" width="20" align="left">
 For those familiar with calculus, we are using the second partial derivative (i.e., acceleration) in x and y directions. The first derivative would detect edges even for gradual changes but the second derivative detects only really sharp changes. For a pixel fetching function $f$ operating on a 3x3 region around $(x,y)$, ``applying the *Laplacian*'' means computing a filtered image pixel at $x,y$ as:
 
 $f(x + 1,y) + f(x - 1,y) + f(x,y + 1) + f(x,y - 1) - 4f(x, y)$
@@ -543,7 +520,6 @@ It actually does a really good job capturing Obama's outline:\\
 }
 \end{minipage}
 
-<img src="../notes/images/redbang.png" width="20">
 **Deliverables**. Make sure that `images-`*userid*`/edges.py` is correctly committed to your repository and pushed to github. 
 
 
@@ -584,7 +560,6 @@ $ python sharpen.py bonkers-bw.png
 
 \figref{bonkers3}, \figref{phobos3}, and \figref{jeep3} show some sample transformation sequences with original, *Laplacian*, and sharpened images.
 
-<img src="../notes/images/redbang.png" width="20">
 **Deliverables**. Make sure that `images-`*userid*`/sharpen.py` is correctly committed to your repository and pushed to github. 
 
 

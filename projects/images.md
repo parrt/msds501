@@ -322,6 +322,10 @@ Believe it or not, we can implement de-noise by copying our blur code into a new
 
 **Define function** `median` that, like `avg`, takes a list of 9 numbers called `data`. Sort the list using Python's `sorted` function, which takes a list and returns a sorted version of that list. Then compute the index of the middle list element, which is just the length of the list divided by two. If the length is even, dividing by 2 (not 2.0) will round it down to the nearest index. Once you have this index, return the element at that index. Make sure that this function returns an integer using `int(...)`.
 
+In a code cell,  open file `Veggies_noise.jpg`, display it, then pass it to `denoise`.  The two images should look like:
+
+<img src="figures/Veggies_noise.jpg" width="300"> <img src="figures/Veggies_denoised.jpg" width="300">
+
 In a code cell,  open file `guesswho.png`, display it, then pass it to `denoise`. That should show the noisy Obama and the cleaned up version.  You can call `denoise` multiple times to really clean it up. (For future reference **To save an image with PIL**, use `img.save("filename.png")`.) Running `denoise` twice, gives the cleaned up (third) image above.  
 
 **Deliverables**. Make sure that you have your code and appropriate images displayed in your `images.ipynb` notebook and that it is correctly committed to your repository and pushed to github.
@@ -589,7 +593,7 @@ For your reference, here is the expected sequence of images and sections with al
 
 <table border="0">
 <tr>
-<td><img src="figures/expected1.png" width="140">
-<td><img src="figures/expected2.png" width="140">
-<td><img src="figures/expected3.png" width="140">
+<td><img src="figures/expected1.png" width="160">
+<td><img src="figures/expected2.png" width="160">
+<td><img src="figures/expected3.png" width="160">
 </table>

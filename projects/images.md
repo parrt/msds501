@@ -322,62 +322,45 @@ Believe it or not, we can implement de-noise by copying our blur code into a new
 
 **Define function** `median` that, like `avg`, takes a list of 9 numbers called `data`. Sort the list using Python's `sorted` function, which takes a list and returns a sorted version of that list. Then compute the index of the middle list element, which is just the length of the list divided by two. If the length is even, dividing by 2 (not 2.0) will round it down to the nearest index. Once you have this index, return the element at that index. Make sure that this function returns an integer using `int(...)`.
 
-In a code cell,  open file `Veggies_noise.jpg`, display it, then pass it to `denoise`.  The two images should look like:
+In a code cell,  open file `Veggies_noise.jpg`, display it, then pass it to `denoise` three times, each time sending the previous return result in as a parameter.  The two images should look like:
 
 <img src="figures/Veggies_noise.jpg" width="300"> <img src="figures/Veggies_denoised.jpg" width="300">
 
-In a code cell,  open file `guesswho.png`, display it, then pass it to `denoise`. That should show the noisy Obama and the cleaned up version.  You can call `denoise` multiple times to really clean it up. (For future reference **To save an image with PIL**, use `img.save("filename.png")`.) Running `denoise` twice, gives the cleaned up (third) image above.  
+In a code cell,  open file `guesswho.png`, display it, then pass it to `denoise`. That should show the noisy Obama and the cleaned up version.  You can call `denoise` multiple times to really clean it up.  Running `denoise` twice, gives the cleaned up (third) Obama image above.  
 
 **Deliverables**. Make sure that you have your code and appropriate images displayed in your `images.ipynb` notebook and that it is correctly committed to your repository and pushed to github.
 
 ## Task 4. Re-factoring to improve code quality
 
 <img src="figures/blur-denoise-diff.png" width="200" align="right">
-As I mentioned in the last task, `blur.py` and `denoise.py` are virtually identical, meaning that we have a lot of code in common. The side figure demonstrates this visually. One of the most important principles of computer science is to reduce code duplication. We always want exactly one place to change a particular bit of functionality.   In this case, we have the following common code:
-
+As I mentioned in the last task, blur and denoise are virtually identical, meaning that we have a lot of code in common. The side figure demonstrates this visually. One of the most important principles of computer science is to reduce code duplication. We always want exactly one place to change a particular bit of functionality.   In this case, we have the following common code:
 
 * Functions `getpixel` and `region3x3`.
-* The ``main'' part of the script that loads the original image.
+* The main part of the script that loads the original image.
 * Functions `blur` and `denoise` are identical except for the function called to compute a new pixel in the image copy from a 3x3 region in the original (`avg` or `median`).
 
-The goal of this task is to make new versions, `blur2.py` and `denoise2.py`, that share as much code as possible.  The functionality will be the same, but they will be much smaller and we will get warm feeling that our code is well structured. To share code, we need to (a) put all common code in a file that these new scripts can import and (b) create a generic function called `filter` that will work for both blurring and de-noising in an image. Once we get the common code into a single file, which we will call `filter.py`, we can import it into `blur2.py` and `denoise2.py` like this: 
- 
-```python
-from filter import *
-```
+The goal of this task is to reuse as much of the same code as possible for blurring and denoising. Functions `getpixel` and `region3x3` are identical and are already available to us from the definition in previous notebook code cells. 
 
-(Do not confuse script names with function names; `filter.py` can contain anything we want and it so happens that we will also put a function in there with the same name, `filter`.)
-
-That statement asks Python to look in the current directory (among other places we don't care about for now) for file called `filter.py` and import all of the functions. You can think of it as a formalized cut-and-paste.
-
-Let's start by creating new ``library'' file `filter.py` and placing our usual imports at the top:
-
-```python
-import sys
-from PIL import Image
-```
-
-Now, copy functions `getpixel` and `region3x3` into it.
-
-We can also create a function called `open` to hide all of the messiness that checks for command-line arguments and opens the indicated image:
+So, let's create a function called `open` to combines the open and convert function calls:
 
 ```python
 def open(argv):
-	if len(argv)<=1:
-		print "missing image filename"
-		sys.exit(1)
 	img = Image.open(argv[1])
-	img = img.convert("L")  # make greyscale if not already (luminance)
+	img = img.convert("L")
 	return img
 ```
 
-The only tricky bit\sidenote{Pun intended} is to create a single generic `filter` function that can reproduce the functionality we have in functions `blur` and `denoise`.
+That lets us do things like:
 
+```python
+img = open('pcb.png')
+```
+
+The only tricky bit (pun intended) is to create a single generic `filter` function that can reproduce the functionality we have in functions `blur` and `denoise`.
 
 * Define function `filter` to take `img` and `f` parameters.
 * Copy the body of function `blur` into your new `filter` function.
 * Replace the call to `avg(r)` with `f(r)`.
-
 
 As we discussed in class, functions are objects in Python just like any strings, lists, and so on. That means we can pass them around as function arguments. To use our new generic `filter` function, we pass it an image as usual but also the name of a function:
 
@@ -387,90 +370,61 @@ denoised = filter(img, median)
 ```
 
 <table border=1>
-<tr><td>Don't confuse the name of a function with an expression that calls it.  Assignment `f = avg` makes variable `f` refer to function `avg`. `f = avg()` **calls** function `avg` and stores the return value in variable `f`. Using `f = avg`, we can call `avg` with expression `f()`. You can think of `f` as an alias for `avg`.
+<tr><td>Don't confuse the name of a function with an expression that calls it.  Assignment <tt>f = avg</tt> makes variable <tt>f</tt> refer to function <tt>avg</tt>. <tt>f = avg()</tt> <b>calls</b> function <tt>avg</tt> and stores the return value in variable <tt>f</tt>. Using <tt>f = avg</tt>, we can call <tt>avg</tt> with expression <tt>f()</tt>. You can think of <tt>f</tt> as an alias for <tt>avg</tt>.
 </table>
 
-In the end, your `filter.py` script file should have 4 functions: `getpixel`, `region3x3`, `filter`, and `open`.
+In the end, we now have 4 generically useful functions: `getpixel`, `region3x3`, `filter`, and `open`.
 
-Armed with this awesome new common file, our entire `blur2.py` file shrinks to a tiny script:
+Armed with this awesome new common functionality, blurring and image shrinks to the following tiny script:
 
 ```python
-from filter import *
-# Your avg function goes here (copy from blur.py)
-...
 img = open(sys.argv)
-img.show()
 img = filter(img, avg)		# blur me please
-img.show()
+img                       # show me
 ```
 
-<table border=1>
-<tr><td>You might be wondering why we don't have to include the usual <tt>sys</tt> and <tt>PIL</tt> imports at the start of our new files. That is because we import our <tt>filter.py</tt> file, which in turn imports those files.
-</table>
-
-The `denoise2.py` script is also tiny:
+Denoising is also tiny:
 
 ```python
-from filter import *
 # Your median function goes here (copy from denoise.py)
 ...
 img = open(sys.argv)
-img.show()
 img = filter(img, median)	# denoise me please
-img.show()
+img
 ```
 
 <table border=1>
 <tr><td>Yep, these files are identical except for the fact that we call <tt>filter</tt> with different function names. If you wanted to get really fancy, you could replace both of these scripts with a single script that took a function name as a second argument (after the image filename).  With some magic incantations, you'd then ask Python to lookup the function with the indicated name and pass it to function <tt>filter</tt> instead of hard coding.
 </table>
 
-<img src="../notes/images/redbang.png" width="20" align="left">
-Before finishing this task, be a thorough programmer and test your new scripts to see that they work:
-
-```bash
-$ python blur2.py pcb.png
-$ python denoise2.py guesswho.png
-```
+<img src="../notes/images/redbang.png" width="20" align="left">Before finishing this task, be a thorough programmer and test your new scripts to see that they work. Please add cells to show `pcb.png` and blur it. Then do the same for denoising `guesswho.png`.
 
 They *should* work, but unfortunately that is never good enough in the programming world.  Lot of little things can go wrong. *Certainty* is always better than *likelihood*.
 
-We will import file `filter.py` into the future scripts in this project. You have created your first useful library. **Good job!** \scalebox{.55}{\bcsmbh}
+**Deliverables**. Make sure that you commit your appropriate changes and push the results back to the repository at github.
 
-**Deliverables**. Make sure that `images-`*userid*`/blur2.py`, `images-`*userid*`/denoise2.py`, and `images-`*userid*`/filter.py` are correctly committed to your repository and pushed to github. 
+## Task 5. Highlighting image edges
 
-## Task 5. Highlighting image edges}
+Now that we have some basic machinery available to us in the form of some common functions, we can easily build new functionality. In this task, we want to highlight edges found within an image.  It is surprisingly easy to capture all of the important edges in an image:
 
-Now that we have some basic machinery in `filter.py`, we can easily build new functionality. In this task, we want to highlight edges found within an image.  It is surprisingly easy to capture all of the important edges in an image, as shown in image (b) from \figref{jeepedges}. 
-
-\begin{marginfigure}
-\vspace{20mm}
-\begin{center}
-(a) \scalebox{.8}{\includegraphics{figures/jeep.png}}\\
-(b) \scalebox{.8}{\includegraphics{figures/jeep-edges.png}}
-\end{center}
-\caption{Edges of an old photograph from World War II.  (a) original, (b) edges as computed by `edges.py`.}
-\label{jeepedges}
-\end{marginfigure}
+<img src="figures/jeep.png" width="300"> <img src="figures/jeep-edges.png" width="300">
 
 The mechanism we're going to use is derived from some serious calculus kung fu called the *Laplacian*, but which, in the end, reduces to 4 additions and a subtraction!  The intuition behind the Laplacian is that abrupt changes in brightness indicate edges, such as the transition from the darkness of a uniform to the brightness of a windshield edge.  As we did for blurring and denoising, we are going to slide a 3x3 region around the image to create new pixels at each `x`, `y`. That  means we can reuse our `filter` function---we just need a `laplace` function to pass to `filter`.
 
-To get started, here is the boilerplate code copied from `denoise2.py` but with function name `laplace` (the object of this task) passed as an argument to function `filter`:
+To get started, here is the boilerplate code you need to load and get the edges for Obama:
 
 ```python
-from filter import *
 # define function laplace here
 ...
-img = open(sys.argv)
-img.show()
+img = open('obama.png')
+display(img)
 edges = filter(img, laplace)
-edges.show()
+edges
 ```
 
 **Create function** `laplace` that takes region `data` as an argument as usual. Have the function body  return the sum of the North, South, East, and West pixels minus 4 times the middle pixel from our usual region:
 
-\begin{center}
-\scalebox{.15}{\includegraphics{figures/3x3-region.png}}
-\end{center}
+<img src="figures/3x3-region.png" width="100">
 
 That computation effectively compares the strength of the current pixel with those around it.
 
@@ -483,15 +437,13 @@ where $f(x,y)$ is equivalent to our `pixels[x,y]`.
 
 For example, imagine a region centered over a vertical white line. The region might look like:
 
-\begin{center}
-\scalebox{.15}{\includegraphics{figures/vertical-line-region.png}}
-\end{center}
-
-<table border=1>
-<tr><td>Be aware of something that Pillow is doing for us automatically when we store values into an image with `pixels[x,y] = v`.  If `v` is out of range 0..255, Pillow clips `v`. So, for example, `pixels[x,y] = -510` behaves like `pixels[x,y] = 0` and `pixels[x,y] = 510` behaves like `pixels[x,y] = 255`. It doesn't affect edge detection or any of our other operations in future tasks but I wanted to point out that in a more advanced class we would **scale** these pixel values instead of clipping them. Clipping has the effect of reducing contrast.
-</table>
+<img src="figures/vertical-line-region.png" width="100">
 
 The `laplace` function would return $255+255+0+0 - 4 \times 255 = -510$. 
+
+<table border=1>
+<tr><td>Be aware of something that Pillow is doing for us automatically when we store values into an image with <tt>pixels[x,y] = v</tt>.  If <tt>v</tt> is out of range 0..255, Pillow clips <tt>v</tt>. So, for example, <tt>pixels[x,y] = -510</tt> behaves like <tt>pixels[x,y] = 0</tt> and <tt>pixels[x,y] = 510</tt> behaves like <tt>pixels[x,y] = 255</tt>. It doesn't affect edge detection or any of our other operations in future tasks but I wanted to point out that in a more advanced class we would <b>scale</b> these pixel values instead of clipping them. Clipping has the effect of reducing contrast.
+</table>
 
 Compare that to the opposite extreme where values are almost the same:
 
@@ -589,7 +541,7 @@ $ python sharpen.py bonkers-bw.png
 
 ## Expected results
 
-For your reference, here is the expected sequence of images and sections with all of the code cells hidden:
+For your reference, here is the expected sequence of images and sections with all of the code cells hidden (though the relative sizes of those images might be different in your output):
 
 <table border="0">
 <tr>

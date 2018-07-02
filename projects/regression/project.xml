@@ -1,0 +1,9 @@
+<article>
+
+<include file="regression.xml">
+
+<css file="css/article.css">
+
+<data dir="/Users/parrt/github/msan501/projects/regression/data">
+	<copy file="cheese_deaths.csv">
+</data>

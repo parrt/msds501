@@ -1,0 +1,14 @@
+<chapter title="Predicting Death Rates With Gradient Descent"
+         author={[Terence Parr](http://parrt.cs.usfca.edu)}>
+
+
+<pyeval label="" output="df">
+import matplotlib.pyplot as plt
+import pandas as pd
+
+years = range(2000,2009+1)
+
+df = pd.read_csv('data/cheese_deaths.csv')
+df	
+</pyeval>
+

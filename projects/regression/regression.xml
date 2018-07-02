@@ -2,13 +2,94 @@
          author={[Terence Parr](http://parrt.cs.usfca.edu)}>
 
 
-<pyeval label="" output="df">
-import matplotlib.pyplot as plt
+<section title="Goal">
+
+The goal of this project is to extend the techniques we learned in class, for one-dimensional gradient descent, to a two-dimensional domain space, training a machine learning model called *linear regression*.  This problem is also known as *curve fitting*.  As part of this project, you will learn how to compute with vectors instead of scalars. Please use starter kit file [regression-starterkit.ipynb](ff). You will be doing your work in your repository `regression-userid` cloned from github.
+			 
+<section title="Discussion">
+	
+<subsection title="Problem statement">
+
+Given training data $(x_i, y_i)$ for $i=1..n$ samples with dependent variable $y_i$, we would like to predict $y$ for some $x$'s not in our training set. $x_i$ is generally a vector of independent variables but we'll use a scalar. If we assume there is a linear relationship between $x$ and $y$, then we can draw a line through the data and predict future values with that line function. To do that, we need to compute the two parameters of our model: a slope and a $y$ intercept. (We will see the model below.)
+
+For example, let's compare the number of people who died by becoming tangled in their bedsheets versus the per capita cheese consumption. (Data is from [spurious correlations](http://www.tylervigen.com/spurious-correlations).) Here is the raw data:
+
+<pyeval label="ex" output="df">
 import pandas as pd
-
-years = range(2000,2009+1)
-
 df = pd.read_csv('data/cheese_deaths.csv')
-df	
 </pyeval>
 
+If we plot the data across years, we see an obvious linear relationship:
+
+<pyfig label="ex" hide=true width="70%">
+from matplotlib import rcParams
+rcParams["font.size"] = 12
+
+fig, ax1 = plt.subplots(figsize=(8,2.5))
+ax1.set_xticks(df.years)
+p1, = ax1.plot(df.years, df.cheese, 'darkred', marker='d', markersize=5)
+ax2 = ax1.twinx()
+p2, = ax2.plot(df.years, df.deaths, 'k', marker='o', markersize=5)
+
+ax1.set_xlabel("Year", fontsize=12)
+ax1.set_ylabel("Cheese (lbs)", fontsize=12)
+ax2.set_ylabel("Bedsheet deaths", fontsize=12)
+
+ax1.legend(handles=[p1, p2], labels=['cheese consumption','bedsheet deaths'],
+           fontsize=12)
+</pyfig>
+
+We can also do a scatterplot of cheese versus deaths:
+
+<pyfig label="ex" hide=true width="60%">
+rcParams["font.size"] = 12
+fig, ax = plt.subplots(figsize=(8,2.5))
+ax.plot(df.cheese, df.deaths)
+ax.set_xlabel('cheese consumption (lbs)')
+ax.set_ylabel('deaths')
+</pyfig>
+
+<subsection title="Best fit line that minimizes squared error">
+
+Recall the formula for a line from high school: $y = m x + b$.  We normally rewrite that using elements of a vector coefficients, $\vec{b}$, in preparation for describing it with vector notation from linear algebra. For simplicity,  though, we'll stick with scalar coefficients for now:
+
+\[
+\hat{y} = b_2 x + b_1
+\]
+
+We use notation $\hat{y}$ to indicate that it approximates $y$ from our data set but is not necessarily equal to any of the $y_i$.
+
+The "best line" is one that minimizes some cost function that compares the known each $y_i$ value at $x_i$ to the predicted $\hat{y}$ of the linear model that we conjure up using parameters $b_1$, $b_2$. A good measure is the *sum of squared errors*. The cost function adds up all of these squared errors to tell us how good of a fit our linear model is:
+
+\[
+Cost(B) = \sum_{i=1}^{n}(\underbrace{\hat{y}}_\text{linear model} - \overbrace{y_i}^\text{true value})^2
+\]
+
+Inlining the expression for our model, we get:
+
+\[
+Cost(B) = \sum_{i=1}^{n}(b_2 x_i + b_1 - y_i)^2
+\]
+
+As we wiggle the linear model parameters, the value of the cost function will change.  The following graphs shows the errors/residuals that are squared and summed to get the overall cost for two different "curve fits."
+
+<pyfig label="ex" hide=true width="60%">
+import numpy as np
+rcParams["font.size"] = 12
+fig, ax = plt.subplots(figsize=(8,2.5))
+fit = np.polyfit(df.cheese, df.deaths, deg=1)
+bestline = np.poly1d(fit)
+#plt.text(30,700, f"Equation is $y = {str(bestline).strip()}$", fontsize=12)
+x = [df.cheese.min(), df.cheese.max()]
+y = bestline(x)
+ax.scatter(df.cheese, df.deaths, linewidth=.5, s=15)
+for c,d in zip(df.cheese, df.deaths):
+    plt.plot([c,c],[bestline(c),d], color='red', linewidth=.5)
+gline, = plt.plot(x,y,'--',color='grey', linewidth=1)
+ax.set_xlabel('cheese consumption', fontsize=12)
+ax.set_ylabel('deaths', fontsize=12)
+ax.legend(handles=[gline],
+           labels=[f"Equation is $y = {str(bestline).strip()}$"],
+          fontsize=12)
+plt.show()
+</pyfig>

@@ -16,6 +16,9 @@ For example, let's compare the number of people who died by becoming tangled in 
 
 <pyeval label="ex" output="df">
 import pandas as pd
+import numpy as np
+from mpl_toolkits.mplot3d import Axes3D # required even though not ref'd!
+
 df = pd.read_csv('data/cheese_deaths.csv')
 </pyeval>
 
@@ -51,7 +54,7 @@ ax.set_ylabel('deaths')
 
 <subsection title="Best fit line that minimizes squared error">
 
-Recall the formula for a line from high school: $y = m x + b$.  We normally rewrite that using elements of a vector coefficients, $\vec{b}$, in preparation for describing it with vector notation from linear algebra. For simplicity,  though, we'll stick with scalar coefficients for now:
+Recall the formula for a line from high school: $y = m x + b$.  We normally rewrite that using elements of a vector coefficients, $\vec b$, in preparation for describing it with vector notation from linear algebra. For simplicity,  though, we'll stick with scalar coefficients for now:
 
 \[
 \hat{y} = b_2 x + b_1
@@ -59,37 +62,236 @@ Recall the formula for a line from high school: $y = m x + b$.  We normally rewr
 
 We use notation $\hat{y}$ to indicate that it approximates $y$ from our data set but is not necessarily equal to any of the $y_i$.
 
-The "best line" is one that minimizes some cost function that compares the known each $y_i$ value at $x_i$ to the predicted $\hat{y}$ of the linear model that we conjure up using parameters $b_1$, $b_2$. A good measure is the *sum of squared errors*. The cost function adds up all of these squared errors to tell us how good of a fit our linear model is:
+The "best line" is one that minimizes some cost function that compares the known each $y_i$ value at $x_i$ to the predicted $\hat{y}$ of the linear model that we conjure up using parameters $\vec b = [b_1, b_2]$. A good measure is the *sum of squared errors*. The cost function adds up all of these squared errors across $N$ observations to tell us how good of a fit our linear model is:
 
 \[
-Cost(B) = \sum_{i=1}^{n}(\underbrace{\hat{y}}_\text{linear model} - \overbrace{y_i}^\text{true value})^2
+Cost(\vec b) = \frac{1}{N}\sum_{i=1}^{N}(\underbrace{\hat{y}}_\text{linear model} - \overbrace{y_i}^\text{true value})^2
 \]
 
 Inlining the expression for our model, we get:
 
 \[
-Cost(B) = \sum_{i=1}^{n}(b_2 x_i + b_1 - y_i)^2
+Cost(\vec b) = \frac{1}{N}\sum_{i=1}^{N}(b_2 x_i + b_1 - y_i)^2
 \]
 
-As we wiggle the linear model parameters, the value of the cost function will change.  The following graphs shows the errors/residuals that are squared and summed to get the overall cost for two different "curve fits."
+As we wiggle the linear model parameters, the value of the cost function will change.  The following graphs shows the errors/residuals that are squared and averaged to get the overall cost for two different "curve fits."
 
-<pyfig label="ex" hide=true width="60%">
-import numpy as np
-rcParams["font.size"] = 12
-fig, ax = plt.subplots(figsize=(8,2.5))
+<pyeval label="ex" hide=true>
+def line_fit(B, x):
+    return B[2-1]*x + B[1-1]
+
 fit = np.polyfit(df.cheese, df.deaths, deg=1)
 bestline = np.poly1d(fit)
-#plt.text(30,700, f"Equation is $y = {str(bestline).strip()}$", fontsize=12)
-x = [df.cheese.min(), df.cheese.max()]
-y = bestline(x)
-ax.scatter(df.cheese, df.deaths, linewidth=.5, s=15)
-for c,d in zip(df.cheese, df.deaths):
-    plt.plot([c,c],[bestline(c),d], color='red', linewidth=.5)
-gline, = plt.plot(x,y,'--',color='grey', linewidth=1)
-ax.set_xlabel('cheese consumption', fontsize=12)
-ax.set_ylabel('deaths', fontsize=12)
-ax.legend(handles=[gline],
-           labels=[f"Equation is $y = {str(bestline).strip()}$"],
-          fontsize=12)
-plt.show()
+bestline_coeff = np.array([bestline.coefficients[1], bestline.coefficients[0]])
+</pyeval>
+
+<pyeval label="ex" hide=true>
+def Cost(B,X,Y):
+    "Line coefficients: B = [y-intercept, slope]"
+    cost = 0.0
+    for x,y in zip(X,Y):
+        y_ = line_fit(B,x)
+        cost += (y_ - y)**2
+    return cost/len(X)
+</pyeval>
+
+<pyeval label="ex" hide=true>
+def plot_residuals(B):
+	rcParams["font.size"] = 12
+	fig, ax = plt.subplots(figsize=(5,2.5))
+	#y = bestline(df.cheese.values)
+	y = line_fit(B,df.cheese.values)
+	ax.scatter(df.cheese, df.deaths, linewidth=.5, s=15)
+	for c,d in zip(df.cheese, df.deaths):
+	    plt.plot([c,c],[line_fit(B,c),d], color='red', linewidth=.5)
+	gline, = plt.plot(df.cheese,y,'--',color='grey', linewidth=1)
+	ax.set_xlabel('cheese consumption')
+	ax.set_ylabel('deaths')
+	ax.legend(loc='upper left',
+			handles=[gline],
+			labels=[f"Equation is $y = {B[1]:.1f}x + {B[0]:.1f}$"],
+			fontsize=12)
+    ax.set_title(f"Residuals plot; Cost = {Cost(B,df.cheese, df.deaths):.1f}")
+</pyeval>
+
+<table>
+<tr>
+<td>
+<pyfig label="ex" hide=true width="100%">
+plot_residuals(bestline_coeff)
 </pyfig>
+<td>
+<pyfig label="ex" hide=true width="100%">
+plot_residuals([600, 0])
+</pyfig>
+</table>
+
+The good news is that we know the cost function is a quadratic (by construction), which is convex and has an exact solution. All we have to do is figure out where the cost function flattens out. Mathematically, that is when the partial derivatives of the cost function are both zero. The partial derivative for a particular dimension is just the rate of change of that dimension at a particular spot. It's like a skier examining the slope of his or her skis against the mountain one at a time.
+
+\[
+\nabla Cost(\vec b) = 0
+\]
+
+For our purposes, though, we'll use gradient descent to minimize the cost function. There are lots and lots of cost functions that are not simple little quadratics with symbolic solutions.  For example, if we change this problem from a predictor to a classifier (*logistic regression*), then training requires an iterative method.
+
+To show our prediction model in action, we can ask how many deaths there would be in  if we consumed an average of 32 lbs of cheese.  To make a prediction, all we have to do is plug $x=32$ into $\hat{y} = 113.1 x - 2977.3$, which gives us 641.9 deaths.
+
+<subsection title="Gradient descent in 3D">
+
+Before trying to minimize the cost function, it's helpful to study what the surface looks like in three dimensions, as shown in the following two graphs. The X and Y dimensions are the coefficients of our linear model and the Z coordinate (up) is the cost function.
+
+<pyeval label="ex" hide=true>
+b1 = np.arange(-6000, 4000, 50)  # y intercept
+b2 = np.arange(-200, 300, 1)   # slope
+(b1_mesh, b2_mesh) = np.meshgrid(b1, b2, indexing='ij')
+C = np.zeros(b1_mesh.shape)
+#b0_mesh.shape, b1_mesh.shape, C.shape           
+
+for i in range(len(b1)):
+        for j in range(len(b2)):
+                c = Cost([b1[i],b2[j]],X=df.cheese.values, Y=df.deaths.values)
+                C[i][j] = c / 1e8 # scale down the cost
+</pyeval>
+
+<pyeval label="ex" hide=true>
+def plot3d(elev=50, azim=145, show_best_text=True):
+    rcParams["font.size"] = 12
+    fig = plt.figure(figsize=(8,7))
+    ax = fig.add_subplot(111, projection='3d')
+    ax.view_init(elev, azim)
+    surface = ax.plot_surface(b1_mesh, b2_mesh, C, alpha=0.6, cmap='coolwarm')
+    #surface = ax.contour(b1_mesh, b2_mesh, C, alpha=0.5, cmap='coolwarm')
+    
+    plt.title("""$Cost({\\bf b}) = \sum_{i=1}^{N}({b_2 x_i + b_1} - {y_i})^2$""")
+    ax.set_xlabel('$b_1$ y-intercept', fontsize=16)
+    ax.set_ylabel('$b_2$ slope', fontsize=16)
+    ax.set_zlabel('$Cost({\\bf b})$ in $10^8$ units', rotation='vertical', fontsize=18)
+
+    # show projections
+    #cset = ax.contour(b0_mesh, b1_mesh, C, zdir='z', offset=-0.2, cmap='coolwarm')
+    # cset = ax.contour(b0_mesh, b1_mesh, C, zdir='x', offset=-6000, cmap='coolwarm')
+    # cset = ax.contour(b0_mesh, b1_mesh, C, zdir='y', offset=300, cmap='coolwarm')
+
+    b = bestline_coeff
+    ax.plot([b[0]], [b[1]], Cost(b, X=df.cheese.values, Y=df.deaths.values) / 1e8, "ro")
+    if show_best_text:
+        ax.text(b[0]+1000, b[1], Cost(b, X=df.cheese.values, Y=df.deaths.values) / 1e8,
+                "Optimal ${\\bf b} = ["+str(int(b[0]))+", "+str(int(b[1]))+"]$",
+               fontsize=16)
+    plt.tight_layout()
+</pyeval>
+
+<table>
+<tr>
+<td>
+<pyfig label="ex" hide=true width="100%">
+plot3d()
+</pyfig>
+<td>
+<pyfig label="ex" hide=true width="100%">
+plot3d(elev=30, azim=0, show_best_text=False)
+</pyfig>
+</table>
+
+<pyfig label="ex" hide=true width="50%">
+plot3d(elev=0, azim=145, show_best_text=False)
+</pyfig>
+
+What surprised me is that changes to the slope of the linear model's slope coefficient $b_2$, away from the optimal $b_2=15.484$, cost much more than tweaks to the y intercept, $b_1$. Regardless, the surface is convex. Unfortunately, based upon the deep trough that grows slowly along the diagonal of $(b_1,b_2)$, gradient descent takes a while to converge to the minimum. We will examine the path of gradient descent for a few initial starting points. Wikipedia says that the Rosenbrock function is a pathological case for traditional gradient descent and it looks pretty similar to our surface with its shallow valley in this topographic view from above:
+
+<img src="images/Banana-SteepDesc.png" width="50%">
+
+The recurrence relation for updating our estimate of $\vec b=[b_1, b_2]$ that minimizes $Cost(\vec b)$ is the same as the single-variable gradient-descent we did in class but with a vector instead of a scalar:
+
+\[
+\vec b_{t+1} = \vec b_t - \eta \nabla Cost(\vec b_t)
+\]
+
+where
+
+\[
+\nabla Cost(\vec b) = \begin{bmatrix}
+\frac{\partial}{\partial b_1} Cost(\left[ b_1 \above 0pt{b_2} \right])\vspace{3mm}\\
+\frac{\partial}{\partial b_2} Cost(\left[ b_1 \above 0pt{b_2} \right])\\
+\end{bmatrix}
+\]
+
+The partial derivatives are: 
+
+<latex>
+\begin{eqnarray*}
+\frac{\partial}{\partial b_1} Cost(\left[ b_1 \above 0pt{b_2} \right]) &=& \frac{\partial}{\partial b_1}\frac{1}{N}\sum_{i=1}^{N}(b_2 x_i + b_1 - y_i)^2\\
+&=& \frac{1}{N}\sum_{i=1}^{N}\frac{\partial}{\partial b_1}(b_2 x_i + b_1 - y_i)^2\\
+&=& \frac{1}{N}\sum_{i=1}^{N}2(b_2 x_i + b_1 - y_i)\frac{\partial}{\partial b_1}(b_2 x_i + b_1 - y_i)\\
+&=& \frac{1}{N}\sum_{i=1}^{N}2(b_2 x_i + b_1 - y_i)\\
+&=& \frac{2}{N}\sum_{i=1}^{N}(b_2 x_i + b_1 - y_i)\\
+\end{eqnarray*}
+</latex>
+
+and
+
+<latex>
+\begin{eqnarray*}
+\frac{\partial}{\partial b_2} Cost(\left[ b_1 \above 0pt{b_2} \right]) &=& \frac{\partial}{\partial b_2}\frac{1}{N}\sum_{i=1}^{N}(b_2 x_i + b_1 - y_i)^2\\
+&=& \frac{1}{N}\sum_{i=1}^{N}\frac{\partial}{\partial b_2}(b_2 x_i + b_1 - y_i)^2\\
+&=& \frac{1}{N}\sum_{i=1}^{N}2(b_2 x_i + b_1 - y_i)\frac{\partial}{\partial b_2}(b_2 x_i + b_1 - y_i)\\
+&=& \frac{1}{N}\sum_{i=1}^{N}2(b_2 x_i + b_1 - y_i)x_i\\
+&=& \frac{2}{N}\sum_{i=1}^{N}(b_2 x_i + b_1 - y_i)x_i\\
+\end{eqnarray*}
+</latex>
+
+which gives us the gradient:
+
+\[
+\nabla Cost(\vec b) =
+\begin{bmatrix}
+\frac{2}{N}\sum_{i=1}^{N}(b_2 x_i + b_1 - y_i) \vspace{3mm}\\
+\frac{2}{N}\sum_{i=1}^{N}(b_2 x_i + b_1 - y_i)x_i\\
+\end{bmatrix}
+\]
+
+We could approximate that gradient derived from calculus using partial finite differences if we wanted, but it's more expensive:
+
+\[
+\nabla Cost(\vec b) =
+\begin{bmatrix}
+\frac{\partial}{b_1}{Cost(\left[ b_1 \above 0pt{b_2} \right])}\\
+\frac{\partial}{b_2}{Cost(\left[ b_1 \above 0pt{b_2} \right])} \\
+\end{bmatrix}
+\approx
+\begin{bmatrix}
+\frac{Cost(\left[ b_1+h \above 0pt{b_2} \right]) - Cost(\left[ b_1 \above 0pt{b_2} \right])}{h} \vspace{3mm}\\
+\frac{Cost(\left[ b_1 \above 0pt{b_2+h} \right]) - Cost(\left[ b_1 \above 0pt{b_2} \right])}{h} \\
+\end{bmatrix}
+\]
+
+The $h$ variable is a very small delta step away from a specific coordinate in each dimension in turn. In our case, we will compute the components of a finite difference vector ignoring the division by the step $h$ because it will get folded into our learning rate $\eta$.
+
+<subsection title="Gradient-descent algorithm">
+
+The minimization algorithm for function $f$ taking vector $\vec b$ looks like:
+
+<latex>
+\setlength{\algomargin}{3pt}
+\SetAlCapSkip{-10pt}
+\begin{algorithm}[H]
+\LinesNumbered
+\SetAlgorithmName{Algorithm}{List of Algorithms}
+\SetAlgoSkip{}
+\SetInd{.5em}{.5em}
+\TitleOfAlgo{{\em minimize}($f$, $\vec b_0 = [b_1, b_2]$, $\eta$, {\em precision}) {\bf returns} coefficents $\vec b$}
+Let time $t=0$\\
+\Repeat{$||(f(\vec b_{t+1})-f(\vec b_t))|| < precision$}{
+Let $\vec b = \vec b_t$\\
+Let $\nabla f = \begin{bmatrix}
+\sum_{i=1}^{N}(b_2 x_i + b_1 - y_i) \vspace{3mm}\\
+\sum_{i=1}^{N}(b_2 x_i + b_1 - y_i)x_i\\
+\end{bmatrix}\vspace{3mm}\\
+Let $\vec b_{t+1} = \vec b_t - \eta \nabla f$\vspace{1mm}\\
+}
+\Return{$\vec b_{t+1}$}\\
+\end{algorithm}
+</latex>
+
+To use this, we just pick an initial $\vec b_0$ (at random if we want) and called minimize with our cost function, a learning rate $\eta$, and the desired precision (max change in $f$ between iterations).
+

@@ -1,0 +1,287 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
+<link rel="stylesheet" type="text/css" href="css/article.css"/>
+<title>Predicting Death Rates With Gradient Descent</title>
+<!-- META -->
+<!-- LinkedIn meta -->
+<meta property='og:title' content=""/>
+<meta property='og:image' content="">
+<meta property='og:description' content=""/>
+<meta property='og:url' content=""/>
+
+<!-- Facebook meta -->
+<meta property="og:type" content="" />
+
+<!-- Twitter meta -->
+<meta name="twitter:title" content="">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="">
+<meta name="twitter:creator" content="">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="">
+<!-- END META -->
+</head>
+<body>
+<div class="watermark">
+</div>
+
+<h1>Predicting Death Rates With Gradient Descent</h1>
+
+<p></p>
+
+<p><a href="http://parrt.cs.usfca.edu">Terence Parr</a></p>
+
+<p style="font-size: 80%"></p>
+
+
+
+<div id="toc">
+<p class="toc_title">Contents</p>
+<ul>
+	<li><a href="#sec:1.1">Goal</a>
+	<ul>
+	</ul>
+	</li>
+	<li><a href="#sec:1.2">Discussion</a>
+	<ul>
+			<li><a href="#sec:1.2.1">Problem statement</a></li>
+			<li><a href="#sec:1.2.2">Best fit line that minimizes squared error</a></li>
+			<li><a href="#sec:1.2.3">Gradient descent in 3D</a></li>
+			<li><a href="#sec:1.2.4">Gradient-descent algorithm</a></li>
+
+	</ul>
+	</li>
+	<li><a href="#sec:1.3">Your task</a>
+	<ul>
+	</ul>
+	</li>
+
+</ul>
+</div>
+
+
+<h2 id="sec:1.1">Goal</h2>
+
+<p>The goal of this project is to extend the techniques we learned in class, for one-dimensional gradient descent, to a two-dimensional domain space, training a machine learning model called <i>linear regression</i>.  This problem is also known as <i>curve fitting</i>.  As part of this project, you will learn how to compute with vectors instead of scalars. Please use starter kit file <a href="ff">regression-starterkit.ipynb</a>. You will be doing your work in your repository <span class=inlinecode>regression-userid</span> cloned from github.</p>
+
+
+<h2 id="sec:1.2">Discussion</h2>
+
+
+<h3 id="sec:1.2.1">Problem statement</h3>
+
+<p>Given training data <img style="vertical-align: -3.4125pt;" src="images/eqn-C46AE2AF48C033B2D0B05E09A5E66CB4-depth003.25.svg"> for <img style="vertical-align: -0.5pt;" src="images/eqn-E452FC3A2A6D7395EB275B5C65B42233-depth000.22.svg"> samples with dependent variable <span class=eqn>y<sub>i</sub></span>, we would like to predict a <span class=eqn>y</span> for some <img style="vertical-align: -0.5pt;" src="images/eqn-8BB50605FF63759107F02187B2EE1A8D-depth000.00.svg"> not in our training set. <img style="vertical-align: -0.5pt;" src="images/eqn-8BB50605FF63759107F02187B2EE1A8D-depth000.00.svg"> is generally a vector of independent variables, but we'll use a scalar in this exercise. If we assume there is a linear relationship between <img style="vertical-align: -0.5pt;" src="images/eqn-8BB50605FF63759107F02187B2EE1A8D-depth000.00.svg"> and <span class=eqn>y</span>, then we can draw a line through the data and predict future values with that line function. To do that, we need to compute the two parameters of our model: a slope and a <span class=eqn>y</span> intercept. (We will see the model below.)</p>
+<p>For example, let's compare the number of people who died by becoming tangled in their bedsheets versus the per capita cheese consumption. (Data is from <a href="http://www.tylervigen.com/spurious-correlations">spurious correlations</a>.) Here is the raw data:</p>
+
+
+<div class="codeblk">import pandas as pd
+df = pd.read_csv('data/cheese_deaths.csv')
+df</div>
+<div class="scrollbar_wrapper">
+<table class="dataframe">
+<thead>
+	<tr><th>years</th><th>cheese</th><th>deaths</th></tr>
+</thead>
+<tbody>
+	<tr>
+	<td>2000</td><td>29.8000</td><td>327</td>
+	</tr>
+	<tr>
+	<td>2001</td><td>30.1000</td><td>456</td>
+	</tr>
+	<tr>
+	<td>2002</td><td>30.5000</td><td>509</td>
+	</tr>
+	<tr>
+	<td>2003</td><td>30.6000</td><td>497</td>
+	</tr>
+	<tr>
+	<td>2004</td><td>31.3000</td><td>596</td>
+	</tr>
+	<tr>
+	<td>2005</td><td>31.7000</td><td>573</td>
+	</tr>
+	<tr>
+	<td>2006</td><td>32.6000</td><td>661</td>
+	</tr>
+	<tr>
+	<td>2007</td><td>32.7000</td><td>809</td>
+	</tr>
+	<tr>
+	<td>2008</td><td>32.8000</td><td>717</td>
+	</tr>
+	<tr>
+	<td>2009</td><td>33.1000</td><td>741</td>
+	</tr>
+</tbody>
+</table>
+</div>
+<p>If we plot the data across years, we see an obvious linear relationship:</p>
+<img src="images/regression/regression_ex_3.svg"
+  width="70%%"
+>
+<p>We can also do a scatterplot of cheese versus deaths:</p>
+<img src="images/regression/regression_ex_4.svg"
+  width="60%%"
+>
+
+
+<h3 id="sec:1.2.2">Best fit line that minimizes squared error</h3>
+
+<p>Recall the formula for a line from high school: <img style="vertical-align: -2.7844844pt;" src="images/eqn-D36930ECAA82A5C6CFA9F9F76D66C3AA-depth002.65.svg">.  We normally rewrite that using elements of a vector coefficients, <img style="vertical-align: -0.5pt;" src="images/eqn-FCDD61484B31AF8082CA2030CEA8F4F6-depth000.00.svg"> (in bold), in preparation for describing it with vector notation from linear algebra. For simplicity,  though, we'll stick with scalar coefficients for now:</p>
+<div><img class="blkeqn" src="images/blkeqn-B08AD9DB9BF2558E625E6F8DD8C0B7A0.svg" alt="" width=""></div>
+<p>We use notation <img style="vertical-align: -2.7844844pt;" src="images/eqn-5D28A7BA1A44A73B8C2ED21321697C59-depth002.65.svg"> to indicate that it approximates <span class=eqn>y</span> from our data set but is not necessarily equal to any of the true target <span class=eqn>y<sub>i</sub></span>.</p>
+<p>The &ldquo;best line&rdquo; is one that minimizes some cost function that compares the known each <span class=eqn>y<sub>i</sub></span> value at <span class=eqn>x<sub>i</sub></span> to the predicted <img style="vertical-align: -2.7825pt;" src="images/eqn-5D28A7BA1A44A73B8C2ED21321697C59-depth002.65.svg"> of the linear model that we conjure up using parameters <img style="vertical-align: -3.4125pt;" src="images/eqn-4F19A1728B7E4FFA19FC760170B09E79-depth003.25.svg"> where <img style="vertical-align: -2.047479pt;" src="images/eqn-BDA0411E4B6129D514DCBFA5810FB14A-depth001.95.svg"> is the y-intercept and <img style="vertical-align: -2.047479pt;" src="images/eqn-738F96A4CB37DF3457C637024D23A488-depth001.95.svg"> is the slope of the line. A good measure is the <i>mean squared error</i>. The cost function adds up all of these squared errors across <span class=eqn>N</span> observations to tell us how good of a fit our linear model is:</p>
+<div><img class="blkeqn" src="images/blkeqn-C9328A71E0280D715D975E493B82FE3C.svg" alt="" width=""></div>
+<p>Inlining the expression for our model, we get:</p>
+<div><img class="blkeqn" src="images/blkeqn-E8D50097735CB6A8A5F82B9D99149E7D.svg" alt="" width=""></div>
+<p>As we wiggle the linear model parameters, <img style="vertical-align: -2.0475pt;" src="images/eqn-BDA0411E4B6129D514DCBFA5810FB14A-depth001.95.svg"> and <img style="vertical-align: -2.0475pt;" src="images/eqn-738F96A4CB37DF3457C637024D23A488-depth001.95.svg">, the value of the cost function will change.  The following graphs shows the errors/residuals that are squared and averaged to get the overall cost for two different &ldquo;curve fits.&rdquo;</p>
+<center>
+<table style="">
+<thead>
+</thead>
+<tbody>
+<tr>
+<td align=center>
+<img src="images/regression/regression_ex_8.svg"
+  width="100%%"
+>
+</td><td align=center>
+<img src="images/regression/regression_ex_9.svg"
+  width="100%%"
+>
+</td>
+</tr>
+</tbody>
+</table>
+</center>
+<p>The good news is that we know the cost function is a quadratic (by construction), which is convex and has an exact solution. All we have to do is figure out where the cost function flattens out. Mathematically, that is when the partial derivatives of the cost function are both zero. The partial derivative for a particular dimension is just the rate of change of that dimension at a particular spot. It's like a skier examining the slope of his or her skis against the mountain one at a time. (For more, see <a href="http://explained.ai/gradient-boosting/descent.html#sec:3.1">The intuition behind gradient descent</a> in an article that explains gradient boosting, which you will probably look at for your second machine learning course.)</p>
+<div><img class="blkeqn" src="images/blkeqn-111D0B9DAF19CAD5D49693656717F696.svg" alt="" width=""></div>
+<p>Instead of solving that equation for <img style="vertical-align: -0.5pt;" src="images/eqn-FCDD61484B31AF8082CA2030CEA8F4F6-depth000.00.svg"> symbolically, we'll use gradient descent to minimize the cost function. It's important to learn about this numerical technique because there are lots and lots of cost functions that are not simple little quadratics with symbolic solutions.  For example, if we change this problem from a predictor to a classifier (<i>logistic regression</i>), then training requires an iterative method like gradient descent.</p>
+<p>To show our prediction model in action, we can ask how many deaths there would be in  if we consumed an average of 32 lbs of cheese.  To make a prediction, all we have to do is plug <img style="vertical-align: -0.5pt;" src="images/eqn-270C3B945A1F835A9975B65D133281E0-depth000.20.svg"> into the equation for a best fit line, <img style="vertical-align: -2.7844844pt;" src="images/eqn-7B5F9B809EBEC88E1DDF8704A28C682B-depth002.65.svg">, which gives us 641.9 deaths.</p>
+
+
+<h3 id="sec:1.2.3">Gradient descent in 3D</h3>
+
+<p>Before trying to minimize the cost function, it's helpful to study what the surface looks like in three dimensions, as shown in the following graphs. The X and Y dimensions are the coefficients, <img style="vertical-align: -0.5pt;" src="images/eqn-FCDD61484B31AF8082CA2030CEA8F4F6-depth000.00.svg">, of our linear model and the Z coordinate (up) is the cost function.</p>
+<center>
+<table style="">
+<thead>
+</thead>
+<tbody>
+<tr>
+<td align=center>
+<img src="images/regression/regression_ex_12.svg"
+  width="100%%"
+>
+</td><td align=center>
+<img src="images/regression/regression_ex_13.svg"
+  width="100%%"
+>
+</td>
+</tr>
+</tbody>
+</table>
+</center>
+<img src="images/regression/regression_ex_14.svg"
+  width="50%%"
+>
+<p>What surprised me is that changes to the slope of the linear model's slope coefficient <img style="vertical-align: -2.0475pt;" src="images/eqn-738F96A4CB37DF3457C637024D23A488-depth001.95.svg">, away from the optimal <img style="vertical-align: -2.047479pt;" src="images/eqn-3240AAC82F88EDA498BA550A47F546C9-depth001.95.svg">, cost much more than tweaks to the y intercept, <img style="vertical-align: -2.0475pt;" src="images/eqn-BDA0411E4B6129D514DCBFA5810FB14A-depth001.95.svg">. Regardless, the surface is convex. If you look at the third graph, you can see that at a 45° angle, the surface is a very shallow bowl, not a valley or saddle. Unfortunately, based upon the deep trough that grows slowly along the diagonal of <img style="vertical-align: -3.4125pt;" src="images/eqn-13B178BF37884E979065391DC859FE7F-depth003.25.svg">, gradient descent takes a while to converge to the minimum. We will examine the path of gradient descent for a few initial starting points.</p>
+<p>The recurrence relation for updating our estimate of <img style="vertical-align: -3.4125pt;" src="images/eqn-660D02F63084CA26B9A35F92A7686AC5-depth003.25.svg"> that minimizes <img style="vertical-align: -3.4125pt;" src="images/eqn-2407C733000CAA374D873878E8070C9F-depth003.25.svg"> is the same as the single-variable gradient-descent we did in class but with vectors for <img style="vertical-align: -2.7844844pt;" src="images/eqn-FFE9F913124F345732E9F00FA258552E-depth002.65.svg"> and <img style="vertical-align: -0.5pt;" src="images/eqn-FCDD61484B31AF8082CA2030CEA8F4F6-depth000.00.svg"> instead of scalars:</p>
+<div><img class="blkeqn" src="images/blkeqn-9A3A6D4C3A787C9FF3AC93F2F358FA28.svg" alt="" width=""></div>
+<p>where</p>
+<div><img class="blkeqn" src="images/blkeqn-D602F1C723B6DCAAB7E85E93653FF5A9.svg" alt="" width=""></div>
+<p>The symbolic partial derivatives with respect to the individual model parameters are: </p>
+<div><img class="blkeqn" src="images/latex-DA6E408F6209AB8F9C3D9399E48E9E55.svg" alt="
+\begin{eqnarray*}
+\frac{\partial}{\partial b_1} Cost(\left[ b_1 \above 0pt{b_2} \right]) &=& \frac{\partial}{\partial b_1}\frac{1}{N}\sum_{i=1}^{N}(b_2 x_i + b_1 - y_i)^2\\
+&=& \frac{1}{N}\sum_{i=1}^{N}\frac{\partial}{\partial b_1}(b_2 x_i + b_1 - y_i)^2\\
+&=& \frac{1}{N}\sum_{i=1}^{N}2(b_2 x_i + b_1 - y_i)\frac{\partial}{\partial b_1}(b_2 x_i + b_1 - y_i)\\
+&=& \frac{1}{N}\sum_{i=1}^{N}2(b_2 x_i + b_1 - y_i)\\
+&=& \frac{2}{N}\sum_{i=1}^{N}(b_2 x_i + b_1 - y_i)\\
+\end{eqnarray*}
+" width=""></div>
+<p>and</p>
+<div><img class="blkeqn" src="images/latex-41539B620E992610D2DF359FF554780A.svg" alt="
+\begin{eqnarray*}
+\frac{\partial}{\partial b_2} Cost(\left[ b_1 \above 0pt{b_2} \right]) &=& \frac{\partial}{\partial b_2}\frac{1}{N}\sum_{i=1}^{N}(b_2 x_i + b_1 - y_i)^2\\
+&=& \frac{1}{N}\sum_{i=1}^{N}\frac{\partial}{\partial b_2}(b_2 x_i + b_1 - y_i)^2\\
+&=& \frac{1}{N}\sum_{i=1}^{N}2(b_2 x_i + b_1 - y_i)\frac{\partial}{\partial b_2}(b_2 x_i + b_1 - y_i)\\
+&=& \frac{1}{N}\sum_{i=1}^{N}2(b_2 x_i + b_1 - y_i)x_i\\
+&=& \frac{2}{N}\sum_{i=1}^{N}(b_2 x_i + b_1 - y_i)x_i\\
+\end{eqnarray*}
+" width=""></div>
+<p>Combining those two partial derivatives into a vector gives us the gradient:</p>
+<div><img class="blkeqn" src="images/blkeqn-6F2F5C652A53E8F8AF5D383017A6D804.svg" alt="" width=""></div>
+<p>Note that we could approximate that symbolic gradient using partial finite differences (to avoid calculus) if we wanted, but it's more expensive:</p>
+<div><img class="blkeqn" src="images/blkeqn-CC79FAF3CFE2A79994E55FD4D0E33432.svg" alt="" width=""></div>
+<p>The <img style="vertical-align: -0.5pt;" src="images/eqn-596C0CC2AF83F55173D257517E8F1C47-depth000.14.svg"> variable is a very small delta step away from a specific coordinate in each dimension in turn.</p>
+
+
+<h3 id="sec:1.2.4">Gradient-descent algorithm</h3>
+
+<p>The minimization algorithm for the mean squared error cost function, <span class=eqn>Cost</span>, taking vector <img style="vertical-align: -0.5pt;" src="images/eqn-FCDD61484B31AF8082CA2030CEA8F4F6-depth000.00.svg"> looks like:</p>
+<div><img class="blkeqn" src="images/latex-23655921E9C82A5D2FCA51DDE16D3459.svg" alt="
+\setlength{\algomargin}{3pt}
+\SetAlCapSkip{-10pt}
+\begin{algorithm}[H]
+\LinesNumbered
+\SetAlgorithmName{Algorithm}{List of Algorithms}
+\SetAlgoSkip{}
+\SetInd{.5em}{.5em}
+\TitleOfAlgo{{\em minimize}($\vec b_0 = [b_1, b_2]$, $\eta$, {\em precision}) {\bf returns} coefficents $\vec b$}
+Let $\vec b = \vec b_0$\\
+\Repeat{$||(Cost(\vec b)-Cost(\vec b_{prev}))|| < precision$}{
+Let $\nabla Cost = \begin{bmatrix}
+\sum_{i=1}^{N}(b_2 x_i + b_1 - y_i) \vspace{3mm}\\
+\sum_{i=1}^{N}(b_2 x_i + b_1 - y_i)x_i\\
+\end{bmatrix}\vspace{3mm}\\
+Let $\vec b_{prev} = \vec b$\\
+Let $\vec b = \vec b_{prev} - \eta \otimes \nabla Cost$\vspace{1mm}\\
+}
+\Return{$\vec b_{t+1}$}\\
+\end{algorithm}
+" width=""></div>
+<p>The <img style="vertical-align: -1.07895pt;" src="images/eqn-790C76CEB13E928D08EDC53D7AC4BB5C-depth001.08.svg"> operator is element-wise multiplication and is sometimes called the <i>Hadamard product</i>. (There isn't a standard notation for element-wise multiplication, unfortunately.) <img style="vertical-align: -2.7825pt;" src="images/eqn-FFE9F913124F345732E9F00FA258552E-depth002.65.svg"> is a vector with learning rates for both directions. This is important because the curvature in the two dimensions is radically different. Using a learning rate that is small enough to prevent divergence in <img style="vertical-align: -2.0475pt;" src="images/eqn-738F96A4CB37DF3457C637024D23A488-depth001.95.svg"> would be glacially slow for <img style="vertical-align: -2.0475pt;" src="images/eqn-BDA0411E4B6129D514DCBFA5810FB14A-depth001.95.svg">.</p>
+<p>To use this function, we just pick an initial <img style="vertical-align: -2.1954868pt;" src="images/eqn-394B127C608C4E089D6C318BC24A4691-depth002.09.svg"> (at random if we want) and call minimize with a learning rate vector <img style="vertical-align: -2.7825pt;" src="images/eqn-FFE9F913124F345732E9F00FA258552E-depth002.65.svg"> and the desired precision (max change in <span class=eqn>f</span> between iterations).</p>
+<center>
+<table style="">
+<thead>
+</thead>
+<tbody>
+<tr>
+<td align=center>
+
+<center>
+<img src="images/heatmap1.png" width="100%">
+</center>
+
+</td><td align=center>
+
+<center>
+<img src="images/heatmap2.png" width="100%">
+</center>
+
+</td>
+</tr>
+</tbody>
+</table>
+</center>
+<p>The starting point is the red X and the ending point is the black X. Notice that the minimization algorithm overshoots in <img style="vertical-align: -2.0475pt;" src="images/eqn-738F96A4CB37DF3457C637024D23A488-depth001.95.svg"> then comes back only to drift back towards its original overshoot. This is adjustable by tweaking the learning rate. For example, if we decimate the <img style="vertical-align: -2.0475pt;" src="images/eqn-738F96A4CB37DF3457C637024D23A488-depth001.95.svg"> learning rate by 10, the graph appears to make a sharp turn rather than overshooting and coming back. However, minimization is dramatically slower and takes an order of magnitude more steps to arrive at the solution.</p>
+
+
+
+<h2 id="sec:1.3">Your task</h2>
+
+<p>You will use gradient descent to solve the linear regression problem above, using the same data from <span class=inlinecode>data/cheese_deaths.csv</span>. As part of your final submission, you must provide heat maps with traces that indicate the steps taken by your gradient descent as I have shown above. In addition, you must display the learning rate vector beneath the statement about the number of steps like the following except with the question marks  replaced with your learning rates. </p>
+<p><img src="images/heatmap3.png" width="45%"></p>
+<p>Start with something very small for the learning rates and ramp up the values until the minimization algorithm diverges instead of converging, then back them down one notch. Move them individually to find the optimal values that converge but as fast as possible. Have your program choose random starting <img style="vertical-align: -2.1954868pt;" src="images/eqn-2E426000B92CFBC7286B0E2CC2A37482-depth002.09.svg"> vectors.</p>
+<p><b>Deliverables</b>:  Download and fill in in the <a href="https://github.com/parrt/msan501/blob/master/projects/regression/regression-starterkit.ipynb">regression-starterkit.ipynb</a> notebook, renaming it to <span class=inlinecode>regression.ipynb</span>. Make sure that you have added it to your repository, <span class=inlinecode>regression-userid</span>, committed it, and pushed to github. Here is the <a href="https://github.com/parrt/msan501/raw/master/projects/regression/regression-starterkit.pdf">starter kit with sample output</a> (PDF). Make sure when you submit your notebook that it has been executed and shows all of the images and output.</p>
+
+
+
+</body>
+</html>

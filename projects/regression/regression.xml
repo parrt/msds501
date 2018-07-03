@@ -4,7 +4,7 @@
 
 <section title="Goal">
 
-The goal of this project is to extend the techniques we learned in class, for one-dimensional gradient descent, to a two-dimensional domain space, training a machine learning model called *linear regression*.  This problem is also known as *curve fitting*.  As part of this project, you will learn how to compute with vectors instead of scalars. Please use starter kit file [regression-starterkit.ipynb](ff). You will be doing your work in your repository `regression-userid` cloned from github.
+The goal of this project is to extend the techniques we learned in class, for one-dimensional gradient descent, to a two-dimensional domain space, training a machine learning model called *linear regression*.  This problem is also known as *curve fitting*.  As part of this project, you will learn how to compute with vectors instead of scalars. Please use starter kit file [regression-starterkit.ipynb](https://github.com/parrt/msan501/blob/master/projects/regression/regression-starterkit.ipynb). You will be doing your work in your repository `regression-userid` cloned from github.
 			 
 <section title="Discussion">
 	

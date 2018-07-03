@@ -313,5 +313,5 @@ You will use gradient descent to solve the linear regression problem above, usin
 	
 Start with something very small for the learning rates and ramp up the values until the minimization algorithm diverges instead of converging, then back them down one notch. Move them individually to find the optimal values that converge but as fast as possible. Have your program choose random starting $b_0$ vectors.
 
-**Deliverables**:  Download and fill in in the [regression-starterkit.ipynb]() notebook, renaming it to `regression.ipynb`. Make sure that you have added it to your repository, `regression-userid`, committed it, and pushed to github.
+**Deliverables**:  Download and fill in in the [regression-starterkit.ipynb](https://github.com/parrt/msan501/blob/master/projects/regression/regression-starterkit.ipynb) notebook, renaming it to `regression.ipynb`. Make sure that you have added it to your repository, `regression-userid`, committed it, and pushed to github. Here is the [starter kit with sample output](https://github.com/parrt/msan501/raw/master/projects/regression/regression-starterkit.pdf) (PDF).
 	

@@ -39,7 +39,7 @@ If you ever have questions about what constitutes plagiarism, cheating, or acade
 |--------|--------|--------|
 |[Image processing](https://github.com/parrt/msan501/blob/master/projects/images.md)| 15%| Thur, July 27 |
 | [Word similarity and relationships](https://github.com/parrt/msan501/blob/master/projects/wordsim.md) | 15%| Thur, August 3 |
-| [Predicting Death Rates With Gradient Descent](https://cdn.rawgit.com/parrt/msan501/4afb8957/projects/regression/index.html)| 10%| Tue, August 7 |
+| [Predicting Death Rates With Gradient Descent](https://rawgit.com/parrt/msan501/master/projects/regression/index.html)| 10%| Tue, August 7 |
 |Quiz 0| 0% | 9:15am Thur, July 10 |
 |Quiz 1| 15%| 9:15am Fri, July 17 |
 |Quiz 2| 15%| 9:15am Fri, July 24 |

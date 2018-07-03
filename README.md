@@ -11,7 +11,7 @@ This 6-week computational bootcamp is part of the [MS in Data Science (formerly 
 
 * Class is held at 101 Howard on main floor classroom 155/156.
 * Quizzes are held on Tuesdays on first floor, 8:55 - 9:45. Both sections meet together Tuesday mornings for this. After taking the quiz, sec02 wanders off but sec1 stays in 155/156 for class.
-* My office is *likely* room 607 up on mezzanine above agora open area.
+* My office is room 607 up on mezzanine above the agora open area.
 
 **TEMPORAL COORDINATES.** Monday/Tuesday Sec01 10am-11:50pm, Sec02 1:10-3pm; July 9 (Mon) - August 7 (Tue).
 
@@ -37,9 +37,9 @@ If you ever have questions about what constitutes plagiarism, cheating, or acade
 
 | Artifact | Grade Weight | Due date |
 |--------|--------|--------|
-|[Image processing](https://github.com/parrt/msan501/blob/master/projects/images.md)| 15%| Thur, July 27 |
-| [Word similarity and relationships](https://github.com/parrt/msan501/blob/master/projects/wordsim.md) | 15%| Thur, August 3 |
-| [Predicting Death Rates With Gradient Descent](https://rawgit.com/parrt/msan501/master/projects/regression/index.html)| 10%| Tue, August 7 |
+|[Image processing](https://github.com/parrt/msan501/blob/master/projects/images.md)| 14%| Thur, July 27 |
+| [Word similarity and relationships](https://github.com/parrt/msan501/blob/master/projects/wordsim.md) | 13%| Thur, August 3 |
+| [Predicting Death Rates With Gradient Descent](https://rawgit.com/parrt/msan501/master/projects/regression/index.html)| 13%| Tue, August 7 |
 |Quiz 0| 0% | 9:15am Thur, July 10 |
 |Quiz 1| 15%| 9:15am Fri, July 17 |
 |Quiz 2| 15%| 9:15am Fri, July 24 |

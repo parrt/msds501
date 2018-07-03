@@ -56,15 +56,15 @@ ax.set_ylabel('deaths')
 
 <subsection title="Best fit line that minimizes squared error">
 
-Recall the formula for a line from high school: $y = m x + b$.  We normally rewrite that using elements of a vector coefficients, $\vec b$, in preparation for describing it with vector notation from linear algebra. For simplicity,  though, we'll stick with scalar coefficients for now:
+Recall the formula for a line from high school: $y = m x + b$.  We normally rewrite that using elements of a vector coefficients, $\vec b$ (in bold), in preparation for describing it with vector notation from linear algebra. For simplicity,  though, we'll stick with scalar coefficients for now:
 
 \[
 \hat{y} = b_2 x + b_1
 \]
 
-We use notation $\hat{y}$ to indicate that it approximates $y$ from our data set but is not necessarily equal to any of the $y_i$.
+We use notation $\hat{y}$ to indicate that it approximates $y$ from our data set but is not necessarily equal to any of the true target $y_i$.
 
-The "best line" is one that minimizes some cost function that compares the known each $y_i$ value at $x_i$ to the predicted $\hat{y}$ of the linear model that we conjure up using parameters $\vec b = [b_1, b_2]$. A good measure is the *sum of squared errors*. The cost function adds up all of these squared errors across $N$ observations to tell us how good of a fit our linear model is:
+The "best line" is one that minimizes some cost function that compares the known each $y_i$ value at $x_i$ to the predicted $\hat{y}$ of the linear model that we conjure up using parameters $\vec b = [b_1, b_2]$ where $b_1$ is the y-intercept and $b_2$ is the slope of the line. A good measure is the *mean squared error*. The cost function adds up all of these squared errors across $N$ observations to tell us how good of a fit our linear model is:
 
 \[
 Cost(\vec b) = \frac{1}{N}\sum_{i=1}^{N}(\underbrace{\hat{y}}_\text{linear model} - \overbrace{y_i}^\text{true value})^2
@@ -76,7 +76,7 @@ Inlining the expression for our model, we get:
 Cost(\vec b) = \frac{1}{N}\sum_{i=1}^{N}(b_2 x_i + b_1 - y_i)^2
 \]
 
-As we wiggle the linear model parameters, the value of the cost function will change.  The following graphs shows the errors/residuals that are squared and averaged to get the overall cost for two different "curve fits."
+As we wiggle the linear model parameters, $b_1$ and $b_2$, the value of the cost function will change.  The following graphs shows the errors/residuals that are squared and averaged to get the overall cost for two different "curve fits."
 
 <pyeval label="ex" hide=true>
 def line_fit(B, x):
@@ -128,19 +128,19 @@ plot_residuals([600, 0])
 </pyfig>
 </table>
 
-The good news is that we know the cost function is a quadratic (by construction), which is convex and has an exact solution. All we have to do is figure out where the cost function flattens out. Mathematically, that is when the partial derivatives of the cost function are both zero. The partial derivative for a particular dimension is just the rate of change of that dimension at a particular spot. It's like a skier examining the slope of his or her skis against the mountain one at a time.
+The good news is that we know the cost function is a quadratic (by construction), which is convex and has an exact solution. All we have to do is figure out where the cost function flattens out. Mathematically, that is when the partial derivatives of the cost function are both zero. The partial derivative for a particular dimension is just the rate of change of that dimension at a particular spot. It's like a skier examining the slope of his or her skis against the mountain one at a time. (For more, see [The intuition behind gradient descent](http://explained.ai/gradient-boosting/descent.html#sec:3.1) in an article that explains gradient boosting, which you will probably look at for your second machine learning course.)
 
 \[
-\nabla Cost(\vec b) = 0
+\nabla Cost(\vec b) = \vec 0
 \]
 
-For our purposes, though, we'll use gradient descent to minimize the cost function. There are lots and lots of cost functions that are not simple little quadratics with symbolic solutions.  For example, if we change this problem from a predictor to a classifier (*logistic regression*), then training requires an iterative method.
+Instead of solving that equation for $\vec b$ symbolically, we'll use gradient descent to minimize the cost function. It's important to learn about this numerical technique because there are lots and lots of cost functions that are not simple little quadratics with symbolic solutions.  For example, if we change this problem from a predictor to a classifier (*logistic regression*), then training requires an iterative method like gradient descent.
 
-To show our prediction model in action, we can ask how many deaths there would be in  if we consumed an average of 32 lbs of cheese.  To make a prediction, all we have to do is plug $x=32$ into $\hat{y} = 113.1 x - 2977.3$, which gives us 641.9 deaths.
+To show our prediction model in action, we can ask how many deaths there would be in  if we consumed an average of 32 lbs of cheese.  To make a prediction, all we have to do is plug $x=32$ into the equation for a best fit line, $\hat{y} = 113.1 x - 2977.3$, which gives us 641.9 deaths.
 
 <subsection title="Gradient descent in 3D">
 
-Before trying to minimize the cost function, it's helpful to study what the surface looks like in three dimensions, as shown in the following two graphs. The X and Y dimensions are the coefficients of our linear model and the Z coordinate (up) is the cost function.
+Before trying to minimize the cost function, it's helpful to study what the surface looks like in three dimensions, as shown in the following graphs. The X and Y dimensions are the coefficients, $\vec b$, of our linear model and the Z coordinate (up) is the cost function.
 
 <pyeval label="ex" hide=true>
 b1 = np.arange(-6000, 4000, 50)  # y intercept
@@ -199,11 +199,9 @@ plot3d(elev=30, azim=0, show_best_text=False)
 plot3d(elev=0, azim=145, show_best_text=False)
 </pyfig>
 
-What surprised me is that changes to the slope of the linear model's slope coefficient $b_2$, away from the optimal $b_2=15.484$, cost much more than tweaks to the y intercept, $b_1$. Regardless, the surface is convex. Unfortunately, based upon the deep trough that grows slowly along the diagonal of $(b_1,b_2)$, gradient descent takes a while to converge to the minimum. We will examine the path of gradient descent for a few initial starting points. Wikipedia says that the Rosenbrock function is a pathological case for traditional gradient descent and it looks pretty similar to our surface with its shallow valley in this topographic view from above:
+What surprised me is that changes to the slope of the linear model's slope coefficient $b_2$, away from the optimal $b_2=113.1$, cost much more than tweaks to the y intercept, $b_1$. Regardless, the surface is convex. If you look at the third graph, you can see that at a 45° angle, the surface is a very shallow bowl, not a valley or saddle. Unfortunately, based upon the deep trough that grows slowly along the diagonal of $(b_1,b_2)$, gradient descent takes a while to converge to the minimum. We will examine the path of gradient descent for a few initial starting points.
 
-<img src="images/Banana-SteepDesc.png" width="50%">
-
-The recurrence relation for updating our estimate of $\vec b=[b_1, b_2]$ that minimizes $Cost(\vec b)$ is the same as the single-variable gradient-descent we did in class but with a vector instead of a scalar:
+The recurrence relation for updating our estimate of $\vec b=[b_1, b_2]$ that minimizes $Cost(\vec b)$ is the same as the single-variable gradient-descent we did in class but with vectors for $\eta$ and $\vec b$ instead of scalars:
 
 \[
 \vec b_{t+1} = \vec b_t - \eta \nabla Cost(\vec b_t)
@@ -218,7 +216,7 @@ where
 \end{bmatrix}
 \]
 
-The partial derivatives are: 
+The symbolic partial derivatives with respect to the individual model parameters are: 
 
 <latex>
 \begin{eqnarray*}
@@ -242,7 +240,7 @@ and
 \end{eqnarray*}
 </latex>
 
-which gives us the gradient:
+Combining those two partial derivatives into a vector gives us the gradient:
 
 \[
 \nabla Cost(\vec b) =
@@ -252,7 +250,7 @@ which gives us the gradient:
 \end{bmatrix}
 \]
 
-We could approximate that gradient derived from calculus using partial finite differences if we wanted, but it's more expensive:
+Note that we could approximate that symbolic gradient using partial finite differences (to avoid calculus) if we wanted, but it's more expensive:
 
 \[
 \nabla Cost(\vec b) =
@@ -262,16 +260,16 @@ We could approximate that gradient derived from calculus using partial finite di
 \end{bmatrix}
 \approx
 \begin{bmatrix}
-\frac{Cost(\left[ b_1+h \above 0pt{b_2} \right]) - Cost(\left[ b_1 \above 0pt{b_2} \right])}{h} \vspace{3mm}\\
-\frac{Cost(\left[ b_1 \above 0pt{b_2+h} \right]) - Cost(\left[ b_1 \above 0pt{b_2} \right])}{h} \\
+\frac{Cost(\left[ b_1+\Delta b \above 0pt{b_2} \right]) - Cost(\left[ b_1 \above 0pt{b_2} \right])}{\Delta b} \vspace{3mm}\\
+\frac{Cost(\left[ b_1 \above 0pt{b_2+\Delta b} \right]) - Cost(\left[ b_1 \above 0pt{b_2} \right])}{\Delta b} \\
 \end{bmatrix}
 \]
 
-The $h$ variable is a very small delta step away from a specific coordinate in each dimension in turn. In our case, we will compute the components of a finite difference vector ignoring the division by the step $h$ because it will get folded into our learning rate $\eta$.
+The $\Delta b$ variable is a very small delta step away from a specific coordinate in each dimension in turn.
 
 <subsection title="Gradient-descent algorithm">
 
-The minimization algorithm for function $f$ taking vector $\vec b$ looks like:
+The minimization algorithm for the mean squared error cost function, $Cost$, taking vector $\vec b$ looks like:
 
 <latex>
 \setlength{\algomargin}{3pt}
@@ -281,30 +279,39 @@ The minimization algorithm for function $f$ taking vector $\vec b$ looks like:
 \SetAlgorithmName{Algorithm}{List of Algorithms}
 \SetAlgoSkip{}
 \SetInd{.5em}{.5em}
-\TitleOfAlgo{{\em minimize}($f$, $\vec b_0 = [b_1, b_2]$, $\eta$, {\em precision}) {\bf returns} coefficents $\vec b$}
-Let time $t=0$\\
-\Repeat{$||(f(\vec b_{t+1})-f(\vec b_t))|| < precision$}{
-Let $\vec b = \vec b_t$\\
-Let $\nabla f = \begin{bmatrix}
+\TitleOfAlgo{{\em minimize}($\vec b_0 = [b_1, b_2]$, $\eta$, {\em precision}) {\bf returns} coefficents $\vec b$}
+Let $\vec b = \vec b_0$\\
+\Repeat{$||(Cost(\vec b)-Cost(\vec b_{prev}))|| < precision$}{
+Let $\nabla Cost = \begin{bmatrix}
 \sum_{i=1}^{N}(b_2 x_i + b_1 - y_i) \vspace{3mm}\\
 \sum_{i=1}^{N}(b_2 x_i + b_1 - y_i)x_i\\
 \end{bmatrix}\vspace{3mm}\\
-Let $\vec b_{t+1} = \vec b_t - \eta \otimes \nabla f$\vspace{1mm}\\
+Let $\vec b_{prev} = \vec b$\\
+Let $\vec b = \vec b_{prev} - \eta \otimes \nabla Cost$\vspace{1mm}\\
 }
 \Return{$\vec b_{t+1}$}\\
 \end{algorithm}
 </latex>
 
-The $\otimes$ operator is element-wise multiplication and is sometimes called the *Hadamard product*. (There isn't a standard notation for element-wise multiplication, unfortunately.) $\eta$ is a vector with learning rates for both directions.
+The $\otimes$ operator is element-wise multiplication and is sometimes called the *Hadamard product*. (There isn't a standard notation for element-wise multiplication, unfortunately.) $\eta$ is a vector with learning rates for both directions. This is important because the curvature in the two dimensions is radically different. Using a learning rate that is small enough to prevent divergence in $b_2$ would be glacially slow for $b_1$.
 
-To use this, we just pick an initial $\vec b_0$ (at random if we want) and call minimize with our cost function, a learning rate $\eta$, and the desired precision (max change in $f$ between iterations).
+To use this function, we just pick an initial $\vec b_0$ (at random if we want) and call minimize with a learning rate vector $\eta$ and the desired precision (max change in $f$ between iterations).
 
 <table>
 <tr>
-	<td><img src="images/heatmap1.png" width="350">
-	<td><img src="images/heatmap2.png" width="350">
+	<td><img src="images/heatmap1.png" width="100%">
+	<td><img src="images/heatmap2.png" width="100%">
 </table>
+
+The starting point is the red X and the ending point is the black X. Notice that the minimization algorithm overshoots in $b_2$ then comes back only to drift back towards its original overshoot. This is adjustable by tweaking the learning rate. For example, if we decimate the $b_2$ learning rate by 10, the graph appears to make a sharp turn rather than overshooting and coming back. However, minimization is dramatically slower and takes an order of magnitude more steps to arrive at the solution.
 
 <section title="Your task">
 
-You will use gradient descent to solve the linear regression problem above, using the same data. As part of your final submission, you must provide heat maps with traces that indicate the steps taken by your gradient descent as I have shown above.  Have your program choose two random starting $B_0$ vectors (you can use `random.randrange()`) to produce your heat maps.
+You will use gradient descent to solve the linear regression problem above, using the same data from `data/cheese_deaths.csv`. As part of your final submission, you must provide heat maps with traces that indicate the steps taken by your gradient descent as I have shown above. In addition, you must display the learning rate vector beneath the statement about the number of steps like the following except with the question marks  replaced with your learning rates. 
+
+<img src="images/heatmap3.png" width="45%">
+	
+Start with something very small for the learning rates and ramp up the values until the minimization algorithm diverges instead of converging, then back them down one notch. Move them individually to find the optimal values that converge but as fast as possible. Have your program choose random starting $b_0$ vectors.
+
+**Deliverables**:  Download and fill in in the [regression-starterkit.ipynb]() notebook, renaming it to `regression.ipynb`. Make sure that you have added it to your repository, `regression-userid`, committed it, and pushed to github.
+	

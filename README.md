@@ -66,22 +66,14 @@ Learning to design programs
 * [Representing data in memory](notes/data-in-memory.ipynb) (Day 2)
 * [Model of Computation](notes/computation.ipynb) (Day 2)
 * [Programming Patterns in Python](notes/python-patterns.ipynb) (Day ?)
+* [Organizing your code with functions](notes/coding-functions.ipynb) (Day 6)
 * [How to read code](notes/reading-code.md) (Day ?)
-
-Remove?
-
-* [Functions](notes/functions.md) (Day 3)
-* [Introduction to Python coding](notes/coding.ipynb) (Students should review if needed)
 
 Common programming tools
 
 * [Bash your way to victory](notes/bash-intro.md)
 * [Introduction to git and revision control](notes/git.md) (Day 2)
 * [Launching a Virtual Machine at Amazon Web Services](notes/aws.md) (Day 10)
-
-Implementing program work plans (actual coding)
-
-* [Organizing your code with functions](notes/coding-functions.ipynb) (Day 6)
 
 Key programming patterns
 

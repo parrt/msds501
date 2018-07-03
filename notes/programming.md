@@ -45,7 +45,35 @@ Finally, **step six** is to check our overall results for correctness.  The most
 
 And now for a dose of reality. The world is a big messy place and, since we know the least about a problem at the start, we typically need to repeat or bounce around through some or all of these steps. For example, let's say we're building an apples vs oranges classifier and the above process leads to a program that doesn't distinguish between the two fruit very well. Perhaps we only have data on size and shape. We might decide that the classifier needs data on color so it's back to step two (and possibly step three) then step six to check the results again.
 
-Now that we have an overall strategy for problem solving, let's look at a program outline that'll help us get started with the programming in step four.
+### Conjuring up plans and programs
+
+A program is a sequence of operations that transforms data or performs computations that ultimately lead to the expected output. *Programming* is the act of designing programs: identifying the operations and their appropriate sequence.  In other words, programming is about coming up with a work plan intended for a computer, which we often describe in semi-precise English called *pseudocode*. *Coding* is the act of translating such high-level pseudocode to programming language syntax. As you gain more experience, it'll become easier and easier to go from a work plan in your head straight to code, without the pseudocode step.
+
+When first learning to program, it helps to use established patterns, templates, strategies, and common data transformation operations as a crutch. For example, in the next section will look at a template for a data science program that will work in most cases throughout this program! In [programming patterns in Python](https://github.com/parrt/msan501/blob/master/notes/python-patterns.ipynb), we'll see lots of patterns you can piece together to create programs.
+
+As mentioned above, there are also two strategies or general guidelines you can use to approach the program design process:
+
+* *Start with the end result and work your way backwards, asking what the prerequisites are for each step*. In other words, the processing step or steps preceding step *i* compute the data or values needed by step *i*. For example, we cannot print the average of some numbers before we compute that average. We can't compute the average until we load those numbers into memory etc...
+* *Reduce or simplify a new problem to a variation of an existing problem with a known solution.* To apply this new approach, ask what the difference is between the problem you're trying to solve and other problems for which you have a solution.
+
+Both techniques are well known in architecture, engineering, and mathematics.  For example, imagine you want to erect a heavy statue 10 feet off the ground. A structural engineer might decide that the heavy statute needs a flat metal base directly underneath it. Then, to support all of that weight, four 10 foot steel beams should support the metal base. The beams should have deep concrete footings in the ground, and so on. That's working backwards from the end result.
+
+As an example of reuse, engineers building a new suspension bridge do not proceed as if such a thing has never been built before.  It's likely they will take an existing design and tweak it to suit the new situation.
+
+As an aside, plan reuse is often used to poke fun at other disciplines. For example, from [a collection of physicist jokes](https://www.astro.umd.edu/~avondale/extra/Humor/ScienceHumor/PhysicistJokes.html), here is a one variation:
+> A Physicist and a mathematician are sitting in a faculty lounge. Suddenly, the coffee machine catches on fire. The physicist grabs a bucket and leap towards the sink, fills the bucket with water and puts out the fire. Second day, the same two sit in the same lounge. Again, the coffee machine catches on fire. This time, the mathematician stands up, gets a bucket, hands the bucket to the physicist, thus *reducing the problem to a previously solved one*.
+
+**Exercise**: Given a string containing the digits of a number, such as `s = "501"`, print out the sum of the individual digits. In this case, the output should be `6 = 5 + 0 + 1`. Hint: `int('9')` yields value 9. Work backwards from the desired result, the sum, to figure out what you need. For example, the result is the sum of the digits. That means we need the digits. To get the digits, we can either iterate through the characters of a string or we can convert the string to a list of characters and iterate that. As we iterate, we can just sum up the digit values. to sum things up, we need to initialize a temporary result variable, perhaps called `n`.
+
+**Exercise**: Given a string containing the digits of a number, such as `s = "501"`, convert that number to an integer and print it out. Work backwards from the desired result, `n`. Recall that `501 = 5*100 + 0*10 + 1*1`. Start with the simplest possible bit of Python and then tidy it up using any cool constructs you know from Python. Hint: The cool kids will end up using "Horner's rule." What happens if the string is empty?
+
+**Exercise**: Reuse that pattern to convert a string containing binary digits of a binary number, such as `s = "1101"`, to an integer, `n`, and print it out. 1101 binary is 13 in decimal.
+
+**Exercise**: Given two lists, such as `a = [9, 3]` and `b = [1, 4, 10]`, create and print a new list, `c`, containing alternating elements from the input lists.  In this case, the output would be `[9, 1, 3, 4, 10]`. Start by assuming the same number of elements and then try for the more general case. What happens if one or both lists are empty?
+
+**Exercise**: Python has a built-in function called `zip(a,b)` that is a handy way to get a list of tuples containing elements from lists `a` and `b`. For example, if `a = [9, 3]` and `b = [1, 4, 10]`, `zip(a,b)` gives a sequence of tuples `(9, 1), (3, 4)`. The built in `zip` stops when one of the lists of runs out of elements, but we want to fill in missing elements with `None`: you should get output list `c = [(9, 1), (3, 4), (None, 10)]`.  In this exercise, we use the ideas or even the code itself from the previous exercise to implement your own `zip` functionality. The only difference is that you should fill in missing elements with `None`.
+
+Now that we have an overall strategy for problem solving, let's look at a program outline that'll help us get started with just about any data science program you need to build.
 
 ## Data science program template
 
@@ -62,7 +90,5 @@ Gaining experience as a programmer means recognizing patterns in your code and c
 4. Emit results, which can be anything from simply printing an answer to saving data to the disk to generating a fancy visualization
 
 Writing a program for a specific problem means figuring out what each of those steps are, though not all programs will use every step. 
-
-**Roadmap**. To fill in the operations for the various steps in the outline, we need to know what kind of operations are possible, which we'll explore in [Common programming operations](operations.md). Before we can operate on data, however, that data needs to be loaded into memory and so we need to learn about [Representing data in memory](data-in-memory.md).  At that point, we'll have an overall strategy, an overall program outline, and a set of common operations to choose from. We can then start planning out some programs.
 
 **Acknowledgements**. Conversations with [Kathi Fisler](http://cs.brown.edu/~kfisler/) provided a lot of inspiration for the disciplined, planned approach to programming summarized here. For more on design recipes, see [Transferring Skills at Solving Word Problems from Computing to Algebra Through Bootstrap](https://cs.brown.edu/~sk/Publications/Papers/Published/sfkf-trans-word-prob-comp-alg-bs/paper.pdf).

@@ -10,15 +10,17 @@ The goal of this project is to extend the techniques we learned in class, for on
 	
 <subsection title="Problem statement">
 
-Given training data $(x_i, y_i)$ for $i=1..n$ samples with dependent variable $y_i$, we would like to predict $y$ for some $x$'s not in our training set. $x_i$ is generally a vector of independent variables but we'll use a scalar. If we assume there is a linear relationship between $x$ and $y$, then we can draw a line through the data and predict future values with that line function. To do that, we need to compute the two parameters of our model: a slope and a $y$ intercept. (We will see the model below.)
+Given training data $(\vec x_i, y_i)$ for $i=1..N$ samples with dependent variable $y_i$, we would like to predict a $y$ for some $\vec x$ not in our training set. $\vec x$ is generally a vector of independent variables, but we'll use a scalar in this exercise. If we assume there is a linear relationship between $\vec x$ and $y$, then we can draw a line through the data and predict future values with that line function. To do that, we need to compute the two parameters of our model: a slope and a $y$ intercept. (We will see the model below.)
 
 For example, let's compare the number of people who died by becoming tangled in their bedsheets versus the per capita cheese consumption. (Data is from [spurious correlations](http://www.tylervigen.com/spurious-correlations).) Here is the raw data:
 
-<pyeval label="ex" output="df">
-import pandas as pd
+<pyeval label="ex" hide=true>
 import numpy as np
 from mpl_toolkits.mplot3d import Axes3D # required even though not ref'd!
+</pyeval>
 
+<pyeval label="ex" output="df">
+import pandas as pd
 df = pd.read_csv('data/cheese_deaths.csv')
 </pyeval>
 
@@ -287,11 +289,22 @@ Let $\nabla f = \begin{bmatrix}
 \sum_{i=1}^{N}(b_2 x_i + b_1 - y_i) \vspace{3mm}\\
 \sum_{i=1}^{N}(b_2 x_i + b_1 - y_i)x_i\\
 \end{bmatrix}\vspace{3mm}\\
-Let $\vec b_{t+1} = \vec b_t - \eta \nabla f$\vspace{1mm}\\
+Let $\vec b_{t+1} = \vec b_t - \eta \otimes \nabla f$\vspace{1mm}\\
 }
 \Return{$\vec b_{t+1}$}\\
 \end{algorithm}
 </latex>
 
-To use this, we just pick an initial $\vec b_0$ (at random if we want) and called minimize with our cost function, a learning rate $\eta$, and the desired precision (max change in $f$ between iterations).
+The $\otimes$ operator is element-wise multiplication and is sometimes called the *Hadamard product*. (There isn't a standard notation for element-wise multiplication, unfortunately.) $\eta$ is a vector with learning rates for both directions.
 
+To use this, we just pick an initial $\vec b_0$ (at random if we want) and call minimize with our cost function, a learning rate $\eta$, and the desired precision (max change in $f$ between iterations).
+
+<table>
+<tr>
+	<td><img src="images/heatmap1.png" width="350">
+	<td><img src="images/heatmap2.png" width="350">
+</table>
+
+<section title="Your task">
+
+You will use gradient descent to solve the linear regression problem above, using the same data. As part of your final submission, you must provide heat maps with traces that indicate the steps taken by your gradient descent as I have shown above.  Have your program choose two random starting $B_0$ vectors (you can use `random.randrange()`) to produce your heat maps.

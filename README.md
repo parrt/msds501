@@ -60,7 +60,7 @@ Start your engines!
   * [A first taste of Python tools](labs/hello.md) (Day 1)
   * [Playing sounds](labs/sound.md) (Day 1)
 
-Learning to design programs
+Designing and building programs
 
 * [Introduction to programming](notes/programming.md) (Day 2)
 * [Representing data in memory](notes/data-in-memory.ipynb) (Day 2)

@@ -66,7 +66,7 @@ Learning to design programs
 * [Representing data in memory](notes/data-in-memory.ipynb) (Day 2)
 * [Model of Computation](notes/computation.ipynb) (Day 2)
 * [Programming Patterns in Python](notes/python-patterns.ipynb) (Day ?)
-* [Organizing your code with functions](notes/coding-functions.ipynb) (Day 6)
+* [Organizing your code with functions](notes/functions.ipynb) (Day 6)
 * [How to read code](notes/reading-code.md) (Day ?)
 
 Common programming tools

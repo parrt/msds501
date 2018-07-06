@@ -52,7 +52,7 @@ All projects will be graded with the specific input or tests given in the projec
 
 Each project has a hard deadline and only those projects working correctly before the deadline get credit (100%).  My grading script pulls from github at the deadline.  On the due date, projects are due at the **start** of your section's class period for that day.
 
-This class is a standard, graded course with letter grades A - F.
+**Grading standards.** This class is a standard, graded course with letter grades A - F. I consider an A grade to be above and beyond what most students have achieved. A B grade is an average grade for a student or what you could call "competence" in a business setting. A C grade means that you either did not or could not put forth the effort to achieve competence. Below C implies you did very little work or had great difficulty with the class compared to other students.
 
 # Syllabus
 
@@ -64,27 +64,28 @@ Start your engines!
 
 Designing and building programs
 
-* [Introduction to programming](notes/programming.md) (Day 2)
+* [Introduction to programming](notes/programming.md) (Day 1)
 * [Representing data in memory](notes/data-in-memory.ipynb) (Day 2)
 * [Model of Computation](notes/computation.ipynb) (Day 2)
 * [Programming Patterns in Python](notes/python-patterns.ipynb) (Day ?)
-* [Organizing your code with functions](notes/functions.ipynb) (Day 6)
+* [Data aliasing](notes/aliasing.ipynb) (Day ?)
+* [Organizing your code with functions](notes/functions.ipynb) (Day ?)
 * [How to read code](notes/reading-code.md) (Day ?)
 
 Common programming tools
 
 * [Bash your way to victory](notes/bash-intro.md)
 * [Introduction to git and revision control](notes/git.md) (Day 2)
-* [Launching a Virtual Machine at Amazon Web Services](notes/aws.md) (Day 10)
+* [Launching a Virtual Machine at Amazon Web Services](notes/aws.md) (Day ?)
 
 Key programming patterns
 
-* [Loading files](notes/files.ipynb) (Day 6, 7)
-* [Manipulating and Visualizing Data](notes/data.ipynb) (Day 8)
-* [Linked lists](notes/linked-list.ipynb) (Day 9)
+* [Loading files](notes/files.ipynb) (Day ?)
+* [Manipulating and Visualizing Data](notes/data.ipynb) (Day ?)
+* [Linked lists](notes/linked-list.ipynb) (Day ?)
 
 Iterative methods for computation and optimization
 
-* [Generating Uniform Random Numbers](notes/random-uniform.ipynb) (Day 7)
-* [Approximating square root](notes/sqrt.ipynb) (Day 7)
-* [Iterative Optimization Via Gradient Descent](notes/gradient-descent.pdf) (pdf) (Day 7,8)
+* [Generating Uniform Random Numbers](notes/random-uniform.ipynb) (Day ?)
+* [Approximating square root](notes/sqrt.ipynb) (Day ?)
+* [Iterative Optimization Via Gradient Descent](notes/gradient-descent.pdf) (pdf) (Day ?)

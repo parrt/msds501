@@ -37,14 +37,16 @@ If you ever have questions about what constitutes plagiarism, cheating, or acade
 
 | Artifact | Grade Weight | Due date |
 |--------|--------|--------|
-|[Image processing](https://github.com/parrt/msan501/blob/master/projects/images.md)| 14%| Thur, July 27 |
-| [Word similarity and relationships](https://github.com/parrt/msan501/blob/master/projects/wordsim.md) | 13%| Thur, August 3 |
-| [Predicting Death Rates With Gradient Descent](https://rawgit.com/parrt/msan501/master/projects/regression/index.html)| 13%| Tue, August 7 |
-|Quiz 0| 0% | 9:15am Thur, July 10 |
-|Quiz 1| 15%| 9:15am Fri, July 17 |
-|Quiz 2| 15%| 9:15am Fri, July 24 |
-|Quiz 3| 15%| 9:15am Fri, August 31 |
-|Quiz 4| 15%| 9:15am Fri, August 7 |
+|[Image processing](https://github.com/parrt/msan501/blob/master/projects/images.md)| 14%| Mon, July 23 |
+| [Word similarity and relationships](https://github.com/parrt/msan501/blob/master/projects/wordsim.md) | 13%| Mon, July 30 |
+| [Predicting Death Rates With Gradient Descent](https://rawgit.com/parrt/msan501/master/projects/regression/index.html)| 13%| Mon, August 6 |
+|[Quiz 0](https://usfca.instructure.com/courses/1578156/quizzes/2327034)| 0%| Before Mon, July 9|
+|Quiz 1| 15%| 9:30am Tue, July 17 |
+|Quiz 2| 15%| 9:30am Tue, July 24 |
+|Quiz 3| 15%| 9:30am Tue, August 31 |
+|Quiz 4| 15%| 9:30am Tue, August 7 |
+
+**Quizzes** 1-4 are held in rooms 154-156. All quizzes use [LockDown Browser](https://www.respondus.com/lockdown/download.php?id=953641626) to log into Canvas so you can take the quiz.  Quizzes have strict time limits and you will be unable to do anything other than take the quiz; no access to the Internet etc.  You will have one chance to answer each question and they will appear in random order. Students should read the [Student LockDown Browser Instructions](https://myusf.usfca.edu/sites/default/files/ets-Respondus.pdf) section. In a nutshell, download the [LockDown Browser](https://www.respondus.com/lockdown/download.php?id=953641626), install it, and when you launch it it will take your browser window to Canvas for login.
 
 All projects will be graded with the specific input or tests given in the project description, so you understand precisely what is expected of your program. Consequently, projects will be graded in binary fashion: They either work or they do not.  The only exception is when your program does not run on the grader's or my machine because of some cross-platform issue. This is typically because a student has hardcoded some filename into their program. In that case, we will take off just 20% instead of giving you a 0.
 

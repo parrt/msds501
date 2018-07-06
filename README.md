@@ -82,10 +82,13 @@ Key programming patterns
 
 * [Loading files](notes/files.ipynb) (Day ?)
 * [Manipulating and Visualizing Data](notes/data.ipynb) (Day ?)
-* [Linked lists](notes/linked-list.ipynb) (Day ?)
 
 Iterative methods for computation and optimization
 
 * [Generating Uniform Random Numbers](notes/random-uniform.ipynb) (Day ?)
 * [Approximating square root](notes/sqrt.ipynb) (Day ?)
 * [Iterative Optimization Via Gradient Descent](notes/gradient-descent.pdf) (pdf) (Day ?)
+
+Optional
+
+* [Linked lists](notes/linked-list.ipynb) (Day ?)

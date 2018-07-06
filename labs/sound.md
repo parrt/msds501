@@ -142,7 +142,7 @@ This time, we do not get an error at the `import` statement.
 
 ## Playing sounds with Python
 
-At this point, you have converted a file so it can be used by our Python libraries and you have installed those Python libraries. In doing so, you used a number of commandline tools you should get very familiar with: `brew`, `pip`, `which`, `cd`, `ls`, `ipython`, etc...
+At this point, you have converted a file so it can be used by our Python libraries and you have installed those Python libraries. In doing so, you used a number of commandline tools you should get very familiar with: `brew`, `pip`, `which`, `cd`, `ls`, `python`, etc...
 
 It's time to pull all of this together into a simple Python program you can cut-and-paste to play a sound. Let's start with code to play the `Kiss.aiff` file.  Create a file called `play.py` in the same directory where your audio files are. You can use either PyCharm or another text editor. Here is the code:
 

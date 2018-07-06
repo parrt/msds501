@@ -100,7 +100,7 @@ $ which pip
 /Users/parrt/anaconda3/bin/pip
 $ which python
 /Users/parrt/anaconda3/bin/python
-beast:master:~/github/msan501/notes/sound $ which python3
+$ which python3
 /Users/parrt/anaconda3/bin/python3
 ```
 

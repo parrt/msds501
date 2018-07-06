@@ -44,10 +44,17 @@ $ which python3
 /Users/parrt/anaconda3/bin/python3
 ```
 
+Or, better yet, make sure the default Python is version 3:
+
+```bash
+$ which python
+/Users/parrt/anaconda3/bin/python
+```
+
 Next, run the program and make sure you have a recent version like 3.6.5:
 
 ```bash
-$ python3
+$ python
 Python 3.6.5 | packaged by conda-forge | (default, Mar 30 2018, 00:00:55) 
 [GCC 4.2.1 Compatible Apple LLVM 6.1.0 (clang-602.0.53)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
@@ -57,7 +64,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 Next try importing a library:
 
 ```bash
-$ python3
+$ python
 Python 3.6.5 | packaged by conda-forge | (default, Mar 30 2018, 00:00:55) 
 [GCC 4.2.1 Compatible Apple LLVM 6.1.0 (clang-602.0.53)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
@@ -153,7 +160,7 @@ Here are solutions to the most common errors:
 Now, we're going to run that program/script:
 
 ```bash
-$ ipython3 hello.py
+$ python hello.py
 $ 
 ```
 
@@ -168,7 +175,7 @@ print(500+1)
 Save the file and rerun it. Now you should see:
 
 ```bash
-$ ipython3 hello.py 
+$ python hello.py 
 501
 $ 
 ```
@@ -177,7 +184,7 @@ $
 
 Now, we're going to do the exact same thing except using the Jupyter Lab browser-based environment.  (See [Your machine learning development environment](https://mlbook.explained.ai/prep.html#sec:3.1) from the [in-progress ML book](https://mlbook.explained.ai) for more.)
 
-Launch Jupyter from the command line:
+Launch Jupyter from the command line::
 
 ```bash
 $ jupyter lab

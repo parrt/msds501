@@ -65,14 +65,6 @@ As an aside, plan reuse is often used to poke fun at other disciplines. For exam
 
 **Exercise**: Given a string containing the digits of a number, such as `s = "501"`, print out the sum of the individual digits. In this case, the output should be `6 = 5 + 0 + 1`. Hint: `int('9')` yields value 9. Work backwards from the desired result, the sum, to figure out what you need. For example, the result is the sum of the digits. That means we need the digits. To get the digits, we can either iterate through the characters of a string or we can convert the string to a list of characters and iterate that. As we iterate, we can just sum up the digit values. To sum things up, we need to initialize a temporary result variable, perhaps called `n`.
 
-**Exercise**: Given a string containing the digits of a number, such as `s = "501"`, convert that number to an integer and print it out. Work backwards from the desired result, `n`. Recall that `501 = 5*100 + 0*10 + 1*1`. Start with the simplest possible bit of Python and then tidy it up using any cool constructs you know from Python. Hint: The cool kids will end up using "Horner's rule." What happens if the string is empty?
-
-**Exercise**: Reuse that pattern to convert a string containing binary digits of a binary number, such as `s = "1101"`, to an integer, `n`, and print it out. 1101 binary is 13 in decimal.
-
-**Exercise**: Given two lists, such as `a = [9, 3]` and `b = [1, 4, 10]`, create and print a new list, `c`, containing alternating elements from the input lists.  In this case, the output would be `[9, 1, 3, 4, 10]`. Start by assuming the same number of elements and then try for the more general case. What happens if one or both lists are empty?
-
-**Exercise**: Python has a built-in function called `zip(a,b)` that is a handy way to get a list of tuples containing elements from lists `a` and `b`. For example, if `a = [9, 3]` and `b = [1, 4, 10]`, `zip(a,b)` gives a sequence of tuples `(9, 1), (3, 4)`. The built in `zip` stops when one of the lists of runs out of elements, but we want to fill in missing elements with `None`: you should get output list `c = [(9, 1), (3, 4), (None, 10)]`.  In this exercise, we use the ideas or even the code itself from the previous exercise to implement your own `zip` functionality. The only difference is that you should fill in missing elements with `None`.
-
 If you get stuck, or just to check your answers, you can check [my solutions](https://github.com/parrt/msan501/blob/master/notes/code/problem_solving.py).
 
 Now that we have an overall strategy for problem solving, let's look at a program outline that'll help us get started with just about any data science program you need to build.

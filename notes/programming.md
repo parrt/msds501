@@ -68,7 +68,7 @@ As an aside, plan reuse is often used to poke fun at other disciplines. For exam
 
 **Exercise**: Given a string containing the digits of a number, such as `s = "501"`, print out the sum of the individual digits. In this case, the output should be `6 = 5 + 0 + 1`. Hint: `int('9')` yields value 9. Work backwards from the desired result, the sum, to figure out what you need. For example, the result is the sum of the digits. That means we need the digits. To get the digits, we can either iterate through the characters of a string or we can convert the string to a list of characters and iterate that. As we iterate, we can just sum up the digit values. To sum things up, we need to initialize a temporary result variable, perhaps called `n`.
 
-**Exercise**: Given a list of numbers in `A`, reverse the numbers *inline* (meaning w/o a separate copy of `A` and w/o creating a new list to return). Start by writing an example on the board.
+**Exercise**: Given a list of numbers in `A`, reverse the numbers *inline* (meaning w/o a separate copy of `A` and w/o creating a new list to return). Start by writing an example on the board. This exercise is useful for flipping images in your [images project](../projects/images.md).
 
 If you get stuck, or just to check your answers, you can check [my solutions](https://github.com/parrt/msan501/blob/master/notes/code/problem_solving.py).
 

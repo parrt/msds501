@@ -16,7 +16,7 @@ Using this multi-tiered backup strategy is a good way to think about how program
 
 Not only do we tell a revision control system when to take a snapshot, we also tell it **what** to snapshot.  Each project you work on is in a directory and all of the files associated with that project sit somewhere in that subtree. The file set is called a *repository* and at any given time, my computer has lots and lots of these repositories. 
 
-A `git` repository instance is just a directory on your disk but it also has a `.git` (hidden) directory. This directory holds a complete database of everything that's happened to the repository since it was created with `git init` (or you `clone`'d it from github). If you want to throw out the repository, just remove the entire subtree from your disk. There is no central server to notify. Every repository instance is a complete copy so you could have, for example, 10 versions of the repository cloned from an original sitting on the same disk in different directories.
+A `git` repository instance is just a directory on your disk but it also has a `.git` (hidden) directory. This directory holds a complete database of everything that's happened to the repository since it was created with `git init` (or since you `clone`'d it from github). If you want to throw out the repository, just remove the entire subtree from your disk. There is no central server to notify. Every repository instance is a complete copy so you could have, for example, 10 versions of the repository cloned from an original sitting on the same disk in different directories.
 
 **Tracking changes**
 
@@ -42,13 +42,13 @@ You will receive a link to github that is an invitation to create a repository f
 https://github.com/USF-MSAN501/images-parrt
 ```
 
-Each class will have be its own organization at github: `https://github.com/USF-MSAN501`. Each person will have a repository under that directory at github, one per project.
+Each class I teach will have be its own organization at github, in this case: `https://github.com/USF-MSAN501`. Each person will have a repository under that directory at github, one per project.
 
 Our first step is to *clone* that empty repository from github onto our local disk. From your repository page and github, copy the HTTPS URL, as shown here:
 
 <img src=images/github-setup.png width=420>
 
-If you choose the SSH version, it will require that we set up SSH keys for authentication. That is what you will ultimately want to do, but for now
+If you choose the SSH version, it will require that we set up SSH keys for authentication. That is what you will ultimately want to do, but for now, don't worry about that and just use HTTPS.
 
 **Cloning onto your laptop**
 
@@ -71,7 +71,7 @@ Depending on how you have your shell set up, you might see the current working d
 beast:~/classes/msan501 $ 
 ```
 
-The name of the machine is beast and `~` is shorthand for `/Users/parrt` or whatever your user ID is.
+The name of my machine is beast and `~` is shorthand for `/Users/parrt` or whatever your user ID is.
  
 Now we have an appropriate structure and it's time to clone your repository under `/Users/parrt/classes/msan501`:
 
@@ -92,9 +92,9 @@ $ ls -a
 
 **Files managed by git**
 
-After you create a repository at github and clone it locally, you can create all sorts of files under the directory managed by git, but git ignores them until you `add` them. The `add` command is basically notifying the repository that it should care about that file.  You can have whatever other files you want laying around, such as PyCharm preference files. Git will simply ignore them unless you `add` them.
+After you create a repository at github and clone it locally, you can create all sorts of files under the directory managed by git, but git ignores them until you `add` them. The `add` command is basically notifying the repository that it should care about that file.  You can have whatever other files you want laying around. Git will simply ignore them unless you `add` them.
 
-Download [images-starterkit.ipynb](https://github.com/parrt/msan501/blob/master/projects/images-starterkit.ipynb) from github to your images-YOURID directory. The cool kids do it without the browser:
+Download [images-starterkit.ipynb](https://github.com/parrt/msan501/blob/master/projects/images-starterkit.ipynb) from github to your images-YOURID directory and call it `images.ipynb`. The cool kids do download and rename without the browser in one command:
 
 ```bash
 $ curl -o images.ipynb https://github.com/parrt/msan501/blob/master/projects/images-starterkit.ipynb
@@ -152,7 +152,7 @@ Date:   Fri Jun 30 12:50:42 2017 -0700
     initial add
 ```
 
-<img src="images/redbang.png" width=30 align="left">Until you explicitly push back to github, github has no idea that you made changes on your local disk to a repository. Git knows where the original repository came from but it does not automatically pushed to github upon commit. Commit is for the local repository, push is for syncing with a remote repository.  The remote repository is called the *origin*. Use the following command to ask git what it thinks the origin is:
+<img src="images/redbang.png" width=30 align="left">Until you explicitly push back to github, github has no idea that you made changes on your local disk to a repository. Git knows where the original repository came from but it does not automatically push anything to github upon commit. Commit is for the local repository, push is for syncing with a remote repository.  The remote repository is called the *origin*. Use the following command to ask git what it thinks the origin is:
 
 ```
 $ git remote -v
@@ -160,7 +160,7 @@ origin	https://github.com/USF-MSAN501/images-parrt.git (fetch)
 origin	https://github.com/USF-MSAN501/images-parrt.git (push)
 ```
 
-Ok, let's push our changes (adding a file) back to github:
+Ok, let's push our changes (we added a file) back to github:
 
 ```bash
 $ git push origin master
@@ -175,7 +175,7 @@ To github.com:USF-MSAN501/images-parrt.git
 
 There is a lot going on in that message, but if there are no errors, you're good to go. The *master* is what we call a branch and you will always be working in the master branch.
 
-Until you get very comfortable with git and github, you should always verify that your pushes succeed by examining the remote repository at github. Refresh your version of the `https://github.com/USF-MSAN501/images-parrt` URL and it should show something `images.ipynb`. Once you've downloaded and unzipped the [image file zip](https://github.com/parrt/msan501/blob/master/projects/images-expected-output.zip?raw=true), your github page should look like:
+Until you get very comfortable with git and github, you should always verify that your pushes succeed by examining the remote repository at github. Refresh your version of the `https://github.com/USF-MSAN501/images-parrt` URL and it should show file `images.ipynb` (and any others you've pushed). Once you've downloaded, unzipped, `add`ed the [image project images zip](https://github.com/parrt/msan501/blob/master/projects/images-expected-output.zip?raw=true), and pushed back to github, your github page should look like:
 
 <img src="../projects/figures/github-initial-add.png" width="600">
 

@@ -27,11 +27,12 @@ Regardless of the software we're trying to write, there is an overall problem-so
 
 **Step one** in any problem-solving situation is to fully understand the problem and clearly identify the goal. It might sound obvious, but any fuzziness in our understanding of the problem could send us off in the wrong direction. In a data science setting, the goal is usually a question we're trying to answer, such as "*which sales regions show the fastest year-on-year growth?*" (summary statistics), "*which transactions are fraudulent?*" (classifier) or "*what will a stock price be at a future date?*" (predictor). We should be able to precisely articulate the goal and the expected output using English words. If we can't do that, then no amount of coding expertise in Python or R will solve the problem. We'll see some examples shortly.
 
-**Step two** is to figure out what data or input, our raw materials, that we need to achieve the goal. Without the right data, we can't solve the problem. For example, I once mentored a student practicum team whose goal was to identify which customers of a website would upgrade to a professional account. The students only had data on users that had upgraded and no data on users who declined to upgrade. Whoops! You can't build an apples versus oranges classifier if you only have data on apples. If you don't have all the data you need, it's important to identify this requirement as part of the problem-solving process.  Data acquisition often requires programming and we'll revisit the topic below as part of our generic program outline.  
-
-**Step three** of the problem-solving process is to write out some input-output pairs by hand. Doing so helps us understand what the program will need to do and how it might do it. As we will see, this technique works not only for the overall input and output, but also works great for designing [functions](functions.ipynb) (reusable bits of code). **We can't automate operations with code if we can't identify and perform the operations manually.** Moreover, listing a bunch of cases usually highlights special cases, such as "when the input is negative, the output should be empty". In other words, the program should not crash with a negative number as input. Programmers call this *test-driven design*.
+**Step two** (or possibly part of step one) of the problem-solving process is to write out some input-output pairs by hand. Doing so helps us understand what the program will need to do and how it might do it. As we will see, this technique works not only for the overall input and output, but also works great for designing [functions](functions.ipynb) (reusable bits of code). **We can't automate operations with code if we can't identify and perform the operations manually.** Moreover, listing a bunch of cases usually highlights special cases, such as "when the input is negative, the output should be empty". In other words, the program should not crash with a negative number as input. Programmers call this *test-driven design*.
 
 In a job interviewing setting, this step means immediately trying to draw a few instances of the problem. For example, if asked to process a list of numbers in some way, begin by putting three or four numbers up on the board or on a piece of paper.  This naturally brings up a number of important questions that the interviewer is expecting you to ask, such as where the data comes from and whether it can all fit in memory etc...
+
+**Step three** is to figure out what data or input, our raw materials, that we need to achieve the goal. Without the right data, we can't solve the problem. For example, I once mentored a student practicum team whose goal was to identify which customers of a website would upgrade to a professional account. The students only had data on users that had upgraded and no data on users who declined to upgrade. Whoops! You can't build an apples versus oranges classifier if you only have data on apples. If you don't have all the data you need, it's important to identify this requirement as part of the problem-solving process.  Data acquisition often requires programming and we'll revisit the topic below as part of our generic program outline.  
+
 
 At this point, we've actually set the stage necessary to solve problems and we haven't thought about code at all. We started with the end result and then identified the data we need. The input-output pairs neatly bracket the computation we need to perform. At the beginning, we have the known data and, at the end, we have the expected output or work product. Ok, onto the programming steps.
 
@@ -47,7 +48,9 @@ And now for a dose of reality. The world is a big messy place and, since we know
 
 ### Conjuring up plans and programs
 
-A program is a sequence of operations that transforms data or performs computations that ultimately lead to the expected output. *Programming* is the act of designing programs: identifying the operations and their appropriate sequence.  In other words, programming is about coming up with a work plan intended for a computer, which we often describe in semi-precise English called *pseudocode*. *Coding* is the act of translating such high-level pseudocode to programming language syntax. As you gain more experience, it'll become easier and easier to go from a work plan in your head straight to code, without the pseudocode step.
+A program is a sequence of operations that transforms data or performs computations that ultimately lead to the expected output. *Programming* is the act of designing programs: identifying the operations and their appropriate sequence.  In other words, programming is about coming up with a work plan intended for a computer, which we often describe in semi-precise English called *pseudocode*. This is **step four** from the previous section.  
+
+*Coding*, on the other hand, is the act of translating such high-level pseudocode to programming language syntax. As you gain more experience, it'll become easier and easier to go from a work plan in your head straight to code, without the pseudocode step.
 
 When first learning to program, it helps to use established patterns, templates, strategies, and common data transformation operations as a crutch. For example, in the next section will look at a template for a data science program that will work in most cases throughout this program! In [programming patterns in Python](https://github.com/parrt/msan501/blob/master/notes/python-patterns.ipynb), we'll see lots of patterns you can piece together to create programs.
 
@@ -79,10 +82,10 @@ Relying on mental or even physical templates is very common, not just in program
 
 Gaining experience as a programmer means recognizing patterns in your code and creating generic templates in your mind for future use.  While you're getting started, you can rely on the experience of other programmers by reusing existing libraries of code and by using relevant templates. This leads us to the following generic data science program template that is suitable for most of the problems you're likely to run into:
 
-1. Acquire data, which means finding a suitable file or collecting data from the web and storing in a file
-2. Load data from disk and place into memory organized into data structures
-2. Normalize, clean, or otherwise prepare data
-3. Process the data, which can mean training a machine learning model, computing summary statistics, or optimizing a cost function
+1. Acquire data, which means finding a suitable file or collecting data from the web and storing in a file or database
+2. Load data from disk or database and place into memory, organized into data structures
+2. Normalize, filter, clean, or otherwise prepare data
+3. Process the data, which can mean training a machine learning model, transforming the data, computing summary statistics, or optimizing a cost function
 4. Emit results, which can be anything from simply printing an answer to saving data to the disk to generating a fancy visualization
 
 Writing a program for a specific problem means figuring out what each of those steps are, though not all programs will use every step. 

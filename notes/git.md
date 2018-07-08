@@ -6,7 +6,7 @@ For our purposes in MSAN, we're going to ignore most of the nontrivial capabilit
 
 In this lecture-lab, the goal is to get a basic understanding of how revision control and git/github work. We will take the opportunity to learning the primary git commands by getting you started on the images project repository.
 
-Here is an interactive [git "game"](https://try.github.io/levels/1/challenges/1) to help you learn.
+Here is an interactive [git "game"](https://github.com/git-game/git-game) to help you learn. There are lots of [course materials](https://lab.github.com/courses) on the web.
 
 ## Introduction to revision control
 
@@ -94,42 +94,26 @@ $ ls -a
 
 After you create a repository at github and clone it locally, you can create all sorts of files under the directory managed by git, but git ignores them until you `add` them. The `add` command is basically notifying the repository that it should care about that file.  You can have whatever other files you want laying around, such as PyCharm preference files. Git will simply ignore them unless you `add` them.
 
-Download [view.py](https://github.com/parrt/msan501-starterkit/blob/master/images/view.py) from the starter kit to your images-YOURID directory. The cool kids do it without the browser:
+Download [images-starterkit.ipynb](https://github.com/parrt/msan501/blob/master/projects/images-starterkit.ipynb) from github to your images-YOURID directory. The cool kids do it without the browser:
 
 ```bash
-$ wget https://raw.githubusercontent.com/parrt/msan501-starterkit/master/images/view.py
--bash: wget: command not found
-```
-
-Uh oh. We have to install wget:
-
-```bash
-$ brew install wget
-...
-==> Installing wget
-==> Downloading https://homebrew.bintray.com/bottles/wget-1.19.1_1.sierra.bottle.tar.gz
-######################################################################## 100.0%
-==> Pouring wget-1.19.1_1.sierra.bottle.tar.gz
-🍺  /usr/local/Cellar/wget/1.19.1_1: 11 files, 1.6MB
-```
-
-Now we can download the file with a single command:
-
-```bash
-$ wget https://raw.githubusercontent.com/parrt/msan501-starterkit/master/images/view.py
---2017-06-30 12:43:36--  https://raw.githubusercontent.com/parrt/msan501-starterkit/master/images/view.py
-...
-2017-06-30 12:43:36 (6.63 MB/s) - ‘view.py’ saved [299/299]
+$ curl -o images.ipynb https://github.com/parrt/msan501/blob/master/projects/images-starterkit.ipynb
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 41311    0 41311    0     0  87895      0 --:--:-- --:--:-- --:--:-- 87895
 $ ls
-view.py
+images.ipynb
 ```
+
+If `curl` isn't installed, use `brew` to install it.
+
 
 **Taking a snapshot (committing)**
 
 We have a file in the directory but git has no idea it should track it. We have to explicitly add it to revision control:
 
 ```bash
-$ git add view.py
+$ git add images.ipynb
 $ git status
 On branch master
 
@@ -138,7 +122,7 @@ Initial commit
 Changes to be committed:
   (use "git rm --cached <file>..." to unstage)
 
-	new file:   view.py
+	new file:   images.ipynb
 ...
 ```
 
@@ -148,7 +132,7 @@ At this point, we would be free to add more files or change that file. When we w
 $ git commit -a -m 'initial add'
 [master (root-commit) b40aca4] initial add
  1 file changed, 9 insertions(+)
- create mode 100644 view.py
+ create mode 100644 images.ipynb
 ```
 
 The `-m` is the option that indicates a commit message follows on the command line.  You can safely ignore what `-a` means, but make sure you always have it on your commit commands.
@@ -191,9 +175,9 @@ To github.com:USF-MSAN501/images-parrt.git
 
 There is a lot going on in that message, but if there are no errors, you're good to go. The *master* is what we call a branch and you will always be working in the master branch.
 
-Until you get very comfortable with git and github, you should always verify that your pushes succeed by examining the remote repository at github. Refresh your version of the `https://github.com/USF-MSAN501/images-parrt` URL and it should show something like:
+Until you get very comfortable with git and github, you should always verify that your pushes succeed by examining the remote repository at github. Refresh your version of the `https://github.com/USF-MSAN501/images-parrt` URL and it should show something `images.ipynb`. Once you've downloaded and unzipped the [image file zip](https://github.com/parrt/msan501/blob/master/projects/images-expected-output.zip?raw=true), your github page should look like:
 
-<img src=images/initial-add-view.png width=600>
+<img src="../projects/figures/github-initial-add.png" width="600">
 
 Make sure that all of the files that you want to submit for your projects get properly committed locally and then pushed back to github!
  
@@ -202,8 +186,8 @@ Make sure that all of the files that you want to submit for your projects get pr
 You can make changes and lock them in with another commit. (Make sure use the `-a` option on the `git commit`.)
 
 ```bash
-...change existing file view.py...
-$ git commit -a -m 'what I did to view.py'
+...change existing file images.ipynb from jupyter lab...
+$ git commit -a -m 'what I did to images notebook'
 ```
 
 **Deleting files**
@@ -220,8 +204,8 @@ $ git commit -a -m 'I do not need foo anymore'
 If you make a change and want to know how it's different from the current repository version, just use diff:
 
 ```bash
-$ ... tweak view.py ...
-$ git diff view.py
+$ ... tweak images.ipynb ...
+$ git diff images.ipynb # kinda sucks with notebooks
 ...
 ```
 

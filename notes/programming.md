@@ -56,7 +56,7 @@ When first learning to program, it helps to use established patterns, templates,
 
 As mentioned above, there are also two strategies or general guidelines you can use to approach the program design process:
 
-* *Start with the end result and work your way backwards, asking what the prerequisites are for each step*. In other words, the processing step or steps preceding step *i* compute the data or values needed by step *i*. For example, we cannot print the average of some numbers before we compute that average. We can't compute the average until we load those numbers into memory etc...
+* *Start with the end result and work your way backwards, asking what the prerequisites are for each step*. In other words, the processing step or steps preceding step *i* compute the data or values needed by step *i*. For example, we cannot print the average of some numbers before we compute that average. We can't compute the average until we sum those numbers. We can't sum until we load those numbers into memory etc...
 * *Reduce or simplify a new problem to a variation of an existing problem with a known solution.* To apply this new approach, ask what the difference is between the problem you're trying to solve and other problems for which you have a solution.
 
 Both techniques are well known in architecture, engineering, and mathematics.  For example, imagine you want to erect a heavy statue 10 feet off the ground. A structural engineer might decide that the heavy statute needs a flat metal base directly underneath it. Then, to support all of that weight, four 10 foot steel beams should support the metal base. The beams should have deep concrete footings in the ground, and so on. That's working backwards from the end result.

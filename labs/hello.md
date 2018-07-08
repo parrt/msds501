@@ -22,7 +22,11 @@ hello
 $ 
 ```
 
+Commands are terminated by hitting the return key.  
+
 The `echo` command is analogous to the `print` command in Python code. 
+
+After executing the command, the prompt returns indicating you can type another command. 
 
 There are lots of things we can do; here's another one:
 
@@ -31,9 +35,33 @@ $ date
 Wed Jul 12 14:18:51 PDT 2017
 ```
 
-Commands are terminated by hitting the return key.  
+We can pass an argument (like a function call in Python) to commands:
 
-After executing the command, the prompt returns indicating you can type another command. 
+```bash
+$ date "+%Y-%m-%d"
+2018-07-08
+```
+
+Here's a cool example of a loop from the command line to examine all `.md` files (you don't need to run this one as part of the lab; I'm just showing off here):
+
+```bash
+$ for f in *.md; do echo $f; done
+aws.md
+bash-intro.md
+combinations.md
+complexity.md
+computation.md
+data-in-memory.md
+data.md
+files.md
+git.md
+operations.md
+planning.md
+programming.md
+reading-code.md
+sqrt.md
+```
+
 
 ## Environment Sanity check
 
@@ -50,6 +78,8 @@ Or, better yet, make sure the default Python is version 3:
 $ which python
 /Users/parrt/anaconda3/bin/python
 ```
+
+The Python program should be in the Anaconda `bin` (binary) directory, that holds all of the binary executables. If you don't see anaconda somewhere in the output from the `which` command, you need to look at the documentation for Anaconda and figure out why you are not running the appropriate Python. (Most likely something is wrong with your `PATH` environment variable.) That's okay for now as we can use any 3.X version of Python running.
 
 Next, run the program and make sure you have a recent version like 3.6.5:
 
@@ -80,44 +110,37 @@ See also [Computer environment sanity check](https://mlbook.explained.ai/intro.h
 
 Now let's jump into an interactive Python shell. In the abstract, it's the same as the bash command shell that controls your computer.  Both are programming languages; they just have different specialties. When we jump from the bash shell into Python's shell, it's like jumping across the border from France into Germany. We have to stop speaking French and start speaking German. (Or, keep speaking English if you're American because we're lazy and don't know any foreign languages. haha)  When you exit the Python interpreter, you will be back in the bash world, just as if you had returned from Germany to France.
 
-To enter the Python world, from the bash `$` prompt type `python3` as we did in the last section. You should see that it is using the **Anaconda** version. If not, that means you are using the default Python on your system. To figure out where the Python program executable is using the command line, type `which python3` like this:
+To enter the Python world, from the bash `$` prompt type `python` as we did in the last section. You should see that it is using the **Anaconda** version. If not, that means you are using the default Python on your system.
 
-```bash
-$ which python3
-/Users/parrt/anaconda3/bin/python3
-```
-
-The Python program should be in the Anaconda `bin` (binary) directory, that holds all of the binary executables. If you don't see anaconda somewhere in the output from the `which` command, you need to look at the documentation for Anaconda and figure out why you are not running the appropriate Python. (Most likely something is wrong with your `PATH` environment variable.) That's okay for now as we can use any 3.X version of Python running.
-
-Now, from the Python prompt "`In [n]`" (we are no longer in `bash`), type `500+1` followed by newline. You should see something like this:
+Now, from the Python prompt ">>>" (we are no longer in `bash`), type `500+1` followed by newline. You should see something like this:
 
 ```python
-
-In [1]: 500+1
-Out[1]: 501
-
-In [2]: 
-```
-
-Python has evaluated the expression and printed the result back to the screen. It is as if we had used a `print` statement, which gives us the same result:
-
-```python
-In [2]: print 500+1
+$ python
+Python 3.6.5 |Anaconda, Inc.| (default, Apr 26 2018, 08:42:37) 
+[GCC 4.2.1 Compatible Clang 4.0.1 (tags/RELEASE_401/final)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 500+1
 501
+>>> 
+```
 
-In [3]: 
+Python has evaluated the expression and printed the result back to the screen. It is as if we had used a `print` function call, which gives us the same result:
+
+```python
+>>> print(500+1)
+501
 ```
 
 The Python interactive shell prints expression values immediately, but that is not the case when running a program as a script (i.e., not interactively).
 
-To exit the interactive shell and go back to the command line (the terminal program), say `quit` (or control-D) and hit return:
+To exit the interactive shell and go back to the command line (the terminal program), say `quit()` (or control-D) and hit return:
 
 ```bash
-In [3]: quit
+>>> quit()
 $ 
 ```
 
-The `$` prompt indicates that you are back at the bash command line.
+The `$` prompt indicates that you are back at the bash command line. You can no longer type python code.
 
 ## Scripting Python
 

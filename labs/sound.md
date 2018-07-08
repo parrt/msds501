@@ -302,6 +302,6 @@ You can find all of the code for this lab in the [msan501 class repository](http
 
 ## Summary
 
-Sound processing is a really fun fascinating topic, and you've just gotten a taste here. My hope is that this lab motivates you to dive into the details of programming so that you can learn to build these kinds of programs for yourself.
+Sound processing is a really fun fascinating topic, and you've just gotten a taste here. My hope is that this lab motivates you to dive into the details of programming so that you can learn to build these kinds of programs for yourself. In the first project, you'll learn about image processing where, you guessed it, everything is a number as well.
 
 You've also seen how to use the commandline to install other commandline programs and Python packages. This is something you will use again and again as you write more and more sophisticated programs.

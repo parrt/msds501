@@ -12,7 +12,7 @@ This 6-week computational bootcamp is part of the [MS in Data Science (formerly 
 **SPATIAL COORDINATES:**<br>
 
 * Class is held at 101 Howard on main floor classroom 155/156 (both sections).
-* Quizzes are held on Tuesdays on first floor, 9:30 - 10:00. Both sections meet together Tuesday mornings for this. After taking the quiz, sec02 wanders off but sec01 stays in 155/156 for class.
+* Quizzes are held on Tuesdays on first floor, 9:25 - 9:55. Both sections meet together Tuesday mornings for this. After taking the quiz, sec02 wanders off but sec01 stays in 155/156 for class.
 * My office is room 607 up on the mezzanine above the agora open area.
 
 **TEMPORAL COORDINATES.** Monday/Tuesday Sec01 10am-11:50pm, Sec02 1:10-3pm; July 9 (Mon) - August 7 (Tue).
@@ -45,10 +45,10 @@ If you ever have questions about what constitutes plagiarism, cheating, or acade
 | [Word similarity and relationships](https://github.com/parrt/msan501/blob/master/projects/wordsim.md) | 12%| Mon, July 30 |
 | [Predicting Death Rates With Gradient Descent](https://rawgit.com/parrt/msan501/master/projects/regression/index.html)| 12%| Mon, August 6 |
 |[Quiz 0](https://usfca.instructure.com/courses/1578156/quizzes/2327034)| 0%| Before Mon, July 9|
-|Quiz 1| 16%| 9:30am Tue, July 17 |
-|Quiz 2| 16%| 9:30am Tue, July 24 |
-|Quiz 3| 16%| 9:30am Tue, August 31 |
-|Quiz 4| 16%| 9:30am Tue, August 7 |
+|Quiz 1| 16%| 9:25am Tue, July 17 |
+|Quiz 2| 16%| 9:25am Tue, July 24 |
+|Quiz 3| 16%| 9:25am Tue, August 31 |
+|Quiz 4| 16%| 9:25am Tue, August 7 |
 
 **Quizzes** 1-4 are held in rooms 154-156. All quizzes use [LockDown Browser](https://www.respondus.com/lockdown/download.php?id=953641626) to log into Canvas so you can take the quiz.  Quizzes have strict time limits and you will be unable to do anything other than take the quiz; no access to the Internet etc.  You will have one chance to answer each question and they will appear in random order. Students should read the [Student LockDown Browser Instructions](https://myusf.usfca.edu/sites/default/files/ets-Respondus.pdf) section. In a nutshell, download the [LockDown Browser](https://www.respondus.com/lockdown/download.php?id=953641626), install it, and when you launch it it will take your browser window to Canvas for login.
 

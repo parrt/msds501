@@ -380,7 +380,7 @@ In the end, we now have 4 generically useful functions: `getpixel`, `region3x3`,
 Armed with this awesome new common functionality, blurring and image shrinks to the following tiny script:
 
 ```python
-img = open(sys.argv)
+img = open('some file')
 img = filter(img, avg)		# blur me please
 img                       # show me
 ```
@@ -390,7 +390,7 @@ Denoising is also tiny:
 ```python
 # Your median function goes here (copy from denoise.py)
 ...
-img = open(sys.argv)
+img = open('some file')
 img = filter(img, median)	# denoise me please
 img
 ```

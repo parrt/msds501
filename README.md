@@ -70,8 +70,8 @@ Start your engines!
 
 Designing and building programs
 
-* [Introduction to programming](notes/programming.md) (Day 1)
-* [Representing data in memory](notes/data-in-memory.ipynb) (Day 2)
+* [Introduction to programming](notes/programming.md) (Day 1 (before conjuring code), 2)
+* [Representing data in memory](notes/data-in-memory.ipynb) (Day 2 (before `dict`), 3)
 * [Model of Computation](notes/computation.ipynb) (Day 2)
 * [Programming Patterns in Python](notes/python-patterns.ipynb) (Day ?)
 * [Data aliasing](notes/aliasing.ipynb) (Day ?)

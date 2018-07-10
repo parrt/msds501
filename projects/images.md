@@ -346,8 +346,8 @@ The goal of this task is to reuse as much of the same code as possible for blurr
 So, let's create a function called `open` to combines the open and convert function calls:
 
 ```python
-def open(argv):
-	img = Image.open(argv[1])
+def open(fname):
+	img = Image.open(fname)
 	img = img.convert("L")
 	return img
 ```

@@ -15,6 +15,10 @@ example swap (this is a common pattern also):
 t = A[3]
 A[3] = A[0]
 A[0] = t
+
+OR,
+
+A[0],A[3] = A[3],A[0] # but this requires creation of a 2-element tuple/list.
 """
 print(A)
 n = len(A)

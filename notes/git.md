@@ -97,7 +97,7 @@ After you create a repository at github and clone it locally, you can create all
 Download [images-starterkit.ipynb](https://github.com/parrt/msan501/blob/master/projects/images-starterkit.ipynb) from github to your images-YOURID directory and call it `images.ipynb`. The cool kids do download and rename without the browser in one command:
 
 ```bash
-$ curl -o images.ipynb https://github.com/parrt/msan501/blob/master/projects/images-starterkit.ipynb
+$ curl -o images.ipynb https://github.com/parrt/msan501/raw/master/projects/images-starterkit.ipynb
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
 100 41311    0 41311    0     0  87895      0 --:--:-- --:--:-- --:--:-- 87895

@@ -205,7 +205,7 @@ In this task, we want to blur an image by removing detail as shown in the images
 
 <img src="figures/pcb.png" width="200"> <img src="figures/pcb-blur.png" width="200">
 
-To implement this, start with the boilerplate from the previous section, which you should put into script `blur.py`. The only difference is that you must call soon-to-be-created function `blur` not `flip` as you had before. Now, let's start at the coarsest-level of functionality and realize that we have to walk over every pixel in the image. (This is called *top-down design*.) 
+To implement this, fill in the **Blur** section of the starterkit. The only difference is that you must call soon-to-be-created function `blur` not `flip` as you had before. Now, let's start at the coarsest-level of functionality and realize that we have to walk over every pixel in the image. (This is called *top-down design*.) 
 
 ### Blurring function
 
@@ -388,8 +388,6 @@ img                       # show me
 Denoising is also tiny:
 
 ```python
-# Your median function goes here (copy from denoise.py)
-...
 img = open('some file')
 img = filter(img, median)	# denoise me please
 img
@@ -456,11 +454,11 @@ Once you have implemented your `laplace` function, give it a try on images `obam
 
 ## Task 6. Sharpening
 
-Sharpening an image is a matter of highlighting the edges, which we know how to compute from the previous task. Script `edges.py` computes just the edges so, to highlight the original image, we *subtract* that white-on-black edges image from the original.  You might imagine that *adding* the edges back in would be more appropriate and it sort of works, but the edges are slightly off. We get a better image by subtracting the high-valued light pixels because that darkens the edges in the original image, such as between the uniform and the windshield. Let's start with the easy stuff:
+Sharpening an image is a matter of highlighting the edges, which we know how to compute from the previous task.  Now, let's work in the **Sharpen** section of the starter kit. Instead of just computing the edges, we *subtract* that white-on-black edges image from the original.  You might imagine that *adding* the edges back in would be more appropriate and it sort of works, but the edges are slightly off. We get a better image by subtracting the high-valued light pixels because that darkens the edges in the original image, such as between the uniform and the windshield. Let's start with the easy stuff:
 
 <img src="figures/bonkers.png"> <img src="figures/bonkers-sharp-zoom.png">
 
-* Reuse copy from your previous code self for detecting edges to load an image and apply the Laplace filter.
+* Reuse your previous code for detecting edges to load an image and apply the Laplace filter.
 * After `edges = filter(img, laplace)`, add a line that calls a function we'll create shortly called `minus`. `minus` takes two image parameters, `A` and `B` and returns `A-B`.  In our case, pass in the original image and the image you get back from calling `filter(img, laplace)`.
 * Show the image return result of the `minus` function.
 

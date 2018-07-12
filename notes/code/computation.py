@@ -1,6 +1,7 @@
 # String to int
 
 s = "501"
+
 a = [c for c in reversed(s)]
 n = 0
 i = 0
@@ -22,6 +23,20 @@ for d in s:
 print(f"'{s}' -> {n}")
 
 
+powers = reversed([10**i for i in range(len(s))])
+digits = [int(c) for c in s]
+n = sum([p*d for p,d in zip(powers,digits)])
+print(f"'{s}' -> {n}")
+
+
+import numpy as np
+powers = list(reversed([10**i for i in range(len(s))]))
+digits = [int(c) for c in s]
+n = np.array(powers).dot( np.array(digits) )
+print(f"'{s}' -> {n}")
+
+# Binary digits
+
 s = "1101"
 n = 0
 for d in s:
@@ -41,7 +56,8 @@ for i in range(n):
 print(c)
 
 
-# Zip
+# Our own zip function
+
 a = [9, 3]
 b = [1, 4, 10]
 n = max(len(a),len(b))

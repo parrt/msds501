@@ -72,7 +72,7 @@ Designing and building programs
 
 * [Introduction to programming](notes/programming.md) (Day 1 (before conjuring code), 2)
 * [Representing data in memory](notes/data-in-memory.ipynb) (Day 2 (before `dict`), 3)
-* [Model of Computation](notes/computation.ipynb) (Day 2)
+* [Model of Computation](notes/computation.ipynb) (Day 3)
 * [Programming Patterns in Python](notes/python-patterns.ipynb) (Day ?)
 * [Data aliasing](notes/aliasing.ipynb) (Day ?)
 * [Organizing your code with functions](notes/functions.ipynb) (Day ?)

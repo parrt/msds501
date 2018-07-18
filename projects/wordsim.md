@@ -206,7 +206,7 @@ In your repository, you should submit file `wordsim.py` in the root directory co
 
 *Do not add the word vector glove data to the repository!*
 
-You can use numpy but please do not refer to a bunch of random packages that I probably don't have installed on my test box. Your test will fail.
+You can use numpy (e.g., `np.linalg.norm()`) but please do not refer to a bunch of random packages that I probably don't have installed on my test box. Your test will fail.
 
 *Please do not leave a bunch of debugging print statements in your code.* The output of your program is part of your result so make sure you only emit what you are supposed to.
 

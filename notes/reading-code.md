@@ -11,7 +11,7 @@ We read code in order to:
 * **Discover the behavior of library functions or other shared code**.   The complete behavior of a library function is not always clear from the name or parameter list.  Looking at the source code for that function is the best way to understand what it does. The code **is** the documentation. 
 * **Uncover bugs, in our code or others' code**. All code has bugs, particularly code we just wrote that has not been tested exhaustively. As part of the coding process, we are constantly bouncing around, reading our existing code base to make sure everything fits together.
 
-<img src="images/redbang.png" width=30 align="left">While we're discussing library functions, let me highlight a golden rule: *You should never ever ask your fellow programmers about the details of parameters and return values from library functions.* You can easily discover this yourself using "jump to definition" in PyCharm or by searching on the web.
+<img src="images/redbang.png" width="30" align="left">While we're discussing library functions, let me highlight a golden rule: *You should never ever ask your fellow programmers about the details of parameters and return values from library functions.* You can easily discover this yourself using "jump to definition" in PyCharm or by searching on the web.
 
 The purpose of this document is to explain how exactly a programmer reads code. Our first clue comes from the fact that we are not computers, hence, we should not read code like a computer, examining one symbol after the other. Instead, we're going to look for key elements and code patterns.
 
@@ -50,7 +50,7 @@ def average(...):
 
 If we're lucky, that comment corresponds to the function objective description in the work plan.
 
-The next step is to identify the parameters and return value. Again, the names of the parameters often tell us a lot but, unfortunately, Python does not support explicit parameter types so we have to figure that out ourselves. Knowing the types of values and variables is critical to understanding a program.  In a simple function like this, we can usually figure out the types of the parameters and the return values quickly. In other cases, we will have to dig through the statements of the function to figure this out (more on this later).  Let's zoom in to see more detail about our function:
+The next step is to identify the parameters and return value. Again, the names of the parameters often tell us a lot but, unfortunately, Python usually does not have explicit parameter types (they aren't checked by Python anyway) so we have to figure that out ourselves. Knowing the types of values and variables is critical to understanding a program.  In a simple function like this, we can usually figure out the types of the parameters and the return values quickly. In other cases, we will have to dig through the statements of the function to figure this out (more on this later).  Let's zoom in to see more detail about our function:
  
 ```python
 def average(data):
@@ -77,7 +77,7 @@ An inexperienced programmer must examine the statements of the function individu
 
 By analogy, consider memorizing the state of a chessboard in the middle of play. A beginner has to memorize where all of the pieces are individually whereas a chessmaster recognizes that the board is, say, merely a variation on the Budapest Gambit.
 
-How do we know where to start and what to look at? Well, let's think back to the [generic analytics program template](programming.md):
+How do we know where to start and what to look at? Well, let's think back to our generic data science program template:
 
 1. Acquire data, which means finding a suitable file or collecting data from the web and storing in a file
 2. Load data from disk and place into memory organized into data structures
@@ -87,7 +87,7 @@ How do we know where to start and what to look at? Well, let's think back to the
 
 The gist of that process is to load data into a handy data structure and process it. What do loading data, creating a data structure, and processing a data structure have in common? They all repeatedly execute a set of operations, which means that the gist of a program that processes data is looping. (There is even a famous book is entitled [Algorithms + Data Structures = Programs](https://www.amazon.com/Algorithms-Structures-Prentice-Hall-Automatic-Computation/dp/0130224189) where *algorithm* means a process described by pseudocode or code.)  A program that does not loop would likely be very boring as it could not traverse a data structure or process a data file.
 
-From this, we can conclude that all of the action occurs in loops so we should **look for loops in the code first**. We saw lots of pseudocode loop templates in [Common lower-level programming patterns](combinations.md) and Python loop templates in [Programming Patterns in Python](python-patterns.ipynb). Reading code is a matter of finding such templates in the code of a function, which immediately tells us the kind of operation or pattern the author intended.
+From this, we can conclude that all of the action occurs in loops so we should **look for loops in the code first**. Reading code is a matter of finding such templates in the code of a function, which immediately tells us the kind of operation or pattern the author intended.
 
 ## Identifying programming patterns in code
 
@@ -148,7 +148,7 @@ Matrix addition. It's important here to recognize that a nested indexed-loop giv
 ```python
 for i in range(n):
     for j in range(n):
-        print 'hi'
+        print('hi')
 ```
 
 n * n. The inner loop goes around n times. The outer loop means we perform the entire inner loop n times.
@@ -171,12 +171,12 @@ blort = -99999
 for x in X:
     if x > blort:
         blort = x
-print blort
+print(blort)
 ```
 
 Max value in `X`. 
 
-<img src="images/redbang.png" width=30 align="left">Anytime you see an `if` statement inside of a loop, think *filter* or *search* or *accumulator with condition*. It will usually be a variation on one of those. This assumes that the conditional expression is a function of the loop variable directly or indirectly.
+<img src="images/redbang.png" width="30" align="left">Anytime you see an `if` statement inside of a loop, think *filter* or *search* or *accumulator with condition*. It will usually be a variation on one of those. This assumes that the conditional expression is a function of the loop variable directly or indirectly.
 
 **Exercise**: What does this variation print?
 
@@ -199,7 +199,7 @@ for i in range(len(X)):
     if X[i] > bar:
         bar = x
         foo = i
-print foo
+print(foo)
 ```
 
 argmax of `X`.  We know the code associated with the conditional is figuring out the max from our previous examples, but it is also tracking the `i`, the index. 

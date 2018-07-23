@@ -50,34 +50,38 @@ To provide a little commandline interpreter where users can type in words or par
  
 ```python
 if __name__ == '__main__':
-	glove_filename = sys.argv[1]
-	gloves = load_glove(glove_filename)
-	
-	print("Enter a word or 'x:y as z:'")
-	cmd = raw_input("> ")
-	while cmd!=None:
-	    match = re.search(r'(\w+):(\w+) as (\w+):', cmd)
-	    if match is not None and len(match.groups())==3:
-	        x = match.group(1).lower()
-	        y = match.group(2).lower()
-	        z = match.group(3).lower()
-	        words = analogies(...)
-	        print "%s is to %s as %s is to {%s}" % (x,y,z,' '.join(words))
-	    elif re.match(r'\w+', cmd) is not None:
-	        words = closest_words(...)
-	        print "%s is similar to {%s}" % (cmd,' '.join(words))
-	    else:
-	        print("Enter a word or 'x:y as z:'")
-	    cmd = raw_input("> ")
+    glove_filename = sys.argv[1]
+    gloves = load_glove(glove_filename)
+
+    # plot_words(gloves,['king', 'queen', 'cat'], 4)
+
+    print("Enter a word or 'x:y as z:'")
+    cmd = input("> ")
+    while cmd!=None:
+        match = re.search(r'(\w+):(\w+) as (\w+):', cmd)
+        if match is not None and len(match.groups())==3:
+            x = match.group(1).lower()
+            y = match.group(2).lower()
+            z = match.group(3).lower()
+            words = analogies(gloves, x, y, z, 5)
+            print("%s is to %s as %s is to {%s}" % (x,y,z,' '.join(words)))
+        elif re.match(r'\w+', cmd) is not None:
+            words = closest_words(gloves, cmd.lower(), 5)
+            print("%s is similar to {%s}" % (cmd,' '.join(words)))
+        else:
+            print("Enter a word or 'x:y as z:'")
+        cmd = input("> ")
 ```
 
 where you just have to fill in the arguments to `analogies(...)` and `closest_words(...)` and write those functions, as described below.
 
-Users can kill the running program when they are done using control-C or can it control-D (on unix) to mean "end of file", thus, forcing the `raw_input()` to return `None`. That makes the loop terminate and therefore the program.
+To learn more about passing arguments from the command line to your Python program, see the bottom of our [bash intro](https://github.com/parrt/msan501/blob/master/notes/bash-intro.md).
+
+Users can kill the running program when they are done using control-C or can it control-D (on unix) to mean "end of file", thus, forcing the `input()` to return `None`. That makes the loop terminate and therefore the program.
 
 ### Getting word vector data
 
-The first thing your program needs to do is load the word vector "database" or table. Download the [6B tokens, 400K vocab, uncased, 50d, 100d, 200d, & 300d vectors, 822 MB download](http://nlp.stanford.edu/data/glove.6B.zip) file from the [GloVe project](https://nlp.stanford.edu/projects/glove) and unzip it. Save the resulting files somewhere useful like a `~/data/glove` directory in your home directory because it will be useful for other projects. There are files for different vector sizes (50, 100, 200, 300):
+The first thing your program needs to do is load the word vector "database" or table. Download the [6B tokens, 400K vocab, uncased, 50d, 100d, 200d, & 300d vectors, 822 MB download](http://nlp.stanford.edu/data/glove.6B.zip) file from the [GloVe project](https://nlp.stanford.edu/projects/glove) and unzip it. Save the resulting files somewhere useful like a `~/data/glove` directory because it will be useful for other projects. There are files for different vector sizes (50, 100, 200, 300):
 
 ```bash
 $ ls ~/data/glove/
@@ -113,6 +117,8 @@ def load_glove(filename):
     ...
 ```
 
+On my machine, takes about 30 seconds to load the 300-dimensional data set.  For debugging purposes, you can grab the first 50 lines or so and store in a small file. This will take milliseconds the loan and you can step through with the debugger to figure out why it is not loading properly or whatever.
+
 ### Computing similar words
 
 Given a word, *w*, the easy way to find the *n* nearest words is to exhaustively compute the distance from *w*'s vector to every other vector in the database. Sort by the distance and take the first *n* words. Here is the signature of the function you must implement and a comment describing its implementation:
@@ -140,7 +146,7 @@ mexico is similar to {mexican guatemala peru colombia america}
 
 ### Computing missing analogy words
 
-Your final goal is to finish partial analogies given to you by the user. In other words, given input `building:architect as software:`, your program should respond with:
+Your final goal is to finish partial analogies given to you by the user. In other words, given input "`building:architect as software:`", your program should respond with:
 
 ```bash
 building is to architect as software is to {programmer architect designer computer microsoft}
@@ -171,7 +177,9 @@ def analogies(gloves, x, y, z, n):
     ...
 ```
 
-### Where to go from here
+## Where to go from here
+
+### Using PCA to display word vectors
 
 If you are feeling particularly frisky near the end of the boot camp, you can do a nice visualization of word vectors. The idea is to take the very large 300-dimensional vectors and project them onto just 2-dimensional space so that we can plot them. The key to such a compression is to perform *principal components analysis* (PCA) on a set of word vectors, which you might hear about in the linear algebra boot camp. This is how I drew the graph above for the words king, queen, and cat (and 3 nearest neighbors). Here is some skeleton code for you to get started:
 
@@ -200,19 +208,37 @@ For words `petal`, `software`, and `car` you should get:
 
 <img src="figures/wordvec2.png" width=400>
 
+### Speeding up the data load
+
+By playing around, I've managed to drop the time to load data from 30 seconds to 18 seconds using the binary [feather](https://github.com/wesm/feather) format. (This is super useful later when you do machine learning stuff.) The idea is to use Pandas' `read_csv` function to load the text file, which is also faster than reading line by line in Python, and then save the resulting data frame into a feather file. Then you can read that feather file in about 2.5 seconds instead of reading the text file again.  We have to convert the data frame to a dictionary, which is pretty slow to do it manually, but we gain some speed over the previous method. 
+
+Naturally, my tests do not use this feather functionality, but you should consider exploring how to make this happen.
+
+First, you need to have the appropriate libraries installed:
+
+```bash
+pip install -U feather-format
+```
+
+Then, figure out how to use the parameters of the `read_csv` function to create a data frame in memory of the glove data file. Then save that as a feather file.
+
+Once we have this file laying around, we can use it instead of the original glove text file. Use function `read_feather`.
+
+Once we have a data frame in memory, we can convert it to the appropriate dictionary. I tried using the `itertuples` data frame method to walk the rows to create the dictionary but it was slightly slower than converting the data frame to a numpy matrix first and walking those rows. I also tried using `to_dict` but I couldn't figure out an argument that would make it create the proper dictionary we want for this project.
+ 
 ## Deliverables
 
-In your repository, you should submit file `wordsim.py` in the root directory containing all of the code described above, except for the extra plotting code (that you can do in a separate file). We will only be testing the nearest neighbor and word analogy functionality.
+In your repository, you should submit file `wordsim.py` in the root directory containing all of the code described above, except for the extra plotting code (that you can do in a separate file for your own enjoyment). We will only be testing the nearest neighbor and word analogy functionality.
 
 *Do not add the word vector glove data to the repository!*
 
-You can use numpy but please do not refer to a bunch of random packages that I probably don't have installed on my test box. Your test will fail.
+You can use numpy (e.g., `np.linalg.norm()`) but please do not refer to a bunch of random packages that I probably don't have installed on my test box. Your test will fail.
 
 *Please do not leave a bunch of debugging print statements in your code.* The output of your program is part of your result so make sure you only emit what you are supposed to.
 
 ## Evaluation
 
-Please be aware that, depending on the hardware you run this on, the program could be fairly slow. On my iMac, the test described here takes 45 seconds, which includes time to load and process the 1G file containing 400,000 words. *If it takes many minutes to process, we will assume there’s a problem with your code.*
+Please be aware that, depending on the hardware you run this on, the program could be fairly slow. On my iMac, the test described here takes 50 seconds, which includes time to load and process the 1G file containing 400,000 words. *If it takes many minutes to process, we will assume there’s a problem with your code.*
 
 We will run your program from the command line as follows using the 300-dimensional vectors:
 
@@ -237,26 +263,30 @@ from wordsim import *
 import sys
 
 word_input = [
-    'dog', 'cow', 'spain', 'king'
+    'dog', 'cow', 'spain', 'king', 'frog', 'run'
 ]
 word_output = [
     ['dogs', 'cat', 'pet', 'puppy', 'hound'],
     ['cows', 'mad', 'bovine', 'sheep', 'goat'],
     ['portugal', 'spanish', 'morocco', 'madrid', 'spaniards'],
     ['queen', 'monarch', 'prince', 'kingdom', 'reign'],
+    ['toad', 'frogs', 'monkey', 'squirrel', 'snake'],
+    ['running', 'runs', 'ran', 'allowed', 'go']
 ]
 
 analogy_input = [
     ['building', 'architect', 'software'],
     ['king', 'queen', 'man'],
     ['german', 'english', 'french'],
-    ['spanish', 'spain', 'french']
+    ['spanish', 'spain', 'french'],
+    ['ship', 'vessel', 'car']
 ]
 analogy_output = [
     ['programmer', 'architect', 'designer', 'computer', 'microsoft'],
     ['woman', 'girl', 'person', 'teenager', 'she'],
     ['english', 'welsh', 'spanish', 'language', 'prohertrib'],
-    ['france', 'belgium', 'paris', 'spain', 'prohertrib']
+    ['france', 'belgium', 'paris', 'spain', 'prohertrib'],
+    ['vehicle', 'cars', 'truck', 'driver', 'driving']
 ]
 
 glove_filename = sys.argv[1] # must pass in the 300-Dimensional vectors
@@ -266,16 +296,18 @@ errors = []
 
 for i,w in enumerate(word_input):
     closest = closest_words(gloves, w.lower(), 5)
-    if closest != word_output[i]:
+    if sorted(closest) != sorted(word_output[i]):
         errors.append("similar words for %s should be %s but was %s" % (w,word_output[i],closest))
 
 for i,w in enumerate(analogy_input):
     analogs = analogies(gloves, w[0].lower(), w[1].lower(), w[2].lower(), 5)
-    if analogs != analogy_output[i]:
+    if sorted(analogs) != sorted(analogy_output[i]):
         errors.append("analogy for %s should be %s but was %s" % (w,analogy_output[i],analogs))
 
 if len(errors)>0:
-    print '\n'.join(errors)
+    print('\n'.join(errors))
 else:
-    print "All tests pass"
+    print("All tests pass")
 ```
+
+Because the order of words could be slightly different depending on the dictionary implementation, I have sorted the results before comparing them.

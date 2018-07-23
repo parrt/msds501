@@ -73,20 +73,14 @@ Designing and building programs
 * [Introduction to programming](notes/programming.md) (Day 1 (before conjuring code), 2)
 * [Representing data in memory](notes/data-in-memory.ipynb) (Day 2 (before `dict`), 3)
 * [Model of Computation](notes/computation.ipynb) (Day 3)
-* [Programming Patterns in Python](notes/python-patterns.ipynb) (Day ?)
-* [Data aliasing](notes/aliasing.ipynb) (Day ?)
-* [Organizing your code with functions](notes/functions.ipynb) (Day ?)
+* [Programming Patterns in Python](notes/python-patterns.ipynb) (Day 4)
+* [Data aliasing](notes/aliasing.ipynb) (Day 4)
+* [Organizing your code with functions](notes/functions.ipynb) (Day 4 up to search function, Day 5)
 * [How to read code](notes/reading-code.md) (Day ?)
-
-Common programming tools
-
-* [Bash your way to victory](notes/bash-intro.md) (Day ?)
-* [Introduction to git and revision control](notes/git.md) (Day 2)
-* [Launching a Virtual Machine at Amazon Web Services](notes/aws.md) (Day ?)
 
 Key programming patterns
 
-* [Loading files](notes/files.ipynb) (Day ?)
+* [Loading files](notes/files.ipynb) (Day 5)
 * [Manipulating and Visualizing Data](notes/data.ipynb) (Day ?)
 
 Iterative methods for computation and optimization
@@ -94,6 +88,12 @@ Iterative methods for computation and optimization
 * [Generating Uniform Random Numbers](notes/random-uniform.ipynb) (Day ?)
 * [Approximating square root](notes/sqrt.ipynb) (Day ?)
 * [Iterative Optimization Via Gradient Descent](notes/gradient-descent.pdf) (pdf) (Day ?)
+
+Common programming tools
+
+* [Bash your way to victory](notes/bash-intro.md) (Day ?)
+* [Introduction to git and revision control](notes/git.md) (Day 2)
+* [Launching a Virtual Machine at Amazon Web Services](notes/aws.md) (Day ?)
 
 Optional
 

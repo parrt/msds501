@@ -80,7 +80,7 @@ Designing and building programs
 
 Key programming patterns
 
-* [Loading files](notes/files.ipynb) (Day 5)
+* [Loading files](notes/files.ipynb) (Day 5 up to CSV)
 * [Manipulating and Visualizing Data](notes/data.ipynb) (Day ?)
 
 Iterative methods for computation and optimization

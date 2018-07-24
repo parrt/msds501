@@ -81,7 +81,7 @@ Designing and building programs
 Key programming patterns
 
 * [Loading files](notes/files.ipynb) (Day 5 up to CSV)
-* [Pandas dataframes](notes/dataframes.ipynb) (Day 6)
+* [Pandas dataframes](notes/dataframes.ipynb) (Day 6 up to clean up)
 * ?? [Manipulating and Visualizing Data](notes/data.ipynb) (Day ?)
 
 Iterative methods for computation and optimization

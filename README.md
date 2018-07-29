@@ -88,7 +88,7 @@ Iterative methods for computation and optimization
 
 * [Generating Uniform Random Numbers](notes/random-uniform.ipynb) (Day 7)
 * [Approximating square root](notes/sqrt.ipynb) (Day 8)
-* [Iterative Optimization Via Gradient Descent](notes/gradient-descent.ipynb) (pdf) (Day 8)
+* [Iterative Optimization Via Gradient Descent](notes/gradient-descent.ipynb) (Day 8)
 
 Common programming tools
 

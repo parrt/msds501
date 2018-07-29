@@ -81,14 +81,14 @@ Designing and building programs
 Key programming patterns
 
 * [Loading files](notes/files.ipynb) (Day 5 up to CSV)
-* [Pandas dataframes](notes/dataframes.ipynb) (Day 6 up to clean up)
+* [Pandas dataframes](notes/dataframes.ipynb) (Day 6 up to clean up, finish Day 7)
 * ?? [Manipulating and Visualizing Data](notes/data.ipynb) (Day ?)
 
 Iterative methods for computation and optimization
 
-* [Generating Uniform Random Numbers](notes/random-uniform.ipynb) (Day ?)
-* [Approximating square root](notes/sqrt.ipynb) (Day ?)
-* [Iterative Optimization Via Gradient Descent](notes/gradient-descent.pdf) (pdf) (Day ?)
+* [Generating Uniform Random Numbers](notes/random-uniform.ipynb) (Day 7)
+* [Approximating square root](notes/sqrt.ipynb) (Day 8)
+* [Iterative Optimization Via Gradient Descent](notes/gradient-descent.ipynb) (pdf) (Day 8)
 
 Common programming tools
 

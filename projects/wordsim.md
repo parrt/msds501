@@ -1,7 +1,5 @@
 # Word similarity and relationships
 
-**TODO**: next year load CSV, set index of dataframe as word, save as feather. Load is 2.5s not 35s.  Don't need a `dict` when df will suffice.
-
 ## Goal
 
 In this project, you will leverage a semi-recent advance in natural language processing called [word2vec](http://arxiv.org/pdf/1301.3781.pdf) (or just *word vectors*) to study the similarity between words. In particular, we're going to use a "database" from [Stanford's GloVe project](https://nlp.stanford.edu/projects/glove/).  For example, given a single word, we can find the *n* closest words:
@@ -212,6 +210,8 @@ For words `petal`, `software`, and `car` you should get:
 <img src="figures/wordvec2.png" width=400>
 
 ### Speeding up the data load
+
+**TODO**: next year load CSV, set index of dataframe as word, save as feather. Load is 2.5s not 35s.  Don't need a `dict` when df will suffice.
 
 By playing around, I've managed to drop the time to load data from 30 seconds to 18 seconds using the binary [feather](https://github.com/wesm/feather) format. (This is super useful later when you do machine learning stuff.) The idea is to use Pandas' `read_csv` function to load the text file, which is also faster than reading line by line in Python, and then save the resulting data frame into a feather file. Then you can read that feather file in about 2.5 seconds instead of reading the text file again.  We have to convert the data frame to a dictionary, which is pretty slow to do it manually, but we gain some speed over the previous method. 
 

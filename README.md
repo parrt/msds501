@@ -80,7 +80,7 @@ Designing and building programs
 
 Key programming patterns
 
-* [Loading files](notes/files.ipynb) (Day 5 up to CSV)
+* [Loading files](notes/files.ipynb) (Day 5 up to CSV, finish Day 6)
 * [Pandas dataframes](notes/dataframes.ipynb) (Day 6 up to clean up, finish Day 7)
 * ?? [Manipulating and Visualizing Data](notes/data.ipynb) (Day ?)
 

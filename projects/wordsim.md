@@ -167,7 +167,7 @@ def analogies(gloves, x, y, z, n):
     "x is to y as z is to _____", return the n best words that fill in
     the blank to complete the analogy.
 
-   Compute the vector difference between x and y then compute the              
+    Compute the vector difference between x and y then compute the              
     vector difference between z and all vectors, v, in gloves database          
     (ignore v=z).  You care about the distance between the xy vector            
     and the zv vector for all vectors v. Track the distances with a             

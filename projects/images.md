@@ -482,6 +482,8 @@ This simple process of subtracting the Laplacian does an amazing job.  Here's th
 
 ## Expected results
 
+**Your notebook must run in under 2 minutes after a kernel restart to get credit for the project.**
+
 For your reference, here is the expected sequence of images and sections with all of the code cells hidden (though the relative sizes of those images might be different in your output):
 
 <table border="0">

@@ -259,6 +259,8 @@ similar words for dog should be ['dogs', 'cat', 'pet', 'puppy', 'hound'] but was
 $
 ```
 
+**It must run in under 2 minutes to get credit for the project.**
+
 Here is the test rig file `test_wordsim.py`:
 
 ```python

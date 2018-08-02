@@ -76,7 +76,8 @@ Designing and building programs
 * [Programming Patterns in Python](notes/python-patterns.ipynb) (Day 4)
 * [Data aliasing](notes/aliasing.ipynb) (Day 4)
 * [Organizing your code with functions](notes/functions.ipynb) (Day 4 up to search function, Day 5)
-* [How to read code](notes/reading-code.md) (Day ?)
+* [How to read code](notes/reading-code.md) (Day 9)
+* [Object-oriented programming](notes/OO.ipynb) (Day 9)
 
 Key programming patterns
 
@@ -94,7 +95,7 @@ Common programming tools
 
 * [Bash your way to victory](notes/bash-intro.md) (Day ?)
 * [Introduction to git and revision control](notes/git.md) (Day 2)
-* [Launching a Virtual Machine at Amazon Web Services](notes/aws.md) (Day ?)
+* [Launching a Virtual Machine at Amazon Web Services](notes/aws.md) (Day 10)
 
 Optional
 

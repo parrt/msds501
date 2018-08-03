@@ -307,13 +307,44 @@ The starting point is the red X and the ending point is the black X. Notice that
 
 <section title="Your task">
 
-You will use gradient descent to solve the linear regression problem above, using the same data from `data/cheese_deaths.csv`. As part of your final submission, you must provide heat maps with traces that indicate the steps taken by your gradient descent as I have shown above. In addition, you must display the learning rate vector beneath the statement about the number of steps like the following except with the question marks  replaced with your learning rates. 
-
-<img src="images/heatmap3.png" width="45%">
+You will use gradient descent to solve the linear regression problem above, using the same data from `data/cheese_deaths.csv`. As part of your final submission, you must provide heat maps with traces that indicate the steps taken by your gradient descent as I have shown above. In addition, you must display the learning rate vector beneath the statement about the number of steps like the following except with the question marks  replaced with your learning rates.
 	
 Start with something very small for the learning rates and ramp up the values until the minimization algorithm diverges instead of converging, then back them down one notch. Move them individually to find the optimal values that converge but as fast as possible. Have your program choose random starting $b_0$ vectors.
 
 **Deliverables**:  Download and fill in in the [regression-starterkit.ipynb](https://github.com/parrt/msan501/blob/master/projects/regression/regression-starterkit.ipynb) notebook, renaming it to `regression.ipynb`. Make sure that you have added it to your repository, `regression-userid`, committed it, and pushed to github. Here is the [starter kit with sample output](https://github.com/parrt/msan501/raw/master/projects/regression/regression-starterkit.pdf) (PDF). Make sure when you submit your notebook that it has been executed and shows all of the images and output.
 
 **You must tweak the learning rate and precision so that your results agree at least with the first three decimal points of the analytic solution: 2004.4563215 to get credit for that component of the project.**  The cheese versus deaths plots are worth 20% and the minimization and related functions plus heat map with proper minimization trace is worth 80%.
-	
+
+<section title="Extra fun: Add momentum downhill steps">
+
+In some sense, the vanilla gradient descent algorithm above completely forgets the direction it was heading a moment ago.   We can improve the algorithms convergence speed by adding momentum to the imaginary particle that is rolling downhill towards a minimum. The idea is to add all or a bit of the previous gradient to the gradient at the current location when forming the new gradient. So instead of just
+
+\[
+\vec b_{t+1} = \vec b_t - \eta \nabla Cost(\vec b_t)
+\]
+
+we use
+
+<latex>
+\begin{eqnarray*}
+v_{t+1} &=& \gamma v_t + \nabla Cost(\vec b_t)\\
+\vec b_{t+1} &=& \vec b_t - \eta v_{t+1}
+\end{eqnarray*}
+</latex>
+
+for some momentum inclusion coefficient, $\gamma$. If you let $\gamma=0$, then the previous gradient term disappears and we get the original formula:
+
+<latex>
+\begin{eqnarray*}
+v_{t+1} &=& \nabla Cost(\vec b_t)\\
+\vec b_{t+1} &=& \vec b_t - \eta v_{t+1}
+\end{eqnarray*}
+</latex>
+
+Term $v_{t+1}$ is the step we take but is not the pure gradient anymore, unless $\gamma=0$. The $v_{t+1}$ step is the gradient at current location, $b_t$, with a bit of the previous step added in.
+
+If you alter your minimize function so that it includes this momentum term, it converges much more quickly and in fewer steps. It takes me about 121ms (1/8 of a second) to converge in about 700 steps:
+
+<img src="images/heatmap-momentum.png" width="45%">
+
+See [An overview of gradient descent optimization algorithms](http://ruder.io/optimizing-gradient-descent/index.html#momentum) and [Why Momentum Really Works](https://distill.pub/2017/momentum/).

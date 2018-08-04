@@ -2,7 +2,6 @@
 
 The goal of this lecture-lab is to teach you to create a Linux machine at *Amazon Web Services*, login and copy some data to that machine.
 
-*TODO*: Add warning not to try scp from remote machine. Do it from the laptop. many people made this mistake.  Show two tabs, one local and one remote for terminal. Also show the use of fully qualified pathnames to get to the key files or data files.  maybe add some exploratory commandline commands on the remote machine to demonstrate that it's physically a different machine.  
 
 Here is a video I made for MSAN692 showing [how to launch an AWS instance and start a Python-based web server](https://www.youtube.com/watch?v=qQncEJL6NHs&t=2s).
 
@@ -16,7 +15,7 @@ Click "Launch Instance", which will start the process to create a virtual machin
 
 <img src=images/launch.png width=400>
 
-Select the "Amazon Linux AMI" entry, which should be the first one.  This is a commonly-used "image" that results in a Linux machine that contains lots of useful goodies as you can see from that list, such as Python and MySQL. An image is just a snapshot of the disk after someone carefully installs software properly on a Linux machine. This means we don't have to install software every time we create a new machine.
+Select the "Amazon Linux 2 AMI" entry, which should be the first one.  This is a commonly-used "image" that results in a Linux machine that contains lots of useful goodies as you can see from that list, such as Python and MySQL. An image is just a snapshot of the disk after someone carefully installs software properly on a Linux machine. This means we don't have to install software every time we create a new machine.
 
 <img src=images/ami.png width=600>
 
@@ -24,13 +23,13 @@ Select instance type "t2.micro," which should be the first machine type listed. 
 
 <img src=images/selectvm.png width=600>
 
-This will bring up a screen describing the details about the instance we are launching. ignore all of it for now and just click "Launch" at the bottom right.
+This will bring up a screen describing the details about the instance we are launching. Ignore all of it for now and just click "Review and Launch" at the bottom right. That brings up a summary page that we could examine if we wanted, but just click "Launch" in bottom right.
 
-This will bring a dialog box up to select a key pair. A key pair is what allows you to securely access the server and prevent unauthorized access. The *first time*, you will need to create a new key pair. Name it as your user ID then click on "Download key pair."  It will download a *userid*.pem file, which are your security credentials for getting into the machine. Save that file in a safe spot. If you lose it you will not be able to get into the machine that you create. From now on, you can reuse this existing key.
+This will bring a dialog box up to select a key pair. A key pair is what allows you to securely access the server and prevent unauthorized access. The *first time*, you will need to create a new key pair. Name it as your user ID then click on "Download key pair."  It will download a *userid*.pem file, which are your security credentials for getting into the machine. Save that file in a safe spot. If you lose it you will not be able to get into the machine that you create. From now on, you can reuse that pre-existing key.
 
 <img src=images/keypair.png width=600>
 
-Click on the "I acknowledge that I have ..." checkbox then "Launch instance." You should see something like:
+After downloading, click "Launch instances." You should see something like:
 
 <img src=images/launched.png width=600>
 
@@ -41,6 +40,10 @@ Click on the `i-...` link to go to the EC2 console showing your instance.
 Click on your instance and you should see a description box at the bottom. Look for the "Public IP" address, which is 54.196.174.210 in this case:
 
 <img src=images/publicIP.png width=600>
+
+We have to wait until the status stops saying "Initializing", which could take several minutes.
+
+## Connecting to the remote server
 
 Click on the "Connect" button at the top of the page and it will bring up a dialog box that tells you how to connect to the server.  You want to connect with "A standalone SSH client" link (Java is now a security risk in the browser so we can't use that choice.)  Inside you will see the `ssh` command necessary to connect to your machine. If you have Windows, there is a link to show you how to use an SSH client called PuTTY. 
 
@@ -88,9 +91,13 @@ For mac and linux users, we will use the direct `ssh` command from the command l
 ssh -i parrt.pem ec2-user@54.196.174.210
 ```
 
-Naturally, you will have to provide the full pathname to your *userid*.pem file.
+Naturally, you will have to provide the full pathname to your *userid*.pem file. So I need to type:
 
- Try to connect again and it will now warn you that you have never connected to that machine before. Again, this is a security measure. You can simply say "yes" here.
+```bash
+ssh -i ~/Dropbox/licenses/parrt.pem ec2-user@54.196.174.210
+```
+
+Try to connect again and it will now warn you that you have never connected to that machine before. Again, this is a security measure. You can simply say "yes" here.
 
 ```bash
 $ ssh -i parrt.pem ec2-user@54.196.174.210
@@ -112,7 +119,25 @@ Run "sudo yum update" to apply all updates.
 
 The `$` is your prompt just like you have on your local machine using the terminal / shell, but you are giving commands to a remote server not your local machine.
 
-To get data up to the server, you can cut-and-paste if the file is small. For example,  cut-and-paste the following data into a file called `coffee` in your home directory. First copy this data from the PDF:
+
+
+## Multiple shells
+
+You can either hit "command-T" from Terminal.app and get multiple tabs up, one for the remote host and one for local/laptop work:
+
+<img src="images/tabs.png" width="500">
+
+Or just get two windows up using "command-N" from Terminal.app.
+
+<img src="images/two-shells.png" width="500">
+
+Verify the remote computer is not your laptop by doing command `ls /` on both computers:
+
+<img src="images/two-roots.png" width="500">
+ 
+## Uploading data or code
+
+To get data up to the server, you can cut-and-paste if the file is small. For example,  cut-and-paste the following data into a file called `coffee` in your home directory on that remote computer. First copy this data from these notes:
 
 ```bash
 3 parrt
@@ -120,7 +145,7 @@ To get data up to the server, you can cut-and-paste if the file is small. For ex
 8 tombu
 ```
 
-then type these commands and paste the data in the sequence:
+then type the following commands on the remote computer and paste the data:
 
 ```bash
 [ec2-user@ip-172-30-0-97 ~]$ cd ~ # get to my home directory
@@ -138,23 +163,30 @@ $
 
 The `^D` means control-D, which means end of file.  `cat` is reading from standard input and writing to the file because of the redirection operator `>`. The way it knows we are done is when we signal in the file with control-D *on a line by itself*.
 
-For larger files, we need to use the secure copy `scp` command that has the same argument structure as secure shell `ssh`. Get another shell up on your laptop. From the directory where you have the `coffee` file *on your laptop*, use the following similar command:
+For larger files, we need to use the secure copy `scp` command that has the same argument structure as secure shell `ssh`. Get another shell running on your laptop. Download data file [cheese_deaths.csv](https://raw.githubusercontent.com/parrt/msan501/master/projects/regression/data/cheese_deaths.csv) and store on your laptop in the directory where you are currently working on the laptop command line. Now, in a shell **on your laptop**, use the following command (that is similar to `ssh`) to copy it to the remote computer:
 
 ```bash
-$ scp -i parrt.pem access.log ec2-user@54.196.174.210:~ec2-user
-access.log                                    100% 1363KB   1.3MB/s   00:00
+$ scp -i ~/Dropbox/licenses/parrt.pem cheese_deaths.csv ec2-user@54.196.174.210:~ec2-user
+cheese_deaths.csv                                100%  160     6.9KB/s   00:00
 $ 
 ```
 
-Do not forget the `~ec2-user` on the end of that line. The `access.log` file is at github under `msan501` repo in `data`.  From the shell that is connected to the remote server, ask for the directory listing and you will see the new file:
+Do not forget the `~ec2-user` on the end of that line.   From the shell that is connected to the remote server, ask for the directory listing and you will see the new file:
 
 ```bash
-[ec2-user@ip-172-30-0-97 ~]$ ls
-access.log  coffee
-[ec2-user@ip-172-30-0-97 ~]$ head access.log # print the first few lines of file
-64.221.136.91 - - [02/Sep/2003:00:00:09 -0700] "GET / HTTP/1.1" 200 11690 "-" "Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; Win 9x 4.90; Q312461)"
-64.221.136.91 - - [02/Sep/2003:00:00:10 -0700] "GET /images/shim.gif HTTP/1.1" 200 43 "http://www.antlr.org/" "Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; Win 9x 4.90; Q312461)"
-...
+[ec2-user@ip-172-30-0-135 ~]$ ls
+cheese_deaths.csv
+[ec2-user@ip-172-30-0-135 ~]$ head cheese_deaths.csv 
+years,cheese,deaths
+2000,29.8,327
+2001,30.1,456
+2002,30.5,509
+2003,30.6,497
+2004,31.3,596
+2005,31.7,573
+2006,32.6,661
+2007,32.7,809
+2008,32.8,717
 ```
 
 To exit the remote server, type `exit` or use `^D` from the `$` prompt. The machine will still be running but you're no longer connected to it from your laptop.

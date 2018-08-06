@@ -76,8 +76,8 @@ Designing and building programs
 * [Programming Patterns in Python](notes/python-patterns.ipynb) (Day 4)
 * [Data aliasing](notes/aliasing.ipynb) (Day 4)
 * [Organizing your code with functions](notes/functions.ipynb) (Day 4 up to search function, Day 5)
-* [How to read code](notes/reading-code.md) (Day 9)
-* [Object-oriented programming](notes/OO.ipynb) (Day 9)
+* [How to read code](notes/reading-code.md) (Day 10)
+* [Object-oriented programming](notes/OO.ipynb) (Day 9 up to Simple Set Impl)
 
 Key programming patterns
 

@@ -171,7 +171,11 @@ cheese_deaths.csv                                100%  160     6.9KB/s   00:00
 $ 
 ```
 
-Do not forget the `~ec2-user` on the end of that line.   From the shell that is connected to the remote server, ask for the directory listing and you will see the new file:
+Do not forget the `~ec2-user` on the end of that line.  The general form of the command is:
+
+scp -i *your-pem-file* *file-to-copy* *user*@*machine-name*:*directory-on-remote-machine*
+
+From the shell that is connected to the remote server, ask for the directory listing and you will see the new file:
 
 ```bash
 [ec2-user@ip-172-30-0-135 ~]$ ls

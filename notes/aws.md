@@ -145,23 +145,21 @@ To get data up to the server, you can cut-and-paste if the file is small. For ex
 8 tombu
 ```
 
-then type the following commands on the remote computer and paste the data:
+then launch the `nano` editor on the remote computer:
 
 ```bash
-[ec2-user@ip-172-30-0-97 ~]$ cd ~ # get to my home directory
-[ec2-user@ip-172-30-0-97 ~]$ cat > coffee
-3 parrt
-2 jcoker
-8 tombu
-^D
+[ec2-user@ip-172-30-0-97 ~]$ nano coffee
+```
+
+Paste the data into that file and type control-X and then "Yes" to save the file. You should pop back to the prompt after exiting.
+
+```bash
 [ec2-user@ip-172-30-0-97 ~]$ cat coffee # print it back out
 3 parrt
 2 jcoker
 8 tombu
 $ 
 ```
-
-The `^D` means control-D, which means end of file.  `cat` is reading from standard input and writing to the file because of the redirection operator `>`. The way it knows we are done is when we signal in the file with control-D *on a line by itself*.
 
 For larger files, we need to use the secure copy `scp` command that has the same argument structure as secure shell `ssh`. Get another shell running on your laptop. Download data file [cheese_deaths.csv](https://raw.githubusercontent.com/parrt/msan501/master/projects/regression/data/cheese_deaths.csv) and store on your laptop in the directory where you are currently working on the laptop command line. Now, in a shell **on your laptop**, use the following command (that is similar to `ssh`) to copy it to the remote computer:
 

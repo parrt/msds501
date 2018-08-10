@@ -1,4 +1,4 @@
-MSAN501 Computational Data Science Bootcamp
+MSDS501 Computational Data Science Bootcamp
 =======
 
 This 6-week computational bootcamp is part of the [MS in Data Science (formerly MS Analytics) program at the University of San Francisco](https://www.usfca.edu/arts-sciences/graduate-programs/data-science) and is specifically designed as an introduction to data science programming for those who are not yet skilled programmers.
@@ -21,7 +21,7 @@ This 6-week computational bootcamp is part of the [MS in Data Science (formerly 
 
 **INSTRUCTION FORMAT**. Class runs for 1:50 hours, 2 days per week. Instructor-student interaction during lecture is encouraged and we'll mix in mini-exercises / labs during class. All programming will be done in the Python 3 programming language, unless otherwise specified.
 
-**COMMUNICATION**. Please join slack channel `#msan501`. Email or coming by my office are also ok.
+**COMMUNICATION**. Please join slack channel `#msds501`. Email or coming by my office are also ok.
 
 **TARDINESS.** Please be on time for class. It is a big distraction if you come in late.
 

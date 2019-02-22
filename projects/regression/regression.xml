@@ -140,6 +140,8 @@ To show our prediction model in action, we can ask how many deaths there would b
 
 <subsection title="Gradient descent in 3D">
 
+See [3D animations of SGD](https://towardsdatascience.com/the-keys-of-deep-learning-in-100-lines-of-code-907398c76504).
+
 Before trying to minimize the cost function, it's helpful to study what the surface looks like in three dimensions, as shown in the following graphs. The X and Y dimensions are the coefficients, $\vec b$, of our linear model and the Z coordinate (up) is the cost function.
 
 <pyeval label="ex" hide=true>

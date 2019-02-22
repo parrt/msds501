@@ -211,7 +211,7 @@ For words `petal`, `software`, and `car` you should get:
 
 ### Speeding up the data load
 
-**TODO**: next year load CSV, set index of dataframe as word, save as feather. Load is 2.5s not 35s.  Don't need a `dict` when df will suffice.
+**TODO**: next year load CSV, set index of dataframe as word, save as feather. Load is 2.5s not 35s.  Don't need a `dict` when df will suffice. actually, turns out df row access via index is super super slow. loading from feather does help of course.
 
 By playing around, I've managed to drop the time to load data from 30 seconds to 18 seconds using the binary [feather](https://github.com/wesm/feather) format. (This is super useful later when you do machine learning stuff.) The idea is to use Pandas' `read_csv` function to load the text file, which is also faster than reading line by line in Python, and then save the resulting data frame into a feather file. Then you can read that feather file in about 2.5 seconds instead of reading the text file again.  We have to convert the data frame to a dictionary, which is pretty slow to do it manually, but we gain some speed over the previous method. 
 

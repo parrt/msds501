@@ -1,5 +1,7 @@
 # Word similarity and relationships
 
+*todo*: try BERT? https://github.com/google-research/bert
+
 ## Goal
 
 In this project, you will leverage a semi-recent advance in natural language processing called [word2vec](http://arxiv.org/pdf/1301.3781.pdf) (or just *word vectors*) to study the similarity between words. In particular, we're going to use a "database" from [Stanford's GloVe project](https://nlp.stanford.edu/projects/glove/).  For example, given a single word, we can find the *n* closest words:

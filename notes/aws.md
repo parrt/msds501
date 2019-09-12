@@ -197,4 +197,4 @@ Play around with your instance and then **TERMINATE YOUR INSTANCE WHEN YOU ARE D
 
 <img src=images/terminated.png width=450>
 
-If you say "stop" instead, it will stop the machine, but you still get charged. On the other hand, this is useful because you can restart that machine without having to go through this whole procedure. All of your data will be intact. If you say "Terminate", it will toss the machine out and you will have to go through this procedure again to get a new machine.
+If you say "stop" instead, it will stop the machine, but you still get charged, but just a little for the storage associated with that machine. On the other hand, this is useful because you can restart that machine without having to go through this whole procedure. All of your data will be intact. If you say "Terminate", it will toss the machine out and you will have to go through this procedure again to get a new machine.

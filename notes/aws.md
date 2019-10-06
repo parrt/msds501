@@ -83,7 +83,7 @@ $ ls -l parrt.pem
 -r--------@ 1 parrt  501  1696 Aug  1 12:12 /Users/parrt/Dropbox/licenses/parrt.pem
 ```
 
-Don't worry if you don't understand exactly what's going on there. It's basically saying that the file is only read-write for me, the current user, with no permissions to anybody else.
+Don't worry if you don't understand exactly what's going on there. It's basically saying that the file is only readable for me, the current user, with no permissions to anybody else.
 
 For mac and linux users, we will use the direct `ssh` command from the command line. It will be something like:
 

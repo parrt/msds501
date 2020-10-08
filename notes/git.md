@@ -10,13 +10,15 @@ Here is an interactive [git "game"](https://github.com/git-game/git-game) to hel
 
 ## Introduction to revision control
 
-Let me start out with a small detour to drive home that you should be making backups of your laptop. Imagine losing your laptop. Where will all your work be? Gone. I recommend Carbonite or Mozy. Personally, I have a local Timemachine OS X backup hard drive sitting next to my computer that takes a snapshot every hour. It tracks the differences from the previous snapshot, rather than copying the entire hard drive again (slow/wasteful). Then, I have an off-site cloud-based backup with Carbonite that gets backed up when I go to sleep at night.  
+Let me start out with a small detour to drive home that you should be making backups of your laptop. Imagine losing your laptop. Where will all your work be? Gone. I recommend you try out [Backblaze](https://secure.backblaze.com/r/02j31d); it is by far the best I've used so far. 
+
+Personally, I have a local Timemachine OS X backup hard drive sitting next to my computer that takes a snapshot every hour. It tracks the differences from the previous snapshot, rather than copying the entire hard drive again (slow/wasteful). Then, I have an off-site cloud-based backup with Backblaze that gets backed up as files change on my disk.
 
 Using this multi-tiered backup strategy is a good way to think about how programmers use revision control. git is kind of like Time Machine, a local backup, and github.com is kind of like the off-site Carbonite cloud-based backup. The difference between a revision control system and a backup system is that we instruct the revision control system **when** to take a snapshot. Each snapshot should be a logical chunk of work done to the files. A backup system automatically takes snapshots.
 
 Not only do we tell a revision control system when to take a snapshot, we also tell it **what** to snapshot.  Each project you work on is in a directory and all of the files associated with that project sit somewhere in that subtree. The file set is called a *repository* and at any given time, my computer has lots and lots of these repositories. 
 
-A `git` repository instance is just a directory on your disk but it also has a `.git` (hidden) directory. This directory holds a complete database of everything that's happened to the repository since it was created with `git init` (or since you `clone`'d it from github). If you want to throw out the repository, just remove the entire subtree from your disk. There is no central server to notify. Every repository instance is a complete copy so you could have, for example, 10 versions of the repository cloned from an original sitting on the same disk in different directories.
+A `git` repository instance is just a directory on your disk but it also has a `.git` (hidden) directory. (Directory names that start with the period character do not show up typically in directory listings.) This directory holds a complete database of everything that's happened to the repository since it was created with `git init` (or since you `clone`'d it from github). If you want to throw out the repository, just remove the entire subtree from your disk. There is no central server to notify. Every repository instance is a complete copy so you could have, for example, 10 versions of the repository cloned from an original at githubm.com sitting on the same disk in different directories.
 
 **Tracking changes**
 

@@ -96,7 +96,7 @@ $ ls -a
 
 After you create a repository at github and clone it locally, you can create all sorts of files under the directory managed by git, but git ignores them until you `add` them. The `add` command is basically notifying the repository that it should care about that file.  You can have whatever other files you want laying around. Git will simply ignore them unless you `add` them.
 
-Download [images-starterkit.ipynb](https://github.com/parrt/msds501/blob/master/projects/images-starterkit.ipynb) from github to your images-YOURID directory and call it `images.ipynb`. The cool kids do download and rename without the browser in one command:
+Download [images-starterkit.ipynb](https://github.com/parrt/msds501/blob/master/projects/images-starterkit.ipynb) from github to your images-YOURID directory and call it `images.ipynb`. The cool kids do the download and rename without a browser in one command:
 
 ```bash
 $ curl -o images.ipynb https://github.com/parrt/msds501/raw/master/projects/images-starterkit.ipynb

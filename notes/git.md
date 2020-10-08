@@ -2,7 +2,7 @@
 
 **Motivation**. Every single commercial developer uses revision control at work. Every company you will encounter uses it. For that reason alone, you need to learn revision control to be functional in a commercial setting.  In this class, you will also use revision control, a system called `git`, to submit your work.
 
-For our purposes in MSAN, we're going to ignore most of the nontrivial capabilities that programmers use routinely, such as branching and merging. Git is extremely complicated and would not be my first choice if it weren't for the excellent `github.com`.
+For our purposes in MSDS, we're going to ignore most of the nontrivial capabilities that programmers use routinely, such as branching and merging. Git is extremely complicated and would not be my first choice if it weren't for the excellent `github.com`.
 
 In this lecture-lab, the goal is to get a basic understanding of how revision control and git/github work. We will take the opportunity to learning the primary git commands by getting you started on the images project repository.
 
@@ -20,11 +20,11 @@ A `git` repository instance is just a directory on your disk but it also has a `
 
 **Tracking changes**
 
-As with the Time Machine backup, git tracks snapshots as the difference from the last time you requested a snapshot.  Each snapshot is called a *commit* (and programmers think of these commits as *transactions*.) You should request a commit to lock in a logical chunk of work, such as the addition of a feature or fixing of a bug. Having a complete list of changes is extremely useful. For example, here is a chunk taken out of the middle of my commits on the ANTLR repository as shown by the [SourceTree](https://www.sourcetreeapp.com) git GUI:
+As with the Time Machine backup, git tracks snapshots as the difference from the last time you requested a snapshot.  Each snapshot is called a *commit* (and programmers think of these commits as *transactions*.) You should request a commit to lock in a logical chunk of work, such as the addition of a feature or fixing of a bug. Having a complete list of changes is extremely useful. For example, here is a chunk taken out of the middle of my commits on the [dtreeviz library](https://github.com/parrt/dtreeviz) repository as shown by the [Fork](https://git-fork.com/) git GUI:
 
-![commits](images/commits.png)
+<img src="images/commits.png" width="100%">
 
-<img src="images/redbang.png" width=30 align="left">You can go back and look at changes made to the repository for any commit. Whether using PyCharm or git, I find it very important to look back at recent commits to see what changes have introduced a bug.  Sometimes I decide to abandon a small piece of what's going on and flip a file back to an old version. If you go down a wrong path and would like to revert all those changes, git can easily do that. It can even reset the repository to the state of some earlier commit.
+<img src="images/redbang.png" width=30 align="left">You can go back and look at changes made to the repository for any commit. I find it very important to look back at recent commits to see what changes have introduced a bug.  Sometimes I decide to abandon a small piece of what's going on and flip a file back to an old version. If you go down a wrong path and would like to revert all those changes, git can easily do that. It can even reset the repository to the state of some earlier commit.
 
 **Mirroring repositories at github.com**
 
@@ -39,12 +39,12 @@ It's also the case that you can use github.com to work on the same software on t
 You will receive a link to github that is an invitation to create a repository for the images project. After you accept, it will give you a link to the private repository (only you and I can see the contents of the repository). My github id is `parrt` and so my URL is:
 
 ```
-https://github.com/USF-MSAN501/images-parrt
+https://github.com/USF-MSDS501/images-parrt
 ```
 
-Each class I teach will have be its own organization at github, in this case: `https://github.com/USF-MSAN501`. Each person will have a repository under that directory at github, one per project.
+Each class I teach will have be its own organization at github, in this case: `https://github.com/USF-MSDS501`. Each person will have a repository under that directory at github, one per project.
 
-Our first step is to *clone* that empty repository from github onto our local disk. From your repository page and github, copy the HTTPS URL, as shown here:
+Our first step is to *clone* that empty repository from github onto our local disk. From your repository page and github, copy the HTTPS URL, as shown here (image is slightly out of date as it says `MSAN` not `MSDS`):
 
 <img src=images/github-setup.png width=420>
 
@@ -52,15 +52,15 @@ If you choose the SSH version, it will require that we set up SSH keys for authe
 
 **Cloning onto your laptop**
 
-Now, open the terminal or other bash shell program and create a directory that will house all of your MSAN projects in an orderly fashion. I strongly recommend you create an overall directory under which you create a directory for each class. From the command line it looks like this:
+Now, open the terminal or other bash shell program and create a directory that will house all of your MSDS projects in an orderly fashion. I strongly recommend you create an overall directory under which you create a directory for each class. From the command line it looks like this:
 
 ```bash
 $ pwd             # print working directory
 /Users/parrt     
 $ mkdir classes   # make directory called classes
 $ cd classes      # change current working directory to classes
-$ mkdir msan501   # create directory msan501 under classes
-$ cd msan501      # jump into msan501
+$ mkdir MSDS501   # create directory MSDS501 under classes
+$ cd MSDS501      # jump into MSDS501
 ```
 
 <img src="images/redbang.png" width=30 align="left">Do not use spaces in any filename or directory you ever create. Many open source projects are developed under UNIX and UNIX hates spaces in filenames. Things will mysteriously fail to work if you use spaces.
@@ -68,22 +68,22 @@ $ cd msan501      # jump into msan501
 Depending on how you have your shell set up, you might see the current working directory to the left of the `$` prompt. Here is what my prompt looks like:
 
 ```bash
-beast:~/classes/msan501 $ 
+beast:~/classes/MSDS501 $ 
 ```
 
 The name of my machine is beast and `~` is shorthand for `/Users/parrt` or whatever your user ID is.
  
-Now we have an appropriate structure and it's time to clone your repository under `/Users/parrt/classes/msan501`:
+Now we have an appropriate structure and it's time to clone your repository under `/Users/parrt/classes/MSDS501`:
 
 ```bash
-$ git clone https://github.com/USF-MSAN501/images-parrt.git
+$ git clone https://github.com/USF-MSDS501/images-parrt.git
 Cloning into 'images-parrt'...
 warning: You appear to have cloned an empty repository.
 $ cd images-parrt/
 $ ls
 ```
 
-After cloning, you have an empty directory under `msan501` called `images-YOURID`. It is under this directory that you will do all of your work. **This directory is called the repository**. Technically it's not empty, if you ask for all files in the current directory with `-a` option on `ls` command, you will see the subdirectory used by git to store snapshots:
+After cloning, you have an empty directory under `msds501` called `images-YOURID`. It is under this directory that you will do all of your work. **This directory is called the repository**. Technically it's not empty, if you ask for all files in the current directory with `-a` option on `ls` command, you will see the subdirectory used by git to store snapshots:
 
 ```bash
 $ ls -a
@@ -94,10 +94,10 @@ $ ls -a
 
 After you create a repository at github and clone it locally, you can create all sorts of files under the directory managed by git, but git ignores them until you `add` them. The `add` command is basically notifying the repository that it should care about that file.  You can have whatever other files you want laying around. Git will simply ignore them unless you `add` them.
 
-Download [images-starterkit.ipynb](https://github.com/parrt/msan501/blob/master/projects/images-starterkit.ipynb) from github to your images-YOURID directory and call it `images.ipynb`. The cool kids do download and rename without the browser in one command:
+Download [images-starterkit.ipynb](https://github.com/parrt/msds501/blob/master/projects/images-starterkit.ipynb) from github to your images-YOURID directory and call it `images.ipynb`. The cool kids do download and rename without the browser in one command:
 
 ```bash
-$ curl -o images.ipynb https://github.com/parrt/msan501/raw/master/projects/images-starterkit.ipynb
+$ curl -o images.ipynb https://github.com/parrt/msds501/raw/master/projects/images-starterkit.ipynb
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
 100 41311    0 41311    0     0  87895      0 --:--:-- --:--:-- --:--:-- 87895
@@ -156,8 +156,8 @@ Date:   Fri Jun 30 12:50:42 2017 -0700
 
 ```
 $ git remote -v
-origin	https://github.com/USF-MSAN501/images-parrt.git (fetch)
-origin	https://github.com/USF-MSAN501/images-parrt.git (push)
+origin	https://github.com/USF-MSDS501/images-parrt.git (fetch)
+origin	https://github.com/USF-MSDS501/images-parrt.git (push)
 ```
 
 Ok, let's push our changes (we added a file) back to github:
@@ -169,13 +169,13 @@ Delta compression using up to 8 threads.
 Compressing objects: 100% (2/2), done.
 Writing objects: 100% (3/3), 408 bytes | 0 bytes/s, done.
 Total 3 (delta 0), reused 0 (delta 0)
-To github.com:USF-MSAN501/images-parrt.git
+To github.com:USF-MSDS501/images-parrt.git
  * [new branch]      master -> master
 ```
 
 There is a lot going on in that message, but if there are no errors, you're good to go. The *master* is what we call a branch and you will always be working in the master branch.
 
-Until you get very comfortable with git and github, you should always verify that your pushes succeed by examining the remote repository at github. Refresh your version of the `https://github.com/USF-MSAN501/images-parrt` URL and it should show file `images.ipynb` (and any others you've pushed). Once you've downloaded, unzipped, `add`ed the [image project images zip](https://github.com/parrt/msan501/blob/master/projects/images-expected-output.zip?raw=true), and pushed back to github, your github page should look like:
+Until you get very comfortable with git and github, you should always verify that your pushes succeed by examining the remote repository at github. Refresh your version of the `https://github.com/USF-MSDS501/images-parrt` URL and it should show file `images.ipynb` (and any others you've pushed). Once you've downloaded, unzipped, `add`ed the [image project images zip](https://github.com/parrt/msds501/blob/master/projects/images-expected-output.zip?raw=true), and pushed back to github, your github page should look like:
 
 <img src="../projects/figures/github-initial-add.png" width="600">
 

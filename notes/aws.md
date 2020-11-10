@@ -19,6 +19,10 @@ Select the "Amazon Linux 2 AMI" entry, which should be the first one.  This is a
 
 <img src=images/ami.png width=600>
 
+Or for machine learning and deep learning use this image:
+
+<img src=images/ami-DL.png width=600>
+
 Select instance type "t2.micro," which should be the first machine type listed. This machine is very low powered but is sufficient for playing around. Click "Review and launch"
 
 <img src=images/selectvm.png width=600>
@@ -192,6 +196,24 @@ years,cheese,deaths
 ```
 
 To exit the remote server, type `exit` or use `^D` from the `$` prompt. The machine will still be running but you're no longer connected to it from your laptop.
+
+## Firewall
+
+We can start up a web server on this computer, but it is not reachable from the outside world unless we open up at least one of the ports protected by the firewall. In other words, the server might be listening at a port, but the outside world cannot reach that port.
+
+To change the firewall, click on `launch wizard` under the security groups section in the information describing your instance. It will open up a section of the webpage and then click on the `inbound` tab. It should look like this:
+
+<img src="images/inbound.png" width=400>
+
+Notice that port 22 (SSH) is open. Otherwise we could not of connected to the computer.
+
+Click the Edit button and then click Add Rule.  This will open up a new inbound rule line. Set the port number to 5000, which is where we often put our play servers, and then specify the "Source" as `0.0.0.0/0`, meaning anybody can connect. It should look like this:
+
+<img src="images/addrule.png" width=400>
+
+Click the Save button. And now port 5000 should be open through the firewall, but of course we have not started a server listening at that port and so we cannot connect to that port at this point.
+
+## Terminate when done
 
 Play around with your instance and then **TERMINATE YOUR INSTANCE WHEN YOU ARE DONE**, otherwise you will continue to get charged for the use of that machine. Right-click on the instance from your AWS console and select "instance state" then submenu "terminate". It will warn you that all of your local storage will go away. Hit the "yes, terminate" button. It should look like this when done:
 

@@ -42,7 +42,7 @@ Your goal is to implement a simple interactive program that repeatedly accepts e
 
 Imagine trying to compare two documents for similarity. One document might be about "Installing Windows software" and another one might be about "Deinstalling Microsoft programs."  Because there are no words in common, at least for these titles, it's hard for a computer to tell these titles are related. A human, on the other hand, can easily equate Windows with Microsoft and software with programs etc., thus, finding the titles similar.
 
-Until 2013, software could really only compare two words for exact match or a so-called *edit distance* (how many character edits to go from one word to the other). With word vector, we have a model for the "meaning" of a word in the form of a big vector of floats (usually 50 to 300 dimensional). These vectors are derived from a neural network that learns to map a word to an output vector such that neighboring words in some large corpus are close in 300-space. ("*The main intuition underlying the model is the simple observation that ratios of word-word co-occurrence probabilities have the potential for encoding some form of meaning.*" see [GloVe project](https://nlp.stanford.edu/projects/glove/)) For example, given the words `king`, `queen`, and `cat` here is a two-dimensional projection of the vectors for those words and the 4 nearest to those words (there is some overlap):
+Until 2013, software could really only compare two words for exact match or a so-called *edit distance* (how many character edits to go from one word to the other). With word vector, we have a model for the "meaning" of a word in the form of a big vector of floats (usually 50 to 300 dimensional). These vectors are derived from a neural network that learns to map a word to an output vector such that neighboring words in some large corpus are close in 300-space. ("*The main intuition underlying the model is the simple observation that ratios of word-word co-occurrence probabilities have the potential for encoding some form of meaning.*" see [GloVe project](https://nlp.stanford.edu/projects/glove/)) For example, given the words ['petal','love','king', 'cat'], here is a two-dimensional projection of the vectors for those words and the 3 nearest to those words (there is some overlap):
 
 <img src="figures/wordvec1.png" width=400>
 
@@ -50,7 +50,7 @@ The amazing thing about these vectors is that somehow they really encode the rel
 
 <img src="https://nlp.stanford.edu/projects/glove/images/man_woman.jpg" width=400>
 
-A good place to start this project is the main program as it identifies the key sequence of operations.
+A good place to start this project is look at the provided main program as it identifies the key sequence of operations.
 
 ### Main program
 
@@ -58,74 +58,104 @@ To provide a little commandline interpreter where users can type in words or par
  
 ```python
 if __name__ == '__main__':
-    glove_filename = sys.argv[1]
-    gloves = load_glove(glove_filename)
+    glove_dirname = sys.argv[1]
+    gloves = load_glove(glove_dirname)
 
-    # plot_words(gloves,['king', 'queen', 'cat'], 4)
+    plot_words(gloves,['petal','love','king', 'cat'], 3)
 
     print("Enter a word or 'x:y as z:'")
-    cmd = input("> ")
+    cmd = ''
     while cmd!=None:
+        cmd = input("> ")
         match = re.search(r'(\w+):(\w+) as (\w+):', cmd)
         if match is not None and len(match.groups())==3:
             x = match.group(1).lower()
             y = match.group(2).lower()
             z = match.group(3).lower()
+            if x not in gloves:
+                print(f"{x} is not a word that I know")
+                continue
+            if y not in gloves:
+                print(f"{y} is not a word that I know")
+                continue
+            if z not in gloves:
+                print(f"{z} is not a word that I know")
+                continue
             words = analogies(gloves, x, y, z, 5)
             print("%s is to %s as %s is to {%s}" % (x,y,z,' '.join(words)))
         elif re.match(r'\w+', cmd) is not None:
+            if cmd not in gloves:
+                print(f"{cmd} is not a word that I know")
+                continue
             words = closest_words(gloves, cmd.lower(), 5)
             print("%s is similar to {%s}" % (cmd,' '.join(words)))
         else:
             print("Enter a word or 'x:y as z:'")
-        cmd = input("> ")
 ```
 
 where you just have to fill in the arguments to `analogies(...)` and `closest_words(...)` and write those functions, as described below.
 
-To learn more about passing arguments from the command line to your Python program, see the bottom of our [bash intro](https://github.com/parrt/msan501/blob/master/notes/bash-intro.md).
+To learn more about passing arguments from the command line to your Python program, see the bottom of our [bash intro](https://github.com/parrt/msds501/blob/master/notes/bash-intro.md).
 
-Users can kill the running program when they are done using control-C or can it control-D (on unix) to mean "end of file", thus, forcing the `input()` to return `None`. That makes the loop terminate and therefore the program.
+Users can quit the program by typing "exit" instead of a word or word analogy (you can also kill the running program by using control-C or control-D (on unix), which means "end of file"). That makes the loop terminate and therefore the program.
 
 ### Getting word vector data
 
-The first thing your program needs to do is load the word vector "database" or table. Download the [6B tokens, 400K vocab, uncased, 50d, 100d, 200d, & 300d vectors, 822 MB download](http://nlp.stanford.edu/data/glove.6B.zip) file from the [GloVe project](https://nlp.stanford.edu/projects/glove) and unzip it. Save the resulting files somewhere useful like a `~/data/glove` directory because it will be useful for other projects. There are files for different vector sizes (50, 100, 200, 300):
+The first thing your program needs to do is load the word vector "database". Download the [Common Crawl (42B tokens, 1.9M vocab, uncased, 300d vectors, 1.75 GB download): glove.42B.300d.zip](http://nlp.stanford.edu/data/glove.42B.300d.zip) file from the [GloVe project](https://nlp.stanford.edu/projects/glove) and unzip it into a data directory. (I recommend directory `data` sitting at the root of your user account; e.g., mine is `/Users/parrt/data`.) The unzipped filename is `glove.42B.300d.txt`:
 
 ```bash
-$ ls ~/data/glove/
-glove.6B.100d.txt  glove.6B.200d.txt  glove.6B.300d.txt  glove.6B.50d.txt
-```
-
-You will be passing one of these filenames as an argument to the Python program. All of the examples in this document have used the 300-dimensional vectors. 
-
-The format of the file is extremely simple: it's just the word followed by the components of the word vector. For example:
-
-```
-the 0.418 0.24968 -0.41242 0.1217 0.34527 -0.044457 -0.49688 ...
-of 0.70853 0.57088 -0.4716 0.18048 0.54449 0.72603 0.18157 ...
-to 0.68047 -0.039263 0.30186 -0.17792 0.42962 0.032246 ...
+$ mkdir ~/data # a good place to store data
+$ cd ~/data
+$ unzip glove.42B.300d.zip
+$ ls -l
+...
+-rw-rw-r--@    1 parrt  staff  5025028820 Oct 24  2015 glove.42B.300d.txt
 ...
 ```
 
-Use the following template to create a function that reads in one of these word vector files and returns a dictionary mapping words to vectors (of type numpy `array`).
- 
-```python
-def load_glove(filename):
-    """
-    Read all lines from the indicated file and return a dictionary
-    mapping word:vector where vectors are of numpy `array` type.
-    GloVe file lines are of the form:
+(`~` from the command line means your user home directory, such as `/Users/parrt`.)
 
-    the 0.418 0.24968 -0.41242 0.1217 ...
+You will pass that directory name containing your glove data to the main `wordsim.py` program so that it knows where the data is (which will be different on your machine than mine, so we use a command line argument).
 
-    So split each line on spaces into a list; the first element is the word
-    and the remaining elements represent factor components. The length of the vector
-    should not matter; read vectors of any length.
-    """
-    ...
+The format of the glove word vector file is extremely simple: it's just the token (usually a word) followed by the components of the word vector. For example:
+
+```
+, 0.18378 -0.12123 -0.11987 0.015227 ...
+the -0.20838 -0.14932 -0.017528 -0.028432 ...
+. 0.10876 0.0022438 0.22213 -0.12102 ...
+and -0.09611 -0.25788 -0.3586 -0.32887 ...
+...
 ```
 
-On my machine, takes about 30 seconds to load the 300-dimensional data set.  For debugging purposes, you can grab the first 50 lines or so and store in a small file. This will take milliseconds the loan and you can step through with the debugger to figure out why it is not loading properly or whatever.
+One of the problems we have in data science, as is the case here, is that the files can be huge. 5,025,028,820 characters is 5 gigabytes (5G), which could expand to much more after loading it into memory.  This will start to get close to the amount of RAM you have in your laptop but you should be okay. Even with a fast machine with an SSD instead of a spinning disk, it takes a few minutes to load all of that text and converted into floating-point numbers. That will be painfully slow as you try to develop your code because you must reload that data every time you start up `wordsim.py`.
+
+To make development faster and easier, let's convert that text file into a binary format that is not only smaller but much faster to load.  The idea will be to write a small script to load in the text once and save it in binary into a different file. I call my script `save_np.py`, but you can call it whatever you want since I'm not going to run it during testing; it's for your own use. Subsequent runs of your main program can load the faster version of the file. The goal of the script is to create two new files from the original text version:
+
+* `~/data/glove.42B.300d.vocab.txt` A list of words from the original word vector file; one word per line
+* `~/data/glove.42B.300d.npy` A matrix containing all of the word vectors as saved by NumPy's `save()` method. Each row of the matrix represents the word vector for a word.
+
+My script reads the original glove text file line by line using `f.readlines()`. If you try to load the entire thing with `f.read()` and do a `split('\n')` or similar, you will run out of memory or run into speed problems for sure. So, process the lines one by one, adding the associated word to a vocabulary list of strings and the word vector to a list of numpy arrays.  Given a line, `split(' ')` will give us a list containing the vocabulary word as the first element and the word vector as the remaining 300.  If those 300 strings, one per floating-point number, is in `v` then `np.array(v, dtype=np.float32)` will get you a fast conversion to a numpy array.  From the list of arrays, we can make a matrix with `np.array(mylistofvectors)`. Save the list of vocabulary words, one per line, into the `glove.42B.300d.vocab.txt` file and use `np.save()` to save the matrix into `glove.42B.300d.npy`.
+
+On my machine, takes about 3 minutes 30 seconds to load the original text the data file and save the two new files in the same directory. From the command line, you can time how long things take easily:
+
+```bash
+$ time python save_np.py 
+Loaded matrix of shape (1917494, 300)
+Saved 1917494 words into vocabulary file
+Saved matrix into .npy file
+
+real	3m29.343s
+user	1m51.068s
+sys	0m28.134s
+```
+
+For debugging purposes, you can grab the first 50 lines or so and store in a small file. This will take milliseconds to load and you can step through with the debugger to figure out why it is not loading properly or whatever.  The following command on the command line create such a file for you.
+
+```bash
+head -50 glove.42B.300d.txt > glove50.txt
+```
+
+The first 50 tokens are: `, the . and to of a in " is for : i ) that ( you it on - with 's this by are at as be from have was or your not ... we ! but ? all will an my can they n't do he more if`. When debugging, you will have to have your program load this file instead of the real `glove.42B.300d.txt` file.
 
 ### Computing similar words
 

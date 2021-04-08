@@ -63,10 +63,12 @@ if __name__ == '__main__':
 
     plot_words(gloves,['petal','love','king', 'cat'], 3)
 
-    print("Enter a word or 'x:y as z:'")
+    print("Enter a word or 'x:y as z:' (type 'exit' to quit)")
     cmd = ''
     while cmd!=None:
         cmd = input("> ")
+        if cmd.strip()=='exit':
+            break
         match = re.search(r'(\w+):(\w+) as (\w+):', cmd)
         if match is not None and len(match.groups())==3:
             x = match.group(1).lower()
@@ -136,7 +138,7 @@ To make development faster and easier, let's convert that text file into a binar
 
 My script reads the original glove text file line by line using `f.readlines()`. If you try to load the entire thing with `f.read()` and do a `split('\n')` or similar, you will run out of memory or run into speed problems for sure. So, process the lines one by one, adding the associated word to a vocabulary list of strings and the word vector to a list of numpy arrays.  Given a line, `split(' ')` will give us a list containing the vocabulary word as the first element and the word vector as the remaining 300.  If those 300 strings, one per floating-point number, is in `v` then `np.array(v, dtype=np.float32)` will get you a fast conversion to a numpy array.  From the list of arrays, we can make a matrix with `np.array(mylistofvectors)`. Save the list of vocabulary words, one per line, into the `glove.42B.300d.vocab.txt` file and use `np.save()` to save the matrix into `glove.42B.300d.npy`.
 
-On my machine, takes about 3 minutes 30 seconds to load the original text the data file and save the two new files in the same directory. From the command line, you can time how long things take easily:
+On my machine, it takes about 3 minutes 30 seconds to load the original text the data file and save the two new files in the same directory. From the command line, you can time how long things take easily:
 
 ```bash
 $ time python save_np.py 
@@ -149,7 +151,26 @@ user	1m51.068s
 sys	0m28.134s
 ```
 
-For debugging purposes, you can grab the first 50 lines or so and store in a small file. This will take milliseconds to load and you can step through with the debugger to figure out why it is not loading properly or whatever.  The following command on the command line create such a file for you.
+To load this matrix back in is much faster. For example, the following code executes in 1.5 seconds instead of 3 1/2 minutes.
+
+```python
+# file is called load_np.py
+import numpy as np
+filename = "/Users/parrt/data/glove.42B.300d.npy"
+vecs = np.load(filename)
+print(f"Loaded matrix with shape {vecs.shape}")
+```
+
+```bash
+$ time python load_np.py 
+Loaded matrix with shape (1917494, 300)
+
+real	0m1.548s
+user	0m0.130s
+sys	0m1.410s
+```
+
+For debugging purposes, as you try to load and save the glove files, you might want to grab the first 50 lines or so from the original text file and store that into a small file. This will take milliseconds to load and you can step through with the debugger to figure out why it is not loading properly or whatever.  The following command on the command line create such a file for you.
 
 ```bash
 head -50 glove.42B.300d.txt > glove50.txt

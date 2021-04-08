@@ -1,36 +1,42 @@
 # Word similarity and relationships
 
-*todo*: try BERT? https://github.com/google-research/bert
-
 ## Goal
 
-In this project, you will leverage a semi-recent advance in natural language processing called [word2vec](http://arxiv.org/pdf/1301.3781.pdf) (or just *word vectors*) to study the similarity between words. In particular, we're going to use a "database" from [Stanford's GloVe project](https://nlp.stanford.edu/projects/glove/).  For example, given a single word, we can find the *n* closest words:
+In this project, you will leverage an important advance in natural language processing called [word2vec](http://arxiv.org/pdf/1301.3781.pdf) (or just *word vectors* / *word embeddings*) to study the similarity between words. In particular, we're going to use a "database" from [Stanford's GloVe project](https://nlp.stanford.edu/projects/glove/).  For example, given a single word, we can find the *n* closest words, at least according to the corpus from which the word vectors were derived:
 
 ```
 Enter a word or 'x:y as z:'
 > dog
-dog is similar to {dogs cat pet puppy hound}
+dog is similar to {dogs puppy pet cat pup}
 > cow
-cow is similar to {cows mad bovine sheep goat}
-> spain
-spain is similar to {portugal spanish morocco madrid spaniards}
+cow is similar to {pig sheep goat cattle bull}
+> united
+united is similar to {kingdom america country britain us}
+> chinese
+chinese is similar to {korean china vietnamese japanese thai}
+> alien
+alien is similar to {extraterrestrial spaceship evil planet creature}
+> approach
+approach is similar to {methodology understanding strategy rather perspective}
 ```
 
-Given 3 words, we can also use word vector to fill in the blank of partial analogies of the form "*x is to y as z is to _____*":
+Given three words, we can also use word vectors to fill in the blank of partial analogies of the form "*x is to y as z is to _____*":
 
 ```
 Enter a word or 'x:y as z:'
 > king:queen as man:
-king is to queen as man is to {woman girl person teenager she}
-> building:architect as software:
-building is to architect as software is to {programmer architect designer computer microsoft}
-> german:english as french:
-german is to english as french is to {english welsh spanish language prohertrib}
-> spanish:spain as french:
-spanish is to spain as french is to {france belgium paris spain prohertrib}
+king is to queen as man is to {woman girl lady wonder guy}
+> apple:tree as seed:
+apple is to tree as seed is to {tree leaf planting plant seedling}
+> hammer:nail as comb: 
+hammer is to nail as comb is to {nail manicure hair cuticle brush}
+> dog:puppy as cat:
+dog is to puppy as cat is to {kitten puppy pup kitty pug}
+> like:love as dislike:
+like is to love as dislike is to {love adore hate liking loathe}
 ```
 
-Your goal is to implement a simple "shell" that repeatedly accepts either a word or a partial analogy in the form `x:y as z:` for 3 words x, y, and z.
+Your goal is to implement a simple interactive program that repeatedly accepts either a word or a partial analogy in the form `x:y as z:` for 3 words x, y, and z. I provide the main program for you that actually queries words or analogies from the user and then calls a set of functions you must implement.
 
 ## Description
 

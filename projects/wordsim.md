@@ -366,6 +366,4 @@ test_wordsim.py::test_analogies[4] PASSED                          [100%]
 ========================== 11 passed in 11.59s ===========================
 ```
 
-**That must run in under 40 seconds to get credit for the project.**
-
-Because the order of words could be slightly different depending on the dictionary implementation, the test rig sorts the results before comparing them.
+**That test rig must run in under 40 seconds on my machine to get credit for the project.**

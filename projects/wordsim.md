@@ -274,24 +274,25 @@ The key is to look at the relationship between words, which means vector differe
 
 <img src="figures/male-female-vectors.png" width="250">
 
-In 2D, the vector differences all are semi-flat vectors meaning they are pretty similar. 
+In 2D, the vector differences are fairly similar, which means that their meaning is somehow similar. In this case, the vector difference is reflecting gender in some way.
 
 Here's how to use vector differences for word analogies `x:y as z:`. Compute the vector difference between the first two words and then look for similar vector differences. The simplest mechanism is to exhaustively compare the x-y vector difference to the vector difference from z to all other words in the table. If we sort by distance, the first n words will be the most appropriate words to finish the analogy. Here is your code template for the function.
 
 ```python
+def analogies(gloves, x, y, z, n):
 def analogies(gloves, x, y, z, n):
     """
     Given a gloves dictionary of word:vector and 3 words from
     "x is to y as z is to _____", return the n best words that fill in
     the blank to complete the analogy.
 
-    Compute the vector difference between x and y then compute the              
-    vector difference between z and all vectors, v, in gloves database          
-    (ignore v=z).  You care about the distance between the xy vector            
-    and the zv vector for all vectors v. Track the distances with a             
-    list of tuples of the form: (distance, word).  Sort the list by             
-    distance. Return a list of the first n words from the sorted                
-    list. Do not return the tuples, just the words.                             
+    Compute the vector difference between x and y then compute the
+    vector difference between z and all vectors, v, in gloves database
+    (ignore v=z).  You care about the distance between the xy vector
+    and the zv vector for all vectors v. Track the distances with a
+    list of tuples of the form: (distance, word).  Sort the list by
+    distance. Return a list of the first n words from the sorted
+    list. Do not return the tuples, just the words.
     """
     ...
 ```
@@ -326,26 +327,6 @@ def plot_words(gloves, words, n):
 For words `petal`, `software`, and `car` you should get:
 
 <img src="figures/wordvec2.png" width=400>
-
-### Speeding up the data load
-
-**TODO**: next year load CSV, set index of dataframe as word, save as feather. Load is 2.5s not 35s.  Don't need a `dict` when df will suffice. actually, turns out df row access via index is super super slow. loading from feather does help of course.
-
-By playing around, I've managed to drop the time to load data from 30 seconds to 18 seconds using the binary [feather](https://github.com/wesm/feather) format. (This is super useful later when you do machine learning stuff.) The idea is to use Pandas' `read_csv` function to load the text file, which is also faster than reading line by line in Python, and then save the resulting data frame into a feather file. Then you can read that feather file in about 2.5 seconds instead of reading the text file again.  We have to convert the data frame to a dictionary, which is pretty slow to do it manually, but we gain some speed over the previous method. 
-
-Naturally, my tests do not use this feather functionality, but you should consider exploring how to make this happen.
-
-First, you need to have the appropriate libraries installed:
-
-```bash
-pip install -U feather-format
-```
-
-Then, figure out how to use the parameters of the `read_csv` function to create a data frame in memory of the glove data file. Then save that as a feather file.
-
-Once we have this file laying around, we can use it instead of the original glove text file. Use function `read_feather`.
-
-Once we have a data frame in memory, we can convert it to the appropriate dictionary. I tried using the `itertuples` data frame method to walk the rows to create the dictionary but it was slightly slower than converting the data frame to a numpy matrix first and walking those rows. I also tried using `to_dict` but I couldn't figure out an argument that would make it create the proper dictionary we want for this project.
  
 ## Deliverables
 

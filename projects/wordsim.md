@@ -340,7 +340,7 @@ You can use numpy (e.g., `np.linalg.norm()`) but please do not refer to a bunch 
 
 *If it takes many minutes to process, we will assume there’s a problem with your code.*
 
-We will run `test_wordsim.py` from the command line as follows using the  vectors (where I have placed my datafiles in directory `~/data`):
+We will run [test_wordsim.py](https://github.com/parrt/msds501/blob/master/projects/test_wordsim.py) from the command line as follows using the  vectors (where I have placed my datafiles in directory `~/data`):
 
 ```bash
 $ python -m pytest -v test_wordsim.py ~/data
@@ -368,58 +368,4 @@ test_wordsim.py::test_analogies[4] PASSED                          [100%]
 
 **That must run in under 40 seconds to get credit for the project.**
 
-Here is the test rig file `test_wordsim.py`:
-
-```python
-from wordsim import *
-import sys
-
-word_input = [
-    'dog', 'cow', 'spain', 'king', 'frog', 'run'
-]
-word_output = [
-    ['dogs', 'cat', 'pet', 'puppy', 'hound'],
-    ['cows', 'mad', 'bovine', 'sheep', 'goat'],
-    ['portugal', 'spanish', 'morocco', 'madrid', 'spaniards'],
-    ['queen', 'monarch', 'prince', 'kingdom', 'reign'],
-    ['toad', 'frogs', 'monkey', 'squirrel', 'snake'],
-    ['running', 'runs', 'ran', 'allowed', 'go']
-]
-
-analogy_input = [
-    ['building', 'architect', 'software'],
-    ['king', 'queen', 'man'],
-    ['german', 'english', 'french'],
-    ['spanish', 'spain', 'french'],
-    ['ship', 'vessel', 'car']
-]
-analogy_output = [
-    ['programmer', 'architect', 'designer', 'computer', 'microsoft'],
-    ['woman', 'girl', 'person', 'teenager', 'she'],
-    ['english', 'welsh', 'spanish', 'language', 'prohertrib'],
-    ['france', 'belgium', 'paris', 'spain', 'prohertrib'],
-    ['vehicle', 'cars', 'truck', 'driver', 'driving']
-]
-
-glove_filename = sys.argv[1] # must pass in the 300-Dimensional vectors
-gloves = load_glove(glove_filename)
-
-errors = []
-
-for i,w in enumerate(word_input):
-    closest = closest_words(gloves, w.lower(), 5)
-    if sorted(closest) != sorted(word_output[i]):
-        errors.append("similar words for %s should be %s but was %s" % (w,word_output[i],closest))
-
-for i,w in enumerate(analogy_input):
-    analogs = analogies(gloves, w[0].lower(), w[1].lower(), w[2].lower(), 5)
-    if sorted(analogs) != sorted(analogy_output[i]):
-        errors.append("analogy for %s should be %s but was %s" % (w,analogy_output[i],analogs))
-
-if len(errors)>0:
-    print('\n'.join(errors))
-else:
-    print("All tests pass")
-```
-
-Because the order of words could be slightly different depending on the dictionary implementation, I have sorted the results before comparing them.
+Because the order of words could be slightly different depending on the dictionary implementation, the test rig sorts the results before comparing them.

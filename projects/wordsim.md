@@ -272,7 +272,7 @@ shoe is to foot as glove is to {foot hand finger thumb leg}
 
 The key is to look at the relationship between words, which means vector difference. Take a look at the following 2D projection of some word vectors and the vector differences, such as `['madam','mister','niece', 'nephew', 'king', 'queen']`.
 
-<img src="figures/male-female-vectors.png" width="450">
+<img src="figures/male-female-vectors.png" width="250">
 
 In 2D, the vector differences all are semi-flat vectors meaning they are pretty similar. 
 

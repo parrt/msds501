@@ -103,7 +103,7 @@ Users can quit the program by typing "exit" instead of a word or word analogy (y
 
 ### Getting word vector data
 
-The first thing your program needs to do is load the word vector "database". Download the [Common Crawl (42B tokens, 1.9M vocab, uncased, 300d vectors, 1.75 GB download): glove.42B.300d.zip](http://nlp.stanford.edu/data/glove.42B.300d.zip) file from the [GloVe project](https://nlp.stanford.edu/projects/glove) and unzip it into a data directory. (I recommend directory `data` sitting at the root of your user account; e.g., mine is `/Users/parrt/data`.) The unzipped filename is `glove.42B.300d.txt`:
+The first thing your program needs to do is load the word vector "database". Download the (HUGE) [Common Crawl (42B tokens, 1.9M vocab, uncased, 300d vectors, 1.75 GB download): glove.42B.300d.zip](http://nlp.stanford.edu/data/glove.42B.300d.zip) file from the [GloVe project](https://nlp.stanford.edu/projects/glove) and unzip it into a data directory. (I recommend directory `data` sitting at the root of your user account; e.g., mine is `/Users/parrt/data`.) The unzipped filename is `glove.42B.300d.txt`:
 
 ```bash
 $ mkdir ~/data # a good place to store data
@@ -119,7 +119,7 @@ $ ls -l
 
 You will pass that directory name containing your glove data to the main `wordsim.py` program so that it knows where the data is (which will be different on your machine than mine, so we use a command line argument).
 
-The format of the glove word vector file is extremely simple: it's just the token (usually a word) followed by the components of the word vector. For example:
+The space-separated format of the glove word vector file is extremely simple: it's just the token (usually a word) followed by the components of the word vector. For example:
 
 ```
 , 0.18378 -0.12123 -0.11987 0.015227 ...
@@ -129,7 +129,7 @@ and -0.09611 -0.25788 -0.3586 -0.32887 ...
 ...
 ```
 
-One of the problems we have in data science, as is the case here, is that the files can be huge. 5,025,028,820 characters is 5 gigabytes (5G), which could expand to much more after loading it into memory.  This will start to get close to the amount of RAM you have in your laptop but you should be okay. Even with a fast machine with an SSD instead of a spinning disk, it takes a few minutes to load all of that text and converted into floating-point numbers. That will be painfully slow as you try to develop your code because you must reload that data every time you start up `wordsim.py`.
+One of the problems we have in data science is that files can be huge, as is the case here. 5,025,028,820 characters is 5 gigabytes (5G), which could expand to much more after loading it into memory.  This will start to get close to the amount of RAM you have in your laptop but you should be okay. Even with a fast machine with an SSD instead of a spinning disk, it takes a few minutes to load all of that text and convert it into floating-point numbers. That will be painfully slow as you try to develop your code because you must reload that data every time you start up `wordsim.py`.
 
 To make development faster and easier, let's convert that text file into a binary format that is not only smaller but much faster to load.  The idea will be to write a small script to load in the text once and save it in binary into a different file. I call my script `save_np.py`, but you can call it whatever you want since I'm not going to run it during testing; it's for your own use. Subsequent runs of your main program can load the faster version of the file. The goal of the script is to create two new files from the original text version:
 
@@ -151,7 +151,16 @@ user	1m51.068s
 sys	0m28.134s
 ```
 
-To load this matrix back in is much faster. For example, the following code executes in 1.5 seconds instead of 3 1/2 minutes.
+The resulting binary file is half the size:
+
+```
+$ ls -l ~/data/glove.42B.300d.*
+-rw-r--r--  1 parrt  staff  2300992928 Apr  8 16:35 /Users/parrt/data/glove.42B.300d.npy
+-rw-rw-r--@ 1 parrt  staff  5025028820 Oct 24  2015 /Users/parrt/data/glove.42B.300d.txt
+-rw-r--r--  1 parrt  staff    17597168 Apr  8 16:35 /Users/parrt/data/glove.42B.300d.vocab.txt
+```
+
+The real benefit is that loading the matrix from the binary file is much faster than loading from a text file. For example, this code:
 
 ```python
 # file is called load_np.py
@@ -160,6 +169,8 @@ filename = "/Users/parrt/data/glove.42B.300d.npy"
 vecs = np.load(filename)
 print(f"Loaded matrix with shape {vecs.shape}")
 ```
+
+executes in 1.5 seconds instead of 3 1/2 minutes:
 
 ```bash
 $ time python load_np.py 

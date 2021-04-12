@@ -248,23 +248,31 @@ def closest_words(gloves, word, n):
 	...
 ```
 
-Given input `mexico`, your program should respond with:
+Given input `lizard`, your program should respond with:
 
-```bash
-mexico is similar to {mexican guatemala peru colombia america}
+```
+lizard is similar to {snake iguana crocodile frog turtle}
+```
+
+Given input `russia`, your program should respond with:
+
+```
+russia is similar to {moscow russian soviet iran finland}
 ```
 
 ### Computing missing analogy words
 
-Your final goal is to finish partial analogies given to you by the user. In other words, given input "`building:architect as software:`", your program should respond with:
+Your final goal is to complete partial analogies given to you by the user. In other words, given input "`shoe:foot as glove:`", your program should respond with:
 
 ```bash
-building is to architect as software is to {programmer architect designer computer microsoft}
+shoe is to foot as glove is to {foot hand finger thumb leg}
 ```
 
-The key is to look at the relationship between words, which means vector difference. Take a look at the following 2D projection of some word vectors and the vector differences, such as France-Paris and Spain-Madrid.
+(As you can see it's not perfect, but it does get `hand` as the second closest.)
 
-<img src="https://deeplearning4j.org/img/countries_capitals.png" width=450>
+The key is to look at the relationship between words, which means vector difference. Take a look at the following 2D projection of some word vectors and the vector differences, such as `['madam','mister','niece', 'nephew', 'king', 'queen']`.
+
+<img src="figures/male-female-vectors.png" width="450">
 
 In 2D, the vector differences all are semi-flat vectors meaning they are pretty similar. 
 

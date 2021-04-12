@@ -315,18 +315,16 @@ def plot_words(gloves, words, n):
     put into a list. Use PCA to project the vectors onto two dimensions.
     Extra separate X and Y coordinate lists and pass to matplotlib's scatter
     function. Then, iterate through the expanded word list and plot the
-    string using text() with, say, fontsize=16. call show().
+    string using text() with, say, fontsize=9. call plt.show().
     """
-    ...
-    wvecs = ...
-    pca = PCA(n_components=2)
-    vecs2D = pca.fit_transform(wvecs)
     ...
 ```
 
-For words `petal`, `software`, and `car` you should get:
+For `plot_words(gloves,['petal','glove','computer'], 4)` you should get:
 
-<img src="figures/wordvec2.png" width=400>
+<img src="figures/wordvec2.png" width=300>
+
+You might need to Google around a little bit but there are plenty of examples on the web.
  
 ## Deliverables
 
@@ -340,25 +338,35 @@ You can use numpy (e.g., `np.linalg.norm()`) but please do not refer to a bunch 
 
 ## Evaluation
 
-Please be aware that, depending on the hardware you run this on, the program could be fairly slow. On my iMac, the test described here takes 50 seconds, which includes time to load and process the 1G file containing 400,000 words. *If it takes many minutes to process, we will assume there’s a problem with your code.*
+*If it takes many minutes to process, we will assume there’s a problem with your code.*
 
-We will run your program from the command line as follows using the 300-dimensional vectors:
-
-```bash
-$ python test_wordsim.py ~/data/glove/glove.6B.300d.txt 
-All tests pass
-$ 
-```
-
-If there is an error, you will see something like this:
+We will run `test_wordsim.py` from the command line as follows using the  vectors (where I have placed my datafiles in directory `~/data`):
 
 ```bash
-$ python test_wordsim.py ~/data/glove/glove.6B.300d.txt 
-similar words for dog should be ['dogs', 'cat', 'pet', 'puppy', 'hound'] but was ['poodle', 'cat', 'pet', 'puppy', 'hound']
-$
+$ python -m pytest -v test_wordsim.py ~/data
+========================== test session starts ===========================
+platform darwin -- Python 3.8.6, pytest-6.2.3, py-1.10.0, pluggy-0.13.1 -- /Users/parrt/opt/anaconda3/bin/python
+cachedir: .pytest_cache
+rootdir: /Users/parrt
+plugins: anyio-2.0.2, xdist-2.2.1, repeat-0.9.1, forked-1.3.0
+collected 11 items                                                       
+
+test_wordsim.py::test_similar_words[0] PASSED                      [  9%]
+test_wordsim.py::test_similar_words[1] PASSED                      [ 18%]
+test_wordsim.py::test_similar_words[2] PASSED                      [ 27%]
+test_wordsim.py::test_similar_words[3] PASSED                      [ 36%]
+test_wordsim.py::test_similar_words[4] PASSED                      [ 45%]
+test_wordsim.py::test_similar_words[5] PASSED                      [ 54%]
+test_wordsim.py::test_analogies[0] PASSED                          [ 63%]
+test_wordsim.py::test_analogies[1] PASSED                          [ 72%]
+test_wordsim.py::test_analogies[2] PASSED                          [ 81%]
+test_wordsim.py::test_analogies[3] PASSED                          [ 90%]
+test_wordsim.py::test_analogies[4] PASSED                          [100%]
+
+========================== 11 passed in 11.59s ===========================
 ```
 
-**It must run in under 2 minutes to get credit for the project.**
+**That must run in under 40 seconds to get credit for the project.**
 
 Here is the test rig file `test_wordsim.py`:
 

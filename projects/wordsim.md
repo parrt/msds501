@@ -131,6 +131,8 @@ and -0.09611 -0.25788 -0.3586 -0.32887 ...
 
 One of the problems we have in data science is that files can be huge, as is the case here. 5,025,028,820 characters is 5 gigabytes (5G), which could expand to much more after loading it into memory.  This will start to get close to the amount of RAM you have in your laptop but you should be okay. Even with a fast machine with an SSD instead of a spinning disk, it takes a few minutes to load all of that text and convert it into floating-point numbers. That will be painfully slow as you try to develop your code because you must reload that data every time you start up `wordsim.py`.
 
+#### Saving the word vectors in NumPy binary
+
 To make development faster and easier, let's convert that text file into a binary format that is not only smaller but much faster to load.  The idea will be to write a small script to load in the text once and save it in binary into a different file. I call my script `save_np.py`, but you can call it whatever you want since I'm not going to run it during testing; it's for your own use. Subsequent runs of your main program can load the faster version of the file. The goal of the script is to create two new files from the original text version:
 
 * `~/data/glove.42B.300d.vocab.txt` A list of words from the original word vector file; one word per line
@@ -181,13 +183,51 @@ user	0m0.130s
 sys	0m1.410s
 ```
 
-For debugging purposes, as you try to load and save the glove files, you might want to grab the first 50 lines or so from the original text file and store that into a small file. This will take milliseconds to load and you can step through with the debugger to figure out why it is not loading properly or whatever.  The following command on the command line create such a file for you.
+#### Debugging word vector loading
+
+For debugging purposes, as you try to load and save the glove files, you might want to grab the first 50 lines or so from the original text file and store that into a small file. This will take milliseconds to load and you can step through with the debugger to figure out why it is not loading properly or whatever.  The following command on the command line creates such a file for you.
 
 ```bash
 head -50 glove.42B.300d.txt > glove50.txt
 ```
 
 The first 50 tokens are: `, the . and to of a in " is for : i ) that ( you it on - with 's this by are at as be from have was or your not ... we ! but ? all will an my can they n't do he more if`. When debugging, you will have to have your program load this file instead of the real `glove.42B.300d.txt` file.
+
+
+#### Restricting the vocabulary to improve interaction speed
+
+We have another issue with the size of our data set.  While we can load the 1,917,494 words and their vectors quickly, that does not mean we can search through them linearly (one by one) quickly to compute distances and so on.  When I run my solution for this project on the full 1.9M words, it takes about 30 seconds to find similar words and do word analogies.  That does not provide a very good user experience and, while we could fix this using parallel processing, we'll simply restrict the size of the vocabulary to the 235,886 words in the dictionary available on your Mac or Unix machine:
+
+```bash
+$ head /usr/share/dict/words 
+A
+a
+aa
+aal
+aalii
+aam
+Aani
+aardvark
+aardwolf
+Aaron
+$ wc -l /usr/share/dict/words 
+  235886 /usr/share/dict/words
+```
+
+Being able to choose a reasonable subset of your data for development or other purposes is a useful skill, so let's incorporate that into our final method that loads the words and word vectors:
+
+```python
+def load_glove(dir:str) -> dict:
+    """
+    Given The name of the directory holding files glove.42B.300d.npy and
+    glove.42B.300d.vocab.txt, this function returns a dictionary mapping
+    a string word to numpy array with the associated 300 dimensional
+    word vector. The words are restricted to those found within
+    file /usr/share/dict/words (make sure to convert those words to
+    lowercase for normalization purposes).
+    """
+    ...
+```
 
 ### Computing similar words
 

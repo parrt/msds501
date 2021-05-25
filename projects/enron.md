@@ -13,12 +13,13 @@ He must have started using a private channel to hide communications with co-cons
 There are two primary tasks:
 
 1. Load 1.5G worth of email messages and construct a tidy data frame that is much easier to process than the raw data (takes about 3 minutes); you will save this in [feather format](https://pypi.org/project/pyarrow) so that it can be loaded extremely quickly.<br><img src="figures/enron-df.png" width="100%">
-2. safd
+2. Create a jupyter notebook that loads the data frame created in the previous step and then generates tables and visualizations as part of an exploration. 
 
+Your projects will be graded via a series of unit tests operating on the data frame you create and my evaluation will examine a PDF that you generate and submit from your notebook.
 
 ## Process 1.5G of Enron email
 
-<img src="figures/condense.png" width="50%"><img src="figures/condense-refactored.png" width="50%">
+<img src="figures/condense.png" width="30%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="figures/condense-refactored.png" width="30%">
 
 ## Exploring email traffic
 

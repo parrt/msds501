@@ -60,17 +60,16 @@ Normalize the email addresses by getting rid of single quotes and delete any `.`
 * `'arnold@enron.com` &rightarrow; `arnold@enron.com`
 * `'.'delaney@enron.com` &rightarrow; `delaney@enron.com`
 
-    Ignore weird email addresses like:
-
-    If missing a "To:" line, ignore email
-
 
 ### Building the script
 
-My approach to this problem was to simply write code that I knew I was going to throw away, in order to explore the email messages and the structure of the data.
+My approach to this problem was to simply write code that I knew I was going to throw away, in order to explore the email messages and the structure of the data. That's how I figured out what we should ignore and what we should filter and normalize. I ended up with a big junk drawer of code with all sorts of commented out sections from previous experiments. Once I built something that worked properly, I reorganized it into multiple methods that made it much easier to understand and simpler to debug.  This is an important step when you're developing code commercially because someone, possibly you, must maintain this code in the future. The better structured it is the easier it will be to maintain. Always be good to your future self. To get an idea of the structure before and after, consider the following to blurred code outlines.
 
-    
 <img src="figures/condense.png" width="10%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="figures/condense-refactored.png" width="10%">
+
+My structured code is organized well. For example, my main program (at the bottom) consists of code to essentially process all of the email into a data frame and then save it. Processing all of the email means getting a list of all message files and then loading those files one by one. As I load, I filter and normalize the information into a list of records (tuples). My primary method then converts that to a data frame and returns it to the main program, which saves it and feather format. I also have a method to extract the relevant bits from an email message and a method to normalize an email address.
+
+You can structure your code anyway you want, but it must save the `enron.feather` file in the current working directory. That way my `test_enron.py` tests will find the data file.
 
 ## Exploring email traffic
 

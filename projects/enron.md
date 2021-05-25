@@ -69,7 +69,7 @@ My approach to this problem was to simply write code that I knew I was going to 
 
 My structured code is organized well. For example, my main program (at the bottom) consists of code to essentially process all of the email into a data frame and then save it. Processing all of the email means getting a list of all message files and then loading those files one by one. As I load, I filter and normalize the information into a list of records (tuples). My primary method then converts that to a data frame and returns it to the main program, which saves it and feather format. I also have a method to extract the relevant bits from an email message and a method to normalize an email address.
 
-You can structure your code anyway you want, but it must save the `enron.feather` file in the current working directory. That way my `test_enron.py` tests will find the data file.
+You can structure your code anyway you want, but it must save the `enron.feather` file in the current working directory. That way my `test_enron.py` tests will find the data file. 
 
 ## Exploring email traffic
 
@@ -84,11 +84,32 @@ In your repository, you should submit file
 
 ## Evaluation
 
-We will run [test_wordsim.py](https://github.com/parrt/msds501/blob/master/projects/test_wordsim.py) from the command line as follows using the  vectors (where I have placed my datafiles in directory `~/data`):
+I will execute your `condense.py` script from the command line with an argument indicating where I have my `maildir` directory. For example, I probably will executed like this:
 
-```bash
-$ python -m pytest -v test_wordsim.py ~/data
+```python
+$ python condense.py ~/data/maildir
 ...
 ```
 
-**That test rig must run in under 40 seconds on my machine to get credit for the project.**
+**Execution time of condense.py to create enron.feather must be under 3.5 minutes on my machine to get credit for the project.**  It must also leave the `enron.feather` file in the current directory so that the unit tests know how to find the file.
+
+I will test the contents of `enron.feather` using the [test_enron.py]() test rig:
+
+```bash
+$ python -m pytest -v test_enron.py
+================================= test session starts =================================
+platform darwin -- Python 3.8.8, pytest-6.2.3, py-1.10.0, pluggy-0.13.1 -- /Users/parrt/opt/anaconda3/bin/python
+cachedir: .pytest_cache
+rootdir: /Users/parrt/courses/msds501-private/projects/enron
+plugins: anyio-2.2.0
+collected 6 items                                                                     
+
+test_enron.py::test_overall_stats PASSED                                        [ 16%]
+test_enron.py::test_addrs PASSED                                                [ 33%]
+test_enron.py::test_lavorato_filenames PASSED                                   [ 50%]
+test_enron.py::test_kay_mann PASSED                                             [ 66%]
+test_enron.py::test_tim_johanson PASSED                                         [ 83%]
+test_enron.py::test_ken_lay_senders PASSED                                      [100%]
+
+================================= 6 passed in 15.05s ==================================
+```

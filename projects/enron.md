@@ -12,8 +12,7 @@ He must have started using a private channel to hide communications with co-cons
 
 There are two primary tasks:
 
-1. Load 1.5G worth of email messages and construct a tidy data frame that is much easier to process than the raw data (takes about 3 minutes); you will save this in [feather format](https://pypi.org/project/pyarrow) so that it can be loaded extremely quickly.<br>
-<img src="figures/enron-df.png" width="100%">
+1. Load 1.5G worth of email messages and construct a tidy data frame that is much easier to process than the raw data (takes about 3 minutes); you will save this in [feather format](https://pypi.org/project/pyarrow) so that it can be loaded extremely quickly.<br><img src="figures/enron-df.png" width="100%">
 2. safd
 
 

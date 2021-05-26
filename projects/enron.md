@@ -80,7 +80,11 @@ You can structure your code anyway you want, but it must save the `enron.feather
 
 ## Deliverables
 
-In your repository, you should submit file 
+In your repository, you should submit the following files in the root of the repository:
+
+* `condense.py`
+* `enron.ipynb`
+* `enron.pdf`
 
 ## Evaluation
 
@@ -93,7 +97,7 @@ $ python condense.py ~/data/maildir
 
 **Execution time of condense.py to create enron.feather must be under 3.5 minutes on my machine to get credit for the project.**  It must also leave the `enron.feather` file in the current directory so that the unit tests know how to find the file.
 
-I will test the contents of `enron.feather` using the [test_enron.py]() test rig:
+I will test the contents of `enron.feather` using the [test_enron.py](https://github.com/parrt/msds501/blob/master/projects/test_enron.py) test rig:
 
 ```bash
 $ python -m pytest -v test_enron.py
@@ -113,3 +117,5 @@ test_enron.py::test_ken_lay_senders PASSED                                      
 
 ================================= 6 passed in 15.05s ==================================
 ```
+
+And finally, I will take a look at the `enron.pdf` file to verify you have created the proper output.

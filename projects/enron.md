@@ -195,9 +195,9 @@ Use networkx `ego_graph()` method to get a radius=1 neighborhood around `jeff.sk
 
 In your repository, you should submit the following files in the root of the repository:
 
-* `condense.py`
-* `enron.ipynb`
-* `enron.pdf`
+* `condense.py` This is the script that reads all of the emails and creates the handy data frame in feather format.
+* `enron.ipynb` Follow the [starter kit]() of the notebook and generate the appropriate explorations and visualizations
+* `enron.pdf` This is the PDF exported from the notebook.
 
 ## Evaluation
 

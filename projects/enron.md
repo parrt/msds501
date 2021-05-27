@@ -130,13 +130,13 @@ people = ['jeff.skilling', 'kenneth.lay', 'louise.kitchen', 'tana.jones',
 
 ## Exploring email connection graph
 
-From the data frame, create a graph data structure using networkx. Create an edge from node A to node B if there is an email from A to B in the data frame. Although we do know the total number of emails between people, let's keep it simple and use simply a weight of 1 as the edge label. See networkx method `add_edge()`.
+From the data frame, create a graph data structure using networkx. Create an edge from node A to node B if there is an email from A to B in the data frame. Although we do know the total number of emails between people, let's keep it simple and use simply a weight of 1 as the edge label. See networkx method `add_edge()`. Once you have created the graph object, you can't compute interesting statistics and make visualizations.
+
+### PageRank between users
 
 Using networkx, compute the pagerank between all nodes. Get the data into a data frame, sort in reverse order, and display the top 15 users from the data frame. 
 
 (I use `DataFrame.from_dict` to convert the dictionaries returned from the various networkx methods to data frames.)
-
-### PageRank between users
 
 ```
                  PageRank
@@ -161,7 +161,6 @@ steven.kean      0.001988
 
 Compute the centrality for the nodes of the graph. The documentation says that centrality is "*the fraction of nodes it is connected to.*"
 
-
 ```
                   Centrality
 sally.beck          0.087738
@@ -180,6 +179,13 @@ julie.clyatt        0.045605
 bodyshop            0.044686
 david.oxley         0.043563
 ```
+
+### Visualizing graph subsets
+
+The email graph is way too large to display the whole thing and get any meaningful information out. However, we can look at subsets of the graph such as the neighbors of a specific node. To visualize it we can use different strategies to layout the nodes. In this case, we will use two different layout strategies: *spring* and *kamada-kawai*. According to
+[Wikipedia](https://en.wikipedia.org/wiki/Force-directed_graph_drawing), these force directed layout strategies have the characteristic: "*...the edges tend to have uniform length (because of the spring forces), and nodes that are not connected by an edge tend to be drawn further apart...*".  
+
+Use networkx `ego_graph()` method to get a radius=1 neighborhood around `jeff.skilling` and draw the spring graph with a plot that is 20x20 inch so we can see details.  Then, draw the same subgraph again using the kamada-kawai layout strategy. Finally, get the neighborhood around kenneth.lay and draw kamada-kawai. The graph should look like this:
 
 <img src="figures/enron-skilling-kamada.png" width="50%"><img src="figures/enron-skilling-spring.png" width="50%">
 

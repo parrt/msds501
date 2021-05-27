@@ -116,21 +116,70 @@ You need to create two bar charts:
 
 ### Heatmap showing number of email messages between employees
 
-Given a list of Enron employees, compute a heat map that indicates how much email traffic went between each pair of employees. The heat map is not symmetric because Susan sending mail to Xue is not the same thing as Xue sending mail to Susan. The first step is to group the data frame by `From` and `To` columns in order to get the number of emails from person $i$ to person $j$. Then, create a 2D numpy matrix, $C$, of integers and set $C_{i,j}$ to the count of person $i$ to person $j$. Using matplotlib, `ax.imshow(C, cmap='GnBu', vmax=4000)`, show the heat map and add tick labels at 45 degrees for the X axis. Set the labels to the appropriate names.   Draw the number of emails in the appropriate cells of the heat map, for all values greater than zero. Please note that when you draw text using `ax.text()`, the coordinates are X,Y whereas the coordinates in the $C$ matrix are row,column so you will have to flip the coordinates.
+Given a list of Enron employees, compute a heat map that indicates how much email traffic went between each pair of employees. The heat map is not symmetric because Susan sending mail to Xue is not the same thing as Xue sending mail to Susan. The first step is to group the data frame by `From` and `To` columns in order to get the number of emails from person i to person j. Then, create a 2D numpy matrix, C, of integers and set C[i,j] to the count of person i to person j emails. Using matplotlib, `ax.imshow(C, cmap='GnBu', vmax=4000)`, show the heat map and add tick labels at 45 degrees for the X axis. Set the labels to the appropriate names.   Draw the number of emails in the appropriate cells of the heat map, for all values greater than zero. Please note that when you draw text using `ax.text()`, the coordinates are X,Y whereas the coordinates in the C matrix are row,column so you will have to flip the coordinates.
 
 ```python
-top_pr_people = ['jeff.skilling', 'kenneth.lay', 'louise.kitchen', 'tana.jones',
-                 'sara.shackleton', 'vince.kaminski', 'sally.beck', 'john.lavorato',
-                 'mark.taylor', 'greg.whalley',
-                 'jeff.dasovich', 'steven.kean', 'chris.germany',
-                 'mike.mcconnell', 'benjamin.rogers', 'j.kaminski', 'stanley.horton',
-                 'a..shankman', 'richard.shapiro']
+people = ['jeff.skilling', 'kenneth.lay', 'louise.kitchen', 'tana.jones',
+          'sara.shackleton', 'vince.kaminski', 'sally.beck', 'john.lavorato',
+          'mark.taylor', 'greg.whalley', 'jeff.dasovich', 'steven.kean',
+          'chris.germany', 'mike.mcconnell', 'benjamin.rogers', 'j.kaminski',
+          'stanley.horton', 'a..shankman', 'richard.shapiro']
 ```                 
 <img src="figures/enron-heatmap.png" width="50%">
 
 
 ## Exploring email connection graph
 
+From the data frame, create a graph data structure using networkx. Create an edge from node A to node B if there is an email from A to B in the data frame. Although we do know the total number of emails between people, let's keep it simple and use simply a weight of 1 as the edge label. See networkx method `add_edge()`.
+
+Using networkx, compute the pagerank between all nodes. Get the data into a data frame, sort in reverse order, and display the top 15 users from the data frame. 
+
+(I use `DataFrame.from_dict` to convert the dictionaries returned from the various networkx methods to data frames.)
+
+### PageRank between users
+
+```
+                 PageRank
+jeff.skilling    0.004942
+kenneth.lay      0.004559
+louise.kitchen   0.004472
+tana.jones       0.004291
+sara.shackleton  0.004002
+vince.kaminski   0.003817
+sally.beck       0.003567
+john.lavorato    0.003448
+gerald.nemec     0.002698
+rod.hayslett     0.002528
+mark.taylor      0.002501
+greg.whalley     0.002270
+jeff.dasovich    0.002259
+daren.farmer     0.001996
+steven.kean      0.001988
+```
+
+### Measuring centrality of users
+
+Compute the centrality for the nodes of the graph. The documentation says that centrality is "*the fraction of nodes it is connected to.*"
+
+
+```
+                  Centrality
+sally.beck          0.087738
+outlook.team        0.081967
+david.forster       0.079567
+kenneth.lay         0.075788
+technology.enron    0.063327
+jeff.skilling       0.057964
+tana.jones          0.054747
+louise.kitchen      0.053215
+jeff.dasovich       0.048721
+sara.shackleton     0.047750
+tracey.kozadinos    0.047138
+john.lavorato       0.046627
+julie.clyatt        0.045605
+bodyshop            0.044686
+david.oxley         0.043563
+```
 
 <img src="figures/enron-skilling-kamada.png" width="50%"><img src="figures/enron-skilling-spring.png" width="50%">
 

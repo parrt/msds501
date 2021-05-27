@@ -60,6 +60,21 @@ Normalize the email addresses by getting rid of single quotes and delete any `.`
 * `'arnold@enron.com` &rightarrow; `arnold@enron.com`
 * `'.'delaney@enron.com` &rightarrow; `delaney@enron.com`
 
+As a final detail, the date strings contained in the email messages must be converted to `datetime` objects and then stripped to just plain dates. (See the sample data frame above.) I found the easiest way was to add date strings to the data frame and then use pandas to convert to a play date object. Here are the appropriate column datatypes:
+
+```
+ #   Column      Dtype 
+---  ------      ----- 
+ 0   MailID      int64 
+ 1   Date        object
+ 2   From        object
+ 3   To          object
+ 4   Recipients  int64 
+ 5   Subject     object
+ 6   filename    object
+```
+
+The type of the `Date` column shows as `object` for some reason but if you actually look at the elements with, say, `df['Date'][0]`, you get: `datetime.date(2001, 5, 14)`.
 
 ### Building the script
 
@@ -69,14 +84,33 @@ My approach to this problem was to simply write code that I knew I was going to 
 
 My structured code is organized well. For example, my main program (at the bottom) consists of code to essentially process all of the email into a data frame and then save it. Processing all of the email means getting a list of all message files and then loading those files one by one. As I load, I filter and normalize the information into a list of records (tuples). My primary method then converts that to a data frame and returns it to the main program, which saves it and feather format. I also have a method to extract the relevant bits from an email message and a method to normalize an email address.
 
-You can structure your code anyway you want, but it must save the `enron.feather` file in the current working directory. That way my `test_enron.py` tests will find the data file. 
+You can structure your code anyway you want, but it must save the `enron.feather` file in the current working directory. That way my `test_enron.py` tests will find the data file.
+
+As another test, see [enron-5000.csv](https://github.com/parrt/msds501/blob/master/projects/enron-5000.csv) which is the first 5000 after sorting by date. The code to generate it is:
+
+```python
+df.sort_values('Date').head(5000).to_csv("enron-5000.csv")`
+```
+
+You should compare this CSV file with what you generate.
 
 ## Exploring email traffic
 
+<img src="figures/enron-date-histo.png" width="50%"><img src="figures/enron-john-lavorato.png" width="50%"><br>
+<img src="figures/enron-richard-shapiro.png" width="50%"><img src="figures/enron-kenneth-lay.png" width="50%">
+
+<img src="figures/enron-sent.png" width="50%"><img src="figures/enron-received.png" width="50%">
+
+
+<img src="figures/enron-heatmap.png" width="50%">
+
+
 ## Exploring email connection graph
 
-<img src="figures/skill ing-k1.png" width="50%">
 
+<img src="figures/enron-skilling-kamada.png" width="50%"><img src="figures/enron-skilling-spring.png" width="50%">
+
+<img src="figures/enron-lay-kamada.png" width="50%">
 
 ## Deliverables
 

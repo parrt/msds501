@@ -96,7 +96,7 @@ You should compare this CSV file with what you generate.
 
 ## Exploring email traffic
 
-Fill out the notebook file called `enron.ipynd` located in the root of your repository so that it includes the explorations and visualizations mentioned in this section.
+Fill out the notebook file called `enron.ipynd` located in the root of your repository so that it includes the explorations and visualizations mentioned in this section. Please begin with the [notebook starter kit](https://github.com/parrt/msds501/blob/master/projects/enron.ipynb).
 
 ### Email traffic over time
 
@@ -196,7 +196,7 @@ Use networkx `ego_graph()` method to get a radius=1 neighborhood around `jeff.sk
 In your repository, you should submit the following files in the root of the repository:
 
 * `condense.py` This is the script that reads all of the emails and creates the handy data frame in feather format.
-* `enron.ipynb` Follow the [starter kit]() of the notebook and generate the appropriate explorations and visualizations
+* `enron.ipynb` Follow the [starter kit](https://github.com/parrt/msds501/blob/master/projects/enron.ipynb) of the notebook and generate the appropriate explorations and visualizations
 * `enron.pdf` This is the PDF exported from the notebook.
 
 ## Evaluation

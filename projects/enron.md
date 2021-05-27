@@ -96,12 +96,36 @@ You should compare this CSV file with what you generate.
 
 ## Exploring email traffic
 
+Fill out the notebook file called `enron.ipynd` located in the root of your repository so that it includes the explorations and visualizations mentioned in this section.
+
+### Email traffic over time
+
+Group the data set by `Date` and `MailID`, which will get you an index that collects all of the unique mail IDs per date. Then reset the index so that those  date and mail identifiers become columns and then select for just those columns; we don't actually care about the counts created by the `groupby` (that was just to get the index).  Create a histogram that shows the amount of traffic per day. Then specifically for email sent from `richard.shapiro` and then `john.lavorato`. Because some dates are set improperly (to 1980), filter for dates greater than January 1, 1999. The graphs should look like this in your notebook:
+
 <img src="figures/enron-date-histo.png" width="50%"><img src="figures/enron-john-lavorato.png" width="50%"><br>
-<img src="figures/enron-richard-shapiro.png" width="50%"><img src="figures/enron-kenneth-lay.png" width="50%">
+<img src="figures/enron-richard-shapiro.png" width="50%">
+
+### Histogram of email messages sent and received
+
+You need to create two bar charts:
+ 
+1. Count the number of messages received per user and then sort in reverse order.
+2. Make a bar chart showing the top 30 email recipients. Second, Make a bar chart indicating the top 30 mail senders. This is more complicated than the received emails because a single person can email multiple people in a single email. So,  group by `From` and `MailID`, convert the index back to columns and then group again by `From` and get the count.
 
 <img src="figures/enron-sent.png" width="50%"><img src="figures/enron-received.png" width="50%">
 
+### Heatmap showing number of email messages between employees
 
+Given a list of Enron employees, compute a heat map that indicates how much email traffic went between each pair of employees. The heat map is not symmetric because Susan sending mail to Xue is not the same thing as Xue sending mail to Susan. The first step is to group the data frame by `From` and `To` columns in order to get the number of emails from person $i$ to person $j$. Then, create a 2D numpy matrix, $C$, of integers and set $C_{i,j}$ to the count of person $i$ to person $j$. Using matplotlib, `ax.imshow(C, cmap='GnBu', vmax=4000)`, show the heat map and add tick labels at 45 degrees for the X axis. Set the labels to the appropriate names.   Draw the number of emails in the appropriate cells of the heat map, for all values greater than zero. Please note that when you draw text using `ax.text()`, the coordinates are X,Y whereas the coordinates in the $C$ matrix are row,column so you will have to flip the coordinates.
+
+```python
+top_pr_people = ['jeff.skilling', 'kenneth.lay', 'louise.kitchen', 'tana.jones',
+                 'sara.shackleton', 'vince.kaminski', 'sally.beck', 'john.lavorato',
+                 'mark.taylor', 'greg.whalley',
+                 'jeff.dasovich', 'steven.kean', 'chris.germany',
+                 'mike.mcconnell', 'benjamin.rogers', 'j.kaminski', 'stanley.horton',
+                 'a..shankman', 'richard.shapiro']
+```                 
 <img src="figures/enron-heatmap.png" width="50%">
 
 

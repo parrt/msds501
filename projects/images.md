@@ -10,11 +10,11 @@ The goal of this project is to exercise your understanding of all of the major c
 
 For example, here is a sharpened image before/after:
 
-![](figures/bonkers.png) ![](figures/bonkers-sharp-zoom.png)
+<img src="figures/bonkers.png" width="30%">&nbsp;<img src="figures/bonkers-sharp-zoom.png" width="30%">
 
 ## Starter kit and expected output
 
-I have provided a Jupyter Lab notebook for you to use as a [starter kit](https://github.com/parrt/msan501/blob/master/projects/images-starterkit.ipynb). You should save that file into the main directory associated with your repository and then make edits to it. That is the file you will edit and submit for grading.  It looks like this when run as a notebook in jupyter lab:
+I have provided a Jupyter Lab notebook for you to use as a [starter kit](https://github.com/parrt/msan501/blob/master/projects/images.ipynb). You should save that file into the main directory associated with your repository and then make edits to it. That is the file you will edit and submit for grading.  It looks like this when run as a notebook in jupyter lab:
 
 <img src="figures/starterkit.png" width="250">
 
@@ -50,7 +50,7 @@ There is nothing in the repo yet, but we'll get to it!
 
 ## Getting started
 
-The first thing we have to do is get the starter kit into the directory associated with your repository. The repository can only track files that live underneath the images-*yourid* directory (and we have to tell it to track files of interest). Save the [starter kit](https://github.com/parrt/msan501/blob/master/projects/images-starterkit.ipynb) as file **images.ipynb** to your equivalent of `~/msan501/images-parrt` directory. (Rename the starter kit to be **images.ipynb**.)
+The first thing we have to do is get the starter kit into the directory associated with your repository. The repository can only track files that live underneath the images-*yourid* directory (and we have to tell it to track files of interest). Save the [starter kit](https://github.com/parrt/msan501/blob/master/projects/images.ipynb) as file **images.ipynb** to your equivalent of `~/msan501/images-parrt` directory. (Rename the starter kit to be **images.ipynb**.)
 
 Once you have saved that file, you need to add it to the repository. Remember that the repository does not track any file you don't tell it to track:
 
@@ -478,11 +478,18 @@ This simple process of subtracting the Laplacian does an amazing job.  Here's th
 
 <img src="figures/phobos1.png"> <img src="figures/phobos1-sharp.png">
 
-**Deliverables**. Make sure that your `images.ipynb` is correctly committed to your repository and pushed to github. 
+## Deliverables
 
-## Expected results
+Make sure that your `images.ipynb` is correctly committed to your repository and pushed to github. 
 
-**Your notebook must run in under 2 minutes after a kernel restart to get credit for the project.**
+```python
+$ pip install -U notebook-as-pdf
+$ jupyter-nbconvert --to PDFviaHTML images.ipynb
+```
+
+## Evaluation
+
+**Your notebook must run in under 1 minute, as executed by jupyter-nbconvert, to get credit for the project.**  Make sure you test your notebook by restarting the kernel and running all cells so you get a fresh run.  Notebooks that do not execute properly to completion get a 0 so you definitely want to check this!
 
 For your reference, here is the expected sequence of images and sections with all of the code cells hidden (though the relative sizes of those images might be different in your output):
 

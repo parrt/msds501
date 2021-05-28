@@ -1,6 +1,18 @@
-from wordsim import *
+# Must be run like `python -m pytest -v test_wordsim.py ~/data/glove.42B`
+from wordsim import load_glove, closest_words, analogies
 import sys
 import pytest
+
+
+gloves = None
+
+def setup_module():
+    global gloves
+    if gloves is None:
+        print("load")
+        glove_dirname = sys.argv[3]  # must pass in dir with .npy and .vocab.txt files
+        gloves = load_glove(glove_dirname)
+
 
 word_input = [
     'dog', 'cow', 'united', 'chinese', 'approach', 'alien'
@@ -35,24 +47,20 @@ def word_idx(request):
     return request.param
 
 def test_similar_words(word_idx):
+    print("hi")
     closest = closest_words(gloves, word_input[word_idx].lower(), 5)
-    # assert sorted(closest) == sorted(word_output[word_idx])
     assert closest == word_output[word_idx]
 
 
 @pytest.fixture(params=list(range(len(analogy_input))))
 def analogy_idx(request):
+    print("hi")
     return request.param
 
 
 def test_analogies(analogy_idx):
+    print("hi")
     analogs = analogies(gloves, analogy_input[analogy_idx][0].lower(),
                         analogy_input[analogy_idx][1].lower(),
                         analogy_input[analogy_idx][2].lower(), 5)
-    # assert sorted(analogs) == sorted(analogy_output[analogy_idx])
     assert analogs == analogy_output[analogy_idx]
-
-
-# Must be run like `python -m pytest -v test_wordsim.py ~/data`
-glove_dirname = sys.argv[3]  # must pass in dir with .npy and .vocab.txt files
-gloves = load_glove(glove_dirname)

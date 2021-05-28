@@ -153,7 +153,7 @@ user	1m51.068s
 sys	0m28.134s
 ```
 
-Note that your script must take a command line argument indicating the directory containing the word vector file so that I can test your code on my machine. (I'll have the data in a different location than you will.) Your script reads from that directory but writes the vocabulary files to the current directory.
+Note that your script must take a command line argument indicating the directory containing the word vector file so that I can test your code on my machine. (I'll have the data in a different location than you will.) Your script reads from that directory and writes files to the same data directory. 
 
 The resulting binary numpy file is half the size:
 
@@ -232,7 +232,9 @@ def load_glove(dir:str) -> dict:
 
 ### Computing similar words
 
-Given a word, *w*, the easy way to find the *n* nearest words is to exhaustively compute the distance from *w*'s vector to every other vector in the database. Sort by the distance and take the first *n* words. Here is the signature of the function you must implement and a comment describing its implementation:
+Ok, now that you have the preprocessed data files ready and stored in your data directory, you can work on the actual word similarity and analogy parts. 
+
+Given a word, *w*, the easy way to find the *n* nearest words is to exhaustively compute the distance from *w*'s vector to every other vector in the database. Sort by the distance and take the first *n* words. Here is the signature of the function you must implement in `wordsim.py` and a comment describing its implementation:
 
 ```python
 def closest_words(gloves, word, n):
@@ -277,10 +279,9 @@ The key is to look at the relationship between words, which means vector differe
 
 In 2D, the vector differences are fairly similar, which means that their meaning is somehow similar. In this case, the vector difference is reflecting gender in some way.
 
-Here's how to use vector differences for word analogies `x:y as z:`. Compute the vector difference between the first two words and then look for similar vector differences. The simplest mechanism is to exhaustively compare the x-y vector difference to the vector difference from z to all other words in the table. If we sort by distance, the first n words will be the most appropriate words to finish the analogy. Here is your code template for the function.
+Here's how to use vector differences for word analogies `x:y as z:`. Compute the vector difference between the first two words and then look for similar vector differences. The simplest mechanism is to exhaustively compare the x-y vector difference to the vector difference from z to all other words in the table. If we sort by distance, the first *n* words will be the most appropriate words to finish the analogy. Here is your code template for the function.
 
 ```python
-def analogies(gloves, x, y, z, n):
 def analogies(gloves, x, y, z, n):
     """
     Given a gloves dictionary of word:vector and 3 words from
@@ -298,11 +299,9 @@ def analogies(gloves, x, y, z, n):
     ...
 ```
 
-## Where to go from here
+## Using PCA to display word vectors
 
-### Using PCA to display word vectors
-
-If you are feeling particularly frisky near the end of the boot camp, you can do a nice visualization of word vectors. The idea is to take the very large 300-dimensional vectors and project them onto just 2-dimensional space so that we can plot them. The key to such a compression is to perform *principal components analysis* (PCA) on a set of word vectors, which you might hear about in the linear algebra boot camp. This is how I drew the graph above for the words king, queen, and cat (and 3 nearest neighbors). Here is some skeleton code for you to get started:
+If you have some extra time, you can do a nice visualization of word vectors. The idea is to take the very large 300-dimensional vectors and project them onto just 2-dimensional space so that we can plot them. The key to such a compression is to perform *principal components analysis* (PCA) on a set of word vectors, which you might hear about in the linear algebra boot camp. This is how I drew the graph above for the words ['petal','love','king', 'cat'] (and 3 nearest neighbors). Here is some skeleton code for you to get started:
 
 ```python
 from sklearn.decomposition import PCA
@@ -331,22 +330,20 @@ You might need to Google around a little bit but there are plenty of examples on
 
 In your repository, you should submit the following files in the root directory.
 
-* `save_np.py` Reads the were vector file and saves the 2D numpy matrix in file `glove.42B.300d.npy` in the current working directory. It also saves the vocabulary list in `glove.42B.300d.vocab.txt` in the current working directory.
+* `save_np.py` Reads the word vector file and saves the 2D numpy matrix in file `glove.42B.300d.npy` in the current working directory. It also saves the vocabulary list in `glove.42B.300d.vocab.txt` in the current working directory.
 * `wordsim.py` This embodies all of the nearest neighbor and word analogy functionality
 
 *Do not add the word vector glove data to the repository!*
 
 My test script will run `save_np.py` first to get the faster data files and then will run the test rig in `test_wordsim.py` (which I'll copy into your directory during grading).
 
-We will only be testing the nearest neighbor and word analogy functionality, not the visualization, but all of your tests are going to fail if you do not properly process the large word vector file and save it in the right location.
+We will only be testing the nearest neighbor and word analogy functionality, not the visualization and not the `save_np.py` script. I will read but not execute `save_np.py` because it takes so long. I will test your `wordsim.py` code using my version of the saved data set.
 
 You can use numpy (e.g., `np.linalg.norm()`) but please do not refer to a bunch of random packages that I probably don't have installed on my test box. Your test will fail.
 
 *Please do not leave a bunch of debugging print statements in your code.* The output of your program is part of your result so make sure you only emit what you are supposed to.
 
 ## Evaluation
-
-*If it takes many minutes to process, we will assume there’s a problem with your code.*
 
 We will run [test_wordsim.py](https://github.com/parrt/msds501/blob/master/projects/test_wordsim.py) from the command line as follows using the  vectors (where I have placed my datafiles in directory `~/data`):
 
@@ -374,4 +371,4 @@ test_wordsim.py::test_analogies[4] PASSED                          [100%]
 ========================== 11 passed in 11.59s ===========================
 ```
 
-**That test rig must run in under 40 seconds on my machine to get credit for the project.**
+**That test rig must run in under 30 seconds on my machine for you to get credit for the project.**

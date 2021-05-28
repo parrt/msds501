@@ -10,7 +10,7 @@ The goal of this project is to exercise your understanding of all of the major c
 
 For example, here is a sharpened image before/after:
 
-<img src="figures/bonkers.png" width="30%">&nbsp;<img src="figures/bonkers-sharp-zoom.png" width="30%">
+<img src="figures/bonkers.png" width="25%">&nbsp;<img src="figures/bonkers-sharp-zoom.png" width="25%">
 
 
 ## Getting started
@@ -86,7 +86,7 @@ $ git add *.jpg
 $ git add *.png
 ```
 
-*Do not add the zip file to the repository (you should remove it, as we donated)*.
+*Do not add the zip file to the repository (you should remove it, as we don't need it)*.
 
 Now that we have told the repository to track those files, we need to commit that transaction:
 
@@ -104,14 +104,14 @@ $ git commit -a -m 'Initial add of starter kit'
  create mode 100644 phobos2.jpg
 ```
 
-That has committed your change (addition of files) to the local repository.  A really handy tool is called [fork](https://git-fork.com/) that gives you a graphical interface to git.
+That has committed your change (addition of files) to the local repository.  By the way, a really handy tool is called [fork](https://git-fork.com/) that gives you a graphical interface to git.
 
 <img src="figures/fork-images.png" width="60%">
 
 Keep in mind that `git` manages our repository but unless we explicitly push the repository to github, github has no idea about our changes. The `git` program is not the same thing as `github.com`.  So, we need to `git push` our changes to the remote repository hosted at github.
 
 ```bash
-$ git push origin main  # you might to use "master" not "main" here
+$ git push origin main  # you might need to use "master" not "main" here
 ...
 ```
 
@@ -121,7 +121,7 @@ The `origin` is a shorthand for "where did I clone this repo from?"  You should 
 
 ### Launching jupyter
 
-Next, fire up Jupyter Lab *in the directory holding your images.ipynb file*:
+Next, let's fire up Jupyter Lab, making sure that the current working directory is our repository root:
 
 ```bash
 $ cd ~/msds501/images-parrt
@@ -129,15 +129,17 @@ $ jupyter lab
 ...
 ```
 
-This will launch a new tab in your browser.  From the file pane on the left, select the file `images.ipynb` and it will show you the skeleton that you need to fill-in as part of the project. The notebook should look something like this:
+This will launch a new tab in your browser.  From the file pane on the left, select the file `images.ipynb` and it will show you the skeleton that you need to fill-in as part of the project. The notebook should look something like this when you activate it by double-clicking:
 
 <img src="figures/starterkit.png" width="250">
 
-I have provided a number of [images](https://github.com/parrt/msds501/tree/master/projects/figures) that you can use to play around with this project. Of course, you can use any others you want. (Remember, however, that all images used in this class and those stored on University equipment must be "safe for work." Keep it G-rated please, with no offensive images popping up on your laptops or machines during lab etc.)
+Other than the images I have provided, you can use any others you want. (Remember, however, that all images used in this class and those stored on University equipment must be "safe for work." Keep it G-rated please, with no offensive images popping up on your laptops or machines during lab etc.)
 
 ## Task 0. Viewing file in a notebook
 
-To get started, go to the **View** section of the starter kit and try to run the code in that section.
+Ok, at this point we have properly set up our repository, have added our initial starter kit material, pushed the initial state back to github, and have launched Jupyter so that we can work on the notebook. 
+
+Now, go to the **View** section of the starter kit and try to run the code in that section.
 
 ```python
 from PIL import Image

@@ -335,9 +335,7 @@ In your repository, you should submit the following files in the root directory.
 
 *Do not add the word vector glove data to the repository!*
 
-My test script will run `save_np.py` first to get the faster data files and then will run the test rig in `test_wordsim.py` (which I'll copy into your directory during grading).
-
-We will only be testing the nearest neighbor and word analogy functionality, not the visualization and not the `save_np.py` script. I will read but not execute `save_np.py` because it takes so long. I will test your `wordsim.py` code using my version of the saved data set.
+We will only be testing the nearest neighbor and word analogy functionality from `wordsim.py`, not the visualization and not the `save_np.py` script. I will examine but not execute `save_np.py` because it takes so long to run.  I will test your `wordsim.py` code using my version of the preprocessed data set.
 
 You can use numpy (e.g., `np.linalg.norm()`) but please do not refer to a bunch of random packages that I probably don't have installed on my test box. Your test will fail.
 

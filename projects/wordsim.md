@@ -54,7 +54,7 @@ A good place to start this project is look at the provided main program as it id
 
 ### Main program
 
-To provide a little commandline interpreter where users can type in words or partial analogies, you will use this main program:
+To provide a little commandline interpreter where users can type in words or partial analogies, you will use this main program in your `wordsim.py` file (that you must create in the root directory of your depository):
  
 ```python
 if __name__ == '__main__':
@@ -103,7 +103,7 @@ Users can quit the program by typing "exit" instead of a word or word analogy (y
 
 ### Getting word vector data
 
-The first thing your program needs to do is load the word vector "database". Download the (HUGE) [Common Crawl (42B tokens, 1.9M vocab, uncased, 300d vectors, 1.75 GB download): glove.42B.300d.zip](http://nlp.stanford.edu/data/glove.42B.300d.zip) file from the [GloVe project](https://nlp.stanford.edu/projects/glove) and unzip it into a data directory. (I recommend directory `data` sitting at the root of your user account; e.g., mine is `/Users/parrt/data`.) The unzipped filename is `glove.42B.300d.txt`:
+Your first task is preprocess the word vector "database" and store it in a more suitable and speedy format via NumPy. Download the (HUGE) [Common Crawl (42B tokens, 1.9M vocab, uncased, 300d vectors, 1.75 GB download): glove.42B.300d.zip](http://nlp.stanford.edu/data/glove.42B.300d.zip) file from the [GloVe project](https://nlp.stanford.edu/projects/glove) and unzip it into a data directory. (I recommend directory `data` sitting at the root of your user account; e.g., mine is `/Users/parrt/data`.) The unzipped filename is `glove.42B.300d.txt`:
 
 ```bash
 $ mkdir ~/data # a good place to store data
@@ -133,12 +133,12 @@ One of the problems we have in data science is that files can be huge, as is the
 
 #### Saving the word vectors in NumPy binary
 
-To make development faster and easier, let's convert that text file into a binary format that is not only smaller but much faster to load.  The idea will be to write a small script to load in the text once and save it in binary into a different file. I call my script `save_np.py`, but you can call it whatever you want since I'm not going to run it during testing; it's for your own use. Subsequent runs of your main program can load the faster version of the file. The goal of the script is to create two new files from the original text version:
+To make development faster and easier, let's convert that text file into a binary format that is not only smaller but much faster to load.  The idea will be to write a small script to load in the text once and save it in binary into a different file.  Create a script called `save_np.py` that does this preprocessing step. Subsequent runs of your main program can load the faster version of the data file rather than the 5G text file. The goal of the script is to create two new files from the original text version:
 
-* `~/data/glove.42B.300d.vocab.txt` A list of words from the original word vector file; one word per line
-* `~/data/glove.42B.300d.npy` A matrix containing all of the word vectors as saved by NumPy's `save()` method. Each row of the matrix represents the word vector for a word.
+* `glove.42B.300d.vocab.txt` A list of words from the original word vector file; one word per line
+* `glove.42B.300d.npy` A matrix containing all of the word vectors as saved by NumPy's `save()` method. Each row of the matrix represents the word vector for a word.
 
-My script reads the original glove text file line by line using `f.readlines()`. If you try to load the entire thing with `f.read()` and do a `split('\n')` or similar, you will run out of memory or run into speed problems for sure. So, process the lines one by one, adding the associated word to a vocabulary list of strings and the word vector to a list of numpy arrays.  Given a line, `split(' ')` will give us a list containing the vocabulary word as the first element and the word vector as the remaining 300.  If those 300 strings, one per floating-point number, is in `v` then `np.array(v, dtype=np.float32)` will get you a fast conversion to a numpy array.  From the list of arrays, we can make a matrix with `np.array(mylistofvectors)`. Save the list of vocabulary words, one per line, into the `glove.42B.300d.vocab.txt` file and use `np.save()` to save the matrix into `glove.42B.300d.npy`.
+Script `save_np.py` reads the original glove text file line by line using `f.readlines()`. If you try to load the entire thing with `f.read()` and do a `split('\n')` or similar, you will run out of memory or run into speed problems for sure. So, process the lines one by one, adding the associated word to a vocabulary list of strings and the word vector to a list of numpy arrays.  Given a line, `split(' ')` will give us a list containing the vocabulary word as the first element and the word vector as the remaining 300.  If those 300 strings, one per floating-point number, is in variable `v` then `np.array(v, dtype=np.float32)` will give a fast conversion to a numpy array.  From the list of arrays, we can make a matrix with `np.array(mylistofvectors)`. Save the list of vocabulary words, one per line, into the `glove.42B.300d.vocab.txt` file and use `np.save()` to save the matrix into `glove.42B.300d.npy`.  Store the generated files in the same data directory passed into your `save_np.py` script from the command line.
 
 On my machine, it takes about 3 minutes 30 seconds to load the original text the data file and save the two new files in the current working directory. From the command line, you can time how long things take easily:
 
@@ -160,12 +160,8 @@ The resulting binary numpy file is half the size:
 ```bash
 $ ls -l ~/data/glove.42B.300d.*
 -rw-r--r--  1 parrt  staff  2300992928 Apr  8 16:35 /Users/parrt/data/glove.42B.300d.npy
-```
-
-```bash
-$ ls -l glove.42B.300d.*
--rw-rw-r--@ 1 parrt  staff  5025028820 Oct 24  2015 glove.42B.300d.txt
--rw-r--r--  1 parrt  staff    17597168 Apr  8 16:35 glove.42B.300d.vocab.txt
+-rw-rw-r--@ 1 parrt  staff  5025028820 Oct 24  2015 /Users/parrt/data/glove.42B.300d.txt
+-rw-r--r--  1 parrt  staff    17597168 Apr  8 16:35 /Users/parrt/data/glove.42B.300d.vocab.txt
 ```
 
 The real benefit is that loading the matrix from the binary file is much faster than loading from a text file. For example, this code:
@@ -177,16 +173,7 @@ vecs = np.load(filename)
 print(f"Loaded matrix with shape {vecs.shape}")
 ```
 
-executes in 1.5 seconds instead of 3 1/2 minutes:
-
-```bash
-$ time python load_np.py 
-Loaded matrix with shape (1917494, 300)
-
-real	0m1.548s
-user	0m0.130s
-sys	0m1.410s
-```
+executes in 1.5 seconds instead of 3 1/2 minutes.
 
 Your `wordsim.py` script will load this optimized set of files and you only need to run `save_np.py` once.
 
@@ -198,7 +185,15 @@ For debugging purposes, as you try to load and save the glove files, you might w
 head -50 glove.42B.300d.txt > glove50.txt
 ```
 
-The first 50 tokens are: `, the . and to of a in " is for : i ) that ( you it on - with 's this by are at as be from have was or your not ... we ! but ? all will an my can they n't do he more if`. When debugging, you will have to have your program load this file instead of the real `glove.42B.300d.txt` file.
+The first 50 tokens are:
+
+```
+, the . and to of a in " is for : i ) that ( you it on - with 's
+this by are at as be from have was or your not ... we ! but ? all
+will an my can they n't do he more if
+```
+
+When debugging, you can have your program load this file instead of the real `glove.42B.300d.txt` file.
 
 #### Restricting the vocabulary to improve interaction speed
 
@@ -220,7 +215,7 @@ $ wc -l /usr/share/dict/words
   235886 /usr/share/dict/words
 ```
 
-Being able to choose a reasonable subset of your data for development or other purposes is a useful skill, so let's incorporate that into our final method  contained within `wordsim.py` that loads the words and word vectors:
+Being able to choose a reasonable subset of your data for development or other purposes is a useful skill, so let's incorporate that into our final method contained within `wordsim.py` that loads the words and word vectors:
 
 ```python
 def load_glove(dir:str) -> dict:

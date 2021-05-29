@@ -32,9 +32,9 @@ This 5-week computational bootcamp is part of the [MS in Data Science program at
 
 | Artifact | Grade Weight | Due date |
 |--------|--------|--------|
-|[Image processing](https://github.com/parrt/msan501/blob/master/projects/images.md)| 12%| Mon, July 23 |
-| [Word similarity and relationships](https://github.com/parrt/msan501/blob/master/projects/wordsim.md) | 12%| Mon, July 30 |
-| [Predicting Death Rates With Gradient Descent](https://rawgit.com/parrt/msan501/master/projects/regression/index.html)| 12%| Mon, August 6 |
+|[Image processing](https://github.com/parrt/msan501/blob/master/projects/images.md)| 15%| Mon, July 23 |
+| [Word similarity and relationships](https://github.com/parrt/msds501/blob/master/projects/wordsim.md) | 10%| Mon, July 30 |
+| [Exploration of Enron email data set](https://github.com/parrt/msds501/blob/master/projects/enron.md)| 15%| Mon, August 6 |
 |[Quiz 0](https://usfca.instructure.com/courses/1578156/quizzes/2327034)| 0%| Before Mon, July 9|
 |Quiz 1| 16%| 9:25am Tue, July 17 |
 |Quiz 2| 16%| 9:25am Tue, July 24 |

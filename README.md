@@ -2,6 +2,8 @@
 
 This 5-week computational bootcamp is part of the [MS in Data Science program at the University of San Francisco](https://www.usfca.edu/arts-sciences/graduate-programs/data-science) and is specifically designed as an introduction to data science programming for those who are not yet skilled programmers.
 
+Writing software is about problem solving, computer languages, algorithms, data structures, libraries, tools, and computing devices.  In this boot camp, I'm hoping to teach you how to approach programming, review the key elements of Python, teach you some of the core libraries, give you an introduction to the command line, and finally introduce you to cloud computing. You will go over algorithms and data structures in more detail in the machine learning courses as well as the problem-solving course Spring semester.
+
 # Class details
 
 **INSTRUCTOR.** [Terence Parr](http://parrt.cs.usfca.edu). I’m a professor in the computer science and [data science program](https://www.usfca.edu/arts-sciences/graduate-programs/data-science) departments and was founding director of the MS in Analytics program at USF (which became the MS data science program).  Please call me Terence or Professor (“Terry” is not ok).
@@ -55,7 +57,6 @@ Each project has a hard deadline and only those projects working correctly befor
 
 # Syllabus
 
-Writing software is about problem solving, computer languages, algorithms, data structures, libraries, tools, and computing devices.  In this boot camp, I'm hoping to teach you how to approach programming, review the key elements of Python, teach you some of the core libraries, give you an introduction to the command line, and finally introduce you to cloud computing. You will go over algorithms and data structures in more detail in the machine learning courses as well as the problem-solving course Spring semester.
 
 Start your engines!
 

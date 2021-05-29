@@ -527,16 +527,18 @@ This simple process of subtracting the Laplacian does an amazing job.  Here's th
 
 ## Deliverables
 
-Make sure that your `images.ipynb` is correctly committed to your repository and pushed to github. 
+Make sure that your `images.ipynb` and image files are correctly committed to your repository and pushed to github.  Make sure the files are all at the root of your repository, not in a subdirectory of the repository.
+
+## Evaluation
+
+**Your notebook must run in under 1 minute, as executed by jupyter-nbconvert, to get credit for the project.**  Make sure you test your notebook by restarting the kernel and running all cells so you get a fresh run.  Notebooks that do not execute properly to completion get a 0 so you definitely want to check this! Here is how I will test your notebooks:
 
 ```python
 $ pip install -U notebook-as-pdf
 $ jupyter-nbconvert --to PDFviaHTML images.ipynb
 ```
 
-## Evaluation
-
-**Your notebook must run in under 1 minute, as executed by jupyter-nbconvert, to get credit for the project.**  Make sure you test your notebook by restarting the kernel and running all cells so you get a fresh run.  Notebooks that do not execute properly to completion get a 0 so you definitely want to check this!
+Then, I'll review your PDF.
 
 For your reference, here is the expected sequence of images and sections with all of the code cells hidden (though the relative sizes of those images might be different in your output):
 

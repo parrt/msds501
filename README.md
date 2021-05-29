@@ -14,9 +14,7 @@ This 5-week computational bootcamp is part of the [MS in Data Science program at
 
 **TEMPORAL COORDINATES.** Thu July 8 to Thu Aug 12.
 
-* Lectures: Tue/Thur 10AM - noon
-* Quiz 1: Tue ...
-* Quiz 2: Thu ...
+* Lectures: Tue/Thur 10AM - 11:50AM
 
 <!--
 * Exams: Fri 5-6PM Nov 8; Fri 10-11:30AM Dec 6; Room 154-156
@@ -32,14 +30,14 @@ This 5-week computational bootcamp is part of the [MS in Data Science program at
 
 | Artifact | Grade Weight | Due date |
 |--------|--------|--------|
-|[Image processing](https://github.com/parrt/msan501/blob/master/projects/images.md)| 15%| Mon, July 23 |
-| [Word similarity and relationships](https://github.com/parrt/msds501/blob/master/projects/wordsim.md) | 10%| Mon, July 30 |
-| [Exploration of Enron email data set](https://github.com/parrt/msds501/blob/master/projects/enron.md)| 15%| Mon, August 6 |
-|[Quiz 0](https://usfca.instructure.com/courses/1578156/quizzes/2327034)| 0%| Before Mon, July 9|
-|Quiz 1| 16%| 9:25am Tue, July 17 |
-|Quiz 2| 16%| 9:25am Tue, July 24 |
-|Quiz 3| 16%| 9:25am Tue, August 31 |
-|Quiz 4| 16%| 9:25am Tue, August 7 |
+|[Image processing](https://github.com/parrt/msan501/blob/master/projects/images.md)| 15%| Mon, July 22 |
+| [Word similarity and relationships](https://github.com/parrt/msds501/blob/master/projects/wordsim.md) | 10%| Mon, July 29 |
+| [Exploration of Enron email data set](https://github.com/parrt/msds501/blob/master/projects/enron.md)| 15%| Mon, August 14 |
+|[Github/USF survey](https://usfca.instructure.com/courses/1600702/assignments/7086080)| 0%| July 8 |
+|Quiz 1| 16%| 9:15am Thu, July 15 |
+|Quiz 2| 16%| 9:15am Tue, July 27 |
+|Quiz 3| 16%| 9:15am Tue, August 3 |
+|Quiz 4| 16%| 9:15am Tue, August 12 (last day of class) | 
 
 **Quizzes** 1-4 are held in rooms 154-156. All quizzes use [LockDown Browser](https://www.respondus.com/lockdown/download.php?id=953641626) to log into Canvas so you can take the quiz.  Quizzes have strict time limits and you will be unable to do anything other than take the quiz; no access to the Internet etc.  You will have one chance to answer each question and they will appear in random order. Students should read the [Student LockDown Browser Instructions](https://myusf.usfca.edu/sites/default/files/ets-Respondus.pdf) section. In a nutshell, download the [LockDown Browser](https://www.respondus.com/lockdown/download.php?id=953641626), install it, and when you launch it it will take your browser window to Canvas for login.
 

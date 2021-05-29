@@ -112,7 +112,14 @@ Keep in mind that `git` manages our repository but unless we explicitly push the
 
 ```bash
 $ git push origin main  # you might need to use "master" not "main" here
-...
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (10/10), done.
+Writing objects: 100% (10/10), 979.20 KiB | 26.46 MiB/s, done.
+Total 10 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/USF-MSDS501/images-parrt.git
+ * [new branch]      main -> main
 ```
 
 The `origin` is a shorthand for "where did I clone this repo from?"  You should go verify that github has your files. The web page for your repository should look like the following:

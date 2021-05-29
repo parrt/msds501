@@ -1,41 +1,32 @@
-MSDS501 Computational Data Science Bootcamp
-=======
+# MSDS501 Computational Data Science Bootcamp
 
-This 6-week computational bootcamp is part of the [MS in Data Science (formerly MS Analytics) program at the University of San Francisco](https://www.usfca.edu/arts-sciences/graduate-programs/data-science) and is specifically designed as an introduction to data science programming for those who are not yet skilled programmers.
+This 5-week computational bootcamp is part of the [MS in Data Science program at the University of San Francisco](https://www.usfca.edu/arts-sciences/graduate-programs/data-science) and is specifically designed as an introduction to data science programming for those who are not yet skilled programmers.
 
-# Administrivia
+# Class details
 
-**INSTRUCTOR.** [Terence Parr](http://parrt.cs.usfca.edu). I’m a professor in the computer science department and was founding director of the MS in Data Science program at USF.  Please call me Terence or Professor (the use of “Terry” is a capital offense).
-
-**TA.** Prince Grover (class of 2018) `pgrover3` at usfca.edu. Or, see him on slack.
+**INSTRUCTOR.** [Terence Parr](http://parrt.cs.usfca.edu). I’m a professor in the computer science and [data science program](https://www.usfca.edu/arts-sciences/graduate-programs/data-science) departments and was founding director of the MS in Analytics program at USF (which became the MS data science program).  Please call me Terence or Professor (“Terry” is not ok).
 
 **SPATIAL COORDINATES:**<br>
 
-* Class is held at 101 Howard on main floor classroom 155/156 (both sections).
-* Quizzes are held on Tuesdays on first floor, 9:25 - 9:55. Both sections meet together Tuesday mornings for this. After taking the quiz, sec02 wanders off but sec01 stays in 155/156 for class.
-* My office is room 607 up on the mezzanine above the agora open area.
+* Class is held at 101 Howard in 1st floor classroom 155-156.
+* Exams are held in 154-156. Both sections meet together.
+* My office is room 607 @ 101 Howard up on mezzanine above the open area on 5th floor
 
-**TEMPORAL COORDINATES.** Monday/Tuesday Sec01 10am-11:50pm, Sec02 1:10-3pm; July 9 (Mon) - August 7 (Tue).
+**TEMPORAL COORDINATES.** Thu July 8 to Thu Aug 12.
 
-*Please attend your assigned section to keep the classes balanced!*
+* Lectures: Tue/Thur 10AM - noon
+* Quiz 1: Tue ...
+* Quiz 2: Thu ...
 
-**INSTRUCTION FORMAT**. Class runs for 1:50 hours, 2 days per week. Instructor-student interaction during lecture is encouraged and we'll mix in mini-exercises / labs during class. All programming will be done in the Python 3 programming language, unless otherwise specified.
+<!--
+* Exams: Fri 5-6PM Nov 8; Fri 10-11:30AM Dec 6; Room 154-156
+-->
 
-**COMMUNICATION**. Please join slack channel `#msds501`. Email or coming by my office are also ok.
+**INSTRUCTION FORMAT**. Class runs for 1:50 hours, 2 days/week. Instructor-student interaction during lecture is encouraged and we'll mix in mini-exercises / labs during class. All programming will be done in the Python 3 programming language, unless otherwise specified.
 
 **TARDINESS.** Please be on time for class. It is a big distraction if you come in late.
 
 **LAPTOP POLICY.** My policy is that all student laptops must be closed during class unless we are doing a lab or I specifically ask you to follow along as I type into my computer. All materials for the course are available in this repository, which reduces your need to take notes considerably.
-
-**ACADEMIC HONESTY.** You must abide by the copyright laws of the United States and academic honesty policies of USF. You may not copy code from other current or previous students. All suspicious activity will be investigated and, if warranted, passed to the Dean of Sciences for action.  Copying answers or code from other students or sources during a quiz, exam, or for a project is a violation of the university’s honor code and will be treated as such. Plagiarism consists of copying material from any source and passing off that material as your own original work. Plagiarism is plagiarism: it does not matter if the source being copied is on the Internet, from a book or textbook, or from quizzes or problem sets written up by other students. Giving code or showing code to another student is also considered a violation.
-
-The golden rule: **You must never represent another person’s work as your own.**
-
-If you ever have questions about what constitutes plagiarism, cheating, or academic dishonesty in my course, please feel free to ask me.
-
-**Note:** Leaving your laptop unattended is a common means for another student to take your work. It is your responsibility to guard your work. Do not leave your printouts laying around or in the trash. *All persons with common code are likely to be considered at fault.*
-
-**ON DISABILITIES.** If you are a student with a disability or disabling condition, or if you think you may have a disability, please contact USF Student Disability Services (SDS) at 415/422-2613 within the first week of class, or immediately upon onset of the disability, to speak with a disability specialist. If you are determined eligible for reasonable accommodations, please meet with your disability specialist so they can arrange to have your accommodation letter sent to me, and we will discuss your needs for this course. For more information, please visit http://www.usfca.edu/sds/ or call 415/422-2613.
 
 ## Student evaluation
 
@@ -56,7 +47,13 @@ All projects will be graded with the specific input or tests given in the projec
 
 Each project has a hard deadline and only those projects working correctly before the deadline get credit (100%).  My grading script pulls from github at the deadline.  On the due date, projects are due at the **start** of your section's class period for that day.
 
-**Grading standards.** This class is a standard, graded course with letter grades A - F. I consider an A grade to be above and beyond what most students have achieved. A B grade is an average grade for a student or what you could call "competence" in a business setting. A C grade means that you either did not or could not put forth the effort to achieve competence. Below C implies you did very little work or had great difficulty with the class compared to other students.
+**No partial credit**. Students are sometimes frustrated about not getting partial credit for solutions they labored on that do not actually work. Unfortunately, "almost working" just never counts in a job situation because nonfunctional solutions have no value.  We are not writing essays in English that have some value even if they are not superb.  When it comes to software, there is no fair way to assign such partial credit, other than a generic 30% or whatever for effort.  The only way to determine what is wrong with your project is for me to fix and/or complete the project. That is just not possible for 90 students. Even if that were possible, there is no way to fairly assign partial credit between students.  A few incorrect but critical characters can mean the difference between perfection and absolute failure. If it takes a student 20 hours to find that problem, is that worth more or less partial credit than another project that is half-complete but could be finished in five hours? To compensate, I try to test multiple pieces of the functionality in an effort to approximate partial credit.
+
+Each project has a hard deadline and only those projects working correctly before the deadline get credit.  My grading script pulls from github at the deadline.  *All projects are due at the start of class on the day indicated, unless otherwise specified.*
+
+*I reserve the right to change projects until the day they are assigned.*
+
+**Grading standards**. I consider an **A** grade to be above and beyond what most students have achieved. A **B** grade is an average grade for a student or what you could call "competence" in a business setting. A **C** grade means that you either did not or could not put forth the effort to achieve competence. Below **C** implies you did very little work or had great difficulty with the class compared to other students.
 
 # Syllabus
 
@@ -100,3 +97,39 @@ Common programming tools
 Optional
 
 * [Linked lists](notes/linked-list.ipynb) (Day ?)
+
+  
+# Administrivia
+
+**ACADEMIC HONESTY.** You must abide by the copyright laws of the United States and academic honesty policies of USF. You may not copy code from other current or previous students. All suspicious activity will be investigated and, if warranted, passed to the Dean of Sciences for action.  Copying answers or code from other students or sources during a quiz, exam, or for a project is a violation of the university’s honor code and will be treated as such. Plagiarism consists of copying material from any source and passing off that material as your own original work. Plagiarism is plagiarism: it does not matter if the source being copied is on the Internet, from a book or textbook, or from quizzes or problem sets written up by other students. Giving code or showing code to another student is also considered a violation.
+
+The golden rule: **You must never represent another person’s work as your own.**
+
+If you ever have questions about what constitutes plagiarism, cheating, or academic dishonesty in my course, please feel free to ask me.
+
+All students are expected to know and adhere to the University's <a href="https://usfca.edu/academic-integrity/">Honor Code</a>.
+
+**Note:** Leaving your laptop unattended is a common means for another student to take your work. It is your responsibility to guard your work. Do not leave your printouts laying around or in the trash. *All persons with common code are likely to be considered at fault.*
+
+**USF policies and legal declarations**
+
+*Students with Disabilities*
+
+If you are a student with a disability or disabling condition, or if you think you may have a disability, please contact <a href="/sds">USF Student Disability Services</a> (SDS) for information about accommodations.  Students should contact SDS at the beginning of the semester, as accommodations are not retroactive.
+
+*Illness and Emergencies*
+
+If you fall ill or have an emergency (personal or otherwise) and it significantly affects your ability to complete a project or take an exam, you must notify us beforehand. Do not simply skip an exam or an assignment and say you were sick.  Always make arrangements with the instructor rather than claiming illness after the fact.
+
+*Behavioral Expectations*
+
+All students are expected to behave in accordance with the <a href="https://usfca.edu/fogcutter">Student Conduct Code</a> and other University policies.
+
+*Counseling and Psychological Services (CAPS)*
+
+CAPS provides confidential, free <a href="https://usfca.edu/student-health-safety/caps">counseling</a> to student members of our community.
+
+*Confidentiality, Mandatory Reporting, and Sexual Assault*
+
+For information and resources regarding sexual misconduct or assault visit the <a href="https://myusf.usfca.edu/title-ix">Title IX</a> coordinator or USFs <a href="http://usfca.callistocampus.org" target="_blank">Callisto website</a>.
+

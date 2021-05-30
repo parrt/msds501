@@ -14,9 +14,9 @@ Writing software is about problem solving, computer languages, algorithms, data 
 * Exams are held in 154-156. Both sections meet together.
 * My office is room 607 @ 101 Howard up on mezzanine above the open area on 5th floor
 
-**TEMPORAL COORDINATES.** Thu July 8 to Thu Aug 12.
+**TEMPORAL COORDINATES.** Wed July 7 to Wed Aug 11.
 
-* Lectures: Tue/Thur 10AM - 11:50AM
+* Lectures: Mon/Wed 10AM - 11:50AM
 
 <!--
 * Exams: Fri 5-6PM Nov 8; Fri 10-11:30AM Dec 6; Room 154-156
@@ -32,16 +32,16 @@ Writing software is about problem solving, computer languages, algorithms, data 
 
 | Artifact | Grade Weight | Due date |
 |--------|--------|--------|
-|[Image processing](https://github.com/parrt/msan501/blob/master/projects/images.md)| 15%| Mon, July 22 |
-| [Word similarity and relationships](https://github.com/parrt/msds501/blob/master/projects/wordsim.md) | 10%| Mon, July 29 |
-| [Exploration of Enron email data set](https://github.com/parrt/msds501/blob/master/projects/enron.md)| 15%| Mon, August 14 |
+|[Image processing](https://github.com/parrt/msan501/blob/master/projects/images.md)| 15%| Mon, July 21 |
+| [Word similarity and relationships](https://github.com/parrt/msds501/blob/master/projects/wordsim.md) | 10%| Mon, July 28 |
+| [Exploration of Enron email data set](https://github.com/parrt/msds501/blob/master/projects/enron.md)| 15%| Mon, August 13 |
 |[Github/USF survey](https://usfca.instructure.com/courses/1600702/assignments/7086080)| 0%| July 8 |
-|Quiz 1| 16%| 9:15am Thu, July 15 |
-|Quiz 2| 16%| 9:15am Tue, July 27 |
-|Quiz 3| 16%| 9:15am Tue, August 3 |
-|Quiz 4| 16%| 9:15am Tue, August 12 (last day of class) | 
+|Quiz 1| 16%| 9:15am Wed, July 14 |
+|Quiz 2| 16%| 9:15am Mon, July 26 |
+|Quiz 3| 16%| 9:15am Mon, August 2 |
+|Quiz 4| 16%| 9:15am Mon, August 11 (last day of class) | 
 
-**Quizzes** 1-4 are held in rooms 154-156. All quizzes use [LockDown Browser](https://www.respondus.com/lockdown/download.php?id=953641626) to log into Canvas so you can take the quiz.  Quizzes have strict time limits and you will be unable to do anything other than take the quiz; no access to the Internet etc.  You will have one chance to answer each question and they will appear in random order. Students should read the [Student LockDown Browser Instructions](https://myusf.usfca.edu/sites/default/files/ets-Respondus.pdf) section. In a nutshell, download the [LockDown Browser](https://www.respondus.com/lockdown/download.php?id=953641626), install it, and when you launch it it will take your browser window to Canvas for login.
+**Quizzes** 1-4 are held in rooms 154-156. All quizzes use HonorLock to log into Canvas so you can take the quiz.  Quizzes have strict time limits and you will be unable to do anything other than take the quiz; no access to the Internet etc.  You will have one chance to answer each question. 
 
 All projects will be graded with the specific input or tests given in the project description, so you understand precisely what is expected of your program. Consequently, projects will be graded in binary fashion: They either work or they do not.  The only exception is when your program does not run on the grader's or my machine because of some cross-platform issue. This is typically because a student has hardcoded some file name or directory into their program. In that case, we will take off just 20% instead of giving you a 0. Please go to github and verify that the website has the proper files for your solution. That is what I will download for testing.
 

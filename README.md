@@ -32,10 +32,10 @@ Writing software is about problem solving, computer languages, algorithms, data 
 
 | Artifact | Grade Weight | Due date |
 |--------|--------|--------|
+|[Github/USF survey](https://usfca.instructure.com/courses/1600702/assignments/7086080)| 0%| July 7 |
 |[Image processing](https://github.com/parrt/msan501/blob/master/projects/images.md)| 15%| Mon, July 21 |
 | [Word similarity and relationships](https://github.com/parrt/msds501/blob/master/projects/wordsim.md) | 10%| Mon, July 28 |
 | [Exploration of Enron email data set](https://github.com/parrt/msds501/blob/master/projects/enron.md)| 15%| Mon, August 13 |
-|[Github/USF survey](https://usfca.instructure.com/courses/1600702/assignments/7086080)| 0%| July 8 |
 |Quiz 1| 16%| 9:15am Wed, July 14 |
 |Quiz 2| 16%| 9:15am Mon, July 26 |
 |Quiz 3| 16%| 9:15am Mon, August 2 |
@@ -118,7 +118,7 @@ If you are a student with a disability or disabling condition, or if you think y
 
 *Illness and Emergencies*
 
-If you fall ill or have an emergency (personal or otherwise) and it significantly affects your ability to complete a project or take an exam, you must notify us beforehand. Do not simply skip an exam or an assignment and say you were sick.  Always make arrangements with the instructor rather than claiming illness after the fact.
+If you fall ill or have an emergency (personal or otherwise) and it significantly affects your ability to complete a project or take an exam, you must notify us beforehand. Do not simply skip an exam or an assignment and say you were sick.  Always make arrangements with the instructor rather than declaring illness after the fact.
 
 *Behavioral Expectations*
 

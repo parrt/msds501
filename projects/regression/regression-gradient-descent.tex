@@ -182,8 +182,8 @@ MURDERS = [8.6, 8.9, 8.52, 8.89, 13.07, 14.57, 21.36, 28.03, 31.49, 37.39, 46.26
 
 \noindent and here is a scatter plot and best fit line as determined by numpy (using {\tt\footnotesize np.polyfit(HOURLY\_WAGE, MURDERS,1)}).
 
-\scalebox{.4}{\includegraphics{figures/wage-murders.pdf}}
-\scalebox{.4}{\includegraphics{figures/wage-murders-fit.pdf}}\\
+%\scalebox{.4}{\includegraphics{figures/wage-murders.pdf}}
+%\scalebox{.4}{\includegraphics{figures/wage-murders-fit.pdf}}\\
 
 \noindent Here, for example, $x_0 = 2.98$ and $y_0 = 8.6$.
 
@@ -199,7 +199,7 @@ CIVIL_ENG_PHD_2000_2009          = [480, 501, 540, 552, 547, 622, 655, 701, 712,
 \end{pyverbatim}
 
 \begin{center}
-\scalebox{.9}{\includegraphics{figures/cheese-vs-eng.png}}
+%\scalebox{.9}{\includegraphics{figures/cheese-vs-eng.png}}
 \end{center}
 
 \subsection{Best fit line that minimizes squared error}
@@ -227,8 +227,8 @@ Cost(B) = \sum_{i=1}^{n}(b_2 x_i + b_1 - y_i)^2
 \noindent As we wiggle the linear model parameters, the value of the cost function will change.  The following graphs shows the errors/residuals that are squared and summed to get the overall cost for two different ``curve fits.''
 
 \begin{center}
-\scalebox{.35}{\includegraphics{figures/wage-murders-residuals.pdf}}
-\scalebox{.35}{\includegraphics{figures/wage-murders-residuals-poor.pdf}}\\
+%\scalebox{.35}{\includegraphics{figures/wage-murders-residuals.pdf}}
+%\scalebox{.35}{\includegraphics{figures/wage-murders-residuals-poor.pdf}}\\
 \end{center}
 
 \noindent The costs are 533.82 for the left and 3563.50 for the right.
@@ -246,12 +246,12 @@ To show our prediction model in action, we can ask how many murders  there would
 
 Before trying to minimize the cost function, it's helpful to study what the surface looks like in three dimensions, as shown in the following two graphs. The X and Y dimensions are the coefficients of our linear model and the Z coordinate (up) is the cost function.
 
-\noindent \scalebox{.45}{\includegraphics{figures/wage-murders-cost-3d.pdf}}
-\scalebox{.45}{\includegraphics{figures/wage-murders-heatmap.pdf}}
+%\noindent \scalebox{.45}{\includegraphics{figures/wage-murders-cost-3d.pdf}}
+%\scalebox{.45}{\includegraphics{figures/wage-murders-heatmap.pdf}}
 
 What surprised me is that changes to the slope of the linear model's slope coefficient $b_2$, away from the optimal $b_2=15.484$, cost much more than tweaks to the y intercept, $b_1$. Regardless, the surface is convex. Unfortunately, based upon the deep trough that grows slowly along the diagonal of $(b_1,b_2)$, gradient descent takes a while to converge to the minimum. We will examine the path of gradient descent for a few initial starting points. Wikipedia says that the Rosenbrock function is a pathological case for traditional gradient descent and it looks pretty similar to our surface with its shallow valley in this topographic view from above:
 
-\scalebox{.4}{\includegraphics{figures/Banana-SteepDesc}}
+%\scalebox{.4}{\includegraphics{figures/Banana-SteepDesc}}
 
 The recurrence relation for updating our estimate of $\vec{B}=[b_1, b_2]$ that minimizes $Cost(\vec{B})$ is the same as the single-variable gradient-descent we did in class but with a vector instead of a scalar:
 
@@ -290,10 +290,10 @@ The minimization algorithm looks like:
 
 Using a small learning rate, my solution takes 20476 steps starting from coordinate (-45,10) using a very small step size, which gives me a fairly decent approximation of the minimum: [-36.000624999, 15.484374999] compared to the analytic solution [ -36.000625 15.484375 ]. Starting from about the same distance away in the shallow valley at (-45,25), my solution takes 21224 steps. Cutting my step size by 5x, takes 90527 steps from (-45,25). Surprisingly, when I start very close to the minimum at (-36,15), my solution takes 46227 steps and does not exactly give a more accurate result. ``{\em Your mileage may vary.}''
 
-\noindent \scalebox{.45}{\includegraphics{figures/wage-murders-heatmap-trace1.pdf}}
-\scalebox{.45}{\includegraphics{figures/wage-murders-heatmap-trace2.pdf}}
+%\noindent \scalebox{.45}{\includegraphics{figures/wage-murders-heatmap-trace1.pdf}}
+%\scalebox{.45}{\includegraphics{figures/wage-murders-heatmap-trace2.pdf}}
 
-\noindent \scalebox{.45}{\includegraphics{figures/wage-murders-heatmap-trace3.pdf}}
+%\noindent \scalebox{.45}{\includegraphics{figures/wage-murders-heatmap-trace3.pdf}}
 
 When I crank up the learning rate and use a very small step size, my solution converges must faster and with the same accuracy. For example, with 10 times the learning rate as before, (-45,25) converges in 2564 steps instead of 21224 steps. Same accuracy but that high, the loop doesn't always terminate. Play around with it to see what values work well for you.
 

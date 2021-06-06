@@ -57,7 +57,23 @@ Each project has a hard deadline and only those projects working correctly befor
 
 # Syllabus
 
+## Designing and building programs
 
+* [Overview of a Python programmer's world](slides/)
+* [Intro to Python programming](slides/)
+* [Programming patterns](slides/)
+* problem-solving
+* methods
+* more data structures
+* packages / modules
+
+## Programming ecosystem
+
+* [command-line]()
+* [git and github]()
+* [AWS]()
+
+### OLD
 Start your engines!
 
 * [A bit of motivation (Audio processing)](notes/sound.ipynb) (Day 1)

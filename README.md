@@ -130,12 +130,12 @@ All students are expected to know and adhere to the University's <a href="https:
 
 *Students with Disabilities*
 
-If you are a student with a disability or disabling condition, or if you think you may have a disability, please contact <a href="/sds">USF Student Disability Services</a> (SDS) for information about accommodations.  Students should contact SDS at the beginning of the semester, as accommodations are not retroactive.
+If you are a student with a disability or disabling condition, or if you think you may have a disability, please contact <a href="https://www.usfca.edu/student-disability-services">USF Student Disability Services</a> (SDS) for information about accommodations.  Students should contact SDS at the beginning of the semester. **Accommodations are not retroactive.**
 
-*Illness and Emergencies*
+*Illnesses and Emergencies*
 
-If you fall ill or have an emergency (personal or otherwise) and it significantly affects your ability to complete a project or take an exam, you must notify us beforehand. Do not simply skip an exam or an assignment and say you were sick.  Always make arrangements with the instructor rather than declaring illness after the fact.
-
+If you fall ill or have an emergency (personal or otherwise) that significantly affects your ability to complete a project or take an exam, you must notify the instructor before the task or artifact is due. Do not simply skip an exam or an assignment and say you were sick after the fact. Always make arrangements with the instructor beforehand, rather than declaring illness or emergency later. **Accommodations are not retroactive.**  Illness and emergency related situations must be disclosed to both the instructor and program director in writing. Illness-related issues must be accompanied by a doctor’s note.
+  
 *Behavioral Expectations*
 
 All students are expected to behave in accordance with the <a href="https://usfca.edu/fogcutter">Student Conduct Code</a> and other University policies.

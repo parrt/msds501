@@ -59,18 +59,22 @@ Each project has a hard deadline and only those projects working correctly befor
 
 ## Designing and building programs
 
-* [Overview of a Python programmer's world](slides/)
-* [Intro to Python programming](slides/)
-* [Programming patterns](slides/)
-* problem-solving
-* methods
-* more data structures
-* packages / modules
+* [Overview of a Python programmer's world](slides/) (Day 1)
+* [Intro to Python programming](slides/) (Day 1)
+* [Programming patterns](slides/) (Day 1)
+* [packages / modules]()
+* [Organizing your code with functions]()
+* [key data structures]()
+* [aliasing]()
+* [files]()
+* [problem-solving]() (data / files processing)
+* [how to read code]()
+* [OO]()
 
 ## Programming ecosystem
 
-* [command-line]()
-* [git and github]()
+* [command-line]() (Day 2)
+* [git and github]() (Day 2)
 * [AWS]()
 
 ### OLD

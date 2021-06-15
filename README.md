@@ -65,7 +65,7 @@ Each project has a hard deadline and only those projects working correctly befor
 * [Packages and modules](slides/packages.pdf) (Day 3)
 * [Organizing your code with functions](slides/functions.pdf) (Day 3)
 * [Data aliasing](slides/aliasing.pdf) (Day 3)
-* [files](slides/)
+* [Reading and writing files](slides/files.pdf) (Day 4)
 * [problem-solving](slides/) (data / files processing)
 * [how to read code](slides/)
 * [OO](slides/)

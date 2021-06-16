@@ -208,12 +208,31 @@ Click the "Edit inbound rules" button and then click Add Rule.  This will open u
 
 <img src="images/addrule.png" width=400>
 
-Click the Save button. And now port 5000 should be open through the firewall, but of course we have not started a server listening at that port and so we cannot connect to that port at this point.
+Click the "Save rules" button. And now port 5000 should be open through the firewall, but of course we have not started a server listening at that port and so we cannot connect to that port at this point. We will learn how to create servers in MSDS692 but for now we can use a built-in Python Web server.  To launch a basic web server on port 5000 on the Amazon machine, type this on the terminal connected to the Amazon machine:
+
+```bash
+[ec2-user@ip-172-30-0-71 ~]$ $ python3 -m http.server --cgi 5000
+Serving HTTP on 0.0.0.0 port 5000 (http://0.0.0.0:5000/) ...
+```
+
+Then, go to a browser on your laptop and open URL `http://54.177.198.89:5000/` but make sure to replace `54.177.198.89` with the public IP address of your specific Amazon machine. It might not be an IP address, it might be a name with a bunch of dots and numbers. The browser should look something like
+
+<img src="images/simple-server.png" width=400>
+
+and the simple Web server at Amazon should report the following in the terminal:
+
+```bash
+[ec2-user@ip-172-30-0-71 ~]$ python3 -m http.server --cgi 5000
+Serving HTTP on 0.0.0.0 port 5000 (http://0.0.0.0:5000/) ...
+154.21.212.170 - - [16/Jun/2021 19:26:08] "GET / HTTP/1.1" 200 -
+154.21.212.170 - - [16/Jun/2021 19:26:09] code 404, message File not found
+154.21.212.170 - - [16/Jun/2021 19:26:09] "GET /favicon.ico HTTP/1.1" 404 -
+```
+
+You can type `exit` or `^D` to exit the remote terminal.
 
 ## Terminate when done
 
-Play around with your instance and then **TERMINATE YOUR INSTANCE WHEN YOU ARE DONE**, otherwise you will continue to get charged for the use of that machine. Right-click on the instance from your AWS console and select "instance state" then submenu "terminate". It will warn you that all of your local storage will go away. Hit the "yes, terminate" button. It should look like this when done:
-
-<img src=images/terminated.png width=450>
+Play around with your instance and then **TERMINATE YOUR INSTANCE WHEN YOU ARE DONE**, otherwise you will continue to get charged for the use of that machine. Right-click on the instance from your AWS console and select  "terminate instance". It will warn you that all of your local storage will go away. Hit the "yes, terminate" button.  Once it is successfully terminated, you should no longer see the instance in your EC2 instance list.
 
 If you say "stop" instead, it will stop the machine, but you still get charged, but just a little for the storage associated with that machine. On the other hand, this is useful because you can restart that machine without having to go through this whole procedure. All of your data will be intact. If you say "Terminate", it will toss the machine out and you will have to go through this procedure again to get a new machine.

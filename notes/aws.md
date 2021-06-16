@@ -206,7 +206,7 @@ Notice that port 22 (SSH) is open. Otherwise we could not of connected to the co
 
 Click the "Edit inbound rules" button and then click Add Rule.  This will open up a new inbound rule line. Set the port number to 5000, which is where we often put our play servers, and then specify the "Source" as `0.0.0.0/0`, meaning anybody can connect. It should look like this:
 
-<img src="images/addrule.png" width=400>
+<img src="images/addrule.png" width=500>
 
 Click the "Save rules" button. And now port 5000 should be open through the firewall, but of course we have not started a server listening at that port and so we cannot connect to that port at this point. We will learn how to create servers in MSDS692 but for now we can use a built-in Python Web server.  To launch a basic web server on port 5000 on the Amazon machine, type this on the terminal connected to the Amazon machine:
 
@@ -217,7 +217,7 @@ Serving HTTP on 0.0.0.0 port 5000 (http://0.0.0.0:5000/) ...
 
 Then, go to a browser on your laptop and open URL `http://54.177.198.89:5000/` but make sure to replace `54.177.198.89` with the public IP address of your specific Amazon machine. It might not be an IP address, it might be a name with a bunch of dots and numbers. The browser should look something like
 
-<img src="images/simple-server.png" width=400>
+<img src="images/simple-server.png" width=200>
 
 and the simple Web server at Amazon should report the following in the terminal:
 

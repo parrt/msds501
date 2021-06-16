@@ -122,15 +122,15 @@ The `$` is your prompt just like you have on your local machine using the termin
 
 You can either hit "command-T" from Terminal.app and get multiple tabs up, one for the remote host and one for local/laptop work:
 
-<img src="images/tabs.png" width="500">
+<img src="images/tabs.png" width="600">
 
 Or just get two windows up using "command-N" from Terminal.app.
 
-<img src="images/two-shells.png" width="500">
+<img src="images/two-shells.png" width="600">
 
 Verify the remote computer is not your laptop by doing command `ls /` on both computers:
 
-<img src="images/two-roots.png" width="500">
+<img src="images/two-roots.png" width="600">
  
 ## Uploading data or code
 
@@ -145,13 +145,13 @@ To get data up to the server, you can cut-and-paste if the file is small. For ex
 then launch the `nano` editor on the remote computer:
 
 ```bash
-[ec2-user@ip-172-30-0-97 ~]$ nano coffee
+[ec2-user@ip-172-30-0-71 ~]$ nano coffee
 ```
 
 Paste the data into that file and type control-X and then "Yes" to save the file. You should pop back to the prompt after exiting.
 
 ```bash
-[ec2-user@ip-172-30-0-97 ~]$ cat coffee # print it back out
+[ec2-user@ip-172-30-0-71 ~]$ cat coffee # print it back out
 3 parrt
 2 jcoker
 8 tombu
@@ -173,9 +173,9 @@ scp -i *your-pem-file* *file-to-copy* *user*@*machine-name*:*directory-on-remote
 From the shell that is connected to the remote server, ask for the directory listing and you will see the new file:
 
 ```bash
-[ec2-user@ip-172-30-0-135 ~]$ ls
+[ec2-user@ip-172-30-0-71 ~]$ ls
 cheese_deaths.csv
-[ec2-user@ip-172-30-0-135 ~]$ head cheese_deaths.csv 
+[ec2-user@ip-172-30-0-71 ~]$ head cheese_deaths.csv 
 years,cheese,deaths
 2000,29.8,327
 2001,30.1,456

@@ -1,5 +1,7 @@
 # A first taste of Python tools
 
+The goal of this lab is to get a taste of the commandline, make sure that you can execute Python scripts, and start using Jupyter notebooks. You can also check out chapter [Development Tools](https://mlbook.explained.ai/tools.html) from [The mechanics of machine learning](https://mlbook.explained.ai).
+
 ## Launch a commandline app
 
 Launch `Terminal.app` (Mac) or whatever the `bash` or `zsh` *terminal*, *shell*, or *commandline prompt* program is on your flavor of UNIX. You should see a blinking cursor and a `$` prompt, possibly with the current working directory to the left of the `$` prompt:
@@ -97,8 +99,6 @@ Type "help", "copyright", "credits" or "license" for more information.
 ```
 
 You should not get an error.
-
-See also [Computer environment sanity check](https://mlbook.explained.ai/intro.html#sec:2.2.1) from my book [The mechanics of machine learning](https://mlbook.explained.ai).
 
 ##  Interactive Python
 

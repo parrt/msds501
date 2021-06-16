@@ -37,23 +37,19 @@ After downloading, click "Launch instances." You should see something like:
 
 <img src=images/launched.png width=600>
 
-Click on the `i-...` link to go to the EC2 console showing your instance.
+Click on the `i-...` link to go to the EC2 console showing your instance. On that page click on your instance's checkbox, which then looks something like:
 
 <img src=images/ec2-instance.png width=600>
 
-Click on your instance and you should see a description box at the bottom. Look for the "Public IP" address, which is 54.196.174.210 in this case:
-
-<img src=images/publicIP.png width=600>
-
-We have to wait until the status stops saying "Initializing", which could take several minutes.
+You should see a description box at the bottom. Look for the "Public IP" address, which is 54.177.198.89 in this case. (We have to wait until the status stops saying "Initializing", which could take several minutes.)
 
 ## Connecting to the remote server
 
-Click on the "Connect" button at the top of the page and it will bring up a dialog box that tells you how to connect to the server.  You want to connect with "A standalone SSH client" link (Java is now a security risk in the browser so we can't use that choice.)  Inside you will see the `ssh` command necessary to connect to your machine. If you have Windows, there is a link to show you how to use an SSH client called PuTTY. 
+Click on the "Connect" button at the top of the page and it will bring up a dialog box that tells you how to connect to the server.  You want to connect with "A standalone SSH client" link (Java is now a security risk in the browser so we can't use that choice.)  Inside you will see the `ssh` command necessary to connect to your machine. (If you have Windows, you will have to use an SSH client called PuTTY instead of `ssh`.)
 
-<img src=images/connect.png width=550>
+<img src=images/connect.png width=450>
 
- Before we can connect, we have to make sure that the security file is not visible to everyone on the computer (other users). Otherwise ssh will not let us connect because the security file is not secure:
+Before we can connect, we have to make sure that the security file is not visible to everyone on the computer (other users). Otherwise ssh will not let us connect because the security file is not secure:
 
 ```bash@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @         WARNING: UNPROTECTED PRIVATE KEY FILE!          @
@@ -92,33 +88,30 @@ Don't worry if you don't understand exactly what's going on there. It's basicall
 For mac and linux users, we will use the direct `ssh` command from the command line. It will be something like:
 
 ```bash
-ssh -i parrt.pem ec2-user@54.196.174.210
+ssh -i parrt.pem ec2-user@54.177.198.89
 ```
 
 Naturally, you will have to provide the full pathname to your *userid*.pem file. So I need to type:
 
 ```bash
-ssh -i ~/Dropbox/licenses/parrt.pem ec2-user@54.196.174.210
+ssh -i ~/Dropbox/licenses/parrt.pem ec2-user@54.177.198.89
 ```
 
 Try to connect again and it will now warn you that you have never connected to that machine before. Again, this is a security measure. You can simply say "yes" here.
 
 ```bash
-$ ssh -i parrt.pem ec2-user@54.196.174.210
-The authenticity of host '54.196.174.210 (54.196.174.210)' can't be established.
-ECDSA key fingerprint is SHA256:BYGiV2qRthhw52HQni5vnoRtiT16cplmdbXAuXqQdqc.
-Are you sure you want to continue connecting (yes/no)? yes
-Warning: Permanently added '54.196.174.210' (ECDSA) to the list of known hosts.
-Last login: Thu Aug  4 20:04:07 2016 from sentinel.cs.usfca.edu
+$ ssh -i ~/Dropbox/licenses/parrt.pem ec2-user@54.177.198.89
+The authenticity of host '54.177.198.89 (54.177.198.89)' can't be established.
+ECDSA key fingerprint is SHA256:mtIP1ze4FJbE78fuXauWdfBDFOcJx912eF1A42uq2PY.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added '54.177.198.89' (ECDSA) to the list of known hosts.
 
        __|  __|_  )
-       _|  (     /   Amazon Linux AMI
+       _|  (     /   Amazon Linux 2 AMI
       ___|\___|___|
 
-https://aws.amazon.com/amazon-linux-ami/2016.03-release-notes/
-8 package(s) needed for security, out of 17 available
-Run "sudo yum update" to apply all updates.
-[ec2-user@ip-172-30-0-97 ~]$ 
+https://aws.amazon.com/amazon-linux-2/
+[ec2-user@ip-172-30-0-71 ~]$ 
 ```
 
 The `$` is your prompt just like you have on your local machine using the terminal / shell, but you are giving commands to a remote server not your local machine.
@@ -168,7 +161,7 @@ $
 For larger files, we need to use the secure copy `scp` command that has the same argument structure as secure shell `ssh`. Get another shell running on your laptop. Download data file [cheese_deaths.csv](https://raw.githubusercontent.com/parrt/msan501/master/projects/regression/data/cheese_deaths.csv) and store on your laptop in the directory where you are currently working on the laptop command line. Now, in a shell **on your laptop**, use the following command (that is similar to `ssh`) to copy it to the remote computer:
 
 ```bash
-$ scp -i ~/Dropbox/licenses/parrt.pem cheese_deaths.csv ec2-user@54.196.174.210:~ec2-user
+$ scp -i ~/Dropbox/licenses/parrt.pem cheese_deaths.csv ec2-user@54.177.198.89:~ec2-user
 cheese_deaths.csv                                100%  160     6.9KB/s   00:00
 $ 
 ```

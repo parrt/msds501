@@ -198,13 +198,13 @@ To change the firewall, go back to the page listing your instance(s) and select 
 
 <img src="images/security-tab.png" width=400>
 
-Click on `launch wizard` under the security groups section in the information describing your instance. It will open up a section of the webpage and then click on the `inbound` tab. It should look like this:
+Click on `launch wizard` under the security groups section in the information describing your instance. It will open up a section of the webpage and then click on the `inbound rules` tab, if it's not already selected. It should look like this:
 
 <img src="images/inbound.png" width=400>
 
 Notice that port 22 (SSH) is open. Otherwise we could not of connected to the computer.
 
-Click the Edit button and then click Add Rule.  This will open up a new inbound rule line. Set the port number to 5000, which is where we often put our play servers, and then specify the "Source" as `0.0.0.0/0`, meaning anybody can connect. It should look like this:
+Click the "Edit inbound rules" button and then click Add Rule.  This will open up a new inbound rule line. Set the port number to 5000, which is where we often put our play servers, and then specify the "Source" as `0.0.0.0/0`, meaning anybody can connect. It should look like this:
 
 <img src="images/addrule.png" width=400>
 

@@ -2,7 +2,7 @@
 
 ## Launch a commandline app
 
-Launch `Terminal.app` (Mac) or whatever the `bash` *terminal*, *shell*, or *commandline prompt* program is on your flavor of UNIX. You should see a blinking cursor and a `$` prompt:
+Launch `Terminal.app` (Mac) or whatever the `bash` or `zsh` *terminal*, *shell*, or *commandline prompt* program is on your flavor of UNIX. You should see a blinking cursor and a `$` prompt, possibly with the current working directory to the left of the `$` prompt:
 
 ```bash
 $ 
@@ -10,7 +10,7 @@ $
 
 The `$` sign above is just the prompt that indicates the terminal is waiting for you to type something. After command executes, you will see the `$` prompt again.
 
-The commandline is a very low-level interface for communicating with the operating system of your computer. You can think of the terminal as the diagnostics computer that mechanics plug into your car to really take control. The dashboard is analogous to the windowing graphical interface we use most of the time.  Becoming a programmer is like becoming a mechanic; sometimes you need more powerful but more complicated tools to operate machinery.
+The commandline is a very low-level interface for communicating with the operating system of your computer. You can think of the terminal as the diagnostics computer that mechanics plug into your car to really take control. A car's dashboard is analogous to the windowing graphical interface we use most of the time.  Becoming a programmer is like becoming a mechanic; sometimes you need more powerful but more complicated tools to operate machinery.
 
 You should more or less always have a command shell running in case you need to do something low-level. The first thing a mechanic does when he or she starts to work is to connect the diagnostic computer. So should you.
 
@@ -22,11 +22,9 @@ hello
 $ 
 ```
 
-Commands are terminated by hitting the return key.  
-
 The `echo` command is analogous to the `print` command in Python code. 
 
-After executing the command, the prompt returns indicating you can type another command. 
+Give it a try!  Type `echo "hello"` followed by newline (return key). All commands are terminated by hitting the return key.  After executing the command, the prompt returns indicating you can type another command. 
 
 There are lots of things we can do; here's another one:
 
@@ -42,26 +40,22 @@ $ date "+%Y-%m-%d"
 2018-07-08
 ```
 
-Here's a cool example of a loop from the command line to examine all `.md` files (you don't need to run this one as part of the lab; I'm just showing off here):
+Here's a cool example of a loop from the command line to examine all `.md` files, but of course you have to be in a directory that contains those kinds of files:
 
 ```bash
-$ for f in *.md; do echo $f; done
+~/github/msds501/notes $ for f in *.md; do echo $f; done
 aws.md
 bash-intro.md
 combinations.md
 complexity.md
-computation.md
-data-in-memory.md
-data.md
-files.md
 git.md
-operations.md
 planning.md
 programming.md
 reading-code.md
 sqrt.md
 ```
 
+This is an advanced feature but I wanted you to be aware of it as a sophisticated terminal example.
 
 ## Environment Sanity check
 
@@ -69,24 +63,24 @@ From the command line, type in the following command to verify that you have acc
  
 ```bash
 $ which python3
-/Users/parrt/anaconda3/bin/python3
+/Users/parrt/opt/anaconda3/bin/python
 ```
 
 Or, better yet, make sure the default Python is version 3:
 
 ```bash
 $ which python
-/Users/parrt/anaconda3/bin/python
+/Users/parrt/opt/anaconda3/bin/python
 ```
 
-The Python program should be in the Anaconda `bin` (binary) directory, that holds all of the binary executables. If you don't see anaconda somewhere in the output from the `which` command, you need to look at the documentation for Anaconda and figure out why you are not running the appropriate Python. (Most likely something is wrong with your `PATH` environment variable.) That's okay for now as we can use any 3.X version of Python running.
+The Python program should be in the Anaconda `bin` (binary) directory, that holds all of the binary executables. If you don't see anaconda somewhere in the output from the `which` command, you need to look at the documentation for Anaconda and figure out why you are not running the appropriate Python. (Most likely something is wrong with your shell's `PATH` environment variable.) That's okay for now as we can use any available 3.X version of Python.
 
 Next, run the program and make sure you have a recent version like 3.6.5:
 
 ```bash
 $ python
-Python 3.6.5 | packaged by conda-forge | (default, Mar 30 2018, 00:00:55) 
-[GCC 4.2.1 Compatible Apple LLVM 6.1.0 (clang-602.0.53)] on darwin
+Python 3.8.8 (default, Apr 13 2021, 12:59:45) 
+[Clang 10.0.0 ] :: Anaconda, Inc. on darwin
 Type "help", "copyright", "credits" or "license" for more information.
 >>> 
 ```
@@ -95,8 +89,8 @@ Next try importing a library:
 
 ```bash
 $ python
-Python 3.6.5 | packaged by conda-forge | (default, Mar 30 2018, 00:00:55) 
-[GCC 4.2.1 Compatible Apple LLVM 6.1.0 (clang-602.0.53)] on darwin
+Python 3.8.8 (default, Apr 13 2021, 12:59:45) 
+[Clang 10.0.0 ] :: Anaconda, Inc. on darwin
 Type "help", "copyright", "credits" or "license" for more information.
 >>> import pandas as pd
 >>> 

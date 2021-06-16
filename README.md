@@ -66,22 +66,26 @@ Each project has a hard deadline and only those projects working correctly befor
 * [Organizing your code with functions](slides/functions.pdf) (Day 3)
 * [Data aliasing](slides/aliasing.pdf) (Day 3)
 * [Reading and writing files](slides/files.pdf) (Day 4)
-* [problem-solving](slides/) (data / files processing)
-* [how to read code](slides/)
-* [OO](slides/)
+* [Problem solving](slides/) (data / files processing)
+* [OO](slides/) (Day 9)
+
+## Let's have some fun with audio files
+
+* [A bit of motivation (Audio processing)](notes/sound.ipynb) (Day 1)
+* [Playing sounds](labs/sound.md) (Day 1)
+
+## Problem solving
+
+* [Approximating square root](notes/sqrt.ipynb) (Day 8)
 
 ## Programming ecosystem
 
-* [command-line](slides/terminal.pdf) (Day 2)
-* [git and github](slides/git.pdf) (Day 2)
-* [AWS]()
+* [The terminal command-line](slides/terminal.pdf) (Day 2)
+* [A first taste of Python tools](labs/hello.md) (Day 2)
+* [git and github version control](slides/git.pdf) (Day 2)
+* [Launching a Virtual Machine at Amazon Web Services](notes/aws.md) (Day 10)
 
 ### OLD
-Start your engines!
-
-* [A bit of motivation (Audio processing)](notes/sound.ipynb) (Day 1)
-  * [A first taste of Python tools](labs/hello.md) (Day 1)
-  * [Playing sounds](labs/sound.md) (Day 1)
 
 Designing and building programs
 
@@ -103,14 +107,7 @@ Key programming patterns
 Iterative methods for computation and optimization
 
 * [Generating Uniform Random Numbers](notes/random-uniform.ipynb) (Day 8)
-* [Approximating square root](notes/sqrt.ipynb) (Day 8)
-* [Iterative Optimization Via Gradient Descent](https://nbviewer.jupyter.org/github/parrt/msan501/blob/master/notes/gradient-descent.ipynb) (Day 8)
 
-Common programming tools
-
-* [Bash your way to victory](notes/bash-intro.md) (Day ?)
-* [Introduction to git and revision control](notes/git.md) (Day 2)
-* [Launching a Virtual Machine at Amazon Web Services](notes/aws.md) (Day 10)
 
 Optional
 

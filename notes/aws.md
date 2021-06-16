@@ -194,7 +194,11 @@ To exit the remote server, type `exit` or use `^D` from the `$` prompt. The mach
 
 We can start up a web server on this computer, but it is not reachable from the outside world unless we open up at least one of the ports protected by the firewall. In other words, the server might be listening at a port, but the outside world cannot reach that port.
 
-To change the firewall, click on `launch wizard` under the security groups section in the information describing your instance. It will open up a section of the webpage and then click on the `inbound` tab. It should look like this:
+To change the firewall, go back to the page listing your instance(s) and select the security tab associated with your instance:
+
+<img src="images/security-tab.png" width=400>
+
+Click on `launch wizard` under the security groups section in the information describing your instance. It will open up a section of the webpage and then click on the `inbound` tab. It should look like this:
 
 <img src="images/inbound.png" width=400>
 

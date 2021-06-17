@@ -48,23 +48,6 @@ $ date "+%Y-%m-%d"
 2018-07-08
 ```
 
-Here's a cool example of a loop from the command line to examine all `.md` files, but of course you have to be in a directory that contains those kinds of files:
-
-```bash
-~/github/msds501/notes $ for f in *.md; do echo $f; done
-aws.md
-bash-intro.md
-combinations.md
-complexity.md
-git.md
-planning.md
-programming.md
-reading-code.md
-sqrt.md
-```
-
-This is an advanced feature but I wanted you to be aware of it as a sophisticated terminal example.
-
 ### Installing terminal software
 
 To install most free software on the Mac, we use use a program called [homebrew](https://brew.sh/) (just `brew` from the command line). It might be preinstalled on your computer, but if not, read the instructions and install it. It's a matter of cutting and pasting a single line that starts with `/usr/bin/ruby...`
@@ -187,7 +170,7 @@ The `$` prompt indicates that you are back at the command line. You can no longe
 
 ## Scripting Python
 
-Go to a suitable directory (folder) on your disk, or create one, such as `/Users/YOURID/classes/msds501/inclass`.
+Go to a suitable directory (folder) on your disk, or create one, such as `/Users/YOURUSERNAME/classes/msds501/inclass`.
 
 ```bash
 $ cd ~   # set current working directory to your home directory
@@ -201,14 +184,20 @@ $ cd classes/msds501/inclass   # set working directory to inclass
 500+1
 ```
 
-Use the editor of your choice, though `nano` is a good one because you will be able to use it on remote servers when we do cloud computing. Sublime and TextEdit.app also work. Do not use Microsoft Word or other work processors because they do not create raw text files; they have formatting commands in there as well that Python doesn't know how to handle.
+Use the editor of your choice, though `nano` is a good one because you will be able to use it on remote servers when we do cloud computing. you can start it up like this:
+
+```bash
+$ nano hello.py
+```
+
+Sublime and TextEdit.app also work. Do not use Microsoft Word or other work processors because they do not create raw text files; they have formatting commands in there as well that Python doesn't know how to handle.
 
 That `500+1` expression line is exactly what you typed in first in the interactive Python shell. Save the file into your `inclass` directory or whatever you're calling it.
 
 Once you get the Python file written to the disk using your editor, you should be able to jump to that directory using `cd` (change directory) from the commandline:
 
 ```bash
-$ cd /Users/YOURID/classes/msds501/inclass
+$ cd /Users/YOURUSERNAME/classes/msds501/inclass
 ```
 
 Use `ls` to get a directory listing:

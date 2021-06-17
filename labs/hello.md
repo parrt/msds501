@@ -1,6 +1,8 @@
 # A first taste of Python tools
 
-The goal of this lab is to get a taste of the commandline, make sure that you can execute Python scripts, and start using Jupyter notebooks. You can also check out chapter [Development Tools](https://mlbook.explained.ai/tools.html) from [The mechanics of machine learning](https://mlbook.explained.ai).   You should just work through the examples, typing what you see to get a feel for the commands and Python programming ecosystem.
+The goal of this lab is to get a taste of the commandline, make sure that you can execute Python scripts, and start using Jupyter notebooks. You can also check out chapter [Development Tools](https://mlbook.explained.ai/tools.html) from [The mechanics of machine learning](https://mlbook.explained.ai).   
+
+You should just work through the examples, typing what you see to get a feel for the commands and Python programming ecosystem.  It will often be the case that we work through code together in class and you need to be able to quickly start an environment where you can write and execute code.
 
 ## Let's set up your machine name 
 

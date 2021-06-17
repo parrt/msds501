@@ -14,6 +14,10 @@ where `YOURUSERNAME` is your computer login name. For example, my login name is 
 
 `/home/YOURUSERNAME/classes/msds501/labs/sound`
 
+Make sure that those files get saved with names `Kiss.aiff` and `ahhh.mp3`.  For some reason some browsers try to use names such as `notes_sound_Kiss.aiff`. After saving the files, your directory structure should look like:
+
+<img src="images/sound-files.png" width="500">
+
 ## Installing commandline tools
 
 It turns out that the sound libraries we're going to use in Python don't know how to process mp3 files. We need to convert the ahhh.mp3 file to ahhh.wav, which the libraries do know how to process. To do that, were going to use a tool called [mpg123](https://www.mpg123.de/).
@@ -81,7 +85,7 @@ $ ls
 Kiss.aiff  ahhh.mp3   ahhh.wav 
 ```
 
-If you can't figure out how to convert to `ahhh.wav`, don't worry about it. You can just [download it from my notes](../notes/sound/ahhh.wav).
+If you can't figure out how to convert to `ahhh.wav`, don't worry about it. You can just [download it from my notes](https://github.com/parrt/msds501/blob/master/notes/sound/ahhh.wav?raw=true).
 
 At this point, we've learned to jump around to different locations in the file system using `cd` and used `ls` to list the files in a directory. We use `brew` as our install command for non-Python packages.
 
@@ -160,7 +164,7 @@ It's time to put all of this together into a simple Python program that you can 
 
 ```bash
 $ cd /Users/YOURUSERNAME/classes/msds501/labs/sound  # make sure we are in the right directory
-$ nano hello.py
+$ nano play.py
 ```
 
 Sublime and TextEdit.app also work. Do not use Microsoft Word or other work processors because they do not create raw text files; they have formatting commands in there as well that Python doesn't know how to handle. 
@@ -182,7 +186,7 @@ Run this program from the command line using:
 $ python play.py
 ```
 
-Edit the program now and change the `'Kiss.aiff'` string to `'ahhh.wav'`:
+Edit the program now and change the `'Kiss.aiff'` string to `'ahhh.wav'` (don't forget to save the file):
 
 ```python
 ...

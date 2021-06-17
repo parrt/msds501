@@ -61,7 +61,9 @@ This is an advanced feature but I wanted you to be aware of it as a sophisticate
 
 ### Installing terminal software
 
-One of the most common commands that you will use that takes arguments is `brew`, which installs open-source software from the commandline.  The software it installs are typically then available as commands from the commandline. For example, let's install `mpg123`, needed by our sound file lab.  In might be the case that your computer already has this installed, but let's run the install anyway:
+To install most free software on the Mac, we use use a program called [homebrew](https://brew.sh/) (just `brew` from the command line). It might be preinstalled on your computer, but if not, read the instructions and install it. It's a matter of cutting and pasting a single line that starts with `/usr/bin/ruby...`
+
+The software `brew` installs is typically then available as a command from the commandline. For example, let's install `mpg123`, needed by our sound file lab.  In might be the case that your computer already has this installed, but let's run the install anyway:
 
 ```bash
 $ brew install mpg123

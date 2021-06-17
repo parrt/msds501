@@ -81,38 +81,21 @@ Each project has a hard deadline and only those projects working correctly befor
 ## Programming ecosystem
 
 * [The terminal command-line](slides/terminal.pdf) (Day 2)
-* [A first taste of Python tools](labs/hello.md) (Day 2)
+	* LAB: [A first taste of Python tools](labs/hello.md) (Day 2)
 * [git and github version control](slides/git.pdf) (Day 2)
 * [Launching a Virtual Machine at Amazon Web Services](notes/aws.md) (Day 10)
 
-### OLD
+## Notes supporting lectures
 
-Designing and building programs
-
-* [Introduction to programming](notes/programming.md) (Day 1 (before conjuring code), 2)
-* [Representing data in memory](notes/data-in-memory.ipynb) (Day 2 (before `dict`), 3)
-* [Model of Computation](notes/computation.ipynb) (Day 3)
-* [Programming Patterns in Python](notes/python-patterns.ipynb) (Day 4)
-* [Data aliasing](notes/aliasing.ipynb) (Day 4)
-* [Organizing your code with functions](notes/functions.ipynb) (Day 4 up to search function, Day 5)
-* [How to read code](notes/reading-code.md) (Day 10)
-* [Object-oriented programming](notes/OO.ipynb) (Day 9 up to Simple Set Impl)
-
-Key programming patterns
-
-* [Loading files](notes/files.ipynb) (Day 5 up to CSV, finish Day 6)
-* [Pandas dataframes](notes/dataframes.ipynb) (Day 6 up to clean up, finish Day 7)
-* ?? [Manipulating and Visualizing Data](notes/data.ipynb) (Day ?)
-
-Iterative methods for computation and optimization
-
-* [Generating Uniform Random Numbers](notes/random-uniform.ipynb) (Day 8)
-
-
-Optional
-
-* [Linked lists](notes/linked-list.ipynb) (Day ?)
-
+* [Introduction to programming](notes/programming.md)
+* [Representing data in memory](notes/data-in-memory.ipynb)
+* [Model of Computation](notes/computation.ipynb)
+* [Programming Patterns in Python](notes/python-patterns.ipynb)
+* [Data aliasing](notes/aliasing.ipynb)
+* [Organizing your code with functions](notes/functions.ipynb)
+* [How to read code](notes/reading-code.md)
+* [Object-oriented programming](notes/OO.ipynb)
+* [Loading files](notes/files.ipynb)
   
 # Administrivia
 

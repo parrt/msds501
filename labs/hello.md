@@ -194,13 +194,13 @@ Sublime and TextEdit.app also work. Do not use Microsoft Word or other work proc
 
 That `500+1` expression line is exactly what you typed in first in the interactive Python shell. Save the file into your `inclass` directory or whatever you're calling it.
 
-Once you get the Python file written to the disk using your editor, you should be able to jump to that directory using `cd` (change directory) from the commandline:
+Once you get the Python file written to the disk using your editor, make sure you are in the directory containing the `hello.py` file using `cd` (change directory) from the commandline:
 
 ```bash
-$ cd /Users/YOURUSERNAME/classes/msds501/inclass
+$ cd ~/classes/msds501/inclass
 ```
 
-Use `ls` to get a directory listing:
+(`~` is a shorthand for "home directory"). Use `ls` to get a directory listing:
 
 ```bash
 $ ls
@@ -220,7 +220,7 @@ Here are solutions to the most common errors:
 1. Do not put `.txt` at the end of the file name; it must be `.py`
 2. Do NOT use M$ Word or any other word processor; You think it's text but it's not. There are lots of text editors out there including Mac's `TextEdit.app`. Just make sure save as plain text not "rich text". There are also plenty of text editor such as [Sublime](https://www.sublimetext.com/) and [TextMate](https://macromates.com/).  (If you are really hard-core, you will learn `vi` or `emacs`, which you will see me use in class.) You can also use `nano` from the command line for editing directly in the command line window.
 
-Now, we're going to run that program/script:
+Now, let's run that program/script:
 
 ```bash
 $ python hello.py
@@ -243,7 +243,7 @@ $ python hello.py
 $ 
 ```
 
-Because we have explicitly asked it to emit output, we see output.
+Because we have explicitly asked the program to emit output, we see output.
 
 ## Jupyter notebooks (via Jupyter Lab)
 
@@ -258,13 +258,13 @@ $ jupyter lab
 ...
 ```
 
-That will start up a program that opens a new tab in your browser as well:
+That will start up a program that also opens a new tab in your browser:
 
-<img src="../notes/images/lab1.png" width="60%">
+<img src="../notes/images/lab1.png" width="50%">
 
 Clicking on the "Python 3" icon under the "Notebook" category creates a new notebook window for you:
 
-<img src="../notes/images/lab2.png" width="80%">
+<img src="../notes/images/lab2.png" width="70%">
 
 Type `500+1` into the first cell next to the `In [ ]`. You should see the output 501 generated in the `Out` section below it. Hit control-enter to execute that cell or the right-facing triangle in the toolbar to execute the cell.
 

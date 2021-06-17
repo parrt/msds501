@@ -77,7 +77,7 @@ $ which python
 
 The Python program should be in the Anaconda `bin` (binary) directory, that holds all of the binary executables. If you don't see anaconda somewhere in the output from the `which` command, you need to look at the documentation for Anaconda and figure out why you are not running the appropriate Python. (Most likely something is wrong with your shell's `PATH` environment variable.) That's okay for now as we can use any available 3.X version of Python.
 
-Next, run the program and make sure you have a recent version like 3.6.5:
+Next, run the program and make sure you have a recent version like 3.8:
 
 ```bash
 $ python
@@ -102,16 +102,16 @@ You should not get an error.
 
 ##  Interactive Python
 
-Now let's jump into an interactive Python shell. In the abstract, it's the same as the bash command shell that controls your computer.  Both are programming languages; they just have different specialties. When we jump from the bash shell into Python's shell, it's like jumping across the border from France into Germany. We have to stop speaking French and start speaking German. (Or, keep speaking English if you're American because we're lazy and don't know any foreign languages. haha)  When you exit the Python interpreter, you will be back in the bash world, just as if you had returned from Germany to France.
+Now let's jump into an interactive Python shell. In the abstract, it's the same as the command shell that controls your computer.  Both are programming languages; they just have different specialties. When we jump from the terminal shell into Python's shell, it's like jumping across the border from France into Germany. We have to stop speaking French and start speaking German.  When you exit the Python interpreter, you will be back in the terminal world, just as if you had returned from Germany to France.
 
-To enter the Python world, from the bash `$` prompt type `python` as we did in the last section. You should see that it is using the **Anaconda** version. If not, that means you are using the default Python on your system.
+To enter the Python world, from the terminal `$` prompt type `python` as we did in the last section. You should see that it is using the **Anaconda** version. If not, that means you are using the default Python on your system.
 
-Now, from the Python prompt ">>>" (we are no longer in `bash`), type `500+1` followed by newline. You should see something like this:
+Now, from the Python prompt ">>>" (we are no longer in the terminal), type `500+1` followed by newline. You should see something like this:
 
 ```python
 $ python
-Python 3.6.5 |Anaconda, Inc.| (default, Apr 26 2018, 08:42:37) 
-[GCC 4.2.1 Compatible Clang 4.0.1 (tags/RELEASE_401/final)] on darwin
+Python 3.8.8 (default, Apr 13 2021, 12:59:45) 
+[Clang 10.0.0 ] :: Anaconda, Inc. on darwin
 Type "help", "copyright", "credits" or "license" for more information.
 >>> 500+1
 501
@@ -134,24 +134,24 @@ To exit the interactive shell and go back to the command line (the terminal prog
 $ 
 ```
 
-The `$` prompt indicates that you are back at the bash command line. You can no longer type python code.
+The `$` prompt indicates that you are back at the command line. You can no longer type python code and the computer is expecting a terminal shell command.
 
 ## Scripting Python
 
-Go to a suitable directory (folder) on your disk, or create one, such as `/Users/YOURID/msan501/inclass`. (**Do not use spaces in any of your directory or file names...ever!**) Now create a **text file** called `hello.py` in that directory that contains exactly one line:
+Go to a suitable directory (folder) on your disk, or create one, such as `/Users/YOURID/classes/msds501/inclass`. (**Do not use spaces in any of your directory or file names...ever!**) Now create a **text file** called `hello.py` in that directory that contains exactly one line:
 
 ```python
 500+1
 ```
 
-Use the editor of your choice, though `nano` is a good one because you will be able to use it on remote servers when we do cloud computing. Sublime and TextEdit.app also work.
+Use the editor of your choice, though `nano` is a good one because you will be able to use it on remote servers when we do cloud computing. Sublime and TextEdit.app also work. Do not use Microsoft Word or other work processors because they do not create raw text files; they have formatting commands in there as well that Python doesn't know how to handle.
 
-That "code" is exactly what you typed in first in the interactive Python shell. Save the file in your `inclass` directory or whatever your calling.
+That `500+1` expression line is exactly what you typed in first in the interactive Python shell. Save the file into your `inclass` directory or whatever you're calling it.
 
 Once you get the Python file written to the disk using your editor, you should be able to jump to that directory using `cd` (change directory) from the commandline:
 
 ```bash
-$ cd /Users/YOURID/msan501/inclass
+$ cd /Users/YOURID/classes/msds501/inclass
 ```
 
 Use `ls` to get a directory listing:
@@ -161,7 +161,7 @@ $ ls
 hello.py
 ```
 
-You verify that you have created the Python script properly by typing the following at the command line:
+You can verify that you have created the Python script properly by typing the following at the command line:
 
 ```bash
 $ cat hello.py
@@ -181,7 +181,7 @@ $ python hello.py
 $ 
 ```
 
-We do not get any output. This is a critical difference. The interactive Python shell immediately prints expression values because it is interactive. When you run a file from the commandline, it assumes you wanted to execute the code like a script in batch mode. That is why we do not get any output without a print statement.
+We do not get any output. This is a critical difference to internalize. The interactive Python shell immediately prints expression values because it is interactive. When you run a file from the commandline, it assumes you wanted to execute the code like a script in batch mode. That is why we do not get any output without a print statement.
 
 Now edit that file and change it to
 
@@ -197,22 +197,22 @@ $ python hello.py
 $ 
 ```
 
+Because we have explicitly asked it to emit output, we see output.
+
 ## Jupyter notebooks (via Jupyter Lab)
 
-Now, we're going to do the exact same thing except using the Jupyter Lab browser-based environment.  (See [Your machine learning development environment](https://mlbook.explained.ai/prep.html#sec:3.1) from the [in-progress ML book](https://mlbook.explained.ai) for more.)
-
-Launch Jupyter from the command line::
+Now, we're going to do the exact same thing except using the Jupyter Lab browser-based environment.  Launch Jupyter from the command line (and not by double-clicking on something from the Anaconda GUI):
 
 ```bash
 $ jupyter lab
-I 11:27:00.606 LabApp] [jupyter_nbextensions_configurator] enabled 0.2.8
-[I 11:27:00.613 LabApp] JupyterLab beta preview extension loaded from /Users/parrt/anaconda3/lib/python3.6/site-packages/jupyterlab
-[I 11:27:00.613 LabApp] JupyterLab application directory is /Users/parrt/anaconda3/share/jupyter/lab
-[W 11:27:00.616 LabApp] JupyterLab server extension not enabled, manually loading...
+[I 2021-06-16 17:00:21.330 ServerApp] jupyterlab | extension was successfully linked.
+[I 2021-06-16 17:00:21.869 ServerApp] jupyter_nbextensions_configurator | extension was found and enabled by nbclassic. Consider moving the extension to Jupyter Server's extension paths.
+[I 2021-06-16 17:00:21.870 ServerApp] jupyter_nbextensions_configurator | extension was successfully linked.
+[I 2021-06-16 17:00:21.870 ServerApp] nbclassic | extension was successfully linked.
 ...
 ```
 
-That will start up a program that launches a tab in your browser as well:
+That will start up a program that opens a new tab in your browser as well:
 
 <img src="../notes/images/lab1.png" width="60%">
 
@@ -222,6 +222,8 @@ Clicking on the "Python 3" icon under the "Notebook" category creates a new note
 
 Type `500+1` into the first cell next to the `In [ ]`. You should see the output 501 generated in the `Out` section below it. Hit control-enter to execute that cell or the right-facing triangle in the toolbar to execute the cell.
 
-This is an interactive environment and so you can go back and edit the `500+1` to be, say, `print(500+1)`. Do that and then hit control-enter again to run. You should get the same output.
+This is an interactive environment and so you can go back and edit the `500+1` to be, say, `print(500+1)`. Do that and then hit control-enter again to run. You should get the same output:
+
+<img src="images/after-print-jupyter.png" width="200">
 
 **You should be able to test out small programs or Python snippets very very quickly. Rehearse these procedures until they are second nature.**

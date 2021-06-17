@@ -61,18 +61,18 @@ Each project has a hard deadline and only those projects working correctly befor
 
 * [Overview of a Python programmer's world](slides/overview.pdf) (Day 1)
 * [Intro to Python programming](slides/intro-programming.pdf) (Day 1)
-* [Programming patterns](slides/programming-patterns.pdf) (Day 1)
-* [Packages and modules](slides/packages.pdf) (Day 3)
+* [Programming patterns](slides/programming-patterns.pdf) (Day 2)
+* [Packages and modules](slides/packages.pdf) (Day 2)
 * [Organizing your code with functions](slides/functions.pdf) (Day 3)
 * [Data aliasing](slides/aliasing.pdf) (Day 3)
 * [Reading and writing files](slides/files.pdf) (Day 4)
 * [Problem solving](slides/) (data / files processing)
-* [OO](slides/) (Day 9)
+* [Object-oriented programming](slides/OO.pdf) (Day 9)
 
 ## Let's have some fun with audio files
 
 * [A bit of motivation (Audio processing)](notes/sound.ipynb) (Day 1)
-* [Playing sounds](labs/sound.md) (Day 1)
+	* LAB [Playing sounds](labs/sound.md) (Day 1)
 
 ## Problem solving
 

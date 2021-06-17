@@ -6,19 +6,19 @@ First, download the following two audio files so we have some raw materials to w
 * [initial sequence from Kiss by Prince, Kiss.aiff](../notes/sound/Kiss.aiff)
 * [ahhh sound, ahhh.mp3](../notes/sound/ahhh.mp3)
 
-I suggests that you store them in a directory such as:
+I suggests that you store them in a directory such as (you will likely have to create that sequence of directories using OS X's Finder window):
 
-`/Users/YOURID/msan501/labs/sound`
+`/Users/YOURUSERNAME/msds501/labs/sound`
 
-where `YOURID` is your computer login name. For example, my login name is `parrt`. On Linux it would something like:
+where `YOURUSERNAME` is your computer login name. For example, my login name is `parrt`. On Linux it would something like:
 
-`/home/YOURID/msan501/labs/sound`
+`/home/YOURUSERNAME/msds501/labs/sound`
 
 ## Installing commandline tools
 
 It turns out that the sound libraries we're going to use in Python don't know how to process mp3 files. We need to convert the ahhh.mp3 file to ahhh.wav, which the libraries do know how to process. To do that, were going to use a tool called [mpg123](https://www.mpg123.de/).
 
-To install most free software on the Mac, we use use a program called [homebrew](https://brew.sh/) (just `brew` from the command line). It might be preinstalled on your computer, but if not, read the instructions and install it. It's a matter of cutting and pasting a single line that starts with `/usr/bin/ruby...`
+To install most free software on the Mac, we use a program called [homebrew](https://brew.sh/) (just `brew` from the command line). It might be preinstalled on your computer, but if not, read the instructions and install it. It's a matter of cutting and pasting a single line that starts with `/usr/bin/ruby...`
 
 Once that's installed, we can use it to install `mpg123`. From the terminal, run the following `brew` command, which should give the indicated output:
 
@@ -49,7 +49,7 @@ $ sudo yum install mpg123
 Now, that we have mpg123 installed, we can use it to convert an .mp3 to a .wav file. Go into the directory where you have saved the `ahhh.mp3` file using the `cd` (change directory) command and list at the files with `ls`:
 
 ```bash
-$ cd /Users/YOURID/msan501/labs/sound
+$ cd /Users/YOURUSERNAME/msds501/labs/sound
 $ ls
 Kiss.aiff  ahhh.mp3
 ```
@@ -109,11 +109,11 @@ To install Python packages, we use the `pip` (or, later, `conda`) program. Norma
 
 ```bash
 $ which pip
-/Users/parrt/anaconda3/bin/pip
+/Users/parrt/opt/anaconda3/bin/pip
 $ which python
-/Users/parrt/anaconda3/bin/python
+/Users/parrt/opt/anaconda3/bin/python
 $ which python3
-/Users/parrt/anaconda3/bin/python3
+/Users/parrt/opt/anaconda3/bin/python3
 ```
 
 Now, let's install the `pysoundfile` package:
@@ -121,10 +121,10 @@ Now, let's install the `pysoundfile` package:
 ```bash
 $ pip install pysoundfile
 Collecting pysoundfile
-  Downloading PySoundFile-0.9.0.post1-py2.py3.cp26.cp27.cp32.cp33.cp34.cp35.cp36.pp27.pp32.pp33-none-macosx_10_5_x86_64.macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.whl (573kB)
-    100% |████████████████████████████████| 573kB 1.4MB/s 
-Requirement already satisfied: cffi>=0.6 in /Users/parrt/anaconda2/lib/python2.7/site-packages (from pysoundfile)
-Requirement already satisfied: pycparser in /Users/parrt/anaconda2/lib/python2.7/site-packages (from cffi>=0.6->pysoundfile)
+  Downloading PySoundFile-0.9.0.post1-py2.py3.cp26.cp27.cp32.cp33.cp34.cp35.cp36.pp27.pp32.pp33-none-macosx_10_5_x86_64.macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.whl (573 kB)
+     |████████████████████████████████| 573 kB 9.4 MB/s 
+Requirement already satisfied: cffi>=0.6 in /Users/parrt/opt/anaconda3/lib/python3.8/site-packages (from pysoundfile) (1.14.5)
+Requirement already satisfied: pycparser in /Users/parrt/opt/anaconda3/lib/python3.8/site-packages (from cffi>=0.6->pysoundfile) (2.20)
 Installing collected packages: pysoundfile
 Successfully installed pysoundfile-0.9.0.post1
 ```
@@ -156,7 +156,16 @@ This time, we do not get an error at the `import` statement.
 
 At this point, you have converted a file so it can be used by our Python libraries and you have installed those Python libraries. In doing so, you used a number of commandline tools you should get very familiar with: `brew`, `pip`, `which`, `cd`, `ls`, `python`, etc...
 
-It's time to put all of this together into a simple Python program that you can cut-and-paste to play a sound. Let's start with code to play the `Kiss.aiff` file.  Create a file called `play.py` in the same directory where your audio files are. You can use `nano` or another text editor. Here is the code:
+It's time to put all of this together into a simple Python program that you can cut-and-paste to play a sound. Let's start with code to play the `Kiss.aiff` file.  Create a file called `play.py` in the same directory where your audio files are. Use the editor of your choice, though `nano` is a good one because you will be able to use it on remote servers when we do cloud computing.  You can start it up like this:
+
+```bash
+$ cd /Users/YOURUSERNAME/msds501/labs/sound  # make sure we are in the right directory
+$ nano hello.py
+```
+
+Sublime and TextEdit.app also work. Do not use Microsoft Word or other work processors because they do not create raw text files; they have formatting commands in there as well that Python doesn't know how to handle. 
+
+Here is the code:
 
 ```python
 import soundfile as sf    # Use this package
@@ -298,7 +307,7 @@ It is possible to slow music down and <b>not</b> change the pitch, which is real
 
 ## Solution
 
-You can find all of the code for this lab in the [msan501 class repository](https://github.com/parrt/msan501/tree/master/labs/code/sound). Here are the [sound files](https://github.com/parrt/msan501/tree/master/notes/sound).
+You can find all of the code for this lab in the [msds501 class repository](https://github.com/parrt/msds501/tree/master/labs/code/sound). Here are the [sound files](https://github.com/parrt/msds501/tree/master/notes/sound).
 
 ## Summary
 

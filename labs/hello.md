@@ -186,7 +186,7 @@ $ cd classes/msds501/inclass   # set working directory to inclass
 500+1
 ```
 
-Use the editor of your choice, though `nano` is a good one because you will be able to use it on remote servers when we do cloud computing. you can start it up like this:
+Use the editor of your choice, though `nano` is a good one because you will be able to use it on remote servers when we do cloud computing. You can start it up like this:
 
 ```bash
 $ nano hello.py

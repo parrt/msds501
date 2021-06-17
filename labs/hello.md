@@ -1,6 +1,6 @@
 # A first taste of Python tools
 
-The goal of this lab is to get a taste of the commandline, make sure that you can execute Python scripts, and start using Jupyter notebooks. You can also check out chapter [Development Tools](https://mlbook.explained.ai/tools.html) from [The mechanics of machine learning](https://mlbook.explained.ai).
+The goal of this lab is to get a taste of the commandline, make sure that you can execute Python scripts, and start using Jupyter notebooks. You can also check out chapter [Development Tools](https://mlbook.explained.ai/tools.html) from [The mechanics of machine learning](https://mlbook.explained.ai).   You should just work through the examples, typing what you see to get a feel for the commands and Python programming ecosystem.
 
 ## Launch a commandline app
 
@@ -58,6 +58,47 @@ sqrt.md
 ```
 
 This is an advanced feature but I wanted you to be aware of it as a sophisticated terminal example.
+
+### Installing terminal software
+
+One of the most common commands that you will use that takes arguments is `brew`, which installs open-source software from the commandline.  The software it installs are typically then available as commands from the commandline. For example, let's install `mpg123`, needed by our sound file lab.  In might be the case that your computer already has this installed, but let's run the install anyway:
+
+```bash
+$ brew install mpg123
+==> Downloading https://ghcr.io/v2/homebrew/core/mpg123/manifests/1.28.0
+Already downloaded: /Users/parrt/Library/Caches/Homebrew/downloads/5ed0674621da9c4a6a486f685e7122862b5e4276db02130ebbf346f374fdc943--mpg123-1.28.0.bottle_manifest.json
+==> Downloading https://ghcr.io/v2/homebrew/core/mpg123/blobs/sha256:2f69c200c93039
+Already downloaded: /Users/parrt/Library/Caches/Homebrew/downloads/8f408941becd57515ec89105026ff143151b773bc2e58de4d2368b40b4f8b43b--mpg123--1.28.0.big_sur.bottle.tar.gz
+==> Pouring mpg123--1.28.0.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/mpg123/1.28.0: 30 files, 1.3MB
+$ 
+```
+
+Then you can try out the `mpg123` command to make sure it installed:
+
+```bash
+$ mpg123
+You made some mistake in program usage... let me briefly remind you:
+
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layers 1, 2 and 3
+	version 1.28.0; written and copyright by Michael Hipp and others
+	free software (LGPL) without any warranty but with best wishes
+
+usage: mpg123 [option(s)] [file(s) | URL(s) | -]
+...
+```
+
+### Installing Python software
+
+We will also install a lot of Python packages, for which we use the `pip` command.  For example, we will need `pysoundfile` and `sounddevice`:
+
+```bash
+$ pip install pysoundfile
+...
+$ pip install sounddevice
+...
+$ 
+```
 
 ## Environment Sanity check
 

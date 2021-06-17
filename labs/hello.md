@@ -2,6 +2,12 @@
 
 The goal of this lab is to get a taste of the commandline, make sure that you can execute Python scripts, and start using Jupyter notebooks. You can also check out chapter [Development Tools](https://mlbook.explained.ai/tools.html) from [The mechanics of machine learning](https://mlbook.explained.ai).   You should just work through the examples, typing what you see to get a feel for the commands and Python programming ecosystem.
 
+## Let's set up your machine name 
+
+If you did not set up a machine name, then Mac OS probably set it up with some weird name based upon your human name. As you can see, my work machine is called `varmint`:
+
+<img src="images/machine-name.png" width="400">
+
 ## Launch a commandline app
 
 Launch `Terminal.app` (Mac) or whatever the `bash` or `zsh` *terminal*, *shell*, or *commandline prompt* program is on your flavor of UNIX. You should see a blinking cursor and a `$` prompt, possibly with the current working directory to the left of the `$` prompt:
@@ -181,7 +187,15 @@ The `$` prompt indicates that you are back at the command line. You can no longe
 
 ## Scripting Python
 
-Go to a suitable directory (folder) on your disk, or create one, such as `/Users/YOURID/classes/msds501/inclass`. (**Do not use spaces in any of your directory or file names...ever!**) Now create a **text file** called `hello.py` in that directory that contains exactly one line:
+Go to a suitable directory (folder) on your disk, or create one, such as `/Users/YOURID/classes/msds501/inclass`.
+
+```bash
+$ cd ~   # set current working directory to your home directory
+$ mkdir -p classes/msds501/inclass  # make this subdirectory path
+$ cd classes/msds501/inclass   # set working directory to inclass
+```
+
+(**Do not use spaces in any of your directory or file names...ever!**) Now create a **text file** called `hello.py` in that directory that contains exactly one line:
 
 ```python
 500+1

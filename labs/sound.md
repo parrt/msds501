@@ -8,11 +8,11 @@ First, download the following two audio files so we have some raw materials to w
 
 I suggests that you store them in a directory such as (you will likely have to create that sequence of directories using OS X's Finder window):
 
-`/Users/YOURUSERNAME/msds501/labs/sound`
+`/Users/YOURUSERNAME/classes/msds501/labs/sound`
 
 where `YOURUSERNAME` is your computer login name. For example, my login name is `parrt`. On Linux it would something like:
 
-`/home/YOURUSERNAME/msds501/labs/sound`
+`/home/YOURUSERNAME/classes/msds501/labs/sound`
 
 ## Installing commandline tools
 
@@ -49,7 +49,7 @@ $ sudo yum install mpg123
 Now, that we have mpg123 installed, we can use it to convert an .mp3 to a .wav file. Go into the directory where you have saved the `ahhh.mp3` file using the `cd` (change directory) command and list at the files with `ls`:
 
 ```bash
-$ cd /Users/YOURUSERNAME/msds501/labs/sound
+$ cd /Users/YOURUSERNAME/classes/msds501/labs/sound
 $ ls
 Kiss.aiff  ahhh.mp3
 ```
@@ -159,7 +159,7 @@ At this point, you have converted a file so it can be used by our Python librari
 It's time to put all of this together into a simple Python program that you can cut-and-paste to play a sound. Let's start with code to play the `Kiss.aiff` file.  Create a file called `play.py` in the same directory where your audio files are. Use the editor of your choice, though `nano` is a good one because you will be able to use it on remote servers when we do cloud computing.  You can start it up like this:
 
 ```bash
-$ cd /Users/YOURUSERNAME/msds501/labs/sound  # make sure we are in the right directory
+$ cd /Users/YOURUSERNAME/classes/msds501/labs/sound  # make sure we are in the right directory
 $ nano hello.py
 ```
 

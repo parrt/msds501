@@ -3,8 +3,8 @@
 
 First, download the following two audio files so we have some raw materials to work with.
 
-* [initial sequence from Kiss by Prince, Kiss.aiff](../notes/sound/Kiss.aiff)
-* [ahhh sound, ahhh.mp3](../notes/sound/ahhh.mp3)
+* [initial sequence from Kiss by Prince, Kiss.aiff](https://github.com/parrt/msds501/blob/master/notes/sound/Kiss.aiff?raw=true)
+* [ahhh sound, ahhh.mp3](https://github.com/parrt/msds501/blob/master/notes/sound/ahhh.mp3?raw=true)
 
 I suggests that you store them in a directory such as (you will likely have to create that sequence of directories using OS X's Finder window):
 

@@ -59,20 +59,15 @@ Each project has a hard deadline and only those projects working correctly befor
 
 ## Designing and building programs
 
+* [A bit of motivation (Audio processing)](notes/sound.ipynb) (Day 1)
 * [Overview of a Python programmer's world](slides/overview.pdf) (Day 1)
-* [Intro to Python programming](slides/intro-programming.pdf) (Day 1)
+* [Intro to Python programming](slides/intro-programming.pdf) (Day 2)
 * [Programming patterns](slides/programming-patterns.pdf) (Day 2)
-* [Packages and modules](slides/packages.pdf) (Day 2)
+* [Packages and modules](slides/packages.pdf) (Day 3)
 * [Organizing your code with functions](slides/functions.pdf) (Day 3)
 * [Data aliasing](slides/aliasing.pdf) (Day 3)
 * [Reading and writing files](slides/files.pdf) (Day 4)
-* [Problem solving](slides/) (data / files processing)
 * [Object-oriented programming](slides/OO.pdf) (Day 9)
-
-## Let's have some fun with audio files
-
-* [A bit of motivation (Audio processing)](notes/sound.ipynb) (Day 1)
-	* LAB [Playing sounds](labs/sound.md) (Day 1)
 
 ## Problem solving
 
@@ -80,8 +75,9 @@ Each project has a hard deadline and only those projects working correctly befor
 
 ## Programming ecosystem
 
-* [The terminal command-line](slides/terminal.pdf) (Day 2)
-	* LAB: [A first taste of Python tools](labs/hello.md) (Day 2)
+* [The terminal command-line and python environments](slides/terminal.pdf) (Day 1)
+	* LAB: [A first taste of Python tools](labs/hello.md) (Day 1)
+	* LAB: [Playing sounds](labs/sound.md) (Day 2)
 * [git and github version control](slides/git.pdf) (Day 2)
 * [Launching a Virtual Machine at Amazon Web Services](notes/aws.md) (Day 10)
 

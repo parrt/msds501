@@ -67,7 +67,7 @@ Each project has a hard deadline and only those projects working correctly befor
 * [git and github version control](slides/git.pdf) (Day 2)
 	* LAB: [Git and github](labs/git.md) (Day 2)
 * [Intro to Python programming](slides/intro-programming.pdf) (Day 3)
-	* QUIZ: [Python basics](labs/python-basics-quiz.ipynb) (Day 2)
+	* QUIZ: [Python basics practice quiz](labs/python-basics-quiz.ipynb) (Day 2)
 * [Programming patterns](slides/programming-patterns.pdf) (Day 3)
 * [Packages and modules](slides/packages.pdf) (Day 4)
 * [Organizing your code with functions](slides/functions.pdf) (Day 4)

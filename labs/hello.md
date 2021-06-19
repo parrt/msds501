@@ -4,12 +4,6 @@ The goal of this lab is to get a taste of the commandline, make sure that you ca
 
 You should just work through the examples, typing what you see to get a feel for the commands and Python programming ecosystem.  It will often be the case that we work through code together in class and you need to be able to quickly start an environment where you can write and execute code.
 
-## Let's set up your machine name 
-
-If you did not set up a machine name, then Mac OS probably set it up with some weird name based upon your human name. As you can see, my work machine is called `varmint`:
-
-<img src="images/machine-name.png" width="400">
-
 ## Launch a commandline app
 
 Launch `Terminal.app` (Mac) or whatever the `bash` or `zsh` *terminal*, *shell*, or *commandline prompt* program is on your flavor of UNIX. You should see a blinking cursor and a `$` prompt, possibly with the current working directory to the left of the `$` prompt:
@@ -18,7 +12,7 @@ Launch `Terminal.app` (Mac) or whatever the `bash` or `zsh` *terminal*, *shell*,
 $ 
 ```
 
-The `$` sign above is just the prompt that indicates the terminal is waiting for you to type something. After command executes, you will see the `$` prompt again.
+The `$` sign above is just the prompt that indicates the terminal is waiting for you to type something. After a command executes, you will see the `$` prompt again.
 
 The commandline is a very low-level interface for communicating with the operating system of your computer. You can think of the terminal as the diagnostics computer that mechanics plug into your car to really take control. A car's dashboard is analogous to the windowing graphical interface we use most of the time.  Becoming a programmer is like becoming a mechanic; sometimes you need more powerful but more complicated tools to operate machinery.
 
@@ -54,9 +48,11 @@ $ date "+%Y-%m-%d"
 
 To install most free software on the Mac, we use use a program called [homebrew](https://brew.sh/) (just `brew` from the command line). It might be preinstalled on your computer, but if not, read the instructions and install it. It's a matter of cutting and pasting a single line that starts with `/usr/bin/ruby...`
 
-The software `brew` installs is typically then available as a command from the commandline. For example, let's install `mpg123`, needed by our sound file lab.  In might be the case that your computer already has this installed, but let's run the install anyway:
+The software that `brew` installs is typically available as a command from the commandline. For example, let's install `mpg123`, needed by our sound file lab.  In might be the case that your computer already has this installed, but let's run the install anyway:
 
 ```bash
+$ mpg123  # this is probably not installed yet
+-bash: mpg123: command not found
 $ brew install mpg123
 ==> Downloading https://ghcr.io/v2/homebrew/core/mpg123/manifests/1.28.0
 Already downloaded: /Users/parrt/Library/Caches/Homebrew/downloads/5ed0674621da9c4a6a486f685e7122862b5e4276db02130ebbf346f374fdc943--mpg123-1.28.0.bottle_manifest.json
@@ -176,8 +172,13 @@ Go to a suitable directory (folder) on your disk, or create one, such as `/Users
 
 ```bash
 $ cd ~   # set current working directory to your home directory
+$ pwd
+/Users/parrt
 $ mkdir -p classes/msds501/inclass  # make this subdirectory path
 $ cd classes/msds501/inclass   # set working directory to inclass
+$ pwd
+/Users/parrt/classes/msds501/inclass
+$
 ```
 
 (**Do not use spaces in any of your directory or file names...ever!**) Now create a **text file** called `hello.py` in that directory that contains exactly one line:

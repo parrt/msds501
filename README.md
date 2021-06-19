@@ -33,15 +33,15 @@ Writing software is about problem solving, computer languages, algorithms, data 
 | Artifact | Grade Weight | Due date |
 |--------|--------|--------|
 |[Github/USF survey](https://usfca.instructure.com/courses/1600702/assignments/7086080)| 0%| July 7 |
-|[Image processing](https://github.com/parrt/msan501/blob/master/projects/images.md)| 15%| Mon, July 21 |
-| [Word similarity and relationships](https://github.com/parrt/msds501/blob/master/projects/wordsim.md) | 10%| Mon, July 28 |
-| [Exploration of Enron email data set](https://github.com/parrt/msds501/blob/master/projects/enron.md)| 15%| Mon, August 13 |
-|Quiz 1| 16%| 9:15am Wed, July 14 |
-|Quiz 2| 16%| 9:15am Mon, July 26 |
-|Quiz 3| 16%| 9:15am Mon, August 2 |
-|Quiz 4| 16%| 9:15am Mon, August 11 (last day of class) | 
+|[Image processing](https://github.com/parrt/msan501/blob/master/projects/images.md)| 16%| Mon, July 21 |
+| [Word similarity and relationships](https://github.com/parrt/msds501/blob/master/projects/wordsim.md) | 12%| Mon, July 28 |
+| [Exploration of Enron email data set](https://github.com/parrt/msds501/blob/master/projects/enron.md)| 16%| Mon, August 13 |
+|Quiz 1| 12%| 9:15am Wed, July 14 |
+|Quiz 2| 12%| 9:15am Mon, July 26 |
+|Quiz 3| 12%| 9:15am Mon, August 2 |
+|Final exam| 20%| 10:00am Mon, August 11 (last day of class) | 
 
-**Quizzes** 1-4 are held in rooms 154-156. All quizzes use HonorLock to log into Canvas so you can take the quiz.  Quizzes have strict time limits and you will be unable to do anything other than take the quiz; no access to the Internet etc.  You will have one chance to answer each question. 
+**Quizzes** 1-3 and the final exam are held in rooms 154-156. All quizzes use HonorLock to log into Canvas so you can take the quiz.  Quizzes have strict time limits and you will be unable to do anything other than take the quiz; no access to the Internet etc.
 
 All projects will be graded with the specific input or tests given in the project description, so you understand precisely what is expected of your program. Consequently, projects will be graded in binary fashion: They either work or they do not.  The only exception is when your program does not run on the grader's or my machine because of some cross-platform issue. This is typically because a student has hardcoded some file name or directory into their program. In that case, we will take off just 20% instead of giving you a 0. Please go to github and verify that the website has the proper files for your solution. That is what I will download for testing.
 
@@ -66,15 +66,13 @@ Each project has a hard deadline and only those projects working correctly befor
 	* LAB: [Playing sounds](labs/sound.md) (Day 2)
 * [git and github version control](slides/git.pdf) (Day 2)
 * [Intro to Python programming](slides/intro-programming.pdf) (Day 2)
-* [Programming patterns](slides/programming-patterns.pdf) (Day 2)
+* [Programming patterns](slides/programming-patterns.pdf) (Day 3)
 * [Packages and modules](slides/packages.pdf) (Day 3)
-* [Organizing your code with functions](slides/functions.pdf) (Day 3)
-* [Data aliasing](slides/aliasing.pdf) (Day 3)
-* [Reading and writing files](slides/files.pdf) (Day 4)
+* [Organizing your code with functions](slides/functions.pdf) (Day 4)
+* [Data aliasing](slides/aliasing.pdf) (Day 4)
+* [Reading and writing files](slides/files.pdf) (Day 5)
 * [Object-oriented programming](slides/OO.pdf) (Day 9)
-
 * [Approximating square root](notes/sqrt.ipynb) (Day 8)
-
 * [Launching a Virtual Machine at Amazon Web Services](notes/aws.md) (Day 10)
 
 ## Notes and notebooks supporting lectures

@@ -250,7 +250,7 @@ Because we have explicitly asked the program to emit output, we see output.
 
 ## Jupyter notebooks (via Jupyter Lab)
 
-Now, we're going to do the exact same thing except using the Jupyter Lab browser-based environment.  Launch Jupyter from the command line (and not by double-clicking on something from the Anaconda GUI):
+Now, we're going to do the exact same thing except using the Jupyter Lab browser-based environment.  Launch Jupyter from the command line (and NOT by double-clicking on something from the Anaconda GUI):
 
 ```bash
 $ jupyter lab

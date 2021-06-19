@@ -57,10 +57,14 @@ Each project has a hard deadline and only those projects working correctly befor
 
 # Syllabus
 
-## Designing and building programs
+## Timeline
 
 * [A bit of motivation (Audio processing)](notes/sound.ipynb) (Day 1)
 * [Overview of a Python programmer's world](slides/overview.pdf) (Day 1)
+* [The terminal command-line and python environments](slides/terminal.pdf) (Day 1)
+	* LAB: [A first taste of Python tools](labs/hello.md) (Day 1)
+	* LAB: [Playing sounds](labs/sound.md) (Day 2)
+* [git and github version control](slides/git.pdf) (Day 2)
 * [Intro to Python programming](slides/intro-programming.pdf) (Day 2)
 * [Programming patterns](slides/programming-patterns.pdf) (Day 2)
 * [Packages and modules](slides/packages.pdf) (Day 3)
@@ -69,19 +73,11 @@ Each project has a hard deadline and only those projects working correctly befor
 * [Reading and writing files](slides/files.pdf) (Day 4)
 * [Object-oriented programming](slides/OO.pdf) (Day 9)
 
-## Problem solving
-
 * [Approximating square root](notes/sqrt.ipynb) (Day 8)
 
-## Programming ecosystem
-
-* [The terminal command-line and python environments](slides/terminal.pdf) (Day 1)
-	* LAB: [A first taste of Python tools](labs/hello.md) (Day 1)
-	* LAB: [Playing sounds](labs/sound.md) (Day 2)
-* [git and github version control](slides/git.pdf) (Day 2)
 * [Launching a Virtual Machine at Amazon Web Services](notes/aws.md) (Day 10)
 
-## Notes supporting lectures
+## Notes and notebooks supporting lectures
 
 * [Introduction to programming](notes/programming.md)
 * [Representing data in memory](notes/data-in-memory.ipynb)

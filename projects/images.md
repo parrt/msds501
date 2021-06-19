@@ -23,11 +23,11 @@ Accepting the invitation will create a webpage representing your repository at g
 https://github.com/USF-MSDS501/images-parrt.git
 ```
 
-On your corresponding webpage, you will find a URL that let's us clone that repository onto our laptop. You will see something like this at the top of the webpage:
+On your corresponding webpage, you will find a URL that let's you clone that repository onto our laptop. You will see something like this at the top of the webpage:
 
 <img src="../notes/images/github-setup.png" width="400">
 
-Copy the **HTTPS not SSH** URL and then we will use the command line to clone it onto our laptops.  Launch `Terminal.app` or whatever your command-line shell is called on your system and then use the `git clone `command as you see below, replacing `images-parrt` with images-*yourid*. You will have to type in your github user ID and password.
+Copy the **HTTPS not SSH** URL and then we will use the command line to clone it onto our laptops.  Launch `Terminal.app` or whatever your command-line shell is called on your system and then use the `git clone` command as you see below, replacing `images-parrt` with `images`-*yourgithubusername*. You will have to type in your github user name and password while cloning.
 
 ```bash
 $ cd ~/msds501 #  assuming this is where you want the root of all of 501 projects
@@ -38,13 +38,14 @@ Password for 'https://parrt@github.com':
 warning: You appear to have cloned an empty repository.
 $ cd images-parrt # after this command you are now in your repository's dir
 $ ls # list files in the directory
+$ 
 ```
 
 There is nothing in the repo yet, so let's add the notebook starter kit and images that we'll need.
 
 ### Copying the starter kit and images
 
-I have provided a Jupyter Lab notebook for you to use as a [starter kit](https://github.com/parrt/msds501/blob/master/projects/images.ipynb). You should save that file into the root directory associated with your repository, likely that's `~/msds502/images-`*userid*.   You can do that from the command line like the cool kids if you want:
+I have provided a Jupyter Lab notebook for you to use as a [starter kit](https://github.com/parrt/msds501/blob/master/projects/images.ipynb). You should save that file into the root directory associated with your repository, likely that's `~/msds502/images-`*yourgithubusername*.   You can do that from the command line like the cool kids if you want:
 
 ```bash
 $ cd ~/msds501/images-parrt  # ensure we are in the repository root dir
@@ -78,7 +79,7 @@ $ rm images-project-images.zip # remove as we don't need anymore
 
 ### Adding files to git, pushing to github
 
-Your repository can only track files that live underneath the images-*yourid* directory. We have to tell git to track files of interest---git does not track any file you don't tell it to track, so let's add everything:
+Your repository can only track files that live underneath the `images`-*yourgithubusername* directory. We have to tell git to track files of interest---git does not track any file you don't tell it to track, so let's add everything:
 
 ```bash
 $ git add images.ipynb

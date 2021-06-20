@@ -73,8 +73,9 @@ Each project has a hard deadline and only those projects working correctly befor
 * [Organizing your code with functions](slides/functions.pdf) (Day 4)
 * [Data aliasing](slides/aliasing.pdf) (Day 5)
 * [Reading and writing files](slides/files.pdf) (Day 5)
-* [Basic problem-solving approaches](slides/problem-solving.pdf) (Day 6)
-* [Approximating square root](notes/sqrt.ipynb) (Day 8)
+* [A simple problem-solving approach](slides/problem-solving.pdf) (Day 6)
+* [Approximating square root iteratively](slides/sqrt.pdf) (Day 8)
+  * LAB and notes: [Iterative computing pattern: square root](labs/sqrt.ipynb) (Day 8)
 * [Object-oriented programming](slides/OO.pdf) (Day 9)
 * [Launching a Virtual Machine at Amazon Web Services](notes/aws.md) (Day 10)
 

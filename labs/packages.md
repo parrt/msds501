@@ -81,3 +81,5 @@ $ python usemymath.py
 ```
    
 The whole point of this exercise is to learn that organizing related functions into modules that you can reuse makes you more productive. You can even publish these packages so that other people can use your code.
+
+If you get stuck, you can check out the solutions

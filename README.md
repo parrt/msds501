@@ -72,7 +72,7 @@ Each project has a hard deadline and only those projects working correctly befor
 * [Packages and modules](slides/packages.pdf) (Day 4)
 	* LAB: [Packages lab](labs/packages.md) (Day 4)
 * [Organizing your code with functions](slides/functions.pdf) (Day 4)
-	* LAB: [Python functions](labs/functions.ipynb) (Day 4)
+	* LAB: [Python functions](labs/functions-practice-quiz.ipynb) (Day 4)
 * [Data aliasing](slides/aliasing.pdf) (Day 5)
 * [Reading and writing files](slides/files.pdf) (Day 5)
 * [A simple problem-solving approach](slides/problem-solving.pdf) (Day 6)

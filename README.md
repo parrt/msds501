@@ -70,6 +70,7 @@ Each project has a hard deadline and only those projects working correctly befor
 	* QUIZ: [Python basics practice quiz](labs/python-basics-quiz.ipynb) (Day 2)
 * [Programming patterns](slides/programming-patterns.pdf) (Day 3)
 * [Packages and modules](slides/packages.pdf) (Day 4)
+	* LAB: [Packages lab](labs/packages.md) (Day 4)
 * [Organizing your code with functions](slides/functions.pdf) (Day 4)
 * [Data aliasing](slides/aliasing.pdf) (Day 5)
 * [Reading and writing files](slides/files.pdf) (Day 5)

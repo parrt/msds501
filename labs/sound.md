@@ -1,5 +1,6 @@
 # Playing sounds
- The goal of this lab is to amaze yourself that you can do some audio file processing with Python. You won't get all the details, but you can cut-and-paste for this lab to start conversing in Python.  As a secondary goal, you'll get more experience on the commandline and executing Python scripts.
+
+The goal of this lab is to amaze yourself that you can do some audio file processing with Python. You won't get all the details, but you can cut-and-paste for this lab to start conversing in Python.  As a secondary goal, you'll get more experience on the commandline and executing Python scripts.
 
 First, download the following two audio files so we have some raw materials to work with.
 

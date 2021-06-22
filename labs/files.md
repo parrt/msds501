@@ -81,4 +81,6 @@ $ python copy.py cars.xls /tmp/cars.xls
 $ open /tmp/cars.xls # open that file in Excel
 ```
 
+If you get stuck, here is the [solution](https://github.com/parrt/msds501/blob/master/labs/code/files/copy.py).
+
 At this point, you've got the basic skills necessary to read and write text and binary files in Python!

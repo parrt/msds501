@@ -75,6 +75,7 @@ Each project has a hard deadline and only those projects working correctly befor
 	* PRACTICE QUIZ: [Python functions practice quiz](labs/functions-practice-quiz.ipynb) (Day 4)
 * [Data aliasing](slides/aliasing.pdf) (Day 5)
 * [Reading and writing files](slides/files.pdf) (Day 5)
+	* LAB: [Files lab](labs/files.md) (Day 5)
 * [A simple problem-solving approach](slides/problem-solving.pdf) (Day 6)
 * [Approximating square root iteratively](slides/sqrt.pdf) (Day 8)
   * LAB and notes: [Iterative computing pattern: square root](labs/sqrt.ipynb) (Day 8)

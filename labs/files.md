@@ -48,13 +48,21 @@ $ diff prices.txt /tmp/foo.txt
 $ 
 ```
 
-We get no output from `diff`, indicating that there is no difference between the original file and the target.
+We get no output from `diff`, indicating that there is no difference between the original file and the target. If you get stuck, here is the [solution](https://github.com/parrt/msds501/blob/master/labs/code/files/copytxt.py).
 
 ## Copying any kind of file
- 
-[cars.xls](https://github.com/parrt/msds501/blob/master/data/cars.xls?raw=true)
+
+In order to load a text file, Python must interpret the numbers in the file as characters.  This conversion from numbers to characters is rather complicated, and we will discuss this in detail in data acquisition. For now, please keep in mind that Python reads text files with some decoding operations. On the other hand, if we tell Python the file is "binary," then Python won't do any interpretation at all and will just load bytes of data.
+
+To expose this, let's download an Excel spreadsheet, [cars.xls](https://github.com/parrt/msds501/blob/master/data/cars.xls?raw=true), which is definitely not a text file. It has numbers but also formatting and position information. When you load in Excel it looks like this:
 
 <img src="images/cars.png" width="200">
+
+But, the file on the disk is definitely not rows and columns of human readable numbers. You can verify that by running the `head` command from the terminal to look at the first few lines:
+
+<img src="images/cars-head.png" width="300">
+
+As you can see, that is definitely not human readable text. Try using the script we just wrote for text and you will see that Python gets a character decoding error:
 
 ```bash
 $ python copytxt.py cars.xls /tmp/cars.xls
@@ -65,3 +73,12 @@ Traceback (most recent call last):
     (result, consumed) = self._buffer_decode(data, self.errors, final)
 UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd0 in position 0: invalid continuation byte
 ```
+
+Ok, so we need to create a new version of the python script called `copy.py` that tells python file is an arbitrary binary file, and it should not do any character interpretation. By default, when you open a file, Python assumes you are reading from the file and that it is a text file: `open("foo")` is the same as `open("foo", mode="rt")`, where `r` means to open the file for reading and `t` means text.  To make this work for binary files, change the mode from `rt` to `rb`.  When writing the file, change the mode from `w` (or `wt`) to `wb`. Everything else in the script should be the same. Using the new script, we should get a faithful copy:
+
+```bash
+$ python copy.py cars.xls /tmp/cars.xls
+$ open /tmp/cars.xls # open that file in Excel
+```
+
+At this point, you've got the basic skills necessary to read and write text and binary files in Python!

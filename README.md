@@ -36,10 +36,10 @@ Writing software is about problem solving, computer languages, algorithms, data 
 |[Image processing](https://github.com/parrt/msan501/blob/master/projects/images.md)| 16%| Mon, July 21 |
 | [Word similarity and relationships](https://github.com/parrt/msds501/blob/master/projects/wordsim.md) | 12%| Mon, July 28 |
 | [Exploration of Enron email data set](https://github.com/parrt/msds501/blob/master/projects/enron.md)| 16%| Mon, August 13 |
-|Test 1| 12%| 9:15am Wed, July 14 |
-|Test 2| 12%| 9:15am Mon, July 26 |
-|Test 3| 12%| 9:15am Mon, August 2 |
-|Final exam| 20%| 10:00am Mon, August 11 (last day of class) | 
+|Test 1| 12%| 3:30-4:15pm Wed, July 14 |
+|Test 2| 12%| 3:30-4:15pm Mon, July 26 |
+|Test 3| 12%| 3:30-4:15pm Mon, August 2 |
+|Final exam| 20%| 10:00-11:30am Mon, August 11 (last day of class) | 
 
 **Tests** 1-3 and the final exam are held in rooms 154-156. All tests use HonorLock to log into Canvas so you can take the test.  Tests have strict time limits and you will be unable to do anything other than take the test; no access to the Internet etc.
 
@@ -79,7 +79,7 @@ Each project has a hard deadline and only those projects working correctly befor
 * [Reading and writing files](slides/files.pdf) (Day 6)
 	* LAB: [Files lab](labs/files.md) (Day 6)
 * [A simple problem-solving approach](slides/problem-solving.pdf) (Day 7)
-* [Problem-solving practice](notes/problem-solving.ipynb) (Day 7)
+* [Problem-solving practice](notes/problem-solving.ipynb) (Day 7, 8)
 * [Object-oriented programming](slides/OO.pdf) (Day 9)
 * [Launching a Virtual Machine at Amazon Web Services](notes/aws.md) (Day 10)
 

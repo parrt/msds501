@@ -81,6 +81,7 @@ Each project has a hard deadline and only those projects working correctly befor
 * [A simple problem-solving approach](slides/problem-solving.pdf) (Day 7)
 * [Problem-solving practice](notes/problem-solving.ipynb) (Day 7, 8)
 * [Object-oriented programming](slides/OO.pdf) (Day 9)
+	* PRACTICE QUIZ: [Object-oriented programming practice quiz](labs/OO.ipynb) (Day 9)
 * [Launching a Virtual Machine at Amazon Web Services](notes/aws.md) (Day 10)
 
 ## Notes and notebooks supporting lectures

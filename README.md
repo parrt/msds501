@@ -32,7 +32,7 @@ Writing software is about problem solving, computer languages, algorithms, data 
 
 | Artifact | Grade Weight | Due date |
 |--------|--------|--------|
-|[Github/USF survey](https://usfca.instructure.com/courses/1600702/assignments/7086080)| 0%| July 7 |
+|[Github/USF survey](https://usfca.instructure.com/courses/1600702/quizzes/2383441)| 0%| July 7 |
 |[Image processing](https://github.com/parrt/msan501/blob/master/projects/images.md)| 16%| Mon, July 21 |
 | [Word similarity and relationships](https://github.com/parrt/msds501/blob/master/projects/wordsim.md) | 12%| Mon, July 28 |
 | [Exploration of Enron email data set](https://github.com/parrt/msds501/blob/master/projects/enron.md)| 16%| Mon, August 13 |
@@ -41,11 +41,11 @@ Writing software is about problem solving, computer languages, algorithms, data 
 |Test 3| 12%| 3:30-4:15pm Mon, August 2 |
 |Final exam| 20%| 10:00-11:30am Mon, August 11 (last day of class) | 
 
-**Tests** 1-3 and the final exam are held in rooms 154-156. All tests use HonorLock to log into Canvas so you can take the test.  Tests have strict time limits and you will be unable to do anything other than take the test; no access to the Internet etc.
+**Tests** 1-3 and the final exam are online, there will be timeslots for international students and domestic; each student will have one attempt at each exam. All tests use HonorLock to log into Canvas so you can take the test.  Tests have strict time limits and you will be unable to do anything other than take the test; no access to the Internet etc.  A proctor will monitor you through the video camera and microphone.
 
-All projects will be graded with the specific input or tests given in the project description, so you understand precisely what is expected of your program. Consequently, projects will be graded in binary fashion: They either work or they do not.  The only exception is when your program does not run on the grader's or my machine because of some cross-platform issue. This is typically because a student has hardcoded some file name or directory into their program. In that case, we will take off just 20% instead of giving you a 0. Please go to github and verify that the website has the proper files for your solution. That is what I will download for testing.
+All projects will be graded with the specific input or tests given in the project description, so you understand precisely what is expected of your program. Consequently, projects will be graded in binary fashion: They either work or they do not.  The only exception is when your program does not run on the grader's or my machine because of some cross-platform issue. This is typically because a student has hardcoded some file name or directory into their program. In that case, we will take off at least 10%, instead of giving you a 0. Please go to github and verify that the website has the proper files and that those files look correct for your solution. That is what I will download for testing.
 
-Each project has a hard deadline and only those projects working correctly before the deadline get credit (100%).  My grading script pulls from github at the deadline.  On the due date, projects are due at the **start** of your section's class period for that day.
+Each project has a hard deadline and only those projects working correctly before the deadline get credit (100%).  Late projects are given 0%. My grading script pulls from github at the deadline.  On the due date, projects are due at the **start** of your section's class period for that day.
 
 **No partial credit**. Students are sometimes frustrated about not getting partial credit for solutions they labored on that do not actually work. Unfortunately, "almost working" just never counts in a job situation because nonfunctional solutions have no value.  We are not writing essays in English that have some value even if they are not superb.  When it comes to software, there is no fair way to assign such partial credit, other than a generic 30% or whatever for effort.  The only way to determine what is wrong with your project is for me to fix and/or complete the project. That is just not possible for 90 students. Even if that were possible, there is no way to fairly assign partial credit between students.  A few incorrect but critical characters can mean the difference between perfection and absolute failure. If it takes a student 20 hours to find that problem, is that worth more or less partial credit than another project that is half-complete but could be finished in five hours? To compensate, I try to test multiple pieces of the functionality in an effort to approximate partial credit.
 

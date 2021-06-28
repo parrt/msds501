@@ -132,7 +132,7 @@ You should not get an error.
 
 ##  Interactive Python
 
-Now let's jump into an interactive Python shell. In the abstract, it's the same as the command shell that controls your computer.  Both are programming languages; they just have different specialties. When we jump from the terminal shell into Python's shell, it's like jumping across the border from France into Germany. We have to stop speaking French and start speaking German.  When you exit the Python interpreter, you will be back in the terminal world, just as if you had returned from Germany to France.
+In the abstract, the interactive Python shell is like the command shell that controls your computer.  Both are programming languages; they just have different specialties. When we jump from the terminal shell into Python's shell, it's like jumping across the border from France into Germany. We have to stop speaking French and start speaking German.  When you exit the Python interpreter, you will be back in the terminal world, just as if you had returned from Germany to France.
 
 To enter the Python world, from the terminal `$` prompt type `python` as we did in the last section. You should see that it is using the **Anaconda** version. If not, that means you are using the default Python on your system.
 

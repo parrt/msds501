@@ -97,7 +97,7 @@ In order to read and play sound files from Python, we need to leverage some exis
 * For reading sound files, we need [pysoundfile](http://pysoundfile.readthedocs.io/en/0.9.0/)
 * For playing sounds, we need [sounddevice](http://python-sounddevice.readthedocs.io/en/0.3.7/)
 
-If we try to use packages before installing them, the Python executor shows us errors like the following.
+If we try to use packages before installing them, the Python interpreter shows us errors like the following.
  
 ```bash
 ---------------------------------------------------------------------------
@@ -153,6 +153,7 @@ Python 3.6.5 | packaged by conda-forge | (default, Mar 30 2018, 00:00:55)
 Type "help", "copyright", "credits" or "license" for more information.
 >>> import soundfile as sf
 >>> import sounddevice as sd
+>>> 
 ```
 
 This time, we do not get an error at the `import` statement.
@@ -168,7 +169,7 @@ $ cd /Users/YOURUSERNAME/classes/msds501/labs/sound  # make sure we are in the r
 $ nano play.py
 ```
 
-Sublime and TextEdit.app also work. Do not use Microsoft Word or other work processors because they do not create raw text files; they have formatting commands in there as well that Python doesn't know how to handle. 
+Sublime and TextEdit.app also work. Do not use Microsoft Word or other word processors because they do not create raw text files; they have formatting commands in there as well that Python doesn't know how to handle. 
 
 Here is the code:
 

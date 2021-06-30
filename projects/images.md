@@ -51,7 +51,7 @@ There is nothing in the repo yet, so let's add the notebook starter kit and imag
 
 ### Copying the starter kit and images
 
-I have provided a Jupyter Lab notebook for you to use as a [starter kit](https://github.com/parrt/msds501/blob/master/projects/images.ipynb). You should save that file into the root directory associated with your repository, likely that's `~/msds502/images-`*yourgithubusername*.   You can do that from the command line like the cool kids if you want:
+I have provided a Jupyter Lab notebook for you to use as a [starter kit](https://raw.githubusercontent.com/parrt/msds501/master/projects/images.ipynb). You should save that file into the root directory associated with your repository, likely that's `~/classes/msds501/images-`*yourgithubusername*.   You can do that from the command line like the cool kids if you want:
 
 ```bash
 $ cd ~/classes/msds501/images-parrt  # ensure we are in the repository root dir

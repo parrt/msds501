@@ -88,6 +88,7 @@ $ rm images-project-images.zip # remove as we don't need anymore
 Your repository can only track files that live underneath the `images`-*yourgithubusername* directory. We have to tell git to track files of interest---git does not track any file you don't tell it to track, so let's add everything:
 
 ```bash
+$ cd ~/classes/msds501/images-parrt # make sure you are in the right spot
 $ git add images.ipynb
 $ git add *.jpg
 $ git add *.png

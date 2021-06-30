@@ -36,7 +36,7 @@ https://github.com/USF-MSDS501/images-parrt.git
 Copy the **HTTPS not SSH** URL and then we will use the command line to clone it onto our laptops.  Launch `Terminal.app` or whatever your command-line shell is called on your system and then use the `git clone` command as you see below, replacing `images-parrt` with `images`-*yourgithubusername*. You will have to type in your github user name and password while cloning.
 
 ```bash
-$ cd ~/msds501 #  assuming this is where you want the root of all of 501 projects
+$ cd ~/classes/msds501 #  assuming this is where you want the root of all of 501 projects
 $ git clone https://github.com/USF-MSDS501/images-parrt.git
 Cloning into 'images-parrt'...
 Username for 'https://github.com': parrt
@@ -54,7 +54,7 @@ There is nothing in the repo yet, so let's add the notebook starter kit and imag
 I have provided a Jupyter Lab notebook for you to use as a [starter kit](https://github.com/parrt/msds501/blob/master/projects/images.ipynb). You should save that file into the root directory associated with your repository, likely that's `~/msds502/images-`*yourgithubusername*.   You can do that from the command line like the cool kids if you want:
 
 ```bash
-$ cd ~/msds501/images-parrt  # ensure we are in the repository root dir
+$ cd ~/classes/msds501/images-parrt  # ensure we are in the repository root dir
 $ wget --quiet https://github.com/parrt/msds501/raw/master/projects/images.ipynb
 $ ls
 images.ipynb
@@ -63,7 +63,7 @@ images.ipynb
 I have also provided all of the [images](https://github.com/parrt/msds501/raw/master/projects/images-project-images.zip) used by this project in a convenient zip that you can download and unzip into the root directory. If you'd like to use the command line, it's very easy to download and unzip with simple commands:
 
 ```
-$ cd ~/msds501/images-parrt
+$ cd ~/classes/msds501/images-parrt
 $ wget --quiet https://github.com/parrt/msds501/raw/master/projects/images-project-images.zip
 $ ls
 images-project-images.zip images.ipynb
@@ -138,7 +138,7 @@ The `origin` is a shorthand for "where did I clone this repo from?"  You should 
 Next, let's fire up Jupyter Lab, making sure that the current working directory is our repository root:
 
 ```bash
-$ cd ~/msds501/images-parrt
+$ cd ~/classes/msds501/images-parrt
 $ jupyter lab
 ...
 ```

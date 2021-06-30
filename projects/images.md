@@ -252,8 +252,6 @@ AttributeError: module 'PIL.Image' has no attribute 'opem'
 <li>  Definitely try to solve the problem yourself, but don't waste too much time. I can typically help you out quickly so you can move forward.
 </ol>
 
-**Deliverables**. Make sure that your `images.ipynb` file is correctly committed to your repository and pushed to github. Verify this by going to github website. Make sure that it is in the main directory and not a subdirectory of your repository!!!
-
 ## Task 2. Blurring
 
 In this task, we want to blur an image by removing detail as shown in the images after this paragraph. We will do this by creating a new image whose pixels are the average of the surrounding pixels for which we will use a 3x3 region as shown in the figure below zooming in on Obama's forehead. The pixel in the center of the region is the region to compute as we slide the region around an image. In other words, `pixel[x,y]` is the sum of `pixel[x,y]` and all surrounding pixels divided by 9, the total number of pixels.
@@ -362,8 +360,6 @@ It might take 10 seconds or more to compute and display the blurred image, depen
 <img src="../notes/images/redbang.png" width="20" align="left">
 Make sure to remove all of your debugging code before submitting your scripts. Submitting a project that prints out a bunch of random debugging output is considered sloppy, like submitting an English paper with a bunch of handwritten edits.
 
-**Deliverables**. Make sure that `images.ipynb` is correctly committed to your repository and pushed to github. Make sure that all of your changes are there.
-
 ## Task 3. Removing noise
 
 For our next task, we are going to de-noise (remove noise) from an image as shown in the following four figures. It does a shockingly good job considering the simplicity of our approach. To blur, we used the average of all pixels in the region. To denoise, we will use the [median](http://en.wikipedia.org/wiki/Median), which is just the middle value in a list of ordered numbers (or average of two middle if there are an even number of values).
@@ -384,8 +380,6 @@ In a code cell,  open file `Veggies_noise.jpg`, display it, then pass it to `den
 <img src="figures/Veggies_noise.jpg" width="300"> <img src="figures/Veggies_denoised.jpg" width="300">
 
 In a code cell,  open file `guesswho.png`, display it, then pass it to `denoise`. That should show the noisy Obama and the cleaned up version.  You can call `denoise` multiple times to really clean it up.  Running `denoise` twice, gives the cleaned up (third) Obama image above.  
-
-**Deliverables**. Make sure that you have your code and appropriate images displayed in your `images.ipynb` notebook and that it is correctly committed to your repository and pushed to github.
 
 ## Task 4. Re-factoring to improve code quality
 
@@ -456,8 +450,6 @@ img
 
 They *should* work, but unfortunately that is never good enough in the programming world.  Lot of little things can go wrong. *Certainty* is always better than *likelihood*.
 
-**Deliverables**. Make sure that you commit your appropriate changes and push the results back to the repository at github.
-
 ## Task 5. Highlighting image edges
 
 Now that we have some basic machinery available to us in the form of some common functions, we can easily build new functionality. In this task, we want to highlight edges found within an image.  It is surprisingly easy to capture all of the important edges in an image:
@@ -504,7 +496,7 @@ Once you have implemented your `laplace` function, give it a try on images `obam
 
 <img src="figures/obama-edges.png" width="250">
 
-**Deliverables**. Make sure that you show the edges for Obama and the asteroid and have a correct `laplace` function in the appropriate section of `images.ipynb`. Make sure that the file is correctly committed to your repository and pushed to github. 
+Make sure that you show the edges for Obama and the asteroid and have a correct `laplace` function in the appropriate section of `images.ipynb`.
 
 
 ## Task 6. Sharpening
@@ -536,6 +528,7 @@ This simple process of subtracting the Laplacian does an amazing job.  Here's th
 ## Deliverables
 
 Make sure that your `images.ipynb` and image files are correctly committed to your repository and pushed to github.  Make sure the files are all at the root of your repository, not in a subdirectory of the repository.
+
 
 ## Evaluation
 

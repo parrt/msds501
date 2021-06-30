@@ -32,7 +32,7 @@ Writing software is about problem solving, computer languages, algorithms, data 
 
 | Artifact | Grade Weight | Due date |
 |--------|--------|--------|
-|[Github/USF survey](https://usfca.instructure.com/courses/1600702/quizzes/2383441)| 0%| July 7 |
+|[Github/USF survey...oops not active yet]()| 0%| July 7 |
 |[Image processing](https://github.com/parrt/msan501/blob/master/projects/images.md)| 16%| Mon, July 21 |
 | [Word similarity and relationships](https://github.com/parrt/msds501/blob/master/projects/wordsim.md) | 12%| Mon, July 28 |
 | [Exploration of Enron email data set](https://github.com/parrt/msds501/blob/master/projects/enron.md)| 16%| Mon, August 13 |

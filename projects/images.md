@@ -8,16 +8,22 @@ The goal of this project is to exercise your understanding of all of the major c
 * finding edges within images
 * image sharpening
 
-For example, here is a sharpened image before/after:
+For example, here are pictures of the world's loudest cat before/after sharpening:
 
 <img src="figures/bonkers.png" width="25%">&nbsp;<img src="figures/bonkers-sharp-zoom.png" width="25%">
 
 
 ## Getting started
 
+See [git/github lab](https://github.com/parrt/msds501/blob/master/labs/git.md).
+
 Let's prepare our programming environment so that submitting this project is easy.  First, we need to a github repository where we can submit our work.  I will post to slack or via the students email list a URL for each project that represents an invitation to create a repository associated with a specific project for this class. Each student will have their own private repository per project. Once you have created the repository, you can proceed with this section to clone that empty repository onto your laptop disk. 
 
-Accepting the invitation will create a webpage representing your repository at github. For my project, the URL is
+Accepting the invitation will create a webpage representing your repository at github:
+
+<img src="figures/github-repo.png" width="400">
+
+If you click on the "Code" button,  you will have an opportunity to cut-and-paste a URL that represents the data in the repository (which we will used to clone it on door laptops).  For my project, the code URL is
 
 ```
 https://github.com/USF-MSDS501/images-parrt.git

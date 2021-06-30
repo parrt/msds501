@@ -4,7 +4,7 @@ The goal of this lab is to learn the basics of creating a repository, making cha
 
 ## Setting up github
 
-If you have not already done so, create an account at [github.com](github.com), making sure to choose a professional username that is suitable for your data science career. For example, do not choose a name like `hot4yourlove` or `lazyboy`. Make sure that you provide your github username to me using the [Github<->USF usernames survey](https://usfca.instructure.com/courses/1600702/quizzes/2383441) on Canvas.
+If you have not already done so, create an account at [github.com](github.com), making sure to choose a professional username that is suitable for your data science career. For example, do not choose a name like `hot4yourlove` or `lazyboy`. Make sure that you provide your github username to me.
 
 Please do not change your github username during the program as grading scripts will then not see your code and you will get a zero for projects! If you must change it, please notify your instructor(s).
 
@@ -58,7 +58,7 @@ The file exists now, but git does not know anything about it:
 $ nano README.md
 $ ls
 README.md
-$ $ git status
+$ git status
 On branch master
 
 No commits yet

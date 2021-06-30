@@ -358,11 +358,11 @@ When you have verified that all of these functions work, it's time to check func
 It might take 10 seconds or more to compute and display the blurred image, depending on how fast your computer is.
 
 <img src="../notes/images/redbang.png" width="20" align="left">
-Make sure to remove all of your debugging code before submitting your scripts. Submitting a project that prints out a bunch of random debugging output is considered sloppy, like submitting an English paper with a bunch of handwritten edits.
+Make sure to remove all of your debugging code before submitting your notebook. Submitting a project that prints out a bunch of random debugging output is considered sloppy, like submitting an English paper with a bunch of handwritten edits.
 
 ## Task 3. Removing noise
 
-For our next task, we are going to de-noise (remove noise) from an image as shown in the following four figures. It does a shockingly good job considering the simplicity of our approach. To blur, we used the average of all pixels in the region. To denoise, we will use the [median](http://en.wikipedia.org/wiki/Median), which is just the middle value in a list of ordered numbers (or average of two middle if there are an even number of values).
+For our next task, we are going to de-noise (remove noise) from an image as shown in the following four figures. It does a shockingly good job considering the simplicity of our approach. To blur, we used the average of all pixels in the region. To denoise, we will use the [median](http://en.wikipedia.org/wiki/Median), which is just the middle value in a list of ordered numbers (or average of two middle if there are an even number of values). Check out this super noisy version of Obama and then the results of applying the median filter twice.  The last image is the original.
 
 <table border="0">
 <tr>
@@ -413,7 +413,7 @@ The only tricky bit (pun intended) is to create a single generic `filter` functi
 * Copy the body of function `blur` into your new `filter` function.
 * Replace the call to `avg(r)` with `f(r)`.
 
-As we discussed in class, functions are objects in Python just like any strings, lists, and so on. That means we can pass them around as function arguments. To use our new generic `filter` function, we pass it an image as usual but also the name of a function:
+As we'll discuss in class, functions are objects in Python just like any strings, lists, and so on. That means we can pass them around as function arguments just like any other value or variable. To use our new generic `filter` function, we pass it an image as usual but also the name of a function:
 
 ```python
 blurred  = filter(img, avg)
@@ -430,7 +430,7 @@ Armed with this awesome new common functionality, blurring and image shrinks to 
 
 ```python
 img = open('some file')
-img = filter(img, avg)		# blur me please
+img = filter(img, avg)    # blur me please
 img                       # show me
 ```
 
@@ -438,7 +438,7 @@ Denoising is also tiny:
 
 ```python
 img = open('some file')
-img = filter(img, median)	# denoise me please
+img = filter(img, median) # denoise me please
 img
 ```
 

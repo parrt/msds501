@@ -19,19 +19,19 @@ See [git/github lab](https://github.com/parrt/msds501/blob/master/labs/git.md).
 
 Let's prepare our programming environment so that submitting this project is easy.  First, we need to a github repository where we can submit our work.  I will post to slack or via the students email list a URL for each project that represents an invitation to create a repository associated with a specific project for this class. Each student will have their own private repository per project. Once you have created the repository, you can proceed with this section to clone that empty repository onto your laptop disk. 
 
-Accepting the invitation will create a webpage representing your repository at github:
+Accepting the invitation will create a webpage, with a URL like `https://github.com/USF-MSDS501/images-parrt`, representing your repository at github:
 
 <img src="figures/github-repo.png" width="400">
 
-If you click on the "Code" button,  you will have an opportunity to cut-and-paste a URL that represents the data in the repository (which we will used to clone it on door laptops).  For my project, the code URL is
+If you click on the "Code" button,  you will have an opportunity to cut-and-paste a URL that represents the data in the repository (which we will used to clone it on door laptops).  You will see something like this at the top of the webpage:
+
+<img src="../notes/images/github-setup.png" width="400">
+
+For my project, the code URL is
 
 ```
 https://github.com/USF-MSDS501/images-parrt.git
 ```
-
-On your corresponding webpage, you will find a URL that let's you clone that repository onto our laptop. You will see something like this at the top of the webpage:
-
-<img src="../notes/images/github-setup.png" width="400">
 
 Copy the **HTTPS not SSH** URL and then we will use the command line to clone it onto our laptops.  Launch `Terminal.app` or whatever your command-line shell is called on your system and then use the `git clone` command as you see below, replacing `images-parrt` with `images`-*yourgithubusername*. You will have to type in your github user name and password while cloning.
 

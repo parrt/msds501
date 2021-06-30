@@ -442,13 +442,11 @@ img = filter(img, median) # denoise me please
 img
 ```
 
-<table border=1>
-<tr><td>Yep, these files are identical except for the fact that we call <tt>filter</tt> with different function names. If you wanted to get really fancy, you could replace both of these scripts with a single script that took a function name as a second argument (after the image filename).  With some magic incantations, you'd then ask Python to lookup the function with the indicated name and pass it to function <tt>filter</tt> instead of hard coding.
-</table>
+Yep, these code cells are identical except for the fact that we call <tt>filter</tt> with different function names.
 
-<img src="../notes/images/redbang.png" width="20" align="left">Before finishing this task, be a thorough programmer and test your new scripts to see that they work. Please add cells to show `pcb.png` and blur it. Then do the same for denoising `guesswho.png`.
+<img src="../notes/images/redbang.png" width="20" align="left">They *should* work, but unfortunately that is never good enough in the programming world.  Lot of little things can go wrong. *Certainty* is always better than *likelihood*.  Before moving on, be a thorough programmer and test your new functions to see that they work. Please add cells to show `pcb.png` and blur it. Then do the same for denoising `guesswho.png`.
 
-They *should* work, but unfortunately that is never good enough in the programming world.  Lot of little things can go wrong. *Certainty* is always better than *likelihood*.
+
 
 ## Task 5. Highlighting image edges
 

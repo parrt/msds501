@@ -444,7 +444,7 @@ img
 
 Yep, these code cells are identical except for the fact that we call <tt>filter</tt> with different function names.
 
-<img src="../notes/images/redbang.png" width="20" align="left">They *should* work, but unfortunately that is never good enough in the programming world.  Lot of little things can go wrong. *Certainty* is always better than *likelihood*.  Before moving on, be a thorough programmer and test your new functions to see that they work. Please add cells to show `pcb.png` and blur it. Then do the same for denoising `guesswho.png`.
+<img src="../notes/images/redbang.png" width="20" align="left">The new functions *should* work, but unfortunately that is never good enough in the programming world.  Lot of little things can go wrong. *Certainty* is always better than *likelihood*.  Before moving on, be a thorough programmer and test your new functions to see that they work. Please add cells to show `pcb.png` and blur it. Then do the same for denoising `guesswho.png`.
 
 
 
@@ -537,7 +537,7 @@ $ pip install -U notebook-as-pdf
 $ jupyter-nbconvert --to PDFviaHTML images.ipynb
 ```
 
-Then, I'll review your PDF.
+Then, I'll review the PDF generated from your notebook.
 
 For your reference, here is the expected sequence of images and sections with all of the code cells hidden (though the relative sizes of those images might be different in your output):
 

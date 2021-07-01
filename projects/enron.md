@@ -35,6 +35,8 @@ where *path-to-maildir* indicates the exact path of your mail directory. This al
 
 `Recipients` indicates the number of people on the `To:` line for a single email message and `filename` is the subdirectory of `maildir` that contains the mail message.
 
+(You will need to install Python `pyarrow` package to save and feather format.)
+
 ### Getting started by sniffing the data
 
 At the beginning of a project, we know very little about how to proceed or what to do, so we have to explore. A great way to start is by looking at the data we have. Here's a simple email message with all of the email headers as a prefix:
@@ -199,11 +201,11 @@ In your repository, you should submit the following files in the root of the rep
 * `enron.ipynb` Follow the [starter kit](https://github.com/parrt/msds501/blob/master/projects/enron.ipynb) of the notebook and generate the appropriate explorations and visualizations
 * `enron.pdf` This is the PDF exported or generated from the notebook.
 
-The easiest way to generate `enron.py` is to use `jupyter-nbconvert`, as you did in the images project:
+The easiest way to generate `enron.pdf` is to use `jupyter-nbconvert`, as you did in the images project:
 
 ```bash
 $ pip install -U notebook-as-pdf
-$ jupyter-nbconvert --to PDFviaHTML images.ipynb
+$ jupyter-nbconvert --to PDFviaHTML enron.ipynb
 ```
 
 ## Evaluation

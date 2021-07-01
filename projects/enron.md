@@ -114,7 +114,7 @@ You need to create two bar charts:
 1. Count the number of messages received per user and then sort in reverse order.
 2. Make a bar chart showing the top 30 email recipients. Second, Make a bar chart indicating the top 30 mail senders. This is more complicated than the received emails because a single person can email multiple people in a single email. So,  group by `From` and `MailID`, convert the index back to columns and then group again by `From` and get the count.
 
-<img src="figures/enron-sent.png" width="50%"><img src="figures/enron-received.png" width="50%">
+<img src="figures/enron-received.png" width="50%"><img src="figures/enron-sent.png" width="50%">
 
 ### Heatmap showing number of email messages between employees
 

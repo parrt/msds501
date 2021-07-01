@@ -46,7 +46,7 @@ Until 2013, software could really only compare two words for exact match or a so
 
 <img src="figures/wordvec1.png" width=400>
 
-The amazing thing about these vectors is that somehow they really encode the relationship between words. From the original paper, which you can also verify with this project code, the vector arithmetic `king - man + woman` is extremely close to the vector for `queen`!  The GloVe project at Stanford has a nice example showing the vector difference between various words:
+The amazing thing about these vectors is that somehow they really do encode the relationship between words. From the original paper, which you can also verify with this project code, the vector arithmetic `king - man + woman` is extremely close to the vector for `queen`!  The GloVe project at Stanford has a nice example showing the vector difference between various words:
 
 <img src="https://nlp.stanford.edu/projects/glove/images/man_woman.jpg" width=400>
 
@@ -95,9 +95,9 @@ if __name__ == '__main__':
             print("Enter a word or 'x:y as z:'")
 ```
 
-where you just have to fill in the arguments to `analogies(...)` and `closest_words(...)` and write those functions, as described below.
+You just have to fill in the arguments to `analogies(...)` and `closest_words(...)` and write those functions, as described below.
 
-To learn more about passing arguments from the command line to your Python program, see the bottom of our [bash intro](https://github.com/parrt/msds501/blob/master/notes/bash-intro.md).
+To learn more about passing arguments from the command line to your Python program, see the bottom of [The terminal command-line and python environments](https://github.com/parrt/msds501/blob/master/slides/terminal.pdf).
 
 Users can quit the program by typing "exit" instead of a word or word analogy (you can also kill the running program by using control-C or control-D (on unix), which means "end of file"). That makes the loop terminate and therefore the program.
 
@@ -133,12 +133,12 @@ One of the problems we have in data science is that files can be huge, as is the
 
 #### Saving the word vectors in NumPy binary
 
-To make development faster and easier, let's convert that text file into a binary format that is not only smaller but much faster to load.  The idea will be to write a small script to load in the text once and save it in binary into a different file.  Create a script called `save_np.py` that does this preprocessing step. Subsequent runs of your main program can load the faster version of the data file rather than the 5G text file. The goal of the script is to create two new files from the original text version:
+To make development faster and easier, let's convert that text file into a binary format that is not only smaller but much faster to load.  The idea will be to write a small script to load in the text once and save it in binary into a different file.  Subsequent runs of your main program can load the faster version of the data file rather than the 5G text file.  Create a script called `save_np.py` that does this preprocessing step. The goal of the script is to create two new files from the original text version:
 
-* `glove.42B.300d.vocab.txt` A list of words from the original word vector file; one word per line
+* `glove.42B.300d.vocab.txt` A list of words from the original word vector file, one word per line.
 * `glove.42B.300d.npy` A matrix containing all of the word vectors as saved by NumPy's `save()` method. Each row of the matrix represents the word vector for a word.
 
-Script `save_np.py` reads the original glove text file line by line using `f.readlines()`. If you try to load the entire thing with `f.read()` and do a `split('\n')` or similar, you will run out of memory or run into speed problems for sure. So, process the lines one by one, adding the associated word to a vocabulary list of strings and the word vector to a list of numpy arrays.  Given a line, `split(' ')` will give us a list containing the vocabulary word as the first element and the word vector as the remaining 300.  If those 300 strings, one per floating-point number, is in variable `v` then `np.array(v, dtype=np.float32)` will give a fast conversion to a numpy array.  From the list of arrays, we can make a matrix with `np.array(mylistofvectors)`. Save the list of vocabulary words, one per line, into the `glove.42B.300d.vocab.txt` file and use `np.save()` to save the matrix into `glove.42B.300d.npy`.  Store the generated files in the same data directory passed into your `save_np.py` script from the command line.
+Script `save_np.py` reads the original glove text file line by line using `f.readlines()`. If you try to load the entire thing with `f.read()` and do a `split('\n')` or similar, you will run out of memory or run into speed problems for sure. So, process the lines one by one, adding the associated word to a vocabulary list of strings and the word vector to a list of numpy arrays.  Given a input text line, function call `split(' ')` will give us a list containing the vocabulary word as the first element and the word vector as the remaining 300.  If those 300 strings is in list variable `v`, one string per floating-point number, then `np.array(v, dtype=np.float32)` will  perform a fast conversion to a numpy array.  From the list of numpy arrays, we can make a matrix with `np.array(mylistofvectors)`. Save the list of vocabulary words, one per line, into the `glove.42B.300d.vocab.txt` file and use `np.save()` to save the matrix into `glove.42B.300d.npy`.  Store the generated files in the same data directory passed into your `save_np.py` script from the command line.
 
 On my machine, it takes about 3 minutes 30 seconds to load the original text the data file and save the two new files in the current working directory. From the command line, you can time how long things take easily:
 
@@ -246,7 +246,8 @@ def closest_words(gloves, word, n):
 	Compute the Euclidean distance between the vector for word and
 	every other word's vector. Track the distances with a list of tuples
 	of the form: (distance, word).  Sort the list by distance. Return a list
-	of the first n words from the sorted list. Do not return the tuples, just the words. Return a python list of strings not numpy array.
+	of the first n words from the sorted list. Do not return the tuples, just
+	the words. Return a python list of strings not numpy array.
 	"""
 	...
 ```
@@ -301,7 +302,7 @@ def analogies(gloves, x, y, z, n):
 
 ## Using PCA to display word vectors
 
-If you have some extra time, you can do a nice visualization of word vectors. The idea is to take the very large 300-dimensional vectors and project them onto just 2-dimensional space so that we can plot them. The key to such a compression is to perform *principal components analysis* (PCA) on a set of word vectors, which you might hear about in the linear algebra boot camp. This is how I drew the graph above for the words ['petal','love','king', 'cat'] (and 3 nearest neighbors). Here is some skeleton code for you to get started:
+If you have some extra time, you can do a nice visualization of word vectors. *This task is optional!* The idea is to take the very large 300-dimensional vectors and project them onto just 2-dimensional space so that we can plot them. The key to such a compression is to perform *principal components analysis* (PCA) on a set of word vectors, which you might hear about in the linear algebra boot camp. This is how I drew the graph above for the words ['petal','love','king', 'cat'] (and 3 nearest neighbors). Here is some skeleton code for you to get started:
 
 ```python
 from sklearn.decomposition import PCA

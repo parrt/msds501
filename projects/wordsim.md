@@ -331,7 +331,7 @@ You might need to Google around a little bit but there are plenty of examples on
 
 In your repository, you should submit the following files in the root directory of your repository (NO SUBDIRECTORIES!).
 
-* `save_np.py` Reads the word vector file and saves the 2D numpy matrix in file `glove.42B.300d.npy` in the current working directory. It also saves the vocabulary list in `glove.42B.300d.vocab.txt` in the current working directory.
+* `save_np.py` Reads the word vector file and saves the 2D numpy matrix in file `glove.42B.300d.npy`  and the vocabulary list in `glove.42B.300d.vocab.txt` in the same data directory passed into your `save_np.py` script from the command line.
 * `wordsim.py` This embodies all of the nearest neighbor and word analogy functionality
 
 *Do not add the word vector glove data to the repository!*

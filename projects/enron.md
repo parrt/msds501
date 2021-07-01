@@ -15,7 +15,7 @@ You have two primary tasks:
 
 Your projects will be graded via a series of unit tests operating on the data frame you create and my evaluation will examine a PDF that you generate and submit from your notebook.
 
-Unlike your previous projects, you will be programming from a blank screen, without a template. As part of your education, you have to learn to start from scratch. Rather than requiring a specific set of methods, unit tests will examine the data frame you save and feather format.  To make it easier for me to grade your notebooks, however, I am providing a standard set of sections you should fill in with code and visualizations.
+Unlike your previous projects, you will be programming from a blank screen, without a template. As part of your education, you have to learn to start from scratch. Rather than requiring a specific set of methods, unit tests will examine the data frame you save in feather format.  To make it easier for me to grade your notebooks, however, I am providing a standard set of sections you should fill in with code and visualizations.
 
 ## Process 1.5G of Enron email
 
@@ -35,7 +35,7 @@ where *path-to-maildir* indicates the exact path of your mail directory. This al
 
 `Recipients` indicates the number of people on the `To:` line for a single email message and `filename` is the subdirectory of `maildir` that contains the mail message.
 
-(You will need to install Python `pyarrow` package to save and feather format.)
+(You will need to install Python `pyarrow` package to save in feather format.)
 
 ### Getting started by sniffing the data
 
@@ -49,7 +49,7 @@ The grayed out stuff is what we can ignore in order to build the data frame. The
 
 We'll also ignore the `CC:` and `BCC:` lines.  The `X-From:` etc... lines should be ignored for our purposes. All we need can be derived from the four headers  highlighted in orange.
 
-Many of the email messages should be ignored. There are messages that have no `To:` line, which we can discard.  Ignore and sender and recipient email addresses, such as `tradersnewsindexes@ipgdirect.com`, `pep <performance.>`, and `dbaughman@houston.rr.com`.  Naturally, ignore any email message that has empty sender or recipient values after filtering.  Some addresses are from Enron but are weird and we should filter them out:
+Many of the email messages should be ignored. There are messages that have no `To:` line, which we can discard.  Ignore and sender and recipient email addresses that are not Enron related, such as `tradersnewsindexes@ipgdirect.com`, `pep <performance.>`, and `dbaughman@houston.rr.com`.  Naturally, ignore any email message that has empty sender or recipient values after filtering.  Some addresses are from Enron but are weird and we should filter them out:
 
 * `/o=enron/ou=eu/cn=recipients/cn=jtaylo3...@enron.com`
 * `#32@enron.com`
@@ -62,7 +62,7 @@ Normalize the email addresses by getting rid of single quotes and delete any `.`
 * `'arnold@enron.com` &rightarrow; `arnold@enron.com`
 * `'.'delaney@enron.com` &rightarrow; `delaney@enron.com`
 
-As a final detail, the date strings contained in the email messages must be converted to `datetime` objects and then stripped to just plain dates. (See the sample data frame above.) I found the easiest way was to add date strings to the data frame and then use pandas to convert to a play date object. Here are the appropriate column datatypes:
+As a final detail, the date strings contained in the email messages must be converted to `datetime` objects and then stripped to just plain dates. (See the sample data frame above.) I found the easiest way was to add date strings to the data frame and then use pandas to convert to a plain date object. Here are the appropriate column datatypes:
 
 ```
  #   Column      Dtype 
@@ -80,11 +80,11 @@ The type of the `Date` column shows as `object` for some reason but if you actua
 
 ### Building the script
 
-My approach to this problem was to simply write code that I knew I was going to throw away, in order to explore the email messages and the structure of the data. That's how I figured out what we should ignore and what we should filter and normalize. I ended up with a big junk drawer of code with all sorts of commented out sections from previous experiments. Once I built something that worked properly, I reorganized it into multiple methods that made it much easier to understand and simpler to debug.  This is an important step when you're developing code commercially because someone, possibly you, must maintain this code in the future. The better structured it is the easier it will be to maintain. Always be good to your future self. To get an idea of the structure before and after, consider the following to blurred code outlines.
+My approach to this problem was to simply write code that I knew I was going to throw away, in order to explore the email messages and the structure of the data. That's how I figured out what we should ignore and what we should filter and normalize. I ended up with a big junk drawer of code with all sorts of commented out sections from previous experiments. Once I built something that worked properly, I reorganized it into multiple methods that made it much easier to understand and simpler to debug.  This is an important step when you're developing code commercially because someone, possibly you, must maintain this code in the future. The better structured it is, the easier it will be to maintain. *Always be good to your future self.* To get an idea of my code structure before and after, consider the following to blurred code outlines.
 
 <img src="figures/condense.png" width="10%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="figures/condense-refactored.png" width="10%">
 
-My structured code is organized well. For example, my main program (at the bottom) consists of code to essentially process all of the email into a data frame and then save it. Processing all of the email means getting a list of all message files and then loading those files one by one. As I load, I filter and normalize the information into a list of records (tuples). My primary method then converts that to a data frame and returns it to the main program, which saves it and feather format. I also have a method to extract the relevant bits from an email message and a method to normalize an email address.
+My structured code is organized well. For example, my main program (at the bottom) consists of code to essentially process all of the email into a data frame and then save it. Processing all of the email means getting a list of all message files and then loading those files one by one. As I load, I filter and normalize the information into a list of records (tuples). My primary method then converts that to a data frame and returns it to the main program, which saves it in feather format. I also have a method to extract the relevant bits from an email message and a method to normalize an email address.
 
 You can structure your code anyway you want, but it must save the `enron.feather` file in the current working directory. That way my `test_enron.py` tests will find the data file.
 

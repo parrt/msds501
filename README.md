@@ -2,7 +2,7 @@
 
 This 5-week computational bootcamp is part of the [MS in Data Science program at the University of San Francisco](https://www.usfca.edu/arts-sciences/graduate-programs/data-science) and is specifically designed as an introduction to data science programming for those who are not yet skilled programmers.
 
-Writing software is about problem solving, computer languages, algorithms, data structures, libraries, tools, and computing devices.  In this boot camp, I'm hoping to teach you how to approach programming, review the key elements of Python, teach you some of the core libraries, give you an introduction to the command line, and finally introduce you to cloud computing. You will go over algorithms and data structures in more detail in the machine learning courses as well as the problem-solving course Spring semester.
+Writing software is about problem solving, computer languages, algorithms, data structures, libraries, tools, and computing devices.  In this bootcamp, I'm hoping to teach you how to approach programming, review the key elements of Python, teach you some of the core libraries, give you an introduction to the command line, and finally introduce you to cloud computing. You will go over algorithms and data structures in more detail in the data acquisition, machine learning, and data structures courses.
 
 # Class details
 
@@ -10,17 +10,14 @@ Writing software is about problem solving, computer languages, algorithms, data 
 
 **SPATIAL COORDINATES:**<br>
 
-* Class is held at 101 Howard in 1st floor classroom 155-156.
-* Exams are held in 154-156. Both sections meet together.
-* My office is room 607 @ 101 Howard up on mezzanine above the open area on 5th floor
+* Class is held at 101 Howard in 1st floor classroom 155-156. Recorded via zoom for remote, asynchronous students in different time zones.
+* Exams will likely be online via Canvas at 3:30pm with another opening at midnight for those in different time zones.
+* My office is room 525 @ 101 Howard
 
 **TEMPORAL COORDINATES.** Wed July 7 to Wed Aug 11.
 
 * Lectures: Mon/Wed 10AM - 11:50AM
 
-<!--
-* Exams: Fri 5-6PM Nov 8; Fri 10-11:30AM Dec 6; Room 154-156
--->
 
 **INSTRUCTION FORMAT**. Class runs for 1:50 hours, 2 days/week. Instructor-student interaction during lecture is encouraged and we'll mix in mini-exercises / labs during class. All programming will be done in the Python 3 programming language, unless otherwise specified.
 
@@ -36,20 +33,20 @@ Writing software is about problem solving, computer languages, algorithms, data 
 |[Image processing](https://github.com/parrt/msan501/blob/master/projects/images.md)| 16%| Mon, July 21 |
 | [Word similarity and relationships](https://github.com/parrt/msds501/blob/master/projects/wordsim.md) | 12%| Mon, July 28 |
 | [Exploration of Enron email data set](https://github.com/parrt/msds501/blob/master/projects/enron.md)| 16%| Mon, August 13 |
-|Test 1| 12%| 3:30-4:15pm Wed, July 14 |
-|Test 2| 12%| 3:30-4:15pm Mon, July 26 |
-|Test 3| 12%| 3:30-4:15pm Mon, August 2 |
+|Test 1| 12%| 3:30-4:30pm Wed, July 14 |
+|Test 2| 12%| 3:30-4:30pm Mon, July 26 |
+|Test 3| 12%| 3:30-4:30pm Mon, August 2 |
 |Final exam| 20%| 10:00-11:30am Mon, August 11 (last day of class) | 
 
-**Tests** 1-3 and the final exam are online, there will be timeslots for international students and domestic; each student will have one attempt at each exam. All tests use HonorLock to log into Canvas so you can take the test.  Tests have strict time limits and you will be unable to do anything other than take the test; no access to the Internet etc.  A proctor will monitor you through the video camera and microphone.
+**Tests** 1-3 and the final exam are online, there are timeslots for international students and domestic; each student will have one attempt at each exam. All tests use HonorLock to log into Canvas so you can take the test.  Tests have strict time limits and you will be unable to do anything other than take the test; no access to the Internet etc.  A proctor will monitor you through the video camera and microphone to ensure you do not communicate with anyone else during the test.  If you have an honorlock software issue during the test, you must take a screen snapshot and notify me immediately in slack to timestamp the situation.
 
-All projects will be graded with the specific input or tests given in the project description, so you understand precisely what is expected of your program. Consequently, projects will be graded in binary fashion: They either work or they do not.  The only exception is when your program does not run on the grader's or my machine because of some cross-platform issue. This is typically because a student has hardcoded some file name or directory into their program. In that case, we will take off at least 10%, instead of giving you a 0. Please go to github and verify that the website has the proper files and that those files look correct for your solution. That is what I will download for testing.
+All projects will be graded with the specific input or tests given in the project description, so you understand precisely what is expected of your program. Consequently, projects will be graded in binary fashion: They either work or they do not.  The only exception is when your program does not run on my machine because of some cross-platform issue. This is typically because a student has hardcoded some file name or directory into their program. In that case, I will take off at least 10%, instead of giving you a 0. Please go to github and verify that the website has the proper files and that those files look correct for your solution before the deadline. That is what I will download for testing.
 
-Each project has a hard deadline and only those projects working correctly before the deadline get credit (100%).  Late projects are given 0%. My grading script pulls from github at the deadline.  On the due date, projects are due at the **start** of your section's class period for that day.
+Each project has a hard deadline and only those projects working correctly before the deadline get credit (100%).  Late projects are given 0%. My grading script pulls from github at the deadline.  *All projects are due at the start of class on the date indicated, unless otherwise specified.*
 
 **No partial credit**. Students are sometimes frustrated about not getting partial credit for solutions they labored on that do not actually work. Unfortunately, "almost working" just never counts in a job situation because nonfunctional solutions have no value.  We are not writing essays in English that have some value even if they are not superb.  When it comes to software, there is no fair way to assign such partial credit, other than a generic 30% or whatever for effort.  The only way to determine what is wrong with your project is for me to fix and/or complete the project. That is just not possible for 90 students. Even if that were possible, there is no way to fairly assign partial credit between students.  A few incorrect but critical characters can mean the difference between perfection and absolute failure. If it takes a student 20 hours to find that problem, is that worth more or less partial credit than another project that is half-complete but could be finished in five hours? To compensate, I try to test multiple pieces of the functionality in an effort to approximate partial credit.
 
-Each project has a hard deadline and only those projects working correctly before the deadline get credit.  My grading script pulls from github at the deadline.  *All projects are due at the start of class on the day indicated, unless otherwise specified.*
+Each project has a hard deadline and only those projects working correctly before the deadline get credit.  My grading script pulls from github at the deadline.  
 
 *I reserve the right to change projects until the day they are assigned.*
 

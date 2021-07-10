@@ -33,12 +33,12 @@ Writing software is about problem solving, computer languages, algorithms, data 
 |[Image processing](https://github.com/parrt/msan501/blob/master/projects/images.md)| 16%| Wed, July 21 |
 | [Word similarity and relationships](https://github.com/parrt/msds501/blob/master/projects/wordsim.md) | 12%| Wed, July 28 |
 | [Exploration of Enron email data set](https://github.com/parrt/msds501/blob/master/projects/enron.md)| 16%| Sat, August 14 @ 11:59PM CA time|
-|Test 1| 12%| 3:30-4:30pm Wed, July 14 |
+|Test 1| 12%| 3:30-4:15pm Wed, July 14 |
 |Test 2| 12%| 3:30-4:30pm Mon, July 26 |
 |Test 3| 12%| 3:30-4:30pm Mon, August 2 |
 |Final exam| 20%| 10:00-11:30am Wed, August 11 (last day of class) | 
 
-**Tests** 1-3 and the final exam are online, there are timeslots for international students and domestic; each student will have one attempt at each exam. All tests use **HonorLock** to log into Canvas so you can take the test.  Tests have strict time limits and you will be unable to do anything other than take the test; no access to the Internet etc.  A proctor will monitor you through the video camera and microphone to ensure you do not communicate with anyone else during the test.  If you have an honorlock software issue during the test, you must take a screen picture with your phone or ipad and notify me immediately via private slack to timestamp the situation with the picture and reason why you cannot proceed. Please contact tech support on the screen to resolve (they are very quick).
+**Tests** 1-3 and the final exam are online, there are timeslots for international students and domestic; each student will have one attempt at each exam. Exams are proctored by Honorlock (see below). The exams are available electronically for a fairly long period so that local and different time zones  can participate at a reasonable hour. You are strictly forbidden from discussing exam contents with your fellow students until after the final exam deadline. (Remember that helping other students in this way is a violation of the honor code and potentially reduces your own score.)
 
 All projects will be graded with the specific input or tests given in the project description, so you understand precisely what is expected of your program. Consequently, projects will be graded in binary fashion: They either work or they do not.  The only exception is when your program does not run on my machine because of some cross-platform issue. This is typically because a student has hardcoded some file name or directory into their program. In that case, I will take off at least 10%, instead of giving you a 0. Please go to github and verify that the website has the proper files and that those files look correct for your solution before the deadline. That is what I will download for testing.
 
@@ -50,7 +50,25 @@ Each project has a hard deadline and only those projects working correctly befor
 
 *I reserve the right to change projects until the day they are assigned.*
 
-**Grading standards**. I consider an **A** grade to be above and beyond what most students have achieved. A **B** grade is an average grade for a student or what you could call "competence" in a business setting. A **C** grade means that you either did not or could not put forth the effort to achieve competence. Below **C** implies you did very little work or had great difficulty with the class compared to other students.
+### Grading standards
+
+I consider an **A** grade to be above and beyond what most students have achieved. A **B** grade is an average grade for a student or what you could call "competence" in a business setting. A **C** grade means that you either did not or could not put forth the effort to achieve competence. Below **C** implies you did very little work or had great difficulty with the class compared to other students.
+
+### Honorlock
+
+All tests use **HonorLock** via Canvas and have strict time limits. You will be unable to do anything other than take the test; no access to the Internet etc.  A proctor will monitor you during exams to ensure you do not communicate with anyone else during the test. Generally speaking, HonorLock will record all your web, computer, and personal activities (e.g., looking at your phone) during the quiz. It will flag suspicious behavior for my review and will save the recordings for 6 months if I need to go back and check it.
+
+Please see the [How to use" page for students](https://honorlock.kb.help/-students-starting-exam/how-to-use-honorlock-student/). Either I or another instructor will launch a practice quiz on Canvas during the first week of class to ensure everything is set up properly.
+
+* Google Chrome and a webcam are required. At the beginning of the quiz, you will be able to add the Chrome extension for Honorlock, then follow the instructions to share your screen and record your quiz.
+* You might be asked to change settings on your computer while doing this. You can change the setting and come back to the quiz. This change should only be expected once.
+ 
+Side notes:
+
+* When the "share screen button" is grey, you can still click it and it will work.
+* HonorLock flags activities other than the allowed ones: for example when you are accessing a website other than canvas or looking at your phone. I will evaluate these cases and make a judgment myself. I will reach out to you when necessary. If you have followed the guidelines, you don’t need to worry.
+* If you have an honorlock software issue during the test, you must take a screen picture with your phone or ipad and notify me immediately via private slack to timestamp the situation with the picture and reason why you cannot proceed. Please contact tech support on the screen to resolve (they are very quick). I will check the Honorlock recording and timestamp of your pictures to grade. 
+* [Privacy statement from HonorLock](https://honorlock.com/student-privacy-statement/) just in case you are worried about privacy. Since access to Honorlock is very limited, and you are expected to only work on the quiz during the proctoring time, the data that Honorlock records is very limited too. The data storage and sharing agreement don’t have a higher risk than your regular school actives (Zoom, email, Canvas, ...). 
 
 # Syllabus
 

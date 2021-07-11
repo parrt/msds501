@@ -56,7 +56,7 @@ It's useful to have a `README.md` file in the root directory of the repository t
 This repository is a mechanism to learn git/github.
 ```
 
-The file exists now, but git does not know anything about it:
+The file exists now, but git does not pay attention to it (unless we tell it to):
 
 ```bash
 $ nano README.md
@@ -90,7 +90,7 @@ Changes to be committed:
 $ 
 ```
 
-Git is now tracking that file but we have not commit our changes (we've not told git to take a snapshot), so let's do that now:
+Git is now tracking that file, but we have not commited our changes (we've not told git to take a snapshot), so let's do that now:
 
 ```bash
 $ git commit -a -m 'add initial file'
@@ -102,7 +102,7 @@ $
 
 ## Getting changes back to github
 
-Our goal now is to get this file mirrored back to github. First, let's verify that github still does not know about the local changes we've made with git on our disk. Got to your repo web page, mine is `https://github.com/parrt/learn-git`, and verify that the repo is still empty on github.
+Our goal now is to get this file mirrored back to github. First, let's verify that github still does not know about the local changes we've made with git on our disk. Go to your repo web page, mine is `https://github.com/parrt/learn-git`, and verify that the repo is still empty on github.
 
 Back on your laptop in the terminal, tell git to push any changes (in this case, our new `README.md` file), to the remote repository at github:
 
@@ -140,7 +140,7 @@ $ cat README.md
 This repository is a mechanism to learn git/github.
 ```
 
-To synchronize your laptop with the github repository, pull changes down:
+To synchronize your laptop with the github repository, pull the changes made at the github website down to your laptop:
 
 ```bash
 $ git pull origin

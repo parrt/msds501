@@ -26,22 +26,24 @@ This is just for testing so you can name it whatever you want.  Leave it as a pu
 
 ## Clone the github repository onto your laptop
 
-At this point, github.com has created and is hosting a repository for you. There is nothing on our laptop associated with this repository nor is there a copy on our laptop.  Copy the HTTPS URL, that looks like `https://github.com/parrt/learn-git.git`, and now open up a terminal on your laptop. From the terminal, let's move to an appropriate directory on our laptop and give the command to clone the repository:
+At this point, github.com has created and is hosting a repository for you. There is nothing on our laptop associated with this repository nor is there a copy on our laptop.  Copy the HTTPS URL, that looks like `https://github.com/parrt/learn-git.git`, and now open up a terminal on your laptop.   Naturally, your URL will not have `parrt` in it, but instead it will have YOURGITHUBUSERNAME. From the terminal, let's move to an appropriate directory on our laptop and give the command to clone the repository:
 
 ```bash
 $ cd ~/classes/msds501
-$ git clone https://github.com/parrt/learn-git.git
+$ git clone https://github.com/YOURGITHUBUSERNAME/learn-git.git
 Cloning into 'learn-git'...
 warning: You appear to have cloned an empty repository.
 $ cd learn-git # jump inside the repository directory
 ```
 
+(If you clone the URL containing `parrt` instead of YOURGITHUBUSERNAME, you will clone my repository not yours, so be careful.)
+
 You can verify that the repository on your disk is associated with the repo on github:
 
 ```bash
 $ git remote -v
-origin	https://github.com/parrt/learn-git.git (fetch)
-origin	https://github.com/parrt/learn-git.git (push)
+origin	https://github.com/YOURGITHUBUSERNAME/learn-git.git (fetch)
+origin	https://github.com/YOURGITHUBUSERNAME/learn-git.git (push)
 ```
 
 ## Create and add a file to the repo

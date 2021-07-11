@@ -80,7 +80,7 @@ Side notes:
 	* LAB: [A first taste of Python tools](labs/hello.md) (Day 2)
 	* LAB: [Playing sounds](labs/sound.md) (Day 2)
 * [git and github version control](slides/git.pdf) (Day 2)
-	* LAB: [Git and github](labs/git.md) (Day 3)
+	* LAB: [Git and github](labs/git.md) (Day 2)
 * [Intro to Python programming](slides/intro-programming.pdf) (Day 3)
 	* PRACTICE QUIZ: [Python basics practice quiz](labs/python-basics-quiz.ipynb) (Day 3)
 * [Data aliasing](slides/aliasing.pdf) (Day 3)

@@ -15,7 +15,7 @@ For example, here are pictures of the world's loudest cat before/after sharpenin
 
 ## Getting started
 
-See [git/github lab](https://github.com/parrt/msds501/blob/master/labs/git.md).
+See also [git/github lab](https://github.com/parrt/msds501/blob/master/labs/git.md).
 
 Let's prepare our programming environment so that submitting this project is easy.  First, we need to a github repository where we can submit our work.  I will post to slack or via the students email list a URL for each project that represents an invitation to create a repository associated with a specific project for this class. Each student will have their own private repository per project. Once you have created the repository, you can proceed with this section to clone that empty repository onto your laptop disk. 
 
@@ -151,6 +151,8 @@ This will launch a new tab in your browser.  From the file pane on the left, sel
 Other than the images I have provided, you can use any others you want. (Remember, however, that all images used in this class and those stored on University equipment must be "safe for work." Keep it G-rated please, with no offensive images popping up on your laptops or machines during lab etc.)
 
 ## Task 0. Viewing file in a notebook
+
+*Before we get started, please keep in mind that the whole point of this exercise is to learn how to manipulate images; you are not allowed to call the built-in PIL functions to do transposes and blurring etc...*
 
 Ok, at this point we have properly set up our repository, have added our initial starter kit material, pushed the initial state back to github, and have launched Jupyter so that we can work on the notebook. 
 

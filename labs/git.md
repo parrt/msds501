@@ -8,6 +8,8 @@ If you have not already done so, create an account at [github.com](github.com), 
 
 Please do not change your github username during the program as grading scripts will then not see your code and you will get a zero for projects! If you must change it, please notify your instructor(s).
 
+The first time you try to push something back to github, I think the use of git from the command line will ask you to configure your name and email address using the “git config” command with a bunch of options. Or, it looks like you can do this from github’s webpages; see [managing your commit email address](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/managing-email-preferences/setting-your-commit-email-address).  That web update might be easier because the command line will ask you to use vi or some other editor you are unfamiliar with
+
 ## Creating a repository
 
 Go to github and create a "New repository" using the menu in the upper right-hand corner of your github account:

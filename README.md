@@ -78,7 +78,7 @@ Side notes:
 * [Overview of a Python programmer's world](slides/overview.pdf) (Day 1)
 * [The terminal command-line and python environments](slides/terminal.pdf) (Day 1)
 	* LAB: [A first taste of Python tools](labs/hello.md) (Day 2)
-	* LAB: [Playing sounds](labs/sound.md) (Day 2)
+	* LAB: [Playing sounds](labs/sound.md) (Optional)
 * [git and github version control](slides/git.pdf) (Day 2)
 	* LAB: [Git and github](labs/git.md) (Day 2)
 * [Intro to Python programming](slides/intro-programming.pdf) (Day 3)

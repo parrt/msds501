@@ -1,0 +1,35 @@
+\documentclass[11pt]{article}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{epstopdf}
+\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+
+\textwidth = 6.5 in
+\textheight = 9 in
+\oddsidemargin = 0.0 in
+\evensidemargin = 0.0 in
+\topmargin = 0.0 in
+\headheight = 0.0 in
+\headsep = 0.0 in
+\parskip = 0.2in
+\parindent = 0.0in
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{definition}{Definition}
+
+\title{Brief Article}
+\author{The Author}
+\begin{document}
+\maketitle
+
+\[
+\frac{80,000,000 \frac{\mathit bits}{\mathit sec}}{8 \frac{\mathit bits}{\mathit byte}} = 10,000,000 \frac{\mathit bytes}{\mathit sec} = 10 \frac{\mathit megabytes}{\mathit sec}
+\]
+
+\[
+\frac{100 \mathit megabytes}{10 \frac{\mathit megabytes}{\mathit sec}} = 10 \mathit sec
+\]
+
+
+ \end{document}

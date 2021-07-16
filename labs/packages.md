@@ -2,11 +2,13 @@
 
 The goal of this lab is to get familiar importing existing packages/modules and to create and import your own modules.
 
+**You should retype these exercises rather than cutting/pasting, which doesn't help you remember anything.**
+
 ## Importing standard packages
 
 By now, you've probably seen lots of examples and have used `import` many times for various projects. Just for completeness, let's go through the basics.
  
-In a file called, `basics.py`, import the `math`, `numpy`, and `pandas` packages with the following.
+In a file called `basics.py` import the `math`, `numpy`, and `pandas` packages with the following.
 
 ```python
 import math
@@ -14,7 +16,7 @@ import numpy as np
 import pandas as pd
 ```
 
-Please note the standard aliases given for the second to packages; this is what you will see in all code examples and it's good to keep to the standard. The `as np` is an alias that we can use as a shorthand.
+Please note the standard aliases given for the second two packages; this is what you will see in all code examples and it's good to keep to the standard. The `as np` is an alias that we can use as a shorthand.
 
 Let's verify that the import statements have worked:
 

@@ -65,6 +65,7 @@ Please see the [How to use" page for students](https://honorlock.kb.help/-studen
  
 Side notes:
 
+* Start the quiz with a single Chrome window and single tab in that window.
 * When the "share screen button" is grey, you can still click it and it will work.
 * HonorLock flags activities other than the allowed ones: for example when you are accessing a website other than canvas or looking at your phone. I will evaluate these cases and make a judgment myself. I will reach out to you when necessary. If you have followed the guidelines, you don’t need to worry.
 * If you have an honorlock software issue during the test, you must take a screen picture with your phone or ipad and notify me immediately via private slack to timestamp the situation with the picture and reason why you cannot proceed. Please contact tech support on the screen to resolve (they are very quick). I will check the Honorlock recording and timestamp of your pictures to grade. 

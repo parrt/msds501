@@ -18,7 +18,6 @@ Writing software is about problem solving, computer languages, algorithms, data 
 
 * Lectures: Mon/Wed 10AM - 11:50AM
 
-
 **INSTRUCTION FORMAT**. Class runs for 1:50 hours, 2 days/week. Instructor-student interaction during lecture is encouraged and we'll mix in mini-exercises / labs during class. All programming will be done in the Python 3 programming language, unless otherwise specified.
 
 **TARDINESS.** Please be on time for class. It is a big distraction if you come in late.

@@ -29,11 +29,11 @@ Create a Python script in the root of your repository called `condense.py` that 
 
 `python condense.py` *path-to-maildir*
 
-where *path-to-maildir* indicates the exact path of your mail directory. This allows us to place the mail directory anywhere on the disk and still use the same script. The execution of your finished script takes about two or three minutes depending on the speed of your machine. After execution, your script should leave file `enron.feather` in the current directory. The columns of the data frame must be in order exactly: `MailID`, `Date`, `From`, `To`, `Recipients`, `Subject`, `filename`:
+where *path-to-maildir* indicates the exact path of your mail directory. This allows us to place the mail directory anywhere on the disk and still use the same script. The execution of your finished script takes about two or three minutes depending on the speed of your machine. After execution, your script should leave file `enron.feather` in the current working directory (the directory from which you execute the `python` command). The columns of the data frame must be exactly these columns and in this order: `MailID`, `Date`, `From`, `To`, `Recipients`, `Subject`, `filename`; for example:
 
 <img src="figures/enron-df.png" width="100%">
 
-`Recipients` indicates the number of people on the `To:` line for a single email message and `filename` is the subdirectory of `maildir` that contains the mail message.
+`Recipients` indicates the number of people on the `To:` line for a single email message file and `filename` is the subdirectory of `maildir` plus the filename that contains the mail message.
 
 (You will need to install Python `pyarrow` package to save in feather format.)
 
@@ -49,7 +49,7 @@ The grayed out stuff is what we can ignore in order to build the data frame. The
 
 We'll also ignore the `CC:` and `BCC:` lines.  The `X-From:` etc... lines should be ignored for our purposes. All we need can be derived from the four headers  highlighted in orange.
 
-Many of the email messages should be ignored. There are messages that have no `To:` line, which we can discard.  Ignore and sender and recipient email addresses that are not Enron related, such as `tradersnewsindexes@ipgdirect.com`, `pep <performance.>`, and `dbaughman@houston.rr.com`.  Naturally, ignore any email message that has empty sender or recipient values after filtering.  Some addresses are from Enron but are weird and we should filter them out:
+Many of the email messages should be ignored. There are messages that have no `To:` line, which we can discard.  Ignore sender and recipient email addresses that are not Enron related, such as `tradersnewsindexes@ipgdirect.com`, `pep <performance.>`, and `dbaughman@houston.rr.com`.  Naturally, ignore any email message that has empty sender or recipient values after filtering.  Some addresses are from Enron but are weird and we should filter them out:
 
 * `/o=enron/ou=eu/cn=recipients/cn=jtaylo3...@enron.com`
 * `#32@enron.com`
@@ -88,13 +88,15 @@ My structured code is organized well. For example, my main program (at the botto
 
 You can structure your code anyway you want, but it must save the `enron.feather` file in the current working directory. That way my `test_enron.py` tests will find the data file.
 
-As another test, see [enron-5000.csv](https://github.com/parrt/msds501/blob/master/projects/enron-5000.csv) which is the first 5000 after sorting by date. The code to generate it is:
+As another test, see [enron-5000.csv](https://github.com/parrt/msds501/blob/master/projects/enron-5000.csv) which is the first 5000 after sorting by date and then by mail ID. The code to generate it is:
 
 ```python
-df.sort_values('Date').head(5000).to_csv("enron-5000.csv")`
+df.sort_values(['Date','MailID']).head(5000).to_csv("enron-5000.csv")
 ```
 
-You should compare this CSV file with what you generate.
+You should compare this CSV file with what you generate. It starts like this:
+
+<img src="figures/enron-5.png" width="60%">
 
 ## Exploring email traffic
 

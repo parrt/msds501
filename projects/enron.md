@@ -100,7 +100,7 @@ You should compare this CSV file with what you generate. It starts like this:
 
 ## Exploring email traffic
 
-Fill out the notebook file called `enron.ipynd` located in the root of your repository so that it includes the explorations and visualizations mentioned in this section. Please begin with the [notebook starter kit](https://github.com/parrt/msds501/blob/master/projects/enron.ipynb).
+Your next goal is to copy the [enron.ipynb notebook starter kit](https://github.com/parrt/msds501/blob/master/projects/enron.ipynb) into the root of your repository. Then, fill it out so that it includes the explorations and visualizations mentioned in this section.
 
 ### Email traffic over time
 
@@ -114,13 +114,13 @@ Group the data set by `Date` and `MailID`, which will get you an index that coll
 You need to create two bar charts:
  
 1. Count the number of messages received per user and then sort in reverse order.
-2. Make a bar chart showing the top 30 email recipients. Second, Make a bar chart indicating the top 30 mail senders. This is more complicated than the received emails because a single person can email multiple people in a single email. So,  group by `From` and `MailID`, convert the index back to columns and then group again by `From` and get the count.
+2. Make a bar chart showing the top 30 email recipients. Second, make a bar chart indicating the top 30 mail senders. This is more complicated than the received emails because a single person can email multiple people in a single email. So,  group by `From` and `MailID`, convert the index back to columns and then group again by `From` and get the count.
 
 <img src="figures/enron-received.png" width="50%"><img src="figures/enron-sent.png" width="50%">
 
 ### Heatmap showing number of email messages between employees
 
-Given a list of Enron employees, compute a heat map that indicates how much email traffic went between each pair of employees. The heat map is not symmetric because Susan sending mail to Xue is not the same thing as Xue sending mail to Susan. The first step is to group the data frame by `From` and `To` columns in order to get the number of emails from person i to person j. Then, create a 2D numpy matrix, C, of integers and set C[i,j] to the count of person i to person j emails. Using matplotlib, `ax.imshow(C, cmap='GnBu', vmax=4000)`, show the heat map and add tick labels at 45 degrees for the X axis. Set the labels to the appropriate names.   Draw the number of emails in the appropriate cells of the heat map, for all values greater than zero. Please note that when you draw text using `ax.text()`, the coordinates are X,Y whereas the coordinates in the C matrix are row,column so you will have to flip the coordinates.
+Given a list of Enron employees, compute a heat map that indicates how much email traffic was exchanged between each pair of employees. The heat map is not symmetric because Susan sending mail to Xue is not the same thing as Xue sending mail to Susan. The first step is to group the data frame by `From` and `To` columns in order to get the number of emails from person i to person j. Then, create a 2D numpy matrix, C, of integers and set C[i,j] to the count of person i to person j emails. Using matplotlib, `ax.imshow(C, cmap='GnBu', vmax=4000)`, show the heat map and add tick labels at 45 degrees for the X axis. Set the labels to the appropriate names.   Draw the number of emails in the appropriate cells of the heat map, for all values greater than zero. Please note that when you draw text using `ax.text()`, the coordinates are X,Y whereas the coordinates in the C matrix are row,column so you will have to flip the coordinates.
 
 ```python
 people = ['jeff.skilling', 'kenneth.lay', 'louise.kitchen', 'tana.jones',
@@ -134,13 +134,11 @@ people = ['jeff.skilling', 'kenneth.lay', 'louise.kitchen', 'tana.jones',
 
 ## Exploring email connection graph
 
-From the data frame, create a graph data structure using [networkx](https://networkx.org/), which you must install with `pip`. Create an edge from node A to node B if there is an email from A to B in the data frame. Although we do know the total number of emails between people, let's keep it simple and use simply a weight of 1 as the edge label. See networkx method `add_edge()`. Once you have created the graph object, you can't compute interesting statistics and make visualizations.
+From the data frame, create a graph data structure using [networkx](https://networkx.org/), which you must install with `pip`. Create an edge from node A to node B if there is an email from A to B in the data frame. Although we do know the total number of emails between people, let's keep it simple and use a weight of 1 as the edge label. See networkx method `add_edge()`. Once you have created the graph object, you can compute interesting statistics and make visualizations.
 
 ### PageRank between users
 
-Using networkx, compute the pagerank between all nodes. Get the data into a data frame, sort in reverse order, and display the top 15 users from the data frame. 
-
-(I use `DataFrame.from_dict` to convert the dictionaries returned from the various networkx methods to data frames.)
+Using networkx, compute the pagerank between all nodes. Get the data into a data frame, sort in reverse order, and display the top 15 users from the data frame. (I use `DataFrame.from_dict` to convert the dictionaries returned from the various networkx methods to data frames.)
 
 ```
                  PageRank
@@ -191,7 +189,7 @@ david.oxley         0.043563
 The email graph is way too large to display the whole thing and get any meaningful information out. However, we can look at subsets of the graph such as the neighbors of a specific node. To visualize it we can use different strategies to layout the nodes. In this case, we will use two different layout strategies: *spring* and *kamada-kawai*. According to
 [Wikipedia](https://en.wikipedia.org/wiki/Force-directed_graph_drawing), these force directed layout strategies have the characteristic that: "*...the edges tend to have uniform length (because of the spring forces), and nodes that are not connected by an edge tend to be drawn further apart...*".  
 
-Use networkx `ego_graph()` method to get a radius=1 neighborhood around `jeff.skilling` and draw the spring graph with a plot that is 20x20 inch so we can see details.  Then, draw the same subgraph again using the kamada-kawai layout strategy. Finally, get the neighborhood around kenneth.lay and draw kamada-kawai. The graph plots should look like this:
+Use networkx `ego_graph()` method to get a radius=1 neighborhood around `jeff.skilling` and draw the spring graph with a plot that is 20x20 inches so we can see details.  Then, draw the same subgraph again using the kamada-kawai layout strategy. Finally, get the neighborhood around kenneth.lay and draw kamada-kawai. The graph plots should look like this:
 
 <img src="figures/enron-skilling-kamada.png" width="50%"><img src="figures/enron-skilling-spring.png" width="50%">
 
@@ -201,9 +199,9 @@ Use networkx `ego_graph()` method to get a radius=1 neighborhood around `jeff.sk
 
 In your repository, you should submit the following files in the root of the repository:
 
-* `condense.py` This is the script that reads all of the emails and creates the handy data frame in feather format, storing the feather file in the current working directory.
-* `enron.ipynb` Follow the [starter kit](https://github.com/parrt/msds501/blob/master/projects/enron.ipynb) of the notebook and generate the appropriate explorations and visualizations
-* `enron.pdf` This is the PDF exported or generated from the notebook.
+* `condense.py` This is the script that reads all of the emails and creates the handy data frame in feather format, storing the feather file in the current working directory. It takes a commandline argument indicating the directory containing the Enron mail. E.g., my directory is `~/data/maildir`.
+* `enron.ipynb` Start with a copy of the [starter kit notebook](https://github.com/parrt/msds501/blob/master/projects/enron.ipynb) and flesh it out to generate the appropriate explorations and visualizations for this project description.
+* `enron.pdf` This is the PDF exported or generated from the notebook. Make sure that it looks correct and has all of the images showing.
 
 The easiest way to generate `enron.pdf` is to use `jupyter-nbconvert`, as you did in the images project:
 
@@ -221,7 +219,7 @@ $ python condense.py ~/data/maildir
 ...
 ```
 
-**Execution time of condense.py to create enron.feather must be under 3.5 minutes on my machine to get credit for the project.**  It must also leave the `enron.feather` file in the current directory so that the unit tests know how to find the file.
+**Execution time of condense.py to create enron.feather must be under 3.5 minutes on my machine to get credit for the project.**  It must also leave the `enron.feather` file in the current working directory so that the unit tests know how to find the file.
 
 I will test the contents of `enron.feather` using the [test_enron.py](https://github.com/parrt/msds501/blob/master/projects/test_enron.py) test rig:
 

@@ -23,6 +23,8 @@ Your first goal is to create a condensed version of the enron email messages in 
 
 <img src="figures/maildir.png" width="35%">
 
+When you `open()` the email files, you must use `encoding='latin1'` as a parameter since the emails have some characters that will cause an error using the default character encoding.
+
 Begin by downloading the very large (1.7G) [Enron data set](https://www.cs.cmu.edu/~./enron/enron_mail_20150507.tar.gz) and untar/unzip it. You will find a `maildir`, which contains the email messages organized by user. **Please do not try to add/commit your mail directory or the `.tar.gz` file to your repository!**
 
 Create a Python script in the root of your repository called `condense.py` that accepts the mail directory as a commandline argument so that you will run your program like this:

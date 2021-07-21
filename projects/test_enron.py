@@ -12,7 +12,7 @@ def test_overall_stats():
     global df
     assert len(df)==2_499_216
     assert len(df['MailID'].unique())==349849
-    assert len(df['Date'].unique())==1189
+    assert len(df['Date'].unique())==1187
     assert len(df['From'].unique())==6318
     assert len(df['To'].unique())==18893
     assert sum(df['Recipients'])==254_654_980

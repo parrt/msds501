@@ -15,9 +15,9 @@ united is similar to {kingdom america country britain us}
 > chinese
 chinese is similar to {korean china vietnamese japanese thai}
 > alien
-alien is similar to {extraterrestrial spaceship evil planet creature}
+alien is similar to {extraterrestrial spaceship ghost creature strange}
 > approach
-approach is similar to {methodology understanding strategy rather perspective}
+approach is similar to {rather perspective methodology understanding however}
 ```
 
 Given three words, we can also use word vectors to fill in the blank of partial analogies of the form "*x is to y as z is to _____*":

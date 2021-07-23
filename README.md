@@ -93,7 +93,7 @@ Side notes:
   * LAB and notes: [Square root lab](labs/sqrt.ipynb) (Day 5)
 * [Packages and modules](slides/packages.pdf) (Day 5)
 	* LAB: [Packages lab](labs/packages.md) (Day 5)
-* [Organizing your code with functions](slides/functions.pdf) (Day 5)
+* [Organizing your code with functions](slides/functions.pdf) (Day 5,6)
 	* PRACTICE QUIZ: [Python functions practice quiz](labs/functions-practice-quiz.ipynb) (Day 6)
 * [Reading and writing files](slides/files.pdf) (Day 6)
 	* LAB: [Files lab](labs/files.md) (Day 6)

@@ -31,7 +31,11 @@ Create a Python script in the root of your repository called `condense.py` that 
 
 `python condense.py` *path-to-maildir*
 
-where *path-to-maildir* indicates the exact path of your mail directory. This allows us to place the mail directory anywhere on the disk and still use the same script. The execution of your finished script takes about two or three minutes depending on the speed of your machine. After execution, your script should leave file `enron.feather` in the current working directory (the directory from which you execute the `python` command). The columns of the data frame must be exactly these columns and in this order: `MailID`, `Date`, `From`, `To`, `Recipients`, `Subject`, `filename`; for example:
+where *path-to-maildir* indicates the exact path of your mail directory. This allows us to place the mail directory anywhere on the disk and still use the same script.
+
+**Depending on how you unzip the mail file, you might find an operating system file called `.DS_Store`.  You should ignore any file starting with `.` as it is not a mail file.**
+
+The execution of your finished script takes about two or three minutes depending on the speed of your machine. After execution, your script should leave file `enron.feather` in the current working directory (the directory from which you execute the `python` command). The columns of the data frame must be exactly these columns and in this order: `MailID`, `Date`, `From`, `To`, `Recipients`, `Subject`, `filename`; for example:
 
 <img src="figures/enron-df.png" width="100%">
 

@@ -62,7 +62,7 @@ Many of the email messages should be ignored. There are messages that have no `T
 * `legal<.hall@enron.com>`
 * `e-mail<.bo@enron.com>`
 
-Normalize the email addresses by getting rid of single quotes and delete any `.` (dot) at the start of an email address:
+Normalize the email addresses by getting rid of single quotes (anywhere in string) and delete any `.` (dot) at the start of an email address:
  
 * `'.''bill@enron.com` &rightarrow; `bill@enron.com`
 * `'arnold@enron.com` &rightarrow; `arnold@enron.com`

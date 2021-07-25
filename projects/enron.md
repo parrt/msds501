@@ -82,7 +82,9 @@ As a final detail, the date strings contained in the email messages must be conv
  6   filename    object
 ```
 
-The type of the `Date` column shows as `object` for some reason but if you actually look at the elements with, say, `df['Date'][0]`, you get: `datetime.date(2001, 5, 14)`.
+The type of the `Date` column shows as `object` for some reason but if you actually look at the elements with, say, `df['Date'][0]`, you get: `datetime.date(2001, 5, 14)`.  
+
+**Also note some dates are just wrong.** E.g., `skilling-j/deleted_items/451.` has a year of `0001`. It looks like datetime conversion in pandas converts 0001 to 2001, relative to last century marker. Any date we pick is wrong so, for this project, we can just allow it to convert to 2001.
 
 ### Building the script
 

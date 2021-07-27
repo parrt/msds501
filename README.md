@@ -98,7 +98,7 @@ Side notes:
 * [Reading and writing files](slides/files.pdf) (Day 7)
 	* LAB: [Files lab](labs/files.md) (Day 7)
 * [A simple problem-solving approach](slides/problem-solving.pdf) (Day 7)
-* [Problem-solving practice](notes/problem-solving.ipynb) (Day 7, 8)
+* [Problem-solving practice](labs/problem-solving.ipynb) (Day 7, 8)
 * [Object-oriented programming](slides/OO.pdf) (Day 9)
 	* PRACTICE QUIZ: [Object-oriented programming practice quiz](labs/OO.ipynb) (Day 9)
 * [Launching a Virtual Machine at Amazon Web Services](notes/aws.md) (Day 10)

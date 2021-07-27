@@ -1,4 +1,4 @@
-# Must be run like `python -m pytest -v test_wordsim.py ~/data/glove.42B`
+# Must be run like `python -m pytest -v test_wordsim.py ~/data` for some data dir
 from wordsim import load_glove, closest_words, analogies
 import sys
 import pytest
@@ -33,6 +33,7 @@ analogy_input = [
     ['dog', 'puppy', 'cat'],
     ['like', 'love', 'dislike']
 ]
+
 analogy_output = [
     ['woman', 'girl', 'lady', 'wonder', 'guy'],
     ['tree', 'leaf', 'planting', 'plant', 'seedling'],

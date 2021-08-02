@@ -74,13 +74,13 @@ Traceback (most recent call last):
 UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd0 in position 0: invalid continuation byte
 ```
 
-Ok, so we need to create a new version of the python script called `copy.py` that tells python file is an arbitrary binary file, and it should not do any character interpretation. By default, when you open a file, Python assumes you are reading from the file and that it is a text file: `open("foo")` is the same as `open("foo", mode="rt")`, where `r` means to open the file for reading and `t` means text.  To make this work for binary files, change the mode from `rt` to `rb`.  When writing the file, change the mode from `w` (or `wt`) to `wb`. Everything else in the script should be the same. Using the new script, we should get a faithful copy:
+Ok, so we need to create a new version of the python script called `cp.py` that tells python file is an arbitrary binary file, and it should not do any character interpretation. By default, when you open a file, Python assumes you are reading from the file and that it is a text file: `open("foo")` is the same as `open("foo", mode="rt")`, where `r` means to open the file for reading and `t` means text.  To make this work for binary files, change the mode from `rt` to `rb`.  When writing the file, change the mode from `w` (or `wt`) to `wb`. Everything else in the script should be the same. Using the new script, we should get a faithful copy:
 
 ```bash
-$ python copy.py cars.xls /tmp/cars.xls
+$ python cp.py cars.xls /tmp/cars.xls
 $ open /tmp/cars.xls # open that file in Excel
 ```
 
-If you get stuck, here is the [solution](https://github.com/parrt/msds501/blob/master/labs/code/files/copy.py).
+If you get stuck, here is the [solution](https://github.com/parrt/msds501/blob/master/labs/code/files/cp.py).
 
 At this point, you've got the basic skills necessary to read and write text and binary files in Python!

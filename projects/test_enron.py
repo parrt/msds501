@@ -2,6 +2,7 @@ import pandas as pd
 
 df = None
 
+
 def setup_module():
     global df
     if df is None:
@@ -10,117 +11,119 @@ def setup_module():
 
 def test_overall_stats():
     global df
-    assert len(df)==2_499_216
-    assert len(df['MailID'].unique())==349849
-    assert len(df['Date'].unique())==1187
-    assert len(df['From'].unique())==6318
-    assert len(df['To'].unique())==18893
-    assert sum(df['Recipients'])==254_654_980
-    assert len(df['Subject'].unique())==105263
-    assert len(df['filename'].unique())==349849
+    assert len(df) == 2496625
+    assert len(df['MailID'].unique()) == 347731
+    assert len(df['Date'].unique()) == 1187
+    assert len(df['From'].unique()) == 6286
+    assert len(df['To'].unique()) == 18814
+    assert sum(df['Recipients']) == 254603223
+    assert len(df['Subject'].unique()) == 104834
+    assert len(df['filename'].unique()) == 347731
 
 
 def test_addrs():
     global df
-    assert sum(df['From'].str.contains('@'))==0
-    assert sum(df['From'].str.contains("'"))==0
-    assert sum(df['From'].str.contains("<"))==0
-    assert sum(df['From'].str.contains(">"))==0
-    assert sum(df['From'].str.contains('.'))==2499216
-    assert sum(df['From'].str.contains("-"))==4554
-    assert sum(df['To'].str.contains('@'))==0
-    assert sum(df['To'].str.contains("'"))==0
-    assert sum(df['To'].str.contains("<"))==0
-    assert sum(df['To'].str.contains(">"))==0
-    assert sum(df['To'].str.contains('.'))==2499216
-    assert sum(df['To'].str.contains("-"))==18035
+    assert sum(df['From'].str.contains('@')) == 0
+    assert sum(df['From'].str.contains("'")) == 0
+    assert sum(df['From'].str.contains("<")) == 0
+    assert sum(df['From'].str.contains(">")) == 0
+    assert sum(df['From'].str.contains('.')) == 2496625
+    assert sum(df['From'].str.contains("-")) == 4486
+    assert sum(df['To'].str.contains('@')) == 0
+    assert sum(df['To'].str.contains("'")) == 0
+    assert sum(df['To'].str.contains("<")) == 0
+    assert sum(df['To'].str.contains(">")) == 0
+    assert sum(df['To'].str.contains('.')) == 2496625
+    assert sum(df['To'].str.contains("-")) == 18032
 
 
 def test_lavorato_filenames():
     global df
-    assert sum(df['filename'].str.startswith("lavorato-j/"))==14560
-    assert sum(df['filename'].str.startswith("lay-k/"))==19085
+    assert sum(df['filename'].str.startswith("lavorato-j/")) == 14556
+    assert sum(df['filename'].str.startswith("lay-k/")) == 19075
 
 
 def test_kay_mann():
     global df
-    expected = ['susan.bailey', 'gerald.nemec', 'e..dickson', 'marie.heard',
-                'stephanie.panus', 'ed.mcmichael', 'chris.germany', 'eric.boyt', 'r..price',
-                'ruth.concannon', 'kay.mann', 'e..keller', 'paul.darmitzel', 'robin.barbe',
-                'mark.haedicke', 'dan.lyons', 't..hodge', 'elizabeth.sager', 'sheila.tweed',
-                'suzanne.adams', 'carol.st.', 'leslie.hansen', 'david.portz',
-                'reagan.rorschach', 'herman.manis', 'lisa.bills', 'carlos.sole',
-                'john.schwartzenburg', 'stephen.thome', 'kathleen.carnahan', 'rhett.jackson',
-                'chris.booth', 'jeffrey.hodge', 'ann.white', 'chip.schneider', 'ben.jacoby',
-                'margaret.doucette', 'john.moore', 'roseann.engeldorf', 'william.fleenor',
-                'mitch.robinson', 'fred.mitro', 'karen.jones', 'jake.thomas',
-                'dale.rasmussen', 'gregg.penman', 'catherine.clark', 'becky.spencer',
-                'barbara.gray', 'john.rigby', 'ed.iii', 'vanessa.bob', 'bob.carter',
-                'heather.kroll', 'ozzie.pagan', 'lorie.leigh', 'barton.clark',
-                'matthew.gockerman', 'david.fairley', 'lloyd.will', 'christi.nicolay',
-                'jeff.ader', 'mark.bernstein', 'janette.elbertson', 'joshua.wooten',
-                'scott.laidlaw', 'steven.krimsky', 'tj.butler', 'greg.krause',
-                'robert.sevitz', 'tjbutler', 'renee.alfaro', 'brian.barto', 'randy.pais',
-                'body.shop', 'stuart.zisman', 'matt.maxwell', 'scott.dieball',
-                'james.steffes', 'geriann.warner', 'marchris.robinson', 'steve.montovano',
-                'lisa.mellencamp', 'chauncey.hood', 'christy.chapman', 'rusty.stevens',
-                'jeffery.ader', 'taffy.milligan', 'caroline.abramo', 'roger.balog',
-                'frank.sayre', 'daniel.rogers', 'andrew.ralston', 'kay.young', 'william.jr',
-                'shelby.malkemes', 'joseph.grajewski', 'christina.valdez', 'shirley.oliver',
-                'travis.mccullough', 'tana.jones', 'claudette.harvey', 'megan.angelos',
-                'eric.booth', 'carolyn.george', 'ernie', 'richard.leibert', 'fred.kelly',
-                'peter.nassab', 'jude.rolfes', 'david.marshall', 'genia.fitzgerald',
-                'rebecca.walker', 'richard.sanders', 'gloria.cruz', 'david.lund', 'ace.roman',
-                'ron.tapscott', 'christopher.calger', 'mike.coleman', 'sheri.cromwell',
-                'michael.brown', 'janelle.scheuer', 'chris.gaffney', 'tom.may',
-                'kayne.coulter', 'alan.larsen', 'roger.ondreko', 'john.ayres', 'joy.oliver',
-                'brett.wiggs', 'jeffrey.keenan', 'lisa.alfaro', 'john.novak', 'jim.gilbert',
-                'janet.dietrich', 'john.llodra', 'john.normand', 'legal.1', 'david.marks',
-                'william.keeney', 'billy.lemmons', 'cheryl.lipshutz', 'peter.anderson',
-                'tracee.bersani', 'karen.carter', 'peggy.banczak', 'richard.vincent',
-                'don.miller', 'steve.hooser', 'ross.newlin', 'felicia.doan', 'anne.koehler',
-                'joseph.deffner', 'mike.miller', 'scott.healy', 'mark.greenberg',
-                'judy.nyegaard', 'rebecca.mcdonald', 'hkroll', 'raimund.grube',
-                'jeff.slaughter', 'michelle.cash', 'carol.clair', 'community-relations',
-                'bill.williams', 'ed.dannhaus', 'julia.murray', 'debra.perlingiere',
-                'geneva.davis', 'gdavis2', 'james.grace', 'mark.taylor', 'kathleen.clark',
-                'joel.ephross', 'lou.stoler', 'stephen.plauche', 'jader', 'jordan.mintz',
-                'sarah.wesner', 'clickathomepilot2', 'edward.sacks', 'perfmgmt',
-                'david.leboe', 'cheryl.costa', 'geneva.holland', 'linda.noske', 'deb.korkmas',
-                'al.larsen', 'ron.coker', 'gareth.bahlmann', 'tom.chapman', 'sara.shackleton',
-                'russell.murrell', 'teresa.callahan', 'martin.penkwitz', 'larry.soderquist',
-                'laura.luce', 'brian.kerrigan', 'chris.herron', 'dean.russell',
-                'stacy.dickson', 'dina.snow', 'harry.collins', 'sean.keenan', 'terri.austin',
-                'gautam.gupta', 'mark.dobler', 'bill.fox', 'humberto.cubillos-uejbe',
-                'community_relations', 'kevin.joyce', 'ken.loch', 'timothy.j.detmering',
-                'mark.metts', 'timothy.detmering', 'kathy.mayfield', 'michelle.kapfer',
-                'matthew.berry', 'joya.davis', 'thomas.suffield', 'steve.irvin', 'bob.licato',
-                'eric.ledain', 'greg.johnston', 'juan.jass', 'donald.solomon',
-                'debbie.chance', 'carl.tricoli', 'tom.callaghan', 'jeff.blumenthal',
-                'steve.hall', 'reynaldo.garcia', 'brian.hulse', 'christian.yoder',
-                'rhonda.denton', 'parking.transportation', 'kimberlee.bennick',
-                'theresa.vos', 'paul.garcia', 'legal.4', 'jim.buerkle', 'kaye.ellis',
-                'gracie.presas', 'mathew.gimble', 'gail.brownfeld', 'brian.redmond',
-                'rob.walls', 'ibuyit', 'deborah.culver', 'harlan.murphy', 'sam.round',
-                'mary.ruffer', 'david.bargainer', 'lloyd.wantschek', 'mark.evans',
-                'gail.tholen', 'sandi.braband', 'nancy.corbet', 'mary.cook', 'edith.cross',
-                'jim.homco', 'corry.bentley', 'brad.morse', 'jeffrey.miller',
-                'communityrelations', 'alice.wright', 'thompson', 'carolyn.graham',
-                'kortney.brown', 'reginald.yancey', 'andrew.edison', 'marcus.nettelton',
-                'john.viverito', 'c..koehler', 'michelle.hicks', 'e..jones', 'n..gray',
-                'charles.vetters', 'tammy.brennig', 'h..moore', 'rahil.jafry', 'clint.shay',
-                'andy.edison', 'dave.kellermeyer', 'scott.churbock', 'litigation.ljm',
-                'eric.raab', 'hotline.isc', 'ward', 'robin.hill', 'brenda.bonhame',
-                'adriana.wynn', 'bryan.garrett', 'arshak.sarkissian', 's..presas', 'campbell',
-                'zachary.inman', 'keffer', 'deberry', 'g..bushman', 'angela.davis',
-                'joan.quick', 'holly.keiser', 'theresa.zucha', 'peter.del', 'lori.pinder',
-                'b..hearn', 'cynthia.harkness', 'clement.abrams', 'georgia.fogo',
-                'drew.fossum', 'elizabeth.labanowski', 'louis.dicarlo', 'm..presto',
-                'cheryl.lindeman', 'alan.aronowitz', 'r..rogers', 'a..robison',
-                'wayne.gresham']
+    expected = ['a..robison', 'ace.roman', 'adriana.wynn', 'al.larsen', 'alan.aronowitz',
+                'alan.larsen', 'alice.wright', 'andrew.edison', 'andrew.ralston',
+                'andy.edison', 'angela.davis', 'ann.white', 'anne.koehler',
+                'arshak.sarkissian', 'b..hearn', 'barbara.gray', 'barton.clark',
+                'becky.spencer', 'ben.jacoby', 'bill.fox', 'bill.williams',
+                'billy.lemmons', 'bob.carter', 'bob.licato', 'body.shop', 'brad.morse',
+                'brenda.bonhame', 'brett.wiggs', 'brian.barto', 'brian.hulse',
+                'brian.kerrigan', 'brian.redmond', 'bryan.garrett', 'c..koehler',
+                'campbell', 'carl.tricoli', 'carlos.sole', 'carol.clair', 'carol.st.',
+                'caroline.abramo', 'carolyn.george', 'carolyn.graham', 'catherine.clark',
+                'charles.vetters', 'chauncey.hood', 'cheryl.costa', 'cheryl.lindeman',
+                'cheryl.lipshutz', 'chip.schneider', 'chris.booth', 'chris.gaffney',
+                'chris.germany', 'chris.herron', 'christi.nicolay', 'christian.yoder',
+                'christina.valdez', 'christopher.calger', 'christy.chapman',
+                'claudette.harvey', 'clement.abrams', 'clickathomepilot2', 'clint.shay',
+                'community-relations', 'community_relations', 'communityrelations',
+                'corry.bentley', 'cynthia.harkness', 'dale.rasmussen', 'dan.lyons',
+                'daniel.rogers', 'dave.kellermeyer', 'david.bargainer', 'david.fairley',
+                'david.leboe', 'david.lund', 'david.marks', 'david.marshall',
+                'david.portz', 'dean.russell', 'deb.korkmas', 'debbie.chance', 'deberry',
+                'deborah.culver', 'debra.perlingiere', 'dina.snow', 'don.miller',
+                'donald.solomon', 'drew.fossum', 'e..dickson', 'e..jones', 'e..keller',
+                'ed.dannhaus', 'ed.iii', 'ed.mcmichael', 'edith.cross', 'edward.sacks',
+                'elizabeth.labanowski', 'elizabeth.sager', 'eric.booth', 'eric.boyt',
+                'eric.ledain', 'eric.raab', 'ernie', 'felicia.doan', 'frank.sayre',
+                'fred.kelly', 'fred.mitro', 'g..bushman', 'gail.brownfeld', 'gail.tholen',
+                'gareth.bahlmann', 'gautam.gupta', 'gdavis2', 'geneva.davis',
+                'geneva.holland', 'genia.fitzgerald', 'georgia.fogo', 'gerald.nemec',
+                'geriann.warner', 'gloria.cruz', 'gracie.presas', 'greg.johnston',
+                'greg.krause', 'gregg.penman', 'h..moore', 'harlan.murphy',
+                'harry.collins', 'heather.kroll', 'herman.manis', 'holly.keiser',
+                'hotline.isc', 'humberto.cubillos-uejbe', 'ibuyit', 'jader',
+                'jake.thomas', 'james.grace', 'james.steffes', 'janelle.scheuer',
+                'janet.dietrich', 'janette.elbertson', 'jeff.ader', 'jeff.blumenthal',
+                'jeff.slaughter', 'jeffery.ader', 'jeffrey.hodge', 'jeffrey.keenan',
+                'jeffrey.miller', 'jim.buerkle', 'jim.gilbert', 'jim.homco', 'joan.quick',
+                'joel.ephross', 'john.ayres', 'john.llodra', 'john.moore', 'john.normand',
+                'john.novak', 'john.rigby', 'john.schwartzenburg', 'john.viverito',
+                'jordan.mintz', 'joseph.deffner', 'joseph.grajewski', 'joshua.wooten',
+                'joy.oliver', 'joya.davis', 'juan.jass', 'jude.rolfes', 'judy.nyegaard',
+                'julia.murray', 'karen.carter', 'karen.jones', 'kathleen.carnahan',
+                'kathleen.clark', 'kathy.mayfield', 'kay.mann', 'kay.young', 'kaye.ellis',
+                'kayne.coulter', 'keffer', 'ken.loch', 'kevin.joyce', 'kimberlee.bennick',
+                'kortney.brown', 'larry.soderquist', 'laura.luce', 'legal.1', 'legal.4',
+                'leslie.hansen', 'linda.noske', 'lisa.alfaro', 'lisa.bills',
+                'lisa.mellencamp', 'litigation.ljm', 'lloyd.wantschek', 'lloyd.will',
+                'lori.pinder', 'lorie.leigh', 'lou.stoler', 'louis.dicarlo', 'm..presto',
+                'marchris.robinson', 'marcus.nettelton', 'margaret.doucette',
+                'marie.heard', 'mark.bernstein', 'mark.dobler', 'mark.evans',
+                'mark.greenberg', 'mark.haedicke', 'mark.metts', 'mark.taylor',
+                'martin.penkwitz', 'mary.cook', 'mary.ruffer', 'mathew.gimble',
+                'matt.maxwell', 'matthew.berry', 'matthew.gockerman', 'megan.angelos',
+                'michael.brown', 'michelle.cash', 'michelle.hicks', 'michelle.kapfer',
+                'mike.coleman', 'mike.miller', 'mitch.robinson', 'n..gray',
+                'nancy.corbet', 'ozzie.pagan', 'parking.transportation', 'paul.darmitzel',
+                'paul.garcia', 'peggy.banczak', 'perfmgmt', 'peter.anderson', 'peter.del',
+                'peter.nassab', 'r..price', 'r..rogers', 'rahil.jafry', 'raimund.grube',
+                'randy.pais', 'reagan.rorschach', 'rebecca.mcdonald', 'rebecca.walker',
+                'reginald.yancey', 'renee.alfaro', 'reynaldo.garcia', 'rhett.jackson',
+                'rhonda.denton', 'richard.leibert', 'richard.sanders', 'richard.vincent',
+                'rob.walls', 'robert.sevitz', 'robin.barbe', 'robin.hill', 'roger.balog',
+                'roger.ondreko', 'ron.coker', 'ron.tapscott', 'roseann.engeldorf',
+                'ross.newlin', 'russell.murrell', 'rusty.stevens', 'ruth.concannon',
+                's..presas', 'sam.round', 'sandi.braband', 'sara.shackleton',
+                'sarah.wesner', 'scott.churbock', 'scott.dieball', 'scott.healy',
+                'scott.laidlaw', 'sean.keenan', 'sheila.tweed', 'shelby.malkemes',
+                'sheri.cromwell', 'shirley.oliver', 'stacy.dickson', 'stephanie.panus',
+                'stephen.plauche', 'stephen.thome', 'steve.hall', 'steve.hooser',
+                'steve.irvin', 'steve.montovano', 'steven.krimsky', 'stuart.zisman',
+                'susan.bailey', 'suzanne.adams', 't..hodge', 'taffy.milligan',
+                'tammy.brennig', 'tana.jones', 'teresa.callahan', 'terri.austin',
+                'theresa.vos', 'theresa.zucha', 'thomas.suffield', 'thompson',
+                'timothy.detmering', 'timothy.j.detmering', 'tj.butler', 'tjbutler',
+                'tom.callaghan', 'tom.chapman', 'tom.may', 'tracee.bersani',
+                'travis.mccullough', 'vanessa.bob', 'ward', 'wayne.gresham',
+                'william.fleenor', 'william.jr', 'william.keeney', 'zachary.inman']
     df_ = df[df['From'] == 'kay.mann']
-    assert len(df_)==15998
-    assert sum(df_['Recipients'])==36958
+    assert len(df_) == 15989
+    assert sum(df_['Recipients']) == 36949
     assert sorted(df_['To'].unique()) == sorted(expected)
 
 
@@ -145,8 +148,8 @@ def test_tim_johanson():
                 'steven.harris', 'sue.neville', 'susan.wadle', 'theresa.branney',
                 'tk.lohman', 'tom.halpin', 'vernon.mercaldo', 'vicki.berg', 'w..mcgowan']
     df_ = df[df['From'] == 'tim.johanson']
-    assert len(df_)==216
-    assert sum(df_['Recipients'])==14720
+    assert len(df_) == 216
+    assert sum(df_['Recipients']) == 14720
     assert sorted(df_['To'].unique()) == sorted(expected)
 
 
@@ -238,29 +241,28 @@ def test_ken_lay_senders():
                 'regina.karsolich', 'rex.rogers', 'rex.shelby', 'rice',
                 'richard.orellana', 'richard.shapiro', 'rick.buy', 'rinetia.turner',
                 'rita.ramirez', 'rob.bradley', 'robert.davis', 'robert.gerry',
-                'robert.johnston', 'robert.jones', 'robert.saltiel', 'robert.smith',
-                'roberto.volonte', 'rod.williams', 'rodney.derbigny', 'rosalee.fleming',
-                'russell.diamond', 'ruth.brown', 'ryan.seleznov', 's..presas', 's..smith',
-                'saima.qadir', 'sally.beck', 'sally.keepers', 'sandra.lighthill',
-                'sarah.novosel', 'scott.affelt', 'scott.vonderheide', 'sean.long',
-                'sean.riordan', 'sean.zurbrick', 'shari.thompson', 'sheila.jones',
-                'shelley.farias', 'shelley.johnson', 'shelly.mansfield', 'sherri.sera',
-                'sherry.butler', 'sherryl.stone', 'shona.wilson', 'simone.la',
-                'simone.rose', 'sophie.patel', 'stacy.walker', 'stanley.horton',
-                'stephen.perich', 'steve.iyer', 'steve.montovano', 'steven.kean',
-                'suketu.patel', 'sunie.ferrington', 'susan.poole', 'susan.skarness',
-                'suzanne.adams', 'suzanne.danz', 'sylvia.barnes', 'taria.reed',
-                'terrance.devereaux', 'terrie.james', 'theresa.connor-smith',
-                'thomas.kalb', 'thomas.moore', 'tim.despain', 'timothy.hubbard',
-                'timothy.vail', 'tj.butler', 'todd.renaud', 'tom.chapman', 'tom.donohoe',
-                'tori.wells', 'tracey.kozadinos', 'tracy.ralston', 'traylor',
-                'treasa.kirby', 'twanda.sweet', 'v..monaghan', 'v.rao',
-                'vanessa.groscrand', 'velvet.sugarek', 'vera.jones', 'veronica.parra',
-                'vince.kaminski', 'vincent.wagner', 'virginia.cavazos', 'vridhay.mathias',
-                'w..pereira', 'wade.cline', 'william.bradford', 'williamson',
-                'wilma.williams', 'wilson', 'wilson.kriegel', 'winifred.isaac',
-                'xafira.mendonsa', 'xiaowu.huang', 'zach.moring', 'zachary.streight']
+                'robert.johnston', 'robert.saltiel', 'robert.smith', 'roberto.volonte',
+                'rod.williams', 'rodney.derbigny', 'rosalee.fleming', 'russell.diamond',
+                'ruth.brown', 'ryan.seleznov', 's..presas', 's..smith', 'saima.qadir',
+                'sally.beck', 'sally.keepers', 'sandra.lighthill', 'sarah.novosel',
+                'scott.affelt', 'scott.vonderheide', 'sean.long', 'sean.riordan',
+                'sean.zurbrick', 'shari.thompson', 'sheila.jones', 'shelley.farias',
+                'shelley.johnson', 'shelly.mansfield', 'sherri.sera', 'sherry.butler',
+                'sherryl.stone', 'shona.wilson', 'simone.la', 'simone.rose',
+                'sophie.patel', 'stacy.walker', 'stanley.horton', 'stephen.perich',
+                'steve.iyer', 'steve.montovano', 'steven.kean', 'suketu.patel',
+                'sunie.ferrington', 'susan.poole', 'susan.skarness', 'suzanne.adams',
+                'suzanne.danz', 'sylvia.barnes', 'taria.reed', 'terrance.devereaux',
+                'terrie.james', 'theresa.connor-smith', 'thomas.kalb', 'thomas.moore',
+                'tim.despain', 'timothy.hubbard', 'timothy.vail', 'tj.butler',
+                'todd.renaud', 'tom.chapman', 'tom.donohoe', 'tori.wells',
+                'tracey.kozadinos', 'tracy.ralston', 'traylor', 'treasa.kirby',
+                'twanda.sweet', 'v..monaghan', 'v.rao', 'vanessa.groscrand',
+                'velvet.sugarek', 'vera.jones', 'veronica.parra', 'vince.kaminski',
+                'vincent.wagner', 'virginia.cavazos', 'vridhay.mathias', 'w..pereira',
+                'wade.cline', 'william.bradford', 'williamson', 'wilma.williams',
+                'wilson', 'wilson.kriegel', 'winifred.isaac', 'xafira.mendonsa',
+                'xiaowu.huang', 'zach.moring', 'zachary.streight']
     df_ = df[df['To'] == 'kenneth.lay']
-    assert len(df_)==3345
+    assert len(df_) == 3344
     assert sorted(df_['From'].unique()) == sorted(expected)
-

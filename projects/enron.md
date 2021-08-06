@@ -190,7 +190,7 @@ sara.shackleton     0.047750
 tracey.kozadinos    0.047138
 john.lavorato       0.046627
 julie.clyatt        0.045605
-bodyshop            0.044686
+body.shop            0.044686
 david.oxley         0.043563
 ```
 

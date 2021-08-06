@@ -70,6 +70,8 @@ Normalize the email addresses by getting rid of single quotes (anywhere in strin
 * `'arnold@enron.com` &rightarrow; `arnold@enron.com`
 * `'.'delaney@enron.com` &rightarrow; `delaney@enron.com`
 
+Any user names that our empty strings after normalization should be discarded of course.
+
 As a final detail, the date strings contained in the email messages must be converted to `datetime` objects and then stripped to just plain dates. (See the sample data frame above.) I found the easiest and best way was to add the date strings (as pulled from the messages verbatim) to the data frame and then use pandas to convert to a date object. Here are the appropriate column datatypes:
 
 ```

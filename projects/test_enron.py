@@ -27,13 +27,13 @@ def test_addrs():
     assert sum(df['From'].str.contains("'")) == 0
     assert sum(df['From'].str.contains("<")) == 0
     assert sum(df['From'].str.contains(">")) == 0
-    assert sum(df['From'].str.contains('.')) == 2496625
+    assert sum(df['From'].str.contains('\\.')) == 2484823
     assert sum(df['From'].str.contains("-")) == 4486
     assert sum(df['To'].str.contains('@')) == 0
     assert sum(df['To'].str.contains("'")) == 0
     assert sum(df['To'].str.contains("<")) == 0
     assert sum(df['To'].str.contains(">")) == 0
-    assert sum(df['To'].str.contains('.')) == 2496625
+    assert sum(df['To'].str.contains('\\.')) == 2466059
     assert sum(df['To'].str.contains("-")) == 18032
 
 

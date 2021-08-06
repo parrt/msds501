@@ -108,6 +108,8 @@ You should compare this CSV file with what you generate. It starts like this:
 
 <img src="figures/enron-5.png" width="60%">
 
+To further help you debug, the following files show the sender and recipient unique usernames in my data frame: [enron-From-unique.csv](https://github.com/parrt/msds501/blob/master/projects/enron-From-unique.csv), [enron-To-unique.csv](https://github.com/parrt/msds501/blob/master/projects/enron-To-unique.csv).
+
 ## Exploring email traffic
 
 Your next goal is to copy the [enron.ipynb notebook starter kit](https://github.com/parrt/msds501/blob/master/projects/enron.ipynb) into the root of your repository. Then, fill it out so that it includes the explorations and visualizations mentioned in this section.

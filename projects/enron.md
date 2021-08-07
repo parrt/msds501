@@ -110,7 +110,7 @@ You should compare this CSV file with what you generate. Visual diff tools make 
 
 <img src="figures/enron-5.png" width="70%">
 
-To further help you debug, the following files show the sender and recipient unique usernames in my data frame: [enron-From-unique.csv](https://github.com/parrt/msds501/blob/master/projects/enron-From-unique.csv), [enron-To-unique.csv](https://github.com/parrt/msds501/blob/master/projects/enron-To-unique.csv).
+To further help you debug, the following files show the sender and recipient unique usernames in my data frame: [enron-From-unique.csv](https://github.com/parrt/msds501/blob/master/projects/enron-From-unique.csv), [enron-To-unique.csv](https://github.com/parrt/msds501/blob/master/projects/enron-To-unique.csv).  Also, you can check the first 5000 records that I added in order from the sorted list of directories in [enron-5000-MailIDs.csv](https://github.com/parrt/msds501/blob/master/projects/enron-5000-MailIDs.csv).
 
 ## Exploring email traffic
 

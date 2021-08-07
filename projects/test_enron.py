@@ -11,12 +11,12 @@ def setup_module():
 
 def test_overall_stats():
     global df
-    assert len(df) == 2496625
+    assert len(df) == 2496593
     assert len(df['MailID'].unique()) == 347731
     assert len(df['Date'].unique()) == 1187
     assert len(df['From'].unique()) == 6286
-    assert len(df['To'].unique()) == 18814
-    assert sum(df['Recipients']) == 254603223
+    assert len(df['To'].unique()) == 18810
+    assert sum(df['Recipients']) == 254595149
     assert len(df['Subject'].unique()) == 104834
     assert len(df['filename'].unique()) == 347731
 
@@ -27,14 +27,14 @@ def test_addrs():
     assert sum(df['From'].str.contains("'")) == 0
     assert sum(df['From'].str.contains("<")) == 0
     assert sum(df['From'].str.contains(">")) == 0
-    assert sum(df['From'].str.contains('\\.')) == 2484823
+    assert sum(df['From'].str.contains('\\.')) == 2484791
     assert sum(df['From'].str.contains("-")) == 4486
     assert sum(df['To'].str.contains('@')) == 0
     assert sum(df['To'].str.contains("'")) == 0
     assert sum(df['To'].str.contains("<")) == 0
     assert sum(df['To'].str.contains(">")) == 0
     assert sum(df['To'].str.contains('\\.')) == 2466059
-    assert sum(df['To'].str.contains("-")) == 18032
+    assert sum(df['To'].str.contains("-")) == 18001
 
 
 def test_lavorato_filenames():

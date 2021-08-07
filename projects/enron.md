@@ -62,7 +62,7 @@ Many of the email messages should be ignored. There are messages that have no `T
 * `legal<.hall@enron.com>`
 * `e-mail<.bo@enron.com>`
 
-Ignore email addresses with `<` or `#` in them or that start with `/o`.  Filter out any email that does not include `@enron.com`.
+Ignore email addresses with `<`, `#`, or `/o` in them.  Filter out any email that does not include `@enron.com`.
     
 Normalize the email addresses by getting rid of single quotes (anywhere in string) and delete any `.` (dot) at the start of an email address:
  
@@ -181,21 +181,21 @@ Compute the centrality for the nodes of the graph. The documentation says that c
 
 ```
                   Centrality
-sally.beck          0.087738
-outlook.team        0.081967
-david.forster       0.079567
-kenneth.lay         0.075788
-technology.enron    0.063327
-jeff.skilling       0.057964
-tana.jones          0.054747
-louise.kitchen      0.053215
-jeff.dasovich       0.048721
-sara.shackleton     0.047750
-tracey.kozadinos    0.047138
-john.lavorato       0.046627
-julie.clyatt        0.045605
-body.shop           0.044686
-david.oxley         0.043563
+sally.beck          0.088048
+outlook.team        0.082401
+david.forster       0.079988
+kenneth.lay         0.076137
+technology.enron    0.063662
+jeff.skilling       0.058220
+tana.jones          0.054677
+louise.kitchen      0.053445
+jeff.dasovich       0.048773
+sara.shackleton     0.047952
+tracey.kozadinos    0.047387
+john.lavorato       0.046822
+julie.clyatt        0.045847
+bodyshop            0.044922
+david.oxley         0.043793
 ```
 
 ### Visualizing graph subsets

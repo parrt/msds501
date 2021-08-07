@@ -100,15 +100,15 @@ My structured code is organized well. For example, my main program (at the botto
 
 You can structure your code anyway you want, but it must save the `enron.feather` file in the current working directory. That way my `test_enron.py` tests will find the data file.
 
-As another test, see [enron-5000.csv](https://github.com/parrt/msds501/blob/master/projects/enron-5000.csv) which is the first 5000 after sorting by date and then by mail ID. The code to generate it is:
+As another test, see [enron-5000.csv](https://github.com/parrt/msds501/blob/master/projects/enron-5000.csv) which is the first 5000 after sorting by date and then by mail ID and then by insertion order. The code to generate it is:
 
 ```python
-df.sort_values(['Date','MailID']).head(5000).to_csv("enron-5000.csv", index=False)
+df.sort_values(['Date','MailID']).head(5000).sort_index().to_csv("enron-5000.csv", index=False)
 ```
 
-You should compare this CSV file with what you generate. It starts like this:
+You should compare this CSV file with what you generate. Visual diff tools make it very easy to compare two text files. The file starts like this:
 
-<img src="figures/enron-5.png" width="60%">
+<img src="figures/enron-5.png" width="70%">
 
 To further help you debug, the following files show the sender and recipient unique usernames in my data frame: [enron-From-unique.csv](https://github.com/parrt/msds501/blob/master/projects/enron-From-unique.csv), [enron-To-unique.csv](https://github.com/parrt/msds501/blob/master/projects/enron-To-unique.csv).
 

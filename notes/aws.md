@@ -7,9 +7,11 @@ Here is a video I made for MSAN692 showing [how to launch an AWS instance and st
 
 ##  Discussion
 
-Login to AWS and go to your [AWS console](http://aws.amazon.com/console) and click on the "EC2" link.
+Login to AWS and go to your [AWS console](http://aws.amazon.com/console) and click on the "EC2" link under "All services":
 
 <img src=images/console_snippet.png width=200>
+
+(Or click the "Launch a virtual machine" button.)
 
 Click "Launch Instance", which will start the process to create a virtual machine in the cloud. An instance is just a virtual machine.
 
@@ -17,7 +19,7 @@ Click "Launch Instance", which will start the process to create a virtual machin
 
 Select the "Amazon Linux 2 AMI" entry, which should be the first one.  This is a commonly-used "image" that results in a Linux machine that contains lots of useful goodies as you can see from that list, such as Python and MySQL. An image is just a snapshot of the disk after someone carefully installs software properly on a Linux machine. This means we don't have to install software every time we create a new machine.
 
-<img src=images/ami.png width=600>
+<img src=images/ami.png width=700>
 
 Or for machine learning and deep learning use this image:
 

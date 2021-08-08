@@ -25,7 +25,7 @@ Or for machine learning and deep learning use this image:
 
 <img src=images/ami-DL.png width=600>
 
-Select instance type "t2.micro," which should be the first machine type listed. This machine is very low powered but is sufficient for playing around. Click "Review and launch"
+Select instance type "t2.micro," which should be the first machine type listed. This machine is very low powered but is sufficient for playing around. Click the "Review and launch" button at the bottom.
 
 <img src=images/selectvm.png width=600>
 
@@ -43,15 +43,15 @@ Click on the `i-...` link to go to the EC2 console showing your instance. On tha
 
 <img src=images/ec2-instance.png width=600>
 
-You should see a description box at the bottom. Look for the "Public IP" address, which is 54.177.198.89 in this case. (We have to wait until the status stops saying "Initializing", which could take several minutes.)
+You should see a description box at the bottom. Look for the "Public IPv4 IP" address, which is 54.177.198.89 in this case. (We have to wait until the status stops saying "Initializing", which could take several minutes.)
 
 ## Connecting to the remote server
 
-Click on the "Connect" button at the top of the page and it will bring up a dialog box that tells you how to connect to the server.  You want to connect with "A standalone SSH client" link (Java is now a security risk in the browser so we can't use that choice.)  Inside you will see the `ssh` command necessary to connect to your machine. (If you have Windows, you will have to use an SSH client called PuTTY instead of `ssh`.)
+Click on the "Connect" button at the top of the page and it will bring up a dialog box that tells you how to connect to the server.  You want to connect with an "SSH client" link. Inside you will see the `ssh` command necessary to connect to your cloud machine from your laptop's terminal. (If you have Windows, you will have to use an SSH client called PuTTY instead of `ssh`.)
 
 <img src=images/connect.png width=450>
 
-Before we can connect, we have to make sure that the security file is not visible to everyone on the computer (other users). Otherwise ssh will not let us connect because the security file is not secure:
+Before we can connect, we have to make sure that the *userid*`.pem` security file you saved above is not visible to everyone on the computer (other users). Otherwise ssh will not let us connect because the security file is not secure. You will get this error:
 
 ```bash@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @         WARNING: UNPROTECTED PRIVATE KEY FILE!          @
@@ -66,7 +66,7 @@ Permission denied (publickey).
 Whoa!  Do this:
 
 ```bash
-$ cd ~/Dropbox/licenses
+$ cd ~/Dropbox/licenses # or wherever you saved your file
 $ ls -l parrt.pem
 -rw-r--r--@ 1 parrt  parrt  1696 Aug  4 15:15 /Users/parrt/Dropbox/licences/parrt.pem
 ```

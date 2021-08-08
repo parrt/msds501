@@ -206,7 +206,7 @@ Click on `launch wizard` under the security groups section in the information de
 
 Notice that port 22 (SSH) is open. Otherwise we could not of connected to the computer.
 
-Click the "Edit inbound rules" button and then click Add Rule.  This will open up a new inbound rule line. Set the port number to 5000, which is where we often put our play servers, and then specify the "Source" as `0.0.0.0/0`, meaning anybody can connect. It should look like this:
+Click the "Edit inbound rules" button and then click "Add Rule".  This will open up a new inbound rule line. Set the port number to 5000, which is where we often put our play servers, and then specify the "Source" as `0.0.0.0/0`, meaning anybody can connect. It should look like this:
 
 <img src="images/addrule.png" width=500>
 
@@ -231,7 +231,7 @@ Serving HTTP on 0.0.0.0 port 5000 (http://0.0.0.0:5000/) ...
 154.21.212.170 - - [16/Jun/2021 19:26:09] "GET /favicon.ico HTTP/1.1" 404 -
 ```
 
-You can type `exit` or `^D` to exit the remote terminal.
+You can kill that server with control-C (^C), which gets you back to the remote terminal. Then type `exit` or `^D` to exit the remote terminal.
 
 ## Terminate when done
 

@@ -53,7 +53,7 @@ The grayed out stuff is what we can ignore in order to build the data frame. The
 
 <img src="figures/email2.png" width="55%">
 
-We'll also ignore the `CC:` and `BCC:` lines.  The `X-From:` etc... lines should be ignored for our purposes. All we need can be derived from the four headers  highlighted in orange.
+We'll also ignore the `CC:` and `BCC:` lines.  The `X-From:` etc... lines should be ignored for our purposes. All we need can be derived from the four headers  highlighted in orange.  Grab just first line of `Subject:` even if multi-line.
 
 Many of the email messages should be ignored. There are messages that have no `To:` line, which we can discard.  Ignore sender and recipient email addresses that are not Enron related, such as `tradersnewsindexes@ipgdirect.com`, `pep <performance.>`, and `dbaughman@houston.rr.com`.  Naturally, ignore any email message that has empty sender or recipient values after filtering.  Some addresses are from Enron but are weird and we should filter them out:
 
@@ -110,7 +110,13 @@ You should compare this CSV file with what you generate. Visual diff tools make 
 
 <img src="figures/enron-5.png" width="70%">
 
-To further help you debug, the following files show the sender and recipient unique usernames in my data frame: [enron-From-unique.csv](https://github.com/parrt/msds501/blob/master/projects/enron-From-unique.csv), [enron-To-unique.csv](https://github.com/parrt/msds501/blob/master/projects/enron-To-unique.csv).  Also, you can check the first 5000 records that I added in order from the sorted list of directories in [enron-5000-MailIDs.csv](https://github.com/parrt/msds501/blob/master/projects/enron-5000-MailIDs.csv).
+To further help you debug, the following files show the sender and recipient unique usernames in my data frame: [enron-From-unique.csv](https://github.com/parrt/msds501/blob/master/projects/enron-From-unique.csv), [enron-To-unique.csv](https://github.com/parrt/msds501/blob/master/projects/enron-To-unique.csv).  Those files are sorted and saved with numpy:
+
+```python
+np.savetxt("enron-From-unique.csv", np.unique(df['From']), fmt='%s')
+```
+
+Also, you can check the first 5000 records that I added in order from the sorted list of directories in [enron-5000-MailIDs.csv](https://github.com/parrt/msds501/blob/master/projects/enron-5000-MailIDs.csv).
 
 ## Exploring email traffic
 

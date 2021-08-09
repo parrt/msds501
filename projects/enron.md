@@ -151,7 +151,6 @@ people = ['jeff.skilling', 'kenneth.lay', 'louise.kitchen', 'tana.jones',
 ```                 
 <img src="figures/enron-heatmap.png" width="50%">
 
-
 ## Exploring email connection graph
 
 From the data frame, create a **directed** graph data structure using [networkx](https://networkx.org/), which you must install with `pip`. Create an edge from node A to node B if there is an email from A to B in the data frame.  If you create an undirected graph, it means that A sending mail to B also means B has sent mail to A, which is not what we want.  Although we do know the total number of emails between people, let's keep it simple and use a weight of 1 as the edge label. See networkx method `add_edge()`. Once you have created the graph object, you can compute interesting statistics and make visualizations.

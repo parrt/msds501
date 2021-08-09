@@ -162,21 +162,21 @@ Using networkx, compute the pagerank between all nodes. Get the data into a data
 
 ```
                  PageRank
-jeff.skilling    0.004942
-kenneth.lay      0.004559
-louise.kitchen   0.004472
-tana.jones       0.004291
-sara.shackleton  0.004002
-vince.kaminski   0.003817
-sally.beck       0.003567
-john.lavorato    0.003448
-gerald.nemec     0.002698
-rod.hayslett     0.002528
-mark.taylor      0.002501
-greg.whalley     0.002270
-jeff.dasovich    0.002259
-daren.farmer     0.001996
-steven.kean      0.001988
+jeff.skilling    0.004966
+kenneth.lay      0.004579
+louise.kitchen   0.004494
+tana.jones       0.004299
+sara.shackleton  0.004022
+vince.kaminski   0.003850
+sally.beck       0.003577
+john.lavorato    0.003467
+gerald.nemec     0.002643
+rod.hayslett     0.002540
+mark.taylor      0.002514
+greg.whalley     0.002280
+jeff.dasovich    0.002264
+daren.farmer     0.002007
+steven.kean      0.002003
 ```
 
 The PageRank indicates the most "important" people, as computed by the number of outgoing and incoming email for a particular user. Without having to do any thinking, it quickly pops up the executives near the top of the list. A nice trick.

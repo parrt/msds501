@@ -214,6 +214,16 @@ Use networkx `ego_graph()` method to get a radius=1 neighborhood around `jeff.sk
 
 <img src="figures/enron-lay-kamada.png" width="50%">
 
+I use parameters:
+
+```python
+node_size=0,
+with_labels=True,
+edge_color='#787878',
+width=.1, arrows=False,
+font_size=6
+```
+                     
 ## Deliverables
 
 In your repository, you should submit the following files in the root of the repository:

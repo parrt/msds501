@@ -124,7 +124,7 @@ Your next goal is to copy the [enron.ipynb notebook starter kit](https://github.
 
 ### Email traffic over time
 
-Group the data set by `Date` and `MailID`, which will get you an index that collects all of the unique mail IDs per date. Then reset the index so that those  date and mail identifiers become columns and then select for just those columns; we don't actually care about the counts created by the `groupby` (that was just to get the index).  Create a histogram that shows the amount of traffic per day. Then specifically for email sent from `richard.shapiro` and then `john.lavorato`. Because some dates are set improperly (to 1980), filter for dates greater than January 1, 1999. The graphs should look like this in your notebook:
+Group the data set by `Date` and `MailID`, which will get you an index that collects all of the unique mail IDs per date. Then reset the index so that those  date and mail identifiers become columns and then select for just those columns; we don't actually care about the counts created by the `groupby` (that was just to get the index).  Create a histogram that shows the amount of traffic per day. Then specifically for email sent from `richard.shapiro` and then `john.lavorato`. Because some dates are set improperly (to 1980), filter for dates greater than January 1, 1999. The graphs should look like this in your notebook using bins=100:
 
 <img src="figures/enron-date-histo.png" width="50%"><img src="figures/enron-richard-shapiro.png" width="50%"><br>
 <img src="figures/enron-john-lavorato.png" width="50%">

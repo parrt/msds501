@@ -210,8 +210,16 @@ The email graph is way too large to display the whole thing and get any meaningf
 
 Use networkx `ego_graph()` method to get a radius=1 neighborhood around `jeff.skilling` and draw the spring graph with a plot that is 20x20 inches so we can see details.  Then, draw the same subgraph again using the kamada-kawai layout strategy. Finally, get the neighborhood around kenneth.lay and draw kamada-kawai. The graph plots should look like this:
 
-<img src="figures/enron-skilling-kamada.png" width="50%"><img src="figures/enron-skilling-spring.png" width="50%">
+#### Skilling spring layout
 
+There is a randomness associated with the generation of the spring layout and so for reproducibility and comparison, please use `seed=np.random.RandomState(501)` when getting the spring layout.
+
+<img src="figures/enron-skilling-spring.png" width="50%">
+
+#### Skilling kamada layout
+<img src="figures/enron-skilling-kamada.png" width="50%">
+
+#### Skilling kamada layout
 <img src="figures/enron-lay-kamada.png" width="50%">
 
 I use parameters:

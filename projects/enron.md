@@ -247,6 +247,10 @@ $ pip install -U notebook-as-pdf
 $ jupyter-nbconvert --to PDFviaHTML enron.ipynb
 ```
 
+**Please remove unnecessary debugging output from your code!**
+
+**Please do not try to add/commit your mail directory or the `.tar.gz` file or other data files to your repository!**
+
 ## Evaluation
 
 I will execute your `condense.py` script from the command line with an argument indicating where I have my `maildir` directory. For example, I probably will execute it like this:
@@ -280,3 +284,5 @@ test_enron.py::test_ken_lay_senders PASSED                                      
 ```
 
 And finally, I will take a look at the `enron.pdf` file to verify you have created the proper output. I will also likely have my script use `jupyter-nbconvert` to generate a PDF to make sure the code executes properly in the notebook.
+
+30% off if you're missing the notebook, 10% off if you're missing the PDF. 12% off for each failed test.

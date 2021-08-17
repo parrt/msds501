@@ -39,7 +39,7 @@ The execution of your finished script takes about two or three minutes depending
 
 <img src="figures/enron-df.png" width="100%">
 
-`Recipients` indicates the number of people on the `To:` line for a single email message file and `filename` is the subdirectory of `maildir` plus the filename that contains the mail message. `MailID` is a counter 1..n for n valid email message files. A valid email is one from which you extract one or more records for the data frame.  For consistency across student projects, please use `sorted(os.walk(`*maildir*`))` to get all of the files underneath the mail directory in sorted order; otherwise our Mail IDs could be in different orders.
+`Recipients` indicates the number of people on the `To:` line for a single email message file and `filename` is the **subdirectory** of `maildir` plus the filename that contains the mail message. `MailID` is a counter 1..n for n valid email message files. A valid email is one from which you extract one or more records for the data frame.  For consistency across student projects, please use `sorted(os.walk(`*maildir*`))` to get all of the files underneath the mail directory in sorted order; otherwise our Mail IDs could be in different orders.
 
 (You will need to install Python `pyarrow` package to save in feather format.)
 
